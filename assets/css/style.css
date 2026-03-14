@@ -627,6 +627,31 @@ h2 {
   border-color: rgba(31, 26, 23, 0.18);
 }
 
+.link-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.link-cloud a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--accent-dark);
+  font-weight: 700;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.link-cloud a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(31, 26, 23, 0.18);
+  background: var(--surface-2);
+}
+
 footer {
   padding: 1.8rem 0 2.3rem;
   border-top: 1px solid var(--line);
