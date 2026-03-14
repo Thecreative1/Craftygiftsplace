@@ -188,14 +188,20 @@ function Get-SafeDisplayText {
   $clean = $clean -replace "(?i)\bWorld Of Warcraft\b", "Fantasy MMO"
   $clean = $clean -replace "(?i)\bWarcraft\b", "MMO"
   $clean = $clean -replace "(?i)\bWoW\b", "Fantasy MMO"
+  $clean = $clean -replace "(?i)\bAzeroth\b", "Fantasy Realm"
+  $clean = $clean -replace "(?i)\bMMORPG\b", "Fantasy MMO"
   $clean = $clean -replace "(?i)\bLeague Of Legends\b", "MOBA"
   $clean = $clean -replace "(?i)\bLoL\b", "MOBA"
   $clean = $clean -replace "(?i)\bFormula 1\b", "Motorsport"
   $clean = $clean -replace "(?i)\bStar Wars\b", "Space Saga"
+  $clean = $clean -replace "(?i)\bStormtroopers?\b", "Space Trooper"
+  $clean = $clean -replace "(?i)\bDarth Vader\b", "Space Villain"
+  $clean = $clean -replace "(?i)\bMillennium Falcon\b", "Space Cruiser"
   $clean = $clean -replace "(?i)\bLord Of The Rings\b", "Epic Fantasy"
   $clean = $clean -replace "(?i)\bLotr\b", "Epic Fantasy"
   $clean = $clean -replace "(?i)\bTolkien\b", "Epic Fantasy"
   $clean = $clean -replace "(?i)\bCounter-Strike\b", "FPS Gamer"
+  $clean = $clean -replace "(?i)\bCSGO\b", "FPS Gamer"
   $clean = $clean -replace "(?i)\bCS Go\b", "FPS Gamer"
   $clean = $clean -replace "(?i)\bDnD\b", "Tabletop Adventure"
   $clean = $clean -replace "(?i)\bD&D\b", "Tabletop Adventure"
@@ -205,6 +211,9 @@ function Get-SafeDisplayText {
   $clean = $clean -replace "(?i)\bFrodo\b", "Fantasy Hero"
   $clean = $clean -replace "(?i)\bSting\b", "Fantasy Sword"
   $clean = $clean -replace "(?i)\bGondor\b", "Epic Tree"
+  $clean = $clean -replace "(?i)\bDurin\b", "Epic Gate"
+  $clean = $clean -replace "(?i)\bGandalf\b", "Epic Wizard"
+  $clean = $clean -replace "(?i)\bMoria\b", "Epic Realm"
   $clean = $clean -replace "(?i)\bArrakis\b", "Desert World"
   $clean = $clean -replace "(?i)\bAtreides\b", "Desert House"
   $clean = $clean -replace "(?i)\bHarkonnen\b", "Desert House"
@@ -341,12 +350,13 @@ function Get-ThemePhrase {
       if ($joinedText -match "cat|feline") { return "cat-themed detail" }
       if ($joinedText -match "zodiac|astrology|horoscope|moon|celestial|witchy") { return "celestial engraving" }
       if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "playful themed detail" }
+      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return "bold alternative detail" }
       if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") { return "coastal detail" }
       if ($joinedText -match "bee|honey") { return "bee engraving" }
       if ($joinedText -match "horse") { return "horse-themed detail" }
-      if ($joinedText -match "wildlife|forest|leaf|tree|floral|nature|rustic") { return "nature-inspired detail" }
+      if ($joinedText -match "wildlife|forest") { return "forest-and-wildlife detail" }
+      if ($joinedText -match "leaf|tree|floral|nature|rustic") { return "nature-inspired detail" }
       if ($joinedText -match "tile|persian|mayan|samurai|viking|buddha") { return "ornamental detail" }
-      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return "bold alternative detail" }
       return "warm engraved detail"
     }
     "bladwijzers" {
@@ -384,12 +394,13 @@ function Get-AudiencePhrase {
       if ($joinedText -match "cat|feline") { return "cat lovers and cozy corners" }
       if ($joinedText -match "zodiac|astrology|horoscope|moon|celestial|witchy") { return "astrology gifts and warm interiors" }
       if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "game rooms, desks and hobby-inspired gifts" }
+      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return "alternative decor lovers and cozy corners" }
       if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") { return "beach homes, campers and relaxed hosting" }
       if ($joinedText -match "bee|honey") { return "garden lovers and easy hostess gifts" }
       if ($joinedText -match "horse") { return "horse lovers and warm tabletops" }
-      if ($joinedText -match "wildlife|forest|leaf|tree|floral|nature|rustic") { return "nature lovers, housewarming gifts and everyday tables" }
+      if ($joinedText -match "wildlife|forest") { return "cabin decor lovers and gift-ready tables" }
+      if ($joinedText -match "leaf|tree|floral|nature|rustic") { return "nature lovers, housewarming gifts and everyday tables" }
       if ($joinedText -match "tile|persian|mayan|samurai|viking|buddha") { return "decor lovers and conversation-starting tables" }
-      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return "alternative decor lovers and cozy corners" }
       return "everyday tables and easy gift moments"
     }
     "bladwijzers" {
@@ -429,11 +440,19 @@ function Get-DecisionCue {
         return "A practical themed gift for game rooms, desks and everyday drinks."
       }
 
+      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") {
+        return "A bold wooden accent for desks, side tables and personality-filled spaces."
+      }
+
       if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") {
         return "A practical wooden set for relaxed hosting, campers and easy everyday drinks."
       }
 
-      if ($joinedText -match "bee|wildlife|forest|leaf|tree|floral|nature|rustic|wedding|just married") {
+      if ($joinedText -match "wildlife|forest") {
+        return "A gift-ready wooden accent for cabin spaces, coffee tables and thoughtful hosting."
+      }
+
+      if ($joinedText -match "bee|leaf|tree|floral|nature|rustic|wedding|just married") {
         return "A gift-ready wooden accent for nature-led homes, shared tables and relaxed hosting."
       }
 
@@ -443,10 +462,6 @@ function Get-DecisionCue {
 
       if ($joinedText -match "tile|persian|mayan|samurai|viking|buddha") {
         return "An easy conversation piece for dinner tables, coffee corners and thoughtful gifting."
-      }
-
-      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") {
-        return "A bold wooden accent for desks, side tables and personality-filled spaces."
       }
 
       return "A useful wooden accent that feels gift-ready without being overcomplicated."
