@@ -168,12 +168,12 @@
   <main id="top">
     <section class="shop-strip" aria-labelledby="shop-strip-title">
       <div class="container">
-        <div class="carousel-shell">
+        <div class="carousel-shell" data-carousel>
           <div class="carousel-header">
             <div>
               <div class="eyebrow">Direct shoppen</div>
               <h2 id="shop-strip-title">Bekijk meteen wat we maken</h2>
-              <p>Scroll door de collectie en open direct de juiste sectie voor onderzetters, bladwijzers en houten cadeaus.</p>
+              <p>Een echte carrousel met onze bestverkopende producten, zodat klanten direct zien wat Craftygiftsplace verkoopt.</p>
             </div>
             <div class="carousel-controls" aria-label="Carrousel bediening">
               <button class="carousel-button" type="button" data-carousel-prev aria-controls="product-carousel" aria-label="Vorige producten">←</button>
@@ -181,60 +181,66 @@
             </div>
           </div>
 
-          <div class="carousel-track" id="product-carousel" data-carousel tabindex="0" aria-label="Uitgelichte producten">
-            <a class="carousel-card" href="pages/onderzetters.html#shop-catalog">
-              <img src="assets/img/products/cat-and-moon-coasters.jpg" alt="Cat and Moon houten onderzetters van Craftygiftsplace" loading="eager" decoding="async" />
-              <div class="carousel-card-body">
-                <span class="chip">Onderzetters</span>
-                <strong>Cat and Moon coasters</strong>
-                <span>Celestial set voor housewarming en kattenliefhebbers.</span>
-              </div>
-            </a>
+          <div class="carousel-stage">
+            <div class="carousel-viewport" tabindex="0" aria-label="Uitgelichte producten" data-carousel-viewport>
+              <div class="carousel-track" id="product-carousel" data-carousel-track>
+                <a class="carousel-card" data-carousel-slide href="pages/onderzetters.html#shop-catalog">
+                  <img src="assets/img/products/cat-and-moon-coasters.jpg" alt="Cat and Moon houten onderzetters van Craftygiftsplace" loading="eager" decoding="async" />
+                  <div class="carousel-card-body">
+                    <span class="chip">Onderzetters</span>
+                    <strong>Cat and Moon coasters</strong>
+                    <span>Celestial set voor housewarming en kattenliefhebbers.</span>
+                  </div>
+                </a>
 
-            <a class="carousel-card" href="pages/bladwijzers.html#shop-catalog">
-              <img src="assets/img/products/celtic-bookmark.jpg" alt="Celtic houten bladwijzer van Craftygiftsplace" loading="lazy" decoding="async" />
-              <div class="carousel-card-body">
-                <span class="chip">Bladwijzers</span>
-                <strong>Celtic bookmark</strong>
-                <span>Een houten bladwijzer met detail voor lezers en fantasy fans.</span>
-              </div>
-            </a>
+                <a class="carousel-card" data-carousel-slide href="pages/bladwijzers.html#shop-catalog">
+                  <img src="assets/img/products/celtic-bookmark.jpg" alt="Celtic houten bladwijzer van Craftygiftsplace" loading="lazy" decoding="async" />
+                  <div class="carousel-card-body">
+                    <span class="chip">Bladwijzers</span>
+                    <strong>Celtic bookmark</strong>
+                    <span>Een houten bladwijzer met detail voor lezers en fantasy fans.</span>
+                  </div>
+                </a>
 
-            <a class="carousel-card" href="pages/houten-cadeaus.html#shop-catalog">
-              <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Moon Cat houten tealight holder van Craftygiftsplace" loading="lazy" decoding="async" />
-              <div class="carousel-card-body">
-                <span class="chip">Houten cadeaus</span>
-                <strong>Moon Cat holder</strong>
-                <span>Warme houten decoratie die meteen sfeer geeft in huis.</span>
-              </div>
-            </a>
+                <a class="carousel-card" data-carousel-slide href="pages/houten-cadeaus.html#shop-catalog">
+                  <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Moon Cat houten tealight holder van Craftygiftsplace" loading="lazy" decoding="async" />
+                  <div class="carousel-card-body">
+                    <span class="chip">Houten cadeaus</span>
+                    <strong>Moon Cat holder</strong>
+                    <span>Warme houten decoratie die meteen sfeer geeft in huis.</span>
+                  </div>
+                </a>
 
-            <a class="carousel-card" href="pages/onderzetters.html#shop-catalog">
-              <img src="assets/img/products/zodiac-wooden-coasters.jpg" alt="Zodiac houten onderzetters van Craftygiftsplace" loading="lazy" decoding="async" />
-              <div class="carousel-card-body">
-                <span class="chip">Onderzetters</span>
-                <strong>Zodiac coaster set</strong>
-                <span>Houten onderzetters met sterrenbeeld sfeer voor tafel en cadeau.</span>
-              </div>
-            </a>
+                <a class="carousel-card" data-carousel-slide href="pages/onderzetters.html#shop-catalog">
+                  <img src="assets/img/products/zodiac-wooden-coasters.jpg" alt="Zodiac houten onderzetters van Craftygiftsplace" loading="lazy" decoding="async" />
+                  <div class="carousel-card-body">
+                    <span class="chip">Onderzetters</span>
+                    <strong>Zodiac coaster set</strong>
+                    <span>Houten onderzetters met sterrenbeeld sfeer voor tafel en cadeau.</span>
+                  </div>
+                </a>
 
-            <a class="carousel-card" href="pages/bladwijzers.html#shop-catalog">
-              <img src="assets/img/products/dune-bookmark.jpg" alt="Dune houten bladwijzer van Craftygiftsplace" loading="lazy" decoding="async" />
-              <div class="carousel-card-body">
-                <span class="chip">Bladwijzers</span>
-                <strong>Dune bookmark</strong>
-                <span>Een origineel leescadeau voor sci-fi lezers met karakter.</span>
-              </div>
-            </a>
+                <a class="carousel-card" data-carousel-slide href="pages/bladwijzers.html#shop-catalog">
+                  <img src="assets/img/products/dune-bookmark.jpg" alt="Dune houten bladwijzer van Craftygiftsplace" loading="lazy" decoding="async" />
+                  <div class="carousel-card-body">
+                    <span class="chip">Bladwijzers</span>
+                    <strong>Dune bookmark</strong>
+                    <span>Een origineel leescadeau voor sci-fi lezers met karakter.</span>
+                  </div>
+                </a>
 
-            <a class="carousel-card" href="pages/houten-cadeaus.html#shop-catalog">
-              <img src="assets/img/products/wow-door-sign.jpg" alt="WoW houten deurhanger van Craftygiftsplace" loading="lazy" decoding="async" />
-              <div class="carousel-card-body">
-                <span class="chip">Houten cadeaus</span>
-                <strong>Gamer door sign</strong>
-                <span>Een speels houten cadeau voor game rooms en thuisdecoratie.</span>
+                <a class="carousel-card" data-carousel-slide href="pages/houten-cadeaus.html#shop-catalog">
+                  <img src="assets/img/products/wow-door-sign.jpg" alt="WoW houten deurhanger van Craftygiftsplace" loading="lazy" decoding="async" />
+                  <div class="carousel-card-body">
+                    <span class="chip">Houten cadeaus</span>
+                    <strong>Gamer door sign</strong>
+                    <span>Een speels houten cadeau voor game rooms en thuisdecoratie.</span>
+                  </div>
+                </a>
               </div>
-            </a>
+            </div>
+
+            <div class="carousel-dots" data-carousel-dots aria-label="Kies een slide"></div>
           </div>
         </div>
       </div>

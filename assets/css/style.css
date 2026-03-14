@@ -450,6 +450,8 @@ h2 {
 }
 
 .carousel-shell {
+  --carousel-gap: 1rem;
+  --carousel-slides-per-view: 3;
   padding: 1.25rem;
   background: linear-gradient(135deg, #fffdfa 0%, #f0e5d9 100%);
   border: 1px solid var(--line);
@@ -476,6 +478,11 @@ h2 {
   display: flex;
   gap: 0.6rem;
   align-items: center;
+}
+
+.carousel-stage {
+  display: grid;
+  gap: 0.9rem;
 }
 
 .carousel-button {
@@ -505,29 +512,29 @@ h2 {
   outline-offset: 3px;
 }
 
-.carousel-track {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(220px, 24%);
-  gap: 1rem;
-  overflow-x: auto;
-  padding-bottom: 0.35rem;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(122, 74, 43, 0.45) rgba(245, 239, 231, 0.85);
+.carousel-viewport {
+  overflow: hidden;
+  border-radius: 22px;
+  touch-action: pan-y;
 }
 
-.carousel-track:focus-visible {
+.carousel-viewport:focus-visible {
   outline: 3px solid rgba(169, 107, 61, 0.28);
   outline-offset: 4px;
   border-radius: 20px;
 }
 
+.carousel-track {
+  display: flex;
+  gap: var(--carousel-gap);
+  transition: transform 0.4s ease;
+  will-change: transform;
+}
+
 .carousel-card {
   min-width: 0;
+  flex: 0 0 calc((100% - (var(--carousel-gap) * (var(--carousel-slides-per-view) - 1))) / var(--carousel-slides-per-view));
   overflow: hidden;
-  scroll-snap-align: start;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 22px;
@@ -560,6 +567,34 @@ h2 {
 .carousel-card-body span:last-child {
   color: var(--muted);
   font-size: 0.92rem;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.carousel-dot {
+  width: 11px;
+  height: 11px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(122, 74, 43, 0.28);
+  cursor: pointer;
+  transition: transform 0.18s ease, background 0.18s ease;
+}
+
+.carousel-dot[aria-current="true"] {
+  background: var(--accent);
+  transform: scale(1.15);
+}
+
+.carousel-dot:focus-visible {
+  outline: 3px solid rgba(169, 107, 61, 0.28);
+  outline-offset: 3px;
 }
 
 .section-head {
@@ -964,8 +999,8 @@ footer {
     justify-self: stretch;
   }
 
-  .carousel-track {
-    grid-auto-columns: minmax(240px, 42%);
+  .carousel-shell {
+    --carousel-slides-per-view: 2;
   }
 
   .hero-visual-meta {
@@ -1152,7 +1187,11 @@ footer {
   }
 
   .carousel-track {
-    grid-auto-columns: 82%;
+    transition-duration: 0.32s;
+  }
+
+  .carousel-shell {
+    --carousel-slides-per-view: 1;
   }
 
   .listing-photo {
