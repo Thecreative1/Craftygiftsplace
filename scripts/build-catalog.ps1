@@ -108,13 +108,142 @@ function Get-SectionLabel {
   }
 }
 
+function Normalize-Keyword {
+  param([string]$Value)
+
+  if ([string]::IsNullOrWhiteSpace($Value)) {
+    return $null
+  }
+
+  return ($Value -replace "\s+", " ").Trim()
+}
+
+function Get-PrimaryKeyword {
+  param(
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags
+  )
+
+  $joinedTags = ($Tags -join " ").ToLowerInvariant()
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($joinedTags -match "dog|dog paw|paw print") { return "houten onderzetter voor hondenliefhebbers" }
+      if ($joinedTags -match "cat|feline|paw|pet") { return "houten onderzetter voor kattenliefhebbers" }
+      if ($joinedTags -match "zodiac|astrology|horoscope|celestial|moon|witchy") { return "houten onderzetter met mystiek design" }
+      if ($joinedTags -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "houten onderzetter voor gamers en hobbyliefhebbers" }
+      if ($joinedTags -match "housewarming|home decor|rustic|coastal|tile|nature|tree|floral|bee|leaf|wildlife|horse") { return "houten onderzetter voor housewarming en interieur" }
+      return "houten onderzetter als cadeau"
+    }
+    "bladwijzers" {
+      if ($joinedTags -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "houten bladwijzer voor fantasy lezers" }
+      if ($joinedTags -match "dune|sci-fi|rocket") { return "houten bladwijzer voor sci-fi lezers" }
+      if ($joinedTags -match "celtic|lighthouse|guitar|sardine|feather") { return "houten bladwijzer met bijzonder detail" }
+      return "houten bladwijzer voor boekenliefhebbers"
+    }
+    default {
+      switch ($Section) {
+        "deurhangers-en-borden" { return "houten deurhanger als origineel cadeau" }
+        "decoratie-en-sfeer" { return "houten decoratie voor een warm interieur" }
+        "ornamenten-en-seizoenscadeaus" { return "houten ornament als persoonlijk cadeau" }
+        "persoonlijke-cadeaus" { return "gepersonaliseerd houten cadeau voor een bijzonder moment" }
+        "kleine-cadeaus-en-diy" { return "klein houten cadeau of DIY set" }
+        default { return "origineel houten cadeau met handgemaakte uitstraling" }
+      }
+    }
+  }
+}
+
+function Get-SecondaryKeyword {
+  param(
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags
+  )
+
+  $joinedTags = ($Tags -join " ").ToLowerInvariant()
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($joinedTags -match "dog|dog paw|paw print") { return "cadeau voor hondenliefhebbers" }
+      if ($joinedTags -match "cat|feline") { return "cadeau voor kattenliefhebbers" }
+      if ($joinedTags -match "zodiac|astrology|horoscope|celestial|moon|witchy") { return "housewarming cadeau" }
+      if ($joinedTags -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "origineel cadeau" }
+      return "tafeldecoratie van hout"
+    }
+    "bladwijzers" {
+      if ($joinedTags -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "fantasy cadeau" }
+      if ($joinedTags -match "dune|sci-fi|rocket") { return "cadeau voor sci-fi lezers" }
+      return "cadeau voor boekenliefhebbers"
+    }
+    default {
+      switch ($Section) {
+        "decoratie-en-sfeer" { return "woondecoratie" }
+        "deurhangers-en-borden" { return "kamerdecoratie" }
+        "persoonlijke-cadeaus" { return "gepersonaliseerd cadeau" }
+        default { return "cadeau idee" }
+      }
+    }
+  }
+}
+
+function Get-ProductDescription {
+  param(
+    [string]$Name,
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags
+  )
+
+  $primaryKeyword = Get-PrimaryKeyword -Category $Category -Section $Section -Tags $Tags
+  $secondaryKeyword = Get-SecondaryKeyword -Category $Category -Section $Section -Tags $Tags
+  $cleanName = Normalize-Keyword $Name
+
+  switch ($Category) {
+    "onderzetters" {
+      return "$cleanName is een $primaryKeyword, met mooi detail en warme uitstraling, ideaal als $secondaryKeyword."
+    }
+    "bladwijzers" {
+      return "$cleanName is een $primaryKeyword, met fijne afwerking en een persoonlijk accent voor $secondaryKeyword."
+    }
+    default {
+      return "$cleanName is een $primaryKeyword dat sfeer, karakter en cadeauwaarde toevoegt voor wie zoekt naar $secondaryKeyword."
+    }
+  }
+}
+
+function Get-AltText {
+  param(
+    [string]$Name,
+    [string]$Category,
+    [string]$Section
+  )
+
+  $cleanName = Normalize-Keyword $Name
+
+  switch ($Category) {
+    "onderzetters" { return "$cleanName houten onderzetter van Craftygiftsplace" }
+    "bladwijzers" { return "$cleanName houten bladwijzer van Craftygiftsplace" }
+    default {
+      switch ($Section) {
+        "deurhangers-en-borden" { return "$cleanName houten deurhanger van Craftygiftsplace" }
+        "decoratie-en-sfeer" { return "$cleanName houten decoratie van Craftygiftsplace" }
+        "ornamenten-en-seizoenscadeaus" { return "$cleanName houten ornament van Craftygiftsplace" }
+        default { return "$cleanName houten cadeau van Craftygiftsplace" }
+      }
+    }
+  }
+}
+
 function Render-ProductCard {
   param($Product)
 
   $title = [System.Net.WebUtility]::HtmlEncode($Product.name)
-  $alt = [System.Net.WebUtility]::HtmlEncode("$($Product.name) van Craftygiftsplace")
+  $alt = [System.Net.WebUtility]::HtmlEncode($Product.alt)
   $image = [System.Net.WebUtility]::HtmlEncode($Product.image)
   $url = [System.Net.WebUtility]::HtmlEncode($Product.etsy_url)
+  $description = [System.Net.WebUtility]::HtmlEncode($Product.description)
   $chips = @()
   $chips += "                <span class=""chip"">$([System.Net.WebUtility]::HtmlEncode($Product.price_label))</span>"
 
@@ -132,6 +261,7 @@ function Render-ProductCard {
 $($chips -join "`n")
               </div>
               <h3>$title</h3>
+              <p>$description</p>
               <a class="btn" href="$url" target="_blank" rel="noopener">Open op Etsy</a>
             </div>
           </article>
@@ -296,6 +426,8 @@ foreach ($row in $rows) {
     price_eur = [math]::Round([double]$priceValue, 2)
     price_label = Get-PriceLabel $row.PRICE
     tags = $tags
+    description = Get-ProductDescription -Name $displayName -Category $category -Section $section -Tags $tags
+    alt = Get-AltText -Name $displayName -Category $category -Section $section
     image = $row.IMAGE1
     page = if ($category -eq "onderzetters") { "../pages/onderzetters.html#shop-catalog" } elseif ($category -eq "bladwijzers") { "../pages/bladwijzers.html#shop-catalog" } else { "../pages/houten-cadeaus.html#shop-catalog" }
     category_url = Get-CategoryUrl $category
@@ -312,15 +444,15 @@ $bladwijzers = @($products | Where-Object { $_.category -eq "bladwijzers" })
 $cadeaus = @($products | Where-Object { $_.category -eq "houten-cadeaus" })
 
 $underzettersHtml = Render-CategorySection `
-  -Heading "Alle onderzetters" `
-  -Description "Alle $($underzetters.Count) coaster designs uit de shop, van katten en fantasy tot sport, games en housewarming cadeau-ideeen." `
+  -Heading "Alle houten onderzetters" `
+  -Description "Ontdek $($underzetters.Count) houten onderzetters voor housewarming, kattenliefhebbers, fantasy designs en originele cadeau ideeen." `
   -ButtonUrl "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster" `
   -ButtonLabel "Bekijk alle onderzetters op Etsy" `
   -Products $underzetters
 
 $bladwijzersHtml = Render-CategorySection `
-  -Heading "Alle bladwijzers" `
-  -Description "Alle $($bladwijzers.Count) bladwijzers uit de shop voor lezers, fantasy-fans, sci-fi liefhebbers en cadeaumomenten." `
+  -Heading "Alle houten bladwijzers" `
+  -Description "Bekijk $($bladwijzers.Count) houten bladwijzers voor lezers, fantasy fans, sci-fi liefhebbers en cadeau momenten met karakter." `
   -ButtonUrl "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" `
   -ButtonLabel "Bekijk alle bladwijzers op Etsy" `
   -Products $bladwijzers
