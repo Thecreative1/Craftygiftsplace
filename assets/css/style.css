@@ -528,7 +528,6 @@ h2 {
   display: flex;
   gap: var(--carousel-gap);
   transition: transform 0.4s ease;
-  will-change: transform;
 }
 
 .carousel-card {
@@ -644,6 +643,24 @@ h2 {
 
 .page-grid {
   grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.85fr);
+}
+
+.catalog-block {
+  content-visibility: auto;
+  contain-intrinsic-size: 980px;
+}
+
+.trust-card,
+.category-card,
+.occasion-card,
+.product-card,
+.why-card,
+.faq-card,
+.copy-card,
+.page-sidebar,
+.cta-panel {
+  content-visibility: auto;
+  contain-intrinsic-size: 420px;
 }
 
 .trust-card,

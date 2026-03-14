@@ -94,6 +94,57 @@ function Get-EtsyUrl {
   return "https://www.etsy.com/shop/Craftygiftsplace?search_query=$encoded"
 }
 
+function Test-IsEtsyImage {
+  param([string]$Image)
+
+  if ([string]::IsNullOrWhiteSpace($Image)) {
+    return $false
+  }
+
+  return $Image -match "^https://i\.etsystatic\.com/.+/il_[^/]+\.[^/]+$"
+}
+
+function Get-EtsyImageVariantUrl {
+  param(
+    [string]$Image,
+    [string]$Variant
+  )
+
+  if (-not (Test-IsEtsyImage $Image)) {
+    return $Image
+  }
+
+  return ($Image -replace "/il_[^./]+\.", "/il_$Variant.")
+}
+
+function Get-CardImageSource {
+  param([string]$Image)
+
+  if (-not (Test-IsEtsyImage $Image)) {
+    return $Image
+  }
+
+  return Get-EtsyImageVariantUrl -Image $Image -Variant "600x600"
+}
+
+function Get-CardImageSrcSet {
+  param([string]$Image)
+
+  if (-not (Test-IsEtsyImage $Image)) {
+    return $null
+  }
+
+  $small = Get-EtsyImageVariantUrl -Image $Image -Variant "340x270"
+  $medium = Get-EtsyImageVariantUrl -Image $Image -Variant "600x600"
+  $large = Get-EtsyImageVariantUrl -Image $Image -Variant "794xN"
+
+  return "$small 340w, $medium 600w, $large 794w"
+}
+
+function Get-CardImageSizes {
+  return "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px"
+}
+
 function Get-SectionLabel {
   param([string]$Section)
 
@@ -293,10 +344,22 @@ function Render-ProductCard {
   $title = [System.Net.WebUtility]::HtmlEncode($Product.name)
   $alt = [System.Net.WebUtility]::HtmlEncode($Product.alt)
   $image = [System.Net.WebUtility]::HtmlEncode($Product.image)
+  $imageSrcSet = [System.Net.WebUtility]::HtmlEncode(($Product.image_srcset | Out-String).Trim())
+  $imageSizes = [System.Net.WebUtility]::HtmlEncode(($Product.image_sizes | Out-String).Trim())
+  $imageSrcSetAttr = ""
+  $imageSizesAttr = ""
   $url = [System.Net.WebUtility]::HtmlEncode($Product.etsy_url)
   $description = [System.Net.WebUtility]::HtmlEncode($Product.description)
   $chips = @()
   $chips += "                <span class=""chip"">$([System.Net.WebUtility]::HtmlEncode($Product.price_label))</span>"
+
+  if (-not [string]::IsNullOrWhiteSpace($imageSrcSet)) {
+    $imageSrcSetAttr = " srcset=""$imageSrcSet"""
+  }
+
+  if (-not [string]::IsNullOrWhiteSpace($imageSizes)) {
+    $imageSizesAttr = " sizes=""$imageSizes"""
+  }
 
   foreach ($tag in $Product.tags) {
     $chips += "                <span class=""chip"">$([System.Net.WebUtility]::HtmlEncode($tag))</span>"
@@ -305,7 +368,7 @@ function Render-ProductCard {
   return @"
           <article class="product-card">
             <div class="card-media">
-              <img src="$image" alt="$alt" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+              <img src="$image"$imageSrcSetAttr$imageSizesAttr alt="$alt" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" />
             </div>
             <div class="card-body">
               <div class="product-meta">
@@ -479,7 +542,10 @@ foreach ($row in $rows) {
     tags = $tags
     description = Get-ProductDescription -Name $displayName -Category $category -Section $section -Tags $tags
     alt = Get-AltText -Name $displayName -Category $category -Section $section
-    image = $row.IMAGE1
+    image = Get-CardImageSource $row.IMAGE1
+    image_full = $row.IMAGE1
+    image_srcset = Get-CardImageSrcSet $row.IMAGE1
+    image_sizes = Get-CardImageSizes
     page = if ($category -eq "onderzetters") { "../pages/onderzetters.html#shop-catalog" } elseif ($category -eq "bladwijzers") { "../pages/bladwijzers.html#shop-catalog" } else { "../pages/houten-cadeaus.html#shop-catalog" }
     category_url = Get-CategoryUrl $category
     etsy_url = Get-EtsyUrl $displayName

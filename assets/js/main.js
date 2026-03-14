@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const navToggle = document.querySelector(".nav-toggle");
   const navLinks = document.querySelector(".nav-links");
   const mobileQuery = window.matchMedia("(max-width: 860px)");
+  const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const coarsePointerQuery = window.matchMedia("(pointer: coarse)");
 
   const initCarousel = () => {
     const carousel = document.querySelector("[data-carousel]");
@@ -25,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let autoScrollId = 0;
     let currentIndex = 0;
     let pageCount = 1;
+    let isInViewport = true;
     let touchStartX = 0;
     let touchDeltaX = 0;
 
@@ -84,10 +87,17 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     };
 
+    const canAutoScroll = () =>
+      pageCount > 1 &&
+      !document.hidden &&
+      !reducedMotionQuery.matches &&
+      !coarsePointerQuery.matches &&
+      isInViewport;
+
     const startAutoScroll = () => {
       stopAutoScroll();
 
-      if (pageCount <= 1) {
+      if (!canAutoScroll()) {
         return;
       }
 
@@ -167,6 +177,46 @@ document.addEventListener("DOMContentLoaded", () => {
       node?.addEventListener("mouseleave", startAutoScroll);
       node?.addEventListener("focusin", stopAutoScroll);
       node?.addEventListener("focusout", startAutoScroll);
+    });
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          isInViewport = entries[0]?.isIntersecting ?? true;
+
+          if (isInViewport) {
+            startAutoScroll();
+          } else {
+            stopAutoScroll();
+          }
+        },
+        {
+          threshold: 0.35,
+        },
+      );
+
+      observer.observe(carousel);
+    }
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) {
+        stopAutoScroll();
+      } else {
+        startAutoScroll();
+      }
+    });
+
+    const syncCarouselState = () => {
+      updateCarousel();
+      startAutoScroll();
+    };
+
+    [reducedMotionQuery, coarsePointerQuery].forEach((query) => {
+      if (typeof query.addEventListener === "function") {
+        query.addEventListener("change", syncCarouselState);
+      } else if (typeof query.addListener === "function") {
+        query.addListener(syncCarouselState);
+      }
     });
 
     window.addEventListener("resize", () => {
