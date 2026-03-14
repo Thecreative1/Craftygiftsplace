@@ -1,92 +1,1701 @@
-[
-  {
-    "id": "cat-and-moon-coasters",
-    "name": "Cat and Moon Wooden Coasters Set of 4",
-    "category": "onderzetters",
-    "price_eur": 24.99,
-    "tags": ["cat lover", "celestial decor", "coffee table decor"],
-    "page": "../pages/onderzetters.html",
-    "image": "../assets/img/products/cat-and-moon-coasters.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  },
-  {
-    "id": "zodiac-wooden-coaster-set",
-    "name": "Zodiac Wooden Coaster Set",
-    "category": "onderzetters",
-    "price_eur": 24.99,
-    "tags": ["astrology", "home decor", "gift"],
-    "page": "../pages/onderzetters.html",
-    "image": "../assets/img/products/zodiac-wooden-coasters.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  },
-  {
-    "id": "chess-themed-wood-coasters",
-    "name": "Chess-Themed Wood Coasters Set",
-    "category": "onderzetters",
-    "price_eur": 37.99,
-    "tags": ["game night", "gift for him", "handmade"],
-    "page": "../pages/onderzetters.html",
-    "image": "../assets/img/products/chess-wood-coasters.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  },
-  {
-    "id": "dragon-eye-bookmark",
-    "name": "Dragon Eye Bookmark",
-    "category": "bladwijzers",
-    "price_eur": 18.99,
-    "tags": ["fantasy", "book lover", "gift"],
-    "page": "../pages/bladwijzers.html",
-    "image": "../assets/img/products/dragon-eye-bookmark.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  },
-  {
-    "id": "dune-wooden-bookmark",
-    "name": "Dune Wooden Bookmark",
-    "category": "bladwijzers",
-    "price_eur": 12.99,
-    "tags": ["sci-fi", "reader gift", "themed"],
-    "page": "../pages/bladwijzers.html",
-    "image": "../assets/img/products/dune-bookmark.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  },
-  {
-    "id": "celtic-wooden-bookmark",
-    "name": "Celtic Wooden Bookmark",
-    "category": "bladwijzers",
-    "price_eur": 14.99,
-    "tags": ["celtic", "laser engraved", "book lover"],
-    "page": "../pages/bladwijzers.html",
-    "image": "../assets/img/products/celtic-bookmark.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  },
-  {
-    "id": "moon-cat-tealight-holder",
-    "name": "Moon Cat Shadow Tealight Holder",
-    "category": "houten-cadeaus",
-    "price_eur": 10.99,
-    "tags": ["home decor", "cat lover", "cozy gift"],
-    "page": "../pages/houten-cadeaus.html",
-    "image": "../assets/img/products/moon-cat-tealight-holder.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  },
-  {
-    "id": "wow-door-sign",
-    "name": "WoW Door Sign",
-    "category": "houten-cadeaus",
-    "price_eur": 12.99,
-    "tags": ["gaming", "door hanger", "gift"],
-    "page": "../pages/houten-cadeaus.html",
-    "image": "../assets/img/products/wow-door-sign.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  },
-  {
-    "id": "just-married-door-hanger",
-    "name": "Personalized Just Married Wooden Door Hanger",
-    "category": "houten-cadeaus",
-    "price_eur": 17.99,
-    "tags": ["wedding", "keepsake", "personalized"],
-    "page": "../pages/houten-cadeaus.html",
-    "image": "../assets/img/products/just-married-door-hanger.jpg",
-    "source": "../EtsyListingsDownload.csv"
-  }
+﻿[
+    {
+        "id":  "funny-husband-medals-coaster-set",
+        "name":  "Funny Husband Medals Coaster Set",
+        "title":  "Funny Husband Medals Coaster Set – “Want a medal?” Now you can! Wooden engraved coasters gift for him, funny husband awards",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Funny Coasters",
+                     "Husband Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/fcbb6c/7435990575/il_fullxfull.7435990575_sg5h.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Funny%20Husband%20Medals%20Coaster%20Set"
+    },
+    {
+        "id":  "dragon-eye-bookmark",
+        "name":  "Dragon Eye Bookmark",
+        "title":  "Dragon Eye Bookmark: Handcrafted Wooden Fantasy Book Accessory",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  18.99,
+        "price_label":  "EUR 18.99",
+        "tags":  [
+                     "Dragon Bookmark",
+                     "Glass Eye Bookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_fullxfull.6371593681_3p4r.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Dragon%20Eye%20Bookmark"
+    },
+    {
+        "id":  "dog-paw-coasters-set-4-or-6",
+        "name":  "Dog Paw Coasters Set 4 or 6",
+        "title":  "Dog Paw Coasters Set 4 or 6 – Birch Wood Paw Print Coasters with Cork Backing, Dog Lover Gift, Pet Owners\u0027 Decor for Coffee Tables \u0026 Kitchen",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Dog Paw Coasters",
+                     "Paw Print Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/5633fd/5458770934/il_fullxfull.5458770934_dos6.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Dog%20Paw%20Coasters%20Set%204%20or%206"
+    },
+    {
+        "id":  "zodiac-wooden-coaster-set",
+        "name":  "Zodiac Wooden Coaster Set",
+        "title":  "Zodiac Wooden Coaster Set • Astrology Home Decor Gift • 12 Horoscope Signs Engraved Design • Unique Spiritual Present for Astrology Lovers",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Zodiac Coaster",
+                     "Astrology Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/f18bda/7528087613/il_fullxfull.7528087613_8ciw.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Zodiac%20Wooden%20Coaster%20Set"
+    },
+    {
+        "id":  "engraved-cat-wood-coasters",
+        "name":  "Engraved Cat Wood Coasters",
+        "title":  "Engraved Cat Wood Coasters - Set of 6 - Cat Lover Gift",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Cat Coasters",
+                     "Pet Lover\u0027s Gifts"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/33c325/5457158726/il_fullxfull.5457158726_9gea.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Cat%20Wood%20Coasters"
+    },
+    {
+        "id":  "cannabis-leaf-coasters-set-of-4-or-6-engraved-wooden-drink-coasters-420-gift-weed-lover-home-bar-decor-eco-wood-housewarming-present",
+        "name":  "Cannabis Leaf Coasters, Set of 4 or 6, Engraved Wooden Drink Coasters, 420 Gift, Weed Lover Home Bar Decor, Eco Wood, Housewarming, Present!",
+        "title":  "Cannabis Leaf Coasters, Set of 4 or 6, Engraved Wooden Drink Coasters, 420 Gift, Weed Lover Home Bar Decor, Eco Wood, Housewarming, Present!",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Cannabis Coasters",
+                     "Weed Leaf Coaster"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/0a2f9b/6315785232/il_fullxfull.6315785232_7ohz.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Cannabis%20Leaf%20Coasters%2C%20Set%20of%204%20or%206%2C%20Engraved%20Wooden%20Drink%20Coasters%2C%20420%20Gift%2C%20Weed%20Lover%20Home%20Bar%20Decor%2C%20Eco%20Wood%2C%20Housewarming%2C%20Present!"
+    },
+    {
+        "id":  "samurai-mask-wood-coasters-set-of-6",
+        "name":  "Samurai Mask Wood Coasters Set of 6",
+        "title":  "Samurai Mask Wood Coasters Set of 6 – Japanese Decor, Cork Backed Drink Coasters, Martial Arts Gift, Japanese Culture Home Bar Gift",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  7.99,
+        "price_label":  "EUR 7.99",
+        "tags":  [
+                     "Samurai Coasters",
+                     "Samurai Mask Set"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/fff060/7483094513/il_fullxfull.7483094513_qtbe.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Samurai%20Mask%20Wood%20Coasters%20Set%20of%206"
+    },
+    {
+        "id":  "chess-themed-wood-coasters-set",
+        "name":  "Chess-Themed Wood Coasters Set",
+        "title":  "Chess-Themed Wood Coasters Set: Rustic Birch Inlay",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  37.99,
+        "price_label":  "EUR 37.99",
+        "tags":  [
+                     "Wood Coasters",
+                     "Chess Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/696c37/5942707396/il_fullxfull.5942707396_8896.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Chess-Themed%20Wood%20Coasters%20Set"
+    },
+    {
+        "id":  "fantasy-wooden-coasters",
+        "name":  "Fantasy Wooden Coasters",
+        "title":  "Fantasy Wooden Coasters: Gaming Decor, WoW Fan Gift (Set of 4)",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Wow Coasters",
+                     "Warcraft Inspired"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_fullxfull.6103181163_fltt.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Fantasy%20Wooden%20Coasters"
+    },
+    {
+        "id":  "my-first-christmas-ornament-2025",
+        "name":  "My First Christmas Ornament 2025",
+        "title":  "My First Christmas Ornament 2025 – Custom Baby Name and Year | Wood Engraved Keepsake Gift for Newborn and Parents | Nursery Xmas Decoration",
+        "category":  "houten-cadeaus",
+        "section":  "ornamenten-en-seizoenscadeaus",
+        "price_eur":  18.99,
+        "price_label":  "EUR 18.99",
+        "tags":  [
+                     "Baby Ornament",
+                     "First Christmas"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/a0c9ae/7368650430/il_fullxfull.7368650430_1wqw.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=My%20First%20Christmas%20Ornament%202025"
+    },
+    {
+        "id":  "dune-wooden-bookmark",
+        "name":  "Dune Wooden Bookmark",
+        "title":  "Dune Wooden Bookmark: House Atreides, Harkonnen, Corrino",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Frank Herbert Dune",
+                     "Atreides Corrino"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/4195e9/5386088642/il_fullxfull.5386088642_8puv.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Dune%20Wooden%20Bookmark"
+    },
+    {
+        "id":  "celtic-wooden-bookmark-with-cross-and-tree-of-life",
+        "name":  "Celtic Wooden Bookmark with Cross and Tree of Life",
+        "title":  "Celtic Wooden Bookmark with Cross and Tree of Life – Laser Engraved Knotwork, Tassel, Pagan Irish Gift for Book Lovers, Reading Celtic Magic",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  14.99,
+        "price_label":  "EUR 14.99",
+        "tags":  [
+                     "Celtic Bookmark",
+                     "Wooden Bookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/9e7b87/7824030219/il_fullxfull.7824030219_c6ot.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Celtic%20Wooden%20Bookmark%20with%20Cross%20and%20Tree%20of%20Life"
+    },
+    {
+        "id":  "carved-floral-wooden-coasters-set-of-6",
+        "name":  "Carved Floral Wooden Coasters Set of 6",
+        "title":  "Carved Floral Wooden Coasters Set of 6 • Rustic Wood Drink Coasters with Cork Back • Nature Inspired Home Decor, Housewarming Gift",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Floral Coasters",
+                     "Wood Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/61fc68/7533758309/il_fullxfull.7533758309_2wu5.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Carved%20Floral%20Wooden%20Coasters%20Set%20of%206"
+    },
+    {
+        "id":  "wow-door-sign",
+        "name":  "WoW Door Sign",
+        "title":  "WoW Door Sign: \"Do Not Disturb\" Wooden Plaque - Gamer Gift",
+        "category":  "houten-cadeaus",
+        "section":  "deurhangers-en-borden",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Wow Room Decor",
+                     "Gaming-Themed Sign"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/10c262/5411743080/il_fullxfull.5411743080_iwdn.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=WoW%20Door%20Sign"
+    },
+    {
+        "id":  "mayan-disc-coasters",
+        "name":  "Mayan Disc Coasters",
+        "title":  "Mayan Disc Coasters: Carved Wooden Mesoamerican Decor",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Unique Wood Carving",
+                     "Chic Tabletop Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/9c4efa/5675812615/il_fullxfull.5675812615_ogn2.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Mayan%20Disc%20Coasters"
+    },
+    {
+        "id":  "german-forest-animal-wooden-coasters",
+        "name":  "German Forest Animal Wooden Coasters",
+        "title":  "German Forest Animal Wooden Coasters: Handcrafted Wildlife Designs, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Forest Animal Decor",
+                     "Wooden Coaster Set"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/82636e/6445275859/il_fullxfull.6445275859_o50d.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=German%20Forest%20Animal%20Wooden%20Coasters"
+    },
+    {
+        "id":  "funny-do-not-ring-doorbell-wooden-sign",
+        "name":  "Funny \u0027Do Not Ring Doorbell\u0027 Wooden Sign",
+        "title":  "Funny \u0027Do Not Ring Doorbell\u0027 Wooden Sign: Dog \u0026 Baby Humor",
+        "category":  "houten-cadeaus",
+        "section":  "deurhangers-en-borden",
+        "price_eur":  14.99,
+        "price_label":  "EUR 14.99",
+        "tags":  [
+                     "Funny Door Sign",
+                     "Baby Door Sign"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/58f128/5503536607/il_fullxfull.5503536607_ezbg.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Funny%20\u0027Do%20Not%20Ring%20Doorbell\u0027%20Wooden%20Sign"
+    },
+    {
+        "id":  "wooden-leaf-coasters-set-of-4",
+        "name":  "Wooden Leaf Coasters Set of 4",
+        "title":  "Wooden Leaf Coasters Set of 4 – Carved Botanical Drink Coasters with Cork Base, Monstera Plant Lover Gift, Home Decor Set for Coffee Tables!",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Wood Leaf Coasters",
+                     "Botanical Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/8a1b8a/7533803427/il_fullxfull.7533803427_pk2c.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wooden%20Leaf%20Coasters%20Set%20of%204"
+    },
+    {
+        "id":  "set-of-4-star-wars-wooden-coasters-stormtrooper-coasters-star-wars-enthusiastc-star-wars-memorabilia-star-wars-home-decor-premium-drinkware",
+        "name":  "Set of 4 Star Wars Wooden Coasters Stormtrooper coasters Star Wars Enthusiastc Star Wars Memorabilia Star Wars Home Decor Premium Drinkware.",
+        "title":  "Set of 4 Star Wars Wooden Coasters Stormtrooper coasters Star Wars Enthusiastc Star Wars Memorabilia Star Wars Home Decor Premium Drinkware.",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Stormtrooper Coaster",
+                     "Star Wars Wood Set"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/6926b3/5407035414/il_fullxfull.5407035414_hn0g.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Set%20of%204%20Star%20Wars%20Wooden%20Coasters%20Stormtrooper%20coasters%20Star%20Wars%20Enthusiastc%20Star%20Wars%20Memorabilia%20Star%20Wars%20Home%20Decor%20Premium%20Drinkware."
+    },
+    {
+        "id":  "chess-coasters",
+        "name":  "Chess Coasters",
+        "title":  "Chess Coasters: Inlay Wood Coaster Set, Chess Piece Design",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Chessboard Art",
+                     "Home Game Room"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_fullxfull.5892277454_rix0.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Chess%20Coasters"
+    },
+    {
+        "id":  "sun-and-moon-wood-coasters",
+        "name":  "Sun and Moon Wood Coasters",
+        "title":  "Sun and Moon Wood Coasters: Celestial Drink Coasters, Set of 4",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Home Decor",
+                     "Celestial Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/b6e8ca/7529254877/il_fullxfull.7529254877_rq2i.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Sun%20and%20Moon%20Wood%20Coasters"
+    },
+    {
+        "id":  "formula-1-coaster-set",
+        "name":  "Formula 1 Coaster Set",
+        "title":  "Formula 1 Coaster Set: Motorsport Wood Drink Coasters",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Formula 1 Coasters",
+                     "Racing Coaster Set"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/7f88d5/6280541489/il_fullxfull.6280541489_6a86.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Formula%201%20Coaster%20Set"
+    },
+    {
+        "id":  "lord-of-the-rings-inspired-door-sign-lotr-door-hanger-double-sided-hanger-work-from-home-door-sign-speak-friend-and-enterr-lotr-office-door",
+        "name":  "Lord of the Rings-inspired door sign LOTR door hanger Double-Sided Hanger Work from home door sign speak friend and enterr lotr Office door",
+        "title":  "Lord of the Rings-inspired door sign LOTR door hanger Double-Sided Hanger Work from home door sign speak friend and enterr lotr Office door",
+        "category":  "houten-cadeaus",
+        "section":  "deurhangers-en-borden",
+        "price_eur":  15.99,
+        "price_label":  "EUR 15.99",
+        "tags":  [
+                     "Gondor Tree",
+                     "Birthday Gift Geek"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_fullxfull.5462349697_5c2j.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Lord%20of%20the%20Rings-inspired%20door%20sign%20LOTR%20door%20hanger%20Double-Sided%20Hanger%20Work%20from%20home%20door%20sign%20speak%20friend%20and%20enterr%20lotr%20Office%20door"
+    },
+    {
+        "id":  "wooden-baby-milestone-discs",
+        "name":  "Wooden Baby Milestone Discs",
+        "title":  "Wooden Baby Milestone Discs: Newborn Photo Prop, Hello World Disc",
+        "category":  "houten-cadeaus",
+        "section":  "persoonlijke-cadeaus",
+        "price_eur":  34.99,
+        "price_label":  "EUR 34.99",
+        "tags":  [
+                     "Baby Gift Ideas",
+                     "Baby Keepsake"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/776584/5442155599/il_fullxfull.5442155599_qtxo.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wooden%20Baby%20Milestone%20Discs"
+    },
+    {
+        "id":  "engraved-anchor-wood-coasters-set-of-4-6",
+        "name":  "Engraved Anchor Wood Coasters Set of 4/6",
+        "title":  "Engraved Anchor Wood Coasters Set of 4/6 – Nautical Coastal Home Decor, Birch Drink Coasters, Beach House Gift, Marine Bar\u0026Boat Accessories!",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Anchor Coasters",
+                     "Nautical Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/c53917/6270337504/il_fullxfull.6270337504_kd1c.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Anchor%20Wood%20Coasters%20Set%20of%204%2F6"
+    },
+    {
+        "id":  "montessori-wooden-numicon-set",
+        "name":  "Montessori Wooden Numicon Set",
+        "title":  "Montessori Wooden Numicon Set – Birch Math Number Frames 1–10, Safe Rounded Corners, Early Learning Manipulative Classroom \u0026 Homeschool Gift",
+        "category":  "houten-cadeaus",
+        "section":  "kleine-cadeaus-en-diy",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Montessori Toy",
+                     "Wooden Numicon"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/1e60c4/7424299275/il_fullxfull.7424299275_ome0.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Montessori%20Wooden%20Numicon%20Set"
+    },
+    {
+        "id":  "bee-engraved-wood-coaster-set-engraved-wooden-honey-bee-wedding-favors-perfect-gift-for-wedding-engagement-anniversary-or-christmas-gift",
+        "name":  "Bee Engraved Wood Coaster Set -Engraved Wooden Honey Bee Wedding Favors Perfect Gift for Wedding, Engagement, Anniversary, or Christmas gift",
+        "title":  "Bee Engraved Wood Coaster Set -Engraved Wooden Honey Bee Wedding Favors Perfect Gift for Wedding, Engagement, Anniversary, or Christmas gift",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Bee Coasters",
+                     "Wood Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/4b60d2/7572843312/il_fullxfull.7572843312_bdln.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Bee%20Engraved%20Wood%20Coaster%20Set%20-Engraved%20Wooden%20Honey%20Bee%20Wedding%20Favors%20Perfect%20Gift%20for%20Wedding%2C%20Engagement%2C%20Anniversary%2C%20or%20Christmas%20gift"
+    },
+    {
+        "id":  "engraved-wooden-no-cameras-door-hanger",
+        "name":  "Engraved Wooden No Cameras Door Hanger",
+        "title":  "Engraved Wooden No Cameras Door Hanger – No Recording Devices Privacy Sign, Meeting in Progress, Confidential Office Door Sign, Door Notice!",
+        "category":  "houten-cadeaus",
+        "section":  "deurhangers-en-borden",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "No Cameras Sign",
+                     "No Recording Sign"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/a15192/7343823221/il_fullxfull.7343823221_5i4t.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Wooden%20No%20Cameras%20Door%20Hanger"
+    },
+    {
+        "id":  "cat-and-moon-wooden-coasters-set-of-4",
+        "name":  "Cat and Moon Wooden Coasters Set of 4",
+        "title":  "Cat and Moon Wooden Coasters Set of 4 – Celestial Cat Lover Gift, Witchy Decor, Engraved Drink Coasters for Coffee Table, Home Bar Decor Set",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Cat Moon Coasters",
+                     "Wooden Cat Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/6e3e8c/7765923781/il_fullxfull.7765923781_ipty.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Cat%20and%20Moon%20Wooden%20Coasters%20Set%20of%204"
+    },
+    {
+        "id":  "funny-swear-word-wood-coasters-set-of-4",
+        "name":  "Funny Swear Word Wood Coasters Set of 4",
+        "title":  "Funny Swear Word Wood Coasters Set of 4 – Laser Engraved, Hilarious Bar Coasters, Sarcastic Gag Gift for Friends, Housewarming \u0026 Office Desk",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Funny Wood Coasters",
+                     "Swear Word Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/bd8656/6936500070/il_fullxfull.6936500070_obt5.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Funny%20Swear%20Word%20Wood%20Coasters%20Set%20of%204"
+    },
+    {
+        "id":  "handmade-persian-turkish-coasters",
+        "name":  "Handmade Persian Turkish Coasters",
+        "title":  "Handmade Persian Turkish Coasters: Engraved Wood Drink Coaster Set | Oriental Mandala Design | Moroccan Decor, Unique Gift for Home",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Persian Coasters",
+                     "Turkish Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/ef6aac/5920179814/il_fullxfull.5920179814_b58p.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handmade%20Persian%20Turkish%20Coasters"
+    },
+    {
+        "id":  "moon-cat-shadow-tealight-holder",
+        "name":  "Moon Cat Shadow Tealight Holder",
+        "title":  "Moon Cat Shadow Tealight Holder - Handmade Wooden Candle Lantern | Cat Lover Gift, Cozy Home Decor, Night Light, Crescent Moon Candle Holder",
+        "category":  "houten-cadeaus",
+        "section":  "decoratie-en-sfeer",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Moon Cat Tealight",
+                     "Cat Candle Holder"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_fullxfull.6325144691_ecdm.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Moon%20Cat%20Shadow%20Tealight%20Holder"
+    },
+    {
+        "id":  "religious-wooden-coaster-set",
+        "name":  "Religious Wooden Coaster Set",
+        "title":  "Religious Wooden Coaster Set: Christian Home Decor | Engraved Jesus and Cross Designs | Catholic Faith Gift, Spiritual Religious Decoration",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  7.99,
+        "price_label":  "EUR 7.99",
+        "tags":  [
+                     "Christian Home Decor",
+                     "Virgin Mary Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/3eb110/5455657378/il_fullxfull.5455657378_qnvq.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Religious%20Wooden%20Coaster%20Set"
+    },
+    {
+        "id":  "personalised-team-coaster",
+        "name":  "Personalised Team Coaster",
+        "title":  "Personalised Team Coaster | Custom Sports Gift | Football Futsal Tennis Padel | Coach Present | Engraved Logo |Tournament Award Personalized",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Sports Gift",
+                     "Team Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/c8b13b/7475569258/il_fullxfull.7475569258_hzso.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalised%20Team%20Coaster"
+    },
+    {
+        "id":  "handcrafted-wooden-dragon-eye-bookmark",
+        "name":  "Handcrafted Wooden Dragon Eye Bookmark",
+        "title":  "Handcrafted Wooden Dragon Eye Bookmark: Fantasy Book Lover Gift | Unique Mythical Reading Accessory, Glass Eye Tassel, DnD Inspired Decor",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  18.99,
+        "price_label":  "EUR 18.99",
+        "tags":  [
+                     "Dragon Eye Bookmark",
+                     "Wooden Bookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_fullxfull.6369285119_9oa1.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handcrafted%20Wooden%20Dragon%20Eye%20Bookmark"
+    },
+    {
+        "id":  "tree-of-life-wood-coasters-eco-friendly-home-decor-wooden-drink-coasters-nature-inspired-coasters-environmental-friendly-gifts-wood-and-cork",
+        "name":  "Tree of Life wood Coasters Eco-Friendly Home Decor Wooden Drink Coasters Nature-inspired Coasters Environmental Friendly Gifts Wood and Cork",
+        "title":  "Tree of Life wood Coasters Eco-Friendly Home Decor Wooden Drink Coasters Nature-inspired Coasters Environmental Friendly Gifts Wood and Cork",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Home Decor",
+                     "Tree Of Life Coaster"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_fullxfull.5535942596_jl8w.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Tree%20of%20Life%20wood%20Coasters%20Eco-Friendly%20Home%20Decor%20Wooden%20Drink%20Coasters%20Nature-inspired%20Coasters%20Environmental%20Friendly%20Gifts%20Wood%20and%20Cork"
+    },
+    {
+        "id":  "handmade-wooden-dragon-bookmark",
+        "name":  "Handmade Wooden Dragon Bookmark",
+        "title":  "Handmade Wooden Dragon Bookmark: Unique Bookworm Gift | Laser Engraved Mythical Creature Design with Green Tassel, Fantasy Reading Accessory",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Bookmark Wood",
+                     "Bookworm Gifts Cozy"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_fullxfull.5434960961_8gmc.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handmade%20Wooden%20Dragon%20Bookmark"
+    },
+    {
+        "id":  "ski-lodge-coasters",
+        "name":  "Ski Lodge Coasters",
+        "title":  "Ski Lodge Coasters: Birch Wood Ski Decor, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29,
+        "price_label":  "EUR 29.00",
+        "tags":  [
+                     "Ski Enthusiast Gift",
+                     "Ski Lodge Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/6a78ae/5382480214/il_fullxfull.5382480214_2jxm.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Ski%20Lodge%20Coasters"
+    },
+    {
+        "id":  "buddha-coasters-set-wood",
+        "name":  "Buddha Coasters Set Wood",
+        "title":  "Buddha Coasters Set Wood – OM, Lotus \u0026 Mandala Symbols | Spiritual Decor, Zen Meditation Gift, Laser Engraved Coasters Set for Yoga Lovers",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  25.99,
+        "price_label":  "EUR 25.99",
+        "tags":  [
+                     "Buddha Coasters",
+                     "Buddha Coaster Set"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/a2c1d1/7635957768/il_fullxfull.7635957768_9qc1.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Buddha%20Coasters%20Set%20Wood"
+    },
+    {
+        "id":  "wooden-spider-web-coasters",
+        "name":  "Wooden Spider Web Coasters",
+        "title":  "Wooden Spider Web Coasters: Halloween Table Decor | Engraved Wood Drink Coaster Set for Spooky Party, Gothic Home or Fall Decoration",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Coaster Wood Set",
+                     "Gothic Home Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/aa1792/5344238782/il_fullxfull.5344238782_sy7n.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wooden%20Spider%20Web%20Coasters"
+    },
+    {
+        "id":  "carved-wooden-dragon-bookmark",
+        "name":  "Carved Wooden Dragon Bookmark",
+        "title":  "Carved Wooden Dragon Bookmark: Fantasy Reader Gift | Laser Engraved Mythical Design with Green Tassel | Unique Book Lover Accessory",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Dragon Bookmark",
+                     "Wood Bookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_fullxfull.5925838820_rmhl.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Carved%20Wooden%20Dragon%20Bookmark"
+    },
+    {
+        "id":  "diy-christmas-ornaments",
+        "name":  "DIY Christmas Ornaments",
+        "title":  "DIY Christmas Ornaments: 16 Wooden Figures, Paint Your Own Decor | Holiday Craft Kit for Kids and Adults, Fun Family Activity Gift Set",
+        "category":  "houten-cadeaus",
+        "section":  "ornamenten-en-seizoenscadeaus",
+        "price_eur":  16.99,
+        "price_label":  "EUR 16.99",
+        "tags":  [
+                     "Santa Claus Decor",
+                     "Family Craft Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/e2a1f8/5392453943/il_fullxfull.5392453943_rd6e.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=DIY%20Christmas%20Ornaments"
+    },
+    {
+        "id":  "celtic-knot-wooden-coasters",
+        "name":  "Celtic Knot Wooden Coasters",
+        "title":  "Celtic Knot Wooden Coasters: Viking Decor, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Viking Coasters",
+                     "Celtic Knots"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/7cd96f/6355916419/il_fullxfull.6355916419_d97i.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Celtic%20Knot%20Wooden%20Coasters"
+    },
+    {
+        "id":  "laser-engraved-birch-wood-incense-burner",
+        "name":  "Laser Engraved Birch Wood Incense Burner",
+        "title":  "Laser Engraved Birch Wood Incense Burner: Chakra Lotus Moon Design",
+        "category":  "houten-cadeaus",
+        "section":  "decoratie-en-sfeer",
+        "price_eur":  18.99,
+        "price_label":  "EUR 18.99",
+        "tags":  [
+                     "Chakra Incense Tray",
+                     "Laser Engraved Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_fullxfull.6303435020_tsf2.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Laser%20Engraved%20Birch%20Wood%20Incense%20Burner"
+    },
+    {
+        "id":  "wildlife-wood-coasters",
+        "name":  "Wildlife Wood Coasters",
+        "title":  "Wildlife Wood Coasters: Hand-Engraved Hunting Scenes, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Wildlife Art",
+                     "Hunter Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/4a287f/6355959209/il_fullxfull.6355959209_9hqu.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wildlife%20Wood%20Coasters"
+    },
+    {
+        "id":  "eco-friendly-wooden-baby-closet-dividers",
+        "name":  "Eco-Friendly Wooden Baby Closet Dividers",
+        "title":  "Eco-Friendly Wooden Baby Closet Dividers: Newborn to Toddler",
+        "category":  "houten-cadeaus",
+        "section":  "persoonlijke-cadeaus",
+        "price_eur":  19.99,
+        "price_label":  "EUR 19.99",
+        "tags":  [
+                     "Baby Closet Dividers",
+                     "Nursery Organizer"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/3fff5b/5906404554/il_fullxfull.5906404554_foeo.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Eco-Friendly%20Wooden%20Baby%20Closet%20Dividers"
+    },
+    {
+        "id":  "horse-wood-coaster-set",
+        "name":  "Horse Wood Coaster Set",
+        "title":  "Horse Wood Coaster Set • Rustic Farmhouse Decor • Equestrian Gift for Horse Lovers • Wooden Coasters for Country \u0026 Western Homes",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Horse Coaster",
+                     "Horse Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/a5413b/7481255030/il_fullxfull.7481255030_oi90.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Horse%20Wood%20Coaster%20Set"
+    },
+    {
+        "id":  "hand-painted-spiderweb-coasters",
+        "name":  "Hand-Painted Spiderweb Coasters",
+        "title":  "Hand-Painted Spiderweb Coasters: Gothic Halloween Decor",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Halloween Coasters",
+                     "Spiderweb Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/3f2d7b/6338748593/il_fullxfull.6338748593_qokh.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Hand-Painted%20Spiderweb%20Coasters"
+    },
+    {
+        "id":  "spider-web-tealight-holder",
+        "name":  "Spider Web Tealight Holder",
+        "title":  "Spider Web Tealight Holder: Shadow Lighting, Gothic Halloween Decor",
+        "category":  "houten-cadeaus",
+        "section":  "decoratie-en-sfeer",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Spider Tealight",
+                     "Halloween Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/8dcb7c/6339150323/il_fullxfull.6339150323_jmbn.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Spider%20Web%20Tealight%20Holder"
+    },
+    {
+        "id":  "skull-tealight-holder",
+        "name":  "Skull Tealight Holder",
+        "title":  "Skull Tealight Holder: Halloween Shadow Caster, Spooky Decor (120mm)",
+        "category":  "houten-cadeaus",
+        "section":  "decoratie-en-sfeer",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Halloween Decor",
+                     "Spooky Candle Holder"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/58d874/6329506163/il_fullxfull.6329506163_9aip.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Skull%20Tealight%20Holder"
+    },
+    {
+        "id":  "handcrafted-lord-of-the-rings-wooden-bookmark",
+        "name":  "Handcrafted Lord of the Rings Wooden Bookmark",
+        "title":  "Handcrafted Lord of the Rings Wooden Bookmark: Tree of Gondor",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Tolkien Merchandise",
+                     "Lotr Collectible"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_fullxfull.5417484435_8pfz.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handcrafted%20Lord%20of%20the%20Rings%20Wooden%20Bookmark"
+    },
+    {
+        "id":  "wooden-dinosaur-shapes-set-of-12",
+        "name":  "Wooden Dinosaur Shapes Set of 12",
+        "title":  "Wooden Dinosaur Shapes Set of 12 – Birch Wood Craft Cutouts for Kids Painting, Montessori DIY Art, Classroom Learning, Party Decorations Fun",
+        "category":  "houten-cadeaus",
+        "section":  "kleine-cadeaus-en-diy",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Wooden Dinosaur",
+                     "Dinosaur Shapes"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/ef7380/7439397136/il_fullxfull.7439397136_qiy2.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wooden%20Dinosaur%20Shapes%20Set%20of%2012"
+    },
+    {
+        "id":  "viking-coasters",
+        "name":  "Viking Coasters",
+        "title":  "Viking Coasters: Norse Mythology Wood Runes, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Viking Coasters Set",
+                     "Wooden Drink Coaster"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/2421bb/7419936955/il_fullxfull.7419936955_jhjs.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Viking%20Coasters"
+    },
+    {
+        "id":  "checkers-wood-coasters",
+        "name":  "Checkers Wood Coasters",
+        "title":  "Checkers Wood Coasters: Board Game Decor, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Gift For Gamers",
+                     "Checkers Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/6fba28/5456284258/il_fullxfull.5456284258_lj80.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Checkers%20Wood%20Coasters"
+    },
+    {
+        "id":  "personalized-just-married-wooden-door-hanger",
+        "name":  "Personalized Just Married Wooden Door Hanger",
+        "title":  "Personalized Just Married Wooden Door Hanger: Rustic Wedding Keepsake",
+        "category":  "houten-cadeaus",
+        "section":  "persoonlijke-cadeaus",
+        "price_eur":  17.99,
+        "price_label":  "EUR 17.99",
+        "tags":  [
+
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_fullxfull.6310906229_kdqa.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Just%20Married%20Wooden%20Door%20Hanger"
+    },
+    {
+        "id":  "personalized-calendar-coaster-engraved-birthday-reminder-for-husband-wooden-drink-coaster-gift-for-wife-anniversary-date-keepsake-gift-box",
+        "name":  "Personalized Calendar Coaster Engraved Birthday Reminder for Husband, Wooden Drink Coaster Gift for Wife, Anniversary Date Keepsake Gift Box",
+        "title":  "Personalized Calendar Coaster Engraved Birthday Reminder for Husband, Wooden Drink Coaster Gift for Wife, Anniversary Date Keepsake Gift Box",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  13.99,
+        "price_label":  "EUR 13.99",
+        "tags":  [
+                     "Calendar Coaster",
+                     "Custom Date Coaster"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/bde01c/6310421867/il_fullxfull.6310421867_jtom.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Calendar%20Coaster%20Engraved%20Birthday%20Reminder%20for%20Husband%2C%20Wooden%20Drink%20Coaster%20Gift%20for%20Wife%2C%20Anniversary%20Date%20Keepsake%20Gift%20Box"
+    },
+    {
+        "id":  "star-wars-wooden-coasters",
+        "name":  "Star Wars Wooden Coasters",
+        "title":  "Star Wars Wooden Coasters: Millennium Falcon, Darth Vader - Sci-Fi Gift",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Star Wars Coasters",
+                     "Wooden Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_fullxfull.5358911821_29kf.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Star%20Wars%20Wooden%20Coasters"
+    },
+    {
+        "id":  "personaliseerbare-houten-onderzetters-met-kurk-onderkant-set-van-6",
+        "name":  "Personaliseerbare Houten Onderzetters met Kurk Onderkant Set van 6",
+        "title":  "Personaliseerbare Houten Onderzetters met Kurk Onderkant Set van 6 - Voeg Naam, Datum \u0026 Jaar toe - Perfect voor Huwelijk en Jubileum Cadeau",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  32.99,
+        "price_label":  "EUR 32.99",
+        "tags":  [
+                     "Houten Onderzetters",
+                     "Personaliseerbaar"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/8d73d1/6307701661/il_fullxfull.6307701661_levg.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personaliseerbare%20Houten%20Onderzetters%20met%20Kurk%20Onderkant%20Set%20van%206"
+    },
+    {
+        "id":  "portuguese-tile-wood-coasters",
+        "name":  "Portuguese Tile Wood Coasters",
+        "title":  "Portuguese Tile Wood Coasters: Mediterranean Decor, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Classic Portuguese",
+                     "Tile Patterns Cork"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/3fbff0/5917328803/il_fullxfull.5917328803_7lr0.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Portuguese%20Tile%20Wood%20Coasters"
+    },
+    {
+        "id":  "handcrafted-gothic-skull-wood-coaster-set",
+        "name":  "Handcrafted Gothic Skull Wood Coaster Set",
+        "title":  "Handcrafted Gothic Skull Wood Coaster Set: Halloween Home Decor",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  25.99,
+        "price_label":  "EUR 25.99",
+        "tags":  [
+                     "Gothic Home Decor",
+                     "Skull Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/7007c4/6250051934/il_fullxfull.6250051934_7n2k.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handcrafted%20Gothic%20Skull%20Wood%20Coaster%20Set"
+    },
+    {
+        "id":  "aces-poker-coasters-set",
+        "name":  "Aces Poker Coasters Set",
+        "title":  "Aces Poker Coasters Set: Engraved Wooden Card Decor",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Poker Coasters",
+                     "Gaming Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/8846b7/5446496422/il_fullxfull.5446496422_bjfu.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Aces%20Poker%20Coasters%20Set"
+    },
+    {
+        "id":  "engraved-sardine-wooden-bookmark",
+        "name":  "Engraved Sardine Wooden Bookmark",
+        "title":  "Engraved Sardine Wooden Bookmark: Rustic Portugal Souvenir",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Sardine Bookmark",
+                     "Portugal Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/2edcc7/7152998408/il_fullxfull.7152998408_1stg.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Sardine%20Wooden%20Bookmark"
+    },
+    {
+        "id":  "cricket-dad-wood-coaster-wooden-drink-coasters-cricket-fan-accessories-father-s-day-gift-cricket-lover-gift-cork-backed-coaster-dad-birthday",
+        "name":  "Cricket Dad Wood Coaster Wooden Drink Coasters Cricket Fan Accessories Father\u0027s Day Gift Cricket Lover Gift Cork Backed Coaster Dad Birthday",
+        "title":  "Cricket Dad Wood Coaster Wooden Drink Coasters Cricket Fan Accessories Father\u0027s Day Gift Cricket Lover Gift Cork Backed Coaster Dad Birthday",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  7.99,
+        "price_label":  "EUR 7.99",
+        "tags":  [
+                     "Coaster Wood Deco",
+                     "Dad Birthday Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/2b801b/5939846262/il_fullxfull.5939846262_aq1b.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Cricket%20Dad%20Wood%20Coaster%20Wooden%20Drink%20Coasters%20Cricket%20Fan%20Accessories%20Father\u0027s%20Day%20Gift%20Cricket%20Lover%20Gift%20Cork%20Backed%20Coaster%20Dad%20Birthday"
+    },
+    {
+        "id":  "sugar-skull-coasters-set-of-4",
+        "name":  "Sugar Skull Coasters Set of 4",
+        "title":  "Sugar Skull Coasters Set of 4 – Laser Engraved Wooden Dia de los Muertos Drink Coasters, Mexican Skull Home Decor, Gothic Halloween Gift Box",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Sugar Skull Coasters",
+                     "Dia De Los Muertos"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/0efcb4/7488880455/il_fullxfull.7488880455_piz0.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Sugar%20Skull%20Coasters%20Set%20of%204"
+    },
+    {
+        "id":  "diy-halloween-coaster-kit",
+        "name":  "DIY Halloween Coaster Kit",
+        "title":  "DIY Halloween Coaster Kit: Spooky Ghost, Skull, Spider Decor",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  19.99,
+        "price_label":  "EUR 19.99",
+        "tags":  [
+                     "Halloween Decor",
+                     "Diy Coaster Kit"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/bca0c9/5333219114/il_fullxfull.5333219114_lv3n.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=DIY%20Halloween%20Coaster%20Kit"
+    },
+    {
+        "id":  "dartboard-coasters-set",
+        "name":  "Dartboard Coasters Set",
+        "title":  "Dartboard Coasters Set | Perfect Gift for Dart Players | Rustic Bar \u0026 Man Cave Decor | Engraved Wood Drink Coasters for Game Night",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Dartboard",
+                     "Dart Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/bd6bcf/7481334728/il_fullxfull.7481334728_33ng.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Dartboard%20Coasters%20Set"
+    },
+    {
+        "id":  "gaming-do-not-disturb-sign",
+        "name":  "Gaming Do Not Disturb Sign",
+        "title":  "Gaming Do Not Disturb Sign – Wooden Door Hanger for Gamers | Funny Gamer Room Decor | FPS Gift | Geek Bedroom Accessory | Handmade Wood",
+        "category":  "houten-cadeaus",
+        "section":  "deurhangers-en-borden",
+        "price_eur":  14.99,
+        "price_label":  "EUR 14.99",
+        "tags":  [
+                     "Gaming Door Sign",
+                     "Gamer Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/7ef519/7368729056/il_fullxfull.7368729056_ndjv.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Gaming%20Do%20Not%20Disturb%20Sign"
+    },
+    {
+        "id":  "personalized-pet-memorial-plaque",
+        "name":  "Personalized Pet Memorial Plaque",
+        "title":  "Personalized Pet Memorial Plaque: Wooden Paw Prints Keepsake",
+        "category":  "houten-cadeaus",
+        "section":  "persoonlijke-cadeaus",
+        "price_eur":  27.99,
+        "price_label":  "EUR 27.99",
+        "tags":  [
+                     "Pet Memorial",
+                     "Pet Tribute"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/1a761c/5962006217/il_fullxfull.5962006217_sgpc.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Pet%20Memorial%20Plaque"
+    },
+    {
+        "id":  "sting-inspired-wooden-bookmark-wooden-sword-bookmark-hobbit-gift-idea-bilbo-and-frodo-tribute-middle-earth-literature-gift-sting-replica",
+        "name":  "Sting-Inspired Wooden Bookmark Wooden sword bookmark Hobbit gift idea Bilbo and Frodo tribute Middle-earth literature gift Sting replica .",
+        "title":  "Sting-Inspired Wooden Bookmark Wooden sword bookmark Hobbit gift idea Bilbo and Frodo tribute Middle-earth literature gift Sting replica .",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Lotr Bookmark",
+                     "Tolkien Fan Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_fullxfull.5558263255_rmiq.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Sting-Inspired%20Wooden%20Bookmark%20Wooden%20sword%20bookmark%20Hobbit%20gift%20idea%20Bilbo%20and%20Frodo%20tribute%20Middle-earth%20literature%20gift%20Sting%20replica%20."
+    },
+    {
+        "id":  "tree-of-life-wooden-coasters",
+        "name":  "Tree of Life Wooden Coasters",
+        "title":  "Tree of Life Wooden Coasters: Rustic Celtic Decor, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Tree Of Life",
+                     "Wooden Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_fullxfull.6384530407_59y3.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Tree%20of%20Life%20Wooden%20Coasters"
+    },
+    {
+        "id":  "birch-wood-circle-blanks",
+        "name":  "Birch Wood Circle Blanks",
+        "title":  "Birch Wood Circle Blanks: 9cm DIY Craft Discs - Set of 6",
+        "category":  "houten-cadeaus",
+        "section":  "kleine-cadeaus-en-diy",
+        "price_eur":  4.99,
+        "price_label":  "EUR 4.99",
+        "tags":  [
+                     "Diy Disc Blanks",
+                     "Wooden Circles"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/6b90e3/5945198279/il_fullxfull.5945198279_d3g2.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Birch%20Wood%20Circle%20Blanks"
+    },
+    {
+        "id":  "dnd-wood-coasters-set",
+        "name":  "DnD Wood Coasters Set",
+        "title":  "DnD Wood Coasters Set: Dungeons and Dragons Decor",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "D And D Coasters",
+                     "Dungeons And Dragons"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/9e42b5/5479510204/il_fullxfull.5479510204_4i0v.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=DnD%20Wood%20Coasters%20Set"
+    },
+    {
+        "id":  "do-not-disturb-prayer-in-progress-door-hanger-wooden-door-knob-sign-for-meditation-prayer-room-christian-gift-quiet-time-decor-for-home",
+        "name":  "Do Not Disturb Prayer in Progress Door Hanger, Wooden Door Knob Sign for Meditation \u0026 Prayer Room, Christian Gift, Quiet Time Decor for Home",
+        "title":  "Do Not Disturb Prayer in Progress Door Hanger, Wooden Door Knob Sign for Meditation \u0026 Prayer Room, Christian Gift, Quiet Time Decor for Home",
+        "category":  "houten-cadeaus",
+        "section":  "deurhangers-en-borden",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Prayer In Progress",
+                     "Do Not Disturb Sign"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/1e623d/7504661252/il_fullxfull.7504661252_eppi.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Do%20Not%20Disturb%20Prayer%20in%20Progress%20Door%20Hanger%2C%20Wooden%20Door%20Knob%20Sign%20for%20Meditation%20%26%20Prayer%20Room%2C%20Christian%20Gift%2C%20Quiet%20Time%20Decor%20for%20Home"
+    },
+    {
+        "id":  "star-wars-wood-coasters",
+        "name":  "Star Wars Wood Coasters",
+        "title":  "Star Wars Wood Coasters: Geeky Decor, Set of 6",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Geek Gift",
+                     "Sci-Fi Coaster"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_fullxfull.6919733058_fnil.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Star%20Wars%20Wood%20Coasters"
+    },
+    {
+        "id":  "personalized-wood-coasters",
+        "name":  "Personalized Wood Coasters",
+        "title":  "Personalized Wood Coasters: Custom Text \u0026 Logo, Wedding Favors",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Custom Coasters",
+                     "Wood Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_fullxfull.5611355601_9mfy.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Wood%20Coasters"
+    },
+    {
+        "id":  "bald-man-s-comb",
+        "name":  "Bald Man\u0027s Comb",
+        "title":  "Bald Man\u0027s Comb - Funny Gag Gift for Bald Friends - Humorous Wooden Gift - Novelty Comb for Bald Heads - Fun Gift for Men",
+        "category":  "houten-cadeaus",
+        "section":  "kleine-cadeaus-en-diy",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Bald Man\u0027s Comb",
+                     "Funny Comb Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/04a22b/6453094459/il_fullxfull.6453094459_6kwu.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Bald%20Man\u0027s%20Comb"
+    },
+    {
+        "id":  "engraved-wooden-rocket-bookmark",
+        "name":  "Engraved Wooden Rocket Bookmark",
+        "title":  "Engraved Wooden Rocket Bookmark | Eco-Friendly Kids\u0027 Gift | Space-Themed Bookmark for Young Readers | Recycled Wood",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Rocket Bookmark",
+                     "Kids Wood Bookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/0caf95/6350677773/il_fullxfull.6350677773_97pq.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Wooden%20Rocket%20Bookmark"
+    },
+    {
+        "id":  "league-of-legends-wooden-door-hanger",
+        "name":  "League of Legends Wooden Door Hanger",
+        "title":  "League of Legends Wooden Door Hanger: Gamer Room Decor",
+        "category":  "houten-cadeaus",
+        "section":  "deurhangers-en-borden",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "League Of Legends",
+                     "Gaming Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/c8dbb2/6232479392/il_fullxfull.6232479392_9rtx.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=League%20of%20Legends%20Wooden%20Door%20Hanger"
+    },
+    {
+        "id":  "counter-strike-wood-coaster-set",
+        "name":  "Counter-Strike Wood Coaster Set",
+        "title":  "Counter-Strike Wood Coaster Set: Gaming Inspired Decor | CS GO and Steam Engraved Wooden Coasters | Gamer Gift, Desk or Man Cave Accessory",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Counter-Strike",
+                     "Fps Gaming Cod"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/d5691e/5456130459/il_fullxfull.5456130459_5mlp.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Counter-Strike%20Wood%20Coaster%20Set"
+    },
+    {
+        "id":  "sports-ball-wooden-coasters",
+        "name":  "Sports Ball Wooden Coasters",
+        "title":  "Sports Ball Wooden Coasters: Custom Sports Decor Gift | Engraved Wood Coaster Set for Athletes, Coaches, Sports Fans, Man Cave Accessory",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  7.99,
+        "price_label":  "EUR 7.99",
+        "tags":  [
+                     "Sports Ball Coasters",
+                     "Wooden Coaster Set"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/891980/5503478891/il_fullxfull.5503478891_mg1a.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Sports%20Ball%20Wooden%20Coasters"
+    },
+    {
+        "id":  "cs-in-progress-wooden-door-hanger",
+        "name":  "CS In Progress Wooden Door Hanger",
+        "title":  "CS In Progress Wooden Door Hanger: Laser Engraved Gaming Sign",
+        "category":  "houten-cadeaus",
+        "section":  "deurhangers-en-borden",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Csgo Door Hanger",
+                     "Gaming Door Sign"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/106593/6445292551/il_fullxfull.6445292551_i62c.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=CS%20In%20Progress%20Wooden%20Door%20Hanger"
+    },
+    {
+        "id":  "1984-inspired-wooden-bookmark",
+        "name":  "1984 Inspired Wooden Bookmark",
+        "title":  "1984 Inspired Wooden Bookmark: Dystopian Book Lover Gift",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "1984 Book Lover Gift",
+                     "Wooden Bookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/a3f9f1/5930235094/il_fullxfull.5930235094_keb8.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=1984%20Inspired%20Wooden%20Bookmark"
+    },
+    {
+        "id":  "fishing-coasters",
+        "name":  "Fishing Coasters",
+        "title":  "Fishing Coasters: Lakeside Cabin Decor, Set of 4 | Engraved Wooden Drink Coasters for Fishermen, Outdoor Lovers, Rustic Man Cave Gift",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Fishing Coasters",
+                     "Gift For Anglers"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/784d62/5456321300/il_fullxfull.5456321300_r9oc.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Fishing%20Coasters"
+    },
+    {
+        "id":  "engraved-golf-wooden-coasters-set",
+        "name":  "Engraved Golf Wooden Coasters Set",
+        "title":  "Engraved Golf Wooden Coasters Set: Golf-Themed Decor",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  31.99,
+        "price_label":  "EUR 31.99",
+        "tags":  [
+                     "Golf Gifts",
+                     "Golf Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/fbf85f/5872491538/il_fullxfull.5872491538_biw7.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Golf%20Wooden%20Coasters%20Set"
+    },
+    {
+        "id":  "engraved-bitcoin-coasters-set",
+        "name":  "Engraved Bitcoin Coasters Set",
+        "title":  "Engraved Bitcoin Coasters Set: Wooden Crypto Decor | Cryptocurrency Gift for Traders, Blockchain Enthusiasts, Tech Office or Gamer Desk",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  7.99,
+        "price_label":  "EUR 7.99",
+        "tags":  [
+                     "Bitcoin Coasters",
+                     "Cryptocurrency Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/af65d9/6310115112/il_fullxfull.6310115112_i33q.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Bitcoin%20Coasters%20Set"
+    },
+    {
+        "id":  "picasso-animal-line-art-wood-coasters-set-of-6-birch-cork-eco-friendly-drink-coasters-art-lover-gift-minimalist-modern-home-decor-set",
+        "name":  "Picasso Animal Line Art Wood Coasters Set of 6, Birch \u0026 Cork, Eco Friendly Drink Coasters, Art Lover Gift, Minimalist Modern Home Decor Set.",
+        "title":  "Picasso Animal Line Art Wood Coasters Set of 6, Birch \u0026 Cork, Eco Friendly Drink Coasters, Art Lover Gift, Minimalist Modern Home Decor Set.",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29.99,
+        "price_label":  "EUR 29.99",
+        "tags":  [
+                     "Picasso Coasters",
+                     "Animal Art Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/db8621/6360269569/il_fullxfull.6360269569_a57j.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Picasso%20Animal%20Line%20Art%20Wood%20Coasters%20Set%20of%206%2C%20Birch%20%26%20Cork%2C%20Eco%20Friendly%20Drink%20Coasters%2C%20Art%20Lover%20Gift%2C%20Minimalist%20Modern%20Home%20Decor%20Set."
+    },
+    {
+        "id":  "book-lover-gift-set-fantasy-dragon-bookmark-wizard-door-hanger-wooden-coasters-reading-nook-decor-booktok-dark-academia-for-fantasy-readers",
+        "name":  "Book Lover Gift Set Fantasy Dragon Bookmark Wizard Door Hanger Wooden Coasters Reading Nook Decor BookTok Dark Academia for Fantasy Readers!",
+        "title":  "Book Lover Gift Set Fantasy Dragon Bookmark Wizard Door Hanger Wooden Coasters Reading Nook Decor BookTok Dark Academia for Fantasy Readers!",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  34.99,
+        "price_label":  "EUR 34.99",
+        "tags":  [
+                     "Fantasy Reader Gift",
+                     "Book Lover Kit"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_fullxfull.7593439386_5kt7.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Book%20Lover%20Gift%20Set%20Fantasy%20Dragon%20Bookmark%20Wizard%20Door%20Hanger%20Wooden%20Coasters%20Reading%20Nook%20Decor%20BookTok%20Dark%20Academia%20for%20Fantasy%20Readers!"
+    },
+    {
+        "id":  "witch-symbols-wood-bookmark",
+        "name":  "Witch Symbols Wood Bookmark",
+        "title":  "Witch Symbols Wood Bookmark: Triple Moon Goddess, Pentacle",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Wooden Bookmark",
+                     "Mystical Symbols"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/70f541/5862785388/il_fullxfull.5862785388_v7tu.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Witch%20Symbols%20Wood%20Bookmark"
+    },
+    {
+        "id":  "handcrafted-wooden-bookmark",
+        "name":  "Handcrafted Wooden Bookmark",
+        "title":  "Handcrafted Wooden Bookmark: Ascalon Sword \u0026 Dragon - Fantasy Readers Gift",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Sword Bookmark",
+                     "Dragon Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/baa714/5867402258/il_fullxfull.5867402258_k3f2.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handcrafted%20Wooden%20Bookmark"
+    },
+    {
+        "id":  "personalized-feather-wood-bookmark",
+        "name":  "Personalized Feather Wood Bookmark",
+        "title":  "Personalized Feather Wood Bookmark: Engraved Design, Green Tassel",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Personalizedgift",
+                     "Woodbookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/d43783/6350652261/il_fullxfull.6350652261_krpm.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Feather%20Wood%20Bookmark"
+    },
+    {
+        "id":  "engraved-lighthouse-wood-bookmark",
+        "name":  "Engraved Lighthouse Wood Bookmark",
+        "title":  "Engraved Lighthouse Wood Bookmark: Nautical Reader Gift",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  12.99,
+        "price_label":  "EUR 12.99",
+        "tags":  [
+                     "Lighthousedesign",
+                     "Woodbookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/10210b/6302753436/il_fullxfull.6302753436_7f9v.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Lighthouse%20Wood%20Bookmark"
+    },
+    {
+        "id":  "star-wars-maya-calendar-wood-coaster-set",
+        "name":  "Star Wars Maya Calendar Wood Coaster Set",
+        "title":  "Star Wars Maya Calendar Wood Coaster Set: Sci-Fi Fusion Design",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  24.99,
+        "price_label":  "EUR 24.99",
+        "tags":  [
+                     "Star Wars Coasters",
+                     "Sci-Fi Coasters"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_fullxfull.5392340425_t1om.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Star%20Wars%20Maya%20Calendar%20Wood%20Coaster%20Set"
+    },
+    {
+        "id":  "celestial-cat-wooden-coasters",
+        "name":  "Celestial Cat Wooden Coasters",
+        "title":  "Celestial Cat Wooden Coasters: Moon Phases, Witchcraft Decor",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  10.99,
+        "price_label":  "EUR 10.99",
+        "tags":  [
+                     "Esoteric Decor",
+                     "Occult Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/5f82fd/5844157974/il_fullxfull.5844157974_54wf.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Celestial%20Cat%20Wooden%20Coasters"
+    },
+    {
+        "id":  "camping-untersetzer-holz-set-6-st-ck-mit-lustigen-spr-chen-camper-motiven-geschenk-f-r-camper-wohnmobil-und-vanlife-fans-aus-birkenholz",
+        "name":  "Camping Untersetzer Holz Set 6 Stück mit lustigen Sprüchen, Camper Motiven, Geschenk für Camper, Wohnmobil und Vanlife Fans aus Birkenholz",
+        "title":  "Camping Untersetzer Holz Set 6 Stück mit lustigen Sprüchen, Camper Motiven, Geschenk für Camper, Wohnmobil und Vanlife Fans aus Birkenholz",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  7.99,
+        "price_label":  "EUR 7.99",
+        "tags":  [
+                     "Camping Geschenk",
+                     "Camper Geschenk"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/313bf1/7414342910/il_fullxfull.7414342910_5k0q.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Camping%20Untersetzer%20Holz%20Set%206%20St%C3%BCck%20mit%20lustigen%20Spr%C3%BCchen%2C%20Camper%20Motiven%2C%20Geschenk%20f%C3%BCr%20Camper%2C%20Wohnmobil%20und%20Vanlife%20Fans%20aus%20Birkenholz"
+    },
+    {
+        "id":  "engraved-wooden-spanish-guitar-bookmark",
+        "name":  "Engraved Wooden Spanish Guitar Bookmark",
+        "title":  "Engraved Wooden Spanish Guitar Bookmark: Vintage Music Lover Gift",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  13.99,
+        "price_label":  "EUR 13.99",
+        "tags":  [
+                     "Guitar Bookmark",
+                     "Music Lover Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/7aad23/5835539282/il_fullxfull.5835539282_qawn.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Wooden%20Spanish%20Guitar%20Bookmark"
+    },
+    {
+        "id":  "gothic-skull-wood-bookmark",
+        "name":  "Gothic Skull Wood Bookmark",
+        "title":  "Gothic Skull Wood Bookmark: Laser Engraved Birch with Green Tassel",
+        "category":  "bladwijzers",
+        "section":  "bladwijzers",
+        "price_eur":  13.99,
+        "price_label":  "EUR 13.99",
+        "tags":  [
+                     "Gothic Home Decor",
+                     "Skull Bookmark"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/88c057/6345408651/il_fullxfull.6345408651_46a3.jpg",
+        "page":  "../pages/bladwijzers.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Gothic%20Skull%20Wood%20Bookmark"
+    },
+    {
+        "id":  "hunting-life-wood-coaster",
+        "name":  "Hunting Life Wood Coaster",
+        "title":  "Hunting Life Wood Coaster – Single or Set of 6, Rustic Wood Drink Coasters, Deer Hunter Gift, Hunting Cabin Bar Decor, Man Cave Gift for Him",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  7.99,
+        "price_label":  "EUR 7.99",
+        "tags":  [
+                     "Hunting Wood Coaster",
+                     "Hunting Life Coaster"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/b3a9fd/6310182096/il_fullxfull.6310182096_1c8i.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Hunting%20Life%20Wood%20Coaster"
+    },
+    {
+        "id":  "hand-painted-wiccan-symbol-coasters",
+        "name":  "Hand-Painted Wiccan Symbol Coasters",
+        "title":  "Hand-Painted Wiccan Symbol Coasters: Spiritual Home Decor Gift | Black Engraved Wooden Coaster Set with Pagan, Celtic and Witchcraft Symbols",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  26.99,
+        "price_label":  "EUR 26.99",
+        "tags":  [
+                     "Wiccan Coasters",
+                     "Spiritual Home Decor"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/2c31a7/6333629560/il_fullxfull.6333629560_9ta6.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Hand-Painted%20Wiccan%20Symbol%20Coasters"
+    },
+    {
+        "id":  "upcycled-ram-keychain",
+        "name":  "Upcycled RAM Keychain",
+        "title":  "Upcycled RAM Keychain – Real Recycled Memory Module Keyring – Geek Gift for IT Workers, Gamers, Programmers – Eco-Friendly Tech Accessory",
+        "category":  "houten-cadeaus",
+        "section":  "kleine-cadeaus-en-diy",
+        "price_eur":  19.99,
+        "price_label":  "EUR 19.99",
+        "tags":  [
+                     "Ram Keychain",
+                     "Tech Gift"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/885244/7443464993/il_fullxfull.7443464993_trrw.jpg",
+        "page":  "../pages/houten-cadeaus.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Upcycled%20RAM%20Keychain"
+    },
+    {
+        "id":  "mushroom-moon-engraved-wooden-coasters",
+        "name":  "Mushroom Moon Engraved Wooden Coasters",
+        "title":  "Mushroom Moon Engraved Wooden Coasters - Mystical Fantasy Set of 6 | Witchy Forest Decor, Boho Gift, Celestial Home or Cottagecore Aesthetic",
+        "category":  "onderzetters",
+        "section":  "onderzetters",
+        "price_eur":  29,
+        "price_label":  "EUR 29.00",
+        "tags":  [
+                     "Moon And Mushroom",
+                     "Wooden Coasters Deco"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/bd29be/7372563446/il_fullxfull.7372563446_2bxg.jpg",
+        "page":  "../pages/onderzetters.html#shop-catalog",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Mushroom%20Moon%20Engraved%20Wooden%20Coasters"
+    }
 ]
