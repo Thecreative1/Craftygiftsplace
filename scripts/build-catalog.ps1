@@ -114,7 +114,13 @@ function Get-EtsyImageVariantUrl {
     return $Image
   }
 
-  return ($Image -replace "/il_[^./]+\.", "/il_$Variant.")
+  $match = [System.Text.RegularExpressions.Regex]::Match($Image, "/il_[^.\/]+(?<suffix>\.[^\/]+)$")
+
+  if (-not $match.Success) {
+    return $Image
+  }
+
+  return $Image.Substring(0, $match.Index) + "/il_$Variant" + $match.Groups["suffix"].Value
 }
 
 function Get-CardImageSource {
