@@ -1,6 +1,13 @@
 document.documentElement.classList.add("js-ready");
 
 document.addEventListener("DOMContentLoaded", () => {
+  const pageLang = (document.documentElement.lang || "en").toLowerCase();
+  const isDutch = pageLang.startsWith("nl");
+  const labels = {
+    slide: isDutch ? "Ga naar slide" : "Go to slide",
+    openMenu: isDutch ? "Open het menu" : "Open the menu",
+    closeMenu: isDutch ? "Sluit het menu" : "Close the menu",
+  };
   const currentPath = window.location.pathname.replace(/\\/g, "/");
   const currentPage = currentPath.endsWith("/")
     ? "index.html"
@@ -69,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const dot = document.createElement("button");
         dot.type = "button";
         dot.className = "carousel-dot";
-        dot.setAttribute("aria-label", `Ga naar slide ${index + 1}`);
+        dot.setAttribute("aria-label", `${labels.slide} ${index + 1}`);
         dot.setAttribute("aria-current", index === currentIndex ? "true" : "false");
         dot.addEventListener("click", () => {
           currentIndex = index;
@@ -242,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const closeMenu = () => {
     navToggle.setAttribute("aria-expanded", "false");
-    navToggle.setAttribute("aria-label", "Open het menu");
+    navToggle.setAttribute("aria-label", labels.openMenu);
     navLinks.classList.remove("is-open");
   };
 
@@ -256,7 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const isOpen = navToggle.getAttribute("aria-expanded") === "true";
     const nextState = !isOpen;
     navToggle.setAttribute("aria-expanded", String(nextState));
-    navToggle.setAttribute("aria-label", nextState ? "Sluit het menu" : "Open het menu");
+    navToggle.setAttribute("aria-label", nextState ? labels.closeMenu : labels.openMenu);
     navLinks.classList.toggle("is-open", nextState);
   });
 

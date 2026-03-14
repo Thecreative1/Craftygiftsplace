@@ -736,6 +736,379 @@ function Get-AltText {
   }
 }
 
+function Get-SectionLabelNl {
+  param([string]$Section)
+
+  switch ($Section) {
+    "deurhangers-en-borden" { return "Deurhangers en wanddecoratie" }
+    "decoratie-en-sfeer" { return "Decoratie en sfeer" }
+    "ornamenten-en-seizoenscadeaus" { return "Ornamenten en seizoenscadeaus" }
+    "persoonlijke-cadeaus" { return "Persoonlijke cadeaus" }
+    "kleine-cadeaus-en-diy" { return "Kleine cadeaus en DIY" }
+    "overige-houten-cadeaus" { return "Overige houten cadeaus" }
+    default { return $Section }
+  }
+}
+
+function Get-ThemePhraseNl {
+  param(
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags,
+    [string]$Name
+  )
+
+  $joinedText = (($Name + " " + ($Tags -join " ")) | Out-String).Trim().ToLowerInvariant()
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($joinedText -match "dog|paw") { return "een pootjesdetail" }
+      if ($joinedText -match "cat|feline") { return "een kattenmotief" }
+      if ($joinedText -match "zodiac|astrology|horoscope|moon|celestial|witchy") { return "een hemelse gravure" }
+      if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "een speels thema" }
+      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return "een stoer alternatief detail" }
+      if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") { return "een kustdetail" }
+      if ($joinedText -match "bee|honey") { return "een bijenmotief" }
+      if ($joinedText -match "horse") { return "een paardenmotief" }
+      if ($joinedText -match "wildlife|forest") { return "een bos- en wildlife-detail" }
+      if ($joinedText -match "leaf|tree|floral|nature|rustic") { return "een natuurlijk detail" }
+      if ($joinedText -match "tile|persian|mayan|samurai|viking|buddha") { return "een decoratief patroon" }
+      return "een warme gravure"
+    }
+    "bladwijzers" {
+      if ($joinedText -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "een fantasy-detail" }
+      if ($joinedText -match "dune|sci-fi|rocket") { return "een sci-fi accent" }
+      if ($joinedText -match "celtic|lighthouse|guitar|sardine|feather") { return "een fijn gegraveerd detail" }
+      return "een houten detail"
+    }
+    default {
+      switch ($Section) {
+        "deurhangers-en-borden" { return "een opvallend detail" }
+        "decoratie-en-sfeer" { return "een sfeervol detail" }
+        "ornamenten-en-seizoenscadeaus" { return "een seizoensdetail" }
+        "persoonlijke-cadeaus" { return "een persoonlijk detail" }
+        "kleine-cadeaus-en-diy" { return "een creatief houten detail" }
+        default { return "een handgemaakt houten detail" }
+      }
+    }
+  }
+}
+
+function Get-AudiencePhraseNl {
+  param(
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags,
+    [string]$Name
+  )
+
+  $joinedText = (($Name + " " + ($Tags -join " ")) | Out-String).Trim().ToLowerInvariant()
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($joinedText -match "dog|paw") { return "hondenliefhebbers en gezellige koffietafels" }
+      if ($joinedText -match "cat|feline") { return "kattenliefhebbers en knusse hoekjes" }
+      if ($joinedText -match "zodiac|astrology|horoscope|moon|celestial|witchy") { return "astrologiecadeaus en warme interieurs" }
+      if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "game rooms, bureaus en hobbycadeaus" }
+      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return "liefhebbers van alternatieve decoratie en gezellige hoekjes" }
+      if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") { return "strandhuizen, campers en ontspannen tafelmomenten" }
+      if ($joinedText -match "bee|honey") { return "tuinliefhebbers en makkelijke hostesscadeaus" }
+      if ($joinedText -match "horse") { return "paardenliefhebbers en warme tafels" }
+      if ($joinedText -match "wildlife|forest") { return "liefhebbers van cabin decor en cadeautafels" }
+      if ($joinedText -match "leaf|tree|floral|nature|rustic") { return "natuurliefhebbers, housewarmings en dagelijkse tafels" }
+      if ($joinedText -match "tile|persian|mayan|samurai|viking|buddha") { return "interieurliefhebbers en tafels met karakter" }
+      return "dagelijkse tafels en makkelijke cadeaumomenten" }
+    "bladwijzers" {
+      if ($joinedText -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "fantasylezers en cadeauwaardige leesmomenten" }
+      if ($joinedText -match "dune|sci-fi|rocket") { return "sci-fi lezers en doordachte boekcadeaus" }
+      return "boekenliefhebbers en rustige leesmomenten" }
+    default {
+      switch ($Section) {
+        "deurhangers-en-borden" { return "deuren, bureaus en kamers met persoonlijkheid" }
+        "decoratie-en-sfeer" { return "planken, bijzettafels en gezellige huizen" }
+        "ornamenten-en-seizoenscadeaus" { return "feestelijke styling en kleine betekenisvolle cadeaus" }
+        "persoonlijke-cadeaus" { return "bruiloften, baby's en bijzondere mijlpalen" }
+        "kleine-cadeaus-en-diy" { return "knutselhoeken, kleine cadeaus en creatieve projecten" }
+        default { return "warme huizen en doordachte cadeaus" }
+      }
+    }
+  }
+}
+
+function Get-DecisionCueNl {
+  param(
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags,
+    [string]$Name
+  )
+
+  $joinedText = (($Name + " " + ($Tags -join " ")) | Out-String).Trim().ToLowerInvariant()
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($joinedText -match "cat|feline|zodiac|astrology|moon|celestial|witchy") {
+        return "Lasergesneden uit hout en makkelijk te stylen op een salontafel of bureau."
+      }
+
+      if ($joinedText -match "game|gaming|chess|checkers|poker|dart|formula|fishing|golf|sport") {
+        return "Een praktisch themacadeau voor game rooms, bureaus en dagelijkse drankjes."
+      }
+
+      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") {
+        return "Een opvallend houten accent voor bureaus, bijzettafels en ruimtes met karakter."
+      }
+
+      if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") {
+        return "Een praktische houten set voor ontspannen tafelmomenten, campers en dagelijks gebruik."
+      }
+
+      if ($joinedText -match "wildlife|forest") {
+        return "Een cadeaulaar houten accent voor cabin vibes, koffietafels en gezellige momenten."
+      }
+
+      if ($joinedText -match "bee|leaf|tree|floral|nature|rustic|wedding|just married") {
+        return "Een houten accent dat mooi past bij natuurlijke interieurs, housewarmings en ontspannen hosting."
+      }
+
+      if ($joinedText -match "horse") {
+        return "Een stevige houten set die makkelijk cadeau te geven is en mooi staat in huis."
+      }
+
+      if ($joinedText -match "tile|persian|mayan|samurai|viking|buddha") {
+        return "Een makkelijk cadeau voor eettafels, koffietafels en interieurs met karakter."
+      }
+
+      return "Een bruikbaar houten accent dat cadeauwaardig voelt zonder ingewikkeld te zijn."
+    }
+    "bladwijzers" {
+      if ($joinedText -match "dragon|fantasy|witch|gothic|epic fantasy|sword") {
+        return "Slank, licht en makkelijk te combineren met fantasyboeken of een boekenpakket."
+      }
+
+      if ($joinedText -match "desert saga|sci-fi|rocket") {
+        return "Een licht leescadeau dat netjes tussen favoriete pagina's past."
+      }
+
+      return "Slank, licht en makkelijk te combineren met een favoriet boek of een leescadeau."
+    }
+    default {
+      switch ($Section) {
+        "deurhangers-en-borden" { return "Makkelijk op te hangen en ideaal voor deuren, bureaus of knusse hoekjes met persoonlijkheid." }
+        "decoratie-en-sfeer" { return "Een cadeauwaardig houten accent voor planken, bijzettafels en warme avonden thuis." }
+        "ornamenten-en-seizoenscadeaus" { return "Licht, makkelijk neer te zetten en heel geschikt voor seizoenscadeaus." }
+        "persoonlijke-cadeaus" { return "Mooi voor mijlpalen, herinneringen en persoonlijke cadeaumomenten." }
+        "kleine-cadeaus-en-diy" { return "Een makkelijk klein cadeau voor knutselhoeken, schoencadeautjes of dagelijks gebruik." }
+        default { return "Ontworpen om makkelijk cadeau te geven, neer te zetten en dagelijks van te genieten." }
+      }
+    }
+  }
+}
+
+function Get-ProductCtaLabelNl {
+  param([string]$Name)
+
+  return "Bekijk $(Get-ShortCtaName $Name) op Etsy"
+}
+
+function Get-SensitiveCtaLabelNl {
+  param(
+    [string]$Name,
+    [string]$Category,
+    [string]$Section
+  )
+
+  $lower = (Normalize-Keyword $Name).ToLowerInvariant()
+
+  switch ($Category) {
+    "bladwijzers" {
+      if ($lower -match "desert|space|rocket") { return "Bekijk sci-fi bladwijzers op Etsy" }
+      if ($lower -match "fantasy|dragon|epic") { return "Bekijk fantasy bladwijzers op Etsy" }
+      return "Bekijk houten bladwijzers op Etsy"
+    }
+    "onderzetters" {
+      if ($lower -match "space|motorsport|tabletop|fps|mmo") { return "Bekijk thematische onderzetters op Etsy" }
+      return "Bekijk houten onderzetters op Etsy"
+    }
+    default {
+      if ($Section -eq "deurhangers-en-borden") {
+        if ($lower -match "moba|mmo|fps|fantasy") { return "Bekijk gamer deurhangers op Etsy" }
+        return "Bekijk houten deurhangers op Etsy"
+      }
+
+      return "Bekijk houten cadeaus op Etsy"
+    }
+  }
+}
+
+function Get-ProductDescriptionNl {
+  param(
+    [string]$Name,
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags
+  )
+
+  $themePhrase = Get-ThemePhraseNl -Category $Category -Section $Section -Tags $Tags -Name $Name
+  $audiencePhrase = Get-AudiencePhraseNl -Category $Category -Section $Section -Tags $Tags -Name $Name
+  $decisionCue = Get-DecisionCueNl -Category $Category -Section $Section -Tags $Tags -Name $Name
+  $variant = Get-StableVariantIndex -Text $Name -Modulo 3
+
+  switch ($Category) {
+    "onderzetters" {
+      switch ($variant) {
+        0 { return "Houten onderzetterset met $themePhrase voor $audiencePhrase. $decisionCue" }
+        1 { return "Houten onderzetters met $themePhrase voor $audiencePhrase. $decisionCue" }
+        default { return "Handgemaakte houten onderzetters met $themePhrase voor $audiencePhrase. $decisionCue" }
+      }
+    }
+    "bladwijzers" {
+      switch ($variant) {
+        0 { return "Houten bladwijzer met $themePhrase voor $audiencePhrase. $decisionCue" }
+        1 { return "Gegraveerde houten bladwijzer met $themePhrase voor $audiencePhrase. $decisionCue" }
+        default { return "Handgemaakte houten bladwijzer met $themePhrase voor $audiencePhrase. $decisionCue" }
+      }
+    }
+    default {
+      switch ($variant) {
+        0 { return "Handgemaakt houten cadeau met $themePhrase voor $audiencePhrase. $decisionCue" }
+        1 { return "Houten cadeau met $themePhrase voor $audiencePhrase. $decisionCue" }
+        default { return "Een handgemaakt houten item met $themePhrase voor $audiencePhrase. $decisionCue" }
+      }
+    }
+  }
+}
+
+function Get-AltTextNl {
+  param(
+    [string]$Name,
+    [string]$Category,
+    [string]$Section
+  )
+
+  $cleanName = Normalize-Keyword $Name
+  $lowerName = $cleanName.ToLowerInvariant()
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($lowerName -match "coaster") {
+        return "$cleanName van Craftygiftsplace"
+      }
+
+      return "$cleanName houten onderzetter van Craftygiftsplace"
+    }
+    "bladwijzers" {
+      if ($lowerName -match "bookmark") {
+        return "$cleanName van Craftygiftsplace"
+      }
+
+      return "$cleanName houten bladwijzer van Craftygiftsplace"
+    }
+    default {
+      switch ($Section) {
+        "deurhangers-en-borden" {
+          if ($lowerName -match "sign|door hanger|hanger|plaque") {
+            return "$cleanName van Craftygiftsplace"
+          }
+
+          return "$cleanName houten bord van Craftygiftsplace"
+        }
+        "decoratie-en-sfeer" {
+          if ($lowerName -match "holder|decor|burner|tealight") {
+            return "$cleanName van Craftygiftsplace"
+          }
+
+          return "$cleanName houten decoratie van Craftygiftsplace"
+        }
+        "ornamenten-en-seizoenscadeaus" {
+          if ($lowerName -match "ornament") {
+            return "$cleanName van Craftygiftsplace"
+          }
+
+          return "$cleanName houten ornament van Craftygiftsplace"
+        }
+        default { return "$cleanName houten cadeau van Craftygiftsplace" }
+      }
+    }
+  }
+}
+
+function Render-CategorySectionNl {
+  param(
+    [string]$Heading,
+    [string]$Description,
+    [string]$ButtonUrl,
+    [string]$ButtonLabel,
+    $Products
+  )
+
+  return @"
+          <div class="catalog-header">
+            <div>
+              <h2>$([System.Net.WebUtility]::HtmlEncode($Heading))</h2>
+              <p>$([System.Net.WebUtility]::HtmlEncode($Description))</p>
+            </div>
+            <a class="btn" href="$([System.Net.WebUtility]::HtmlEncode($ButtonUrl))" target="_blank" rel="noopener">$([System.Net.WebUtility]::HtmlEncode($ButtonLabel))</a>
+          </div>
+$((Render-Grid $Products))
+"@
+}
+
+function Render-GiftSectionsNl {
+  param($Products)
+
+  $descriptions = @{
+    "deurhangers-en-borden" = "Deurhangers, bordjes en houten items voor game rooms, bureaus en ruimtes met karakter."
+    "decoratie-en-sfeer" = "Theelichthouders, wierookhouders en houten decoratie die warmte in huis brengen."
+    "ornamenten-en-seizoenscadeaus" = "Seizoensornamenten en kleine keepsakes voor feestelijke en persoonlijke cadeaumomenten."
+    "persoonlijke-cadeaus" = "Bruiloftscadeaus, baby keepsakes en herinneringen voor bijzondere mijlpalen."
+    "kleine-cadeaus-en-diy" = "Kleine houten cadeaus, creatieve setjes en speelse items die makkelijk te geven zijn."
+    "overige-houten-cadeaus" = "Meer handgemaakte houten cadeaus met warmte, detail en karakter."
+  }
+
+  $order = @(
+    "deurhangers-en-borden",
+    "decoratie-en-sfeer",
+    "persoonlijke-cadeaus",
+    "ornamenten-en-seizoenscadeaus",
+    "kleine-cadeaus-en-diy",
+    "overige-houten-cadeaus"
+  )
+
+  $blocks = foreach ($section in $order) {
+    $items = @($Products | Where-Object { $_.section -eq $section })
+    if ($items.Count -eq 0) {
+      continue
+    }
+
+    @"
+          <div class="catalog-block">
+            <div class="catalog-header">
+              <div>
+                <h2>$([System.Net.WebUtility]::HtmlEncode((Get-SectionLabelNl $section)))</h2>
+                <p>$([System.Net.WebUtility]::HtmlEncode($descriptions[$section]))</p>
+              </div>
+              <span class="chip">$($items.Count) items</span>
+            </div>
+$((Render-Grid $items))
+          </div>
+"@
+  }
+
+  return @"
+          <div class="catalog-header">
+            <div>
+              <h2>Alle houten cadeaus</h2>
+              <p>Bekijk houten cadeaus voor gezellige huizen, mijlpalen en doordachte cadeaus, gegroepeerd per type.</p>
+            </div>
+            <a class="btn" href="https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header" target="_blank" rel="noopener">Bekijk alle houten cadeaus op Etsy</a>
+          </div>
+          <div class="catalog-stack">
+$($blocks -join "`n")
+          </div>
+"@
+}
+
 function Render-ProductCard {
   param($Product)
 
@@ -902,9 +1275,11 @@ function Replace-MarkerBlock {
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $csvPath = Join-Path $repoRoot "EtsyListingsDownload.csv"
 $jsonPath = Join-Path $repoRoot "data\products.json"
+$jsonPathEn = Join-Path $repoRoot "data\products-en.json"
 
 $rows = Import-Csv $csvPath
-$products = New-Object System.Collections.Generic.List[object]
+$productsEn = New-Object System.Collections.Generic.List[object]
+$productsNl = New-Object System.Collections.Generic.List[object]
 $index = 0
 
 foreach ($row in $rows) {
@@ -933,7 +1308,7 @@ foreach ($row in $rows) {
     $slug = "product-$index"
   }
 
-  $product = [ordered]@{
+  $shared = [ordered]@{
     id = $slug
     name = $displayName
     title = $displayName
@@ -942,43 +1317,79 @@ foreach ($row in $rows) {
     price_eur = [math]::Round([double]$priceValue, 2)
     price_label = Get-PriceLabel $row.PRICE
     tags = $tags
-    description = Get-ProductDescription -Name $displayName -Category $category -Section $section -Tags $tags
-    alt = Get-AltText -Name $displayName -Category $category -Section $section
     image = Get-CardImageSource $row.IMAGE1
     image_full = $row.IMAGE1
     image_srcset = Get-CardImageSrcSet $row.IMAGE1
     image_sizes = Get-CardImageSizes
     page = if ($category -eq "onderzetters") { "../pages/onderzetters.html#shop-catalog" } elseif ($category -eq "bladwijzers") { "../pages/bladwijzers.html#shop-catalog" } else { "../pages/houten-cadeaus.html#shop-catalog" }
     category_url = Get-CategoryUrl $category
-    cta_label = if ($isSensitiveTheme) { Get-SensitiveCtaLabel -Name $displayName -Category $category -Section $section } else { Get-ProductCtaLabel $displayName }
-    etsy_url = if ($isSensitiveTheme) { Get-EtsyUrl (Get-SensitiveBrowseQuery -Name $displayName -Category $category -Section $section) } else { Get-EtsyUrl $sourceName }
   }
 
-  $products.Add([pscustomobject]$product) | Out-Null
+  $etsyUrl = if ($isSensitiveTheme) { Get-EtsyUrl (Get-SensitiveBrowseQuery -Name $displayName -Category $category -Section $section) } else { Get-EtsyUrl $sourceName }
+
+  $productEn = [ordered]@{} + $shared
+  $productEn.description = Get-ProductDescription -Name $displayName -Category $category -Section $section -Tags $tags
+  $productEn.alt = Get-AltText -Name $displayName -Category $category -Section $section
+  $productEn.cta_label = if ($isSensitiveTheme) { Get-SensitiveCtaLabel -Name $displayName -Category $category -Section $section } else { Get-ProductCtaLabel $displayName }
+  $productEn.etsy_url = $etsyUrl
+
+  $productNl = [ordered]@{} + $shared
+  $productNl.description = Get-ProductDescriptionNl -Name $displayName -Category $category -Section $section -Tags $tags
+  $productNl.alt = Get-AltTextNl -Name $displayName -Category $category -Section $section
+  $productNl.cta_label = if ($isSensitiveTheme) { Get-SensitiveCtaLabelNl -Name $displayName -Category $category -Section $section } else { Get-ProductCtaLabelNl $displayName }
+  $productNl.etsy_url = $etsyUrl
+
+  $productsEn.Add([pscustomobject]$productEn) | Out-Null
+  $productsNl.Add([pscustomobject]$productNl) | Out-Null
 }
 
-$products | ConvertTo-Json -Depth 6 | Set-Content -Path $jsonPath -Encoding UTF8
+$productsNl | ConvertTo-Json -Depth 6 | Set-Content -Path $jsonPath -Encoding UTF8
+$productsEn | ConvertTo-Json -Depth 6 | Set-Content -Path $jsonPathEn -Encoding UTF8
 
-$underzetters = @($products | Where-Object { $_.category -eq "onderzetters" })
-$bladwijzers = @($products | Where-Object { $_.category -eq "bladwijzers" })
-$cadeaus = @($products | Where-Object { $_.category -eq "houten-cadeaus" })
+$underzettersNl = @($productsNl | Where-Object { $_.category -eq "onderzetters" })
+$bladwijzersNl = @($productsNl | Where-Object { $_.category -eq "bladwijzers" })
+$cadeausNl = @($productsNl | Where-Object { $_.category -eq "houten-cadeaus" })
 
-$underzettersHtml = Render-CategorySection `
+$underzettersHtmlNl = Render-CategorySectionNl `
+  -Heading "Alle houten onderzetters" `
+  -Description "Bekijk $($underzettersNl.Count) houten onderzetterontwerpen voor gezellige huizen, kattenliefhebbers, housewarmings en tafels met karakter." `
+  -ButtonUrl "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster" `
+  -ButtonLabel "Bekijk alle onderzetters op Etsy" `
+  -Products $underzettersNl
+
+$bladwijzersHtmlNl = Render-CategorySectionNl `
+  -Heading "Alle houten bladwijzers" `
+  -Description "Bekijk $($bladwijzersNl.Count) houten bladwijzers voor lezers, fantasyfans, sci-fi cadeaus en doordachte boekgeschenken." `
+  -ButtonUrl "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" `
+  -ButtonLabel "Bekijk alle bladwijzers op Etsy" `
+  -Products $bladwijzersNl
+
+$cadeausHtmlNl = Render-GiftSectionsNl $cadeausNl
+
+Replace-MarkerBlock -Path "pages\onderzetters.html" -Marker "AUTO-CATALOG-ONDERZETTERS" -Content $underzettersHtmlNl
+Replace-MarkerBlock -Path "pages\bladwijzers.html" -Marker "AUTO-CATALOG-BLADWIJZERS" -Content $bladwijzersHtmlNl
+Replace-MarkerBlock -Path "pages\houten-cadeaus.html" -Marker "AUTO-CATALOG-HOUTEN-CADEAUS" -Content $cadeausHtmlNl
+
+$underzettersEn = @($productsEn | Where-Object { $_.category -eq "onderzetters" })
+$bladwijzersEn = @($productsEn | Where-Object { $_.category -eq "bladwijzers" })
+$cadeausEn = @($productsEn | Where-Object { $_.category -eq "houten-cadeaus" })
+
+$underzettersHtmlEn = Render-CategorySection `
   -Heading "All wooden coasters" `
-  -Description "Browse $($underzetters.Count) wooden coaster designs for cozy homes, cat lovers, housewarming gifts and themed tables." `
+  -Description "Browse $($underzettersEn.Count) wooden coaster designs for cozy homes, cat lovers, housewarming gifts and themed tables." `
   -ButtonUrl "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster" `
   -ButtonLabel "View all coasters on Etsy" `
-  -Products $underzetters
+  -Products $underzettersEn
 
-$bladwijzersHtml = Render-CategorySection `
+$bladwijzersHtmlEn = Render-CategorySection `
   -Heading "All wooden bookmarks" `
-  -Description "Browse $($bladwijzers.Count) wooden bookmarks for readers, fantasy fans, sci-fi gifts and thoughtful book lovers." `
+  -Description "Browse $($bladwijzersEn.Count) wooden bookmarks for readers, fantasy fans, sci-fi gifts and thoughtful book lovers." `
   -ButtonUrl "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" `
   -ButtonLabel "View all bookmarks on Etsy" `
-  -Products $bladwijzers
+  -Products $bladwijzersEn
 
-$cadeausHtml = Render-GiftSections $cadeaus
+$cadeausHtmlEn = Render-GiftSections $cadeausEn
 
-Replace-MarkerBlock -Path "pages\onderzetters.html" -Marker "AUTO-CATALOG-ONDERZETTERS" -Content $underzettersHtml
-Replace-MarkerBlock -Path "pages\bladwijzers.html" -Marker "AUTO-CATALOG-BLADWIJZERS" -Content $bladwijzersHtml
-Replace-MarkerBlock -Path "pages\houten-cadeaus.html" -Marker "AUTO-CATALOG-HOUTEN-CADEAUS" -Content $cadeausHtml
+Replace-MarkerBlock -Path "en\pages\onderzetters.html" -Marker "AUTO-CATALOG-ONDERZETTERS" -Content $underzettersHtmlEn
+Replace-MarkerBlock -Path "en\pages\bladwijzers.html" -Marker "AUTO-CATALOG-BLADWIJZERS" -Content $bladwijzersHtmlEn
+Replace-MarkerBlock -Path "en\pages\houten-cadeaus.html" -Marker "AUTO-CATALOG-HOUTEN-CADEAUS" -Content $cadeausHtmlEn
