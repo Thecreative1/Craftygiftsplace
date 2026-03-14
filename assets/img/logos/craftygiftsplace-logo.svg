@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Craftygiftsplace logo</title>
+  <desc id="logoDesc">Transparent craft-inspired emblem with warm orange ring and handmade tools.</desc>
+  <defs>
+    <linearGradient id="logoGradient" x1="24" y1="28" x2="194" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f24817" />
+      <stop offset="1" stop-color="#e8a03c" />
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke="url(#logoGradient)" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="110" r="87" stroke-width="10" />
+    <path d="M34 68c14-24 41-40 72-42 35-2 69 14 89 42" stroke-width="3.5" opacity="0.85" />
+    <path d="M187 151c-16 25-45 42-78 43-34 1-66-15-84-42" stroke-width="3.5" opacity="0.75" />
+    <circle cx="47" cy="110" r="6" fill="url(#logoGradient)" stroke="none" />
+    <circle cx="173" cy="110" r="6" fill="url(#logoGradient)" stroke="none" />
+  </g>
+
+  <g fill="none" stroke="url(#logoGradient)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 74l11 2v49H73V88c0-6 3-11 7-14z" stroke-width="4" />
+    <path d="M73 98h18" stroke-width="4" />
+    <path d="M103 107l11 12" stroke-width="4.5" />
+    <path d="M118 122c0 7-5 12-12 12s-12-5-12-12 5-12 12-12 12 5 12 12z" stroke-width="4" />
+    <path d="M128 91l-10 31" stroke-width="4.5" />
+    <path d="M126 134c0 7-5 12-12 12s-12-5-12-12 5-12 12-12 12 5 12 12z" stroke-width="4" />
+    <path d="M136 85l18 10-11 11 17 17" stroke-width="4" />
+    <path d="M158 90l-8 24" stroke-width="4" />
+    <path d="M150 100l15 10" stroke-width="4" />
+    <path d="M149 108l-23 6 18 10" stroke-width="4" />
+  </g>
+</svg>
