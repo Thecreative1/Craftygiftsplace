@@ -86,7 +86,6 @@ img {
   width: 58px;
   height: 58px;
   flex: 0 0 auto;
-  filter: drop-shadow(0 10px 20px rgba(242, 72, 23, 0.14));
 }
 
 .brand-copy {
