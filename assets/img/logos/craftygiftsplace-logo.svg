@@ -1,31 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="logoTitle logoDesc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="logoTitle logoDesc">
   <title id="logoTitle">Craftygiftsplace logo</title>
-  <desc id="logoDesc">Transparent craft-inspired emblem with warm orange ring and handmade tools.</desc>
+  <desc id="logoDesc">A craft-themed circular logo with an orange brush ring, curved text and handmade tools.</desc>
   <defs>
-    <linearGradient id="logoGradient" x1="24" y1="28" x2="194" y2="192" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f24817" />
-      <stop offset="1" stop-color="#e8a03c" />
+    <linearGradient id="ringGradient" x1="34" y1="28" x2="286" y2="294" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f04a19" />
+      <stop offset="0.55" stop-color="#f24f18" />
+      <stop offset="1" stop-color="#f5a237" />
     </linearGradient>
+    <linearGradient id="toolGradient" x1="102" y1="98" x2="224" y2="222" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2b14c" />
+      <stop offset="1" stop-color="#eb8a2c" />
+    </linearGradient>
+    <path id="textArcTop" d="M79 160a81 81 0 0 1 162 0" />
+    <path id="textArcBottom" d="M241 160a81 81 0 0 1-162 0" />
   </defs>
 
-  <g fill="none" stroke="url(#logoGradient)" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="110" cy="110" r="87" stroke-width="10" />
-    <path d="M34 68c14-24 41-40 72-42 35-2 69 14 89 42" stroke-width="3.5" opacity="0.85" />
-    <path d="M187 151c-16 25-45 42-78 43-34 1-66-15-84-42" stroke-width="3.5" opacity="0.75" />
-    <circle cx="47" cy="110" r="6" fill="url(#logoGradient)" stroke="none" />
-    <circle cx="173" cy="110" r="6" fill="url(#logoGradient)" stroke="none" />
+  <g fill="none" stroke="url(#ringGradient)" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="160" cy="160" r="129" stroke-width="7.5" opacity="0.98" />
+    <path d="M24 169c-7-49 8-98 43-130 28-27 67-43 107-43 53 0 103 27 133 72" stroke-width="24" />
+    <path d="M302 98c22 59 9 128-35 176-34 38-86 59-138 55-69-5-128-53-151-116" stroke-width="16" opacity="0.96" />
+    <path d="M48 92c25-33 63-54 104-57 47-4 95 14 129 49" stroke-width="3" opacity="0.75" />
+    <path d="M289 184c-12 31-35 58-65 75-29 17-62 24-95 19-39-5-75-25-100-56" stroke-width="3" opacity="0.75" />
   </g>
 
-  <g fill="none" stroke="url(#logoGradient)" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M80 74l11 2v49H73V88c0-6 3-11 7-14z" stroke-width="4" />
-    <path d="M73 98h18" stroke-width="4" />
-    <path d="M103 107l11 12" stroke-width="4.5" />
-    <path d="M118 122c0 7-5 12-12 12s-12-5-12-12 5-12 12-12 12 5 12 12z" stroke-width="4" />
-    <path d="M128 91l-10 31" stroke-width="4.5" />
-    <path d="M126 134c0 7-5 12-12 12s-12-5-12-12 5-12 12-12 12 5 12 12z" stroke-width="4" />
-    <path d="M136 85l18 10-11 11 17 17" stroke-width="4" />
-    <path d="M158 90l-8 24" stroke-width="4" />
-    <path d="M150 100l15 10" stroke-width="4" />
-    <path d="M149 108l-23 6 18 10" stroke-width="4" />
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="3.4">
+    <text font-size="25" fill="#f04a19">
+      <textPath href="#textArcTop" startOffset="50%" text-anchor="middle">CRAFTYGIFTS</textPath>
+    </text>
+    <text font-size="25" fill="#ef9a32">
+      <textPath href="#textArcBottom" startOffset="50%" text-anchor="middle">CRAFTYGIFTS</textPath>
+    </text>
+  </g>
+
+  <g>
+    <circle cx="82" cy="160" r="8" fill="#f04a19" />
+    <circle cx="238" cy="160" r="8" fill="#f04a19" />
+  </g>
+
+  <g fill="none" stroke="url(#toolGradient)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M129 106l18 3v56h-30v-41c0-9 4-15 12-18z" />
+    <path d="M117 134h30" />
+    <path d="M112 134v18" />
+
+    <path d="M158 126l-18 47" />
+    <path d="M173 126l-33 65" />
+    <circle cx="136" cy="197" r="12" />
+    <circle cx="159" cy="190" r="12" />
+
+    <path d="M184 118l18 46" />
+    <path d="M199 112l36 21-23 22 32 31" />
+    <path d="M216 120l-11 34" />
+    <path d="M211 132l22 13" />
+    <path d="M208 145l-30 9 25 15" />
+    <path d="M199 121l20-4" />
+  </g>
+
+  <g fill="#df2f1c">
+    <rect x="152" y="152" width="7" height="7" rx="2" />
+    <rect x="204" y="139" width="10" height="8" rx="2" />
   </g>
 </svg>
