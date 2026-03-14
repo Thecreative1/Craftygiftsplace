@@ -196,19 +196,70 @@ function Get-ProductDescription {
     [string[]]$Tags
   )
 
-  $primaryKeyword = Get-PrimaryKeyword -Category $Category -Section $Section -Tags $Tags
-  $secondaryKeyword = Get-SecondaryKeyword -Category $Category -Section $Section -Tags $Tags
   $cleanName = Normalize-Keyword $Name
+  $joinedTags = ($Tags -join " ").ToLowerInvariant()
 
   switch ($Category) {
     "onderzetters" {
-      return "$cleanName is een $primaryKeyword, met mooi detail en warme uitstraling, ideaal als $secondaryKeyword."
+      if ($joinedTags -match "dog|dog paw|paw print") {
+        return "$cleanName brengt een warm accent op tafel en is een mooi cadeau voor hondenliefhebbers."
+      }
+
+      if ($joinedTags -match "cat|feline|paw|pet") {
+        return "$cleanName geeft tafel en interieur een gezellige uitstraling en past perfect bij kattenliefhebbers."
+      }
+
+      if ($joinedTags -match "zodiac|astrology|horoscope|celestial|moon|witchy") {
+        return "$cleanName geeft tafel en interieur een mystieke houten touch en past mooi bij housewarming of een persoonlijk cadeau."
+      }
+
+      if ($joinedTags -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") {
+        return "$cleanName is een houten onderzetter met speels thema voor game night, hobbyhoek of een origineel cadeau."
+      }
+
+      return "$cleanName is een houten onderzetter met warme uitstraling voor tafel, huis en cadeau-momenten."
     }
     "bladwijzers" {
-      return "$cleanName is een $primaryKeyword, met fijne afwerking en een persoonlijk accent voor $secondaryKeyword."
+      if ($joinedTags -match "dragon|fantasy|witch|gothic|lotr|tolkien") {
+        return "$cleanName is een houten bladwijzer met fantasy sfeer voor lezers die van detail en karakter houden."
+      }
+
+      if ($joinedTags -match "dune|sci-fi|rocket") {
+        return "$cleanName is een houten bladwijzer voor sci-fi lezers en een bijzonder cadeau voor boekenliefhebbers."
+      }
+
+      if ($joinedTags -match "celtic|lighthouse|guitar|sardine|feather") {
+        return "$cleanName geeft elk leesmoment een rustig en persoonlijk detail met een mooie houten afwerking."
+      }
+
+      return "$cleanName is een houten bladwijzer die lezen net wat persoonlijker en specialer maakt."
     }
     default {
-      return "$cleanName is een $primaryKeyword dat sfeer, karakter en cadeauwaarde toevoegt voor wie zoekt naar $secondaryKeyword."
+      switch ($Section) {
+        "deurhangers-en-borden" {
+          return "$cleanName is een houten deurhanger die deur of kamer meteen een speelse en persoonlijke uitstraling geeft."
+        }
+
+        "decoratie-en-sfeer" {
+          return "$cleanName is houten decoratie die warmte en sfeer brengt in huis."
+        }
+
+        "ornamenten-en-seizoenscadeaus" {
+          return "$cleanName is een houten ornament met een warme uitstraling voor feestdagen en kleine cadeau-momenten."
+        }
+
+        "persoonlijke-cadeaus" {
+          return "$cleanName is een gepersonaliseerd houten cadeau voor bruiloft, geboorte of een ander bijzonder moment."
+        }
+
+        "kleine-cadeaus-en-diy" {
+          return "$cleanName is een klein houten item dat leuk is om te geven, te gebruiken of creatief af te werken."
+        }
+
+        default {
+          return "$cleanName is een origineel houten cadeau met een warme, handgemaakte uitstraling."
+        }
+      }
     }
   }
 }
@@ -313,8 +364,8 @@ function Render-GiftSections {
     "decoratie-en-sfeer" = "Tealight holders, incense accessoires en decoratieve stukken die meteen sfeer toevoegen."
     "ornamenten-en-seizoenscadeaus" = "Kerstornamenten en seizoenscadeaus met een persoonlijke of feestelijke toets."
     "persoonlijke-cadeaus" = "Babycadeaus, trouwcadeaus, keepsakes en andere stukken voor bijzondere momenten."
-    "kleine-cadeaus-en-diy" = "DIY sets, kleine gadgets en speelse houten ideeen om zelf te geven of te gebruiken."
-    "overige-houten-cadeaus" = "Overige houten cadeaus die niet netjes in een kleinere groep vallen, maar wel perfect passen in de shop."
+    "kleine-cadeaus-en-diy" = "DIY sets, kleine gadgets en speelse houten ideeen die leuk zijn om te geven of zelf te gebruiken."
+    "overige-houten-cadeaus" = "Meer houten cadeaus met een eigen stijl en handgemaakte uitstraling."
   }
 
   $order = @(
@@ -350,7 +401,7 @@ $((Render-Grid $items))
           <div class="catalog-header">
             <div>
               <h2>Alle houten cadeaus</h2>
-              <p>Hier vind je de volledige selectie houten cadeaus uit de shop, netjes gegroepeerd per type product.</p>
+              <p>Hier vind je houten cadeaus voor thuis, feestdagen en persoonlijke momenten, overzichtelijk ingedeeld per soort.</p>
             </div>
             <a class="btn" href="https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header" target="_blank" rel="noopener">Bekijk alle houten cadeaus op Etsy</a>
           </div>
