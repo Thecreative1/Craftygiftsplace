@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cat-and-moon-coasters",
+    "name": "Cat and Moon Wooden Coasters Set of 4",
+    "category": "onderzetters",
+    "price_eur": 24.99,
+    "tags": ["cat lover", "celestial decor", "coffee table decor"],
+    "page": "../pages/onderzetters.html",
+    "image": "../assets/img/products/cat-and-moon-coasters.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  },
+  {
+    "id": "zodiac-wooden-coaster-set",
+    "name": "Zodiac Wooden Coaster Set",
+    "category": "onderzetters",
+    "price_eur": 24.99,
+    "tags": ["astrology", "home decor", "gift"],
+    "page": "../pages/onderzetters.html",
+    "image": "../assets/img/products/zodiac-wooden-coasters.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  },
+  {
+    "id": "chess-themed-wood-coasters",
+    "name": "Chess-Themed Wood Coasters Set",
+    "category": "onderzetters",
+    "price_eur": 37.99,
+    "tags": ["game night", "gift for him", "handmade"],
+    "page": "../pages/onderzetters.html",
+    "image": "../assets/img/products/chess-wood-coasters.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  },
+  {
+    "id": "dragon-eye-bookmark",
+    "name": "Dragon Eye Bookmark",
+    "category": "bladwijzers",
+    "price_eur": 18.99,
+    "tags": ["fantasy", "book lover", "gift"],
+    "page": "../pages/bladwijzers.html",
+    "image": "../assets/img/products/dragon-eye-bookmark.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  },
+  {
+    "id": "dune-wooden-bookmark",
+    "name": "Dune Wooden Bookmark",
+    "category": "bladwijzers",
+    "price_eur": 12.99,
+    "tags": ["sci-fi", "reader gift", "themed"],
+    "page": "../pages/bladwijzers.html",
+    "image": "../assets/img/products/dune-bookmark.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  },
+  {
+    "id": "celtic-wooden-bookmark",
+    "name": "Celtic Wooden Bookmark",
+    "category": "bladwijzers",
+    "price_eur": 14.99,
+    "tags": ["celtic", "laser engraved", "book lover"],
+    "page": "../pages/bladwijzers.html",
+    "image": "../assets/img/products/celtic-bookmark.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  },
+  {
+    "id": "moon-cat-tealight-holder",
+    "name": "Moon Cat Shadow Tealight Holder",
+    "category": "houten-cadeaus",
+    "price_eur": 10.99,
+    "tags": ["home decor", "cat lover", "cozy gift"],
+    "page": "../pages/houten-cadeaus.html",
+    "image": "../assets/img/products/moon-cat-tealight-holder.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  },
+  {
+    "id": "wow-door-sign",
+    "name": "WoW Door Sign",
+    "category": "houten-cadeaus",
+    "price_eur": 12.99,
+    "tags": ["gaming", "door hanger", "gift"],
+    "page": "../pages/houten-cadeaus.html",
+    "image": "../assets/img/products/wow-door-sign.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  },
+  {
+    "id": "just-married-door-hanger",
+    "name": "Personalized Just Married Wooden Door Hanger",
+    "category": "houten-cadeaus",
+    "price_eur": 17.99,
+    "tags": ["wedding", "keepsake", "personalized"],
+    "page": "../pages/houten-cadeaus.html",
+    "image": "../assets/img/products/just-married-door-hanger.jpg",
+    "source": "../EtsyListingsDownload.csv"
+  }
+]
