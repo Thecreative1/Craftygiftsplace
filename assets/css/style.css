@@ -253,14 +253,14 @@ img {
 }
 
 .hero {
-  padding: 3.4rem 0 2.6rem;
+  padding: 1.4rem 0 2.6rem;
 }
 
 .hero-shell {
   display: grid;
-  grid-template-columns: 1.08fr 0.92fr;
-  gap: 1.4rem;
-  align-items: stretch;
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
+  gap: 1rem;
+  align-items: start;
 }
 
 .hero-copy,
@@ -282,7 +282,7 @@ img {
 }
 
 .hero-copy {
-  padding: 2.1rem;
+  padding: 1.9rem;
 }
 
 .eyebrow {
@@ -359,24 +359,26 @@ h2 {
 }
 
 .hero-visual {
-  min-height: 460px;
-  max-width: 540px;
+  min-height: auto;
+  max-width: 390px;
   width: 100%;
   justify-self: end;
-  overflow: hidden;
-  position: relative;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.06)),
-    radial-gradient(circle at top right, rgba(181, 110, 62, 0.16), transparent 24%),
-    linear-gradient(135deg, #dbc5b2 0%, #eee1d4 42%, #f7f2eb 100%);
+  display: grid;
+  gap: 0.8rem;
+  align-content: start;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .hero-photo-zone {
-  position: absolute;
-  inset: 1.5rem 1.5rem 1.5rem 1.5rem;
+  position: relative;
+  min-height: 290px;
   border-radius: 20px;
   overflow: hidden;
   border: 1px solid rgba(31, 26, 23, 0.12);
+  box-shadow: var(--shadow);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.55)),
     radial-gradient(circle at center, rgba(169, 107, 61, 0.1), transparent 34%);
@@ -411,24 +413,19 @@ h2 {
 
 .hero-note,
 .badge-card {
-  position: absolute;
-  z-index: 2;
+  position: static;
   background: rgba(255, 253, 249, 0.98);
   border: 1px solid var(--line);
   border-radius: 18px;
-  padding: 1rem;
-  max-width: 240px;
+  padding: 0.95rem 1rem;
+  max-width: none;
   box-shadow: var(--shadow);
 }
 
-.badge-card {
-  top: 1rem;
-  right: 1rem;
-}
-
-.hero-note {
-  left: 1rem;
-  bottom: 1rem;
+.hero-visual-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
 }
 
 .badge-card strong,
@@ -448,6 +445,123 @@ h2 {
   padding: 1.3rem 0 3.2rem;
 }
 
+.shop-strip {
+  padding: 1rem 0 0.4rem;
+}
+
+.carousel-shell {
+  padding: 1.25rem;
+  background: linear-gradient(135deg, #fffdfa 0%, #f0e5d9 100%);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.carousel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.carousel-header p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.carousel-controls {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.carousel-button {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(31, 26, 23, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 253, 249, 0.94);
+  color: var(--accent-dark);
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+}
+
+.carousel-button:hover {
+  transform: translateY(-2px);
+  background: #fff;
+  border-color: rgba(31, 26, 23, 0.28);
+}
+
+.carousel-button:focus-visible {
+  outline: 3px solid rgba(169, 107, 61, 0.28);
+  outline-offset: 3px;
+}
+
+.carousel-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(220px, 24%);
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.35rem;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(122, 74, 43, 0.45) rgba(245, 239, 231, 0.85);
+}
+
+.carousel-track:focus-visible {
+  outline: 3px solid rgba(169, 107, 61, 0.28);
+  outline-offset: 4px;
+  border-radius: 20px;
+}
+
+.carousel-card {
+  min-width: 0;
+  overflow: hidden;
+  scroll-snap-align: start;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.carousel-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 34px rgba(34, 24, 16, 0.12);
+}
+
+.carousel-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.carousel-card-body {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem;
+}
+
+.carousel-card-body strong {
+  font-size: 1.02rem;
+  line-height: 1.2;
+}
+
+.carousel-card-body span:last-child {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .section-head {
   display: flex;
   justify-content: space-between;
@@ -461,65 +575,6 @@ h2 {
   margin: 0;
   color: var(--muted);
   max-width: 62ch;
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr;
-  grid-auto-rows: 210px;
-  gap: 1rem;
-}
-
-.gallery-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--radius);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  min-height: 210px;
-  background: #ddd1c6;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.gallery-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 20px 34px rgba(34, 24, 16, 0.12);
-}
-
-.gallery-card-large {
-  grid-row: span 2;
-}
-
-.gallery-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.gallery-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(17, 12, 8, 0.06), rgba(17, 12, 8, 0.68));
-}
-
-.gallery-overlay {
-  position: absolute;
-  inset: auto 0 0 0;
-  z-index: 1;
-  padding: 1.1rem;
-  color: #fff;
-}
-
-.gallery-overlay strong {
-  display: block;
-  margin-bottom: 0.18rem;
-  font-size: 1.08rem;
-}
-
-.gallery-overlay span {
-  font-size: 0.92rem;
-  opacity: 0.92;
 }
 
 .trust-grid,
@@ -905,18 +960,16 @@ footer {
   }
 
   .hero-visual {
-    min-height: 420px;
     max-width: 100%;
     justify-self: stretch;
   }
 
-  .gallery-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-auto-rows: 220px;
+  .carousel-track {
+    grid-auto-columns: minmax(240px, 42%);
   }
 
-  .gallery-card-large {
-    grid-row: span 1;
+  .hero-visual-meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1018,7 +1071,6 @@ footer {
   }
 
   .hero-shell,
-  .gallery-grid,
   .category-grid,
   .product-grid,
   .why-grid,
@@ -1048,18 +1100,15 @@ footer {
   }
 
   .hero-photo-zone {
-    position: relative;
-    inset: auto;
-    min-height: 320px;
+    min-height: 260px;
+  }
+
+  .hero-visual-meta {
+    grid-template-columns: 1fr;
   }
 
   .badge-card,
   .hero-note {
-    position: relative;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
     max-width: none;
   }
 
@@ -1082,6 +1131,28 @@ footer {
   .cta-panel .btn,
   .catalog-header .btn {
     width: 100%;
+  }
+
+  .carousel-shell {
+    padding: 1rem;
+  }
+
+  .carousel-header {
+    align-items: stretch;
+  }
+
+  .carousel-controls {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .carousel-button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .carousel-track {
+    grid-auto-columns: 82%;
   }
 
   .listing-photo {
