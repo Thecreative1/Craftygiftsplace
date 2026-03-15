@@ -1384,3 +1384,17 @@ footer {
     max-width: 100%;
   }
 }
+
+@media (max-width: 540px) {
+  .brand {
+    max-width: calc(100% - 176px);
+  }
+
+  .brand-copy > span {
+    display: none;
+  }
+
+  .language-switch-mobile .language-code {
+    font-size: 0.76rem;
+  }
+}
