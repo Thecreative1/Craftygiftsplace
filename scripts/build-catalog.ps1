@@ -175,6 +175,169 @@ function Normalize-Keyword {
   return ($Value -replace "\s+", " ").Trim()
 }
 
+function Convert-ToTitleCasePreservingAcronyms {
+  param([string]$Value)
+
+  $clean = Normalize-Keyword $Value
+  if ([string]::IsNullOrWhiteSpace($clean)) {
+    return $clean
+  }
+
+  $textInfo = [System.Globalization.CultureInfo]::InvariantCulture.TextInfo
+  $title = $textInfo.ToTitleCase($clean.ToLowerInvariant())
+  $title = $title -replace "\bMmo\b", "MMO"
+  $title = $title -replace "\bMoba\b", "MOBA"
+  $title = $title -replace "\bFps\b", "FPS"
+  $title = $title -replace "\bDiy\b", "DIY"
+  $title = $title -replace "\bSci Fi\b", "Sci-Fi"
+  $title = $title -replace "\bDo Not\b", "Do Not"
+
+  return Normalize-Keyword $title
+}
+
+function Convert-ToSentenceCasePreservingAcronyms {
+  param([string]$Value)
+
+  $clean = Normalize-Keyword $Value
+  if ([string]::IsNullOrWhiteSpace($clean)) {
+    return $clean
+  }
+
+  $sentence = $clean.Substring(0, 1).ToUpperInvariant() + $clean.Substring(1)
+  $sentence = $sentence -replace "\bMmo\b", "MMO"
+  $sentence = $sentence -replace "\bMoba\b", "MOBA"
+  $sentence = $sentence -replace "\bFps\b", "FPS"
+  $sentence = $sentence -replace "\bDiy\b", "DIY"
+  $sentence = $sentence -replace "\bSci-Fi\b", "sci-fi"
+
+  return Normalize-Keyword $sentence
+}
+
+function Format-DisplayNameByCategory {
+  param(
+    [string]$Name,
+    [string]$Category,
+    [string]$Section
+  )
+
+  $clean = Normalize-Keyword $Name
+  if ([string]::IsNullOrWhiteSpace($clean)) {
+    return $clean
+  }
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($clean -match "(?i)\bcalendar\b") {
+        return "Personalized Calendar Coaster"
+      }
+
+      $motif = $clean
+      $motif = $motif -replace "(?i)\bwooden drink coasters?\b", ""
+      $motif = $motif -replace "(?i)\bwooden coasters?\b", ""
+      $motif = $motif -replace "(?i)\bwood coasters?\b", ""
+      $motif = $motif -replace "(?i)\bcoaster set\b", ""
+      $motif = $motif -replace "(?i)\bcoasters?\b", ""
+      $motif = $motif -replace "(?i)\bset of \d+(?:\s*or\s*\d+)?\b", ""
+      $motif = $motif -replace "(?i)\b4 or 6\b", ""
+      $motif = $motif -replace "(?i)\bset\b", ""
+      $motif = $motif -replace "(?i)^wooden\s+", ""
+      $motif = $motif -replace "(?i)\s+wooden$", ""
+      $motif = $motif -replace "/\s*6\b", ""
+      $motif = Normalize-Keyword ($motif.Trim(" ", "-", ",", ".", "/"))
+
+      if ([string]::IsNullOrWhiteSpace($motif)) {
+        return "Classic Wooden Coasters"
+      }
+
+      return Convert-ToTitleCasePreservingAcronyms "$motif Wooden Coasters"
+    }
+    "bladwijzers" {
+      if ($clean -match "(?i)\bgift set\b") {
+        return Convert-ToTitleCasePreservingAcronyms $clean
+      }
+
+      $motif = $clean
+      $motif = $motif -replace "(?i)\bwooden bookmarks?\b", ""
+      $motif = $motif -replace "(?i)\bbookmarks?\b", ""
+      $motif = $motif -replace "(?i)^wooden\s+", ""
+      $motif = $motif -replace "(?i)\s+wooden$", ""
+      $motif = Normalize-Keyword ($motif.Trim(" ", "-", ",", ".", "/"))
+
+      if ([string]::IsNullOrWhiteSpace($motif)) {
+        return "Classic Wooden Bookmark"
+      }
+
+      return Convert-ToTitleCasePreservingAcronyms "$motif Wooden Bookmark"
+    }
+    default {
+      return Convert-ToTitleCasePreservingAcronyms $clean
+    }
+  }
+}
+
+function Format-DisplayNameNlByCategory {
+  param(
+    [string]$Name,
+    [string]$Category,
+    [string]$Section
+  )
+
+  $clean = Normalize-Keyword $Name
+  if ([string]::IsNullOrWhiteSpace($clean)) {
+    return $clean
+  }
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($clean -match "(?i)\bkalender\b") {
+        return "Gepersonaliseerde kalenderonderzetter"
+      }
+
+      $motif = $clean
+      $motif = $motif -replace "(?i)\bhouten onderzetters\b", ""
+      $motif = $motif -replace "(?i)\bonderzetterset\b", ""
+      $motif = $motif -replace "(?i)\bonderzetters\b", ""
+      $motif = $motif -replace "(?i)\bonderzetter\b", ""
+      $motif = $motif -replace "(?i)\bset van \d+(?:\s*of\s*\d+)?\b", ""
+      $motif = $motif -replace "(?i)\b4 of 6\b", ""
+      $motif = $motif -replace "(?i)\bset\b", ""
+      $motif = $motif -replace "(?i)^houten\s+", ""
+      $motif = $motif -replace "(?i)\s+houten$", ""
+      $motif = $motif -replace "/\s*6\b", ""
+      $motif = Normalize-Keyword ($motif.Trim(" ", "-", ",", ".", "/"))
+
+      if ([string]::IsNullOrWhiteSpace($motif)) {
+        return "Klassieke houten onderzetters"
+      }
+
+      return Convert-ToSentenceCasePreservingAcronyms "$motif houten onderzetters"
+    }
+    "bladwijzers" {
+      if ($clean -match "(?i)\bcadeauset\b") {
+        return Convert-ToSentenceCasePreservingAcronyms $clean
+      }
+
+      $motif = $clean
+      $motif = $motif -replace "(?i)\bhouten bladwijzers\b", ""
+      $motif = $motif -replace "(?i)\bhouten bladwijzer\b", ""
+      $motif = $motif -replace "(?i)\bbladwijzers\b", ""
+      $motif = $motif -replace "(?i)\bbladwijzer\b", ""
+      $motif = $motif -replace "(?i)^houten\s+", ""
+      $motif = $motif -replace "(?i)\s+houten$", ""
+      $motif = Normalize-Keyword ($motif.Trim(" ", "-", ",", ".", "/"))
+
+      if ([string]::IsNullOrWhiteSpace($motif)) {
+        return "Klassieke houten bladwijzer"
+      }
+
+      return Convert-ToSentenceCasePreservingAcronyms "$motif houten bladwijzer"
+    }
+    default {
+      return Convert-ToSentenceCasePreservingAcronyms $clean
+    }
+  }
+}
+
 function Get-SafeDisplayText {
   param([string]$Text)
 
@@ -269,7 +432,7 @@ function Get-SiteDisplayName {
   }
 
   if ($matchSource -match "bee|honey bee" -and $matchSource -match "coaster") {
-    return "Bee Engraved Wooden Coasters"
+    return "Bee Motif Wooden Coasters"
   }
 
   if ($matchSource -match "tree of life" -and $matchSource -match "coaster") {
@@ -373,10 +536,22 @@ function Get-SiteDisplayName {
   $clean = $clean -replace "(?i)\bdoor knob sign\b", "door hanger"
   $clean = $clean -replace "(?i)\bwooden coasters set\b", "wooden coasters"
   $clean = $clean -replace "(?i)\bcoasters set\b", "coasters"
+  $clean = $clean -replace "(?i)\b4 or 6\b", ""
+  $clean = $clean -replace "/\s*6\b", ""
+  $clean = $clean -replace "(?i)\bBee Motif\b", "Bee Motif"
+  $clean = $clean -replace "(?i)\bCarved Wooden Dragon\b", "Dragon"
+  $clean = $clean -replace "(?i)\bCarved Dragon\b", "Dragon"
+  $clean = $clean -replace "(?i)\bWooden Dragon\b", "Dragon"
+  $clean = $clean -replace "(?i)\bChess-Themed\b", "Chess"
+  $clean = $clean -replace "(?i)\bCarved Floral\b", "Floral"
+  $clean = $clean -replace "(?i)\bWooden Leaf\b", "Leaf"
+  $clean = $clean -replace "(?i)\bFunny Husband Medals\b", "Funny Husband Medal"
+  $clean = $clean -replace "(?i)\bGerman Forest Animal\b", "Forest Animal"
+  $clean = $clean -replace "(?i)\bReligious\b", "Faith-Inspired"
   $clean = $clean -replace "\s{2,}", " "
   $clean = $clean.Trim(" ", "-", ",", "!", ".", ":")
 
-  return Normalize-Keyword $clean
+  return Format-DisplayNameByCategory -Name $clean -Category ($(if ($matchSource -match "bookmark") { "bladwijzers" } elseif ($matchSource -match "coaster|untersetzer") { "onderzetters" } else { "houten-cadeaus" })) -Section ""
 }
 
 function Get-SiteDisplayNameNl {
@@ -420,23 +595,81 @@ function Get-SiteDisplayNameNl {
   $localized = $localized -replace "(?i)\bEco-Friendly\b", "Eco"
   $localized = $localized -replace "(?i)\bSign\b", "bord"
   $localized = $localized -replace "(?i)\b4 or 6\b", "4 of 6"
+  $localized = $localized -replace "(?i)\bCat And Moon\b", "kat en maan"
+  $localized = $localized -replace "(?i)\bSun And Moon\b", "zon en maan"
+  $localized = $localized -replace "(?i)\bMoon Cat Shadow\b", "maan en kat"
+  $localized = $localized -replace "(?i)\bDog Paw\b", "hondenpoot"
+  $localized = $localized -replace "(?i)\bDragon Eye\b", "drakenoog"
+  $localized = $localized -replace "(?i)\bDragon\b", "draak"
+  $localized = $localized -replace "(?i)\bTree Of Life\b", "levensboom"
+  $localized = $localized -replace "(?i)\bLeaf\b", "blad"
+  $localized = $localized -replace "(?i)\bFloral\b", "bloemen"
+  $localized = $localized -replace "(?i)\bAnchor\b", "anker"
+  $localized = $localized -replace "(?i)\bCeltic Knot\b", "keltische knoop"
+  $localized = $localized -replace "(?i)\bCeltic\b", "keltische"
+  $localized = $localized -replace "(?i)\bMayan Disc\b", "maya-schijf"
+  $localized = $localized -replace "(?i)\bGerman Forest Animal\b", "bosdieren"
+  $localized = $localized -replace "(?i)\bPortuguese Tile\b", "Portugese tegel"
+  $localized = $localized -replace "(?i)\bPersian Turkish\b", "Perzische tegel"
+  $localized = $localized -replace "(?i)\bSamurai Mask\b", "samoeraimasker"
+  $localized = $localized -replace "(?i)\bSpider Web\b", "spinnenweb"
+  $localized = $localized -replace "(?i)\bGothic Skull\b", "gotische schedel"
+  $localized = $localized -replace "(?i)\bWildlife\b", "wilde dieren"
+  $localized = $localized -replace "(?i)\bReligious\b", "religieuze"
+  $localized = $localized -replace "(?i)\bSpace Saga\b", "ruimtesaga"
+  $localized = $localized -replace "(?i)\bDesert Saga\b", "woestijnsaga"
+  $localized = $localized -replace "(?i)\bEpic Fantasy\b", "epische fantasy"
+  $localized = $localized -replace "(?i)\bMy First Christmas Ornament\b", "mijn eerste kerstornament"
+  $localized = $localized -replace "(?i)\bDIY Christmas Ornaments\b", "kerstornamenten om zelf te versieren"
+  $localized = $localized -replace "(?i)\bDo Not Ring\b", "niet aanbellen"
+  $localized = $localized -replace "(?i)\bNo Cameras\b", "geen camera's"
+  $localized = $localized -replace "(?i)\bFunny Husband Medals\b", "grappige medailles voor hem"
+  $localized = $localized -replace "(?i)\bFunny Husband Medal\b", "grappige medaille voor hem"
+  $localized = $localized -replace "(?i)\bFunny Swear Word\b", "ondeugende tekst"
+  $localized = $localized -replace "(?i)\bCarved Floral\b", "bloemen"
+  $localized = $localized -replace "(?i)\bZodiac Set\b", "zodiac"
+  $localized = $localized -replace "(?i)\bForest Animal\b", "bosdieren"
+  $localized = $localized -replace "(?i)\bFaith-Inspired\b", "religieuze"
+  $localized = $localized -replace "(?i)\bLaser Birch\b", "berkenhouten"
+  $localized = $localized -replace "(?i)\bBirch\b", "berken"
+  $localized = $localized -replace "(?i)\bHand-Painted\b", "handbeschilderde"
+  $localized = $localized -replace "(?i)\bSports Ball\b", "sportbal"
+  $localized = $localized -replace "(?i)\bSugar Skull\b", "suikerschedel"
+  $localized = $localized -replace "(?i)\bAces Poker\b", "pokeraas"
+  $localized = $localized -replace "(?i)\bPrayer In Progress\b", "gebed bezig"
+  $localized = $localized -replace "(?i)\bJust Married\b", "pasgetrouwd"
+  $localized = $localized -replace "(?i)\bPet Memorial Plaque\b", "herinneringsplaat voor huisdier"
+  $localized = $localized -replace "(?i)\bBald Man's Comb\b", "kam voor kale man"
+  $localized = $localized -replace "(?i)\bUpcycled Ram\b", "upcyclede RAM"
+  $localized = $localized -replace "(?i)\bMushroom Moon\b", "paddenstoel en maan"
+  $localized = $localized -replace "(?i)\bWiccan Symbol\b", "wicca-symbool"
+  $localized = $localized -replace "(?i)\bWiccan\b", "wicca"
+  $localized = $localized -replace "(?i)\bGaming Do Not Disturb\b", "gaming niet storen"
+  $localized = $localized -replace "(?i)\bDIY Halloween Kit\b", "Halloween knutselset"
+  $localized = $localized -replace "(?i)\bPicasso Animal Line Art\b", "Picasso dierenlijnkunst"
+  $localized = $localized -replace "(?i)\bFantasy Reader\b", "fantasylezer"
+  $localized = $localized -replace "(?i)\bNumicon Set\b", "Numicon set"
+  $localized = $localized -replace "(?i)\bBirch houten Houten cirkels\b", "berkenhouten cirkels"
+  $localized = $localized -replace "(?i)\bBerken houten Houten cirkels\b", "berkenhouten cirkels"
+  $localized = $localized -replace "(?i)\bGaming niet storen bord\b", "gaming niet-storenbord"
+  $localized = $localized -replace "(?i)\bChess\b", "schaak"
+  $localized = $localized -replace "(?i)\bBaby\b", "baby"
+  $localized = $localized -replace "(?i)\bTeam\b", "team"
+  $localized = $localized -replace "(?i)\bHorse\b", "paard"
+  $localized = $localized -replace "(?i)\bCat\b", "kat"
+  $localized = $localized -replace "(?i)\bBee\b", "bij"
+  $localized = $localized -replace "(?i)\bBee Motif\b", "bijenmotief"
   $localized = $localized -replace "(?i)\bwooden\b", "houten"
   $localized = $localized -replace "(?i)\bwood\b", "houten"
   $localized = $localized -replace "\s{2,}", " "
-
-  if ($Category -eq "onderzetters" -and $localized -notmatch "(?i)onderzetter") {
-    $localized = "$localized onderzetters"
-  }
-
-  if ($Category -eq "bladwijzers" -and $localized -notmatch "(?i)bladwijzer") {
-    $localized = "$localized bladwijzer"
-  }
 
   if ($Category -eq "houten-cadeaus" -and $Section -eq "decoratie-en-sfeer" -and $localized -notmatch "(?i)theelichthouder|wierookhouder") {
     $localized = $localized -replace "(?i)\bhouten cadeau\b", "houten decoratie"
   }
 
-  return Normalize-Keyword ($localized.Trim(" ", "-", ",", "!", ".", ":"))
+  $localized = $localized.Trim(" ", "-", ",", "!", ".", ":")
+
+  return Format-DisplayNameNlByCategory -Name $localized -Category $Category -Section $Section
 }
 
 function Get-LocalizedTagNl {
@@ -467,6 +700,24 @@ function Get-LocalizedTagNl {
   $localized = $localized -replace "(?i)\breader gift\b", "Lezerscadeau"
   $localized = $localized -replace "(?i)\bhusband gift\b", "Cadeau voor hem"
   $localized = $localized -replace "(?i)\bgamer gift\b", "Gamer cadeau"
+  $localized = $localized -replace "(?i)\bdog paw\b", "Hondenpoot"
+  $localized = $localized -replace "(?i)\bpaw print\b", "Pootafdruk"
+  $localized = $localized -replace "(?i)\bastrology\b", "Astrologie"
+  $localized = $localized -replace "(?i)\bpet lover'?s?\b", "Dierenliefhebber"
+  $localized = $localized -replace "(?i)\bforest animal\b", "Bosdieren"
+  $localized = $localized -replace "(?i)\bbaby keepsake\b", "Babyherinnering"
+  $localized = $localized -replace "(?i)\bdiy\b", "Zelf maken"
+  $localized = $localized -replace "(?i)\bdisc blanks\b", "Houten schijven"
+  $localized = $localized -replace "(?i)\bsamurai\b", "Samoerai"
+  $localized = $localized -replace "(?i)\bmask\b", "Masker"
+  $localized = $localized -replace "(?i)\bchristian\b", "Christelijke"
+  $localized = $localized -replace "(?i)\bvirgin mary\b", "Maria"
+  $localized = $localized -replace "(?i)\bcloset dividers\b", "Kastverdelers"
+  $localized = $localized -replace "(?i)\bnursery organizer\b", "Kinderkamer organizer"
+  $localized = $localized -replace "(?i)\bhalloween decor\b", "Halloween decoratie"
+  $localized = $localized -replace "(?i)\bspooky candle holder\b", "Spannende kaarshouder"
+  $localized = $localized -replace "(?i)\bideas\b", "Ideeen"
+  $localized = $localized -replace "(?i)\bdecor\b", "Decoratie"
 
   return Normalize-Keyword $localized
 }
@@ -548,16 +799,16 @@ function Get-AudiencePhrase {
       if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "game rooms, desks and hobby-inspired gifts" }
       if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return "alternative decor lovers and cozy corners" }
       if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") { return "beach homes, campers and relaxed hosting" }
-      if ($joinedText -match "bee|honey") { return "garden lovers and easy hostess gifts" }
+      if ($joinedText -match "bee|honey") { return "garden lovers and small thank-you gifts" }
       if ($joinedText -match "horse") { return "horse lovers and warm tabletops" }
-      if ($joinedText -match "wildlife|forest") { return "cabin decor lovers and gift-ready tables" }
+      if ($joinedText -match "wildlife|forest") { return "rustic homes and thoughtful table gifts" }
       if ($joinedText -match "leaf|tree|floral|nature|rustic") { return "nature lovers, housewarming gifts and everyday tables" }
       if ($joinedText -match "tile|persian|mayan|samurai|viking|buddha") { return "decor lovers and conversation-starting tables" }
-      return "everyday tables and easy gift moments"
+      return "everyday tables and easy gifting"
     }
     "bladwijzers" {
-      if ($joinedText -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "fantasy readers and gift-worthy reading rituals" }
-      if ($joinedText -match "dune|sci-fi|rocket") { return "sci-fi readers and thoughtful book gifts" }
+      if ($joinedText -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "fantasy readers and special book gifts" }
+      if ($joinedText -match "dune|sci-fi|rocket") { return "sci-fi readers and themed book gifts" }
       return "book lovers and quiet reading moments" }
     default {
       switch ($Section) {
@@ -620,14 +871,14 @@ function Get-DecisionCue {
     }
     "bladwijzers" {
       if ($joinedText -match "dragon|fantasy|witch|gothic|epic fantasy|sword") {
-        return "Slim, lightweight and easy to pair with fantasy books or reader gift boxes."
+        return "Slim, lightweight and easy to tuck into fantasy books or reader gift boxes."
       }
 
       if ($joinedText -match "desert saga|sci-fi|rocket") {
         return "A lightweight reading gift that slips neatly between favorite pages."
       }
 
-      return "Slim, lightweight and easy to pair with a favorite book or reading corner gift."
+      return "Slim, lightweight and easy to add to a favorite book or reader gift."
     }
     default {
       switch ($Section) {
@@ -741,11 +992,11 @@ function Get-PrimaryKeyword {
       if ($joinedTags -match "cat|feline|paw|pet") { return "houten onderzetter voor kattenliefhebbers" }
       if ($joinedTags -match "zodiac|astrology|horoscope|celestial|moon|witchy") { return "houten onderzetter met mystiek design" }
       if ($joinedTags -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "houten onderzetter voor gamers en hobbyliefhebbers" }
-      if ($joinedTags -match "housewarming|home decor|rustic|coastal|tile|nature|tree|floral|bee|leaf|wildlife|horse") { return "houten onderzetter voor housewarming en interieur" }
+      if ($joinedTags -match "housewarming|home decor|rustic|coastal|tile|nature|tree|floral|bee|leaf|wildlife|horse") { return "houten onderzetter voor verhuiscadeaus en interieur" }
       return "houten onderzetter als cadeau"
     }
     "bladwijzers" {
-      if ($joinedTags -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "houten bladwijzer voor fantasy lezers" }
+      if ($joinedTags -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "houten bladwijzer voor fantasylezers" }
       if ($joinedTags -match "dune|sci-fi|rocket") { return "houten bladwijzer voor sci-fi lezers" }
       if ($joinedTags -match "celtic|lighthouse|guitar|sardine|feather") { return "houten bladwijzer met bijzonder detail" }
       return "houten bladwijzer voor boekenliefhebbers"
@@ -776,7 +1027,7 @@ function Get-SecondaryKeyword {
     "onderzetters" {
       if ($joinedTags -match "dog|dog paw|paw print") { return "cadeau voor hondenliefhebbers" }
       if ($joinedTags -match "cat|feline") { return "cadeau voor kattenliefhebbers" }
-      if ($joinedTags -match "zodiac|astrology|horoscope|celestial|moon|witchy") { return "housewarming cadeau" }
+      if ($joinedTags -match "zodiac|astrology|horoscope|celestial|moon|witchy") { return "verhuiscadeau" }
       if ($joinedTags -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "origineel cadeau" }
       return "tafeldecoratie van hout"
     }
@@ -796,6 +1047,83 @@ function Get-SecondaryKeyword {
   }
 }
 
+function Get-UiTags {
+  param(
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags,
+    [string]$Name
+  )
+
+  $joinedText = (($Name + " " + ($Tags -join " ")) | Out-String).Trim().ToLowerInvariant()
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($joinedText -match "dog|paw") { return @("Dog lover", "Everyday use") }
+      if ($joinedText -match "cat|feline") { return @("Cat lover", "Cozy decor") }
+      if ($joinedText -match "zodiac|astrology|horoscope|moon|celestial|witchy") { return @("Astrology", "Housewarming") }
+      if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return @("Game night", "Gift-ready") }
+      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return @("Bold decor", "Statement gift") }
+      if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") { return @("Coastal style", "Host gift") }
+      if ($joinedText -match "bee|honey|leaf|tree|floral|nature|rustic|wildlife|forest") { return @("Nature decor", "Housewarming") }
+      return @("Tabletop decor", "Gift-ready")
+    }
+    "bladwijzers" {
+      if ($joinedText -match "dragon|fantasy|witch|gothic|lotr|tolkien|epic") { return @("Fantasy reader", "Book gift") }
+      if ($joinedText -match "dune|desert|sci-fi|rocket|space") { return @("Sci-fi reader", "Gift-ready") }
+      return @("Book lover", "Reading nook")
+    }
+    default {
+      switch ($Section) {
+        "deurhangers-en-borden" { return @("Door decor", "Desk accent") }
+        "decoratie-en-sfeer" { return @("Cozy decor", "Shelf styling") }
+        "ornamenten-en-seizoenscadeaus" { return @("Seasonal gift", "Keepsake") }
+        "persoonlijke-cadeaus" { return @("Personalized", "Milestone gift") }
+        "kleine-cadeaus-en-diy" { return @("Creative set", "Small gift") }
+        default { return @("Wooden gift", "Thoughtful present") }
+      }
+    }
+  }
+}
+
+function Get-UiTagsNl {
+  param(
+    [string]$Category,
+    [string]$Section,
+    [string[]]$Tags,
+    [string]$Name
+  )
+
+  $joinedText = (($Name + " " + ($Tags -join " ")) | Out-String).Trim().ToLowerInvariant()
+
+  switch ($Category) {
+    "onderzetters" {
+      if ($joinedText -match "dog|paw") { return @("Hondenliefhebber", "Dagelijks gebruik") }
+      if ($joinedText -match "cat|feline") { return @("Kattenliefhebber", "Gezellige decoratie") }
+      if ($joinedText -match "zodiac|astrology|horoscope|moon|celestial|witchy") { return @("Astrologie", "Verhuiscadeau") }
+      if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return @("Spelavond", "Cadeauklaar") }
+      if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return @("Karaktervol decor", "Origineel cadeau") }
+      if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") { return @("Kuststijl", "Gastcadeau") }
+      if ($joinedText -match "bee|honey|leaf|tree|floral|nature|rustic|wildlife|forest") { return @("Natuurlijke decoratie", "Verhuiscadeau") }
+      return @("Tafeldecoratie", "Cadeauklaar")
+    }
+    "bladwijzers" {
+      if ($joinedText -match "dragon|fantasy|witch|gothic|lotr|tolkien|epic") { return @("Fantasylezer", "Boekcadeau") }
+      if ($joinedText -match "dune|desert|sci-fi|rocket|space") { return @("Sci-fi lezer", "Cadeauklaar") }
+      return @("Boekenliefhebber", "Leeshoek") }
+    default {
+      switch ($Section) {
+        "deurhangers-en-borden" { return @("Deurdecoratie", "Bureauaccent") }
+        "decoratie-en-sfeer" { return @("Gezellige decoratie", "Plankstyling") }
+        "ornamenten-en-seizoenscadeaus" { return @("Seizoenscadeau", "Herinnering") }
+        "persoonlijke-cadeaus" { return @("Persoonlijk", "Mijlpaalcadeau") }
+        "kleine-cadeaus-en-diy" { return @("Creatieve set", "Klein cadeau") }
+        default { return @("Houten cadeau", "Doordacht cadeau") }
+      }
+    }
+  }
+}
+
 function Get-ProductDescription {
   param(
     [string]$Name,
@@ -807,28 +1135,34 @@ function Get-ProductDescription {
   $themePhrase = Get-ThemePhrase -Category $Category -Section $Section -Tags $Tags -Name $Name
   $audiencePhrase = Get-AudiencePhrase -Category $Category -Section $Section -Tags $Tags -Name $Name
   $decisionCue = Get-DecisionCue -Category $Category -Section $Section -Tags $Tags -Name $Name
-  $variant = Get-StableVariantIndex -Text $Name -Modulo 3
+  $variant = Get-StableVariantIndex -Text $Name -Modulo 5
 
   switch ($Category) {
     "onderzetters" {
       switch ($variant) {
-        0 { return "Laser-cut wooden coasters with $themePhrase for $audiencePhrase." }
-        1 { return "Gift-ready wooden coasters that bring $themePhrase to $audiencePhrase." }
-        default { return "A wooden coaster set designed for $audiencePhrase with $themePhrase." }
+        0 { return "Protects tables with $themePhrase and suits $audiencePhrase. $decisionCue" }
+        1 { return "Made for $audiencePhrase, this wooden coaster set adds $themePhrase. $decisionCue" }
+        2 { return "A giftable coaster set that brings $themePhrase to $audiencePhrase. $decisionCue" }
+        3 { return "Use it for everyday drinks when you want $themePhrase around $audiencePhrase. $decisionCue" }
+        default { return "Keeps mugs and glasses off the table while adding $themePhrase for $audiencePhrase. $decisionCue" }
       }
     }
     "bladwijzers" {
       switch ($variant) {
-        0 { return "Laser-cut wooden bookmark with $themePhrase for $audiencePhrase." }
-        1 { return "A giftable wooden bookmark made for $audiencePhrase with $themePhrase." }
-        default { return "A wooden bookmark created for $audiencePhrase with $themePhrase." }
+        0 { return "Keeps your place with $themePhrase and suits $audiencePhrase. $decisionCue" }
+        1 { return "A slim wooden bookmark for $audiencePhrase, finished with $themePhrase. $decisionCue" }
+        2 { return "Adds $themePhrase to a favorite read for $audiencePhrase. $decisionCue" }
+        3 { return "Made for daily reading and easy gifting, with $themePhrase for $audiencePhrase. $decisionCue" }
+        default { return "A thoughtful bookmark that brings $themePhrase to $audiencePhrase. $decisionCue" }
       }
     }
     default {
       switch ($variant) {
-        0 { return "A handmade wooden gift with $themePhrase for $audiencePhrase." }
-        1 { return "A wooden piece made for $audiencePhrase with $themePhrase." }
-        default { return "A gift-ready wooden design for $audiencePhrase with $themePhrase." }
+        0 { return "Adds $themePhrase to $audiencePhrase. $decisionCue" }
+        1 { return "Made for $audiencePhrase, this wooden piece brings $themePhrase. $decisionCue" }
+        2 { return "A thoughtful wooden gift with $themePhrase for $audiencePhrase. $decisionCue" }
+        3 { return "Easy to display and easy to gift, with $themePhrase for $audiencePhrase. $decisionCue" }
+        default { return "A handcrafted wooden accent for $audiencePhrase with $themePhrase. $decisionCue" }
       }
     }
   }
@@ -896,7 +1230,7 @@ function Get-SectionLabelNl {
     "decoratie-en-sfeer" { return "Decoratie en sfeer" }
     "ornamenten-en-seizoenscadeaus" { return "Ornamenten en seizoenscadeaus" }
     "persoonlijke-cadeaus" { return "Persoonlijke cadeaus" }
-    "kleine-cadeaus-en-diy" { return "Kleine cadeaus en DIY" }
+    "kleine-cadeaus-en-diy" { return "Kleine cadeaus en knutselsets" }
     "overige-houten-cadeaus" { return "Overige houten cadeaus" }
     default { return $Section }
   }
@@ -961,18 +1295,18 @@ function Get-AudiencePhraseNl {
       if ($joinedText -match "dog|paw") { return "hondenliefhebbers en gezellige koffietafels" }
       if ($joinedText -match "cat|feline") { return "kattenliefhebbers en knusse hoekjes" }
       if ($joinedText -match "zodiac|astrology|horoscope|moon|celestial|witchy") { return "astrologiecadeaus en warme interieurs" }
-      if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "game rooms, bureaus en hobbycadeaus" }
+      if ($joinedText -match "chess|checkers|poker|dart|game|gaming|dnd|warcraft|counter-strike|sport|golf|fishing|formula") { return "spelhoeken, bureaus en cadeaus voor hobbyfans" }
       if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") { return "liefhebbers van alternatieve decoratie en gezellige hoekjes" }
       if ($joinedText -match "anchor|coastal|camping|camper|vanlife|sea|ocean") { return "strandhuizen, campers en ontspannen tafelmomenten" }
-      if ($joinedText -match "bee|honey") { return "tuinliefhebbers en makkelijke hostesscadeaus" }
+      if ($joinedText -match "bee|honey") { return "tuinliefhebbers en kleine bedankcadeaus" }
       if ($joinedText -match "horse") { return "paardenliefhebbers en warme tafels" }
-      if ($joinedText -match "wildlife|forest") { return "liefhebbers van cabin decor en cadeautafels" }
-      if ($joinedText -match "leaf|tree|floral|nature|rustic") { return "natuurliefhebbers, housewarmingcadeaus en dagelijkse tafels" }
+      if ($joinedText -match "wildlife|forest") { return "liefhebbers van rustieke woondecoratie en cadeautafels" }
+      if ($joinedText -match "leaf|tree|floral|nature|rustic") { return "natuurliefhebbers, verhuiscadeaus en dagelijkse tafels" }
       if ($joinedText -match "tile|persian|mayan|samurai|viking|buddha") { return "interieurliefhebbers en tafels met karakter" }
-      return "dagelijkse tafels en makkelijke cadeaumomenten" }
+      return "dagelijkse tafels en cadeauklare momenten" }
     "bladwijzers" {
-      if ($joinedText -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "fantasylezers en cadeauwaardige leesmomenten" }
-      if ($joinedText -match "dune|sci-fi|rocket") { return "sci-fi lezers en doordachte boekcadeaus" }
+      if ($joinedText -match "dragon|fantasy|witch|gothic|lotr|tolkien") { return "fantasylezers en bijzondere boekcadeaus" }
+      if ($joinedText -match "dune|sci-fi|rocket") { return "sci-fi lezers en thematische boekcadeaus" }
       return "boekenliefhebbers en rustige leesmomenten" }
     default {
       switch ($Section) {
@@ -1000,11 +1334,11 @@ function Get-DecisionCueNl {
   switch ($Category) {
     "onderzetters" {
       if ($joinedText -match "cat|feline|zodiac|astrology|moon|celestial|witchy") {
-        return "Lasergesneden uit hout en makkelijk te stylen op een salontafel of bureau."
+        return "Lasergesneden uit hout en mooi neer te leggen op een salontafel of bureau."
       }
 
       if ($joinedText -match "game|gaming|chess|checkers|poker|dart|formula|fishing|golf|sport") {
-        return "Een praktisch themacadeau voor game rooms, bureaus en dagelijkse drankjes."
+        return "Een praktisch themacadeau voor spelhoeken, bureaus en dagelijkse drankjes."
       }
 
       if ($joinedText -match "gothic|skull|spider|mushroom|cannabis|wiccan") {
@@ -1016,11 +1350,11 @@ function Get-DecisionCueNl {
       }
 
       if ($joinedText -match "wildlife|forest") {
-        return "Een cadeaulaar houten accent voor cabin vibes, koffietafels en gezellige momenten."
+        return "Een cadeauwaardig houten accent voor rustieke interieurs, koffietafels en gezellige momenten."
       }
 
       if ($joinedText -match "bee|leaf|tree|floral|nature|rustic|wedding|just married") {
-        return "Een houten accent dat mooi past bij natuurlijke interieurs, housewarmingcadeaus en ontspannen momenten."
+        return "Een houten accent dat mooi past bij natuurlijke interieurs, verhuiscadeaus en ontspannen momenten."
       }
 
       if ($joinedText -match "horse") {
@@ -1035,14 +1369,14 @@ function Get-DecisionCueNl {
     }
     "bladwijzers" {
       if ($joinedText -match "dragon|fantasy|witch|gothic|epic fantasy|sword") {
-        return "Slank, licht en makkelijk te combineren met fantasyboeken of een boekenpakket."
+        return "Slank, licht en makkelijk toe te voegen aan fantasyboeken of een boekenpakket."
       }
 
       if ($joinedText -match "desert saga|sci-fi|rocket") {
         return "Een licht leescadeau dat netjes tussen favoriete pagina's past."
       }
 
-      return "Slank, licht en makkelijk te combineren met een favoriet boek of een leescadeau."
+      return "Slank, licht en makkelijk toe te voegen aan een favoriet boek of klein leescadeau."
     }
     default {
       switch ($Section) {
@@ -1104,28 +1438,34 @@ function Get-ProductDescriptionNl {
   $themePhrase = Get-ThemePhraseNl -Category $Category -Section $Section -Tags $Tags -Name $Name
   $audiencePhrase = Get-AudiencePhraseNl -Category $Category -Section $Section -Tags $Tags -Name $Name
   $decisionCue = Get-DecisionCueNl -Category $Category -Section $Section -Tags $Tags -Name $Name
-  $variant = Get-StableVariantIndex -Text $Name -Modulo 3
+  $variant = Get-StableVariantIndex -Text $Name -Modulo 5
 
   switch ($Category) {
     "onderzetters" {
       switch ($variant) {
-        0 { return "Lasergesneden houten onderzetters met $themePhrase voor $audiencePhrase." }
-        1 { return "Cadeauwaardige houten onderzetters met $themePhrase voor $audiencePhrase." }
-        default { return "Een houten onderzetterset voor $audiencePhrase met $themePhrase." }
+        0 { return "Beschermt tafels met $themePhrase en past bij $audiencePhrase. $decisionCue" }
+        1 { return "Voor $audiencePhrase, met $themePhrase als warm detail. $decisionCue" }
+        2 { return "Een cadeauwaardige onderzetterset die $themePhrase brengt naar $audiencePhrase. $decisionCue" }
+        3 { return "Fijn voor dagelijkse drankjes en bedoeld voor $audiencePhrase, met $themePhrase. $decisionCue" }
+        default { return "Houdt mokken en glazen van tafel en voegt $themePhrase toe voor $audiencePhrase. $decisionCue" }
       }
     }
     "bladwijzers" {
       switch ($variant) {
-        0 { return "Een lasergesneden houten bladwijzer met $themePhrase voor $audiencePhrase." }
-        1 { return "Een cadeauwaardige houten bladwijzer voor $audiencePhrase met $themePhrase." }
-        default { return "Een houten bladwijzer voor $audiencePhrase met $themePhrase." }
+        0 { return "Houdt je pagina terugvindbaar met $themePhrase voor $audiencePhrase. $decisionCue" }
+        1 { return "Een slanke houten bladwijzer voor $audiencePhrase, afgewerkt met $themePhrase. $decisionCue" }
+        2 { return "Geeft een favoriet boek extra karakter met $themePhrase voor $audiencePhrase. $decisionCue" }
+        3 { return "Gemaakt voor dagelijkse leesmomenten en boekcadeaus, met $themePhrase voor $audiencePhrase. $decisionCue" }
+        default { return "Een doordachte bladwijzer die $themePhrase brengt naar $audiencePhrase. $decisionCue" }
       }
     }
     default {
       switch ($variant) {
-        0 { return "Een handgemaakt houten cadeau met $themePhrase voor $audiencePhrase." }
-        1 { return "Een houten item voor $audiencePhrase met $themePhrase." }
-        default { return "Een cadeauwaardig houten ontwerp voor $audiencePhrase met $themePhrase." }
+        0 { return "Brengt $themePhrase naar $audiencePhrase. $decisionCue" }
+        1 { return "Een houten item voor $audiencePhrase, afgewerkt met $themePhrase. $decisionCue" }
+        2 { return "Een doordacht houten cadeau met $themePhrase voor $audiencePhrase. $decisionCue" }
+        3 { return "Makkelijk neer te zetten en fijn om te geven, met $themePhrase voor $audiencePhrase. $decisionCue" }
+        default { return "Een handgemaakt houten accent voor $audiencePhrase met $themePhrase. $decisionCue" }
       }
     }
   }
@@ -1143,14 +1483,14 @@ function Get-AltTextNl {
 
   switch ($Category) {
     "onderzetters" {
-      if ($lowerName -match "coaster") {
+      if ($lowerName -match "coaster|onderzetter") {
         return "$cleanName van Craftygiftsplace"
       }
 
       return "$cleanName houten onderzetter van Craftygiftsplace"
     }
     "bladwijzers" {
-      if ($lowerName -match "bookmark") {
+      if ($lowerName -match "bookmark|bladwijzer") {
         return "$cleanName van Craftygiftsplace"
       }
 
@@ -1159,21 +1499,21 @@ function Get-AltTextNl {
     default {
       switch ($Section) {
         "deurhangers-en-borden" {
-          if ($lowerName -match "sign|door hanger|hanger|plaque") {
+          if ($lowerName -match "sign|door hanger|hanger|plaque|deurbord|deurhanger|bord") {
             return "$cleanName van Craftygiftsplace"
           }
 
           return "$cleanName houten bord van Craftygiftsplace"
         }
         "decoratie-en-sfeer" {
-          if ($lowerName -match "holder|decor|burner|tealight") {
+          if ($lowerName -match "holder|decor|burner|tealight|theelichthouder|wierookhouder|decoratie") {
             return "$cleanName van Craftygiftsplace"
           }
 
           return "$cleanName houten decoratie van Craftygiftsplace"
         }
         "ornamenten-en-seizoenscadeaus" {
-          if ($lowerName -match "ornament") {
+          if ($lowerName -match "ornament|kerstornament") {
             return "$cleanName van Craftygiftsplace"
           }
 
@@ -1210,10 +1550,10 @@ function Render-GiftSectionsNl {
   param($Products)
 
   $descriptions = @{
-    "deurhangers-en-borden" = "Deurhangers, bordjes en houten items voor game rooms, bureaus en ruimtes met karakter."
+    "deurhangers-en-borden" = "Deurhangers, bordjes en houten items voor hobbykamers, bureaus en ruimtes met karakter."
     "decoratie-en-sfeer" = "Theelichthouders, wierookhouders en houten decoratie die warmte in huis brengen."
-    "ornamenten-en-seizoenscadeaus" = "Seizoensornamenten en kleine keepsakes voor feestelijke en persoonlijke cadeaumomenten."
-    "persoonlijke-cadeaus" = "Bruiloftscadeaus, baby keepsakes en herinneringen voor bijzondere mijlpalen."
+    "ornamenten-en-seizoenscadeaus" = "Seizoensornamenten en kleine herinneringscadeaus voor feestelijke en persoonlijke momenten."
+    "persoonlijke-cadeaus" = "Bruiloftscadeaus, babyherinneringen en persoonlijke stukken voor bijzondere mijlpalen."
     "kleine-cadeaus-en-diy" = "Kleine houten cadeaus, creatieve setjes en speelse items die makkelijk te geven zijn."
     "overige-houten-cadeaus" = "Meer handgemaakte houten cadeaus met warmte, detail en karakter."
   }
@@ -1240,7 +1580,7 @@ function Render-GiftSectionsNl {
                 <h2>$([System.Net.WebUtility]::HtmlEncode((Get-SectionLabelNl $section)))</h2>
                 <p>$([System.Net.WebUtility]::HtmlEncode($descriptions[$section]))</p>
               </div>
-              <span class="chip">$($items.Count) items</span>
+              <span class="chip">$($items.Count) ontwerpen</span>
             </div>
 $((Render-Grid $items))
           </div>
@@ -1478,7 +1818,7 @@ foreach ($row in $rows) {
     section = $section
     price_eur = [math]::Round([double]$priceValue, 2)
     price_label = Get-PriceLabel $row.PRICE
-    tags = $tags
+    tags = @()
     image = Get-CardImageSource $row.IMAGE1
     image_full = $row.IMAGE1
     image_srcset = Get-CardImageSrcSet $row.IMAGE1
@@ -1490,6 +1830,7 @@ foreach ($row in $rows) {
 
   $productEn = [ordered]@{} + $shared
   $productEn.page = if ($category -eq "onderzetters") { "../pages/wooden-coasters.html#shop-catalog" } elseif ($category -eq "bladwijzers") { "../pages/wooden-bookmarks.html#shop-catalog" } else { "../pages/wooden-gifts.html#shop-catalog" }
+  $productEn.tags = Get-UiTags -Category $category -Section $section -Tags $tags -Name $displayName
   $productEn.description = Get-ProductDescription -Name $displayName -Category $category -Section $section -Tags $tags
   $productEn.alt = Get-AltText -Name $displayName -Category $category -Section $section
   $productEn.cta_label = if ($isSensitiveTheme) { Get-SensitiveCtaLabel -Name $displayName -Category $category -Section $section } else { Get-ProductCtaLabel $displayName }
@@ -1501,7 +1842,7 @@ foreach ($row in $rows) {
   $productNl.name = $displayNameNl
   $productNl.title = $displayNameNl
   $productNl.page = if ($category -eq "onderzetters") { "../pages/onderzetters.html#shop-catalog" } elseif ($category -eq "bladwijzers") { "../pages/bladwijzers.html#shop-catalog" } else { "../pages/houten-cadeaus.html#shop-catalog" }
-  $productNl.tags = @($tags | ForEach-Object { Get-LocalizedTagNl $_ })
+  $productNl.tags = Get-UiTagsNl -Category $category -Section $section -Tags $tags -Name $displayNameNl
   $productNl.description = Get-ProductDescriptionNl -Name $displayNameNl -Category $category -Section $section -Tags $tags
   $productNl.alt = Get-AltTextNl -Name $displayNameNl -Category $category -Section $section
   $productNl.cta_label = if ($isSensitiveTheme) { Get-SensitiveCtaLabelNl -Name $displayNameNl -Category $category -Section $section } else { Get-ProductCtaLabelNl $displayNameNl }
@@ -1520,7 +1861,7 @@ $cadeausNl = @($productsNl | Where-Object { $_.category -eq "houten-cadeaus" })
 
 $underzettersHtmlNl = Render-CategorySectionNl `
   -Heading "Alle houten onderzetters" `
-  -Description "Bekijk $($underzettersNl.Count) houten onderzetterontwerpen voor gezellige huizen, kattenliefhebbers, housewarmingcadeaus en tafels met karakter." `
+  -Description "Bekijk $($underzettersNl.Count) houten onderzetterontwerpen voor gezellige huizen, kattenliefhebbers, verhuiscadeaus en tafels met karakter." `
   -ButtonUrl "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster" `
   -ButtonLabel "Bekijk alle onderzetters op Etsy" `
   -Products $underzettersNl

@@ -22,6 +22,15 @@
   <link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/" />
   <link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/index.html" />
   <link rel="alternate" hreflang="x-default" href="https://thecreative1.github.io/Craftygiftsplace/" />
+  <script>
+    if (/\/index\.html$/.test(window.location.pathname)) {
+      window.location.replace(
+        window.location.pathname.replace(/index\.html$/, "") +
+        window.location.search +
+        window.location.hash
+      );
+    }
+  </script>
   <meta property="og:site_name" content="Craftygiftsplace" />
   <meta property="og:title" content="Handgemaakte Houten Cadeaus, Onderzetters en Bladwijzers | Craftygiftsplace" />
   <meta property="og:description" content="Ontdek houten onderzetters, bladwijzers en gezellige decoratie met personalisatie, cadeauklare charme en echte Etsy reviews." />
@@ -29,7 +38,7 @@
   <meta property="og:locale" content="nl_NL" />
   <meta property="og:url" content="https://thecreative1.github.io/Craftygiftsplace/" />
   <meta property="og:image" content="https://thecreative1.github.io/Craftygiftsplace/assets/img/products/moon-cat-tealight-holder.jpg" />
-  <meta property="og:image:alt" content="Moon Cat theelichthouder van Craftygiftsplace" />
+  <meta property="og:image:alt" content="Kat en maan theelichthouder van Craftygiftsplace" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Handgemaakte Houten Cadeaus, Onderzetters en Bladwijzers | Craftygiftsplace" />
   <meta name="twitter:description" content="Ontdek houten cadeaus, onderzetters, bladwijzers en gezellige decoratie voor lezers, kattenliefhebbers en cadeauwaardige momenten." />
@@ -51,102 +60,13 @@
         "inLanguage": "nl"
       },
       {
-        "@type": "OnlineStore",
+        "@type": "Organization",
         "@id": "https://thecreative1.github.io/Craftygiftsplace/#organization",
         "name": "Craftygiftsplace",
         "url": "https://thecreative1.github.io/Craftygiftsplace/",
         "logo": "https://thecreative1.github.io/Craftygiftsplace/assets/img/logos/craftygiftsplace-logo.png",
         "sameAs": [
           "https://www.etsy.com/shop/Craftygiftsplace"
-        ],
-        "description": "Craftygiftsplace maakt handgemaakte houten cadeaus, onderzetters, bladwijzers en gezellige decoratie die via Etsy besteld kunnen worden.",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.96",
-          "reviewCount": "141",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://thecreative1.github.io/Craftygiftsplace/#webpage",
-        "url": "https://thecreative1.github.io/Craftygiftsplace/",
-        "name": "Handgemaakte Houten Cadeaus, Onderzetters en Bladwijzers | Craftygiftsplace",
-        "description": "Ontdek handgemaakte houten cadeaus, onderzetters, bladwijzers en gezellige decoratie met personalisatie en sterke Etsy reviews.",
-        "isPartOf": {
-          "@id": "https://thecreative1.github.io/Craftygiftsplace/#website"
-        },
-        "about": [
-          { "@type": "Thing", "name": "houten cadeaus" },
-          { "@type": "Thing", "name": "houten onderzetters" },
-          { "@type": "Thing", "name": "houten bladwijzers" },
-          { "@type": "Thing", "name": "gepersonaliseerd cadeau" }
-        ],
-        "primaryImageOfPage": {
-          "@type": "ImageObject",
-          "url": "https://thecreative1.github.io/Craftygiftsplace/assets/img/products/moon-cat-tealight-holder.jpg"
-        }
-      },
-      {
-        "@type": "ItemList",
-        "name": "Hoofdcollecties",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Houten onderzetters",
-            "url": "https://thecreative1.github.io/Craftygiftsplace/pages/onderzetters.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Houten bladwijzers",
-            "url": "https://thecreative1.github.io/Craftygiftsplace/pages/bladwijzers.html"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Houten cadeaus",
-            "url": "https://thecreative1.github.io/Craftygiftsplace/pages/houten-cadeaus.html"
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Kan ik een naam of datum toevoegen?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Bij geselecteerde ontwerpen kun je namen, datums of kleine persoonlijke details toevoegen als de Etsy listing personalisatie ondersteunt."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Waar plaats ik mijn bestelling?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Bestellingen lopen via de Etsy-winkel van Craftygiftsplace. Daar kun je ook reviews lezen en direct een bericht sturen."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Passen deze cadeaus bij verschillende momenten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Veel ontwerpen passen goed bij housewarmingcadeaus, cadeaus voor lezers, bruiloften, gezellige woondecoratie en kleine doordachte cadeaus."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Welke producten maken jullie?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Je vindt hier houten onderzetters, bladwijzers en andere handgemaakte houten cadeaus voor leeshoekjes, kattenhuizen en betekenisvolle cadeaumomenten."
-            }
-          }
         ]
       }
     ]
@@ -156,7 +76,7 @@
 <body>
   <header class="topbar">
     <div class="container nav">
-      <a href="index.html" class="brand" aria-label="Ga naar de homepage">
+      <a href="./" class="brand" aria-label="Ga naar de homepage">
         <img class="brand-logo" src="assets/img/logos/craftygiftsplace-logo.png" alt="Craftygiftsplace logo" width="64" height="64" />
         <span class="brand-copy">
           <strong>Craftygiftsplace</strong>
@@ -165,7 +85,7 @@
       </a>
 
       <div class="language-switch language-switch-mobile" aria-label="Kies taal">
-        <a href="index.html" lang="nl" aria-current="true">
+        <a href="./" lang="nl" aria-current="true">
           <span class="flag-icon flag-icon--nl" aria-hidden="true"></span>
           <span class="language-code">NL</span>
         </a>
@@ -185,13 +105,13 @@
       </button>
 
       <nav class="nav-links" id="site-nav" aria-label="Hoofdmenu">
-        <a href="index.html" data-page="index.html">Home</a>
+        <a href="./" data-page="index.html">Home</a>
         <a href="pages/onderzetters.html" data-page="onderzetters.html">Onderzetters</a>
         <a href="pages/bladwijzers.html" data-page="bladwijzers.html">Bladwijzers</a>
         <a href="pages/houten-cadeaus.html" data-page="houten-cadeaus.html">Houten cadeaus</a>
         <a href="pages/contact.html" data-page="contact.html">Contact</a>
         <div class="language-switch language-switch-menu" aria-label="Kies taal">
-          <a href="index.html" lang="nl" aria-current="true">
+          <a href="./" lang="nl" aria-current="true">
             <span class="flag-icon flag-icon--nl" aria-hidden="true"></span>
             <span class="language-code">NL</span>
           </a>
@@ -225,28 +145,28 @@
             <div class="carousel-viewport" tabindex="0" aria-label="Uitgelichte producten" data-carousel-viewport>
               <div class="carousel-track" id="product-carousel" data-carousel-track>
                 <a class="carousel-card" data-carousel-slide href="pages/onderzetters.html#shop-catalog">
-                  <img src="assets/img/products/cat-and-moon-coasters.jpg" alt="Cat and Moon houten onderzetters van Craftygiftsplace" loading="eager" decoding="async" />
+              <img src="assets/img/products/cat-and-moon-coasters.jpg" alt="Kat en maan houten onderzetters van Craftygiftsplace" loading="eager" decoding="async" />
                   <div class="carousel-card-body">
                     <span class="chip">Onderzetters</span>
-                    <strong>Cat and Moon onderzetters</strong>
+              <strong>Kat en maan onderzetters</strong>
                     <span>Houten onderzetters met maan- en kattenmotief voor gezellige tafels en cadeauwaardige interieurs.</span>
                   </div>
                 </a>
 
                 <a class="carousel-card" data-carousel-slide href="pages/bladwijzers.html#shop-catalog">
-                  <img src="assets/img/products/celtic-bookmark.jpg" alt="Celtic houten bladwijzer van Craftygiftsplace" loading="lazy" decoding="async" />
+              <img src="assets/img/products/celtic-bookmark.jpg" alt="Keltische houten bladwijzer van Craftygiftsplace" loading="lazy" decoding="async" />
                   <div class="carousel-card-body">
                     <span class="chip">Bladwijzers</span>
-                    <strong>Celtic bladwijzer</strong>
+              <strong>Keltische bladwijzer</strong>
                     <span>Een houten bladwijzer met fijn detail voor lezers, boekcadeaus en rustige leesmomenten.</span>
                   </div>
                 </a>
 
                 <a class="carousel-card" data-carousel-slide href="pages/houten-cadeaus.html#shop-catalog">
-                  <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Moon Cat theelichthouder van Craftygiftsplace" loading="lazy" decoding="async" />
+              <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Kat en maan theelichthouder van Craftygiftsplace" loading="lazy" decoding="async" />
                   <div class="carousel-card-body">
                     <span class="chip">Houten cadeaus</span>
-                    <strong>Moon Cat houder</strong>
+              <strong>Kat en maan houder</strong>
                     <span>Een warm houten accent voor kattenliefhebbers, planken en sfeervolle hoekjes met kaarslicht.</span>
                   </div>
                 </a>
@@ -256,15 +176,15 @@
                   <div class="carousel-card-body">
                     <span class="chip">Onderzetters</span>
                     <strong>Zodiac onderzetterset</strong>
-                    <span>Onderzetters met astrologisch thema voor salontafels, bureaus en een makkelijk housewarming cadeau.</span>
+              <span>Onderzetters met astrologisch thema voor salontafels, bureaus en een makkelijk verhuiscadeau.</span>
                   </div>
                 </a>
 
                 <a class="carousel-card" data-carousel-slide href="pages/bladwijzers.html#shop-catalog">
-                  <img src="assets/img/products/dragon-eye-bookmark.jpg" alt="Dragon Eye houten bladwijzer van Craftygiftsplace" loading="lazy" decoding="async" />
+              <img src="assets/img/products/dragon-eye-bookmark.jpg" alt="Drakenoog houten bladwijzer van Craftygiftsplace" loading="lazy" decoding="async" />
                   <div class="carousel-card-body">
                     <span class="chip">Bladwijzers</span>
-                    <strong>Dragon Eye bladwijzer</strong>
+              <strong>Drakenoog bladwijzer</strong>
                     <span>Een fantasy-bladwijzer met cadeauwaardig detail voor boekenliefhebbers en lezers.</span>
                   </div>
                 </a>
@@ -274,7 +194,7 @@
                   <div class="carousel-card-body">
                     <span class="chip">Houten cadeaus</span>
                     <strong>Just Married hanger</strong>
-                    <span>Een houten keepsake-cadeau voor bruiloften, nieuwe hoofdstukken en betekenisvolle momenten.</span>
+              <span>Een houten herinneringscadeau voor bruiloften, nieuwe hoofdstukken en betekenisvolle momenten.</span>
                   </div>
                 </a>
               </div>
@@ -323,8 +243,8 @@
 
         <div class="hero-visual" aria-hidden="true">
           <div class="hero-photo-zone">
-            <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Moon Cat houten theelichthouder cadeau van Craftygiftsplace" fetchpriority="high" />
-            <div class="hero-photo-caption">Moon Cat theelichthouder</div>
+              <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Kat en maan houten theelichthouder cadeau van Craftygiftsplace" fetchpriority="high" />
+              <div class="hero-photo-caption">Kat en maan theelichthouder</div>
           </div>
           <div class="hero-visual-meta">
             <div class="badge-card">
@@ -382,33 +302,33 @@
         <div class="category-grid">
           <article class="category-card">
             <div class="card-media">
-              <img src="assets/img/products/cat-and-moon-coasters.jpg" alt="Cat and Moon houten onderzetters cadeau" loading="lazy" decoding="async" />
+              <img src="assets/img/products/cat-and-moon-coasters.jpg" alt="Kat en maan houten onderzetters cadeau" loading="lazy" decoding="async" />
               <h3>Houten onderzetters</h3>
             </div>
             <div class="card-body">
-              <p>Kat-, zodiac-, schaak- en andere lasergesneden sets voor koffietafels, housewarmingcadeaus en thematische cadeaus.</p>
+              <p>Kat-, zodiac-, schaak- en andere lasergesneden sets voor koffietafels, verhuiscadeaus en thematische cadeaus.</p>
               <a class="btn" href="pages/onderzetters.html#shop-catalog">Bekijk onderzetters</a>
             </div>
           </article>
 
           <article class="category-card">
             <div class="card-media">
-              <img src="assets/img/products/celtic-bookmark.jpg" alt="Celtic houten bladwijzer voor lezers" loading="lazy" decoding="async" />
+              <img src="assets/img/products/celtic-bookmark.jpg" alt="Keltische houten bladwijzer voor lezers" loading="lazy" decoding="async" />
               <h3>Houten bladwijzers</h3>
             </div>
             <div class="card-body">
-              <p>Celtic, Dragon Eye en andere ontwerpen voor lezers, fantasyfans en doordachte boekcadeaus.</p>
+              <p>Keltische, drakenoog- en andere ontwerpen voor lezers, fantasyfans en doordachte boekcadeaus.</p>
               <a class="btn" href="pages/bladwijzers.html#shop-catalog">Bekijk bladwijzers</a>
             </div>
           </article>
 
           <article class="category-card">
             <div class="card-media">
-              <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Moon Cat theelichthouder houten cadeau" loading="lazy" decoding="async" />
+              <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Kat en maan theelichthouder houten cadeau" loading="lazy" decoding="async" />
               <h3>Houten cadeaus</h3>
             </div>
             <div class="card-body">
-              <p>Theelichthouders, deurhangers en keepsakes voor gezellige huizen, mijlpalen en makkelijke cadeaumomenten.</p>
+              <p>Theelichthouders, deurhangers en herinneringscadeaus voor gezellige huizen, mijlpalen en makkelijke cadeaumomenten.</p>
               <a class="btn" href="pages/houten-cadeaus.html#shop-catalog">Bekijk houten cadeaus</a>
             </div>
           </article>
@@ -427,7 +347,7 @@
 
         <div class="link-cloud">
           <a href="pages/onderzetters.html">houten onderzetters cadeau</a>
-          <a href="pages/onderzetters.html">housewarming houten decoratie</a>
+          <a href="pages/onderzetters.html">houten decoratie voor nieuw huis</a>
           <a href="pages/bladwijzers.html">houten bladwijzer voor lezers</a>
           <a href="pages/bladwijzers.html">fantasy houten bladwijzer</a>
           <a href="pages/houten-cadeaus.html">gepersonaliseerd houten cadeau</a>
@@ -443,13 +363,13 @@
         <div class="section-head">
           <div>
             <h2>Ontdek per gelegenheid</h2>
-            <p>Van lezerscadeaus tot warme housewarmingcadeaus en keepsakes voor mijlpalen: hier zie je snel welke collectie het best past.</p>
+            <p>Van lezerscadeaus tot warme verhuiscadeaus en herinneringscadeaus voor mijlpalen: hier zie je snel welke collectie het best past.</p>
           </div>
         </div>
 
         <div class="occasion-grid">
           <div class="occasion-card">
-            <strong>Housewarming</strong>
+            <strong>Nieuw huis</strong>
             <span>Houten onderzetters en decoratie geven een nieuw huis meteen warmte zonder te druk te worden.</span>
           </div>
           <div class="occasion-card">
@@ -462,7 +382,7 @@
           </div>
           <div class="occasion-card">
             <strong>Bruiloften en mijlpalen</strong>
-            <span>Deurhangers en keepsake-cadeaus werken mooi voor persoonlijke momenten vol herinneringen.</span>
+            <span>Deurhangers en herinneringscadeaus werken mooi voor persoonlijke momenten vol herinneringen.</span>
           </div>
         </div>
       </div>
@@ -480,7 +400,7 @@
         <div class="product-grid">
           <article class="product-card">
             <div class="card-media">
-              <img src="assets/img/products/cat-and-moon-coasters.jpg" alt="Cat and Moon houten onderzetters" loading="lazy" decoding="async" />
+              <img src="assets/img/products/cat-and-moon-coasters.jpg" alt="Kat en maan houten onderzetters" loading="lazy" decoding="async" />
             </div>
             <div class="card-body">
               <div class="product-meta">
@@ -488,15 +408,15 @@
                 <span class="chip">Kattenliefhebber</span>
                 <span class="chip">Onderzetters</span>
               </div>
-              <h3>Cat and Moon houten onderzetters</h3>
+              <h3>Kat en maan houten onderzetters</h3>
               <p>Hemelse houten onderzetters die perfect passen in huizen van kattenliefhebbers, knusse hoekjes en makkelijke cadeaupakketten.</p>
-              <a class="btn" href="pages/onderzetters.html#shop-catalog">Bekijk Cat and Moon onderzetters</a>
+              <a class="btn" href="pages/onderzetters.html#shop-catalog">Bekijk kat en maan onderzetters</a>
             </div>
           </article>
 
           <article class="product-card">
             <div class="card-media">
-              <img src="assets/img/products/dragon-eye-bookmark.jpg" alt="Dragon Eye houten bladwijzer cadeau" loading="lazy" decoding="async" />
+              <img src="assets/img/products/dragon-eye-bookmark.jpg" alt="Drakenoog houten bladwijzer cadeau" loading="lazy" decoding="async" />
             </div>
             <div class="card-body">
               <div class="product-meta">
@@ -504,15 +424,15 @@
                 <span class="chip">Fantasy</span>
                 <span class="chip">Bladwijzer</span>
               </div>
-              <h3>Dragon Eye bladwijzer</h3>
+              <h3>Drakenoog bladwijzer</h3>
               <p>Een gedetailleerde houten bladwijzer voor lezers die een cadeauwaardig item met fantasy-uitstraling zoeken.</p>
-              <a class="btn" href="pages/bladwijzers.html#shop-catalog">Bekijk Dragon Eye bladwijzer</a>
+              <a class="btn" href="pages/bladwijzers.html#shop-catalog">Bekijk drakenoog bladwijzer</a>
             </div>
           </article>
 
           <article class="product-card">
             <div class="card-media">
-              <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Moon Cat theelichthouder decoratie" loading="lazy" decoding="async" />
+              <img src="assets/img/products/moon-cat-tealight-holder.jpg" alt="Kat en maan theelichthouder decoratie" loading="lazy" decoding="async" />
             </div>
             <div class="card-body">
               <div class="product-meta">
@@ -520,9 +440,9 @@
                 <span class="chip">Woondecoratie</span>
                 <span class="chip">Cadeauklaar</span>
               </div>
-              <h3>Moon Cat theelichthouder</h3>
+              <h3>Kat en maan theelichthouder</h3>
               <p>Een klein houten decoratiecadeau dat warmte brengt op planken, bijzettafels en gezellige avondplekken.</p>
-              <a class="btn" href="pages/houten-cadeaus.html#shop-catalog">Bekijk Moon Cat houder</a>
+              <a class="btn" href="pages/houten-cadeaus.html#shop-catalog">Bekijk kat en maan houder</a>
             </div>
           </article>
         </div>
@@ -606,7 +526,7 @@
           </div>
           <div class="faq-card">
             <h3>Zijn deze cadeaus geschikt voor verschillende gelegenheden?</h3>
-            <p>Ja. Veel ontwerpen passen bij housewarmingcadeaus, lezerscadeaus, bruiloften, mijlpalen en kleine doordachte verrassingen.</p>
+            <p>Ja. Veel ontwerpen passen bij verhuiscadeaus, lezerscadeaus, bruiloften, mijlpalen en kleine doordachte verrassingen.</p>
           </div>
           <div class="faq-card">
             <h3>Wat voor producten maken jullie?</h3>
