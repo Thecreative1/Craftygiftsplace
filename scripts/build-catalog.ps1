@@ -4,7 +4,7 @@ function Get-ShortTitle {
   param([string]$Title)
 
   $normalized = $Title -replace [char]0x2013, "-" -replace [char]0x2022, "-" -replace "\s+", " "
-  $parts = $normalized -split "\s+\|\s+|\s+-\s+|:\s+|,\s+|!\s*|\?\s*"
+  $parts = $normalized -split "\s+\|\s+|:\s+|,\s+|!\s*|\?\s*|\s+-\s*"
   return $parts[0].Trim()
 }
 
@@ -264,6 +264,14 @@ function Get-SiteDisplayName {
     return "Motorsport Coaster Set"
   }
 
+  if ($matchSource -match "cannabis|weed|420" -and $matchSource -match "coaster") {
+    return "Cannabis Leaf Wooden Coasters"
+  }
+
+  if ($matchSource -match "bee|honey bee" -and $matchSource -match "coaster") {
+    return "Bee Engraved Wooden Coasters"
+  }
+
   if ($matchSource -match "star wars|space saga" -and $matchSource -match "coaster") {
     return "Space Saga Coaster Set"
   }
@@ -304,6 +312,10 @@ function Get-SiteDisplayName {
     return "Fantasy Reader Gift Set"
   }
 
+  if ($matchSource -match "prayer in progress|meditation|quiet time" -and $matchSource -match "door") {
+    return "Prayer in Progress Door Hanger"
+  }
+
   $clean = $clean -replace "(?i)\bworld of warcraft\b", "Fantasy MMO"
   $clean = $clean -replace "(?i)\bwow\b", "Fantasy MMO"
   $clean = $clean -replace "(?i)\bleague of legends\b", "MOBA"
@@ -327,6 +339,8 @@ function Get-SiteDisplayName {
   $clean = $clean -replace "(?i)\bwood coasters?\b", "wooden coasters"
   $clean = $clean -replace "(?i)\bwood bookmark\b", "wooden bookmark"
   $clean = $clean -replace "(?i)\bdoor knob sign\b", "door hanger"
+  $clean = $clean -replace "(?i)\bwooden coasters set\b", "wooden coasters"
+  $clean = $clean -replace "(?i)\bcoasters set\b", "coasters"
   $clean = $clean -replace "\s{2,}", " "
   $clean = $clean.Trim(" ", "-", ",", "!", ".", ":")
 
