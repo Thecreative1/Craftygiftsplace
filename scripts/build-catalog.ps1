@@ -165,6 +165,20 @@ function Get-SectionLabel {
   }
 }
 
+function Get-SectionAnchor {
+  param([string]$Section)
+
+  switch ($Section) {
+    "deurhangers-en-borden" { return "deurhangers-en-borden" }
+    "decoratie-en-sfeer" { return "decoratie-en-sfeer" }
+    "ornamenten-en-seizoenscadeaus" { return "ornamenten-en-seizoenscadeaus" }
+    "persoonlijke-cadeaus" { return "persoonlijke-cadeaus" }
+    "kleine-cadeaus-en-diy" { return "kleine-cadeaus-en-diy" }
+    "overige-houten-cadeaus" { return "overige-houten-cadeaus" }
+    default { return $null }
+  }
+}
+
 function Normalize-Keyword {
   param([string]$Value)
 
@@ -1574,7 +1588,7 @@ function Render-GiftSectionsNl {
     }
 
     @"
-          <div class="catalog-block">
+          <div class="catalog-block" id="$((Get-SectionAnchor $section))">
             <div class="catalog-header">
               <div>
                 <h2>$([System.Net.WebUtility]::HtmlEncode((Get-SectionLabelNl $section)))</h2>
@@ -1711,7 +1725,7 @@ function Render-GiftSections {
     }
 
     @"
-          <div class="catalog-block">
+          <div class="catalog-block" id="$((Get-SectionAnchor $section))">
             <div class="catalog-header">
               <div>
                 <h2>$([System.Net.WebUtility]::HtmlEncode((Get-SectionLabel $section)))</h2>
