@@ -253,9 +253,9 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=sci-fi%20wooden%20bookmark"
     },
     {
-        "id":  "celtic-wooden-bookmark-with-cross-and-tree-of-life",
-        "name":  "Celtic Wooden Bookmark with Cross and Tree of Life",
-        "title":  "Celtic Wooden Bookmark with Cross and Tree of Life",
+        "id":  "celtic-wooden-bookmark",
+        "name":  "Celtic Wooden Bookmark",
+        "title":  "Celtic Wooden Bookmark",
         "category":  "bladwijzers",
         "section":  "bladwijzers",
         "price_eur":  14.99,
@@ -270,9 +270,9 @@
         "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
         "page":  "../pages/wooden-bookmarks.html#shop-catalog",
-        "description":  "A giftable wooden bookmark made for book lovers and quiet reading moments with intricate engraved detail.",
-        "alt":  "Celtic Wooden Bookmark with Cross and Tree of Life by Craftygiftsplace",
-        "cta_label":  "View Celtic Wooden Bookmark with Cross and... on Etsy",
+        "description":  "A wooden bookmark created for book lovers and quiet reading moments with intricate engraved detail.",
+        "alt":  "Celtic Wooden Bookmark by Craftygiftsplace",
+        "cta_label":  "View Celtic Wooden Bookmark on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Celtic%20Wooden%20Bookmark%20with%20Cross%20and%20Tree%20of%20Life"
     },
     {
@@ -368,9 +368,9 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=German%20Forest%20Animal%20Wooden%20Coasters"
     },
     {
-        "id":  "funny-do-not-ring-doorbell-wooden-sign",
-        "name":  "Funny \u0027Do Not Ring Doorbell\u0027 Wooden Sign",
-        "title":  "Funny \u0027Do Not Ring Doorbell\u0027 Wooden Sign",
+        "id":  "do-not-ring-door-sign",
+        "name":  "Do Not Ring Door Sign",
+        "title":  "Do Not Ring Door Sign",
         "category":  "houten-cadeaus",
         "section":  "deurhangers-en-borden",
         "price_eur":  14.99,
@@ -385,9 +385,9 @@
         "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
         "page":  "../pages/wooden-gifts.html#shop-catalog",
-        "description":  "A handmade wooden gift with statement detail for doors, desks and personality-filled rooms.",
-        "alt":  "Funny \u0027Do Not Ring Doorbell\u0027 Wooden Sign by Craftygiftsplace",
-        "cta_label":  "View Funny \u0027Do Not Ring Doorbell\u0027 Wooden Sign on Etsy",
+        "description":  "A gift-ready wooden design for doors, desks and personality-filled rooms with statement detail.",
+        "alt":  "Do Not Ring Door Sign by Craftygiftsplace",
+        "cta_label":  "View Do Not Ring Door Sign on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Funny%20\u0027Do%20Not%20Ring%20Doorbell\u0027%20Wooden%20Sign"
     },
     {
@@ -805,9 +805,9 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark"
     },
     {
-        "id":  "tree-of-life-wooden-coasters-eco-friendly-home-decor-wooden-coasters-nature-inspired-coasters-environmental-friendly-gifts-wood-and-cork",
-        "name":  "Tree of Life wooden coasters Eco-Friendly Home Decor wooden coasters Nature-inspired Coasters Environmental Friendly Gifts Wood and Cork",
-        "title":  "Tree of Life wooden coasters Eco-Friendly Home Decor wooden coasters Nature-inspired Coasters Environmental Friendly Gifts Wood and Cork",
+        "id":  "tree-of-life-wooden-coasters",
+        "name":  "Tree of Life Wooden Coasters",
+        "title":  "Tree of Life Wooden Coasters",
         "category":  "onderzetters",
         "section":  "onderzetters",
         "price_eur":  29.99,
@@ -823,8 +823,8 @@
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
         "page":  "../pages/wooden-coasters.html#shop-catalog",
         "description":  "Gift-ready wooden coasters that bring nature-inspired detail to nature lovers, housewarming gifts and everyday tables.",
-        "alt":  "Tree of Life wooden coasters Eco-Friendly Home Decor wooden coasters Nature-inspired Coasters Environmental Friendly Gifts Wood and Cork by Craftygiftsplace",
-        "cta_label":  "View Tree of Life wooden coasters Eco-Friendly... on Etsy",
+        "alt":  "Tree of Life Wooden Coasters by Craftygiftsplace",
+        "cta_label":  "View Tree of Life Wooden Coasters on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Tree%20of%20Life%20wood%20Coasters%20Eco-Friendly%20Home%20Decor%20Wooden%20Drink%20Coasters%20Nature-inspired%20Coasters%20Environmental%20Friendly%20Gifts%20Wood%20and%20Cork"
     },
     {
@@ -1035,9 +1035,9 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wildlife%20Wood%20Coasters"
     },
     {
-        "id":  "eco-friendly-wooden-baby-closet-dividers",
-        "name":  "Eco-Friendly Wooden Baby Closet Dividers",
-        "title":  "Eco-Friendly Wooden Baby Closet Dividers",
+        "id":  "wooden-baby-closet-dividers",
+        "name":  "Wooden Baby Closet Dividers",
+        "title":  "Wooden Baby Closet Dividers",
         "category":  "houten-cadeaus",
         "section":  "persoonlijke-cadeaus",
         "price_eur":  19.99,
@@ -1053,8 +1053,8 @@
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?ref=dashboard-header",
         "page":  "../pages/wooden-gifts.html#shop-catalog",
         "description":  "A wooden piece made for weddings, babies and milestone moments with keepsake detail.",
-        "alt":  "Eco-Friendly Wooden Baby Closet Dividers wooden gift by Craftygiftsplace",
-        "cta_label":  "View Eco-Friendly Wooden Baby Closet Dividers on Etsy",
+        "alt":  "Wooden Baby Closet Dividers wooden gift by Craftygiftsplace",
+        "cta_label":  "View Wooden Baby Closet Dividers on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Eco-Friendly%20Wooden%20Baby%20Closet%20Dividers"
     },
     {
@@ -1264,9 +1264,9 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Just%20Married%20Wooden%20Door%20Hanger"
     },
     {
-        "id":  "personalized-calendar-coaster-birthday-reminder-for-husband",
-        "name":  "Personalized Calendar Coaster Birthday Reminder for Husband",
-        "title":  "Personalized Calendar Coaster Birthday Reminder for Husband",
+        "id":  "personalized-calendar-coaster",
+        "name":  "Personalized Calendar Coaster",
+        "title":  "Personalized Calendar Coaster",
         "category":  "onderzetters",
         "section":  "onderzetters",
         "price_eur":  13.99,
@@ -1281,9 +1281,9 @@
         "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
         "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "Laser-cut wooden coasters with warm engraved detail for everyday tables and easy gift moments.",
-        "alt":  "Personalized Calendar Coaster Birthday Reminder for Husband by Craftygiftsplace",
-        "cta_label":  "View Personalized Calendar Coaster Birthday... on Etsy",
+        "description":  "A wooden coaster set designed for everyday tables and easy gift moments with warm engraved detail.",
+        "alt":  "Personalized Calendar Coaster by Craftygiftsplace",
+        "cta_label":  "View Personalized Calendar Coaster on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Calendar%20Coaster%20Engraved%20Birthday%20Reminder%20for%20Husband"
     },
     {
@@ -1425,9 +1425,9 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Sardine%20Wooden%20Bookmark"
     },
     {
-        "id":  "cricket-dad-wooden-coasters-wooden-coasters-cricket-fan-accessories-father-s-day-gift-cricket-lover-gift-cork-backed-coaster-dad-birthday",
-        "name":  "Cricket Dad wooden coasters wooden coasters Cricket Fan Accessories Father\u0027s Day Gift Cricket Lover Gift Cork Backed Coaster Dad Birthday",
-        "title":  "Cricket Dad wooden coasters wooden coasters Cricket Fan Accessories Father\u0027s Day Gift Cricket Lover Gift Cork Backed Coaster Dad Birthday",
+        "id":  "cricket-dad-coaster",
+        "name":  "Cricket Dad Coaster",
+        "title":  "Cricket Dad Coaster",
         "category":  "onderzetters",
         "section":  "onderzetters",
         "price_eur":  7.99,
@@ -1442,9 +1442,9 @@
         "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
         "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "Laser-cut wooden coasters with warm engraved detail for everyday tables and easy gift moments.",
-        "alt":  "Cricket Dad wooden coasters wooden coasters Cricket Fan Accessories Father\u0027s Day Gift Cricket Lover Gift Cork Backed Coaster Dad Birthday by Craftygiftsplace",
-        "cta_label":  "View Cricket Dad wooden coasters wooden... on Etsy",
+        "description":  "Gift-ready wooden coasters that bring warm engraved detail to everyday tables and easy gift moments.",
+        "alt":  "Cricket Dad Coaster by Craftygiftsplace",
+        "cta_label":  "View Cricket Dad Coaster on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Cricket%20Dad%20Wood%20Coaster%20Wooden%20Drink%20Coasters%20Cricket%20Fan%20Accessories%20Father\u0027s%20Day%20Gift%20Cricket%20Lover%20Gift%20Cork%20Backed%20Coaster%20Dad%20Birthday"
     },
     {
@@ -2070,8 +2070,8 @@
     },
     {
         "id":  "lighthouse-wooden-bookmark",
-        "name":  "Lighthouse wooden bookmark",
-        "title":  "Lighthouse wooden bookmark",
+        "name":  "Lighthouse Wooden Bookmark",
+        "title":  "Lighthouse Wooden Bookmark",
         "category":  "bladwijzers",
         "section":  "bladwijzers",
         "price_eur":  12.99,
@@ -2086,15 +2086,15 @@
         "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
         "page":  "../pages/wooden-bookmarks.html#shop-catalog",
-        "description":  "Laser-cut wooden bookmark with intricate engraved detail for book lovers and quiet reading moments.",
-        "alt":  "Lighthouse wooden bookmark by Craftygiftsplace",
-        "cta_label":  "View Lighthouse wooden bookmark on Etsy",
+        "description":  "A wooden bookmark created for book lovers and quiet reading moments with intricate engraved detail.",
+        "alt":  "Lighthouse Wooden Bookmark by Craftygiftsplace",
+        "cta_label":  "View Lighthouse Wooden Bookmark on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Lighthouse%20Wood%20Bookmark"
     },
     {
-        "id":  "space-saga-coaster-set",
-        "name":  "Space Saga Coaster Set",
-        "title":  "Space Saga Coaster Set",
+        "id":  "personalized-calendar-coaster",
+        "name":  "Personalized Calendar Coaster",
+        "title":  "Personalized Calendar Coaster",
         "category":  "onderzetters",
         "section":  "onderzetters",
         "price_eur":  24.99,
@@ -2109,10 +2109,10 @@
         "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
         "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "Laser-cut wooden coasters with warm engraved detail for everyday tables and easy gift moments.",
-        "alt":  "Space Saga Coaster Set by Craftygiftsplace",
-        "cta_label":  "Browse themed coasters on Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=themed%20wooden%20coasters"
+        "description":  "A wooden coaster set designed for everyday tables and easy gift moments with warm engraved detail.",
+        "alt":  "Personalized Calendar Coaster by Craftygiftsplace",
+        "cta_label":  "Browse wooden coasters on Etsy",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=wooden%20coasters"
     },
     {
         "id":  "celestial-cat-wooden-coasters",
@@ -2138,9 +2138,9 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Celestial%20Cat%20Wooden%20Coasters"
     },
     {
-        "id":  "camping-untersetzer-holz-set-6-st-ck-mit-lustigen-spr-chen",
-        "name":  "Camping Untersetzer Holz Set 6 Stück mit lustigen Sprüchen",
-        "title":  "Camping Untersetzer Holz Set 6 Stück mit lustigen Sprüchen",
+        "id":  "camping-wooden-coasters",
+        "name":  "Camping Wooden Coasters",
+        "title":  "Camping Wooden Coasters",
         "category":  "onderzetters",
         "section":  "onderzetters",
         "price_eur":  7.99,
@@ -2155,9 +2155,9 @@
         "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
         "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
         "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "Gift-ready wooden coasters that bring coastal detail to beach homes, campers and relaxed hosting.",
-        "alt":  "Camping Untersetzer Holz Set 6 Stück mit lustigen Sprüchen wooden coaster by Craftygiftsplace",
-        "cta_label":  "View Camping Untersetzer Holz Set 6 Stück mit... on Etsy",
+        "description":  "Laser-cut wooden coasters with coastal detail for beach homes, campers and relaxed hosting.",
+        "alt":  "Camping Wooden Coasters by Craftygiftsplace",
+        "cta_label":  "View Camping Wooden Coasters on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Camping%20Untersetzer%20Holz%20Set%206%20St%C3%BCck%20mit%20lustigen%20Spr%C3%BCchen"
     },
     {
