@@ -4,7 +4,7 @@ function Get-ShortTitle {
   param([string]$Title)
 
   $normalized = $Title -replace [char]0x2013, "-" -replace [char]0x2022, "-" -replace "\s+", " "
-  $parts = $normalized -split "\s+\|\s+|\s+-\s+|:\s+"
+  $parts = $normalized -split "\s+\|\s+|\s+-\s+|:\s+|,\s+|!\s*|\?\s*"
   return $parts[0].Trim()
 }
 
@@ -300,6 +300,10 @@ function Get-SiteDisplayName {
     return "Tabletop Adventure Coaster Set"
   }
 
+  if ($matchSource -match "book lover gift set|gift set" -and $matchSource -match "book|reader|bookmark|dragon|wizard|fantasy") {
+    return "Fantasy Reader Gift Set"
+  }
+
   $clean = $clean -replace "(?i)\bworld of warcraft\b", "Fantasy MMO"
   $clean = $clean -replace "(?i)\bwow\b", "Fantasy MMO"
   $clean = $clean -replace "(?i)\bleague of legends\b", "MOBA"
@@ -315,8 +319,50 @@ function Get-SiteDisplayName {
   $clean = $clean -replace "(?i)\bd&d\b", "Tabletop Adventure"
   $clean = $clean -replace "(?i)\bhobbit\b", "Epic Fantasy"
   $clean = $clean -replace "(?i)\bmiddle-earth\b", "Epic Fantasy"
+  $clean = $clean -replace "(?i)\bset of \d+(?:\s*or\s*\d+)?\b", ""
+  $clean = $clean -replace "(?i)\bengraved\b", ""
+  $clean = $clean -replace "(?i)\bhandcrafted\b", ""
+  $clean = $clean -replace "(?i)\bhandmade\b", ""
+  $clean = $clean -replace "(?i)\bwooden drink coasters?\b", "wooden coasters"
+  $clean = $clean -replace "(?i)\bwood coasters?\b", "wooden coasters"
+  $clean = $clean -replace "(?i)\bwood bookmark\b", "wooden bookmark"
+  $clean = $clean -replace "(?i)\bdoor knob sign\b", "door hanger"
+  $clean = $clean -replace "\s{2,}", " "
+  $clean = $clean.Trim(" ", "-", ",", "!", ".", ":")
 
   return Normalize-Keyword $clean
+}
+
+function Get-LocalizedTagNl {
+  param([string]$Tag)
+
+  $localized = Normalize-Keyword $Tag
+
+  if ([string]::IsNullOrWhiteSpace($localized)) {
+    return $null
+  }
+
+  $localized = $localized -replace "(?i)\bcoasters\b", "Onderzetters"
+  $localized = $localized -replace "(?i)\bcoaster\b", "Onderzetter"
+  $localized = $localized -replace "(?i)\bbookmark\b", "Bladwijzer"
+  $localized = $localized -replace "(?i)\bbookmarks\b", "Bladwijzers"
+  $localized = $localized -replace "(?i)\bwooden\b", "Houten"
+  $localized = $localized -replace "(?i)\bgift\b", "Cadeau"
+  $localized = $localized -replace "(?i)\bgifts\b", "Cadeaus"
+  $localized = $localized -replace "(?i)\bhome decor\b", "Woondecoratie"
+  $localized = $localized -replace "(?i)\bbook lover\b", "Boekenliefhebber"
+  $localized = $localized -replace "(?i)\bcat lover\b", "Kattenliefhebber"
+  $localized = $localized -replace "(?i)\breader\b", "Lezer"
+  $localized = $localized -replace "(?i)\bdoor sign\b", "Deurbord"
+  $localized = $localized -replace "(?i)\bdoor hanger\b", "Deurhanger"
+  $localized = $localized -replace "(?i)\blaser engraved\b", "Laser gegraveerd"
+  $localized = $localized -replace "(?i)\bhome bar decor\b", "Bar decoratie"
+  $localized = $localized -replace "(?i)\broom decor\b", "Kamerdecoratie"
+  $localized = $localized -replace "(?i)\breader gift\b", "Lezerscadeau"
+  $localized = $localized -replace "(?i)\bhusband gift\b", "Cadeau voor hem"
+  $localized = $localized -replace "(?i)\bgamer gift\b", "Gamer cadeau"
+
+  return Normalize-Keyword $localized
 }
 
 function Get-StableVariantIndex {
@@ -660,23 +706,23 @@ function Get-ProductDescription {
   switch ($Category) {
     "onderzetters" {
       switch ($variant) {
-        0 { return "Laser-cut wooden coaster set with $themePhrase for $audiencePhrase. $decisionCue" }
-        1 { return "Wooden coaster set with $themePhrase that suits $audiencePhrase. $decisionCue" }
-        default { return "Handmade wooden coasters that bring $themePhrase to $audiencePhrase. $decisionCue" }
+        0 { return "Laser-cut wooden coasters with $themePhrase for $audiencePhrase." }
+        1 { return "Gift-ready wooden coasters that bring $themePhrase to $audiencePhrase." }
+        default { return "A wooden coaster set designed for $audiencePhrase with $themePhrase." }
       }
     }
     "bladwijzers" {
       switch ($variant) {
-        0 { return "Laser-cut wooden bookmark with $themePhrase for $audiencePhrase. $decisionCue" }
-        1 { return "Wooden bookmark with $themePhrase for $audiencePhrase. $decisionCue" }
-        default { return "A handmade wooden bookmark that pairs $themePhrase with $audiencePhrase. $decisionCue" }
+        0 { return "Laser-cut wooden bookmark with $themePhrase for $audiencePhrase." }
+        1 { return "A giftable wooden bookmark made for $audiencePhrase with $themePhrase." }
+        default { return "A wooden bookmark created for $audiencePhrase with $themePhrase." }
       }
     }
     default {
       switch ($variant) {
-        0 { return "Handmade wooden gift with $themePhrase for $audiencePhrase. $decisionCue" }
-        1 { return "Wooden gift with $themePhrase for $audiencePhrase. $decisionCue" }
-        default { return "A handmade wooden piece designed for $audiencePhrase and $themePhrase. $decisionCue" }
+        0 { return "A handmade wooden gift with $themePhrase for $audiencePhrase." }
+        1 { return "A wooden piece made for $audiencePhrase with $themePhrase." }
+        default { return "A gift-ready wooden design for $audiencePhrase with $themePhrase." }
       }
     }
   }
@@ -957,23 +1003,23 @@ function Get-ProductDescriptionNl {
   switch ($Category) {
     "onderzetters" {
       switch ($variant) {
-        0 { return "Houten onderzetterset met $themePhrase voor $audiencePhrase. $decisionCue" }
-        1 { return "Houten onderzetters met $themePhrase voor $audiencePhrase. $decisionCue" }
-        default { return "Handgemaakte houten onderzetters met $themePhrase voor $audiencePhrase. $decisionCue" }
+        0 { return "Lasergesneden houten onderzetters met $themePhrase voor $audiencePhrase." }
+        1 { return "Cadeauwaardige houten onderzetters met $themePhrase voor $audiencePhrase." }
+        default { return "Een houten onderzetterset voor $audiencePhrase met $themePhrase." }
       }
     }
     "bladwijzers" {
       switch ($variant) {
-        0 { return "Houten bladwijzer met $themePhrase voor $audiencePhrase. $decisionCue" }
-        1 { return "Gegraveerde houten bladwijzer met $themePhrase voor $audiencePhrase. $decisionCue" }
-        default { return "Handgemaakte houten bladwijzer met $themePhrase voor $audiencePhrase. $decisionCue" }
+        0 { return "Een lasergesneden houten bladwijzer met $themePhrase voor $audiencePhrase." }
+        1 { return "Een cadeauwaardige houten bladwijzer voor $audiencePhrase met $themePhrase." }
+        default { return "Een houten bladwijzer voor $audiencePhrase met $themePhrase." }
       }
     }
     default {
       switch ($variant) {
-        0 { return "Handgemaakt houten cadeau met $themePhrase voor $audiencePhrase. $decisionCue" }
-        1 { return "Houten cadeau met $themePhrase voor $audiencePhrase. $decisionCue" }
-        default { return "Een handgemaakt houten item met $themePhrase voor $audiencePhrase. $decisionCue" }
+        0 { return "Een handgemaakt houten cadeau met $themePhrase voor $audiencePhrase." }
+        1 { return "Een houten item voor $audiencePhrase met $themePhrase." }
+        default { return "Een cadeauwaardig houten ontwerp voor $audiencePhrase met $themePhrase." }
       }
     }
   }
@@ -1269,7 +1315,17 @@ function Replace-MarkerBlock {
     $match.Groups[3].Value +
     $text.Substring($match.Index + $match.Length)
 
-  Set-Content -Path $fullPath -Value $updated -Encoding UTF8
+  Write-Utf8NoBomFile -Path $fullPath -Content $updated
+}
+
+function Write-Utf8NoBomFile {
+  param(
+    [string]$Path,
+    [string]$Content
+  )
+
+  $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+  [System.IO.File]::WriteAllText($Path, $Content, $utf8NoBom)
 }
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
@@ -1321,19 +1377,21 @@ foreach ($row in $rows) {
     image_full = $row.IMAGE1
     image_srcset = Get-CardImageSrcSet $row.IMAGE1
     image_sizes = Get-CardImageSizes
-    page = if ($category -eq "onderzetters") { "../pages/onderzetters.html#shop-catalog" } elseif ($category -eq "bladwijzers") { "../pages/bladwijzers.html#shop-catalog" } else { "../pages/houten-cadeaus.html#shop-catalog" }
     category_url = Get-CategoryUrl $category
   }
 
   $etsyUrl = if ($isSensitiveTheme) { Get-EtsyUrl (Get-SensitiveBrowseQuery -Name $displayName -Category $category -Section $section) } else { Get-EtsyUrl $sourceName }
 
   $productEn = [ordered]@{} + $shared
+  $productEn.page = if ($category -eq "onderzetters") { "../pages/wooden-coasters.html#shop-catalog" } elseif ($category -eq "bladwijzers") { "../pages/wooden-bookmarks.html#shop-catalog" } else { "../pages/wooden-gifts.html#shop-catalog" }
   $productEn.description = Get-ProductDescription -Name $displayName -Category $category -Section $section -Tags $tags
   $productEn.alt = Get-AltText -Name $displayName -Category $category -Section $section
   $productEn.cta_label = if ($isSensitiveTheme) { Get-SensitiveCtaLabel -Name $displayName -Category $category -Section $section } else { Get-ProductCtaLabel $displayName }
   $productEn.etsy_url = $etsyUrl
 
   $productNl = [ordered]@{} + $shared
+  $productNl.page = if ($category -eq "onderzetters") { "../pages/onderzetters.html#shop-catalog" } elseif ($category -eq "bladwijzers") { "../pages/bladwijzers.html#shop-catalog" } else { "../pages/houten-cadeaus.html#shop-catalog" }
+  $productNl.tags = @($tags | ForEach-Object { Get-LocalizedTagNl $_ })
   $productNl.description = Get-ProductDescriptionNl -Name $displayName -Category $category -Section $section -Tags $tags
   $productNl.alt = Get-AltTextNl -Name $displayName -Category $category -Section $section
   $productNl.cta_label = if ($isSensitiveTheme) { Get-SensitiveCtaLabelNl -Name $displayName -Category $category -Section $section } else { Get-ProductCtaLabelNl $displayName }
@@ -1343,8 +1401,8 @@ foreach ($row in $rows) {
   $productsNl.Add([pscustomobject]$productNl) | Out-Null
 }
 
-$productsNl | ConvertTo-Json -Depth 6 | Set-Content -Path $jsonPath -Encoding UTF8
-$productsEn | ConvertTo-Json -Depth 6 | Set-Content -Path $jsonPathEn -Encoding UTF8
+Write-Utf8NoBomFile -Path $jsonPath -Content (($productsNl | ConvertTo-Json -Depth 6) + "`n")
+Write-Utf8NoBomFile -Path $jsonPathEn -Content (($productsEn | ConvertTo-Json -Depth 6) + "`n")
 
 $underzettersNl = @($productsNl | Where-Object { $_.category -eq "onderzetters" })
 $bladwijzersNl = @($productsNl | Where-Object { $_.category -eq "bladwijzers" })
@@ -1390,6 +1448,6 @@ $bladwijzersHtmlEn = Render-CategorySection `
 
 $cadeausHtmlEn = Render-GiftSections $cadeausEn
 
-Replace-MarkerBlock -Path "en\pages\onderzetters.html" -Marker "AUTO-CATALOG-ONDERZETTERS" -Content $underzettersHtmlEn
-Replace-MarkerBlock -Path "en\pages\bladwijzers.html" -Marker "AUTO-CATALOG-BLADWIJZERS" -Content $bladwijzersHtmlEn
-Replace-MarkerBlock -Path "en\pages\houten-cadeaus.html" -Marker "AUTO-CATALOG-HOUTEN-CADEAUS" -Content $cadeausHtmlEn
+Replace-MarkerBlock -Path "en\pages\wooden-coasters.html" -Marker "AUTO-CATALOG-ONDERZETTERS" -Content $underzettersHtmlEn
+Replace-MarkerBlock -Path "en\pages\wooden-bookmarks.html" -Marker "AUTO-CATALOG-BLADWIJZERS" -Content $bladwijzersHtmlEn
+Replace-MarkerBlock -Path "en\pages\wooden-gifts.html" -Marker "AUTO-CATALOG-HOUTEN-CADEAUS" -Content $cadeausHtmlEn
