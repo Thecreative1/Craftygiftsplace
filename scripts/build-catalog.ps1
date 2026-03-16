@@ -1646,7 +1646,7 @@ function Render-ProductCard {
   return @"
           <article class="product-card">
             <div class="card-media">
-              <img src="$image"$imageSrcSetAttr$imageSizesAttr alt="$alt" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" />
+              <img src="$image"$imageSrcSetAttr$imageSizesAttr alt="$alt" width="600" height="600" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" />
             </div>
             <div class="card-body">
               <div class="product-meta">
@@ -1654,7 +1654,7 @@ $($chips -join "`n")
               </div>
               <h3>$title</h3>
               <p>$description</p>
-              <a class="btn" href="$url" target="_blank" rel="noopener">$buttonLabel</a>
+              <a class="btn" href="$url" target="_blank" rel="noopener" aria-label="$buttonLabel" title="$buttonLabel">$buttonLabel</a>
             </div>
           </article>
 "@
@@ -1796,6 +1796,7 @@ $jsonPathEn = Join-Path $repoRoot "data\products-en.json"
 $rows = Import-Csv $csvPath
 $productsEn = New-Object System.Collections.Generic.List[object]
 $productsNl = New-Object System.Collections.Generic.List[object]
+$dedupeKeys = New-Object System.Collections.Generic.HashSet[string]
 $index = 0
 
 foreach ($row in $rows) {
@@ -1804,6 +1805,12 @@ foreach ($row in $rows) {
   $section = Get-Section $row $category
   $sourceName = Get-ShortTitle $row.TITLE
   $displayName = Get-SiteDisplayName $sourceName
+  $dedupeKey = "$category|$displayName"
+
+  if (-not $dedupeKeys.Add($dedupeKey)) {
+    continue
+  }
+
   $themeText = (($row.TITLE | Out-String).Trim()) + " " + ((($row.TAGS | Out-String).Trim()))
   $isSensitiveTheme = Test-IsSensitiveTheme $themeText
   $priceValue = [decimal]::Parse($row.PRICE, [System.Globalization.CultureInfo]::InvariantCulture)

@@ -437,29 +437,6 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=themed%20wooden%20coasters"
     },
     {
-        "id":  "chess-wooden-coasters",
-        "name":  "Schaak houten onderzetters",
-        "title":  "Schaak houten onderzetters",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  29.99,
-        "price_label":  "EUR 29.99",
-        "tags":  [
-                     "Spelavond",
-                     "Cadeauklaar"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_600x600.5892277454_rix0.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_fullxfull.5892277454_rix0.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_340x270.5892277454_rix0.jpg 340w, https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_600x600.5892277454_rix0.jpg 600w, https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_794xN.5892277454_rix0.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/onderzetters.html#shop-catalog",
-        "description":  "Voor spelhoeken, bureaus en cadeaus voor hobbyfans, met een speels thema als warm detail. Een praktisch themacadeau voor spelhoeken, bureaus en dagelijkse drankjes.",
-        "alt":  "Schaak houten onderzetters van Craftygiftsplace",
-        "cta_label":  "Bekijk Schaak houten onderzetters op Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Chess%20Coasters"
-    },
-    {
         "id":  "sun-and-moon-wooden-coasters",
         "name":  "Zon en maan houten onderzetters",
         "title":  "Zon en maan houten onderzetters",
@@ -782,29 +759,6 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalised%20Team%20Coaster"
     },
     {
-        "id":  "dragon-eye-wooden-bookmark",
-        "name":  "Drakenoog houten bladwijzer",
-        "title":  "Drakenoog houten bladwijzer",
-        "category":  "bladwijzers",
-        "section":  "bladwijzers",
-        "price_eur":  18.99,
-        "price_label":  "EUR 18.99",
-        "tags":  [
-                     "Fantasylezer",
-                     "Boekcadeau"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_600x600.6369285119_9oa1.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_fullxfull.6369285119_9oa1.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_340x270.6369285119_9oa1.jpg 340w, https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_600x600.6369285119_9oa1.jpg 600w, https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_794xN.6369285119_9oa1.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
-        "page":  "../pages/bladwijzers.html#shop-catalog",
-        "description":  "Houdt je pagina terugvindbaar met een fantasy-detail voor fantasylezers en bijzondere boekcadeaus. Slank, licht en makkelijk toe te voegen aan fantasyboeken of een boekenpakket.",
-        "alt":  "Drakenoog houten bladwijzer van Craftygiftsplace",
-        "cta_label":  "Bekijk houten bladwijzers op Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark"
-    },
-    {
         "id":  "tree-of-life-wooden-coasters",
         "name":  "Levensboom houten onderzetters",
         "title":  "Levensboom houten onderzetters",
@@ -918,29 +872,6 @@
         "alt":  "Spinnenweb houten onderzetters van Craftygiftsplace",
         "cta_label":  "Bekijk Spinnenweb houten onderzetters op Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wooden%20Spider%20Web%20Coasters"
-    },
-    {
-        "id":  "dragon-wooden-bookmark",
-        "name":  "Draak houten bladwijzer",
-        "title":  "Draak houten bladwijzer",
-        "category":  "bladwijzers",
-        "section":  "bladwijzers",
-        "price_eur":  12.99,
-        "price_label":  "EUR 12.99",
-        "tags":  [
-                     "Fantasylezer",
-                     "Boekcadeau"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_600x600.5925838820_rmhl.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_fullxfull.5925838820_rmhl.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_340x270.5925838820_rmhl.jpg 340w, https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_600x600.5925838820_rmhl.jpg 600w, https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_794xN.5925838820_rmhl.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
-        "page":  "../pages/bladwijzers.html#shop-catalog",
-        "description":  "Een slanke houten bladwijzer voor fantasylezers en bijzondere boekcadeaus, afgewerkt met een fantasy-detail. Slank, licht en makkelijk toe te voegen aan fantasyboeken of een boekenpakket.",
-        "alt":  "Draak houten bladwijzer van Craftygiftsplace",
-        "cta_label":  "Bekijk Draak houten bladwijzer op Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Carved%20Wooden%20Dragon%20Bookmark"
     },
     {
         "id":  "diy-christmas-ornaments",
@@ -1288,29 +1219,6 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Calendar%20Coaster%20Engraved%20Birthday%20Reminder%20for%20Husband"
     },
     {
-        "id":  "space-saga-coaster-set",
-        "name":  "Ruimtesaga houten onderzetters",
-        "title":  "Ruimtesaga houten onderzetters",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  29.99,
-        "price_label":  "EUR 29.99",
-        "tags":  [
-                     "Tafeldecoratie",
-                     "Cadeauklaar"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_600x600.5358911821_29kf.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_fullxfull.5358911821_29kf.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_340x270.5358911821_29kf.jpg 340w, https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_600x600.5358911821_29kf.jpg 600w, https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_794xN.5358911821_29kf.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/onderzetters.html#shop-catalog",
-        "description":  "Voor dagelijkse tafels en cadeauklare momenten, met een warme gravure als warm detail. Een bruikbaar houten accent dat cadeauwaardig voelt zonder ingewikkeld te zijn.",
-        "alt":  "Ruimtesaga houten onderzetters van Craftygiftsplace",
-        "cta_label":  "Bekijk houten onderzetters op Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=themed%20wooden%20coasters"
-    },
-    {
         "id":  "personaliseerbare-houten-onderzetters-met-kurk-onderkant-set-van-6",
         "name":  "Personaliseerbare Met Kurk Onderkant houten onderzetters",
         "title":  "Personaliseerbare Met Kurk Onderkant houten onderzetters",
@@ -1587,29 +1495,6 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark"
     },
     {
-        "id":  "tree-of-life-wooden-coasters",
-        "name":  "Levensboom houten onderzetters",
-        "title":  "Levensboom houten onderzetters",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  29.99,
-        "price_label":  "EUR 29.99",
-        "tags":  [
-                     "Natuurlijke decoratie",
-                     "Verhuiscadeau"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_600x600.6384530407_59y3.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_fullxfull.6384530407_59y3.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_340x270.6384530407_59y3.jpg 340w, https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_600x600.6384530407_59y3.jpg 600w, https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_794xN.6384530407_59y3.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/onderzetters.html#shop-catalog",
-        "description":  "Houdt mokken en glazen van tafel en voegt een natuurlijk detail toe voor natuurliefhebbers, verhuiscadeaus en dagelijkse tafels. Een houten accent dat mooi past bij natuurlijke interieurs, verhuiscadeaus en ontspannen momenten.",
-        "alt":  "Levensboom houten onderzetters van Craftygiftsplace",
-        "cta_label":  "Bekijk Levensboom houten onderzetters op Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Tree%20of%20Life%20Wooden%20Coasters"
-    },
-    {
         "id":  "birch-wood-circle-blanks",
         "name":  "Berken houten Houten cirkels",
         "title":  "Berken houten Houten cirkels",
@@ -1677,29 +1562,6 @@
         "alt":  "Gebed bezig Deurhanger van Craftygiftsplace",
         "cta_label":  "Bekijk Gebed bezig Deurhanger op Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Do%20Not%20Disturb%20Prayer%20in%20Progress%20Door%20Hanger"
-    },
-    {
-        "id":  "space-saga-coaster-set",
-        "name":  "Ruimtesaga houten onderzetters",
-        "title":  "Ruimtesaga houten onderzetters",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  29.99,
-        "price_label":  "EUR 29.99",
-        "tags":  [
-                     "Tafeldecoratie",
-                     "Cadeauklaar"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_600x600.6919733058_fnil.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_fullxfull.6919733058_fnil.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_340x270.6919733058_fnil.jpg 340w, https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_600x600.6919733058_fnil.jpg 600w, https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_794xN.6919733058_fnil.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/onderzetters.html#shop-catalog",
-        "description":  "Voor dagelijkse tafels en cadeauklare momenten, met een warme gravure als warm detail. Een bruikbaar houten accent dat cadeauwaardig voelt zonder ingewikkeld te zijn.",
-        "alt":  "Ruimtesaga houten onderzetters van Craftygiftsplace",
-        "cta_label":  "Bekijk houten onderzetters op Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=themed%20wooden%20coasters"
     },
     {
         "id":  "personalized-wooden-coasters",
@@ -2091,29 +1953,6 @@
         "alt":  "Vuurtoren houten bladwijzer van Craftygiftsplace",
         "cta_label":  "Bekijk Vuurtoren houten bladwijzer op Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Lighthouse%20Wood%20Bookmark"
-    },
-    {
-        "id":  "personalized-calendar-coaster",
-        "name":  "Gepersonaliseerde kalenderonderzetter",
-        "title":  "Gepersonaliseerde kalenderonderzetter",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  24.99,
-        "price_label":  "EUR 24.99",
-        "tags":  [
-                     "Tafeldecoratie",
-                     "Cadeauklaar"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_600x600.5392340425_t1om.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_fullxfull.5392340425_t1om.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_340x270.5392340425_t1om.jpg 340w, https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_600x600.5392340425_t1om.jpg 600w, https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_794xN.5392340425_t1om.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/onderzetters.html#shop-catalog",
-        "description":  "Fijn voor dagelijkse drankjes en bedoeld voor dagelijkse tafels en cadeauklare momenten, met een warme gravure. Een bruikbaar houten accent dat cadeauwaardig voelt zonder ingewikkeld te zijn.",
-        "alt":  "Gepersonaliseerde kalenderonderzetter van Craftygiftsplace",
-        "cta_label":  "Bekijk houten onderzetters op Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=wooden%20coasters"
     },
     {
         "id":  "celestial-cat-wooden-coasters",

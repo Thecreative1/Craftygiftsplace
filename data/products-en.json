@@ -437,29 +437,6 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=themed%20wooden%20coasters"
     },
     {
-        "id":  "chess-wooden-coasters",
-        "name":  "Chess Wooden Coasters",
-        "title":  "Chess Wooden Coasters",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  29.99,
-        "price_label":  "EUR 29.99",
-        "tags":  [
-                     "Game night",
-                     "Gift-ready"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_600x600.5892277454_rix0.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_fullxfull.5892277454_rix0.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_340x270.5892277454_rix0.jpg 340w, https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_600x600.5892277454_rix0.jpg 600w, https://i.etsystatic.com/46731516/r/il/10f784/5892277454/il_794xN.5892277454_rix0.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "A giftable coaster set that brings playful themed detail to game rooms, desks and hobby-inspired gifts. A practical themed gift for game rooms, desks and everyday drinks.",
-        "alt":  "Chess Wooden Coasters by Craftygiftsplace",
-        "cta_label":  "View Chess Wooden Coasters on Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Chess%20Coasters"
-    },
-    {
         "id":  "sun-and-moon-wooden-coasters",
         "name":  "Sun And Moon Wooden Coasters",
         "title":  "Sun And Moon Wooden Coasters",
@@ -782,29 +759,6 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalised%20Team%20Coaster"
     },
     {
-        "id":  "dragon-eye-wooden-bookmark",
-        "name":  "Dragon Eye Wooden Bookmark",
-        "title":  "Dragon Eye Wooden Bookmark",
-        "category":  "bladwijzers",
-        "section":  "bladwijzers",
-        "price_eur":  18.99,
-        "price_label":  "EUR 18.99",
-        "tags":  [
-                     "Fantasy reader",
-                     "Book gift"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_600x600.6369285119_9oa1.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_fullxfull.6369285119_9oa1.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_340x270.6369285119_9oa1.jpg 340w, https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_600x600.6369285119_9oa1.jpg 600w, https://i.etsystatic.com/46731516/r/il/6e2457/6369285119/il_794xN.6369285119_9oa1.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
-        "page":  "../pages/wooden-bookmarks.html#shop-catalog",
-        "description":  "Adds fantasy detail to a favorite read for fantasy readers and special book gifts. Slim, lightweight and easy to tuck into fantasy books or reader gift boxes.",
-        "alt":  "Dragon Eye Wooden Bookmark by Craftygiftsplace",
-        "cta_label":  "Browse fantasy bookmarks on Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark"
-    },
-    {
         "id":  "tree-of-life-wooden-coasters",
         "name":  "Tree of Life Wooden Coasters",
         "title":  "Tree of Life Wooden Coasters",
@@ -918,29 +872,6 @@
         "alt":  "Spider Web Wooden Coasters by Craftygiftsplace",
         "cta_label":  "View Spider Web Wooden Coasters on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wooden%20Spider%20Web%20Coasters"
-    },
-    {
-        "id":  "dragon-wooden-bookmark",
-        "name":  "Dragon Wooden Bookmark",
-        "title":  "Dragon Wooden Bookmark",
-        "category":  "bladwijzers",
-        "section":  "bladwijzers",
-        "price_eur":  12.99,
-        "price_label":  "EUR 12.99",
-        "tags":  [
-                     "Fantasy reader",
-                     "Book gift"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_600x600.5925838820_rmhl.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_fullxfull.5925838820_rmhl.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_340x270.5925838820_rmhl.jpg 340w, https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_600x600.5925838820_rmhl.jpg 600w, https://i.etsystatic.com/46731516/r/il/7beb28/5925838820/il_794xN.5925838820_rmhl.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark",
-        "page":  "../pages/wooden-bookmarks.html#shop-catalog",
-        "description":  "A thoughtful bookmark that brings fantasy detail to fantasy readers and special book gifts. Slim, lightweight and easy to tuck into fantasy books or reader gift boxes.",
-        "alt":  "Dragon Wooden Bookmark by Craftygiftsplace",
-        "cta_label":  "View Dragon Wooden Bookmark on Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Carved%20Wooden%20Dragon%20Bookmark"
     },
     {
         "id":  "diy-christmas-ornaments",
@@ -1288,29 +1219,6 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Calendar%20Coaster%20Engraved%20Birthday%20Reminder%20for%20Husband"
     },
     {
-        "id":  "space-saga-coaster-set",
-        "name":  "Space Saga Coaster Set",
-        "title":  "Space Saga Coaster Set",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  29.99,
-        "price_label":  "EUR 29.99",
-        "tags":  [
-                     "Tabletop decor",
-                     "Gift-ready"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_600x600.5358911821_29kf.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_fullxfull.5358911821_29kf.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_340x270.5358911821_29kf.jpg 340w, https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_600x600.5358911821_29kf.jpg 600w, https://i.etsystatic.com/46731516/r/il/1a80e7/5358911821/il_794xN.5358911821_29kf.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "Keeps mugs and glasses off the table while adding warm engraved detail for everyday tables and easy gifting. A useful wooden accent that feels gift-ready without being overcomplicated.",
-        "alt":  "Space Saga Coaster Set by Craftygiftsplace",
-        "cta_label":  "Browse themed coasters on Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=themed%20wooden%20coasters"
-    },
-    {
         "id":  "personaliseerbare-houten-onderzetters-met-kurk-onderkant-set-van-6",
         "name":  "Personaliseerbare Houten Onderzetters Met Kurk Onderkant Set Van 6",
         "title":  "Personaliseerbare Houten Onderzetters Met Kurk Onderkant Set Van 6",
@@ -1587,29 +1495,6 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark"
     },
     {
-        "id":  "tree-of-life-wooden-coasters",
-        "name":  "Tree of Life Wooden Coasters",
-        "title":  "Tree of Life Wooden Coasters",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  29.99,
-        "price_label":  "EUR 29.99",
-        "tags":  [
-                     "Nature decor",
-                     "Housewarming"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_600x600.6384530407_59y3.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_fullxfull.6384530407_59y3.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_340x270.6384530407_59y3.jpg 340w, https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_600x600.6384530407_59y3.jpg 600w, https://i.etsystatic.com/46731516/r/il/a21b09/6384530407/il_794xN.6384530407_59y3.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "Made for nature lovers, housewarming gifts and everyday tables, this wooden coaster set adds nature-inspired detail. A gift-ready wooden accent for nature-led homes, shared tables and relaxed hosting.",
-        "alt":  "Tree of Life Wooden Coasters by Craftygiftsplace",
-        "cta_label":  "View Tree of Life Wooden Coasters on Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Tree%20of%20Life%20Wooden%20Coasters"
-    },
-    {
         "id":  "birch-wood-circle-blanks",
         "name":  "Birch Wood Circle Blanks",
         "title":  "Birch Wood Circle Blanks",
@@ -1677,29 +1562,6 @@
         "alt":  "Prayer in Progress Door Hanger by Craftygiftsplace",
         "cta_label":  "View Prayer in Progress Door Hanger on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Do%20Not%20Disturb%20Prayer%20in%20Progress%20Door%20Hanger"
-    },
-    {
-        "id":  "space-saga-coaster-set",
-        "name":  "Space Saga Coaster Set",
-        "title":  "Space Saga Coaster Set",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  29.99,
-        "price_label":  "EUR 29.99",
-        "tags":  [
-                     "Tabletop decor",
-                     "Gift-ready"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_600x600.6919733058_fnil.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_fullxfull.6919733058_fnil.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_340x270.6919733058_fnil.jpg 340w, https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_600x600.6919733058_fnil.jpg 600w, https://i.etsystatic.com/46731516/r/il/ef1dd0/6919733058/il_794xN.6919733058_fnil.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "Keeps mugs and glasses off the table while adding warm engraved detail for everyday tables and easy gifting. A useful wooden accent that feels gift-ready without being overcomplicated.",
-        "alt":  "Space Saga Coaster Set by Craftygiftsplace",
-        "cta_label":  "Browse themed coasters on Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=themed%20wooden%20coasters"
     },
     {
         "id":  "personalized-wooden-coasters",
@@ -2091,29 +1953,6 @@
         "alt":  "Lighthouse Wooden Bookmark by Craftygiftsplace",
         "cta_label":  "View Lighthouse Wooden Bookmark on Etsy",
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Lighthouse%20Wood%20Bookmark"
-    },
-    {
-        "id":  "personalized-calendar-coaster",
-        "name":  "Personalized Calendar Coaster",
-        "title":  "Personalized Calendar Coaster",
-        "category":  "onderzetters",
-        "section":  "onderzetters",
-        "price_eur":  24.99,
-        "price_label":  "EUR 24.99",
-        "tags":  [
-                     "Tabletop decor",
-                     "Gift-ready"
-                 ],
-        "image":  "https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_600x600.5392340425_t1om.jpg",
-        "image_full":  "https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_fullxfull.5392340425_t1om.jpg",
-        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_340x270.5392340425_t1om.jpg 340w, https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_600x600.5392340425_t1om.jpg 600w, https://i.etsystatic.com/46731516/r/il/d7ab44/5392340425/il_794xN.5392340425_t1om.jpg 794w",
-        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster",
-        "page":  "../pages/wooden-coasters.html#shop-catalog",
-        "description":  "Use it for everyday drinks when you want warm engraved detail around everyday tables and easy gifting. A useful wooden accent that feels gift-ready without being overcomplicated.",
-        "alt":  "Personalized Calendar Coaster by Craftygiftsplace",
-        "cta_label":  "Browse wooden coasters on Etsy",
-        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=wooden%20coasters"
     },
     {
         "id":  "celestial-cat-wooden-coasters",
