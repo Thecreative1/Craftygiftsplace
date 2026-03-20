@@ -6,6 +6,32 @@ const localeBans = {
   nl: ["housewarming", "coasters", "gift-ready", "reader gift"]
 };
 
+const productLocaleBans = {
+  nl: [
+    /\brocket\b/i,
+    /\bclassic\b/i,
+    /\binspired\b/i,
+    /\bfeather\b/i,
+    /\bwitch\b/i,
+    /\bsymbols\b/i,
+    /\bfishing\b/i,
+    /\bhunting\b/i,
+    /\bcelestial\b/i,
+    /\bspanish guitar\b/i,
+    /\bmotif\b/i,
+    /\bspiderweb\b/i,
+    /\bskull\b/i,
+    /\bcheckers\b/i,
+    /\bsword\b/i,
+    /\badventure\b/i,
+    /\bdad\b/i,
+    /\bdartboard\b/i,
+    /\broots?\b/i,
+    /\bwortels\b/i,
+    /\bgepersonaliseerde team\b/i
+  ]
+};
+
 function readFile(sitePath) {
   return fs.readFileSync(sitePathToFile(sitePath), "utf8");
 }
@@ -94,6 +120,14 @@ function validateProducts(products, locale) {
     if (!product.etsy_url || !product.etsy_url.trim()) {
       fail(`Missing Etsy URL in ${locale} product "${product.slug}".`);
     }
+
+    const bannedPatterns = productLocaleBans[locale] || [];
+    const fields = [product.name, product.alt, product.cta_label].filter(Boolean);
+    bannedPatterns.forEach((pattern) => {
+      if (fields.some((field) => pattern.test(field))) {
+        fail(`Suspicious untranslated token ${pattern} found in ${locale} product "${product.slug}".`);
+      }
+    });
   });
 }
 

@@ -6,6 +6,28 @@ const CATEGORY_MAP = {
   "houten-cadeaus": "wooden-gifts"
 };
 
+const DUTCH_NAME_OVERRIDES = {
+  "bee-motif-wooden-coasters": "Bijenmotief houten onderzetters",
+  "personalised-team-wooden-coasters": "Gepersonaliseerde teamonderzetters",
+  "hand-painted-spiderweb-wooden-coasters": "Handbeschilderde spinnenweb houten onderzetters",
+  "skull-tealight-holder": "Schedel theelichthouder",
+  "checkers-wooden-coasters": "Dam houten onderzetters",
+  "cricket-dad-coaster": "Cricket papa houten onderzetters",
+  "dartboard-wooden-coasters": "Dartbord houten onderzetters",
+  "fantasy-sword-wooden-bookmark": "Fantasy zwaard houten bladwijzer",
+  "tabletop-adventure-coaster-set": "Tafelspel-avontuur houten onderzetters",
+  "rocket-wooden-bookmark": "Raket houten bladwijzer",
+  "1984-inspired-wooden-bookmark": "1984-geinspireerde houten bladwijzer",
+  "fishing-wooden-coasters": "Vis-thema houten onderzetters",
+  "witch-symbols-wooden-bookmark": "Hekssymbolen houten bladwijzer",
+  "classic-wooden-bookmark": "Klassieke houten bladwijzer",
+  "personalized-feather-wooden-bookmark": "Gepersonaliseerde houten bladwijzer met veer",
+  "celestial-cat-wooden-coasters": "Hemelse kat houten onderzetters",
+  "spanish-guitar-wooden-bookmark": "Spaanse gitaar houten bladwijzer",
+  "hunting-life-wooden-coasters": "Jachtthema houten onderzetters",
+  "upcycled-ram-keychain": "Upcyclede RAM-sleutelhanger"
+};
+
 const LABELS = {
   en: {
     audience: {
@@ -593,6 +615,15 @@ function buildCtaLabel(locale, name) {
     : `${LABELS[locale].ctaPrefix} ${name} on Etsy`;
 }
 
+function normalizeLocalizedName(locale, rawProduct, localizedName) {
+  const clean = String(localizedName || "").replace(/\s+/g, " ").trim();
+  if (locale !== "nl") {
+    return clean;
+  }
+
+  return DUTCH_NAME_OVERRIDES[rawProduct.id] || clean;
+}
+
 function capitalize(value) {
   if (!value) {
     return "";
@@ -602,6 +633,7 @@ function capitalize(value) {
 
 function buildLocaleProduct(locale, rawProduct, localizedName, signals) {
   const labels = LABELS[locale];
+  const normalizedName = normalizeLocalizedName(locale, rawProduct, localizedName);
   const audience = localizeList(locale, "audience", signals.audienceKeys);
   const occasions = localizeList(locale, "occasion", signals.occasionKeys);
   const style = localizeList(locale, "style", signals.styleKeys);
@@ -619,7 +651,7 @@ function buildLocaleProduct(locale, rawProduct, localizedName, signals) {
     locale,
     category: CATEGORY_MAP[rawProduct.category],
     section: rawProduct.section,
-    name: localizedName,
+    name: normalizedName,
     price: Number(rawProduct.price_eur).toFixed(2),
     price_label: rawProduct.price_label,
     audience_keys: signals.audienceKeys,
@@ -639,13 +671,13 @@ function buildLocaleProduct(locale, rawProduct, localizedName, signals) {
     image: rawProduct.image,
     image_srcset: rawProduct.image_srcset || "",
     image_sizes: rawProduct.image_sizes || "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    alt: rawProduct.alt,
+    alt: `${normalizedName} ${labels.brandSuffix}`,
     short_desc: buildShortDescription(locale, signals.formatKey, benefitPrimary, motif, usageContext),
     collection_desc: buildCollectionDescription(locale, formatLabel, audience, occasions),
     intent_keys: signals.intentKeys,
     intent_tags: intentTags,
     chips,
-    cta_label: buildCtaLabel(locale, localizedName),
+    cta_label: buildCtaLabel(locale, normalizedName),
     brand_suffix: labels.brandSuffix
   };
 }
