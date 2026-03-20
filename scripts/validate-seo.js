@@ -150,19 +150,26 @@ const HOME_SECTION_ORDER = [
   "faq"
 ];
 
-const homepageLanguageChecks = {
-  en: {
-    required: ["english", "dutch", "german"],
-    banned: ["two languages", "english and dutch"]
-  },
-  nl: {
-    required: ["nederlands", "engels", "duits"],
-    banned: ["twee talen", "nederlands en engels"]
-  },
-  de: {
-    required: ["deutsch", "englisch", "niederländisch"],
-    banned: ["zwei sprachen", "deutsch und englisch"]
-  }
+const homepageLanguagePromotionBans = {
+  en: [
+    "shop in three languages",
+    "available in three languages",
+    "browse in 3 languages",
+    "browse in three languages"
+  ],
+  nl: [
+    "shop in drie talen",
+    "beschikbaar in drie talen",
+    "bladeren in 3 talen",
+    "bladeren in drie talen"
+  ],
+  de: [
+    "in drei sprachen stöbern",
+    "verfügbar in drei sprachen",
+    "verfugbar in drei sprachen",
+    "in 3 sprachen stöbern",
+    "in 3 sprachen stobern"
+  ]
 };
 
 function readFile(sitePath) {
@@ -452,7 +459,7 @@ function validateHomepages() {
     const locales = new Set(extractLanguageSwitcherLocales(html));
     const bestsellerCount = [...html.matchAll(/data-home-bestseller="true"/g)].length;
     const featuredCategoryCount = [...html.matchAll(/data-home-featured-category="true"/g)].length;
-    const languageChecks = homepageLanguageChecks[page.locale];
+    const bannedPhrases = homepageLanguagePromotionBans[page.locale] || [];
 
     if (order !== expectedOrder) {
       fail(`Homepage section order mismatch in ${page.path}.`);
@@ -464,15 +471,9 @@ function validateHomepages() {
       }
     });
 
-    languageChecks.required.forEach((term) => {
-      if (!visible.includes(term)) {
-        fail(`Homepage ${page.path} is missing language reference "${term}".`);
-      }
-    });
-
-    languageChecks.banned.forEach((phrase) => {
+    bannedPhrases.forEach((phrase) => {
       if (visible.includes(phrase)) {
-        fail(`Homepage ${page.path} still mentions outdated language copy "${phrase}".`);
+        fail(`Homepage ${page.path} still promotes multilingual support with "${phrase}".`);
       }
     });
 

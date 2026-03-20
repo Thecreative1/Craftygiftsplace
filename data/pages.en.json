@@ -126,16 +126,16 @@
         "answer": "No. This website helps shoppers explore the range and then sends them to Etsy to complete the order."
       },
       {
-        "question": "Can I browse in more than one language?",
-        "answer": "Yes. The homepage and key gift pages are available in English, Dutch and German."
+        "question": "Can I ask about personalization before ordering?",
+        "answer": "Yes. Etsy messaging is the best place to ask about names, dates or short personalized details before checkout."
       },
       {
-        "question": "Can buyers still shop by collection?",
-        "answer": "Yes. Wooden coasters, wooden bookmarks and wooden gifts each keep their own collection page."
+        "question": "What is the fastest way to choose the right gift?",
+        "answer": "Start with the featured categories if the occasion is clear, or use the bestseller block when you want a quick proven pick."
       },
       {
-        "question": "Where do personalization questions go?",
-        "answer": "The contact page points shoppers to Etsy messaging, where personalization details and order questions can be handled directly."
+        "question": "Where can shoppers check shipping and process details?",
+        "answer": "Shipping timing, listing details and checkout expectations stay on Etsy, where buyers can review the full product page before ordering."
       }
     ],
     "ctaPanel": {
@@ -212,16 +212,16 @@
     ],
     "supportCards": [
       {
-        "title": "What this site is for",
-        "text": "This support site helps shoppers scan the strongest products first before they open the Etsy listing."
+        "title": "Start with the strongest picks",
+        "text": "This homepage pulls the clearest gift ideas to the front so shoppers can reach a strong option faster."
       },
       {
-        "title": "Available in three languages",
-        "text": "The same core paths are available in English, Dutch and German so visitors can browse in the language that feels easiest."
+        "title": "Choose by occasion or collection",
+        "text": "Use the gift guides when the occasion matters first, or jump into collections when the product type matters more."
       },
       {
-        "title": "How the Etsy path works",
-        "text": "When someone is ready, the CTA sends them to Etsy for pricing, reviews, personalization and checkout."
+        "title": "Ordering stays on Etsy",
+        "text": "When someone is ready, the CTA sends them to Etsy for pricing, reviews, personalization, shipping details and checkout."
       }
     ],
     "alternatePaths": {

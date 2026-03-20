@@ -136,16 +136,16 @@
   ],
   "supportCards": [
     {
-      "title": "Wofür diese Seite da ist",
-      "text": "Diese Support-Seite hilft Besuchern, zuerst die stärksten Produkte zu sehen, bevor sie das Etsy-Listing öffnen."
+      "title": "Starte mit den stärksten Picks",
+      "text": "Diese Homepage stellt die klarsten Geschenkideen nach vorn, damit Besucher schneller bei einer starken Option landen."
     },
     {
-      "title": "Verfügbar in drei Sprachen",
-      "text": "Dieselben Kernpfade gibt es auf Deutsch, Englisch und Niederländisch, damit Besucher in der Sprache stöbern können, die sich am einfachsten anfühlt."
+      "title": "Wähle nach Anlass oder Kollektion",
+      "text": "Nutze die Geschenkseiten, wenn zuerst der Anlass zählt, oder öffne eine Kollektion, wenn der Produkttyp wichtiger ist."
     },
     {
-      "title": "Wie der Etsy-Weg funktioniert",
-      "text": "Wenn jemand kaufen möchte, führt der CTA zu Etsy für Preise, Bewertungen, Personalisierung und Checkout."
+      "title": "Bestellt wird über Etsy",
+      "text": "Wenn jemand kaufen möchte, führt der CTA zu Etsy für Preise, Bewertungen, Personalisierung, Versanddetails und Checkout."
     }
   ],
   "reviews": {
@@ -176,16 +176,16 @@
       "answer": "Nein. Diese Website hilft beim Entdecken des Sortiments und führt Besucher dann zu Etsy, wo die Bestellung abgeschlossen wird."
     },
     {
-      "question": "Kann ich in mehr als einer Sprache stöbern?",
-      "answer": "Ja. Die Homepage und die wichtigsten Geschenkseiten sind auf Deutsch, Englisch und Niederländisch verfügbar."
+      "question": "Kann ich vor der Bestellung nach Personalisierung fragen?",
+      "answer": "Ja. Etsy-Nachrichten sind der beste Weg für Namen, Daten oder kurze persönliche Details vor dem Checkout."
     },
     {
-      "question": "Können Besucher weiterhin nach Kollektion shoppen?",
-      "answer": "Ja. Holzuntersetzer, Holzlesezeichen und Holzgeschenke behalten jeweils ihre eigene Kollektionsseite."
+      "question": "Wie finde ich das passende Geschenk am schnellsten?",
+      "answer": "Starte mit den beliebten Kategorien, wenn der Anlass schon klar ist, oder nutze den Bestseller-Bereich für einen schnellen bewährten Favoriten."
     },
     {
-      "question": "Wohin gehen Fragen zur Personalisierung?",
-      "answer": "Die Kontaktseite verweist auf Etsy-Nachrichten, wo Personalisierung und Bestellfragen direkt besprochen werden können."
+      "question": "Wo sehen Käufer Versand- und Ablaufdetails?",
+      "answer": "Versandzeiten, Listing-Details und Checkout-Erwartungen bleiben auf Etsy, damit Käufer die vollständige Produktseite vor der Bestellung prüfen können."
     }
   ]
 }

@@ -136,16 +136,16 @@
   ],
   "supportCards": [
     {
-      "title": "Waar deze site voor dient",
-      "text": "Deze supportsite helpt bezoekers eerst de sterkste producten te scannen voordat ze het Etsy listing openen."
+      "title": "Begin met de sterkste keuzes",
+      "text": "Deze homepage zet de duidelijkste cadeaukeuzes vooraan, zodat bezoekers sneller bij een goede optie uitkomen."
     },
     {
-      "title": "Beschikbaar in drie talen",
-      "text": "Dezelfde kernroutes bestaan in het Nederlands, Engels en Duits zodat bezoekers kunnen bladeren in de taal die het prettigst voelt."
+      "title": "Kies per gelegenheid of collectie",
+      "text": "Gebruik de cadeaupagina's wanneer de gelegenheid leidend is, of open een collectie wanneer het producttype belangrijker is."
     },
     {
-      "title": "Hoe de Etsy-route werkt",
-      "text": "Wanneer iemand klaar is om te kopen, brengt de CTA hen naar Etsy voor prijzen, reviews, personalisatie en afrekenen."
+      "title": "Bestellen loopt via Etsy",
+      "text": "Wanneer iemand klaar is om te kopen, brengt de CTA hen naar Etsy voor prijzen, reviews, personalisatie, verzenddetails en afrekenen."
     }
   ],
   "reviews": {
@@ -176,16 +176,16 @@
       "answer": "Nee. Deze website helpt bezoekers het aanbod te bekijken en stuurt daarna door naar Etsy om de bestelling af te ronden."
     },
     {
-      "question": "Kan ik in meer dan één taal bladeren?",
-      "answer": "Ja. De homepage en de belangrijkste cadeaupagina's zijn beschikbaar in het Nederlands, Engels en Duits."
+      "question": "Kan ik personalisatie vragen voordat ik bestel?",
+      "answer": "Ja. Etsy-berichten zijn de beste plek om te vragen naar namen, data of korte persoonlijke details vóór het afrekenen."
     },
     {
-      "question": "Kunnen bezoekers nog steeds per collectie shoppen?",
-      "answer": "Ja. Houten onderzetters, houten bladwijzers en houten cadeaus houden elk hun eigen collectiepagina."
+      "question": "Wat is de snelste manier om het juiste cadeau te kiezen?",
+      "answer": "Begin met de uitgelichte categorieën als de gelegenheid al duidelijk is, of gebruik het bestsellerblok als je snel een bewezen favoriet wilt zien."
     },
     {
-      "question": "Waar gaan vragen over personalisatie naartoe?",
-      "answer": "De contactpagina wijst naar Etsy-berichten, waar personalisatie en ordervragen direct kunnen worden besproken."
+      "question": "Waar bekijken kopers verzend- en procesdetails?",
+      "answer": "Verzendtijden, listingdetails en verwachtingen rond afrekenen blijven op Etsy staan, zodat kopers eerst de volledige productpagina kunnen bekijken."
     }
   ]
 }
