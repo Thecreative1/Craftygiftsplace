@@ -1,63 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://thecreative1.github.io/Craftygiftsplace/</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://thecreative1.github.io/Craftygiftsplace/en/index.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/onderzetters.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/index.html" /><xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/" />
   </url>
   <url>
     <loc>https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-coasters.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/bladwijzers.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-coasters.html" /><xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/onderzetters.html" />
   </url>
   <url>
     <loc>https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-bookmarks.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/houten-cadeaus.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-bookmarks.html" /><xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/bladwijzers.html" />
   </url>
   <url>
     <loc>https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-gifts.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/contact.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-gifts.html" /><xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/houten-cadeaus.html" />
   </url>
   <url>
     <loc>https://thecreative1.github.io/Craftygiftsplace/en/pages/contact.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/contact.html" /><xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/contact.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/en/pages/cat-lover-gifts.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/cat-lover-gifts.html" /><xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/cadeaus-voor-kattenliefhebbers.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/en/pages/reader-gifts.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/reader-gifts.html" /><xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/lezerscadeaus.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/en/pages/housewarming-gifts.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/housewarming-gifts.html" /><xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/verhuiscadeaus.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/" /><xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/index.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/onderzetters.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/onderzetters.html" /><xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-coasters.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/bladwijzers.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/bladwijzers.html" /><xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-bookmarks.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/houten-cadeaus.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/houten-cadeaus.html" /><xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/wooden-gifts.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/contact.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/contact.html" /><xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/contact.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/cadeaus-voor-kattenliefhebbers.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/cadeaus-voor-kattenliefhebbers.html" /><xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/cat-lover-gifts.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/lezerscadeaus.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/lezerscadeaus.html" /><xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/reader-gifts.html" />
+  </url>
+  <url>
+    <loc>https://thecreative1.github.io/Craftygiftsplace/pages/verhuiscadeaus.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thecreative1.github.io/Craftygiftsplace/pages/verhuiscadeaus.html" /><xhtml:link rel="alternate" hreflang="en" href="https://thecreative1.github.io/Craftygiftsplace/en/pages/housewarming-gifts.html" />
   </url>
 </urlset>

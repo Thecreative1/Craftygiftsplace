@@ -1,0 +1,30 @@
+<body class="{{bodyClass}}">
+  <a class="skip-link" href="#main-content">{{skipLinkLabel}}</a>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="{{homePath}}" class="brand" aria-label="{{homeAriaLabel}}">
+        <img class="brand-logo" src="{{logoPath}}" alt="Craftygiftsplace logo" width="64" height="64" />
+        <span class="brand-copy">
+          <strong>Craftygiftsplace</strong>
+          <span>{{brandTagline}}</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="site-nav" aria-label="{{navAriaLabel}}">
+        {{navLinks}}
+      </nav>
+
+      <div class="language-switch language-switch-header" role="group" aria-label="{{languageSwitchLabel}}">
+        {{languageLinks}}
+      </div>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="{{navToggleLabel}}">
+        <span>{{menuLabel}}</span>
+        <span class="nav-toggle-lines" aria-hidden="true">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </span>
+      </button>
+    </div>
+  </header>
