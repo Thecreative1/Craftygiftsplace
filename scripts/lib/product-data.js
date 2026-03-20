@@ -28,6 +28,38 @@ const DUTCH_NAME_OVERRIDES = {
   "upcycled-ram-keychain": "Upcyclede RAM-sleutelhanger"
 };
 
+const GERMAN_NAME_OVERRIDES = {
+  "1984-inspired-wooden-bookmark": "Von 1984 inspiriertes Holzlesezeichen",
+  "bee-motif-wooden-coasters": "Bienenmotiv Holzuntersetzer",
+  "cat-and-moon-wooden-coasters": "Katze und Mond Holzuntersetzer",
+  "cat-wooden-coasters": "Katzenmotiv Holzuntersetzer",
+  "celestial-cat-wooden-coasters": "Himmlische Katzen Holzuntersetzer",
+  "celtic-wooden-bookmark": "Keltisches Holzlesezeichen",
+  "classic-wooden-bookmark": "Klassisches Holzlesezeichen",
+  "do-not-ring-door-sign": "Bitte nicht klingeln Türschild",
+  "dragon-eye-wooden-bookmark": "Drachenauge Holzlesezeichen",
+  "dragon-wooden-bookmark": "Drachen Holzlesezeichen",
+  "epic-fantasy-door-sign": "Episches Fantasy Türschild",
+  "epic-fantasy-wooden-bookmark": "Episches Fantasy Holzlesezeichen",
+  "fantasy-reader-gift-set": "Fantasy Lesegeschenk Set",
+  "fantasy-sword-wooden-bookmark": "Fantasy Schwert Holzlesezeichen",
+  "fantasy-wooden-coasters": "Fantasy Holzuntersetzer",
+  "floral-wooden-coasters": "Blumenmotiv Holzuntersetzer",
+  "forest-animal-wooden-coasters": "Waldtiere Holzuntersetzer",
+  "laser-birch-wood-incense-burner": "Räucherhalter aus Birkenholz",
+  "leaf-wooden-coasters": "Blattmotiv Holzuntersetzer",
+  "lighthouse-wooden-bookmark": "Leuchtturm Holzlesezeichen",
+  "moon-cat-shadow-tealight-holder": "Mondkatzen Teelichthalter",
+  "mushroom-moon-wooden-coasters": "Pilz und Mond Holzuntersetzer",
+  "personalized-feather-wooden-bookmark": "Personalisiertes Feder Holzlesezeichen",
+  "personalized-just-married-wooden-door-hanger": "Personalisierter Frisch verheiratet Holz Türhänger",
+  "personalized-pet-memorial-plaque": "Personalisierte Haustier-Gedenkplakette",
+  "picasso-animal-line-art-wooden-coasters": "Picasso Tier Line Art Holzuntersetzer",
+  "sun-and-moon-wooden-coasters": "Sonne und Mond Holzuntersetzer",
+  "tree-of-life-wooden-coasters": "Lebensbaum Holzuntersetzer",
+  "zodiac-wooden-coasters": "Sternzeichen Holzuntersetzer"
+};
+
 const LABELS = {
   en: {
     audience: {
@@ -384,6 +416,184 @@ const LABELS = {
     },
     ctaPrefix: "Bekijk",
     brandSuffix: "van Craftygiftsplace"
+  },
+  de: {
+    audience: {
+      "cat-lovers": "Katzenliebhaber",
+      "dog-lovers": "Hundeliebhaber",
+      readers: "Leser",
+      "book-lovers": "Bücherliebhaber",
+      "fantasy-readers": "Fantasy-Leser",
+      gamers: "Gamer",
+      newlyweds: "Frischvermählte",
+      "new-parents": "frische Eltern",
+      "cozy-homeowners": "Liebhaber gemütlicher Wohnräume",
+      "alternative-decor-fans": "Fans auffälliger Deko",
+      crafters: "Kreative",
+      "gift-shoppers": "Geschenkkäufer"
+    },
+    occasion: {
+      housewarming: "Einzug",
+      birthday: "Geburtstag",
+      "reader-gift": "Lesegeschenk",
+      wedding: "Hochzeit",
+      anniversary: "Jubiläum",
+      christmas: "Weihnachten",
+      "new-baby": "neues Baby",
+      "everyday-gift": "kleines Alltagsgeschenk",
+      memorial: "Erinnerungsgeschenk",
+      "hobby-gift": "Hobbygeschenk"
+    },
+    style: {
+      cozy: "gemütlich",
+      celestial: "himmlisch",
+      fantasy: "fantasy",
+      botanical: "botanisch",
+      playful: "verspielt",
+      personalized: "personalisiert",
+      gothic: "gotisch",
+      rustic: "rustikal",
+      minimal: "ruhig",
+      alternative: "alternativ",
+      "faith-inspired": "spirituell",
+      seasonal: "saisonal",
+      coastal: "Küstenstil"
+    },
+    intent: {
+      "cat-lover-gift": "Geschenk für Katzenliebhaber",
+      "reader-gift": "Geschenk für Leser",
+      "book-lover-gift": "Geschenk für Bücherfans",
+      "fantasy-reader-gift": "Fantasy Geschenk für Leser",
+      "bookmark-gift": "Lesezeichengeschenk",
+      "reading-nook-gift": "Geschenk für die Leseecke",
+      "housewarming-gift": "Einzugsgeschenk",
+      "cozy-home-decor": "gemütliche Wohndeko",
+      "personalized-wedding-gift": "personalisiertes Hochzeitsgeschenk"
+    },
+    chip: {
+      "cat-lovers": "Katzenfan",
+      "dog-lovers": "Hundefan",
+      readers: "Lesegeschenk",
+      "book-lovers": "Buchgeschenk",
+      "fantasy-readers": "Fantasy-Leser",
+      gamers: "Gamergeschenk",
+      newlyweds: "Frisch verheiratet",
+      "new-parents": "Neues Baby",
+      "cozy-homeowners": "Gemütliche Deko",
+      "alternative-decor-fans": "Markante Deko",
+      crafters: "DIY Geschenk",
+      housewarming: "Einzug",
+      wedding: "Hochzeitsgeschenk",
+      anniversary: "Erinnerungsstück",
+      christmas: "Saisonale Deko",
+      memorial: "Erinnerungsgeschenk",
+      personalized: "Personalisiert",
+      cozy: "Warmer Stil",
+      celestial: "Himmlische Deko",
+      fantasy: "Fantasy Deko",
+      botanical: "Naturthema",
+      playful: "Verspieltes Thema",
+      gothic: "Gotische Stimmung",
+      coastal: "Wohndeko",
+      seasonal: "Saisonale Deko"
+    },
+    format: {
+      coasters: "Untersetzer-Set",
+      bookmarks: "Holzlesezeichen",
+      "door-hanger": "Türhänger",
+      "decor-piece": "Dekoobjekt",
+      keepsake: "Erinnerungsstück",
+      craft: "DIY-Holzset",
+      plaque: "Holzplakette",
+      "small-gift": "kleines Holzgeschenk"
+    },
+    benefitPrimary: {
+      coasters: "schützt Tische",
+      bookmarks: "hält die Seite leicht wiederfindbar",
+      "door-hanger": "gibt dem Raum eine persönliche Note",
+      "decor-piece": "bringt Stimmung auf Regale und Tische",
+      keepsake: "markiert einen wichtigen Moment auf praktische Weise",
+      craft: "gibt Kreativen eine fertige Holzbasis",
+      plaque: "macht eine Erinnerung sichtbar",
+      "small-gift": "setzt einen kleinen handgemachten Akzent"
+    },
+    benefitSecondary: {
+      coasters: "setzt thematische Deko",
+      bookmarks: "macht ein Buchgeschenk persönlicher",
+      "door-hanger": "setzt schon vor dem Eintreten den richtigen Ton",
+      "decor-piece": "legt einen warmen thematischen Akzent",
+      keepsake: "macht den Moment leichter bewahrbar",
+      craft: "hält Bastelideen leicht verschenkbar und einfach umzusetzen",
+      plaque: "gibt dem Geschenk einen aufmerksamen Erinnerungscharakter",
+      "small-gift": "funktioniert gut als kleines Geschenk oder Extra"
+    },
+    motif: {
+      cat: "ein Katzenmotiv",
+      dog: "ein Pfotendetail",
+      celestial: "himmlische Linienarbeit",
+      fantasy: "ein Fantasy-Detail",
+      gaming: "ein Spielemotiv",
+      botanical: "ein botanisches Detail",
+      coastal: "ein Küstendetail",
+      faith: "ein spirituelles Detail",
+      gothic: "ein gotisches Detail",
+      seasonal: "ein saisonales Motiv",
+      wedding: "ein Anlassdetail",
+      baby: "eine erinnerungsstarke Botschaft",
+      craft: "unbehandeltes Holz zum Weitergestalten",
+      memorial: "ein Erinnerungsdetail",
+      default: "eine warme Gravur"
+    },
+    usage: {
+      coasters: {
+        cat: "Kaffeetischen, Schreibtischen und gemütlichen Ecken",
+        dog: "Alltagstischen und haustierfreundlichen Räumen",
+        celestial: "Kaffeetischen, Beistelltischen und stimmungsvollen Räumen",
+        fantasy: "Leseecken, Schreibtischen und Hobbyräumen",
+        gaming: "Spielzimmern, Schreibtischen und Wochenendtischen",
+        botanical: "Küchen, Gästetischen und warmen Wohnräumen",
+        coastal: "Gästezimmern, Terrassen und entspannten Wohnungen",
+        gothic: "Beistelltischen, Regalen und markanten Deko-Konzepten",
+        default: "Alltagstischen, Schreibtischen und einfachen Geschenksets"
+      },
+      bookmarks: {
+        fantasy: "Buchstapeln, Abendlektüre und Fantasy-Regalen",
+        celestial: "Lesetagebüchern, Nachttischen und ruhigen Lesestunden",
+        botanical: "Buchgeschenken, Stofftaschen und stillen Lesemomenten",
+        gothic: "Dark-Academia-Regalen und dramatischen Leseecken",
+        default: "Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen"
+      },
+      "door-hanger": {
+        fantasy: "Leseecken, Hobbyräumen und Schlafzimmertüren",
+        gaming: "Spielzimmern, Streaming-Ecken und Schreibtischen",
+        wedding: "Eingängen, Hochzeitsecken und gemeinsamen Räumen",
+        default: "Schlafzimmertüren, Homeoffices und persönlichen Ecken"
+      },
+      "decor-piece": {
+        cat: "Regalen, Beistelltischen und kerzenbeleuchteten Ecken",
+        celestial: "Nachttischen, Konsolen und warmen Abendsettings",
+        gothic: "Regalen, Sideboards und atmosphärischen Ecken",
+        default: "Regalen, Beistelltischen und geschenkfertigen Wohnwinkeln"
+      },
+      keepsake: {
+        wedding: "Geschenkboxen, Erinnerungsregalen und Anlass-Tischen",
+        baby: "Kinderzimmerregalen, Schubladen und Meilensteinfotos",
+        memorial: "Erinnerungsecken und bedeutungsvollen Regalen",
+        default: "Geschenkboxen, Regalen und bedeutungsvollen Erinnerungsmomenten"
+      },
+      craft: {
+        default: "Basteltischen, persönlichen Projekten und handgemachten Geschenkstunden"
+      },
+      plaque: {
+        memorial: "Erinnerungsecken, Schreibtischen und stillen Gedenkplätzen",
+        default: "Regalen, Beistelltischen und Erinnerungsplätzen"
+      },
+      "small-gift": {
+        default: "Schreibtischschubladen, Geschenkboxen und praktischen Alltagsplätzen"
+      }
+    },
+    ctaPrefix: "Auf Etsy ansehen",
+    brandSuffix: "von Craftygiftsplace"
   }
 };
 
@@ -404,6 +614,41 @@ function fixEnglishName(name) {
     .replace(/\bMet\b/g, "With")
     .replace(/\bKurk\b/g, "Cork")
     .replace(/\bOnderkant\b/g, "Back");
+}
+
+function fixGermanName(rawProduct) {
+  if (GERMAN_NAME_OVERRIDES[rawProduct.id]) {
+    return GERMAN_NAME_OVERRIDES[rawProduct.id];
+  }
+
+  return String(rawProduct.name || "")
+    .trim()
+    .replace(/\bWooden Coasters\b/gi, "Holzuntersetzer")
+    .replace(/\bWooden Bookmark\b/gi, "Holzlesezeichen")
+    .replace(/\bCoaster Set\b/gi, "Untersetzer-Set")
+    .replace(/\bDoor Hanger\b/gi, "Türhänger")
+    .replace(/\bDoor Sign\b/gi, "Türschild")
+    .replace(/\bTealight Holder\b/gi, "Teelichthalter")
+    .replace(/\bIncense Burner\b/gi, "Räucherhalter")
+    .replace(/\bPet Memorial Plaque\b/gi, "Haustier-Gedenkplakette")
+    .replace(/\bPersonalized\b/gi, "Personalisiert")
+    .replace(/\bPersonalised\b/gi, "Personalisiert")
+    .replace(/\bClassic\b/gi, "Klassisch")
+    .replace(/\bCeltic\b/gi, "Keltisch")
+    .replace(/\bRocket\b/gi, "Rakete")
+    .replace(/\bFeather\b/gi, "Feder")
+    .replace(/\bLighthouse\b/gi, "Leuchtturm")
+    .replace(/\bDragon Eye\b/gi, "Drachenauge")
+    .replace(/\bDragon\b/gi, "Drache")
+    .replace(/\bCat and Moon\b/gi, "Katze und Mond")
+    .replace(/\bCat\b/gi, "Katze")
+    .replace(/\bMoon\b/gi, "Mond")
+    .replace(/\bSun\b/gi, "Sonne")
+    .replace(/\bZodiac\b/gi, "Sternzeichen")
+    .replace(/\bTree of Life\b/gi, "Lebensbaum")
+    .replace(/\bBee Motif\b/gi, "Bienenmotiv")
+    .replace(/\bLeaf\b/gi, "Blattmotiv")
+    .replace(/\bFloral\b/gi, "Blumenmotiv");
 }
 
 function pickThemeKey(source) {
@@ -581,7 +826,7 @@ function localizeChip(locale, audienceKeys, occasionKeys, styleKeys) {
   }
 
   if (!chips.length) {
-    chips.push(locale === "nl" ? "Handgemaakt" : "Handmade");
+    chips.push(locale === "nl" ? "Handgemaakt" : locale === "de" ? "Handgemacht" : "Handmade");
   }
 
   return chips;
@@ -601,46 +846,71 @@ function pickVariant(seed, total) {
 }
 
 function buildShortDescription(locale, seed, formatLabel, benefitPrimary, motif, usageContext, audience, occasions) {
-  const audienceLabel = audience[0] || (locale === "nl" ? "cadeauzoekers" : "gift shoppers");
-  const occasionLabel = occasions[0] || (locale === "nl" ? "dagelijks gebruik" : "everyday gifting");
-  const variants = locale === "nl"
-    ? [
-        `${capitalize(benefitPrimary)} en brengt ${motif} naar ${usageContext}.`,
-        `Een ${formatLabel} met ${motif}, mooi voor ${usageContext}.`,
-        `Past goed bij ${usageContext}, met ${motif} en een warme handgemaakte uitstraling.`,
-        `Een fijne keuze voor ${occasionLabel}, met ${motif} en dagelijks gemak.`,
-        `Gemaakt voor ${audienceLabel}, met ${motif} en een rustige uitstraling voor ${usageContext}.`
-      ]
-    : [
-        `${capitalize(benefitPrimary)} and brings ${motif} to ${usageContext}.`,
-        `A ${formatLabel} with ${motif} that works beautifully in ${usageContext}.`,
-        `Feels right for ${usageContext}, with ${motif} keeping the handmade look warm.`,
-        `An easy choice for ${occasionLabel}, with ${motif} and everyday usefulness.`,
-        `Made for ${audienceLabel}, with ${motif} and a softer handmade feel for ${usageContext}.`
-      ];
+  const audienceLabel = audience[0] || (locale === "nl" ? "cadeauzoekers" : locale === "de" ? "Geschenkkäufer" : "gift shoppers");
+  const occasionLabel = occasions[0] || (locale === "nl" ? "dagelijks gebruik" : locale === "de" ? "kleine Alltagsgeschenke" : "everyday gifting");
+  let variants;
+
+  if (locale === "nl") {
+    variants = [
+      `${capitalize(benefitPrimary)} en brengt ${motif} naar ${usageContext}.`,
+      `Een ${formatLabel} met ${motif}, mooi voor ${usageContext}.`,
+      `Past goed bij ${usageContext}, met ${motif} en een warme handgemaakte uitstraling.`,
+      `Een fijne keuze voor ${occasionLabel}, met ${motif} en dagelijks gemak.`,
+      `Gemaakt voor ${audienceLabel}, met ${motif} en een rustige uitstraling voor ${usageContext}.`
+    ];
+  } else if (locale === "de") {
+    variants = [
+      `${capitalize(benefitPrimary)} und bringt ${motif} in ${usageContext}.`,
+      `Ein ${formatLabel} mit ${motif}, das gut zu ${usageContext} passt.`,
+      `Wirkt stimmig in ${usageContext}, während ${motif} den handgemachten Eindruck warm hält.`,
+      `Eine unkomplizierte Wahl für ${occasionLabel}, mit ${motif} und praktischem Nutzen im Alltag.`,
+      `Gemacht für ${audienceLabel}, mit ${motif} und einer ruhigeren handgemachten Wirkung für ${usageContext}.`
+    ];
+  } else {
+    variants = [
+      `${capitalize(benefitPrimary)} and brings ${motif} to ${usageContext}.`,
+      `A ${formatLabel} with ${motif} that works beautifully in ${usageContext}.`,
+      `Feels right for ${usageContext}, with ${motif} keeping the handmade look warm.`,
+      `An easy choice for ${occasionLabel}, with ${motif} and everyday usefulness.`,
+      `Made for ${audienceLabel}, with ${motif} and a softer handmade feel for ${usageContext}.`
+    ];
+  }
 
   return variants[pickVariant(seed, variants.length)];
 }
 
 function buildCollectionDescription(locale, seed, formatLabel, audience, occasions) {
-  const audienceLabel = audience[0] || (locale === "nl" ? "cadeauzoekers" : "gift shoppers");
-  const occasionLabel = occasions[0] || (locale === "nl" ? "dagelijks gebruik" : "everyday gifting");
-  const variants = locale === "nl"
-    ? [
-        `Een ${formatLabel} die prettig voelt voor ${audienceLabel} en momenten zoals ${occasionLabel}.`,
-        `Een handgemaakte ${formatLabel} voor ${audienceLabel} die iets warms en bruikbaars zoeken.`,
-        `Een ${formatLabel} met een rustige uitstraling, passend bij ${occasionLabel} en alledaags gebruik.`
-      ]
-    : [
-        `A ${formatLabel} that feels easy to choose for ${audienceLabel} and moments like ${occasionLabel}.`,
-        `A handmade ${formatLabel} for ${audienceLabel} who want something warm and useful.`,
-        `A ${formatLabel} with a calm look that suits ${occasionLabel} and everyday use.`
-      ];
+  const audienceLabel = audience[0] || (locale === "nl" ? "cadeauzoekers" : locale === "de" ? "Geschenkkäufer" : "gift shoppers");
+  const occasionLabel = occasions[0] || (locale === "nl" ? "dagelijks gebruik" : locale === "de" ? "kleinen Geschenkideen" : "everyday gifting");
+  let variants;
+
+  if (locale === "nl") {
+    variants = [
+      `Een ${formatLabel} die prettig voelt voor ${audienceLabel} en momenten zoals ${occasionLabel}.`,
+      `Een handgemaakte ${formatLabel} voor ${audienceLabel} die iets warms en bruikbaars zoeken.`,
+      `Een ${formatLabel} met een rustige uitstraling, passend bij ${occasionLabel} en alledaags gebruik.`
+    ];
+  } else if (locale === "de") {
+    variants = [
+      `Ein ${formatLabel}, das sich für ${audienceLabel} und Anlässe wie ${occasionLabel} leicht auswählen lässt.`,
+      `Ein handgemachtes ${formatLabel} für ${audienceLabel}, die etwas Warmes und Nützliches suchen.`,
+      `Ein ${formatLabel} mit ruhiger Ausstrahlung, passend zu ${occasionLabel} und dem Alltag.`
+    ];
+  } else {
+    variants = [
+      `A ${formatLabel} that feels easy to choose for ${audienceLabel} and moments like ${occasionLabel}.`,
+      `A handmade ${formatLabel} for ${audienceLabel} who want something warm and useful.`,
+      `A ${formatLabel} with a calm look that suits ${occasionLabel} and everyday use.`
+    ];
+  }
 
   return variants[pickVariant(`${seed}-collection`, variants.length)];
 }
 
 function buildCtaLabel(locale, name) {
+  if (locale === "de") {
+    return "Auf Etsy ansehen";
+  }
   return locale === "nl"
     ? `${LABELS[locale].ctaPrefix} ${name} op Etsy`
     : `${LABELS[locale].ctaPrefix} ${name} on Etsy`;
@@ -649,6 +919,9 @@ function buildCtaLabel(locale, name) {
 function normalizeLocalizedName(locale, rawProduct, localizedName) {
   const clean = String(localizedName || "").replace(/\s+/g, " ").trim();
   if (locale !== "nl") {
+    if (locale === "de") {
+      return fixGermanName(rawProduct);
+    }
     return clean;
   }
 
@@ -720,6 +993,7 @@ function buildProductData() {
 
   const productsEn = [];
   const productsNl = [];
+  const productsDe = [];
 
   for (const baseProduct of rawEn) {
     const localizedNl = nlById.get(baseProduct.id);
@@ -745,11 +1019,16 @@ function buildProductData() {
       intentKeys
     };
 
-    productsEn.push(buildLocaleProduct("en", { ...baseProduct, name: nameEn, alt: `${nameEn} by Craftygiftsplace` }, nameEn, signals));
+    const englishSource = { ...baseProduct, name: nameEn, alt: `${nameEn} by Craftygiftsplace` };
+    const germanSource = { ...baseProduct, name: nameEn };
+    const germanName = fixGermanName(germanSource);
+
+    productsEn.push(buildLocaleProduct("en", englishSource, nameEn, signals));
     productsNl.push(buildLocaleProduct("nl", localizedNl, localizedNl.name, signals));
+    productsDe.push(buildLocaleProduct("de", { ...germanSource, name: germanName }, germanName, signals));
   }
 
-  return { productsEn, productsNl };
+  return { productsEn, productsNl, productsDe };
 }
 
 module.exports = {

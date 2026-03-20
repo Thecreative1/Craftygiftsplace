@@ -219,6 +219,10 @@ img {
     #264c98;
 }
 
+.flag-icon--de {
+  background: linear-gradient(180deg, #151515 0 33.33%, #c64040 33.33% 66.66%, #f0c04c 66.66% 100%);
+}
+
 .nav-toggle {
   display: none;
   align-items: center;

@@ -22,8 +22,8 @@
         "text": "Coasters, bookmarks and wooden decor all lead directly to the matching Etsy search or listing."
       },
       {
-        "title": "Shop in two languages",
-        "text": "Core pages are available in English and Dutch so visitors can browse in the language that feels natural."
+        "title": "Shop in three languages",
+        "text": "Core pages are available in English, Dutch and German so visitors can browse in the language that feels natural."
       },
       {
         "title": "Clear buying path",
@@ -127,7 +127,7 @@
       },
       {
         "question": "Can I shop by occasion here?",
-        "answer": "Yes. Cat lover gifts, reader gifts and housewarming gifts each have their own page in English and Dutch."
+        "answer": "Yes. Cat lover gifts, reader gifts and housewarming gifts each have their own page in English, Dutch and German."
       },
       {
         "question": "Can buyers still browse by collection?",
@@ -143,6 +143,11 @@
       "text": "Start with a gift guide or a collection, then head to Etsy for pricing, reviews and ordering.",
       "label": "Open the Etsy shop",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "alternatePaths": {
+      "en": "/en/index.html",
+      "nl": "/index.html",
+      "de": "/de/index.html"
     }
   },
   {
@@ -282,6 +287,11 @@
       "text": "Open the coaster search on Etsy to review prices, full listing details and buyer feedback.",
       "label": "Open coaster results on Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/wooden-coasters.html",
+      "nl": "/pages/onderzetters.html",
+      "de": "/de/pages/holzuntersetzer.html"
     }
   },
   {
@@ -419,6 +429,11 @@
       "text": "Open Etsy to compare bookmark styles, delivery details and full product information.",
       "label": "Open bookmark results on Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/wooden-bookmarks.html",
+      "nl": "/pages/bladwijzers.html",
+      "de": "/de/pages/holzlesezeichen.html"
     }
   },
   {
@@ -552,6 +567,11 @@
       "text": "Jump to Etsy for product availability, reviews and personalization details.",
       "label": "Open wooden gifts on Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/wooden-gifts.html",
+      "nl": "/pages/houten-cadeaus.html",
+      "de": "/de/pages/holzgeschenke.html"
     }
   },
   {
@@ -655,6 +675,11 @@
       "text": "Open the Etsy shop to send a message, check reviews or keep exploring the listings that match your gift idea.",
       "label": "Open Craftygiftsplace on Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/contact.html",
+      "nl": "/pages/contact.html",
+      "de": "/de/pages/kontakt.html"
     }
   },
   {
@@ -786,6 +811,11 @@
       "text": "Open the cat-themed Etsy results to compare designs, prices and reviews.",
       "label": "Open cat gift results on Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/cat-lover-gifts.html",
+      "nl": "/pages/cadeaus-voor-kattenliefhebbers.html",
+      "de": "/de/pages/geschenke-fuer-katzenliebhaber.html"
     }
   },
   {
@@ -923,6 +953,11 @@
       "text": "Open the Etsy results to compare bookmarks, bundles and reader-friendly decor pieces.",
       "label": "Open reader gift results on Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/reader-gifts.html",
+      "nl": "/pages/lezerscadeaus.html",
+      "de": "/de/pages/geschenke-fuer-leser.html"
     }
   },
   {
@@ -1060,6 +1095,11 @@
       "text": "Open Etsy to review cozy table gifts, decor pieces and listing details.",
       "label": "Open housewarming-ready results on Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/housewarming-gifts.html",
+      "nl": "/pages/verhuiscadeaus.html",
+      "de": "/de/pages/einzugsgeschenke.html"
     }
   }
 ]

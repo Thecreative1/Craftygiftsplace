@@ -68,7 +68,42 @@ const text = {
     collectionsIntro: "Kijk je liever per producttype? Begin dan met deze hoofdcollecties.",
     reviewsHeading: "Geliefd op Etsy",
     reviewsIntro: "Een paar korte reviews die kwaliteit en vertrouwen versterken."
+  },
+  de: {
+    brandTagline: "Handgemachte Holzgeschenke mit Charakter",
+    skipLink: "Zum Inhalt springen",
+    navAria: "Hauptmenü",
+    langSwitch: "Sprache wählen",
+    homeAria: "Zur Startseite",
+    menu: "Menü",
+    navToggle: "Menü öffnen",
+    home: "Start",
+    footerCollections: "Kollektionen",
+    footerIntents: "Geschenkideen",
+    footerTagline: "Handgemachte Holzgeschenke mit Wärme, Detail und Charakter.",
+    footerNote: "Mit 4.96/5 auf Etsy bewertet für aufmerksamen Service, schöne Details und geschenkfertige Qualität.",
+    featuredHeading: "Beste Favoriten",
+    featuredIntro: "Starte mit diesen ausgewählten Produkten und gehe danach in die Kollektion weiter.",
+    catalogHeading: "Kollektion ansehen",
+    faqHeading: "Häufige Fragen",
+    faqIntro: "Kurze Antworten für Besucher, die schneller entscheiden möchten.",
+    relatedHeading: "Verwandte Kollektionen",
+    relatedIntro: "Mit diesen Vorschlägen kannst du weiterstöbern.",
+    whyHeading: "Warum Käufer es mögen",
+    intentsHeading: "Nach Anlass shoppen",
+    intentsIntro: "Starte mit der Art von Geschenk, die du geben möchtest.",
+    collectionsHeading: "Nach Kollektion stöbern",
+    collectionsIntro: "Lieber nach Produkttyp schauen? Dann beginne mit diesen Kernkollektionen.",
+    reviewsHeading: "Beliebt auf Etsy",
+    reviewsIntro: "Ein paar kurze Bewertungen, die Qualität und Vertrauen unterstreichen."
   }
+};
+
+const LOCALE_ORDER = ["nl", "en", "de"];
+const LOCALE_META = {
+  nl: { homePath: "/index.html", ogLocale: "nl_NL" },
+  en: { homePath: "/en/index.html", ogLocale: "en_US" },
+  de: { homePath: "/de/index.html", ogLocale: "de_DE" }
 };
 
 const productCardTemplate = loadTemplate("product-card.html");
@@ -80,20 +115,24 @@ const footerTemplate = loadTemplate("footer.html");
 function loadData() {
   const pagesEn = readJson("data/pages.en.json");
   const pagesNl = readJson("data/pages.nl.json");
+  const pagesDe = readJson("data/pages.de.json");
   const productsEn = readJson("data/products.en.json");
   const productsNl = readJson("data/products.nl.json");
+  const productsDe = readJson("data/products.de.json");
 
-  const pages = [...pagesEn, ...pagesNl];
+  const pages = [...pagesEn, ...pagesNl, ...pagesDe];
   return {
     pages,
     pagesByPath: new Map(pages.map((page) => [page.path, page])),
     productsByLocale: {
       en: new Map(productsEn.map((product) => [product.slug, product])),
-      nl: new Map(productsNl.map((product) => [product.slug, product]))
+      nl: new Map(productsNl.map((product) => [product.slug, product])),
+      de: new Map(productsDe.map((product) => [product.slug, product]))
     },
     productsListByLocale: {
       en: productsEn,
-      nl: productsNl
+      nl: productsNl,
+      de: productsDe
     }
   };
 }
@@ -106,6 +145,16 @@ function navItems(locale) {
       { label: "Bookmarks", path: "/en/pages/wooden-bookmarks.html" },
       { label: "Wooden gifts", path: "/en/pages/wooden-gifts.html" },
       { label: "Contact", path: "/en/pages/contact.html" }
+    ];
+  }
+
+  if (locale === "de") {
+    return [
+      { label: text.de.home, path: "/de/index.html" },
+      { label: "Holzuntersetzer", path: "/de/pages/holzuntersetzer.html" },
+      { label: "Holzlesezeichen", path: "/de/pages/holzlesezeichen.html" },
+      { label: "Holzgeschenke", path: "/de/pages/holzgeschenke.html" },
+      { label: "Kontakt", path: "/de/pages/kontakt.html" }
     ];
   }
 
@@ -128,6 +177,14 @@ function footerIntents(locale) {
       { label: "Cat lover gifts", path: "/en/pages/cat-lover-gifts.html" },
       { label: "Reader gifts", path: "/en/pages/reader-gifts.html" },
       { label: "Housewarming gifts", path: "/en/pages/housewarming-gifts.html" }
+    ];
+  }
+
+  if (locale === "de") {
+    return [
+      { label: "Geschenke für Katzenliebhaber", path: "/de/pages/geschenke-fuer-katzenliebhaber.html" },
+      { label: "Geschenke für Leser", path: "/de/pages/geschenke-fuer-leser.html" },
+      { label: "Einzugsgeschenke", path: "/de/pages/einzugsgeschenke.html" }
     ];
   }
 
@@ -171,54 +228,80 @@ function renderChips(product) {
 }
 
 function compactProductLead(product) {
-  return String(product.name || "")
+  const cleaned = String(product.name || "")
     .replace(/\bWooden Coasters?\b/gi, "")
     .replace(/\bHouten Onderzetters?\b/gi, "")
+    .replace(/\bHolzuntersetzer\b/gi, "")
     .replace(/\bWooden Bookmark\b/gi, "")
     .replace(/\bHouten Bladwijzer\b/gi, "")
+    .replace(/\bHolzlesezeichen\b/gi, "")
     .replace(/\bCoaster Set\b/gi, "")
     .replace(/\bOnderzetterset\b/gi, "")
+    .replace(/\bUntersetzer-Set\b/gi, "")
     .replace(/\s+/g, " ")
     .trim();
+
+  if (!cleaned || /^(with|met|mit|voor|fuer|für|for)\b/i.test(cleaned) || cleaned.length < 4) {
+    return String(product.name || "").trim();
+  }
+
+  return cleaned;
 }
 
 function buildCardDescription(product, page, position = 0) {
   const lead = compactProductLead(product);
   const usage = product.usage_context || (product.locale === "nl" ? "gezellige hoekjes in huis" : "cozy corners at home");
   const motif = product.motif || (product.locale === "nl" ? "een warme gravure" : "warm engraved detail");
-  const benefit = product.benefit_primary || (product.locale === "nl" ? "voelt prettig in gebruik" : "feels easy to use");
-  const audience = (product.audience && product.audience[0]) || (product.locale === "nl" ? "cadeauzoekers" : "gift shoppers");
   const occasion = (product.occasions && product.occasions[0]) || (product.locale === "nl" ? "kleine cadeaumomenten" : "easy gifting");
   const name = lead || product.name;
-  const variants = product.locale === "nl"
-    ? [
-        `${name} brengt ${motif} naar ${usage}.`,
-        `${name} is een warme keuze voor ${occasion} met ${motif}.`,
-        `${name} houdt het praktisch en voegt tegelijk ${motif} toe.`,
-        `${name} past mooi bij ${usage}.`,
-        `${name} voegt ${motif} toe zonder te zwaar te voelen.`,
-        `${name} is een makkelijke keuze voor ${occasion}.`,
-        `${name} houdt de handgemaakte uitstraling warm en bruikbaar.`,
-        `${name} voelt natuurlijk in ${usage}.`,
-        `${name} geeft extra karakter via ${motif}.`,
-        `${name} werkt goed wanneer een cadeau gezellig moet aanvoelen.`,
-        `${name} houdt de styling eenvoudig, warm en makkelijk neer te zetten.`,
-        `${name} past bij kopers die iets bruikbaars met persoonlijkheid zoeken.`
-      ]
-    : [
-        `${name} brings ${motif} to ${usage}.`,
-        `${name} is a warm ${occasion} pick with ${motif}.`,
-        `${name} keeps things practical while adding ${motif}.`,
-        `${name} feels right for ${usage}.`,
-        `${name} adds ${motif} without feeling overdone.`,
-        `${name} makes an easy pick for ${occasion}.`,
-        `${name} keeps the handmade look warm and useful.`,
-        `${name} fits naturally into ${usage}.`,
-        `${name} adds extra character through ${motif}.`,
-        `${name} works well when the gift needs a cozy feel.`,
-        `${name} keeps the styling simple, warm and easy to place.`,
-        `${name} suits shoppers who want something useful with personality.`
-      ];
+  let variants;
+
+  if (product.locale === "nl") {
+    variants = [
+      `${name} brengt ${motif} naar ${usage}.`,
+      `${name} is een warme keuze voor ${occasion} met ${motif}.`,
+      `${name} houdt het praktisch en voegt tegelijk ${motif} toe.`,
+      `${name} past mooi bij ${usage}.`,
+      `${name} voegt ${motif} toe zonder te zwaar te voelen.`,
+      `${name} is een makkelijke keuze voor ${occasion}.`,
+      `${name} houdt de handgemaakte uitstraling warm en bruikbaar.`,
+      `${name} voelt natuurlijk in ${usage}.`,
+      `${name} geeft extra karakter via ${motif}.`,
+      `${name} werkt goed wanneer een cadeau gezellig moet aanvoelen.`,
+      `${name} houdt de styling eenvoudig, warm en makkelijk neer te zetten.`,
+      `${name} past bij kopers die iets bruikbaars met persoonlijkheid zoeken.`
+    ];
+  } else if (product.locale === "de") {
+    variants = [
+      `${name} bringt ${motif} in ${usage}.`,
+      `${name} ist eine warme Wahl für ${occasion} mit ${motif}.`,
+      `${name} bleibt praktisch und setzt zugleich ${motif}.`,
+      `${name} passt gut zu ${usage}.`,
+      `${name} bringt ${motif}, ohne zu schwer zu wirken.`,
+      `${name} ist eine unkomplizierte Wahl für ${occasion}.`,
+      `${name} hält den handgemachten Eindruck warm und nützlich.`,
+      `${name} fühlt sich in ${usage} ganz natürlich an.`,
+      `${name} gibt dem Ganzen über ${motif} mehr Charakter.`,
+      `${name} funktioniert gut, wenn ein Geschenk gemütlich wirken soll.`,
+      `${name} hält das Styling schlicht, warm und leicht zu platzieren.`,
+      `${name} passt zu Käufern, die etwas Nützliches mit Persönlichkeit suchen.`
+    ];
+  } else {
+    variants = [
+      `${name} brings ${motif} to ${usage}.`,
+      `${name} is a warm ${occasion} pick with ${motif}.`,
+      `${name} keeps things practical while adding ${motif}.`,
+      `${name} feels right for ${usage}.`,
+      `${name} adds ${motif} without feeling overdone.`,
+      `${name} makes an easy pick for ${occasion}.`,
+      `${name} keeps the handmade look warm and useful.`,
+      `${name} fits naturally into ${usage}.`,
+      `${name} adds extra character through ${motif}.`,
+      `${name} works well when the gift needs a cozy feel.`,
+      `${name} keeps the styling simple, warm and easy to place.`,
+      `${name} suits shoppers who want something useful with personality.`
+    ];
+  }
 
   return variants[position % variants.length];
 }
@@ -570,7 +653,7 @@ function renderStructuredData(page, productsByLocale) {
     const product = getProduct(page, productsByLocale, item.slug);
     return { "@type": "ListItem", position: index + 1, name: product.name, url: product.etsy_url };
   });
-  const localizedHome = page.locale === "en" ? "/en/index.html" : "/index.html";
+  const localizedHome = LOCALE_META[page.locale].homePath;
 
   scripts.push({
     "@context": "https://schema.org",
@@ -634,7 +717,7 @@ function renderStructuredData(page, productsByLocale) {
   return scripts.map((script) => `<script type="application/ld+json">\n${JSON.stringify(script, null, 2)}\n</script>`).join("\n");
 }
 
-function renderHead(page, pairPage, productsByLocale) {
+function renderHead(page, productsByLocale) {
   const firstProduct = page.featuredItems && page.featuredItems.length ? getProduct(page, productsByLocale, page.featuredItems[0].slug) : null;
   const socialImage = firstProduct ? absoluteUrl(firstProduct.image) : absoluteUrl("/assets/img/products/moon-cat-tealight-holder.jpg");
   const socialImageAlt = firstProduct ? firstProduct.alt : page.heroImageAlt || "Craftygiftsplace product";
@@ -643,6 +726,11 @@ function renderHead(page, pairPage, productsByLocale) {
       window.location.replace(window.location.pathname.replace(/index\\.html$/, "") + window.location.search + window.location.hash);
     }
   </script>` : "";
+  const alternatePaths = page.alternatePaths || { [page.locale]: page.path };
+  const alternateLinks = [
+    ...LOCALE_ORDER.filter((locale) => alternatePaths[locale]).map((locale) => `  <link rel="alternate" hreflang="${locale}" href="${escapeAttribute(canonicalUrl(alternatePaths[locale]))}" />`),
+    `  <link rel="alternate" hreflang="x-default" href="${escapeAttribute(canonicalUrl(xDefaultPath))}" />`
+  ].join("\n");
 
   return renderTemplate(headTemplate, {
     locale: page.locale,
@@ -651,10 +739,8 @@ function renderHead(page, pairPage, productsByLocale) {
     robots: "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
     rootRedirectScript,
     canonicalUrl: escapeAttribute(canonicalUrl(page.path)),
-    altNlUrl: escapeAttribute(canonicalUrl(page.locale === "nl" ? page.path : pairPage.path)),
-    altEnUrl: escapeAttribute(canonicalUrl(page.locale === "en" ? page.path : pairPage.path)),
-    xDefaultUrl: escapeAttribute(canonicalUrl(xDefaultPath)),
-    ogLocale: page.locale === "en" ? "en_US" : "nl_NL",
+    alternateLinks,
+    ogLocale: LOCALE_META[page.locale].ogLocale,
     socialImage: escapeAttribute(socialImage),
     socialImageAlt: escapeAttribute(socialImageAlt),
     faviconPath: escapeAttribute(relativeUrl(page.path, "/favicon.ico")),
@@ -665,8 +751,9 @@ function renderHead(page, pairPage, productsByLocale) {
   });
 }
 
-function renderHeader(page, pairPage) {
+function renderHeader(page) {
   const localeText = text[page.locale];
+  const alternatePaths = page.alternatePaths || { [page.locale]: page.path };
   const navLinks = [
     ...navItems(page.locale).map((item) => {
       const current = page.path === item.path ? ' aria-current="page"' : "";
@@ -675,10 +762,11 @@ function renderHeader(page, pairPage) {
     `<a class="btn" href="${escapeAttribute(page.primaryCta.url)}" target="_blank" rel="noopener">${escapeHtml(page.primaryCta.label)}</a>`
   ].join("\n");
 
-  const languageLinks = [
-    { locale: "nl", href: relativeUrl(page.path, page.locale === "nl" ? page.path : pairPage.path), current: page.locale === "nl" },
-    { locale: "en", href: relativeUrl(page.path, page.locale === "en" ? page.path : pairPage.path), current: page.locale === "en" }
-  ].map((item) => `<a href="${escapeAttribute(item.href)}" lang="${item.locale}"${item.current ? ' aria-current="true"' : ""}>
+  const languageLinks = LOCALE_ORDER.filter((locale) => alternatePaths[locale]).map((locale) => ({
+    locale,
+    href: relativeUrl(page.path, alternatePaths[locale]),
+    current: page.locale === locale
+  })).map((item) => `<a href="${escapeAttribute(item.href)}" lang="${item.locale}"${item.current ? ' aria-current="true"' : ""}>
           <span class="flag-icon flag-icon--${item.locale}" aria-hidden="true"></span>
           <span class="language-code">${item.locale.toUpperCase()}</span>
         </a>`).join("\n");
@@ -686,7 +774,7 @@ function renderHeader(page, pairPage) {
   return renderTemplate(headerTemplate, {
     bodyClass: page.template === "home" ? "" : page.template === "contact" ? "page-subpage" : "page-subpage has-sticky-cta",
     skipLinkLabel: escapeHtml(localeText.skipLink),
-    homePath: escapeAttribute(relativeUrl(page.path, page.locale === "en" ? "/en/index.html" : "/index.html")),
+    homePath: escapeAttribute(relativeUrl(page.path, LOCALE_META[page.locale].homePath)),
     homeAriaLabel: escapeAttribute(localeText.homeAria),
     logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.png")),
     brandTagline: escapeHtml(localeText.brandTagline),
@@ -716,10 +804,11 @@ function renderFooter(page) {
 }
 
 function renderPage(page, pagesByPath, productsByLocale, productsListByLocale) {
-  const pairPage = pagesByPath.get(page.pairPath);
-  if (!pairPage) throw new Error(`Missing paired page for ${page.path}`);
+  if (!page.alternatePaths) {
+    throw new Error(`Missing alternate paths for ${page.path}`);
+  }
   const body = page.template === "home" ? renderHome(page, productsByLocale) : page.template === "contact" ? renderContact(page) : renderSubpage(page, productsByLocale, productsListByLocale);
-  return `${renderHead(page, pairPage, productsByLocale)}\n${renderHeader(page, pairPage)}\n${body}\n${renderFooter(page)}`;
+  return `${renderHead(page, productsByLocale)}\n${renderHeader(page)}\n${body}\n${renderFooter(page)}`;
 }
 
 function renderRedirect(toPath) {

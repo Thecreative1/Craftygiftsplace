@@ -1,7 +1,47 @@
 const { pagesEn, pagesNl } = require("./lib/page-data");
+const { pagesDe } = require("./lib/page-data.de");
 const { writeJson } = require("./lib/site");
 
-writeJson("data/pages.en.json", pagesEn);
-writeJson("data/pages.nl.json", pagesNl);
+const ALTERNATE_GROUPS = [
+  { en: "/en/index.html", nl: "/index.html", de: "/de/index.html" },
+  { en: "/en/pages/wooden-coasters.html", nl: "/pages/onderzetters.html", de: "/de/pages/holzuntersetzer.html" },
+  { en: "/en/pages/wooden-bookmarks.html", nl: "/pages/bladwijzers.html", de: "/de/pages/holzlesezeichen.html" },
+  { en: "/en/pages/wooden-gifts.html", nl: "/pages/houten-cadeaus.html", de: "/de/pages/holzgeschenke.html" },
+  { en: "/en/pages/contact.html", nl: "/pages/contact.html", de: "/de/pages/kontakt.html" },
+  { en: "/en/pages/cat-lover-gifts.html", nl: "/pages/cadeaus-voor-kattenliefhebbers.html", de: "/de/pages/geschenke-fuer-katzenliebhaber.html" },
+  { en: "/en/pages/reader-gifts.html", nl: "/pages/lezerscadeaus.html", de: "/de/pages/geschenke-fuer-leser.html" },
+  { en: "/en/pages/housewarming-gifts.html", nl: "/pages/verhuiscadeaus.html", de: "/de/pages/einzugsgeschenke.html" }
+];
 
-console.log(`Synced ${pagesEn.length} EN pages and ${pagesNl.length} NL pages.`);
+function clonePages(pages) {
+  return pages.map((page) => JSON.parse(JSON.stringify(page)));
+}
+
+function attachAlternates(groups, pageSets) {
+  const allPages = Object.values(pageSets).flat();
+  const byPath = new Map(allPages.map((page) => [page.path, page]));
+
+  groups.forEach((group) => {
+    Object.entries(group).forEach(([locale, path]) => {
+      const page = byPath.get(path);
+      if (!page) {
+        throw new Error(`Missing page "${path}" for locale ${locale}.`);
+      }
+      page.alternatePaths = group;
+    });
+  });
+}
+
+const pageSets = {
+  en: clonePages(pagesEn),
+  nl: clonePages(pagesNl),
+  de: clonePages(pagesDe)
+};
+
+attachAlternates(ALTERNATE_GROUPS, pageSets);
+
+writeJson("data/pages.en.json", pageSets.en);
+writeJson("data/pages.nl.json", pageSets.nl);
+writeJson("data/pages.de.json", pageSets.de);
+
+console.log(`Synced ${pageSets.en.length} EN pages, ${pageSets.nl.length} NL pages and ${pageSets.de.length} DE pages.`);

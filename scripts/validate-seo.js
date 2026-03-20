@@ -1,9 +1,12 @@
 const fs = require("fs");
 const { canonicalUrl, readJson, sitePathToFile } = require("./lib/site");
 
+const LOCALES = ["en", "nl", "de"];
+
 const localeBans = {
   en: ["onderzetters", "bladwijzers", "houten", "persoonlijke", "personaliseerbare"],
-  nl: ["housewarming", "coasters", "gift-ready", "reader gift"]
+  nl: ["housewarming", "coasters", "gift-ready", "reader gift"],
+  de: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift", "wooden coasters", "wooden bookmarks"]
 };
 
 const editorialBans = {
@@ -35,6 +38,21 @@ const editorialBans = {
     "taxonomie",
     "interne links",
     "sitestructuur"
+  ],
+  de: [
+    "produktgitter",
+    "lokalisierte produktdaten",
+    "gemeinsame quelle",
+    "unterstuetzungsebene",
+    "geschenkintention",
+    "geschenk-intention",
+    "landingpage",
+    "metadaten",
+    "taxonomie",
+    "interne links",
+    "seitenarchitektur",
+    "product grid",
+    "localized product data"
   ]
 };
 
@@ -61,12 +79,22 @@ const productLocaleBans = {
     /\broots?\b/i,
     /\bwortels\b/i,
     /\bgepersonaliseerde team\b/i
+  ],
+  de: [
+    /\bhouten\b/i,
+    /\bonderzetters?\b/i,
+    /\bbladwijzers?\b/i,
+    /\bwortels\b/i,
+    /\breader gift\b/i,
+    /\bgift-ready\b/i,
+    /\bgepersonaliseerde team\b/i
   ]
 };
 
 const collectionIntentTerms = {
   en: ["reader gifts", "cat lover gifts", "housewarming gifts"],
-  nl: ["lezerscadeaus", "cadeaus voor kattenliefhebbers", "verhuiscadeaus"]
+  nl: ["lezerscadeaus", "cadeaus voor kattenliefhebbers", "verhuiscadeaus"],
+  de: ["geschenke für leser", "geschenke für katzenliebhaber", "einzugsgeschenke"]
 };
 
 const supportPageDisallowedProductPatterns = [
@@ -257,8 +285,12 @@ function validateReferencedProduct(pagePath, product) {
   }
 }
 
+function loadAllPages() {
+  return LOCALES.flatMap((locale) => readJson(`data/pages.${locale}.json`));
+}
+
 function validatePageData(productsEn) {
-  const pages = [...readJson("data/pages.en.json"), ...readJson("data/pages.nl.json")];
+  const pages = loadAllPages();
   const productsBySlug = new Map(productsEn.map((product) => [product.slug, product]));
 
   pages.forEach((page) => {
@@ -291,7 +323,7 @@ function validatePageData(productsEn) {
 }
 
 function validatePages() {
-  const pages = [...readJson("data/pages.en.json"), ...readJson("data/pages.nl.json")];
+  const pages = loadAllPages();
   const byPath = new Map(pages.map((page) => [page.path, page]));
   const titles = new Map();
   const metas = new Map();
@@ -301,11 +333,9 @@ function validatePages() {
     const title = getTitle(html);
     const meta = getMetaDescription(html);
     const canonical = getCanonical(html);
-    const altEn = getAlternate(html, "en");
-    const altNl = getAlternate(html, "nl");
     const xDefault = getXDefault(html);
     const lang = getHtmlLang(html);
-    const pair = byPath.get(page.pairPath);
+    const alternates = page.alternatePaths || {};
 
     if (!title) fail(`Missing title in ${page.path}`);
     if (!meta) fail(`Missing meta description in ${page.path}`);
@@ -318,15 +348,21 @@ function validatePages() {
       fail(`Canonical mismatch in ${page.path}. Expected ${canonicalUrl(page.path)} but found ${canonical}`);
     }
 
-    if (!pair) {
-      fail(`Missing pair definition for ${page.path}`);
+    if (Object.keys(alternates).length !== LOCALES.length) {
+      fail(`Missing alternate paths on ${page.path}`);
     }
 
-    const expectedEn = canonicalUrl(page.locale === "en" ? page.path : pair.path);
-    const expectedNl = canonicalUrl(page.locale === "nl" ? page.path : pair.path);
+    LOCALES.forEach((locale) => {
+      const expectedPath = alternates[locale];
+      if (!expectedPath) {
+        fail(`Missing hreflang path for ${locale} on ${page.path}`);
+      }
+      const actual = getAlternate(html, locale);
+      if (actual !== canonicalUrl(expectedPath)) {
+        fail(`hreflang ${locale} mismatch in ${page.path}`);
+      }
+    });
 
-    if (altEn !== expectedEn) fail(`hreflang en mismatch in ${page.path}`);
-    if (altNl !== expectedNl) fail(`hreflang nl mismatch in ${page.path}`);
     if (xDefault !== canonicalUrl("/en/index.html")) fail(`x-default mismatch in ${page.path}`);
     if (lang !== page.locale) fail(`html lang mismatch in ${page.path}`);
 
@@ -354,16 +390,22 @@ function validatePages() {
       }
     }
 
-    const pairHtml = readFile(pair.path);
-    const pairAlternate = getAlternate(pairHtml, page.locale);
-    if (pairAlternate !== canonicalUrl(page.path)) {
-      fail(`Reciprocal hreflang missing between ${page.path} and ${pair.path}`);
-    }
+    LOCALES.filter((locale) => locale !== page.locale).forEach((locale) => {
+      const alternatePage = byPath.get(alternates[locale]);
+      if (!alternatePage) {
+        fail(`Missing alternate page ${alternates[locale]} referenced from ${page.path}`);
+      }
+      const alternateHtml = readFile(alternatePage.path);
+      const backLink = getAlternate(alternateHtml, page.locale);
+      if (backLink !== canonicalUrl(page.path)) {
+        fail(`Reciprocal hreflang missing between ${page.path} and ${alternatePage.path}`);
+      }
+    });
   });
 }
 
 function validateSitemap() {
-  const pages = [...readJson("data/pages.en.json"), ...readJson("data/pages.nl.json")];
+  const pages = loadAllPages();
   const sitemap = fs.readFileSync(sitePathToFile("/sitemap.xml"), "utf8");
   pages.forEach((page) => {
     if (!sitemap.includes(`<loc>${canonicalUrl(page.path)}</loc>`)) {
@@ -374,9 +416,11 @@ function validateSitemap() {
 
 const productsEn = readJson("data/products.en.json");
 const productsNl = readJson("data/products.nl.json");
+const productsDe = readJson("data/products.de.json");
 
 validateProducts(productsEn, "en");
 validateProducts(productsNl, "nl");
+validateProducts(productsDe, "de");
 validatePageData(productsEn);
 validatePages();
 validateSitemap();

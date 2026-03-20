@@ -5,19 +5,14 @@ function lastmod() {
 }
 
 function buildSitemap() {
-  const pages = [...readJson("data/pages.en.json"), ...readJson("data/pages.nl.json")];
-  const byPath = new Map(pages.map((page) => [page.path, page]));
+  const pages = [...readJson("data/pages.en.json"), ...readJson("data/pages.nl.json"), ...readJson("data/pages.de.json")];
   const stamp = lastmod();
 
   const urls = pages
     .map((page) => {
-      const pair = byPath.get(page.pairPath);
-      const alternates = pair
-        ? [
-            `<xhtml:link rel="alternate" hreflang="${page.locale}" href="${canonicalUrl(page.path)}" />`,
-            `<xhtml:link rel="alternate" hreflang="${pair.locale}" href="${canonicalUrl(pair.path)}" />`
-          ].join("")
-        : "";
+      const alternates = Object.entries(page.alternatePaths || {})
+        .map(([locale, path]) => `<xhtml:link rel="alternate" hreflang="${locale}" href="${canonicalUrl(path)}" />`)
+        .join("");
 
       return `  <url>\n    <loc>${canonicalUrl(page.path)}</loc>\n    <lastmod>${stamp}</lastmod>\n${alternates ? `    ${alternates}\n` : ""}  </url>`;
     })

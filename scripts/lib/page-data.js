@@ -24,8 +24,8 @@ pagesEn.push({
       text: "Coasters, bookmarks and wooden decor all lead directly to the matching Etsy search or listing."
     },
     {
-      title: "Shop in two languages",
-      text: "Core pages are available in English and Dutch so visitors can browse in the language that feels natural."
+      title: "Shop in three languages",
+      text: "Core pages are available in English, Dutch and German so visitors can browse in the language that feels natural."
     },
     {
       title: "Clear buying path",
@@ -129,7 +129,7 @@ pagesEn.push({
     },
     {
       question: "Can I shop by occasion here?",
-      answer: "Yes. Cat lover gifts, reader gifts and housewarming gifts each have their own page in English and Dutch."
+      answer: "Yes. Cat lover gifts, reader gifts and housewarming gifts each have their own page in English, Dutch and German."
     },
     {
       question: "Can buyers still browse by collection?",
@@ -171,8 +171,8 @@ pagesNl.push({
       text: "Onderzetters, bladwijzers en houten decoratie leiden rechtstreeks naar een passende Etsy zoekopdracht of listing."
     },
     {
-      title: "Shop in twee talen",
-      text: "De belangrijkste pagina's zijn beschikbaar in het Nederlands en Engels, zodat bezoekers kunnen bladeren in de taal die het prettigst voelt."
+      title: "Shop in drie talen",
+      text: "De belangrijkste pagina's zijn beschikbaar in het Nederlands, Engels en Duits, zodat bezoekers kunnen bladeren in de taal die het prettigst voelt."
     },
     {
       title: "Duidelijke kooproute",
@@ -276,7 +276,7 @@ pagesNl.push({
     },
     {
       question: "Kan ik hier per gelegenheid kijken?",
-      answer: "Ja. Cadeaus voor kattenliefhebbers, lezerscadeaus en verhuiscadeaus hebben elk een eigen pagina in het Nederlands en Engels."
+      answer: "Ja. Cadeaus voor kattenliefhebbers, lezerscadeaus en verhuiscadeaus hebben elk een eigen pagina in het Nederlands, Engels en Duits."
     },
     {
       question: "Kun je nog steeds per collectie bladeren?",
