@@ -64,6 +64,53 @@ const productLocaleBans = {
   ]
 };
 
+const collectionIntentTerms = {
+  en: ["reader gifts", "cat lover gifts", "housewarming gifts"],
+  nl: ["lezerscadeaus", "cadeaus voor kattenliefhebbers", "verhuiscadeaus"]
+};
+
+const supportPageDisallowedProductPatterns = [
+  /\bdog\b/i,
+  /\bgamer\b/i,
+  /\bgaming\b/i,
+  /\bmoba\b/i,
+  /\bfps\b/i,
+  /\bmotorsport\b/i,
+  /\bcricket\b/i,
+  /\bgolf\b/i,
+  /\bsports?-ball\b/i,
+  /\bfishing\b/i,
+  /\bhunting\b/i,
+  /\bbitcoin\b/i,
+  /\bcannabis\b/i,
+  /\bspider\b/i,
+  /\bskull\b/i,
+  /\bhalloween\b/i,
+  /\bwiccan\b/i,
+  /\bbuddha\b/i,
+  /\bfaith\b/i,
+  /\bprayer\b/i,
+  /\bbaby\b/i,
+  /\bnumicon\b/i,
+  /\bdinosaur\b/i,
+  /\bdiy\b/i,
+  /\bchristmas\b/i,
+  /\bram-keychain\b/i,
+  /\bcomb\b/i,
+  /\bhusband\b/i,
+  /\bswear\b/i,
+  /\bteam\b/i,
+  /\bcheckers\b/i,
+  /\bchess\b/i,
+  /\bpoker\b/i,
+  /\bsamurai\b/i,
+  /\bmayan\b/i,
+  /\bpersian\b/i,
+  /\brocket\b/i,
+  /\bsardine\b/i,
+  /\bguitar\b/i
+];
+
 function readFile(sitePath) {
   return fs.readFileSync(sitePathToFile(sitePath), "utf8");
 }
@@ -87,6 +134,10 @@ function getCanonical(html) {
 function getAlternate(html, locale) {
   const pattern = new RegExp(`<link\\s+rel="alternate"\\s+hreflang="${locale}"\\s+href="([^"]*)"`, "i");
   return (html.match(pattern) || [])[1]?.trim() || "";
+}
+
+function getXDefault(html) {
+  return getAlternate(html, "x-default");
 }
 
 function getHtmlLang(html) {
@@ -163,6 +214,82 @@ function validateProducts(products, locale) {
   });
 }
 
+function looksLikeKeywordDump(items) {
+  if (!Array.isArray(items) || items.length < 3) {
+    return false;
+  }
+
+  return items.every((item) => {
+    const text = String(item || "").trim();
+    const wordCount = text.split(/\s+/).filter(Boolean).length;
+    return wordCount <= 5 && !/[.!?]/.test(text);
+  });
+}
+
+function isStaleSeasonalProduct(product) {
+  const source = `${product.slug} ${product.name}`;
+  const match = source.match(/\b(20\d{2})\b/);
+  if (!match) {
+    return false;
+  }
+
+  const year = Number(match[1]);
+  const currentYear = new Date().getFullYear();
+  const seasonal =
+    (product.style_keys || []).includes("seasonal") ||
+    (product.occasion_keys || []).includes("christmas") ||
+    /\bchristmas\b|\bkerst\b/i.test(source);
+
+  return seasonal && year < currentYear;
+}
+
+function validateReferencedProduct(pagePath, product) {
+  if (!product) {
+    fail(`Referenced product is missing for ${pagePath}.`);
+  }
+
+  if (supportPageDisallowedProductPatterns.some((pattern) => pattern.test(product.slug))) {
+    fail(`Off-brand product "${product.slug}" is still referenced on ${pagePath}.`);
+  }
+
+  if (isStaleSeasonalProduct(product)) {
+    fail(`Stale seasonal product "${product.slug}" is still referenced on ${pagePath}.`);
+  }
+}
+
+function validatePageData(productsEn) {
+  const pages = [...readJson("data/pages.en.json"), ...readJson("data/pages.nl.json")];
+  const productsBySlug = new Map(productsEn.map((product) => [product.slug, product]));
+
+  pages.forEach((page) => {
+    if (looksLikeKeywordDump(page.featuredWhy)) {
+      fail(`Keyword-style visible block detected in ${page.path}.`);
+    }
+
+    if (page.template === "collection") {
+      if (!page.catalog || page.catalog.mode !== "slugs") {
+        fail(`Collection page ${page.path} must use an explicit curated slug list.`);
+      }
+
+      const lowerH1 = String(page.h1 || "").toLowerCase();
+      collectionIntentTerms[page.locale].forEach((term) => {
+        if (lowerH1.includes(term)) {
+          fail(`Collection page ${page.path} H1 overlaps with intent term "${term}".`);
+        }
+      });
+    }
+
+    const referencedSlugs = [
+      ...(page.featuredItems || []).map((item) => item.slug),
+      ...((page.catalog && page.catalog.mode === "slugs") ? page.catalog.slugs : [])
+    ];
+
+    referencedSlugs.forEach((slug) => {
+      validateReferencedProduct(page.path, productsBySlug.get(slug));
+    });
+  });
+}
+
 function validatePages() {
   const pages = [...readJson("data/pages.en.json"), ...readJson("data/pages.nl.json")];
   const byPath = new Map(pages.map((page) => [page.path, page]));
@@ -176,6 +303,7 @@ function validatePages() {
     const canonical = getCanonical(html);
     const altEn = getAlternate(html, "en");
     const altNl = getAlternate(html, "nl");
+    const xDefault = getXDefault(html);
     const lang = getHtmlLang(html);
     const pair = byPath.get(page.pairPath);
 
@@ -199,6 +327,7 @@ function validatePages() {
 
     if (altEn !== expectedEn) fail(`hreflang en mismatch in ${page.path}`);
     if (altNl !== expectedNl) fail(`hreflang nl mismatch in ${page.path}`);
+    if (xDefault !== canonicalUrl("/en/index.html")) fail(`x-default mismatch in ${page.path}`);
     if (lang !== page.locale) fail(`html lang mismatch in ${page.path}`);
 
     imageAltIssues(html, page.path).forEach((issue) => fail(issue));
@@ -243,8 +372,12 @@ function validateSitemap() {
   });
 }
 
-validateProducts(readJson("data/products.en.json"), "en");
-validateProducts(readJson("data/products.nl.json"), "nl");
+const productsEn = readJson("data/products.en.json");
+const productsNl = readJson("data/products.nl.json");
+
+validateProducts(productsEn, "en");
+validateProducts(productsNl, "nl");
+validatePageData(productsEn);
 validatePages();
 validateSitemap();
 

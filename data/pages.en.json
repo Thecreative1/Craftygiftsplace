@@ -78,7 +78,7 @@
     "collectionCards": [
       {
         "title": "Wooden coasters",
-        "description": "Cat, zodiac, botanical and hobby-led coaster sets for housewarmings, desks and everyday table styling.",
+        "description": "Cat, celestial and botanical coaster sets for cozy tables, shelves and easy gifting.",
         "image": "/assets/img/products/cat-and-moon-coasters.jpg",
         "imageAlt": "Wooden coaster collection",
         "href": "/en/pages/wooden-coasters.html"
@@ -92,8 +92,8 @@
       },
       {
         "title": "Wooden gifts",
-        "description": "Door hangers, tealight holders, keepsakes and decor pieces for shelves, entryways and thoughtful gifting moments.",
-        "image": "/assets/img/products/fantasy-gamer-door-sign.jpg",
+        "description": "Tealight holders, keepsakes, door hangers and decor pieces for shelves, entryways and thoughtful gifting moments.",
+        "image": "/assets/img/products/just-married-door-hanger.jpg",
         "imageAlt": "Wooden gifts collection",
         "href": "/en/pages/wooden-gifts.html"
       }
@@ -150,11 +150,11 @@
     "pairPath": "/pages/onderzetters.html",
     "template": "collection",
     "locale": "en",
-    "title": "Wooden Coasters for Housewarming Gifts, Cozy Tables and Cat Lovers | Craftygiftsplace",
-    "metaDescription": "Browse handmade wooden coasters for housewarming gifts, cozy coffee tables, cat lovers and themed homes. Explore Craftygiftsplace coaster sets before heading to Etsy.",
-    "h1": "Wooden coasters for housewarming gifts, cozy tables and themed homes",
+    "title": "Handmade Wooden Coasters in Cat, Celestial and Botanical Styles | Craftygiftsplace",
+    "metaDescription": "Browse handmade wooden coasters in cat, celestial and botanical styles for cozy tables, shelves and easy gifting.",
+    "h1": "Handmade wooden coasters in cat, celestial and botanical styles",
     "eyebrow": "Collection",
-    "intro": "This is the easiest place to browse the full coaster range in one view. Shoppers can compare cat themes, zodiac designs, botanicals and hobby-led sets, then jump to more focused gift ideas for cat lovers or housewarmings if they already know the occasion.",
+    "intro": "Browse the curated coaster collection in one place. This page stays product-type first, so shoppers can compare cat, celestial and botanical designs for cozy tables without mixing in the broader gift guides.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -170,7 +170,7 @@
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
     },
     "secondaryCta": {
-      "label": "Jump to the full coaster grid",
+      "label": "See the curated coaster selection",
       "target": "#shop-catalog"
     },
     "linkCloud": [
@@ -217,8 +217,8 @@
         "summary": "A reliable housewarming pick when someone wants wooden decor that still feels useful on a coffee table."
       },
       {
-        "slug": "chess-wooden-coasters",
-        "summary": "A hobby-led option that works well for desks, game-night homes and gift buyers who want a clearer theme."
+        "slug": "floral-wooden-coasters",
+        "summary": "A softer botanical set for warm kitchens, guest tables and homes that lean more natural than novelty-led."
       }
     ],
     "featuredWhy": [
@@ -227,9 +227,22 @@
       "It points shoppers toward cat-lover and housewarming ideas when they want something more specific."
     ],
     "catalog": {
-      "mode": "category",
-      "category": "coasters",
-      "intro": "Browse every coaster design in one place, from cat themes to zodiac and botanical styles.",
+      "mode": "slugs",
+      "slugs": [
+        "cat-and-moon-wooden-coasters",
+        "cat-wooden-coasters",
+        "celestial-cat-wooden-coasters",
+        "zodiac-wooden-coasters",
+        "sun-and-moon-wooden-coasters",
+        "mushroom-moon-wooden-coasters",
+        "floral-wooden-coasters",
+        "leaf-wooden-coasters",
+        "tree-of-life-wooden-coasters",
+        "bee-motif-wooden-coasters",
+        "forest-animal-wooden-coasters",
+        "picasso-animal-line-art-wooden-coasters"
+      ],
+      "intro": "A curated coaster selection for cozy tables, cat lovers and warm homes.",
       "ctaLabel": "View coasters on Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
     },
@@ -276,11 +289,11 @@
     "pairPath": "/pages/bladwijzers.html",
     "template": "collection",
     "locale": "en",
-    "title": "Wooden Bookmarks for Reader Gifts, Book Lovers and Fantasy Shelves | Craftygiftsplace",
-    "metaDescription": "Browse handmade wooden bookmarks and reader gift ideas for book lovers, fantasy readers and thoughtful Etsy gifting. Explore bookmarks, bundles and reading-themed pieces.",
-    "h1": "Wooden bookmarks for reader gifts, book lovers and fantasy shelves",
+    "title": "Handmade Wooden Bookmarks for Readers and Fantasy Shelves | Craftygiftsplace",
+    "metaDescription": "Browse handmade wooden bookmarks for readers and fantasy shelves, from classic designs to personalized bookish favorites.",
+    "h1": "Handmade wooden bookmarks for readers and fantasy shelves",
     "eyebrow": "Collection",
-    "intro": "This collection brings the full bookmark range together for readers, fantasy fans and gift shoppers. Visitors can browse individual bookmarks, compare styles and jump into reader-focused gift ideas when they want a bundle, a themed room piece or something that feels especially bookish.",
+    "intro": "Browse the curated bookmark collection in one place. This page stays focused on bookmarks first, so shoppers can compare classic, fantasy and personalized designs before moving to broader reader gift ideas.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -296,7 +309,7 @@
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },
     "secondaryCta": {
-      "label": "Jump to the full bookmark grid",
+      "label": "See the curated bookmark selection",
       "target": "#shop-catalog"
     },
     "linkCloud": [
@@ -353,9 +366,20 @@
       "It helps shoppers move from a single bookmark to a fuller reader gift without starting over."
     ],
     "catalog": {
-      "mode": "category",
-      "category": "bookmarks",
-      "intro": "Browse the full bookmark collection, from fantasy pieces to personalized reader gifts.",
+      "mode": "slugs",
+      "slugs": [
+        "dragon-eye-wooden-bookmark",
+        "dragon-wooden-bookmark",
+        "epic-fantasy-wooden-bookmark",
+        "fantasy-sword-wooden-bookmark",
+        "fantasy-reader-gift-set",
+        "celtic-wooden-bookmark",
+        "classic-wooden-bookmark",
+        "personalized-feather-wooden-bookmark",
+        "1984-inspired-wooden-bookmark",
+        "lighthouse-wooden-bookmark"
+      ],
+      "intro": "A curated bookmark selection for readers, fantasy fans and quiet reading corners.",
       "ctaLabel": "View bookmarks on Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },
@@ -402,11 +426,11 @@
     "pairPath": "/pages/houten-cadeaus.html",
     "template": "collection",
     "locale": "en",
-    "title": "Wooden Gifts for Housewarmings, Reading Nooks and Personalized Moments | Craftygiftsplace",
-    "metaDescription": "Browse handmade wooden gifts including door hangers, decor pieces and keepsakes for housewarmings, reading nooks and personalized gift moments.",
-    "h1": "Wooden gifts for shelves, doors, reading nooks and thoughtful occasions",
+    "title": "Handmade Wooden Gifts for Shelves, Doors and Keepsake Moments | Craftygiftsplace",
+    "metaDescription": "Browse handmade wooden gifts including decor pieces, door hangers and keepsakes for cozy homes, readers and meaningful personalized moments.",
+    "h1": "Handmade wooden gifts for shelves, doors and keepsake moments",
     "eyebrow": "Collection",
-    "intro": "This broader collection covers the wooden pieces that go beyond coasters and bookmarks. It brings together door hangers, decor pieces and keepsakes that suit housewarmings, reading nooks and personalized moments, so shoppers can browse the more decorative side of the shop in one place.",
+    "intro": "Browse the curated wooden gifts collection for decor pieces, door hangers and keepsakes. This page stays focused on the product type itself, while the gift guides handle occasions like housewarming, reader gifting and cat-themed ideas.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -422,7 +446,7 @@
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
     "secondaryCta": {
-      "label": "Jump to the wooden gifts grid",
+      "label": "See selected wooden gifts",
       "target": "#shop-catalog"
     },
     "linkCloud": [
@@ -479,9 +503,16 @@
       "It pairs well with housewarming, reader and cat-lover gift ideas."
     ],
     "catalog": {
-      "mode": "category",
-      "category": "wooden-gifts",
-      "intro": "Browse the wider range of signs, decor and keepsake pieces that complement the main coaster and bookmark collections.",
+      "mode": "slugs",
+      "slugs": [
+        "moon-cat-shadow-tealight-holder",
+        "laser-birch-wood-incense-burner",
+        "personalized-just-married-wooden-door-hanger",
+        "epic-fantasy-door-sign",
+        "personalized-pet-memorial-plaque",
+        "do-not-ring-door-sign"
+      ],
+      "intro": "A curated mix of decor pieces, door hangers and personalized keepsakes.",
       "ctaLabel": "View wooden gifts on Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
@@ -553,6 +584,22 @@
     },
     "infoCards": [
       {
+        "title": "Small handmade wood studio",
+        "text": "Craftygiftsplace focuses on engraved wooden gifts that feel warm, useful and personal instead of mass-made. The support site keeps that focus on readers, cat lovers, cozy homes and selected personalized keepsakes."
+      },
+      {
+        "title": "Materials and finish",
+        "items": [
+          "Wood is chosen for clean engraving, visible grain and a warm natural finish.",
+          "Many coaster sets use cork backing when it is included in the Etsy listing.",
+          "Each piece is checked after engraving so the final result feels gift-ready."
+        ]
+      },
+      {
+        "title": "How the process works",
+        "text": "Designs usually start as themed sketches, names or lettering, then move through engraving, hand-finishing and a final quality check before they are listed on Etsy."
+      },
+      {
         "title": "What buyers can ask about",
         "items": [
           "Personalization with a name, date or short message.",
@@ -562,7 +609,7 @@
       },
       {
         "title": "Why Etsy is the contact point",
-        "text": "It keeps messaging, ordering and listing-specific details in one place for buyers."
+        "text": "Etsy keeps ordering, delivery estimates, personalization notes, buyer protection and messaging together in one trusted place."
       },
       {
         "title": "Helpful starting points",
@@ -588,6 +635,26 @@
           "href": "/en/pages/housewarming-gifts.html"
         }
       ]
+    },
+    "faq": [
+      {
+        "question": "Do orders happen on this website?",
+        "answer": "No. Orders and messages are handled on Etsy, where shoppers can review the listing, delivery details and personalization options in one place."
+      },
+      {
+        "question": "Can I ask for personalization before ordering?",
+        "answer": "Yes. Etsy messaging is the best place to ask about names, dates, short messages or other listing-specific details."
+      },
+      {
+        "question": "Can I browse the collections before I message?",
+        "answer": "Yes. The main collections and gift guides stay linked from this page so shoppers can compare styles first if they want."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to message or browse on Etsy?",
+      "text": "Open the Etsy shop to send a message, check reviews or keep exploring the listings that match your gift idea.",
+      "label": "Open Craftygiftsplace on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     }
   },
   {
@@ -667,9 +734,9 @@
       }
     ],
     "featuredWhy": [
-      "Cat lover gift",
-      "Gift for cat owner",
-      "Cat-themed wooden decor"
+      "It keeps every cat-themed pick in one calm, easy browse.",
+      "It mixes practical coaster sets with one softer decor option.",
+      "It works well when the gift should feel cozy, useful and clearly cat-led."
     ],
     "catalog": {
       "mode": "slugs",
@@ -677,12 +744,9 @@
         "cat-and-moon-wooden-coasters",
         "cat-wooden-coasters",
         "celestial-cat-wooden-coasters",
-        "moon-cat-shadow-tealight-holder",
-        "sun-and-moon-wooden-coasters",
-        "mushroom-moon-wooden-coasters",
-        "zodiac-wooden-coasters"
+        "moon-cat-shadow-tealight-holder"
       ],
-      "intro": "These are the most relevant products for visitors shopping specifically for cat owners and cat-themed cozy decor.",
+      "intro": "These are the strongest cat-themed picks for cozy homes, shelves and coffee-table gifting.",
       "ctaLabel": "View cat-themed gifts on Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
     },
@@ -704,7 +768,7 @@
       {
         "label": "Wooden coasters",
         "href": "/en/pages/wooden-coasters.html",
-        "description": "The full coaster catalog, including cat, zodiac, botanical and hobby-led options."
+        "description": "A curated coaster selection with cat, celestial and botanical styles."
       },
       {
         "label": "Housewarming gifts",
@@ -801,11 +865,9 @@
       }
     ],
     "featuredWhy": [
-      "Reader gifts",
-      "Book lover gifts",
-      "Fantasy reader gifts",
-      "Bookmark gifts",
-      "Reading nook gifts"
+      "It starts with unmistakably bookish gifts.",
+      "It mixes bookmarks with a fuller set and one room piece.",
+      "It helps shoppers choose for a reader, not just a product type."
     ],
     "catalog": {
       "mode": "slugs",
@@ -940,9 +1002,9 @@
       }
     ],
     "featuredWhy": [
-      "Housewarming gift",
-      "Cozy home gift",
-      "Wooden home decor gift"
+      "It keeps practical table gifts and softer decor together.",
+      "It helps new-home shoppers compare useful and decorative options.",
+      "It suits cozy shelves, coffee tables and small welcome-home moments."
     ],
     "catalog": {
       "mode": "slugs",

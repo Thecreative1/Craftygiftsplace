@@ -592,21 +592,52 @@ function getUsageContext(locale, formatKey, themeKey) {
   return bucket[themeKey] || bucket.default;
 }
 
-function buildShortDescription(locale, formatKey, benefitPrimary, motif, usageContext) {
-  if (locale === "nl") {
-    return `${capitalize(benefitPrimary)} met ${motif}, bedoeld voor ${usageContext}.`;
+function pickVariant(seed, total) {
+  let hash = 0;
+  for (const char of String(seed || "")) {
+    hash = (hash + char.charCodeAt(0)) % 2147483647;
   }
-  return `${capitalize(benefitPrimary)} with ${motif} and suits ${usageContext}.`;
+  return hash % total;
 }
 
-function buildCollectionDescription(locale, formatLabel, audience, occasions) {
+function buildShortDescription(locale, seed, formatLabel, benefitPrimary, motif, usageContext, audience, occasions) {
   const audienceLabel = audience[0] || (locale === "nl" ? "cadeauzoekers" : "gift shoppers");
   const occasionLabel = occasions[0] || (locale === "nl" ? "dagelijks gebruik" : "everyday gifting");
+  const variants = locale === "nl"
+    ? [
+        `${capitalize(benefitPrimary)} en brengt ${motif} naar ${usageContext}.`,
+        `Een ${formatLabel} met ${motif}, mooi voor ${usageContext}.`,
+        `Past goed bij ${usageContext}, met ${motif} en een warme handgemaakte uitstraling.`,
+        `Een fijne keuze voor ${occasionLabel}, met ${motif} en dagelijks gemak.`,
+        `Gemaakt voor ${audienceLabel}, met ${motif} en een rustige uitstraling voor ${usageContext}.`
+      ]
+    : [
+        `${capitalize(benefitPrimary)} and brings ${motif} to ${usageContext}.`,
+        `A ${formatLabel} with ${motif} that works beautifully in ${usageContext}.`,
+        `Feels right for ${usageContext}, with ${motif} keeping the handmade look warm.`,
+        `An easy choice for ${occasionLabel}, with ${motif} and everyday usefulness.`,
+        `Made for ${audienceLabel}, with ${motif} and a softer handmade feel for ${usageContext}.`
+      ];
 
-  if (locale === "nl") {
-    return `Een ${formatLabel} die goed werkt voor ${audienceLabel} en momenten zoals ${occasionLabel}.`;
-  }
-  return `A ${formatLabel} that feels easy to choose for ${audienceLabel} and moments like ${occasionLabel}.`;
+  return variants[pickVariant(seed, variants.length)];
+}
+
+function buildCollectionDescription(locale, seed, formatLabel, audience, occasions) {
+  const audienceLabel = audience[0] || (locale === "nl" ? "cadeauzoekers" : "gift shoppers");
+  const occasionLabel = occasions[0] || (locale === "nl" ? "dagelijks gebruik" : "everyday gifting");
+  const variants = locale === "nl"
+    ? [
+        `Een ${formatLabel} die prettig voelt voor ${audienceLabel} en momenten zoals ${occasionLabel}.`,
+        `Een handgemaakte ${formatLabel} voor ${audienceLabel} die iets warms en bruikbaars zoeken.`,
+        `Een ${formatLabel} met een rustige uitstraling, passend bij ${occasionLabel} en alledaags gebruik.`
+      ]
+    : [
+        `A ${formatLabel} that feels easy to choose for ${audienceLabel} and moments like ${occasionLabel}.`,
+        `A handmade ${formatLabel} for ${audienceLabel} who want something warm and useful.`,
+        `A ${formatLabel} with a calm look that suits ${occasionLabel} and everyday use.`
+      ];
+
+  return variants[pickVariant(`${seed}-collection`, variants.length)];
 }
 
 function buildCtaLabel(locale, name) {
@@ -672,8 +703,8 @@ function buildLocaleProduct(locale, rawProduct, localizedName, signals) {
     image_srcset: rawProduct.image_srcset || "",
     image_sizes: rawProduct.image_sizes || "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     alt: `${normalizedName} ${labels.brandSuffix}`,
-    short_desc: buildShortDescription(locale, signals.formatKey, benefitPrimary, motif, usageContext),
-    collection_desc: buildCollectionDescription(locale, formatLabel, audience, occasions),
+    short_desc: buildShortDescription(locale, rawProduct.id, formatLabel, benefitPrimary, motif, usageContext, audience, occasions),
+    collection_desc: buildCollectionDescription(locale, rawProduct.id, formatLabel, audience, occasions),
     intent_keys: signals.intentKeys,
     intent_tags: intentTags,
     chips,

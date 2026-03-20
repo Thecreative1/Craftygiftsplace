@@ -80,7 +80,7 @@ pagesEn.push({
   collectionCards: [
     {
       title: "Wooden coasters",
-      description: "Cat, zodiac, botanical and hobby-led coaster sets for housewarmings, desks and everyday table styling.",
+      description: "Cat, celestial and botanical coaster sets for cozy tables, shelves and easy gifting.",
       image: "/assets/img/products/cat-and-moon-coasters.jpg",
       imageAlt: "Wooden coaster collection",
       href: "/en/pages/wooden-coasters.html"
@@ -94,8 +94,8 @@ pagesEn.push({
     },
     {
       title: "Wooden gifts",
-      description: "Door hangers, tealight holders, keepsakes and decor pieces for shelves, entryways and thoughtful gifting moments.",
-      image: "/assets/img/products/fantasy-gamer-door-sign.jpg",
+      description: "Tealight holders, keepsakes, door hangers and decor pieces for shelves, entryways and thoughtful gifting moments.",
+      image: "/assets/img/products/just-married-door-hanger.jpg",
       imageAlt: "Wooden gifts collection",
       href: "/en/pages/wooden-gifts.html"
     }
@@ -227,7 +227,7 @@ pagesNl.push({
   collectionCards: [
     {
       title: "Houten onderzetters",
-      description: "Kat-, zodiac-, botanische en hobbygerichte sets voor verhuiscadeaus, bureaus en tafels met karakter.",
+      description: "Kat-, hemelse en botanische onderzettersets voor gezellige tafels, planken en vlotte cadeaus.",
       image: "/assets/img/products/cat-and-moon-coasters.jpg",
       imageAlt: "Collectie houten onderzetters",
       href: "/pages/onderzetters.html"
@@ -241,8 +241,8 @@ pagesNl.push({
     },
     {
       title: "Houten cadeaus",
-      description: "Deurhangers, theelichthouders, bewaarcadeaus en decoratie voor planken, entrees en betekenisvolle cadeaugelegenheden.",
-      image: "/assets/img/products/fantasy-gamer-door-sign.jpg",
+      description: "Theelichthouders, bewaarcadeaus, deurhangers en decoratie voor planken, entrees en betekenisvolle cadeaugelegenheden.",
+      image: "/assets/img/products/just-married-door-hanger.jpg",
       imageAlt: "Collectie houten cadeaus",
       href: "/pages/houten-cadeaus.html"
     }
@@ -300,11 +300,11 @@ pagesEn.push({
   pairPath: "/pages/onderzetters.html",
   template: "collection",
   locale: "en",
-  title: "Wooden Coasters for Housewarming Gifts, Cozy Tables and Cat Lovers | Craftygiftsplace",
-  metaDescription: "Browse handmade wooden coasters for housewarming gifts, cozy coffee tables, cat lovers and themed homes. Explore Craftygiftsplace coaster sets before heading to Etsy.",
-  h1: "Wooden coasters for housewarming gifts, cozy tables and themed homes",
+  title: "Handmade Wooden Coasters in Cat, Celestial and Botanical Styles | Craftygiftsplace",
+  metaDescription: "Browse handmade wooden coasters in cat, celestial and botanical styles for cozy tables, shelves and easy gifting.",
+  h1: "Handmade wooden coasters in cat, celestial and botanical styles",
   eyebrow: "Collection",
-  intro: "This is the easiest place to browse the full coaster range in one view. Shoppers can compare cat themes, zodiac designs, botanicals and hobby-led sets, then jump to more focused gift ideas for cat lovers or housewarmings if they already know the occasion.",
+  intro: "Browse the curated coaster collection in one place. This page stays product-type first, so shoppers can compare cat, celestial and botanical designs for cozy tables without mixing in the broader gift guides.",
   breadcrumbs: [
     { label: "Home", path: "/en/index.html" },
     { label: "Wooden coasters", path: "/en/pages/wooden-coasters.html" }
@@ -314,7 +314,7 @@ pagesEn.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   },
   secondaryCta: {
-    label: "Jump to the full coaster grid",
+    label: "See the curated coaster selection",
     target: "#shop-catalog"
   },
   linkCloud: [
@@ -336,7 +336,7 @@ pagesEn.push({
   featuredItems: [
     { slug: "cat-and-moon-wooden-coasters", summary: "A cat-themed set that feels especially strong for cozy interiors, birthdays and easy Etsy gifting." },
     { slug: "zodiac-wooden-coasters", summary: "A reliable housewarming pick when someone wants wooden decor that still feels useful on a coffee table." },
-    { slug: "chess-wooden-coasters", summary: "A hobby-led option that works well for desks, game-night homes and gift buyers who want a clearer theme." }
+    { slug: "floral-wooden-coasters", summary: "A softer botanical set for warm kitchens, guest tables and homes that lean more natural than novelty-led." }
   ],
   featuredWhy: [
     "It keeps the full coaster range in one easy view.",
@@ -344,9 +344,22 @@ pagesEn.push({
     "It points shoppers toward cat-lover and housewarming ideas when they want something more specific."
   ],
   catalog: {
-    mode: "category",
-    category: "coasters",
-    intro: "Browse every coaster design in one place, from cat themes to zodiac and botanical styles.",
+    mode: "slugs",
+    slugs: [
+      "cat-and-moon-wooden-coasters",
+      "cat-wooden-coasters",
+      "celestial-cat-wooden-coasters",
+      "zodiac-wooden-coasters",
+      "sun-and-moon-wooden-coasters",
+      "mushroom-moon-wooden-coasters",
+      "floral-wooden-coasters",
+      "leaf-wooden-coasters",
+      "tree-of-life-wooden-coasters",
+      "bee-motif-wooden-coasters",
+      "forest-animal-wooden-coasters",
+      "picasso-animal-line-art-wooden-coasters"
+    ],
+    intro: "A curated coaster selection for cozy tables, cat lovers and warm homes.",
     ctaLabel: "View coasters on Etsy",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   },
@@ -394,11 +407,11 @@ pagesNl.push({
   pairPath: "/en/pages/wooden-coasters.html",
   template: "collection",
   locale: "nl",
-  title: "Houten Onderzetters voor Verhuiscadeaus, Gezellige Tafels en Kattenliefhebbers | Craftygiftsplace",
-  metaDescription: "Bekijk handgemaakte houten onderzetters voor verhuiscadeaus, gezellige koffietafels, kattenliefhebbers en huizen met karakter. Ontdek de Craftygiftsplace collectie voor Etsy.",
-  h1: "Houten onderzetters voor verhuiscadeaus, warme tafels en huizen met karakter",
+  title: "Handgemaakte Houten Onderzetters met Kat-, Hemel- en Botanische Thema's | Craftygiftsplace",
+  metaDescription: "Bekijk handgemaakte houten onderzetters met kat-, hemel- en botanische thema's voor gezellige tafels, planken en vlotte cadeaus.",
+  h1: "Handgemaakte houten onderzetters met kat-, hemel- en botanische thema's",
   eyebrow: "Collectie",
-  intro: "Dit is de makkelijkste plek om het volledige aanbod onderzetters in één overzicht te bekijken. Bezoekers kunnen kattenthema's, zodiacontwerpen, botanische sets en hobbythema's vergelijken en daarna verdergaan naar gerichtere cadeau-ideeën voor kattenliefhebbers of verhuiscadeaus als de gelegenheid al duidelijk is.",
+  intro: "Bekijk hier de gecureerde collectie onderzetters op één plek. Deze pagina blijft bewust productgericht, zodat bezoekers katten-, hemel- en botanische ontwerpen voor gezellige tafels kunnen vergelijken zonder dat ze meteen in bredere cadeaugidsen belanden.",
   breadcrumbs: [
     { label: "Home", path: "/index.html" },
     { label: "Houten onderzetters", path: "/pages/onderzetters.html" }
@@ -408,7 +421,7 @@ pagesNl.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   },
   secondaryCta: {
-    label: "Spring naar alle onderzetters",
+    label: "Bekijk de gecureerde onderzetters",
     target: "#shop-catalog"
   },
   linkCloud: [
@@ -430,7 +443,7 @@ pagesNl.push({
   featuredItems: [
     { slug: "cat-and-moon-wooden-coasters", summary: "Een kattenthema-set die extra goed werkt voor knusse interieurs, verjaardagen en vlotte Etsy cadeaus." },
     { slug: "zodiac-wooden-coasters", summary: "Een sterk verhuiscadeau wanneer iemand houten woondecoratie wil die toch meteen bruikbaar voelt op tafel." },
-    { slug: "chess-wooden-coasters", summary: "Een hobbygerichte keuze voor bureaus, spelavonden en cadeaus waarbij het thema meteen duidelijk mag zijn." }
+    { slug: "floral-wooden-coasters", summary: "Een zachtere botanische set voor warme keukens, gastentafels en huizen die natuurlijker dan opvallend willen aanvoelen." }
   ],
   featuredWhy: [
     "Ze houdt het volledige aanbod onderzetters samen in één duidelijk overzicht.",
@@ -438,9 +451,22 @@ pagesNl.push({
     "Ze wijst bezoekers door naar cadeaus voor kattenliefhebbers en verhuiscadeaus zodra ze iets gerichters zoeken."
   ],
   catalog: {
-    mode: "category",
-    category: "coasters",
-    intro: "Bekijk alle onderzetterontwerpen op één plek, van kattenthema's tot zodiac- en botanische stijlen.",
+    mode: "slugs",
+    slugs: [
+      "cat-and-moon-wooden-coasters",
+      "cat-wooden-coasters",
+      "celestial-cat-wooden-coasters",
+      "zodiac-wooden-coasters",
+      "sun-and-moon-wooden-coasters",
+      "mushroom-moon-wooden-coasters",
+      "floral-wooden-coasters",
+      "leaf-wooden-coasters",
+      "tree-of-life-wooden-coasters",
+      "bee-motif-wooden-coasters",
+      "forest-animal-wooden-coasters",
+      "picasso-animal-line-art-wooden-coasters"
+    ],
+    intro: "Een gecureerde selectie onderzetters voor gezellige tafels, kattenliefhebbers en warme huizen.",
     ctaLabel: "Bekijk onderzetters op Etsy",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   },
@@ -488,11 +514,11 @@ pagesEn.push({
   pairPath: "/pages/bladwijzers.html",
   template: "collection",
   locale: "en",
-  title: "Wooden Bookmarks for Reader Gifts, Book Lovers and Fantasy Shelves | Craftygiftsplace",
-  metaDescription: "Browse handmade wooden bookmarks and reader gift ideas for book lovers, fantasy readers and thoughtful Etsy gifting. Explore bookmarks, bundles and reading-themed pieces.",
-  h1: "Wooden bookmarks for reader gifts, book lovers and fantasy shelves",
+  title: "Handmade Wooden Bookmarks for Readers and Fantasy Shelves | Craftygiftsplace",
+  metaDescription: "Browse handmade wooden bookmarks for readers and fantasy shelves, from classic designs to personalized bookish favorites.",
+  h1: "Handmade wooden bookmarks for readers and fantasy shelves",
   eyebrow: "Collection",
-  intro: "This collection brings the full bookmark range together for readers, fantasy fans and gift shoppers. Visitors can browse individual bookmarks, compare styles and jump into reader-focused gift ideas when they want a bundle, a themed room piece or something that feels especially bookish.",
+  intro: "Browse the curated bookmark collection in one place. This page stays focused on bookmarks first, so shoppers can compare classic, fantasy and personalized designs before moving to broader reader gift ideas.",
   breadcrumbs: [
     { label: "Home", path: "/en/index.html" },
     { label: "Wooden bookmarks", path: "/en/pages/wooden-bookmarks.html" }
@@ -502,7 +528,7 @@ pagesEn.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
   secondaryCta: {
-    label: "Jump to the full bookmark grid",
+    label: "See the curated bookmark selection",
     target: "#shop-catalog"
   },
   linkCloud: [
@@ -532,9 +558,20 @@ pagesEn.push({
     "It helps shoppers move from a single bookmark to a fuller reader gift without starting over."
   ],
   catalog: {
-    mode: "category",
-    category: "bookmarks",
-    intro: "Browse the full bookmark collection, from fantasy pieces to personalized reader gifts.",
+    mode: "slugs",
+    slugs: [
+      "dragon-eye-wooden-bookmark",
+      "dragon-wooden-bookmark",
+      "epic-fantasy-wooden-bookmark",
+      "fantasy-sword-wooden-bookmark",
+      "fantasy-reader-gift-set",
+      "celtic-wooden-bookmark",
+      "classic-wooden-bookmark",
+      "personalized-feather-wooden-bookmark",
+      "1984-inspired-wooden-bookmark",
+      "lighthouse-wooden-bookmark"
+    ],
+    intro: "A curated bookmark selection for readers, fantasy fans and quiet reading corners.",
     ctaLabel: "View bookmarks on Etsy",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
@@ -582,11 +619,11 @@ pagesNl.push({
   pairPath: "/en/pages/wooden-bookmarks.html",
   template: "collection",
   locale: "nl",
-  title: "Houten Bladwijzers voor Lezerscadeaus, Boekenliefhebbers en Fantasyplanken | Craftygiftsplace",
-  metaDescription: "Bekijk handgemaakte houten bladwijzers en lezerscadeaus voor boekenliefhebbers, fantasylezers en doordachte Etsy cadeaus. Ontdek bladwijzers, sets en leeshoekstukken.",
-  h1: "Houten bladwijzers voor lezerscadeaus, boekenliefhebbers en fantasyplanken",
+  title: "Handgemaakte Houten Bladwijzers voor Lezers en Fantasyplanken | Craftygiftsplace",
+  metaDescription: "Bekijk handgemaakte houten bladwijzers voor lezers en fantasyplanken, van klassieke ontwerpen tot persoonlijke boekfavorieten.",
+  h1: "Handgemaakte houten bladwijzers voor lezers en fantasyplanken",
   eyebrow: "Collectie",
-  intro: "Deze collectie brengt het volledige aanbod bladwijzers samen voor lezers, fantasyfans en cadeaukopers. Bezoekers kunnen losse bladwijzers bekijken, stijlen vergelijken en verdergaan naar lezerscadeaus wanneer ze liever een set, een thematisch kamerstuk of iets extra boekachtigs willen.",
+  intro: "Bekijk hier de gecureerde collectie bladwijzers op één plek. Deze pagina blijft bewust bij bladwijzers zelf, zodat bezoekers klassieke, fantasy- en persoonlijke ontwerpen kunnen vergelijken voordat ze naar bredere lezerscadeaus gaan.",
   breadcrumbs: [
     { label: "Home", path: "/index.html" },
     { label: "Houten bladwijzers", path: "/pages/bladwijzers.html" }
@@ -596,7 +633,7 @@ pagesNl.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
   secondaryCta: {
-    label: "Spring naar alle bladwijzers",
+    label: "Bekijk de gecureerde bladwijzers",
     target: "#shop-catalog"
   },
   linkCloud: [
@@ -626,9 +663,20 @@ pagesNl.push({
     "Ze helpt bezoekers om van één bladwijzer naar een completer lezerscadeau te gaan zonder opnieuw te beginnen."
   ],
   catalog: {
-    mode: "category",
-    category: "bookmarks",
-    intro: "Bekijk de volledige bladwijzercollectie, van fantasystukken tot persoonlijke lezerscadeaus.",
+    mode: "slugs",
+    slugs: [
+      "dragon-eye-wooden-bookmark",
+      "dragon-wooden-bookmark",
+      "epic-fantasy-wooden-bookmark",
+      "fantasy-sword-wooden-bookmark",
+      "fantasy-reader-gift-set",
+      "celtic-wooden-bookmark",
+      "classic-wooden-bookmark",
+      "personalized-feather-wooden-bookmark",
+      "1984-inspired-wooden-bookmark",
+      "lighthouse-wooden-bookmark"
+    ],
+    intro: "Een gecureerde bladwijzerselectie voor lezers, fantasyfans en rustige leeshoeken.",
     ctaLabel: "Bekijk bladwijzers op Etsy",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
@@ -676,11 +724,11 @@ pagesEn.push({
   pairPath: "/pages/houten-cadeaus.html",
   template: "collection",
   locale: "en",
-  title: "Wooden Gifts for Housewarmings, Reading Nooks and Personalized Moments | Craftygiftsplace",
-  metaDescription: "Browse handmade wooden gifts including door hangers, decor pieces and keepsakes for housewarmings, reading nooks and personalized gift moments.",
-  h1: "Wooden gifts for shelves, doors, reading nooks and thoughtful occasions",
+  title: "Handmade Wooden Gifts for Shelves, Doors and Keepsake Moments | Craftygiftsplace",
+  metaDescription: "Browse handmade wooden gifts including decor pieces, door hangers and keepsakes for cozy homes, readers and meaningful personalized moments.",
+  h1: "Handmade wooden gifts for shelves, doors and keepsake moments",
   eyebrow: "Collection",
-  intro: "This broader collection covers the wooden pieces that go beyond coasters and bookmarks. It brings together door hangers, decor pieces and keepsakes that suit housewarmings, reading nooks and personalized moments, so shoppers can browse the more decorative side of the shop in one place.",
+  intro: "Browse the curated wooden gifts collection for decor pieces, door hangers and keepsakes. This page stays focused on the product type itself, while the gift guides handle occasions like housewarming, reader gifting and cat-themed ideas.",
   breadcrumbs: [
     { label: "Home", path: "/en/index.html" },
     { label: "Wooden gifts", path: "/en/pages/wooden-gifts.html" }
@@ -690,7 +738,7 @@ pagesEn.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
   secondaryCta: {
-    label: "Jump to the wooden gifts grid",
+    label: "See selected wooden gifts",
     target: "#shop-catalog"
   },
   linkCloud: [
@@ -720,9 +768,16 @@ pagesEn.push({
     "It pairs well with housewarming, reader and cat-lover gift ideas."
   ],
   catalog: {
-    mode: "category",
-    category: "wooden-gifts",
-    intro: "Browse the wider range of signs, decor and keepsake pieces that complement the main coaster and bookmark collections.",
+    mode: "slugs",
+    slugs: [
+      "moon-cat-shadow-tealight-holder",
+      "laser-birch-wood-incense-burner",
+      "personalized-just-married-wooden-door-hanger",
+      "epic-fantasy-door-sign",
+      "personalized-pet-memorial-plaque",
+      "do-not-ring-door-sign"
+    ],
+    intro: "A curated mix of decor pieces, door hangers and personalized keepsakes.",
     ctaLabel: "View wooden gifts on Etsy",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
@@ -770,11 +825,11 @@ pagesNl.push({
   pairPath: "/en/pages/wooden-gifts.html",
   template: "collection",
   locale: "nl",
-  title: "Houten Cadeaus voor Verhuiscadeaus, Leeshoeken en Persoonlijke Momenten | Craftygiftsplace",
-  metaDescription: "Bekijk handgemaakte houten cadeaus zoals deurhangers, decoratie en bewaarcadeaus voor verhuiscadeaus, leeshoeken en persoonlijke gelegenheden.",
-  h1: "Houten cadeaus voor planken, deuren, leeshoeken en betekenisvolle gelegenheden",
+  title: "Handgemaakte Houten Cadeaus voor Planken, Deuren en Bewaarmomenten | Craftygiftsplace",
+  metaDescription: "Bekijk handgemaakte houten cadeaus met decorstukken, deurhangers en bewaarcadeaus voor gezellige huizen, lezers en betekenisvolle persoonlijke momenten.",
+  h1: "Handgemaakte houten cadeaus voor planken, deuren en bewaarmomenten",
   eyebrow: "Collectie",
-  intro: "Deze bredere collectie brengt de houten stukken samen die verder gaan dan onderzetters en bladwijzers. Je vindt hier deurhangers, decoratie en bewaarcadeaus die goed passen bij verhuiscadeaus, leeshoeken en persoonlijke momenten, zodat bezoekers de meer decoratieve kant van de shop op één plek kunnen bekijken.",
+  intro: "Bekijk de gecureerde collectie houten cadeaus met decorstukken, deurhangers en bewaarcadeaus. Deze pagina blijft bewust bij het producttype zelf, terwijl de cadeaugidsen zich richten op gelegenheden zoals verhuizen, lezerscadeaus en kattenliefhebbers.",
   breadcrumbs: [
     { label: "Home", path: "/index.html" },
     { label: "Houten cadeaus", path: "/pages/houten-cadeaus.html" }
@@ -784,7 +839,7 @@ pagesNl.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
   secondaryCta: {
-    label: "Spring naar alle houten cadeaus",
+    label: "Bekijk geselecteerde houten cadeaus",
     target: "#shop-catalog"
   },
   linkCloud: [
@@ -814,9 +869,16 @@ pagesNl.push({
     "Ze past mooi naast cadeau-ideeën voor verhuizen, lezen en kattenliefhebbers."
   ],
   catalog: {
-    mode: "category",
-    category: "wooden-gifts",
-    intro: "Bekijk het bredere aanbod borden, decoratie en bewaarcadeaus naast onderzetters en bladwijzers.",
+    mode: "slugs",
+    slugs: [
+      "moon-cat-shadow-tealight-holder",
+      "laser-birch-wood-incense-burner",
+      "personalized-just-married-wooden-door-hanger",
+      "epic-fantasy-door-sign",
+      "personalized-pet-memorial-plaque",
+      "do-not-ring-door-sign"
+    ],
+    intro: "Een gecureerde mix van decorstukken, deurhangers en persoonlijke bewaarcadeaus.",
     ctaLabel: "Bekijk houten cadeaus op Etsy",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
@@ -883,6 +945,22 @@ pagesEn.push({
   },
   infoCards: [
     {
+      title: "Small handmade wood studio",
+      text: "Craftygiftsplace focuses on engraved wooden gifts that feel warm, useful and personal instead of mass-made. The support site keeps that focus on readers, cat lovers, cozy homes and selected personalized keepsakes."
+    },
+    {
+      title: "Materials and finish",
+      items: [
+        "Wood is chosen for clean engraving, visible grain and a warm natural finish.",
+        "Many coaster sets use cork backing when it is included in the Etsy listing.",
+        "Each piece is checked after engraving so the final result feels gift-ready."
+      ]
+    },
+    {
+      title: "How the process works",
+      text: "Designs usually start as themed sketches, names or lettering, then move through engraving, hand-finishing and a final quality check before they are listed on Etsy."
+    },
+    {
       title: "What buyers can ask about",
       items: [
         "Personalization with a name, date or short message.",
@@ -892,7 +970,7 @@ pagesEn.push({
     },
     {
       title: "Why Etsy is the contact point",
-      text: "It keeps messaging, ordering and listing-specific details in one place for buyers."
+      text: "Etsy keeps ordering, delivery estimates, personalization notes, buyer protection and messaging together in one trusted place."
     },
     {
       title: "Helpful starting points",
@@ -909,6 +987,26 @@ pagesEn.push({
       { label: "Reader gifts", href: "/en/pages/reader-gifts.html" },
       { label: "Housewarming gifts", href: "/en/pages/housewarming-gifts.html" }
     ]
+  },
+  faq: [
+    {
+      question: "Do orders happen on this website?",
+      answer: "No. Orders and messages are handled on Etsy, where shoppers can review the listing, delivery details and personalization options in one place."
+    },
+    {
+      question: "Can I ask for personalization before ordering?",
+      answer: "Yes. Etsy messaging is the best place to ask about names, dates, short messages or other listing-specific details."
+    },
+    {
+      question: "Can I browse the collections before I message?",
+      answer: "Yes. The main collections and gift guides stay linked from this page so shoppers can compare styles first if they want."
+    }
+  ],
+  ctaPanel: {
+    title: "Ready to message or browse on Etsy?",
+    text: "Open the Etsy shop to send a message, check reviews or keep exploring the listings that match your gift idea.",
+    label: "Open Craftygiftsplace on Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   }
 });
 
@@ -936,6 +1034,22 @@ pagesNl.push({
   },
   infoCards: [
     {
+      title: "Kleine handgemaakte houtstudio",
+      text: "Craftygiftsplace richt zich op gegraveerde houten cadeaus die warm, bruikbaar en persoonlijk aanvoelen in plaats van massaal gemaakt. De supportsite houdt die focus bij lezers, kattenliefhebbers, gezellige huizen en een select aantal persoonlijke bewaarcadeaus."
+    },
+    {
+      title: "Materialen en afwerking",
+      items: [
+        "Het hout wordt gekozen voor een mooie nerf, heldere gravure en warme natuurlijke uitstraling.",
+        "Veel onderzettersets krijgen een kurken achterkant wanneer die in de Etsy listing vermeld staat.",
+        "Elk stuk wordt na het graveren nagekeken zodat het eindresultaat cadeauklaar voelt."
+      ]
+    },
+    {
+      title: "Hoe het proces werkt",
+      text: "Ontwerpen beginnen meestal als thema, naam of belettering en gaan daarna door graveren, handmatige afwerking en een laatste kwaliteitscontrole voordat ze op Etsy verschijnen."
+    },
+    {
       title: "Waar kunnen kopers naar vragen?",
       items: [
         "Personalisatie met een naam, datum of korte tekst.",
@@ -945,7 +1059,7 @@ pagesNl.push({
     },
     {
       title: "Waarom Etsy het contactpunt blijft",
-      text: "Zo blijven berichten, bestellen en listing-specifieke details netjes op één plaats voor kopers."
+      text: "Zo blijven bestellen, levertijden, personalisatienotities, kopersbescherming en berichten netjes samen op één vertrouwde plek."
     },
     {
       title: "Handige startpunten",
@@ -962,6 +1076,26 @@ pagesNl.push({
       { label: "Lezerscadeaus", href: "/pages/lezerscadeaus.html" },
       { label: "Verhuiscadeaus", href: "/pages/verhuiscadeaus.html" }
     ]
+  },
+  faq: [
+    {
+      question: "Wordt er op deze website besteld?",
+      answer: "Nee. Bestellen en berichten lopen via Etsy, zodat shoppers de listing, levering en personalisatie op één plek kunnen bekijken."
+    },
+    {
+      question: "Kan ik voor het bestellen naar personalisatie vragen?",
+      answer: "Ja. Etsy berichten is de beste plek om te vragen naar namen, data, korte teksten of andere listing-specifieke details."
+    },
+    {
+      question: "Kan ik eerst de collecties bekijken voordat ik bericht stuur?",
+      answer: "Ja. De hoofdcollecties en cadeaugidsen blijven vanaf deze pagina bereikbaar, zodat shoppers eerst stijlen kunnen vergelijken als ze dat willen."
+    }
+  ],
+  ctaPanel: {
+    title: "Klaar om te berichten of verder te kijken op Etsy?",
+    text: "Open de Etsy shop om een bericht te sturen, beoordelingen te lezen of verder te bladeren tussen listings die bij jouw cadeau-idee passen.",
+    label: "Open Craftygiftsplace op Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   }
 });
 
@@ -1009,9 +1143,9 @@ pagesEn.push({
     { slug: "moon-cat-shadow-tealight-holder", summary: "A shelf-ready decor piece that turns the cat theme into a softer gift for reading nooks and nightstands." }
   ],
   featuredWhy: [
-    "Cat lover gift",
-    "Gift for cat owner",
-    "Cat-themed wooden decor"
+    "It keeps every cat-themed pick in one calm, easy browse.",
+    "It mixes practical coaster sets with one softer decor option.",
+    "It works well when the gift should feel cozy, useful and clearly cat-led."
   ],
   catalog: {
     mode: "slugs",
@@ -1019,12 +1153,9 @@ pagesEn.push({
       "cat-and-moon-wooden-coasters",
       "cat-wooden-coasters",
       "celestial-cat-wooden-coasters",
-      "moon-cat-shadow-tealight-holder",
-      "sun-and-moon-wooden-coasters",
-      "mushroom-moon-wooden-coasters",
-      "zodiac-wooden-coasters"
+      "moon-cat-shadow-tealight-holder"
     ],
-    intro: "These are the most relevant products for visitors shopping specifically for cat owners and cat-themed cozy decor.",
+    intro: "These are the strongest cat-themed picks for cozy homes, shelves and coffee-table gifting.",
     ctaLabel: "View cat-themed gifts on Etsy",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
   },
@@ -1046,7 +1177,7 @@ pagesEn.push({
     {
       label: "Wooden coasters",
       href: "/en/pages/wooden-coasters.html",
-      description: "The full coaster catalog, including cat, zodiac, botanical and hobby-led options."
+      description: "A curated coaster selection with cat, celestial and botanical styles."
     },
     {
       label: "Housewarming gifts",
@@ -1111,9 +1242,9 @@ pagesNl.push({
     { slug: "moon-cat-shadow-tealight-holder", summary: "Een plankwaardig decorstuk dat het kattenthema zachter en cadeauwaardiger maakt voor leeshoeken en nachtkastjes." }
   ],
   featuredWhy: [
-    "cadeau voor kattenliefhebbers",
-    "cadeau voor katteneigenaar",
-    "kattenthema houten decoratie"
+    "Ze brengt alle kattenthema-keuzes samen in één rustig overzicht.",
+    "Ze combineert praktische onderzettersets met één zachter decorstuk.",
+    "Ze werkt goed wanneer het cadeau gezellig, bruikbaar en duidelijk kattengericht moet zijn."
   ],
   catalog: {
     mode: "slugs",
@@ -1121,12 +1252,9 @@ pagesNl.push({
       "cat-and-moon-wooden-coasters",
       "cat-wooden-coasters",
       "celestial-cat-wooden-coasters",
-      "moon-cat-shadow-tealight-holder",
-      "sun-and-moon-wooden-coasters",
-      "mushroom-moon-wooden-coasters",
-      "zodiac-wooden-coasters"
+      "moon-cat-shadow-tealight-holder"
     ],
-    intro: "Dit zijn de meest relevante producten voor bezoekers die specifiek voor katteneigenaars of kattendecoratie winkelen.",
+    intro: "Dit zijn de sterkste keuzes met kattenthema voor gezellige huizen, planken en cadeaus rond de koffietafel.",
     ctaLabel: "Bekijk kattencadeaus op Etsy",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
   },
@@ -1148,7 +1276,7 @@ pagesNl.push({
     {
       label: "Houten onderzetters",
       href: "/pages/onderzetters.html",
-      description: "De volledige onderzettercatalogus met katten-, zodiac-, botanische en hobbythema's."
+      description: "Een gecureerde selectie onderzetters met katten-, hemelse en botanische stijlen."
     },
     {
       label: "Verhuiscadeaus",
@@ -1213,11 +1341,9 @@ pagesEn.push({
     { slug: "epic-fantasy-door-sign", summary: "A reading-room or hobby-room piece that expands the page beyond bookmarks while staying firmly inside the fantasy reader mood." }
   ],
   featuredWhy: [
-    "Reader gifts",
-    "Book lover gifts",
-    "Fantasy reader gifts",
-    "Bookmark gifts",
-    "Reading nook gifts"
+    "It starts with unmistakably bookish gifts.",
+    "It mixes bookmarks with a fuller set and one room piece.",
+    "It helps shoppers choose for a reader, not just a product type."
   ],
   catalog: {
     mode: "slugs",
@@ -1320,11 +1446,9 @@ pagesNl.push({
     { slug: "epic-fantasy-door-sign", summary: "Een leeskamer- of hobbykamerstuk dat de pagina breder maakt dan alleen bladwijzers zonder het fantasylezersgevoel te verliezen." }
   ],
   featuredWhy: [
-    "lezerscadeaus",
-    "cadeaus voor boekenliefhebbers",
-    "fantasy lezerscadeaus",
-    "bladwijzercadeaus",
-    "cadeaus voor de leeshoek"
+    "Ze begint bij cadeaus die meteen boekachtig aanvoelen.",
+    "Ze combineert bladwijzers met een completere set en een kamerstuk.",
+    "Ze helpt kopers kiezen voor een lezer, niet alleen voor een producttype."
   ],
   catalog: {
     mode: "slugs",
@@ -1427,9 +1551,9 @@ pagesEn.push({
     { slug: "laser-birch-wood-incense-burner", summary: "A calm, decor-led option for shoppers who want a cozy atmosphere gift rather than a purely functional table set." }
   ],
   featuredWhy: [
-    "Housewarming gift",
-    "Cozy home gift",
-    "Wooden home decor gift"
+    "It keeps practical table gifts and softer decor together.",
+    "It helps new-home shoppers compare useful and decorative options.",
+    "It suits cozy shelves, coffee tables and small welcome-home moments."
   ],
   catalog: {
     mode: "slugs",
@@ -1532,9 +1656,9 @@ pagesNl.push({
     { slug: "laser-birch-wood-incense-burner", summary: "Een rustige decoratieve keuze voor kopers die liever een sfeerobject dan een puur functionele tafelset geven." }
   ],
   featuredWhy: [
-    "verhuiscadeau",
-    "gezellig wooncadeau",
-    "houten decoratiecadeau voor thuis"
+    "Ze houdt praktische tafelcadeaus en zachtere decoratie samen.",
+    "Ze helpt nieuwe bewoners bruikbare en decoratieve keuzes vergelijken.",
+    "Ze past bij gezellige planken, salontafels en kleine welkom-thuis momenten."
   ],
   catalog: {
     mode: "slugs",

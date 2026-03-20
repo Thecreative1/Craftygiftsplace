@@ -27,7 +27,7 @@ const text = {
     footerTagline: "Handmade wooden gifts with warmth, detail and character.",
     footerNote: "Rated 4.96/5 on Etsy for thoughtful service, strong detail and gift-ready quality.",
     featuredHeading: "Best Picks",
-    featuredIntro: "Start with these highlighted products and then move into the full grid below.",
+    featuredIntro: "Start with these highlighted products and then continue into the collection below.",
     catalogHeading: "Browse the Collection",
     faqHeading: "Frequently Asked Questions",
     faqIntro: "Quick answers for visitors who want a faster decision path.",
@@ -55,7 +55,7 @@ const text = {
     footerTagline: "Handgemaakte houten cadeaus met warmte, detail en karakter.",
     footerNote: "Beoordeeld met 4.96/5 op Etsy voor attente service, mooi detail en cadeauwaardige kwaliteit.",
     featuredHeading: "Beste Keuzes",
-    featuredIntro: "Begin met deze uitgelichte producten en ga daarna door naar het volledige overzicht.",
+    featuredIntro: "Begin met deze uitgelichte producten en ga daarna verder in de collectie hieronder.",
     catalogHeading: "Bekijk de collectie",
     faqHeading: "Veelgestelde Vragen",
     faqIntro: "Korte antwoorden voor bezoekers die sneller willen kiezen.",
@@ -166,28 +166,12 @@ function selectCatalogProducts(page, productsListByLocale) {
 }
 
 function renderChips(product) {
-  const chips = [product.price_label, ...(product.chips || [])].slice(0, 3);
+  const chips = (product.chips || []).slice(0, 2);
   return chips.map((chip) => `<span class="chip">${escapeHtml(chip)}</span>`).join("");
 }
 
-function getPageIntent(page) {
-  if (page.path.includes("cat-lover") || page.path.includes("kattenliefhebbers")) return "cat";
-  if (page.path.includes("reader-gifts") || page.path.includes("lezerscadeaus")) return "reader";
-  if (page.path.includes("housewarming") || page.path.includes("verhuiscadeaus")) return "housewarming";
-  return "generic";
-}
-
-function sentenceCase(value) {
-  if (!value) return "";
-  return value.charAt(0).toUpperCase() + value.slice(1);
-}
-
-function fallbackSignal(value, fallback) {
-  return value && value.trim() ? value : fallback;
-}
-
-function productLead(product) {
-  return (product.name || "")
+function compactProductLead(product) {
+  return String(product.name || "")
     .replace(/\bWooden Coasters?\b/gi, "")
     .replace(/\bHouten Onderzetters?\b/gi, "")
     .replace(/\bWooden Bookmark\b/gi, "")
@@ -198,211 +182,45 @@ function productLead(product) {
     .trim();
 }
 
-function productPatterns(locale, pageIntent, category) {
-  const banks = {
-    en: {
-      generic: {
-        coasters: [
-          (p) => `${sentenceCase(p.benefit_primary)} while bringing ${p.motif} into ${p.usage_context}. ${sentenceCase(p.benefit_secondary)} without feeling overdone.`,
-          (p) => `A ${p.style[0] || "cozy"} wooden pick for ${p.occasions[0] || "easy gifting"}, with ${p.motif} that suits ${p.usage_context}.`,
-          (p) => `Built for ${p.audience[0] || "gift shoppers"}, this coaster set adds ${p.motif} and keeps tables feeling warm rather than generic.`,
-          (p) => `Useful first and decorative second, this set ${p.benefit_primary} and still reads clearly for ${p.intent_tags[0] || "cozy gifting"}.`,
-          (p) => `An easy way to add ${p.motif} to ${p.usage_context}, especially when the buyer wants something practical to open and use fast.`,
-          (p) => `This coaster set balances function and theme well: it ${p.benefit_primary} and leaves behind ${p.benefit_secondary} in the room.`
-        ],
-        bookmarks: [
-          (p) => `${sentenceCase(p.benefit_primary)} with ${p.motif} and feels right for ${p.audience[0] || "readers"} who like a clear bookish theme.`,
-          (p) => `A slim reader gift for ${p.usage_context}, with ${p.motif} that makes the book stack feel more personal.`,
-          (p) => `This bookmark leans into ${p.style[0] || "bookish"} detail while it ${p.benefit_primary} for daily reading and gifting.`,
-          (p) => `A thoughtful option for ${p.intent_tags[0] || "book lover gifting"}, especially when someone wants one focused item instead of a bundle.`,
-          (p) => `Made for ${p.audience[0] || "book lovers"}, it adds ${p.motif} and keeps the page close through repeated reading sessions.`,
-          (p) => `Simple to gift and easy to use, this bookmark ${p.benefit_primary} and keeps a little more personality inside the book.`
-        ],
-        "wooden-gifts": [
-          (p) => `${sentenceCase(p.benefit_primary)} and brings ${p.motif} into ${p.usage_context}. ${sentenceCase(p.benefit_secondary)} in a way that still feels easy to place.`,
-          (p) => `A strong ${p.occasions[0] || "gift"} option when the buyer wants decor that looks intentional but does not overwhelm the room.`,
-          (p) => `This ${p.format_label} works well in ${p.usage_context}, especially for shoppers chasing ${p.intent_tags[0] || "cozy home decor"}.`,
-          (p) => `It leans more decorative than practical, but still helps the gift feel specific through ${p.motif} and a clear room context.`,
-          (p) => `A warm wooden accent for ${p.audience[0] || "gift shoppers"}, with enough personality to feel chosen instead of filler.`,
-          (p) => `Good for shelves, doors or side tables, this piece ${p.benefit_primary} while keeping the styling easy and giftable.`
-        ]
-      },
-      cat: {
-        coasters: [
-          (p) => `${sentenceCase(p.benefit_primary)} and keeps the cat-led theme obvious on coffee tables, desks and cozy corners.`,
-          (p) => `A practical cat lover gift with ${p.motif} that still feels warm enough for everyday styling.`,
-          (p) => `Easy to buy for cat owners because it adds a clear feline mood without turning the room into novelty decor.`
-        ],
-        "wooden-gifts": [
-          (p) => `A softer cat-themed gift for shelves and nightstands, with ${p.motif} that suits quiet corners and reading spaces.`,
-          (p) => `This piece leans more decor-led than a coaster set, which makes it useful when the gift should feel cozy first.`,
-          (p) => `Good for cat lovers who prefer a smaller wooden accent instead of another practical tabletop item.`
-        ]
-      },
-      reader: {
-        bookmarks: [
-          (p) => `${sentenceCase(p.benefit_primary)} and instantly reads as a book lover gift for ${p.usage_context}.`,
-          (p) => `A focused reader gift with ${p.motif}, especially good when a shopper wants one bookish item that still feels themed.`,
-          (p) => `This bookmark makes a strong reading-nook add-on because it is easy to gift, easy to use and clearly book-led.`
-        ],
-        coasters: [
-          (p) => `A reading-nook-friendly coaster set that keeps drinks in place while carrying ${p.motif} into the room.`,
-          (p) => `Useful for book lovers who also want tabletop decor that still matches the reading mood.`
-        ],
-        "wooden-gifts": [
-          (p) => `A decor-led reader gift that helps the room feel more bookish without relying only on bookmarks.`,
-          (p) => `Good for shelves, doors and reading corners where the gift should shape the mood as much as the function.`
-        ]
-      },
-      housewarming: {
-        coasters: [
-          (p) => `${sentenceCase(p.benefit_primary)} from day one, which makes this an easy housewarming pick for tables that need something useful.`,
-          (p) => `A warm new-home gift because it combines ${p.motif} with daily function instead of sitting unused on a shelf.`,
-          (p) => `Made for cozy rooms and coffee tables, this set works when the buyer wants something simple to style right away.`
-        ],
-        "wooden-gifts": [
-          (p) => `A decor-led housewarming piece for shelves and side tables, with ${p.motif} that settles into the room quickly.`,
-          (p) => `Useful when the gift should feel home-focused rather than person-focused, especially for calm corners and entry points.`,
-          (p) => `This wooden accent fits new-home gifting because it helps shape atmosphere without asking for much space.`
-        ]
-      }
-    },
-    nl: {
-      generic: {
-        coasters: [
-          (p) => `${sentenceCase(p.benefit_primary)} en brengt ${p.motif} naar ${p.usage_context}. ${sentenceCase(p.benefit_secondary)} zonder te zwaar te voelen.`,
-          (p) => `Een ${p.style[0] || "gezellige"} houten keuze voor ${p.occasions[0] || "cadeaumomenten"}, met ${p.motif} dat past bij ${p.usage_context}.`,
-          (p) => `Gemaakt voor ${p.audience[0] || "cadeauzoekers"}, met een set die tafels bruikbaar houdt en tegelijk meteen meer sfeer geeft.`,
-          (p) => `Praktisch eerst en decoratief daarna: deze set ${p.benefit_primary} en voelt toch duidelijk gekozen voor ${p.intent_tags[0] || "gezellige cadeaus"}.`,
-          (p) => `Een makkelijke manier om ${p.motif} toe te voegen aan ${p.usage_context}, vooral wanneer het cadeau snel goed moet voelen.`,
-          (p) => `Deze onderzetterset houdt functie en thema in balans: ze ${p.benefit_primary} en laat tegelijk ${p.benefit_secondary} achter in de ruimte.`
-        ],
-        bookmarks: [
-          (p) => `${sentenceCase(p.benefit_primary)} met ${p.motif} en voelt juist voor ${p.audience[0] || "lezers"} die een duidelijke boekensfeer willen.`,
-          (p) => `Een slank lezerscadeau voor ${p.usage_context}, met ${p.motif} dat de boekenstapel persoonlijker maakt.`,
-          (p) => `Deze bladwijzer leunt op ${p.style[0] || "boekachtige"} details terwijl hij ${p.benefit_primary} voor dagelijks lezen en cadeaugeven.`,
-          (p) => `Een doordachte keuze voor ${p.intent_tags[0] || "cadeaus voor boekenliefhebbers"}, vooral wanneer iemand liever één gericht item geeft dan een bundel.`,
-          (p) => `Gemaakt voor ${p.audience[0] || "boekenliefhebbers"} en makkelijk mee te geven, met een detail dat in het boek blijft doorwerken.`,
-          (p) => `Eenvoudig om cadeau te doen en prettig om te gebruiken: deze bladwijzer ${p.benefit_primary} en laat wat extra persoonlijkheid achter in het boek.`
-        ],
-        "wooden-gifts": [
-          (p) => `${sentenceCase(p.benefit_primary)} en brengt ${p.motif} naar ${p.usage_context}. ${sentenceCase(p.benefit_secondary)} op een manier die makkelijk neer te zetten blijft.`,
-          (p) => `Een sterke keuze voor ${p.occasions[0] || "cadeaumomenten"} wanneer de koper decoratie wil die bewust voelt zonder te overheersen.`,
-          (p) => `Dit ${p.format_label} werkt goed in ${p.usage_context}, vooral voor bezoekers die zoeken naar ${p.intent_tags[0] || "gezellige woondecoratie"}.`,
-          (p) => `Meer decoratief dan praktisch, maar daardoor juist sterk wanneer het cadeau vooral sfeer en karakter moet toevoegen.`,
-          (p) => `Een warm houten accent voor ${p.audience[0] || "cadeauzoekers"}, met genoeg persoonlijkheid om niet als opvuller te voelen.`,
-          (p) => `Goed voor planken, deuren of bijzettafels: dit stuk ${p.benefit_primary} en houdt de styling tegelijk makkelijk en cadeauwaardig.`
-        ]
-      },
-      cat: {
-        coasters: [
-          (p) => `${sentenceCase(p.benefit_primary)} en houdt het kattenthema duidelijk aanwezig op salontafels, bureaus en knusse hoekjes.`,
-          (p) => `Een praktisch cadeau voor kattenliefhebbers met ${p.motif} dat toch warm genoeg blijft voor dagelijks gebruik.`,
-          (p) => `Makkelijk te kopen voor katteneigenaars omdat het een duidelijke kattensfeer toevoegt zonder kitscherig te worden.`
-        ],
-        "wooden-gifts": [
-          (p) => `Een zachter kattenthema-cadeau voor planken en nachtkastjes, met ${p.motif} dat goed werkt in stille hoekjes en leesplekken.`,
-          (p) => `Dit stuk leunt meer op decoratie dan op gebruik, waardoor het goed past als het cadeau vooral gezellig moet voelen.`,
-          (p) => `Sterk voor kattenliefhebbers die liever een klein houten accent krijgen dan nog een puur praktisch tafelitem.`
-        ]
-      },
-      reader: {
-        bookmarks: [
-          (p) => `${sentenceCase(p.benefit_primary)} en leest meteen als boekcadeau voor ${p.usage_context}.`,
-          (p) => `Een gericht lezerscadeau met ${p.motif}, vooral fijn wanneer iemand één boekig item wil dat toch thematisch aanvoelt.`,
-          (p) => `Deze bladwijzer werkt sterk in een leeshoek omdat hij makkelijk te geven is, prettig gebruikt en duidelijk boekgericht blijft.`
-        ],
-        coasters: [
-          (p) => `Een leeshoekvriendelijke onderzetterset die drankjes op hun plek houdt en tegelijk ${p.motif} naar de ruimte brengt.`,
-          (p) => `Handig voor boekenliefhebbers die ook decoratie op tafel willen die nog steeds bij het leesgevoel past.`
-        ],
-        "wooden-gifts": [
-          (p) => `Een decoratief lezerscadeau dat de ruimte boekachtiger laat voelen zonder alleen op bladwijzers te leunen.`,
-          (p) => `Goed voor planken, deuren en leeshoeken waar het cadeau net zo goed sfeer als functie moet toevoegen.`
-        ]
-      },
-      housewarming: {
-        coasters: [
-          (p) => `${sentenceCase(p.benefit_primary)} vanaf dag één, wat dit tot een makkelijke verhuiskeuze maakt voor tafels die meteen iets bruikbaars nodig hebben.`,
-          (p) => `Een warm wooncadeau omdat het ${p.motif} combineert met dagelijks gebruik in plaats van ongebruikt op een plank te belanden.`,
-          (p) => `Gemaakt voor gezellige kamers en salontafels, juist wanneer de koper iets zoekt dat meteen neer te zetten is.`
-        ],
-        "wooden-gifts": [
-          (p) => `Een decoratief verhuisstuk voor planken en bijzettafels, met ${p.motif} dat snel in de ruimte landt.`,
-          (p) => `Handig wanneer het cadeau meer op het huis dan op één persoon gericht moet zijn, vooral voor rustige hoekjes en ingangen.`,
-          (p) => `Dit houten accent past goed bij een nieuw huis omdat het sfeer helpt neerzetten zonder veel plek te vragen.`
-        ]
-      }
-    }
-  };
-
-  const source = banks[locale];
-  return (source[pageIntent] && source[pageIntent][category]) || source.generic[category] || source.generic["wooden-gifts"];
-}
-
-function buildCardDetails(product, page, lead) {
-  const audience = fallbackSignal(product.audience[0], page.locale === "en" ? "gift shoppers" : "cadeauzoekers");
-  const occasion = fallbackSignal(product.occasions[0], page.locale === "en" ? "everyday gifting" : "kleine cadeaumomenten");
-  const style = fallbackSignal(product.style[0], page.locale === "en" ? "cozy" : "gezellig");
-  const intent = fallbackSignal(product.intent_tags[0], page.locale === "en" ? "cozy gifting" : "gezellige cadeaus");
-  const usage = fallbackSignal(product.usage_context, page.locale === "en" ? "tables, shelves and easy gift bundles" : "tafels, planken en makkelijke cadeaupakketten");
-  const motif = fallbackSignal(product.motif, page.locale === "en" ? "warm engraved detail" : "een warme gravure");
-  const signature = lead || product.name;
-  return page.locale === "en"
-    ? [
-        `The ${signature} design keeps the set closer to ${intent} than plain tabletop decor.`,
-        `It feels especially easy for ${audience} shopping around ${occasion} rather than generic filler gifts.`,
-        `That ${style} styling gives ${audience} a more specific pick for ${usage}.`,
-        `The ${signature} look makes ${motif} feel chosen instead of generic when it lands in ${usage}.`,
-        `It is a cleaner match for ${occasion} because ${audience} can picture the ${signature} theme straight away.`,
-        `That mix of ${motif} and daily use keeps ${signature} more memorable in Etsy search-heavy gifting.`,
-        `${signature} also leans more personal because the theme reads clearly before someone even clicks through.`,
-        `For buyers comparing many listings fast, ${signature} gives ${audience} a more obvious reason to stop on this one.`,
-        `It works best when ${usage} needs a gift that feels identifiable, not just practical.`,
-        `The overall mood stays ${style}, which helps ${signature} land better for ${occasion} searches.`
-      ]
-    : [
-        `Het ${signature}-ontwerp houdt de set dichter bij ${intent} dan bij gewone tafeldecoratie.`,
-        `Het voelt vooral makkelijk voor ${audience} die zoeken rond ${occasion} in plaats van een algemeen cadeau.`,
-        `Die ${style} uitstraling geeft ${audience} een gerichtere keuze voor ${usage}.`,
-        `De ${signature}-uitstraling laat ${motif} gekozen voelen in plaats van algemeen wanneer het in ${usage} terechtkomt.`,
-        `Het past beter bij ${occasion} omdat ${audience} het ${signature}-thema meteen voor zich zien.`,
-        `De combinatie van ${motif} en dagelijks gebruik maakt ${signature} beter onthoudbaar tijdens cadeauzoekopdrachten op Etsy.`,
-        `${signature} voelt ook persoonlijker omdat het thema al duidelijk is voordat iemand doorklikt.`,
-        `Voor kopers die snel veel listings vergelijken, geeft ${signature} ${audience} een duidelijkere reden om hier te stoppen.`,
-        `Het werkt het best wanneer ${usage} een cadeau nodig heeft dat herkenbaar voelt en niet alleen praktisch is.`,
-        `De totale sfeer blijft ${style}, waardoor ${signature} beter aansluit op zoekopdrachten rond ${occasion}.`
-      ];
-}
-
 function buildCardDescription(product, page, position = 0) {
-  const patterns = productPatterns(page.locale, getPageIntent(page), product.category);
-  const closers = page.locale === "en"
+  const lead = compactProductLead(product);
+  const usage = product.usage_context || (product.locale === "nl" ? "gezellige hoekjes in huis" : "cozy corners at home");
+  const motif = product.motif || (product.locale === "nl" ? "een warme gravure" : "warm engraved detail");
+  const benefit = product.benefit_primary || (product.locale === "nl" ? "voelt prettig in gebruik" : "feels easy to use");
+  const audience = (product.audience && product.audience[0]) || (product.locale === "nl" ? "cadeauzoekers" : "gift shoppers");
+  const occasion = (product.occasions && product.occasions[0]) || (product.locale === "nl" ? "kleine cadeaumomenten" : "easy gifting");
+  const name = lead || product.name;
+  const variants = product.locale === "nl"
     ? [
-        "It suits quick Etsy clicks when the theme matters first.",
-        "That keeps the gift practical without flattening the personality.",
-        "It works especially well in bundles and smaller occasion gifting.",
-        "That makes it easier to match to a room, a person or a shelf.",
-        "It is a strong pick when someone wants useful decor, not filler.",
-        "That balance is why it fits so many easy-gift searches."
+        `${name} brengt ${motif} naar ${usage}.`,
+        `${name} is een warme keuze voor ${occasion} met ${motif}.`,
+        `${name} houdt het praktisch en voegt tegelijk ${motif} toe.`,
+        `${name} past mooi bij ${usage}.`,
+        `${name} voegt ${motif} toe zonder te zwaar te voelen.`,
+        `${name} is een makkelijke keuze voor ${occasion}.`,
+        `${name} houdt de handgemaakte uitstraling warm en bruikbaar.`,
+        `${name} voelt natuurlijk in ${usage}.`,
+        `${name} geeft extra karakter via ${motif}.`,
+        `${name} werkt goed wanneer een cadeau gezellig moet aanvoelen.`,
+        `${name} houdt de styling eenvoudig, warm en makkelijk neer te zetten.`,
+        `${name} past bij kopers die iets bruikbaars met persoonlijkheid zoeken.`
       ]
     : [
-        "Dat helpt wanneer het cadeau snel goed moet aanvoelen.",
-        "Zo blijft het praktisch zonder dat het karakter verloren gaat.",
-        "Daardoor werkt het goed in bundels en kleinere cadeaumomenten.",
-        "Zo is het makkelijker te koppelen aan een ruimte, persoon of plank.",
-        "Het is sterk wanneer iemand bruikbare decoratie zoekt in plaats van opvulling.",
-        "Die balans maakt het passend voor veel makkelijke cadeauzoekopdrachten."
+        `${name} brings ${motif} to ${usage}.`,
+        `${name} is a warm ${occasion} pick with ${motif}.`,
+        `${name} keeps things practical while adding ${motif}.`,
+        `${name} feels right for ${usage}.`,
+        `${name} adds ${motif} without feeling overdone.`,
+        `${name} makes an easy pick for ${occasion}.`,
+        `${name} keeps the handmade look warm and useful.`,
+        `${name} fits naturally into ${usage}.`,
+        `${name} adds extra character through ${motif}.`,
+        `${name} works well when the gift needs a cozy feel.`,
+        `${name} keeps the styling simple, warm and easy to place.`,
+        `${name} suits shoppers who want something useful with personality.`
       ];
-  const lead = productLead(product);
-  const details = buildCardDetails(product, page, lead);
-  const patternIndex = position % patterns.length;
-  const detailIndex = Math.floor(position / patterns.length) % details.length;
-  const closerIndex = Math.floor(position / (patterns.length * details.length)) % closers.length;
-  const body = patterns[patternIndex](product);
-  const detail = details[detailIndex];
-  const closer = closers[closerIndex];
-  return lead ? `${lead}: ${body} ${detail} ${closer}` : `${body} ${detail} ${closer}`;
+
+  return variants[position % variants.length];
 }
 
 function renderProductCard(product, page, position) {
@@ -726,6 +544,8 @@ function renderContact(page) {
           </div>
         </div>
       </section>
+      ${page.faq ? renderFaqSection(page) : ""}
+      ${page.ctaPanel ? renderCtaPanel(page) : ""}
     </main>`;
 }
 
@@ -750,35 +570,30 @@ function renderStructuredData(page, productsByLocale) {
     const product = getProduct(page, productsByLocale, item.slug);
     return { "@type": "ListItem", position: index + 1, name: product.name, url: product.etsy_url };
   });
+  const localizedHome = page.locale === "en" ? "/en/index.html" : "/index.html";
 
-  if (page.template === "home") {
-    scripts.push({
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebSite",
-          "@id": `${canonicalUrl(page.path)}#website`,
-          url: canonicalUrl(page.path),
-          name: "Craftygiftsplace",
-          inLanguage: page.locale
-        },
-        {
-          "@type": "Organization",
-          "@id": `${canonicalUrl("/index.html")}#organization`,
-          name: "Craftygiftsplace",
-          url: canonicalUrl("/index.html"),
-          logo: absoluteUrl("/assets/img/logos/craftygiftsplace-logo.png"),
-          sameAs: ["https://www.etsy.com/shop/Craftygiftsplace"]
-        },
-        {
-          "@type": "ItemList",
-          "@id": `${canonicalUrl(page.path)}#featured-items`,
-          name: page.locale === "en" ? "Featured products" : "Uitgelichte producten",
-          itemListElement: featured
-        }
-      ]
-    });
-  } else {
+  scripts.push({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${canonicalUrl("/index.html")}#organization`,
+        name: "Craftygiftsplace",
+        url: canonicalUrl("/index.html"),
+        logo: absoluteUrl("/assets/img/logos/craftygiftsplace-logo.png"),
+        sameAs: ["https://www.etsy.com/shop/Craftygiftsplace"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${canonicalUrl(localizedHome)}#website`,
+        url: canonicalUrl(localizedHome),
+        name: "Craftygiftsplace",
+        inLanguage: page.locale
+      }
+    ]
+  });
+
+  if (page.breadcrumbs && page.breadcrumbs.length) {
     scripts.push({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -789,14 +604,31 @@ function renderStructuredData(page, productsByLocale) {
         item: canonicalUrl(item.path)
       }))
     });
-    if (featured.length) {
-      scripts.push({
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        name: page.h1,
-        itemListElement: featured
-      });
-    }
+  }
+
+  if (featured.length) {
+    scripts.push({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "@id": `${canonicalUrl(page.path)}#featured-items`,
+      name: page.h1,
+      itemListElement: featured
+    });
+  }
+
+  if (page.faq && page.faq.length) {
+    scripts.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: page.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer
+        }
+      }))
+    });
   }
 
   return scripts.map((script) => `<script type="application/ld+json">\n${JSON.stringify(script, null, 2)}\n</script>`).join("\n");
