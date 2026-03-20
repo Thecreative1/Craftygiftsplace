@@ -5,10 +5,10 @@
     "template": "home",
     "locale": "en",
     "title": "Handmade Wooden Gifts for Readers, Cat Lovers and Cozy Homes | Craftygiftsplace",
-    "metaDescription": "Discover handmade wooden gifts for readers, cat lovers and cozy homes. Browse gift-ready coasters, bookmarks and wooden decor that lead shoppers to Etsy.",
-    "h1": "Handmade wooden gifts for readers, cat lovers and cozy homes",
-    "eyebrow": "4.96/5 Etsy rating · gift-ready picks",
-    "intro": "Craftygiftsplace helps shoppers find the right handmade wooden gift faster. Instead of scrolling through everything at once, visitors can start with coasters, bookmarks and small decor pieces for readers, cat lovers, housewarmings and personalized keepsakes.",
+    "metaDescription": "Discover handmade wooden gifts for readers, cat lovers and cozy homes. Browse bestselling coasters, bookmarks and warm wooden decor that lead shoppers to Etsy.",
+    "h1": "Handmade wooden gifts with cozy character",
+    "eyebrow": "4.96/5 on Etsy",
+    "intro": "Shop cat-themed coasters, reader gifts and warm wooden decor without digging through a crowded catalog first.",
     "heroImage": "/assets/img/products/moon-cat-tealight-holder.jpg",
     "heroImageAlt": "Moon Cat wooden tealight holder by Craftygiftsplace",
     "heroCaption": "Moon Cat tealight holder",
@@ -41,15 +41,15 @@
     "featuredItems": [
       {
         "slug": "cat-and-moon-wooden-coasters",
-        "summary": "A warm cat lover pick that also works beautifully as a cozy housewarming gift for coffee tables and sideboards."
+        "summary": "A cozy cat-themed coaster set that protects tables while making the gift feel warm and easy to place."
       },
       {
         "slug": "fantasy-reader-gift-set",
-        "summary": "A reader gift bundle with bookmark, door hanger and coasters for shoppers who want one themed Etsy-ready set."
+        "summary": "A reader-ready bundle that gives bookmark, door sign and coasters in one stronger themed Etsy pick."
       },
       {
         "slug": "moon-cat-shadow-tealight-holder",
-        "summary": "A small decor piece that turns a shelf or reading nook into something giftable without feeling generic."
+        "summary": "A small shelf accent that adds mood fast when someone wants a decorative gift instead of another basic item."
       }
     ],
     "intentCards": [
@@ -62,7 +62,7 @@
       },
       {
         "title": "Reader gifts",
-        "description": "Bookmarks, fantasy reader bundles and reading nook pieces that suit book lovers and BookTok-style gifting.",
+        "description": "Bookmarks, fantasy reader bundles and reading nook pieces that suit book lovers and cozy gifting.",
         "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
         "imageAlt": "Fantasy Reader Gift Set for book lovers",
         "href": "/en/pages/reader-gifts.html"
@@ -126,16 +126,16 @@
         "answer": "No. This website helps shoppers explore the range and then sends them to Etsy to complete the order."
       },
       {
-        "question": "Can I shop by occasion here?",
-        "answer": "Yes. Cat lover gifts, reader gifts and housewarming gifts each have their own page in English, Dutch and German."
+        "question": "Can I browse in more than one language?",
+        "answer": "Yes. The homepage and key gift pages are available in English, Dutch and German."
       },
       {
-        "question": "Can buyers still browse by collection?",
-        "answer": "Yes. The main collection pages for wooden coasters, bookmarks and wooden gifts remain available and are linked throughout the site."
+        "question": "Can buyers still shop by collection?",
+        "answer": "Yes. Wooden coasters, wooden bookmarks and wooden gifts each keep their own collection page."
       },
       {
-        "question": "Where can someone ask about personalization?",
-        "answer": "The contact page points people to Etsy messaging, where personalization questions and order details can be handled directly."
+        "question": "Where do personalization questions go?",
+        "answer": "The contact page points shoppers to Etsy messaging, where personalization details and order questions can be handled directly."
       }
     ],
     "ctaPanel": {
@@ -144,6 +144,86 @@
       "label": "Open the Etsy shop",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
+    "heroSupport": "Start with bestselling picks, then jump into occasions or collections when you want a closer look.",
+    "discoveryCta": {
+      "label": "Discover bestselling gifts",
+      "target": "#featured-bestsellers"
+    },
+    "heroProducts": [
+      "cat-and-moon-wooden-coasters",
+      "fantasy-reader-gift-set",
+      "moon-cat-shadow-tealight-holder"
+    ],
+    "sections": {
+      "featuredCategories": {
+        "heading": "Featured Categories",
+        "intro": "Start with the gift themes shoppers look for most often."
+      },
+      "bestsellers": {
+        "heading": "Bestselling Gifts",
+        "intro": "Three strong starting points if you want a fast, proven pick."
+      },
+      "occasions": {
+        "heading": "Shop by occasion",
+        "intro": "Need the right gifting moment first? Start with these pages."
+      },
+      "collections": {
+        "heading": "Browse by collection",
+        "intro": "Prefer browsing by product type? Use the core collections."
+      },
+      "support": {
+        "heading": "How this site helps",
+        "intro": "A quick explanation, kept lower on the page so products stay first."
+      },
+      "reviews": {
+        "heading": "Loved on Etsy",
+        "intro": "A few short reviews that reinforce quality and trust."
+      },
+      "faq": {
+        "heading": "Helpful questions",
+        "intro": "Quick answers before someone clicks through to Etsy."
+      }
+    },
+    "featuredCategories": [
+      {
+        "kicker": "Cat gifts",
+        "title": "Cat lover gifts",
+        "description": "Go straight to cat-themed coasters and warm wooden decor for cozy homes and birthdays.",
+        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+        "imageAlt": "Cat and Moon wooden coasters gift idea",
+        "href": "/en/pages/cat-lover-gifts.html"
+      },
+      {
+        "kicker": "Bookish gifts",
+        "title": "Reader gifts",
+        "description": "See bookmarks, fantasy sets and reading nook pieces for book lovers and cozy shelves.",
+        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+        "imageAlt": "Fantasy Reader Gift Set for book lovers",
+        "href": "/en/pages/reader-gifts.html"
+      },
+      {
+        "kicker": "New-home gifts",
+        "title": "Housewarming gifts",
+        "description": "Open useful wooden pieces that feel easy to buy for warm apartments and new homes.",
+        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+        "imageAlt": "Zodiac wooden coasters for housewarming gifting",
+        "href": "/en/pages/housewarming-gifts.html"
+      }
+    ],
+    "supportCards": [
+      {
+        "title": "What this site is for",
+        "text": "This support site helps shoppers scan the strongest products first before they open the Etsy listing."
+      },
+      {
+        "title": "Available in three languages",
+        "text": "The same core paths are available in English, Dutch and German so visitors can browse in the language that feels easiest."
+      },
+      {
+        "title": "How the Etsy path works",
+        "text": "When someone is ready, the CTA sends them to Etsy for pricing, reviews, personalization and checkout."
+      }
+    ],
     "alternatePaths": {
       "en": "/en/index.html",
       "nl": "/index.html",

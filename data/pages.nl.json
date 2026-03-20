@@ -5,10 +5,10 @@
     "template": "home",
     "locale": "nl",
     "title": "Handgemaakte Houten Cadeaus voor Lezers, Kattenliefhebbers en Gezellige Huizen | Craftygiftsplace",
-    "metaDescription": "Ontdek handgemaakte houten cadeaus voor lezers, kattenliefhebbers en gezellige huizen. Bekijk onderzetters, bladwijzers en houten decoratie die doorsturen naar Etsy.",
-    "h1": "Handgemaakte houten cadeaus voor lezers, kattenliefhebbers en gezellige huizen",
-    "eyebrow": "4.96/5 Etsy score · cadeauklare favorieten",
-    "intro": "Craftygiftsplace helpt bezoekers sneller het juiste handgemaakte houten cadeau te vinden. In plaats van door alles tegelijk te scrollen, kunnen mensen starten met onderzetters, bladwijzers en kleine decorstukken voor lezers, kattenliefhebbers, verhuiscadeaus en persoonlijke bewaarcadeaus.",
+    "metaDescription": "Ontdek handgemaakte houten cadeaus voor lezers, kattenliefhebbers en gezellige huizen. Bekijk bestsellers in onderzetters, bladwijzers en warme houten decoratie die doorsturen naar Etsy.",
+    "h1": "Handgemaakte houten cadeaus met warme uitstraling",
+    "eyebrow": "4.96/5 op Etsy",
+    "intro": "Shop kattenthema-onderzetters, lezerscadeaus en warme houten decoratie zonder eerst door een brede catalogus te hoeven zoeken.",
     "heroImage": "/assets/img/products/moon-cat-tealight-holder.jpg",
     "heroImageAlt": "Kat en maan houten theelichthouder van Craftygiftsplace",
     "heroCaption": "Kat en maan theelichthouder",
@@ -41,35 +41,35 @@
     "featuredItems": [
       {
         "slug": "cat-and-moon-wooden-coasters",
-        "summary": "Een warme favoriet voor kattenliefhebbers die ook goed werkt als gezellig verhuiscadeau voor salontafels en bijzettafels."
+        "summary": "Een gezellige onderzetterset met kattenthema die tafels beschermt en meteen warm aanvoelt als cadeau."
       },
       {
         "slug": "fantasy-reader-gift-set",
-        "summary": "Een lezerscadeauset met bladwijzer, deurhanger en onderzetters voor kopers die meteen één compleet Etsy cadeau zoeken."
+        "summary": "Een lezersset met bladwijzer, deurhanger en onderzetters voor kopers die op Etsy meteen een sterker totaalcadeau zoeken."
       },
       {
         "slug": "moon-cat-shadow-tealight-holder",
-        "summary": "Een klein decorstuk dat een plank of leeshoek meteen cadeauwaardiger maakt zonder generiek te voelen."
+        "summary": "Een klein plankstuk dat snel sfeer toevoegt wanneer iemand liever decoratie geeft dan een standaard item."
       }
     ],
     "intentCards": [
       {
         "title": "Cadeaus voor kattenliefhebbers",
-        "description": "Houten onderzetters en decoratie met kattenthema voor gezellige huizen, verjaardagen en doordachte cadeaus voor katteneigenaars.",
+        "description": "Houten onderzetters en decoratie met kattenthema voor gezellige huizen, verjaardagen en doordachte cadeaus.",
         "image": "/assets/img/products/cat-and-moon-coasters.jpg",
         "imageAlt": "Kat en maan houten onderzetters als cadeau-idee",
         "href": "/pages/cadeaus-voor-kattenliefhebbers.html"
       },
       {
         "title": "Lezerscadeaus",
-        "description": "Bladwijzers, fantasy lezerssets en stukken voor de leeshoek die passen bij boekenliefhebbers en BookTok-achtige cadeaus.",
+        "description": "Bladwijzers, fantasy lezerssets en stukken voor de leeshoek die passen bij boekenliefhebbers en rustige cadeaumomenten.",
         "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
         "imageAlt": "Fantasy lezerscadeauset voor boekenliefhebbers",
         "href": "/pages/lezerscadeaus.html"
       },
       {
         "title": "Verhuiscadeaus",
-        "description": "Houten onderzetters en warme decoratie voor salontafels, planken en cadeauwaardige nieuwe woningen.",
+        "description": "Houten onderzetters en warme decoratie die makkelijk werken voor nieuwe huizen, appartementen en gastcadeaus.",
         "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
         "imageAlt": "Zodiac houten onderzetters als verhuiscadeau",
         "href": "/pages/verhuiscadeaus.html"
@@ -78,21 +78,21 @@
     "collectionCards": [
       {
         "title": "Houten onderzetters",
-        "description": "Kat-, hemelse en botanische onderzettersets voor gezellige tafels, planken en vlotte cadeaus.",
+        "description": "Kat-, hemelse en botanische onderzettersets voor gezellige tafels, planken en makkelijke cadeaus.",
         "image": "/assets/img/products/cat-and-moon-coasters.jpg",
         "imageAlt": "Collectie houten onderzetters",
         "href": "/pages/onderzetters.html"
       },
       {
         "title": "Houten bladwijzers",
-        "description": "Lezersgerichte bladwijzers en boekcadeaus voor fantasyplanken, leesjournalen en rustige leesmomenten.",
+        "description": "Lezersgerichte bladwijzers en boekcadeaus voor fantasyplanken, leesjournalen en rustige hoofdstukken.",
         "image": "/assets/img/products/celtic-bookmark.jpg",
         "imageAlt": "Collectie houten bladwijzers",
         "href": "/pages/bladwijzers.html"
       },
       {
         "title": "Houten cadeaus",
-        "description": "Theelichthouders, bewaarcadeaus, deurhangers en decoratie voor planken, entrees en betekenisvolle cadeaugelegenheden.",
+        "description": "Theelichthouders, bewaarcadeaus, deurhangers en decoratie voor planken, entrees en betekenisvolle momenten.",
         "image": "/assets/img/products/just-married-door-hanger.jpg",
         "imageAlt": "Collectie houten cadeaus",
         "href": "/pages/houten-cadeaus.html"
@@ -112,30 +112,30 @@
         },
         {
           "title": "Andrew · 5/5",
-          "text": "\"Dit zijn prachtige onderzetters. Ze zijn van hout gemaakt en voelen erg stevig aan.\""
+          "text": "\"Dit zijn prachtige onderzetters. Ze zijn van hout en voelen heel stevig aan.\""
         },
         {
-          "title": "Bladwijzer koper · 5/5",
-          "text": "\"Het detail is prachtig, mooi afgewerkt en erg stevig. Een heerlijke bladwijzer.\""
+          "title": "Bladwijzerkoper · 5/5",
+          "text": "\"Het detail is geweldig, mooi gemaakt en heel duurzaam. Een prachtige bladwijzer.\""
         }
       ]
     },
     "faq": [
       {
         "question": "Bestel ik op deze website?",
-        "answer": "Nee. Deze website helpt bij het kiezen en stuurt daarna door naar Etsy om te bestellen."
+        "answer": "Nee. Deze website helpt bezoekers het aanbod te bekijken en stuurt daarna door naar Etsy om de bestelling af te ronden."
       },
       {
-        "question": "Kan ik hier per gelegenheid kijken?",
-        "answer": "Ja. Cadeaus voor kattenliefhebbers, lezerscadeaus en verhuiscadeaus hebben elk een eigen pagina in het Nederlands, Engels en Duits."
+        "question": "Kan ik in meer dan één taal bladeren?",
+        "answer": "Ja. De homepage en de belangrijkste cadeaupagina's zijn beschikbaar in het Nederlands, Engels en Duits."
       },
       {
-        "question": "Kun je nog steeds per collectie bladeren?",
-        "answer": "Ja. De hoofdcollecties voor houten onderzetters, bladwijzers en houten cadeaus blijven overal bereikbaar."
+        "question": "Kunnen bezoekers nog steeds per collectie shoppen?",
+        "answer": "Ja. Houten onderzetters, houten bladwijzers en houten cadeaus houden elk hun eigen collectiepagina."
       },
       {
-        "question": "Waar kan iemand naar personalisatie vragen?",
-        "answer": "De contactpagina stuurt bezoekers naar Etsy berichten, waar personalisatie en bestelvragen direct afgehandeld kunnen worden."
+        "question": "Waar gaan vragen over personalisatie naartoe?",
+        "answer": "De contactpagina wijst naar Etsy-berichten, waar personalisatie en ordervragen direct kunnen worden besproken."
       }
     ],
     "ctaPanel": {
@@ -144,6 +144,86 @@
       "label": "Open de Etsy shop",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
+    "heroSupport": "Begin met de bestsellers en ga daarna verder naar gelegenheden of collecties als je specifieker wilt kijken.",
+    "discoveryCta": {
+      "label": "Ontdek bestsellers",
+      "target": "#featured-bestsellers"
+    },
+    "heroProducts": [
+      "cat-and-moon-wooden-coasters",
+      "fantasy-reader-gift-set",
+      "moon-cat-shadow-tealight-holder"
+    ],
+    "sections": {
+      "featuredCategories": {
+        "heading": "Uitgelichte categorieën",
+        "intro": "Begin bij de cadeauthema's waar bezoekers het vaakst op zoeken."
+      },
+      "bestsellers": {
+        "heading": "Bestverkochte cadeaus",
+        "intro": "Drie sterke startpunten als iemand snel een bewezen favoriet wil zien."
+      },
+      "occasions": {
+        "heading": "Shop per gelegenheid",
+        "intro": "Liever eerst de juiste cadeauredenering kiezen? Begin dan hier."
+      },
+      "collections": {
+        "heading": "Blader per collectie",
+        "intro": "Kijk je liever per producttype? Gebruik dan de hoofdcollecties."
+      },
+      "support": {
+        "heading": "Hoe deze site helpt",
+        "intro": "Een korte uitleg, bewust lager op de pagina zodat de producten vooraan blijven."
+      },
+      "reviews": {
+        "heading": "Geliefd op Etsy",
+        "intro": "Een paar korte reviews die kwaliteit en vertrouwen versterken."
+      },
+      "faq": {
+        "heading": "Handige vragen",
+        "intro": "Snelle antwoorden voordat iemand doorklikt naar Etsy."
+      }
+    },
+    "featuredCategories": [
+      {
+        "kicker": "Katcadeaus",
+        "title": "Cadeaus voor kattenliefhebbers",
+        "description": "Ga direct naar onderzetters en warme houten decoratie met kattenthema voor gezellige huizen en verjaardagen.",
+        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+        "imageAlt": "Kat en maan houten onderzetters als cadeau-idee",
+        "href": "/pages/cadeaus-voor-kattenliefhebbers.html"
+      },
+      {
+        "kicker": "Boekcadeaus",
+        "title": "Lezerscadeaus",
+        "description": "Bekijk bladwijzers, fantasy-sets en leeshoekideeën voor boekenliefhebbers en rustige planken.",
+        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+        "imageAlt": "Fantasy lezerscadeauset voor boekenliefhebbers",
+        "href": "/pages/lezerscadeaus.html"
+      },
+      {
+        "kicker": "Nieuwe woning",
+        "title": "Verhuiscadeaus",
+        "description": "Open bruikbare houten stukken die makkelijk werken voor warme appartementen en nieuwe huizen.",
+        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+        "imageAlt": "Zodiac houten onderzetters als verhuiscadeau",
+        "href": "/pages/verhuiscadeaus.html"
+      }
+    ],
+    "supportCards": [
+      {
+        "title": "Waar deze site voor dient",
+        "text": "Deze supportsite helpt bezoekers eerst de sterkste producten te scannen voordat ze het Etsy listing openen."
+      },
+      {
+        "title": "Beschikbaar in drie talen",
+        "text": "Dezelfde kernroutes bestaan in het Nederlands, Engels en Duits zodat bezoekers kunnen bladeren in de taal die het prettigst voelt."
+      },
+      {
+        "title": "Hoe de Etsy-route werkt",
+        "text": "Wanneer iemand klaar is om te kopen, brengt de CTA hen naar Etsy voor prijzen, reviews, personalisatie en afrekenen."
+      }
+    ],
     "alternatePaths": {
       "en": "/en/index.html",
       "nl": "/index.html",

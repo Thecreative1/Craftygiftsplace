@@ -139,6 +139,32 @@ const supportPageDisallowedProductPatterns = [
   /\bguitar\b/i
 ];
 
+const HOME_SECTION_ORDER = [
+  "hero-home",
+  "featured-categories",
+  "featured-bestsellers",
+  "gift-guides",
+  "collections",
+  "how-it-works",
+  "reviews",
+  "faq"
+];
+
+const homepageLanguageChecks = {
+  en: {
+    required: ["english", "dutch", "german"],
+    banned: ["two languages", "english and dutch"]
+  },
+  nl: {
+    required: ["nederlands", "engels", "duits"],
+    banned: ["twee talen", "nederlands en engels"]
+  },
+  de: {
+    required: ["deutsch", "englisch", "niederländisch"],
+    banned: ["zwei sprachen", "deutsch und englisch"]
+  }
+};
+
 function readFile(sitePath) {
   return fs.readFileSync(sitePathToFile(sitePath), "utf8");
 }
@@ -404,6 +430,62 @@ function validatePages() {
   });
 }
 
+function extractHomeSectionOrder(html) {
+  return [...html.matchAll(/data-home-section="([^"]+)"/g)]
+    .map((match) => match[1])
+    .filter(Boolean);
+}
+
+function extractLanguageSwitcherLocales(html) {
+  return [...html.matchAll(/<a[^>]+lang="([^"]+)"/gi)]
+    .map((match) => match[1].toLowerCase());
+}
+
+function validateHomepages() {
+  const pages = loadAllPages().filter((page) => page.template === "home");
+  const expectedOrder = HOME_SECTION_ORDER.join("|");
+
+  pages.forEach((page) => {
+    const html = readFile(page.path);
+    const visible = visibleText(html);
+    const order = extractHomeSectionOrder(html).join("|");
+    const locales = new Set(extractLanguageSwitcherLocales(html));
+    const bestsellerCount = [...html.matchAll(/data-home-bestseller="true"/g)].length;
+    const featuredCategoryCount = [...html.matchAll(/data-home-featured-category="true"/g)].length;
+    const languageChecks = homepageLanguageChecks[page.locale];
+
+    if (order !== expectedOrder) {
+      fail(`Homepage section order mismatch in ${page.path}.`);
+    }
+
+    LOCALES.forEach((locale) => {
+      if (!locales.has(locale)) {
+        fail(`Homepage language switcher missing ${locale.toUpperCase()} on ${page.path}.`);
+      }
+    });
+
+    languageChecks.required.forEach((term) => {
+      if (!visible.includes(term)) {
+        fail(`Homepage ${page.path} is missing language reference "${term}".`);
+      }
+    });
+
+    languageChecks.banned.forEach((phrase) => {
+      if (visible.includes(phrase)) {
+        fail(`Homepage ${page.path} still mentions outdated language copy "${phrase}".`);
+      }
+    });
+
+    if (bestsellerCount < 3) {
+      fail(`Homepage ${page.path} has fewer than 3 bestseller product slots.`);
+    }
+
+    if (featuredCategoryCount < 3) {
+      fail(`Homepage ${page.path} has fewer than 3 featured categories.`);
+    }
+  });
+}
+
 function validateSitemap() {
   const pages = loadAllPages();
   const sitemap = fs.readFileSync(sitePathToFile("/sitemap.xml"), "utf8");
@@ -423,6 +505,7 @@ validateProducts(productsNl, "nl");
 validateProducts(productsDe, "de");
 validatePageData(productsEn);
 validatePages();
+validateHomepages();
 validateSitemap();
 
 console.log("SEO validation passed.");

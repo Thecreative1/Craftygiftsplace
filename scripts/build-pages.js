@@ -111,6 +111,10 @@ const faqTemplate = loadTemplate("faq.html");
 const headTemplate = loadTemplate("head.html");
 const headerTemplate = loadTemplate("header.html");
 const footerTemplate = loadTemplate("footer.html");
+const languageSwitcherTemplate = loadTemplate("language-switcher.html");
+const homeHeroTemplate = loadTemplate("home-hero.html");
+const homeCategoryCardTemplate = loadTemplate("home-category-card.html");
+const homeBestsellerCardTemplate = loadTemplate("home-bestseller-card.html");
 
 function loadData() {
   const pagesEn = readJson("data/pages.en.json");
@@ -413,15 +417,18 @@ function renderCatalogSection(page, catalogProducts) {
     </section>`;
 }
 
-function renderFaqSection(page) {
+function renderFaqSection(page, sectionMeta = null) {
   if (!page.faq || !page.faq.length) return "";
+  const heading = sectionMeta?.heading || text[page.locale].faqHeading;
+  const intro = sectionMeta?.intro || text[page.locale].faqIntro;
+  const homeAttrs = page.template === "home" ? ' data-home-section="faq"' : "";
   return `
-    <section class="section" id="faq">
+    <section class="section" id="faq"${homeAttrs}>
       <div class="container">
         <div class="section-head">
           <div>
-            <h2>${escapeHtml(text[page.locale].faqHeading)}</h2>
-            <p>${escapeHtml(text[page.locale].faqIntro)}</p>
+            <h2>${escapeHtml(heading)}</h2>
+            <p>${escapeHtml(intro)}</p>
           </div>
         </div>
         <div class="faq-grid">${renderFaq(page.faq)}</div>
@@ -498,8 +505,9 @@ function renderHomeSectionCards(page, key, heading, intro) {
   const cards = page[key];
   if (!cards || !cards.length) return "";
   const id = key === "intentCards" ? "gift-guides" : "collections";
+  const homeAttrs = page.template === "home" ? ` data-home-section="${id}"` : "";
   return `
-    <section class="section" id="${id}">
+    <section class="section" id="${id}"${homeAttrs}>
       <div class="container">
         <div class="section-head">
           <div>
@@ -524,15 +532,18 @@ function renderHomeSectionCards(page, key, heading, intro) {
     </section>`;
 }
 
-function renderReviews(page) {
+function renderReviews(page, sectionMeta = null) {
   if (!page.reviews) return "";
+  const heading = sectionMeta?.heading || text[page.locale].reviewsHeading;
+  const intro = sectionMeta?.intro || text[page.locale].reviewsIntro;
+  const homeAttrs = page.template === "home" ? ' id="reviews" data-home-section="reviews"' : "";
   return `
-    <section class="section">
+    <section class="section"${homeAttrs}>
       <div class="container">
         <div class="section-head">
           <div>
-            <h2>${escapeHtml(text[page.locale].reviewsHeading)}</h2>
-            <p>${escapeHtml(text[page.locale].reviewsIntro)}</p>
+            <h2>${escapeHtml(heading)}</h2>
+            <p>${escapeHtml(intro)}</p>
           </div>
           <a class="btn-secondary" href="${escapeAttribute(page.reviews.linkUrl)}" target="_blank" rel="noopener">${escapeHtml(page.reviews.linkLabel)}</a>
         </div>
@@ -543,54 +554,136 @@ function renderReviews(page) {
     </section>`;
 }
 
+function renderHeroProductTiles(page, productsByLocale) {
+  return (page.heroProducts || []).slice(0, 3).map((slug, index) => {
+    const product = getProduct(page, productsByLocale, slug);
+    return `
+      <article class="hero-collage-tile hero-collage-tile--${index + 1}">
+        <img src="${escapeAttribute(product.image)}" alt="${escapeAttribute(product.alt)}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" />
+        <div class="hero-collage-label">${escapeHtml(product.name)}</div>
+      </article>`;
+  }).join("\n");
+}
+
+function renderHomeHero(page, productsByLocale) {
+  const discoveryHref = page.discoveryCta.target || page.discoveryCta.url || "#featured-bestsellers";
+  const heroProductTiles = renderHeroProductTiles(page, productsByLocale);
+  const discoveryPath = discoveryHref.startsWith("#") || discoveryHref.startsWith("http")
+    ? discoveryHref
+    : relativeUrl(page.path, discoveryHref);
+  const discoveryAttrs = discoveryHref.startsWith("http") ? ' target="_blank" rel="noopener"' : "";
+
+  return renderTemplate(homeHeroTemplate, {
+    eyebrow: escapeHtml(page.eyebrow),
+    h1: escapeHtml(page.h1),
+    intro: escapeHtml(page.intro),
+    heroSupport: escapeHtml(page.heroSupport),
+    discoveryHref: escapeAttribute(discoveryPath),
+    discoveryAttrs,
+    discoveryLabel: escapeHtml(page.discoveryCta.label),
+    etsyHref: escapeAttribute(page.primaryCta.url),
+    etsyLabel: escapeHtml(page.primaryCta.label),
+    collageAria: escapeAttribute(page.sections?.bestsellers?.heading || text[page.locale].featuredHeading),
+    heroProductTiles
+  });
+}
+
+function renderHomeFeaturedCategories(page) {
+  const cards = page.featuredCategories || [];
+  if (!cards.length) return "";
+  const section = page.sections?.featuredCategories || {};
+
+  return `
+    <section class="section" id="featured-categories" data-home-section="featured-categories">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>${escapeHtml(section.heading || "Featured Categories")}</h2>
+            <p>${escapeHtml(section.intro || "")}</p>
+          </div>
+        </div>
+        <div class="home-category-grid">
+          ${cards.map((card) => renderTemplate(homeCategoryCardTemplate, {
+            kicker: escapeHtml(card.kicker || ""),
+            title: escapeHtml(card.title),
+            description: escapeHtml(card.description),
+            href: escapeAttribute(relativeUrl(page.path, card.href)),
+            image: escapeAttribute(relativeUrl(page.path, card.image)),
+            alt: escapeAttribute(card.imageAlt)
+          })).join("\n")}
+        </div>
+      </div>
+    </section>`;
+}
+
+function renderHomeFeaturedBestsellers(page, productsByLocale) {
+  const items = (page.featuredItems || []).map((item) => ({ product: getProduct(page, productsByLocale, item.slug), summary: item.summary }));
+  if (!items.length) return "";
+  const section = page.sections?.bestsellers || {};
+
+  return `
+    <section class="section" id="featured-bestsellers" data-home-section="featured-bestsellers">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>${escapeHtml(section.heading || text[page.locale].featuredHeading)}</h2>
+            <p>${escapeHtml(section.intro || text[page.locale].featuredIntro)}</p>
+          </div>
+        </div>
+        <div class="home-bestsellers-grid">
+          ${items.map(({ product, summary }) => renderTemplate(homeBestsellerCardTemplate, {
+            image: escapeAttribute(product.image),
+            imageSrcset: escapeAttribute(product.image_srcset || product.image),
+            imageSizes: escapeAttribute(product.image_sizes),
+            alt: escapeAttribute(product.alt),
+            chips: renderChips(product),
+            title: escapeHtml(product.name),
+            description: escapeHtml(summary),
+            ctaUrl: escapeAttribute(product.etsy_url),
+            ctaLabel: escapeAttribute(product.cta_label)
+          })).join("\n")}
+        </div>
+      </div>
+    </section>`;
+}
+
+function renderHomeSupportSection(page) {
+  const cards = page.supportCards || [];
+  if (!cards.length) return "";
+  const section = page.sections?.support || {};
+
+  return `
+    <section class="section" id="how-it-works" data-home-section="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>${escapeHtml(section.heading || "How this site helps")}</h2>
+            <p>${escapeHtml(section.intro || "")}</p>
+          </div>
+        </div>
+        <div class="support-grid">
+          ${cards.map((card) => `
+            <article class="copy-card support-card">
+              <h3>${escapeHtml(card.title)}</h3>
+              <p>${escapeHtml(card.text)}</p>
+            </article>`).join("\n")}
+        </div>
+      </div>
+    </section>`;
+}
+
 function renderHome(page, productsByLocale) {
-  const featuredProducts = page.featuredItems.map((item) => ({ product: getProduct(page, productsByLocale, item.slug), summary: item.summary }));
+  const sections = page.sections || {};
   return `
     <main id="main-content">
-      <section class="hero">
-        <div class="container hero-shell">
-          <div class="hero-copy">
-            <div class="eyebrow">${escapeHtml(page.eyebrow)}</div>
-            <h1>${escapeHtml(page.h1)}</h1>
-            <p>${escapeHtml(page.intro)}</p>
-            <div class="hero-actions">
-              <a class="btn" href="${escapeAttribute(page.primaryCta.url)}" target="_blank" rel="noopener">${escapeHtml(page.primaryCta.label)}</a>
-              <a class="btn-secondary" href="${escapeAttribute(page.secondaryCta.target)}">${escapeHtml(page.secondaryCta.label)}</a>
-            </div>
-            <div class="hero-points">
-              ${page.heroPoints.map((point) => `
-                <div class="hero-point">
-                  <strong>${escapeHtml(point.title)}</strong>
-                  <span>${escapeHtml(point.text)}</span>
-                </div>`).join("\n")}
-            </div>
-          </div>
-          <div class="hero-visual" aria-hidden="true">
-            <div class="hero-photo-zone">
-              <img src="${escapeAttribute(relativeUrl(page.path, page.heroImage))}" alt="${escapeAttribute(page.heroImageAlt)}" fetchpriority="high" />
-              <div class="hero-photo-caption">${escapeHtml(page.heroCaption)}</div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section" id="featured">
-        <div class="container">
-          <div class="section-head">
-            <div>
-              <h2>${escapeHtml(text[page.locale].featuredHeading)}</h2>
-              <p>${escapeHtml(text[page.locale].featuredIntro)}</p>
-            </div>
-          </div>
-          <div class="copy-stack featured-copy-grid">
-            ${featuredProducts.map((item) => renderFeaturedCard(item.product, item.summary)).join("\n")}
-          </div>
-        </div>
-      </section>
-      ${renderHomeSectionCards(page, "intentCards", text[page.locale].intentsHeading, text[page.locale].intentsIntro)}
-      ${renderHomeSectionCards(page, "collectionCards", text[page.locale].collectionsHeading, text[page.locale].collectionsIntro)}
-      ${renderReviews(page)}
-      ${renderFaqSection(page)}
-      ${renderCtaPanel(page)}
+      ${renderHomeHero(page, productsByLocale)}
+      ${renderHomeFeaturedCategories(page)}
+      ${renderHomeFeaturedBestsellers(page, productsByLocale)}
+      ${renderHomeSectionCards(page, "intentCards", sections.occasions?.heading || text[page.locale].intentsHeading, sections.occasions?.intro || text[page.locale].intentsIntro)}
+      ${renderHomeSectionCards(page, "collectionCards", sections.collections?.heading || text[page.locale].collectionsHeading, sections.collections?.intro || text[page.locale].collectionsIntro)}
+      ${renderHomeSupportSection(page)}
+      ${renderReviews(page, sections.reviews)}
+      ${renderFaqSection(page, sections.faq)}
     </main>`;
 }
 
@@ -770,6 +863,10 @@ function renderHeader(page) {
           <span class="flag-icon flag-icon--${item.locale}" aria-hidden="true"></span>
           <span class="language-code">${item.locale.toUpperCase()}</span>
         </a>`).join("\n");
+  const languageSwitcher = renderTemplate(languageSwitcherTemplate, {
+    languageSwitchLabel: escapeAttribute(localeText.langSwitch),
+    languageLinks
+  });
 
   return renderTemplate(headerTemplate, {
     bodyClass: page.template === "home" ? "" : page.template === "contact" ? "page-subpage" : "page-subpage has-sticky-cta",
@@ -780,8 +877,7 @@ function renderHeader(page) {
     brandTagline: escapeHtml(localeText.brandTagline),
     navAriaLabel: escapeAttribute(localeText.navAria),
     navLinks,
-    languageSwitchLabel: escapeAttribute(localeText.langSwitch),
-    languageLinks,
+    languageSwitcher,
     navToggleLabel: escapeAttribute(localeText.navToggle),
     menuLabel: escapeHtml(localeText.menu)
   });

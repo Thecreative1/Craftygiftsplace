@@ -5,10 +5,10 @@
     "template": "home",
     "locale": "de",
     "title": "Handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume | Craftygiftsplace",
-    "metaDescription": "Entdecke handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume. Finde Untersetzer, Lesezeichen und Holzdeko, die direkt zu Etsy führen.",
-    "h1": "Handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume",
-    "eyebrow": "4.96/5 Etsy-Bewertung · geschenkfertige Favoriten",
-    "intro": "Craftygiftsplace hilft Besuchern, das passende handgemachte Holzgeschenk schneller zu finden. Statt alles auf einmal zu durchsuchen, können Käufer mit Untersetzern, Lesezeichen und kleinen Dekoideen für Leser, Katzenliebhaber, Einzüge und persönliche Erinnerungsmomente starten.",
+    "metaDescription": "Entdecke handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume. Sieh dir Bestseller in Untersetzern, Lesezeichen und warmer Holzdeko an, die direkt zu Etsy führen.",
+    "h1": "Handgemachte Holzgeschenke mit gemütlichem Charakter",
+    "eyebrow": "4.96/5 auf Etsy",
+    "intro": "Shop Katzen-Untersetzer, Leser-Geschenke und warme Holzdeko, ohne dich zuerst durch einen breiten Katalog arbeiten zu müssen.",
     "heroImage": "/assets/img/products/moon-cat-tealight-holder.jpg",
     "heroImageAlt": "Mondkatzen Teelichthalter von Craftygiftsplace",
     "heroCaption": "Mondkatzen Teelichthalter",
@@ -41,35 +41,35 @@
     "featuredItems": [
       {
         "slug": "cat-and-moon-wooden-coasters",
-        "summary": "Ein warmer Favorit für Katzenliebhaber, der zugleich wunderbar als gemütliches Einzugsgeschenk für Couchtisch oder Sideboard funktioniert."
+        "summary": "Ein gemütliches Untersetzer-Set mit Katzenmotiv, das Tische schützt und sich sofort warm als Geschenk anfühlt."
       },
       {
         "slug": "fantasy-reader-gift-set",
-        "summary": "Ein Lesegeschenk-Set mit Lesezeichen, Türschild und Untersetzern für Käufer, die auf Etsy direkt ein stimmiges Themenpaket suchen."
+        "summary": "Ein Leserset mit Lesezeichen, Türschild und Untersetzern für Käufer, die auf Etsy direkt ein stärkeres Gesamtgeschenk suchen."
       },
       {
         "slug": "moon-cat-shadow-tealight-holder",
-        "summary": "Ein kleines Dekoobjekt, das Regal oder Leseecke sofort geschenkfähiger wirken lässt, ohne beliebig zu werden."
+        "summary": "Ein kleines Regalstück, das schnell Stimmung bringt, wenn jemand lieber Deko statt eines weiteren Standardartikels schenkt."
       }
     ],
     "intentCards": [
       {
         "title": "Geschenke für Katzenliebhaber",
-        "description": "Holzuntersetzer und Deko mit Katzenmotiv für gemütliche Wohnungen, Geburtstage und durchdachte Überraschungen für Katzenfans.",
+        "description": "Holzuntersetzer und Deko mit Katzenmotiv für gemütliche Wohnungen, Geburtstage und durchdachte Geschenke.",
         "image": "/assets/img/products/cat-and-moon-coasters.jpg",
         "imageAlt": "Katze und Mond Holzuntersetzer als Geschenkidee",
         "href": "/de/pages/geschenke-fuer-katzenliebhaber.html"
       },
       {
         "title": "Geschenke für Leser",
-        "description": "Lesezeichen, Fantasy-Sets und Ideen für die Leseecke, die zu Bücherfans und gemütlichen Buchgeschenken passen.",
+        "description": "Lesezeichen, Fantasy-Lesersets und Stücke für die Leseecke, die zu Bücherfans und ruhigen Geschenkmomenten passen.",
         "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
         "imageAlt": "Fantasy Lesegeschenk Set für Bücherfans",
         "href": "/de/pages/geschenke-fuer-leser.html"
       },
       {
         "title": "Einzugsgeschenke",
-        "description": "Holzuntersetzer und warme Dekoideen für Couchtische, Regale und neue Wohnungen, die sofort einladend wirken.",
+        "description": "Holzuntersetzer und warme Deko, die sich leicht für neue Wohnungen, Apartments und Gastgebergeschenke eignet.",
         "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
         "imageAlt": "Sternzeichen Holzuntersetzer als Einzugsgeschenk",
         "href": "/de/pages/einzugsgeschenke.html"
@@ -78,21 +78,21 @@
     "collectionCards": [
       {
         "title": "Holzuntersetzer",
-        "description": "Untersetzer mit Katzen-, Sternzeichen- und Naturmotiven für gemütliche Tische, Regale und unkomplizierte Geschenke.",
+        "description": "Katzen-, himmlische und botanische Untersetzer-Sets für gemütliche Tische, Regale und unkomplizierte Geschenke.",
         "image": "/assets/img/products/cat-and-moon-coasters.jpg",
         "imageAlt": "Kollektion Holzuntersetzer",
         "href": "/de/pages/holzuntersetzer.html"
       },
       {
         "title": "Holzlesezeichen",
-        "description": "Lesezeichen und buchige Geschenkideen für Fantasy-Regale, Lesetagebücher und ruhige Abendstunden.",
+        "description": "Leserorientierte Lesezeichen und Buchgeschenke für Fantasy-Regale, Lesetagebücher und ruhige Kapitel.",
         "image": "/assets/img/products/celtic-bookmark.jpg",
         "imageAlt": "Kollektion Holzlesezeichen",
         "href": "/de/pages/holzlesezeichen.html"
       },
       {
         "title": "Holzgeschenke",
-        "description": "Teelichthalter, Türschilder und persönliche Dekoideen für Regale, Eingänge und bedeutungsvolle Geschenkmomente.",
+        "description": "Teelichthalter, Erinnerungsstücke, Türhänger und Deko für Regale, Eingänge und bedeutungsvolle Geschenkmomente.",
         "image": "/assets/img/products/just-married-door-hanger.jpg",
         "imageAlt": "Kollektion Holzgeschenke",
         "href": "/de/pages/holzgeschenke.html"
@@ -123,19 +123,19 @@
     "faq": [
       {
         "question": "Bestelle ich auf dieser Website?",
-        "answer": "Nein. Diese Website hilft beim Entdecken und führt Besucher dann zu Etsy, wo die Bestellung abgeschlossen wird."
+        "answer": "Nein. Diese Website hilft beim Entdecken des Sortiments und führt Besucher dann zu Etsy, wo die Bestellung abgeschlossen wird."
       },
       {
-        "question": "Kann ich hier nach Anlass shoppen?",
-        "answer": "Ja. Geschenke für Katzenliebhaber, Leser und Einzüge haben jeweils eigene Seiten auf Deutsch, Englisch und Niederländisch."
+        "question": "Kann ich in mehr als einer Sprache stöbern?",
+        "answer": "Ja. Die Homepage und die wichtigsten Geschenkseiten sind auf Deutsch, Englisch und Niederländisch verfügbar."
       },
       {
-        "question": "Kann man weiterhin nach Kollektion stöbern?",
-        "answer": "Ja. Die Hauptkollektionen für Holzuntersetzer, Holzlesezeichen und Holzgeschenke bleiben an vielen Stellen verlinkt."
+        "question": "Können Besucher weiterhin nach Kollektion shoppen?",
+        "answer": "Ja. Holzuntersetzer, Holzlesezeichen und Holzgeschenke behalten jeweils ihre eigene Kollektionsseite."
       },
       {
-        "question": "Wo lassen sich Fragen zur Personalisierung stellen?",
-        "answer": "Die Kontaktseite verweist auf Etsy-Nachrichten. Dort können Personalisierung und Bestelldetails direkt geklärt werden."
+        "question": "Wohin gehen Fragen zur Personalisierung?",
+        "answer": "Die Kontaktseite verweist auf Etsy-Nachrichten, wo Personalisierung und Bestellfragen direkt besprochen werden können."
       }
     ],
     "ctaPanel": {
@@ -144,6 +144,86 @@
       "label": "Etsy-Shop öffnen",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
+    "heroSupport": "Starte mit den Bestsellern und spring dann zu Anlässen oder Kollektionen, wenn du gezielter vergleichen möchtest.",
+    "discoveryCta": {
+      "label": "Bestseller entdecken",
+      "target": "#featured-bestsellers"
+    },
+    "heroProducts": [
+      "cat-and-moon-wooden-coasters",
+      "fantasy-reader-gift-set",
+      "moon-cat-shadow-tealight-holder"
+    ],
+    "sections": {
+      "featuredCategories": {
+        "heading": "Beliebte Kategorien",
+        "intro": "Starte mit den Geschenkthemen, nach denen Besucher am häufigsten suchen."
+      },
+      "bestsellers": {
+        "heading": "Bestseller",
+        "intro": "Drei starke Einstiege, wenn jemand schnell einen bewährten Favoriten sehen möchte."
+      },
+      "occasions": {
+        "heading": "Nach Anlass shoppen",
+        "intro": "Lieber zuerst den passenden Geschenkgrund wählen? Dann starte hier."
+      },
+      "collections": {
+        "heading": "Nach Kollektion stöbern",
+        "intro": "Wenn du lieber nach Produkttyp suchst, nimm die Hauptkollektionen."
+      },
+      "support": {
+        "heading": "Wie diese Seite hilft",
+        "intro": "Eine kurze Erklärung, bewusst weiter unten, damit Produkte zuerst sichtbar bleiben."
+      },
+      "reviews": {
+        "heading": "Beliebt auf Etsy",
+        "intro": "Ein paar kurze Bewertungen, die Qualität und Vertrauen unterstreichen."
+      },
+      "faq": {
+        "heading": "Hilfreiche Fragen",
+        "intro": "Schnelle Antworten, bevor jemand zu Etsy weiterklickt."
+      }
+    },
+    "featuredCategories": [
+      {
+        "kicker": "Katzengeschenke",
+        "title": "Geschenke für Katzenliebhaber",
+        "description": "Gehe direkt zu Untersetzern und warmer Holzdeko mit Katzenmotiv für gemütliche Wohnungen und Geburtstage.",
+        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+        "imageAlt": "Katze und Mond Holzuntersetzer als Geschenkidee",
+        "href": "/de/pages/geschenke-fuer-katzenliebhaber.html"
+      },
+      {
+        "kicker": "Buchgeschenke",
+        "title": "Geschenke für Leser",
+        "description": "Sieh dir Lesezeichen, Fantasy-Sets und Ideen für die Leseecke für Bücherfans und ruhige Regale an.",
+        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+        "imageAlt": "Fantasy Lesegeschenk Set für Bücherfans",
+        "href": "/de/pages/geschenke-fuer-leser.html"
+      },
+      {
+        "kicker": "Neues Zuhause",
+        "title": "Einzugsgeschenke",
+        "description": "Öffne nützliche Holzstücke, die sich leicht für warme Wohnungen und neue Häuser kaufen lassen.",
+        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+        "imageAlt": "Sternzeichen Holzuntersetzer als Einzugsgeschenk",
+        "href": "/de/pages/einzugsgeschenke.html"
+      }
+    ],
+    "supportCards": [
+      {
+        "title": "Wofür diese Seite da ist",
+        "text": "Diese Support-Seite hilft Besuchern, zuerst die stärksten Produkte zu sehen, bevor sie das Etsy-Listing öffnen."
+      },
+      {
+        "title": "Verfügbar in drei Sprachen",
+        "text": "Dieselben Kernpfade gibt es auf Deutsch, Englisch und Niederländisch, damit Besucher in der Sprache stöbern können, die sich am einfachsten anfühlt."
+      },
+      {
+        "title": "Wie der Etsy-Weg funktioniert",
+        "text": "Wenn jemand kaufen möchte, führt der CTA zu Etsy für Preise, Bewertungen, Personalisierung und Checkout."
+      }
+    ],
     "alternatePaths": {
       "en": "/en/index.html",
       "nl": "/index.html",

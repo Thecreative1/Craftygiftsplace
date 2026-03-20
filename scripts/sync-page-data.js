@@ -1,6 +1,6 @@
 const { pagesEn, pagesNl } = require("./lib/page-data");
 const { pagesDe } = require("./lib/page-data.de");
-const { writeJson } = require("./lib/site");
+const { readJson, writeJson } = require("./lib/site");
 
 const ALTERNATE_GROUPS = [
   { en: "/en/index.html", nl: "/index.html", de: "/de/index.html" },
@@ -15,6 +15,21 @@ const ALTERNATE_GROUPS = [
 
 function clonePages(pages) {
   return pages.map((page) => JSON.parse(JSON.stringify(page)));
+}
+
+function applyHomeContent(pageSet, locale) {
+  const homeContent = readJson(`data/home.${locale}.json`);
+  const homeIndex = pageSet.findIndex((page) => page.template === "home");
+  if (homeIndex === -1) {
+    throw new Error(`Missing home page for locale ${locale}.`);
+  }
+
+  pageSet[homeIndex] = {
+    ...pageSet[homeIndex],
+    ...homeContent,
+    template: "home",
+    locale
+  };
 }
 
 function attachAlternates(groups, pageSets) {
@@ -37,6 +52,10 @@ const pageSets = {
   nl: clonePages(pagesNl),
   de: clonePages(pagesDe)
 };
+
+applyHomeContent(pageSets.en, "en");
+applyHomeContent(pageSets.nl, "nl");
+applyHomeContent(pageSets.de, "de");
 
 attachAlternates(ALTERNATE_GROUPS, pageSets);
 
