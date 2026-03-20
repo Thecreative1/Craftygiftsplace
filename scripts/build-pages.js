@@ -23,21 +23,21 @@ const text = {
     navToggle: "Open the menu",
     home: "Home",
     footerCollections: "Collections",
-    footerIntents: "Gift intents",
+    footerIntents: "Gift ideas",
     footerTagline: "Handmade wooden gifts with warmth, detail and character.",
     footerNote: "Rated 4.96/5 on Etsy for thoughtful service, strong detail and gift-ready quality.",
     featuredHeading: "Best Picks",
     featuredIntro: "Start with these highlighted products and then move into the full grid below.",
-    catalogHeading: "Product Grid",
+    catalogHeading: "Browse the Collection",
     faqHeading: "Frequently Asked Questions",
     faqIntro: "Quick answers for visitors who want a faster decision path.",
     relatedHeading: "Related Collections",
-    relatedIntro: "Keep browsing with these internal links.",
-    whyHeading: "Why This Matters",
-    intentsHeading: "Shop by gift intent",
-    intentsIntro: "These pages translate buyer intent into clearer landing pages.",
+    relatedIntro: "Keep exploring with these suggestions.",
+    whyHeading: "Why Shoppers Love It",
+    intentsHeading: "Shop by occasion",
+    intentsIntro: "Start with the kind of gift you want to give.",
     collectionsHeading: "Browse by collection",
-    collectionsIntro: "The classic collection view still matters and remains linked throughout the site.",
+    collectionsIntro: "Prefer browsing by product type? Start with these core collections.",
     reviewsHeading: "Loved on Etsy",
     reviewsIntro: "A few short reviews that reinforce quality and trust."
   },
@@ -51,21 +51,21 @@ const text = {
     navToggle: "Open het menu",
     home: "Home",
     footerCollections: "Collecties",
-    footerIntents: "Cadeau-intenties",
+    footerIntents: "Cadeau-ideeën",
     footerTagline: "Handgemaakte houten cadeaus met warmte, detail en karakter.",
     footerNote: "Beoordeeld met 4.96/5 op Etsy voor attente service, mooi detail en cadeauwaardige kwaliteit.",
     featuredHeading: "Beste Keuzes",
     featuredIntro: "Begin met deze uitgelichte producten en ga daarna door naar het volledige overzicht.",
-    catalogHeading: "Productgrid",
+    catalogHeading: "Bekijk de collectie",
     faqHeading: "Veelgestelde Vragen",
     faqIntro: "Korte antwoorden voor bezoekers die sneller willen kiezen.",
     relatedHeading: "Gerelateerde Collecties",
-    relatedIntro: "Blader verder via deze interne links.",
-    whyHeading: "Waarom Dit Werkt",
-    intentsHeading: "Shop per cadeau-intentie",
-    intentsIntro: "Deze pagina's vertalen koopintentie naar duidelijkere landingspagina's.",
+    relatedIntro: "Blader verder met deze suggesties.",
+    whyHeading: "Waarom Bezoekers Dit Mooi Vinden",
+    intentsHeading: "Shop per gelegenheid",
+    intentsIntro: "Begin bij het soort cadeau dat je wilt geven.",
     collectionsHeading: "Blader per collectie",
-    collectionsIntro: "Het klassieke collectieoverzicht blijft belangrijk en is overal intern gelinkt.",
+    collectionsIntro: "Kijk je liever per producttype? Begin dan met deze hoofdcollecties.",
     reviewsHeading: "Geliefd op Etsy",
     reviewsIntro: "Een paar korte reviews die kwaliteit en vertrouwen versterken."
   }
@@ -596,7 +596,7 @@ function renderSubpageIntro(page) {
 function renderHomeSectionCards(page, key, heading, intro) {
   const cards = page[key];
   if (!cards || !cards.length) return "";
-  const id = key === "intentCards" ? "gift-intents" : "collections";
+  const id = key === "intentCards" ? "gift-guides" : "collections";
   return `
     <section class="section" id="${id}">
       <div class="container">

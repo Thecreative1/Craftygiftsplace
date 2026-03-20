@@ -6,6 +6,38 @@ const localeBans = {
   nl: ["housewarming", "coasters", "gift-ready", "reader gift"]
 };
 
+const editorialBans = {
+  en: [
+    "product grid",
+    "localized product data",
+    "shared source",
+    "localized structure",
+    "support layer",
+    "gift intent",
+    "gift intents",
+    "landing page",
+    "metadata",
+    "taxonomy",
+    "internal links",
+    "internal routes",
+    "site architecture"
+  ],
+  nl: [
+    "productgrid",
+    "gelokaliseerde productdata",
+    "gedeelde bron",
+    "gelokaliseerde structuur",
+    "ondersteuningslaag",
+    "cadeau-intentie",
+    "cadeau-intenties",
+    "landingspagina",
+    "metadata",
+    "taxonomie",
+    "interne links",
+    "sitestructuur"
+  ]
+};
+
 const productLocaleBans = {
   nl: [
     /\brocket\b/i,
@@ -175,6 +207,12 @@ function validatePages() {
     localeBans[page.locale].forEach((word) => {
       if (textContent.includes(word.toLowerCase())) {
         fail(`Forbidden locale string "${word}" found in ${page.path}`);
+      }
+    });
+
+    editorialBans[page.locale].forEach((phrase) => {
+      if (textContent.includes(phrase.toLowerCase())) {
+        fail(`Backstage copy "${phrase}" found in ${page.path}`);
       }
     });
 

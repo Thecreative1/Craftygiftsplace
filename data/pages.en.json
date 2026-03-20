@@ -8,7 +8,7 @@
     "metaDescription": "Discover handmade wooden gifts for readers, cat lovers and cozy homes. Browse gift-ready coasters, bookmarks and wooden decor that lead shoppers to Etsy.",
     "h1": "Handmade wooden gifts for readers, cat lovers and cozy homes",
     "eyebrow": "4.96/5 Etsy rating · gift-ready picks",
-    "intro": "Craftygiftsplace is built to help shoppers reach the right Etsy listing faster. Instead of making people dig through long product feeds, this page points them toward wooden coasters, bookmarks and small decor pieces that match real buying intent: reader gifts, cat lover gifts, housewarming gifts and personalized keepsakes.",
+    "intro": "Craftygiftsplace helps shoppers find the right handmade wooden gift faster. Instead of scrolling through everything at once, visitors can start with coasters, bookmarks and small decor pieces for readers, cat lovers, housewarmings and personalized keepsakes.",
     "heroImage": "/assets/img/products/moon-cat-tealight-holder.jpg",
     "heroImageAlt": "Moon Cat wooden tealight holder by Craftygiftsplace",
     "heroCaption": "Moon Cat tealight holder",
@@ -22,12 +22,12 @@
         "text": "Coasters, bookmarks and wooden decor all lead directly to the matching Etsy search or listing."
       },
       {
-        "title": "Localized structure",
-        "text": "Every core page has a paired English and Dutch version with matching metadata and internal links."
+        "title": "Shop in two languages",
+        "text": "Core pages are available in English and Dutch so visitors can browse in the language that feels natural."
       },
       {
         "title": "Clear buying path",
-        "text": "Visitors can move from gift intent to collection page to Etsy without getting lost."
+        "text": "Visitors can move from gift ideas to a collection and then straight to Etsy without getting lost."
       }
     ],
     "primaryCta": {
@@ -35,8 +35,8 @@
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
     "secondaryCta": {
-      "label": "Browse gift intents",
-      "target": "#gift-intents"
+      "label": "Shop by occasion",
+      "target": "#gift-guides"
     },
     "featuredItems": [
       {
@@ -123,11 +123,11 @@
     "faq": [
       {
         "question": "Do I order on this website?",
-        "answer": "No. This site is a static support layer that helps shoppers find the right products, then sends them to Etsy to complete the order."
+        "answer": "No. This website helps shoppers explore the range and then sends them to Etsy to complete the order."
       },
       {
-        "question": "Are there dedicated pages for gift intent now?",
-        "answer": "Yes. Cat lover gifts, reader gifts and housewarming gifts each have their own English and Dutch landing pages."
+        "question": "Can I shop by occasion here?",
+        "answer": "Yes. Cat lover gifts, reader gifts and housewarming gifts each have their own page in English and Dutch."
       },
       {
         "question": "Can buyers still browse by collection?",
@@ -139,8 +139,8 @@
       }
     ],
     "ctaPanel": {
-      "title": "Ready to send shoppers to Etsy with the right intent?",
-      "text": "Start with a gift-intent page or jump into a collection, then continue to Etsy for pricing, reviews and ordering.",
+      "title": "Ready to browse and then shop on Etsy?",
+      "text": "Start with a gift guide or a collection, then head to Etsy for pricing, reviews and ordering.",
       "label": "Open the Etsy shop",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     }
@@ -154,7 +154,7 @@
     "metaDescription": "Browse handmade wooden coasters for housewarming gifts, cozy coffee tables, cat lovers and themed homes. Explore Craftygiftsplace coaster sets before heading to Etsy.",
     "h1": "Wooden coasters for housewarming gifts, cozy tables and themed homes",
     "eyebrow": "Collection",
-    "intro": "This collection remains the broadest way to browse coaster designs, but it now connects much more directly to buyer intent. Visitors can still see the full range of wooden coasters in one place, while internal links also steer them toward cat lover gifts and housewarming gift ideas. That means this page supports both category browsing and higher-intent search journeys without duplicating the same content everywhere.",
+    "intro": "This is the easiest place to browse the full coaster range in one view. Shoppers can compare cat themes, zodiac designs, botanicals and hobby-led sets, then jump to more focused gift ideas for cat lovers or housewarmings if they already know the occasion.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -191,7 +191,7 @@
       "title": "Buying confidence",
       "quote": "\"These are beautiful coasters. They are made of wood and seem very durable.\"",
       "attribution": "Andrew · Etsy review",
-      "text": "Coasters are one of the easiest categories for housewarming and themed gifting, so the page leans into practical use, warm styling and clear internal routes to matching occasions.",
+      "text": "Coasters are an easy win for housewarmings and everyday gifting because they feel useful, warm and simple to style in the home.",
       "links": [
         {
           "label": "See cat lover gifts",
@@ -222,14 +222,14 @@
       }
     ],
     "featuredWhy": [
-      "It preserves the full category view for shoppers who still search for wooden coasters.",
-      "It now links directly into cat lover gifts and housewarming gifts instead of trapping visitors in a single taxonomy.",
-      "It uses the same product data source as the homepage and the new intent landings."
+      "It keeps the full coaster range in one easy view.",
+      "It makes it simple to compare practical table gifts and more decorative themes.",
+      "It points shoppers toward cat-lover and housewarming ideas when they want something more specific."
     ],
     "catalog": {
       "mode": "category",
       "category": "coasters",
-      "intro": "Browse every coaster design in the catalog, with localized product data and varied copy generated from the same shared source.",
+      "intro": "Browse every coaster design in one place, from cat themes to zodiac and botanical styles.",
       "ctaLabel": "View coasters on Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
     },
@@ -239,12 +239,12 @@
         "answer": "Yes. Many designs naturally fit new-home gifting because they are practical, decorative and easy to style on tables right away."
       },
       {
-        "question": "Do cat-themed coasters have their own landing page?",
+        "question": "Do cat-themed coasters have their own page?",
         "answer": "Yes. The cat lover gifts page collects the cat-led coaster designs and matching decor pieces in one place."
       },
       {
         "question": "Can shoppers still find other wooden collections from here?",
-        "answer": "Yes. This page links out to bookmarks, wooden gifts and the reader and housewarming intent pages."
+        "answer": "Yes. This page links out to bookmarks, wooden gifts and the reader and housewarming gift guides."
       }
     ],
     "relatedLinks": [
@@ -280,7 +280,7 @@
     "metaDescription": "Browse handmade wooden bookmarks and reader gift ideas for book lovers, fantasy readers and thoughtful Etsy gifting. Explore bookmarks, bundles and reading-themed pieces.",
     "h1": "Wooden bookmarks for reader gifts, book lovers and fantasy shelves",
     "eyebrow": "Collection",
-    "intro": "The bookmark collection is where reader-led searches become easier to serve. Instead of only listing bookmarks as a category, the site now connects this collection to reader gift intent and book-lover searches through stronger internal linking. That makes the full bookmark range useful both for product browsing and for buyers who want something clearly bookish without spending time guessing which items belong together.",
+    "intro": "This collection brings the full bookmark range together for readers, fantasy fans and gift shoppers. Visitors can browse individual bookmarks, compare styles and jump into reader-focused gift ideas when they want a bundle, a themed room piece or something that feels especially bookish.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -317,7 +317,7 @@
       "title": "Buying confidence",
       "quote": "\"The detail is incredible, well crafted and very durable. Lovely bookmark.\"",
       "attribution": "Bookmark buyer · Etsy review",
-      "text": "Bookmarks often convert well when the gift intent is already book-led, so this page now supports both classic collection browsing and a direct route into the reader gifts landing page.",
+      "text": "Bookmarks are especially easy to gift when the shopper already has a reader or fantasy fan in mind, so this page keeps individual picks and bookish ideas close together.",
       "links": [
         {
           "label": "See reader gifts",
@@ -348,9 +348,9 @@
       }
     ],
     "featuredWhy": [
-      "It keeps all bookmark products together for traditional category browsing.",
-      "It now supports stronger reader-gift intent through links, metadata and shared product data.",
-      "It helps Google understand both the collection and its relationship to the dedicated reader gifts landing page."
+      "It keeps every bookmark style in one easy browse.",
+      "It mixes standalone bookmarks with bookish gift ideas and cozy room pieces.",
+      "It helps shoppers move from a single bookmark to a fuller reader gift without starting over."
     ],
     "catalog": {
       "mode": "category",
@@ -362,7 +362,7 @@
     "faq": [
       {
         "question": "Is there a dedicated page for reader gifts?",
-        "answer": "Yes. The reader gifts landing page collects bookmarks, bundles, decor and reading-nook-friendly pieces under one stronger buying intent."
+        "answer": "Yes. The reader gifts page gathers bookmarks, bundles, decor and reading-nook-friendly pieces in one place."
       },
       {
         "question": "Are all bookmarks fantasy themed?",
@@ -377,7 +377,7 @@
       {
         "label": "Reader gifts",
         "href": "/en/pages/reader-gifts.html",
-        "description": "Bookmarks, bundles and decor aimed at book-lover and reading-nook intent."
+        "description": "Bookmarks, bundles and decor for book lovers and cozy reading nooks."
       },
       {
         "label": "Wooden gifts",
@@ -406,7 +406,7 @@
     "metaDescription": "Browse handmade wooden gifts including door hangers, decor pieces and keepsakes for housewarmings, reading nooks and personalized gift moments.",
     "h1": "Wooden gifts for shelves, doors, reading nooks and thoughtful occasions",
     "eyebrow": "Collection",
-    "intro": "The broader wooden gifts collection helps the site cover products that are not only coasters or bookmarks. It includes door hangers, decor pieces and keepsakes that work especially well for housewarming, reader-adjacent decor and personalized milestones. This page stays useful as a category archive, while the related links push visitors into more focused landing pages when their buying intent is already clear.",
+    "intro": "This broader collection covers the wooden pieces that go beyond coasters and bookmarks. It brings together door hangers, decor pieces and keepsakes that suit housewarmings, reading nooks and personalized moments, so shoppers can browse the more decorative side of the shop in one place.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -443,7 +443,7 @@
       "title": "Buying confidence",
       "quote": "\"Great quality, exactly as described, and seller was kind and communicative.\"",
       "attribution": "Caroline · Etsy review",
-      "text": "This collection supports the pages that sit between pure category browsing and pure gift intent, especially for housewarming decor and themed room accents.",
+      "text": "This collection is a good fit for shoppers who want something more decorative, more personal or less table-focused than a coaster set.",
       "links": [
         {
           "label": "See housewarming gifts",
@@ -474,9 +474,9 @@
       }
     ],
     "featuredWhy": [
-      "It gives housewarming and reader-intent pages access to decor pieces outside the coaster and bookmark categories.",
-      "It helps related-collection sections feel genuinely useful instead of repetitive.",
-      "It broadens the internal link graph around home decor, personalized gifts and themed shelves."
+      "It brings together signs, decor and keepsakes in one browse.",
+      "It gives shoppers more choice for shelves, doors and cozy corners.",
+      "It pairs well with housewarming, reader and cat-lover gift ideas."
     ],
     "catalog": {
       "mode": "category",
@@ -488,7 +488,7 @@
     "faq": [
       {
         "question": "Are these wooden gifts useful for housewarming pages too?",
-        "answer": "Yes. Several decor and door pieces also appear on the dedicated housewarming gifts page because they fit new-home buying intent."
+        "answer": "Yes. Several decor and door pieces also appear on the housewarming gifts page because they suit new homes."
       },
       {
         "question": "Do any of these items support reader gifting?",
@@ -532,7 +532,7 @@
     "metaDescription": "Contact Craftygiftsplace on Etsy for personalization questions, gift guidance and help choosing wooden coasters, bookmarks or decor.",
     "h1": "Questions or personalization?",
     "eyebrow": "Contact",
-    "intro": "For ordering, personalization and message-based support, Etsy remains the main contact point. This page helps visitors understand where to go next and keeps internal links available for anyone who still needs to compare collections before starting a conversation.",
+    "intro": "For ordering, personalization and questions about a specific item, Etsy is the best place to get in touch. This page simply points shoppers to the right next step and offers a few quick routes into the main gift collections.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -566,14 +566,14 @@
       },
       {
         "title": "Helpful starting points",
-        "text": "If someone is still deciding, point them first to wooden coasters, wooden bookmarks or one of the dedicated gift-intent pages."
+        "text": "If someone is still deciding, start with wooden coasters, wooden bookmarks or one of the gift guides."
       }
     ],
     "sidebar": {
       "title": "Buying confidence",
       "quote": "\"This seller was an absolute pleasure to deal with... I'll be back for more.\"",
       "attribution": "Clare · Etsy review",
-      "text": "The contact page stays simple on purpose: explain the next step, keep Etsy central and preserve strong internal links to the main collections and intent pages.",
+      "text": "The contact page keeps things simple: message on Etsy for order-specific help, or browse a collection first if you want to compare styles.",
       "links": [
         {
           "label": "Wooden coasters",
@@ -598,8 +598,8 @@
     "title": "Cat Lover Gifts in Wood for Cozy Homes and Thoughtful Etsy Gift Ideas | Craftygiftsplace",
     "metaDescription": "Shop wooden cat lover gifts including cat-themed coasters and cozy decor for shelves, coffee tables and gift-ready Etsy moments.",
     "h1": "Wooden cat lover gifts for cozy homes, shelves and coffee tables",
-    "eyebrow": "Gift intent",
-    "intro": "This page is built for buyers who are already searching with a commercial intent like cat lover gift, gift for cat owner or cat-themed home decor. Instead of asking visitors to guess which products fit that search, the page groups the strongest wooden options in one place. That includes cat coasters for coffee tables, celestial cat designs for cozy interiors and a small cat-led decor piece that works on shelves or reading nooks. The aim is not to replace the full coaster collection, but to give cat-focused shoppers a much clearer route from search query to relevant Etsy click. Because the page is paired with a Dutch equivalent, linked from the homepage, the coaster collection and the footer, it also strengthens the internal link structure around a real purchase intent rather than only around product taxonomy.",
+    "eyebrow": "Gift guide",
+    "intro": "This page is for shoppers who already know they want a gift for a cat lover. Instead of piecing that theme together across different collections, it brings the strongest cat-themed wooden picks into one place. That includes cat coasters for coffee tables, celestial cat designs for cozy interiors and a smaller decor piece for shelves, desks or reading nooks. It is a simple way to compare practical gifts and decorative ones before heading to Etsy.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -633,10 +633,10 @@
       }
     ],
     "sidebar": {
-      "title": "Why this landing page exists",
+      "title": "Why cat lovers enjoy this page",
       "quote": "\"These are beautiful coasters. They are made of wood and seem very durable.\"",
       "attribution": "Andrew · Etsy review",
-      "text": "Cat-themed products were already present across the site, but this page collects them under a clearer commercial intent so searchers do not need to assemble the journey themselves.",
+      "text": "Cat-themed pieces were already popular across the shop, and this page brings them together so the shopper can compare them without hopping between categories.",
       "links": [
         {
           "label": "Browse wooden coasters",
@@ -697,7 +697,7 @@
       },
       {
         "question": "Can I still browse the full coaster collection?",
-        "answer": "Yes. This landing page links directly back to the broader wooden coaster collection for anyone who wants more themes."
+        "answer": "Yes. This page links directly back to the broader wooden coaster collection for anyone who wants more themes."
       }
     ],
     "relatedLinks": [
@@ -732,8 +732,8 @@
     "title": "Reader Gifts in Wood for Book Lovers, Fantasy Readers and Cozy Reading Nooks | Craftygiftsplace",
     "metaDescription": "Shop wooden reader gifts for book lovers, fantasy readers and reading nooks. Browse bookmarks, themed reader bundles and cozy Etsy-ready decor.",
     "h1": "Wooden Reader Gifts for Book Lovers and Cozy Reading Nooks",
-    "eyebrow": "Gift intent",
-    "intro": "This page is built for search intent such as reader gifts, book lover gifts, fantasy reader gifts, bookmark gifts and reading nook gifts. Instead of spreading those ideas across separate product categories, it collects the strongest bookish items into one path that feels much closer to how people actually shop. Visitors can start with bookmarks, move into a bundled fantasy reader set and still discover a reading-nook-friendly sign or decor accent without leaving the intent. That matters because a buyer searching for a reader gift is rarely looking for a taxonomy term like bookmarks first. They want a gift that feels specific to the person, the shelf or the reading habit they have in mind. This landing page turns that commercial intent into a clearer internal route and pairs it with a Dutch version, stronger metadata and direct links back to the bookmark and wooden gift collections.",
+    "eyebrow": "Gift guide",
+    "intro": "This page is for shoppers looking for a gift that feels unmistakably bookish. It gathers bookmarks, fantasy-themed pieces and cozy reading-nook accents in one place, so buyers can compare a single bookmark with a fuller set or a room-friendly extra. Someone shopping for a reader usually wants the gift to match the person, the shelf or the reading habit, not just the product type. This guide makes that choice easier before the final click to Etsy.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -767,10 +767,10 @@
       }
     ],
     "sidebar": {
-      "title": "Why this landing page exists",
+      "title": "Why readers enjoy this page",
       "quote": "\"The detail is incredible, well crafted and very durable. Lovely bookmark.\"",
       "attribution": "Bookmark buyer · Etsy review",
-      "text": "Bookish products already existed in the catalog, but this page gives them a single commercial route for reader and book-lover searches rather than splitting them across categories.",
+      "text": "Bookish pieces were already part of the shop, and this page brings them together so readers and gift buyers can compare them side by side.",
       "links": [
         {
           "label": "Browse wooden bookmarks",
@@ -832,7 +832,7 @@
       },
       {
         "question": "Is this page useful for fantasy reader searches too?",
-        "answer": "Yes. Several featured items lean fantasy, which helps the page target fantasy reader gifts alongside broader book-lover intent."
+        "answer": "Yes. Several featured items lean fantasy, so the page suits fantasy reader gifts as well as broader book-lover gifting."
       },
       {
         "question": "Can I still browse the full bookmark collection?",
@@ -871,8 +871,8 @@
     "title": "Housewarming Gifts in Wood for Cozy Coffee Tables, Shelves and New Homes | Craftygiftsplace",
     "metaDescription": "Shop wooden housewarming gifts including coaster sets and cozy decor for coffee tables, shelves and thoughtful Etsy-ready home gifting.",
     "h1": "Wooden housewarming gifts for cozy coffee tables, shelves and new homes",
-    "eyebrow": "Gift intent",
-    "intro": "This landing page is designed for housewarming gift searches rather than only for product-type browsing. A shopper looking for a housewarming gift usually wants something practical enough to use right away, but warm enough to feel chosen rather than generic. That is why this page combines coaster sets with decor-led wooden gifts that work on shelves, consoles and side tables. It helps visitors move directly from a new-home buying intent into the strongest matching products, then continue to Etsy for the full listing details. The page also strengthens the site architecture by giving the homepage, the coaster collection and the wooden gifts collection a shared place to point when the occasion is more important than the individual product category. Paired English and Dutch versions make the intent clearer to search engines and to shoppers who browse the site in different languages.",
+    "eyebrow": "Gift guide",
+    "intro": "This page is for shoppers who want a housewarming gift that feels useful and warm at the same time. It combines coaster sets with small decor-led wooden gifts that work on coffee tables, shelves and side tables, so visitors can compare practical pieces with softer decorative options in one place. That makes it easier to choose something that feels at home right away before heading to Etsy for the full listing details.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -906,10 +906,10 @@
       }
     ],
     "sidebar": {
-      "title": "Why this landing page exists",
+      "title": "Why new-home shoppers like it",
       "quote": "\"Great quality, exactly as described, and seller was kind and communicative.\"",
       "attribution": "Caroline · Etsy review",
-      "text": "Housewarming intent was already hinted at across the site, but this page turns it into a dedicated route that combines useful table pieces with smaller wooden decor gifts.",
+      "text": "Housewarming ideas already appeared across the shop, and this page brings the best table pieces and small decor gifts together for an easier choice.",
       "links": [
         {
           "label": "Browse wooden coasters",
@@ -973,7 +973,7 @@
       },
       {
         "question": "Can I browse the broader wooden gift collection from here?",
-        "answer": "Yes. Related links connect this landing page to both the wooden coaster collection and the wider wooden gifts category."
+        "answer": "Yes. Related links connect this page to both the wooden coaster collection and the wider wooden gifts category."
       }
     ],
     "relatedLinks": [
