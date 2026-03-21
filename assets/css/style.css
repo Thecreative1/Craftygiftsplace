@@ -1561,15 +1561,19 @@ footer {
   }
 
   .home-bestsellers-grid {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(82%, 1fr);
+    display: flex;
+    gap: 1rem;
     overflow-x: auto;
-    padding-bottom: 0.35rem;
+    padding: 0.1rem 0.2rem 0.35rem;
+    scroll-padding-inline: 0.2rem;
     scroll-snap-type: x proximity;
+    overscroll-behavior-x: contain;
   }
 
   .home-bestseller-card {
+    flex: 0 0 min(86%, 22rem);
+    min-width: min(86%, 22rem);
+    max-width: min(86%, 22rem);
     scroll-snap-align: start;
   }
 
