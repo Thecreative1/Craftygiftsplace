@@ -42,7 +42,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/fcbb6c/7435990575/il_340x270.7435990575_sg5h.jpg 340w, https://i.etsystatic.com/46731516/r/il/fcbb6c/7435990575/il_600x600.7435990575_sg5h.jpg 600w, https://i.etsystatic.com/46731516/r/il/fcbb6c/7435990575/il_794xN.7435990575_sg5h.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Funny Husband Medal Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un grabado cálido a mesas diarias, escritorios y rincones acogedores.",
+    "short_desc": "Para mesas diarias, escritorios y rincones acogedores, este set de madera aporta un acento de madera cálido con una sensación más serena. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -168,7 +168,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/5633fd/5458770934/il_340x270.5458770934_dos6.jpg 340w, https://i.etsystatic.com/46731516/r/il/5633fd/5458770934/il_600x600.5458770934_dos6.jpg 600w, https://i.etsystatic.com/46731516/r/il/5633fd/5458770934/il_794xN.5458770934_dos6.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Dog Paw Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas del día a día y espacios con mascotas que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "un motivo con más carácter da más presencia a mesas del día a día y espacios con mascotas sin cargar demasiado el conjunto. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -228,7 +228,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/f18bda/7528087613/il_340x270.7528087613_8ciw.jpg 340w, https://i.etsystatic.com/46731516/r/il/f18bda/7528087613/il_600x600.7528087613_8ciw.jpg 600w, https://i.etsystatic.com/46731516/r/il/f18bda/7528087613/il_794xN.7528087613_8ciw.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Zodiaco Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un trazo celestial a mesas de centro, auxiliares y ambientes suaves.",
+    "short_desc": "Pensado para mesas de centro, auxiliares y ambientes suaves, con un grabado inspirado en el zodiaco y un acabado más decorativo. Encaja con compradores a quienes les gusta ver la astrología en pequeños acentos útiles para casa.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift",
@@ -288,7 +288,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/33c325/5457158726/il_340x270.5457158726_9gea.jpg 340w, https://i.etsystatic.com/46731516/r/il/33c325/5457158726/il_600x600.5457158726_9gea.jpg 600w, https://i.etsystatic.com/46731516/r/il/33c325/5457158726/il_794xN.5457158726_9gea.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Gato Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas de centro, escritorios y rincones acogedores que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Pensado para mesas de centro, escritorios y rincones acogedores, con un motivo de gato y un acabado más decorativo. Queda bien en casas donde el tema de gato se quiere mantener cálido y discreto.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "cat-lover-gift",
@@ -352,7 +352,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/0a2f9b/6315785232/il_340x270.6315785232_7ohz.jpg 340w, https://i.etsystatic.com/46731516/r/il/0a2f9b/6315785232/il_600x600.6315785232_7ohz.jpg 600w, https://i.etsystatic.com/46731516/r/il/0a2f9b/6315785232/il_794xN.6315785232_7ohz.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Cannabis Hoja Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "un grabado de hojas da más presencia a cocinas, mesas de invitados e interiores cálidos sin cargar demasiado el conjunto. Combina con interiores donde ya hay plantas, madera y una sensación más natural.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -410,7 +410,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/fff060/7483094513/il_340x270.7483094513_qtbe.jpg 340w, https://i.etsystatic.com/46731516/r/il/fff060/7483094513/il_600x600.7483094513_qtbe.jpg 600w, https://i.etsystatic.com/46731516/r/il/fff060/7483094513/il_794xN.7483094513_qtbe.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Samurai Mask Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas diarias, escritorios y rincones acogedores que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Pensado para mesas diarias, escritorios y rincones acogedores, con un tema grabado con más fuerza y un acabado más decorativo. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -470,7 +470,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/696c37/5942707396/il_340x270.5942707396_8896.jpg 340w, https://i.etsystatic.com/46731516/r/il/696c37/5942707396/il_600x600.5942707396_8896.jpg 600w, https://i.etsystatic.com/46731516/r/il/696c37/5942707396/il_794xN.5942707396_8896.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Chess Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un motivo de juego a cuartos de juego, escritorios y mesas de fin de semana.",
+    "short_desc": "Pensado para cuartos de juego, escritorios y mesas de fin de semana, con un tema más lúdico que destaca enseguida en la mesa. Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -528,7 +528,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_340x270.6103181163_fltt.jpg 340w, https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_600x600.6103181163_fltt.jpg 600w, https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_794xN.6103181163_fltt.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Posavasos de madera de fantasía de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un detalle de fantasía a rincones de lectura, escritorios y cuartos de aficiones.",
+    "short_desc": "Un set de posavasos práctico para rincones de lectura, escritorios y cuartos de aficiones, rematado con un acento de madera cálido. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift",
@@ -771,7 +771,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/61fc68/7533758309/il_340x270.7533758309_2wu5.jpg 340w, https://i.etsystatic.com/46731516/r/il/61fc68/7533758309/il_600x600.7533758309_2wu5.jpg 600w, https://i.etsystatic.com/46731516/r/il/61fc68/7533758309/il_794xN.7533758309_2wu5.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Floral Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "Pensado para cocinas, mesas de invitados e interiores cálidos, con un grabado floral que destaca enseguida en la mesa. Combina con interiores donde ya hay plantas, madera y una sensación más natural.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -887,7 +887,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9c4efa/5675812615/il_340x270.5675812615_ogn2.jpg 340w, https://i.etsystatic.com/46731516/r/il/9c4efa/5675812615/il_600x600.5675812615_ogn2.jpg 600w, https://i.etsystatic.com/46731516/r/il/9c4efa/5675812615/il_794xN.5675812615_ogn2.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Mayan Disc Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un grabado cálido a mesas diarias, escritorios y rincones acogedores.",
+    "short_desc": "un motivo con más carácter da más presencia a mesas diarias, escritorios y rincones acogedores sin cargar demasiado el conjunto. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -947,7 +947,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/82636e/6445275859/il_340x270.6445275859_o50d.jpg 340w, https://i.etsystatic.com/46731516/r/il/82636e/6445275859/il_600x600.6445275859_o50d.jpg 600w, https://i.etsystatic.com/46731516/r/il/82636e/6445275859/il_794xN.6445275859_o50d.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Forest Animal Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un detalle botánico a cocinas, mesas de invitados e interiores cálidos.",
+    "short_desc": "Pensado para cocinas, mesas de invitados e interiores cálidos, con un detalle de animales del bosque que destaca enseguida en la mesa. Da un poco más de personalidad a interiores con aire de bosque o de cabaña.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1062,7 +1062,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8a1b8a/7533803427/il_340x270.7533803427_pk2c.jpg 340w, https://i.etsystatic.com/46731516/r/il/8a1b8a/7533803427/il_600x600.7533803427_pk2c.jpg 600w, https://i.etsystatic.com/46731516/r/il/8a1b8a/7533803427/il_794xN.7533803427_pk2c.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Hoja Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "un grabado de hojas da más presencia a cocinas, mesas de invitados e interiores cálidos sin cargar demasiado el conjunto. Combina con interiores donde ya hay plantas, madera y una sensación más natural.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1120,7 +1120,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/6926b3/5407035414/il_340x270.5407035414_hn0g.jpg 340w, https://i.etsystatic.com/46731516/r/il/6926b3/5407035414/il_600x600.5407035414_hn0g.jpg 600w, https://i.etsystatic.com/46731516/r/il/6926b3/5407035414/il_794xN.5407035414_hn0g.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Space Saga Set de posavasos de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un grabado cálido a mesas diarias, escritorios y rincones acogedores.",
+    "short_desc": "Pensado para mesas diarias, escritorios y rincones acogedores, con un tema grabado con más fuerza que destaca enseguida en la mesa. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1141,7 +1141,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Sol y luna Posavasos de madera",
+    "name": "Posavasos de madera Sol y Luna",
     "price": "24.99",
     "price_label": "EUR 24.99",
     "audience_keys": [
@@ -1179,8 +1179,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/b6e8ca/7529254877/il_600x600.7529254877_rq2i.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b6e8ca/7529254877/il_340x270.7529254877_rq2i.jpg 340w, https://i.etsystatic.com/46731516/r/il/b6e8ca/7529254877/il_600x600.7529254877_rq2i.jpg 600w, https://i.etsystatic.com/46731516/r/il/b6e8ca/7529254877/il_794xN.7529254877_rq2i.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Sol y luna Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "alt": "Posavasos de madera Sol y Luna de Craftygiftsplace",
+    "short_desc": "Pensado para mesas de centro, auxiliares y ambientes suaves, con un grabado de sol y luna y un acabado más decorativo. Queda especialmente bien en mesas de tarde y rincones con una luz más suave.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift",
@@ -1242,7 +1242,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/7f88d5/6280541489/il_340x270.6280541489_6a86.jpg 340w, https://i.etsystatic.com/46731516/r/il/7f88d5/6280541489/il_600x600.6280541489_6a86.jpg 600w, https://i.etsystatic.com/46731516/r/il/7f88d5/6280541489/il_794xN.6280541489_6a86.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Motorsport Set de posavasos de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un motivo de juego a cuartos de juego, escritorios y mesas de fin de semana.",
+    "short_desc": "Para cuartos de juego, escritorios y mesas de fin de semana, este set de madera aporta un motivo para zona de hobbies con una sensación más serena. Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1409,7 +1409,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/c53917/6270337504/il_340x270.6270337504_kd1c.jpg 340w, https://i.etsystatic.com/46731516/r/il/c53917/6270337504/il_600x600.6270337504_kd1c.jpg 600w, https://i.etsystatic.com/46731516/r/il/c53917/6270337504/il_794xN.6270337504_kd1c.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Anchor Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para habitaciones de invitados, terrazas y casas relajadas que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Un set de posavasos práctico para habitaciones de invitados, terrazas y casas relajadas, rematado con un acento de madera cálido. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1521,7 +1521,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/4b60d2/7572843312/il_340x270.7572843312_bdln.jpg 340w, https://i.etsystatic.com/46731516/r/il/4b60d2/7572843312/il_600x600.7572843312_bdln.jpg 600w, https://i.etsystatic.com/46731516/r/il/4b60d2/7572843312/il_794xN.7572843312_bdln.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Motivo de abeja Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "un motivo de abeja da más presencia a cocinas, mesas de invitados e interiores cálidos sin cargar demasiado el conjunto. Combina con interiores donde ya hay plantas, madera y una sensación más natural.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1634,7 +1634,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/6e3e8c/7765923781/il_340x270.7765923781_ipty.jpg 340w, https://i.etsystatic.com/46731516/r/il/6e3e8c/7765923781/il_600x600.7765923781_ipty.jpg 600w, https://i.etsystatic.com/46731516/r/il/6e3e8c/7765923781/il_794xN.7765923781_ipty.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Gato y luna Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un regalo util para hogares donde los detalles pequenos importan.",
+    "short_desc": "Un set de posavasos práctico para mesas de centro, escritorios y rincones acogedores, rematado con un grabado de gato y luna. Funciona bien en casas acogedoras donde el detalle de gato debe sentirse cálido y discreto.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "cat-lover-gift",
@@ -1696,7 +1696,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bd8656/6936500070/il_340x270.6936500070_obt5.jpg 340w, https://i.etsystatic.com/46731516/r/il/bd8656/6936500070/il_600x600.6936500070_obt5.jpg 600w, https://i.etsystatic.com/46731516/r/il/bd8656/6936500070/il_794xN.6936500070_obt5.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Funny Swear Word Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "un motivo con más carácter da más presencia a mesas diarias, escritorios y rincones acogedores sin cargar demasiado el conjunto. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1754,7 +1754,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/ef6aac/5920179814/il_340x270.5920179814_b58p.jpg 340w, https://i.etsystatic.com/46731516/r/il/ef6aac/5920179814/il_600x600.5920179814_b58p.jpg 600w, https://i.etsystatic.com/46731516/r/il/ef6aac/5920179814/il_794xN.5920179814_b58p.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Persian Turkish Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un regalo util para hogares donde los detalles pequenos importan.",
+    "short_desc": "Da más carácter a mesas diarias, escritorios y rincones acogedores con un motivo con más carácter. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1874,7 +1874,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/3eb110/5455657378/il_340x270.5455657378_qnvq.jpg 340w, https://i.etsystatic.com/46731516/r/il/3eb110/5455657378/il_600x600.5455657378_qnvq.jpg 600w, https://i.etsystatic.com/46731516/r/il/3eb110/5455657378/il_794xN.5455657378_qnvq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Faith-inspirado Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas diarias, escritorios y rincones acogedores que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "un grabado con significado da más presencia a mesas diarias, escritorios y rincones acogedores sin cargar demasiado el conjunto. Así suma un detalle simbólico más sereno sin perder el lado práctico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1932,7 +1932,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/c8b13b/7475569258/il_340x270.7475569258_hzso.jpg 340w, https://i.etsystatic.com/46731516/r/il/c8b13b/7475569258/il_600x600.7475569258_hzso.jpg 600w, https://i.etsystatic.com/46731516/r/il/c8b13b/7475569258/il_794xN.7475569258_hzso.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalizado Team Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un regalo util para hogares donde los detalles pequenos importan.",
+    "short_desc": "Da más carácter a mesas diarias, escritorios y rincones acogedores con un motivo con más carácter. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -1953,7 +1953,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Árbol de la vida Posavasos de madera",
+    "name": "Posavasos de madera Árbol de la Vida",
     "price": "29.99",
     "price_label": "EUR 29.99",
     "audience_keys": [
@@ -1991,8 +1991,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_340x270.5535942596_jl8w.jpg 340w, https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg 600w, https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_794xN.5535942596_jl8w.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Árbol de la vida Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para cocinas, mesas de invitados e interiores cálidos que resulta mas calido que un simple extra de mesa.",
+    "alt": "Posavasos de madera Árbol de la Vida de Craftygiftsplace",
+    "short_desc": "Un set de posavasos práctico para cocinas, mesas de invitados e interiores cálidos, rematado con un grabado de árbol de la vida. Combina con interiores donde ya hay plantas, madera y una sensación más natural.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2118,7 +2118,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/6a78ae/5382480214/il_340x270.5382480214_2jxm.jpg 340w, https://i.etsystatic.com/46731516/r/il/6a78ae/5382480214/il_600x600.5382480214_2jxm.jpg 600w, https://i.etsystatic.com/46731516/r/il/6a78ae/5382480214/il_794xN.5382480214_2jxm.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Ski Lodge Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas diarias, escritorios y rincones acogedores que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Un set de posavasos práctico para mesas diarias, escritorios y rincones acogedores, rematado con un acento de madera cálido. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2139,7 +2139,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Buddha Wood Posavasos de madera",
+    "name": "Posavasos de madera Buda, OM y loto",
     "price": "25.99",
     "price_label": "EUR 25.99",
     "audience_keys": [
@@ -2175,8 +2175,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/a2c1d1/7635957768/il_600x600.7635957768_9qc1.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a2c1d1/7635957768/il_340x270.7635957768_9qc1.jpg 340w, https://i.etsystatic.com/46731516/r/il/a2c1d1/7635957768/il_600x600.7635957768_9qc1.jpg 600w, https://i.etsystatic.com/46731516/r/il/a2c1d1/7635957768/il_794xN.7635957768_9qc1.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Buddha Wood Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un detalle espiritual a mesas diarias, escritorios y rincones acogedores.",
+    "alt": "Posavasos de madera Buda, OM y loto de Craftygiftsplace",
+    "short_desc": "Pensado para mesas diarias, escritorios y rincones acogedores, con un detalle de Buda, OM y loto y un acabado más decorativo. Así se añade simbolismo espiritual sin perder el lado práctico del set.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2236,7 +2236,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/aa1792/5344238782/il_340x270.5344238782_sy7n.jpg 340w, https://i.etsystatic.com/46731516/r/il/aa1792/5344238782/il_600x600.5344238782_sy7n.jpg 600w, https://i.etsystatic.com/46731516/r/il/aa1792/5344238782/il_794xN.5344238782_sy7n.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Spider Web Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un detalle gótico a mesas auxiliares, estanterías y decoraciones marcadas.",
+    "short_desc": "Un set de posavasos práctico para mesas auxiliares, estanterías y decoraciones marcadas, rematado con un aire alternativo. Aporta un acento más oscuro para quien busca algo menos previsible.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2348,7 +2348,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/7cd96f/6355916419/il_340x270.6355916419_d97i.jpg 340w, https://i.etsystatic.com/46731516/r/il/7cd96f/6355916419/il_600x600.6355916419_d97i.jpg 600w, https://i.etsystatic.com/46731516/r/il/7cd96f/6355916419/il_794xN.6355916419_d97i.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Celta Knot Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un regalo util para hogares donde los detalles pequenos importan.",
+    "short_desc": "Un set de posavasos práctico para mesas diarias, escritorios y rincones acogedores, rematado con un acento de madera cálido. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2466,7 +2466,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/4a287f/6355959209/il_340x270.6355959209_9hqu.jpg 340w, https://i.etsystatic.com/46731516/r/il/4a287f/6355959209/il_600x600.6355959209_9hqu.jpg 600w, https://i.etsystatic.com/46731516/r/il/4a287f/6355959209/il_794xN.6355959209_9hqu.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Wildlife Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "Para cocinas, mesas de invitados e interiores cálidos, este set de madera aporta un detalle botánico grabado con una sensación más serena. Encaja con interiores que ya tiran hacia plantas, madera y detalles más suaves.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2580,7 +2580,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a5413b/7481255030/il_340x270.7481255030_oi90.jpg 340w, https://i.etsystatic.com/46731516/r/il/a5413b/7481255030/il_600x600.7481255030_oi90.jpg 600w, https://i.etsystatic.com/46731516/r/il/a5413b/7481255030/il_794xN.7481255030_oi90.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Horse Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un regalo util para hogares donde los detalles pequenos importan.",
+    "short_desc": "Un set de posavasos práctico para cocinas, mesas de invitados e interiores cálidos, rematado con un detalle botánico grabado. Encaja con interiores que ya tiran hacia plantas, madera y detalles más suaves.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2638,7 +2638,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/3f2d7b/6338748593/il_340x270.6338748593_qokh.jpg 340w, https://i.etsystatic.com/46731516/r/il/3f2d7b/6338748593/il_600x600.6338748593_qokh.jpg 600w, https://i.etsystatic.com/46731516/r/il/3f2d7b/6338748593/il_794xN.6338748593_qokh.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Hand-Painted Spiderweb Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas diarias, escritorios y rincones acogedores que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Da más carácter a mesas diarias, escritorios y rincones acogedores con un motivo con más carácter. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2899,7 +2899,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Viking Posavasos de madera",
+    "name": "Posavasos de madera vikingos",
     "price": "29.99",
     "price_label": "EUR 29.99",
     "audience_keys": [
@@ -2935,8 +2935,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/2421bb/7419936955/il_600x600.7419936955_jhjs.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/2421bb/7419936955/il_340x270.7419936955_jhjs.jpg 340w, https://i.etsystatic.com/46731516/r/il/2421bb/7419936955/il_600x600.7419936955_jhjs.jpg 600w, https://i.etsystatic.com/46731516/r/il/2421bb/7419936955/il_794xN.7419936955_jhjs.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Viking Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "alt": "Posavasos de madera vikingos de Craftygiftsplace",
+    "short_desc": "Pensado para mesas diarias, escritorios y rincones acogedores, con un grabado de inspiración vikinga que destaca enseguida en la mesa. Funciona especialmente bien en cuartos de hobbies y regalos con una dirección nórdica clara.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -2996,7 +2996,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/6fba28/5456284258/il_340x270.5456284258_lj80.jpg 340w, https://i.etsystatic.com/46731516/r/il/6fba28/5456284258/il_600x600.5456284258_lj80.jpg 600w, https://i.etsystatic.com/46731516/r/il/6fba28/5456284258/il_794xN.5456284258_lj80.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Checkers Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "Pensado para cuartos de juego, escritorios y mesas de fin de semana, con un tema más lúdico que destaca enseguida en la mesa. Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3176,7 +3176,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bde01c/6310421867/il_340x270.6310421867_jtom.jpg 340w, https://i.etsystatic.com/46731516/r/il/bde01c/6310421867/il_600x600.6310421867_jtom.jpg 600w, https://i.etsystatic.com/46731516/r/il/bde01c/6310421867/il_794xN.6310421867_jtom.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalizado Calendar Coaster de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas diarias, escritorios y rincones acogedores que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Da más carácter a mesas diarias, escritorios y rincones acogedores con un motivo con más carácter. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3234,7 +3234,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8d73d1/6307701661/il_340x270.6307701661_levg.jpg 340w, https://i.etsystatic.com/46731516/r/il/8d73d1/6307701661/il_600x600.6307701661_levg.jpg 600w, https://i.etsystatic.com/46731516/r/il/8d73d1/6307701661/il_794xN.6307701661_levg.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalizado Cork Back Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "Pensado para mesas diarias, escritorios y rincones acogedores, con un tema grabado con más fuerza que destaca enseguida en la mesa. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3292,7 +3292,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/3fbff0/5917328803/il_340x270.5917328803_7lr0.jpg 340w, https://i.etsystatic.com/46731516/r/il/3fbff0/5917328803/il_600x600.5917328803_7lr0.jpg 600w, https://i.etsystatic.com/46731516/r/il/3fbff0/5917328803/il_794xN.5917328803_7lr0.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Portuguese Tile Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un grabado cálido a mesas diarias, escritorios y rincones acogedores.",
+    "short_desc": "Para mesas diarias, escritorios y rincones acogedores, este set de madera aporta un acento de madera cálido con una sensación más serena. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3352,7 +3352,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/7007c4/6250051934/il_340x270.6250051934_7n2k.jpg 340w, https://i.etsystatic.com/46731516/r/il/7007c4/6250051934/il_600x600.6250051934_7n2k.jpg 600w, https://i.etsystatic.com/46731516/r/il/7007c4/6250051934/il_794xN.6250051934_7n2k.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Gothic Skull Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un detalle gótico a mesas auxiliares, estanterías y decoraciones marcadas.",
+    "short_desc": "Un set de posavasos práctico para mesas auxiliares, estanterías y decoraciones marcadas, rematado con un aire alternativo. Aporta un acento más oscuro para quien busca algo menos previsible.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3412,7 +3412,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8846b7/5446496422/il_340x270.5446496422_bjfu.jpg 340w, https://i.etsystatic.com/46731516/r/il/8846b7/5446496422/il_600x600.5446496422_bjfu.jpg 600w, https://i.etsystatic.com/46731516/r/il/8846b7/5446496422/il_794xN.5446496422_bjfu.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Aces Poker Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un motivo de juego a cuartos de juego, escritorios y mesas de fin de semana.",
+    "short_desc": "Pensado para cuartos de juego, escritorios y mesas de fin de semana, con un tema más lúdico que destaca enseguida en la mesa. Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3534,7 +3534,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/2b801b/5939846262/il_340x270.5939846262_aq1b.jpg 340w, https://i.etsystatic.com/46731516/r/il/2b801b/5939846262/il_600x600.5939846262_aq1b.jpg 600w, https://i.etsystatic.com/46731516/r/il/2b801b/5939846262/il_794xN.5939846262_aq1b.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Cricket Dad Coaster de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para cuartos de juego, escritorios y mesas de fin de semana que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Un set de posavasos práctico para cuartos de juego, escritorios y mesas de fin de semana, rematado con un motivo para zona de hobbies. Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3594,7 +3594,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/0efcb4/7488880455/il_340x270.7488880455_piz0.jpg 340w, https://i.etsystatic.com/46731516/r/il/0efcb4/7488880455/il_600x600.7488880455_piz0.jpg 600w, https://i.etsystatic.com/46731516/r/il/0efcb4/7488880455/il_794xN.7488880455_piz0.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Sugar Skull Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un detalle gótico a mesas auxiliares, estanterías y decoraciones marcadas.",
+    "short_desc": "Da más carácter a mesas auxiliares, estanterías y decoraciones marcadas con un tema místico más marcado. Aporta un acento más oscuro para quien busca algo menos previsible.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3654,7 +3654,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bca0c9/5333219114/il_340x270.5333219114_lv3n.jpg 340w, https://i.etsystatic.com/46731516/r/il/bca0c9/5333219114/il_600x600.5333219114_lv3n.jpg 600w, https://i.etsystatic.com/46731516/r/il/bca0c9/5333219114/il_794xN.5333219114_lv3n.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "DIY Halloween Kit Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un regalo util para hogares donde los detalles pequenos importan.",
+    "short_desc": "Para mesas auxiliares, estanterías y decoraciones marcadas, este set de madera aporta un aire alternativo con una sensación más serena. Aporta un acento más oscuro para quien busca algo menos previsible.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3675,7 +3675,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Dartboard Posavasos de madera",
+    "name": "Posavasos de madera con diseño de diana",
     "price": "24.99",
     "price_label": "EUR 24.99",
     "audience_keys": [
@@ -3711,8 +3711,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/bd6bcf/7481334728/il_600x600.7481334728_33ng.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bd6bcf/7481334728/il_340x270.7481334728_33ng.jpg 340w, https://i.etsystatic.com/46731516/r/il/bd6bcf/7481334728/il_600x600.7481334728_33ng.jpg 600w, https://i.etsystatic.com/46731516/r/il/bd6bcf/7481334728/il_794xN.7481334728_33ng.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Dartboard Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas diarias, escritorios y rincones acogedores que resulta mas calido que un simple extra de mesa.",
+    "alt": "Posavasos de madera con diseño de diana de Craftygiftsplace",
+    "short_desc": "Da más carácter a mesas diarias, escritorios y rincones acogedores con un diseño de diana. Encaja mejor en cuartos de juegos y regalos más divertidos que un set neutro.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -3999,7 +3999,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9e42b5/5479510204/il_340x270.5479510204_4i0v.jpg 340w, https://i.etsystatic.com/46731516/r/il/9e42b5/5479510204/il_600x600.5479510204_4i0v.jpg 600w, https://i.etsystatic.com/46731516/r/il/9e42b5/5479510204/il_794xN.5479510204_4i0v.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Tabletop Adventure Set de posavasos de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para cuartos de juego, escritorios y mesas de fin de semana que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Pensado para cuartos de juego, escritorios y mesas de fin de semana, con un tema más lúdico y un acabado más decorativo. Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -4112,7 +4112,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_340x270.5611355601_9mfy.jpg 340w, https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_600x600.5611355601_9mfy.jpg 600w, https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_794xN.5611355601_9mfy.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalizado Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "Pensado para mesas diarias, escritorios y rincones acogedores, con un tema grabado con más fuerza que destaca enseguida en la mesa. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -4345,7 +4345,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/d5691e/5456130459/il_340x270.5456130459_5mlp.jpg 340w, https://i.etsystatic.com/46731516/r/il/d5691e/5456130459/il_600x600.5456130459_5mlp.jpg 600w, https://i.etsystatic.com/46731516/r/il/d5691e/5456130459/il_794xN.5456130459_5mlp.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "FPS Gamer Set de posavasos de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "Un set de posavasos práctico para cuartos de juego, escritorios y mesas de fin de semana, rematado con un motivo para zona de hobbies. Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -4366,7 +4366,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Sports Ball Posavasos de madera",
+    "name": "Posavasos de madera con pelotas deportivas",
     "price": "7.99",
     "price_label": "EUR 7.99",
     "audience_keys": [
@@ -4402,8 +4402,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/891980/5503478891/il_600x600.5503478891_mg1a.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/891980/5503478891/il_340x270.5503478891_mg1a.jpg 340w, https://i.etsystatic.com/46731516/r/il/891980/5503478891/il_600x600.5503478891_mg1a.jpg 600w, https://i.etsystatic.com/46731516/r/il/891980/5503478891/il_794xN.5503478891_mg1a.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Sports Ball Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para mesas diarias, escritorios y rincones acogedores que resulta mas calido que un simple extra de mesa.",
+    "alt": "Posavasos de madera con pelotas deportivas de Craftygiftsplace",
+    "short_desc": "Da más carácter a mesas diarias, escritorios y rincones acogedores con motivos de pelotas deportivas. Tiene sentido para aficionados al deporte, salones compartidos y mesas de día de partido.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -4585,7 +4585,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/784d62/5456321300/il_340x270.5456321300_r9oc.jpg 340w, https://i.etsystatic.com/46731516/r/il/784d62/5456321300/il_600x600.5456321300_r9oc.jpg 600w, https://i.etsystatic.com/46731516/r/il/784d62/5456321300/il_794xN.5456321300_r9oc.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Fishing Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "Pensado para mesas diarias, escritorios y rincones acogedores, con un tema grabado con más fuerza que destaca enseguida en la mesa. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -4645,7 +4645,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/fbf85f/5872491538/il_340x270.5872491538_biw7.jpg 340w, https://i.etsystatic.com/46731516/r/il/fbf85f/5872491538/il_600x600.5872491538_biw7.jpg 600w, https://i.etsystatic.com/46731516/r/il/fbf85f/5872491538/il_794xN.5872491538_biw7.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Golf Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "short_desc": "Para cuartos de juego, escritorios y mesas de fin de semana, este set de madera aporta un motivo para zona de hobbies con una sensación más serena. Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -4666,7 +4666,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Bitcoin Posavasos de madera",
+    "name": "Posavasos de madera Bitcoin",
     "price": "7.99",
     "price_label": "EUR 7.99",
     "audience_keys": [
@@ -4702,8 +4702,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/af65d9/6310115112/il_600x600.6310115112_i33q.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/af65d9/6310115112/il_340x270.6310115112_i33q.jpg 340w, https://i.etsystatic.com/46731516/r/il/af65d9/6310115112/il_600x600.6310115112_i33q.jpg 600w, https://i.etsystatic.com/46731516/r/il/af65d9/6310115112/il_794xN.6310115112_i33q.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Bitcoin Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "alt": "Posavasos de madera Bitcoin de Craftygiftsplace",
+    "short_desc": "Pensado para mesas diarias, escritorios y rincones acogedores, con un grabado Bitcoin que destaca enseguida en la mesa. Funciona bien en despachos caseros y regalos con un tema más actual.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -4763,7 +4763,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/db8621/6360269569/il_340x270.6360269569_a57j.jpg 340w, https://i.etsystatic.com/46731516/r/il/db8621/6360269569/il_600x600.6360269569_a57j.jpg 600w, https://i.etsystatic.com/46731516/r/il/db8621/6360269569/il_794xN.6360269569_a57j.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Picasso Animal Line Art Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un detalle botánico a cocinas, mesas de invitados e interiores cálidos.",
+    "short_desc": "Pensado para cocinas, mesas de invitados e interiores cálidos, con un motivo natural que destaca enseguida en la mesa. Encaja con interiores que ya tiran hacia plantas, madera y detalles más suaves.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -5147,7 +5147,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/5f82fd/5844157974/il_340x270.5844157974_54wf.jpg 340w, https://i.etsystatic.com/46731516/r/il/5f82fd/5844157974/il_600x600.5844157974_54wf.jpg 600w, https://i.etsystatic.com/46731516/r/il/5f82fd/5844157974/il_794xN.5844157974_54wf.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Celestial Gato Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un motivo felino a mesas de centro, escritorios y rincones acogedores.",
+    "short_desc": "un motivo de gato celeste da más presencia a mesas de centro, escritorios y rincones acogedores sin cargar demasiado el conjunto. Funciona bien en casas acogedoras donde el detalle de gato debe sentirse cálido y discreto.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "cat-lover-gift",
@@ -5209,7 +5209,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/313bf1/7414342910/il_340x270.7414342910_5k0q.jpg 340w, https://i.etsystatic.com/46731516/r/il/313bf1/7414342910/il_600x600.7414342910_5k0q.jpg 600w, https://i.etsystatic.com/46731516/r/il/313bf1/7414342910/il_794xN.7414342910_5k0q.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Camping Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Un set de posavasos para habitaciones de invitados, terrazas y casas relajadas que resulta mas calido que un simple extra de mesa.",
+    "short_desc": "Da más carácter a habitaciones de invitados, terrazas y casas relajadas con un motivo con más carácter. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -5399,7 +5399,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b3a9fd/6310182096/il_340x270.6310182096_1c8i.jpg 340w, https://i.etsystatic.com/46731516/r/il/b3a9fd/6310182096/il_600x600.6310182096_1c8i.jpg 600w, https://i.etsystatic.com/46731516/r/il/b3a9fd/6310182096/il_794xN.6310182096_1c8i.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Hunting Life Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un grabado cálido a mesas diarias, escritorios y rincones acogedores.",
+    "short_desc": "un motivo con más carácter da más presencia a mesas diarias, escritorios y rincones acogedores sin cargar demasiado el conjunto. El conjunto da más identidad a la mesa que un set demasiado básico.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -5420,7 +5420,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Hand-Painted Wiccan Symbol Posavasos de madera",
+    "name": "Posavasos de madera con símbolos wiccanos pintados a mano",
     "price": "26.99",
     "price_label": "EUR 26.99",
     "audience_keys": [
@@ -5458,8 +5458,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/2c31a7/6333629560/il_600x600.6333629560_9ta6.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/2c31a7/6333629560/il_340x270.6333629560_9ta6.jpg 340w, https://i.etsystatic.com/46731516/r/il/2c31a7/6333629560/il_600x600.6333629560_9ta6.jpg 600w, https://i.etsystatic.com/46731516/r/il/2c31a7/6333629560/il_794xN.6333629560_9ta6.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Hand-Painted Wiccan Symbol Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Protege las mesas y lleva un detalle gótico a mesas auxiliares, estanterías y decoraciones marcadas.",
+    "alt": "Posavasos de madera con símbolos wiccanos pintados a mano de Craftygiftsplace",
+    "short_desc": "Pensado para mesas auxiliares, estanterías y decoraciones marcadas, con símbolos wiccanos pintados a mano y un acabado más decorativo. Añade una capa más oscura para compradores que prefieren un estilo más alternativo.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift"
@@ -5531,7 +5531,7 @@
     "locale": "es",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Mushroom Luna Posavasos de madera",
+    "name": "Posavasos de madera Setas y Luna",
     "price": "29.00",
     "price_label": "EUR 29.00",
     "audience_keys": [
@@ -5569,8 +5569,8 @@
     "image": "https://i.etsystatic.com/46731516/r/il/bd29be/7372563446/il_600x600.7372563446_2bxg.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bd29be/7372563446/il_340x270.7372563446_2bxg.jpg 340w, https://i.etsystatic.com/46731516/r/il/bd29be/7372563446/il_600x600.7372563446_2bxg.jpg 600w, https://i.etsystatic.com/46731516/r/il/bd29be/7372563446/il_794xN.7372563446_2bxg.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Mushroom Luna Posavasos de madera de Craftygiftsplace",
-    "short_desc": "Una opcion practica para bebidas del dia a dia con presencia clara de madera.",
+    "alt": "Posavasos de madera Setas y Luna de Craftygiftsplace",
+    "short_desc": "Un set de posavasos práctico para mesas de centro, auxiliares y ambientes suaves, rematado con un motivo de luna y setas. Va bien en rincones de lectura y casas con una atmósfera más soñadora.",
     "collection_desc": "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
     "intent_keys": [
       "housewarming-gift",

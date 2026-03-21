@@ -1,10 +1,10 @@
 {
-  "title": "Regalos de madera hechos a mano para lectores, amantes de los gatos y hogares acogedores | Craftygiftsplace",
-  "metaDescription": "Descubre regalos de madera hechos a mano para lectores, amantes de los gatos y hogares acogedores. Explora posavasos, marcapáginas y decoración de madera que lleva a Etsy.",
-  "h1": "Regalos de madera hechos a mano con encanto acogedor",
+  "title": "Posavasos de madera, marcapáginas y regalos con carácter | Craftygiftsplace",
+  "metaDescription": "Descubre los posavasos, marcapáginas y regalos de madera más vendidos antes de pasar a Etsy para ver todos los detalles.",
+  "h1": "Regalos de madera hechos a mano que merece la pena descubrir",
   "eyebrow": "4,96/5 en Etsy",
-  "intro": "Explora posavasos con temática de gatos, regalos para lectores y decoración de madera acogedora sin tener que revisar todo el catálogo.",
-  "heroSupport": "Empieza por los más vendidos y después navega por ocasión o por colección si quieres comparar mejor.",
+  "intro": "Empieza por las piezas que más se venden: posavasos grabados, marcapáginas y algunas ideas de regalo con personalidad que puedes comparar con calma antes de ir a Etsy.",
+  "heroSupport": "Mira primero los sets de posavasos más vendidos y después navega por ocasión o por colección si quieres ver más opciones.",
   "discoveryCta": {
     "label": "Descubrir los más vendidos",
     "target": "#featured-bestsellers"
@@ -14,9 +14,9 @@
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
   "heroProducts": [
-    "cat-and-moon-wooden-coasters",
-    "fantasy-reader-gift-set",
-    "moon-cat-shadow-tealight-holder"
+    "tree-of-life-wooden-coasters",
+    "sun-and-moon-wooden-coasters",
+    "viking-wooden-coasters"
   ],
   "sections": {
     "featuredCategories": {
@@ -76,16 +76,16 @@
   ],
   "featuredItems": [
     {
-      "slug": "cat-and-moon-wooden-coasters",
-      "summary": "Un set cálido de posavasos con temática felina para mesas de centro, aparadores y regalos pensados para amantes de los gatos."
+      "slug": "tree-of-life-wooden-coasters",
+      "summary": "Un set superventas que aporta un detalle cálido de madera a mesas de centro, estanterías y regalos para casa nueva."
     },
     {
-      "slug": "fantasy-reader-gift-set",
-      "summary": "Un set ya preparado con marcapáginas, colgador de puerta y posavasos para lectores de fantasía."
+      "slug": "sun-and-moon-wooden-coasters",
+      "summary": "Un diseño celestial para mesas de tarde, interiores acogedores y compradores que buscan una pieza con personalidad clara."
     },
     {
-      "slug": "moon-cat-shadow-tealight-holder",
-      "summary": "Un pequeño portavelas de madera que aporta ambiente a estanterías y rincones de lectura."
+      "slug": "viking-wooden-coasters",
+      "summary": "Un set grabado con fuerza para decoración nórdica, salas de ocio y regalos con un tema más marcado."
     }
   ],
   "intentCards": [
@@ -114,9 +114,9 @@
   "collectionCards": [
     {
       "title": "Posavasos de madera",
-      "description": "Sets de posavasos con temas de gatos, motivos celestiales y botánicos para mesas acogedoras, estanterías y regalos útiles.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Colección de posavasos de madera",
+      "description": "Sets de posavasos muy vendidos con diseños celestiales, naturales, vikingos y otros motivos con personalidad para mesas y estanterías.",
+      "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
+      "imageAlt": "Colección de posavasos de madera Árbol de la Vida",
       "href": "/es/pages/posavasos-de-madera.html"
     },
     {

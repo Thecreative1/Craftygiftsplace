@@ -1,10 +1,10 @@
 {
-  "title": "Handmade Wooden Gifts for Readers, Cat Lovers and Cozy Homes | Craftygiftsplace",
-  "metaDescription": "Discover handmade wooden gifts for readers, cat lovers and cozy homes. Browse bestselling coasters, bookmarks and warm wooden decor that lead shoppers to Etsy.",
-  "h1": "Handmade wooden gifts with cozy character",
+  "title": "Handmade Wooden Coasters, Bookmarks and Thoughtful Gifts | Craftygiftsplace",
+  "metaDescription": "Browse bestselling wooden coasters, bookmarks and thoughtful handmade gifts before heading to Etsy for full details and ordering.",
+  "h1": "Handmade wooden gifts worth a closer look",
   "eyebrow": "4.96/5 on Etsy",
-  "intro": "Shop cat-themed coasters, gifts for readers and warm wooden decor without digging through the full catalog first.",
-  "heroSupport": "Start with the bestsellers, then browse by occasion or collection when you want a closer look.",
+  "intro": "Start with the pieces people buy most: engraved wooden coasters, bookmarks and a few thoughtful gift ideas that are easy to compare before heading to Etsy.",
+  "heroSupport": "See the bestselling coaster sets first, then browse by occasion or collection when you want more options.",
   "discoveryCta": {
     "label": "Discover bestselling gifts",
     "target": "#featured-bestsellers"
@@ -14,9 +14,9 @@
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
   "heroProducts": [
-    "cat-and-moon-wooden-coasters",
-    "fantasy-reader-gift-set",
-    "moon-cat-shadow-tealight-holder"
+    "tree-of-life-wooden-coasters",
+    "sun-and-moon-wooden-coasters",
+    "viking-wooden-coasters"
   ],
   "sections": {
     "featuredCategories": {
@@ -76,16 +76,16 @@
   ],
   "featuredItems": [
     {
-      "slug": "cat-and-moon-wooden-coasters",
-      "summary": "A warm cat-themed coaster set for coffee tables, sideboards and thoughtful cat-lover gifts."
+      "slug": "tree-of-life-wooden-coasters",
+      "summary": "A bestselling coaster set that brings warm wood detail to coffee tables, shelves and housewarming gifts."
     },
     {
-      "slug": "fantasy-reader-gift-set",
-      "summary": "A ready-made gift set with a bookmark, door hanger and coasters for fantasy readers."
+      "slug": "sun-and-moon-wooden-coasters",
+      "summary": "A celestial set for cozy interiors, evening tables and shoppers who want a design with clear visual character."
     },
     {
-      "slug": "moon-cat-shadow-tealight-holder",
-      "summary": "A small wooden tealight holder that adds atmosphere to shelves and reading nooks."
+      "slug": "viking-wooden-coasters",
+      "summary": "A bold engraved coaster set for Norse-inspired decor, game rooms and gifts with a stronger theme."
     }
   ],
   "intentCards": [
@@ -114,9 +114,9 @@
   "collectionCards": [
     {
       "title": "Wooden coasters",
-      "description": "Cat, celestial and botanical coaster sets for cozy tables, shelves and thoughtful gifting.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Wooden coaster collection",
+      "description": "Bestselling coaster sets with celestial, nature, Norse and statement designs for tables, shelves and easy gifting.",
+      "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
+      "imageAlt": "Tree of Life wooden coaster collection",
       "href": "/en/pages/wooden-coasters.html"
     },
     {

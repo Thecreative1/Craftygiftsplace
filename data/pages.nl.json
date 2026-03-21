@@ -4,11 +4,11 @@
     "pairPath": "/en/index.html",
     "template": "home",
     "locale": "nl",
-    "title": "Handgemaakte Houten Cadeaus voor Lezers, Kattenliefhebbers en Gezellige Huizen | Craftygiftsplace",
-    "metaDescription": "Ontdek handgemaakte houten cadeaus voor lezers, kattenliefhebbers en gezellige huizen. Bekijk bestsellers in onderzetters, bladwijzers en warme houten decoratie die doorsturen naar Etsy.",
-    "h1": "Handgemaakte houten cadeaus met warme uitstraling",
+    "title": "Handgemaakte houten onderzetters, bladwijzers en betekenisvolle cadeaus | Craftygiftsplace",
+    "metaDescription": "Bekijk bestverkochte houten onderzetters, bladwijzers en handgemaakte cadeaus voordat je doorklikt naar Etsy voor alle details en bestellen.",
+    "h1": "Handgemaakte houten cadeaus die het waard zijn om te bekijken",
     "eyebrow": "4.96/5 op Etsy",
-    "intro": "Shop kattenthema-onderzetters, lezerscadeaus en warme houten decoratie zonder eerst door een brede catalogus te hoeven zoeken.",
+    "intro": "Begin met de stukken die het vaakst gekozen worden: gegraveerde houten onderzetters, bladwijzers en een paar betekenisvolle cadeau-ideeën die je hier rustig kunt vergelijken voordat je naar Etsy gaat.",
     "heroImage": "/assets/img/products/moon-cat-tealight-holder.jpg",
     "heroImageAlt": "Kat en maan houten theelichthouder van Craftygiftsplace",
     "heroCaption": "Kat en maan theelichthouder",
@@ -40,16 +40,16 @@
     },
     "featuredItems": [
       {
-        "slug": "cat-and-moon-wooden-coasters",
-        "summary": "Een warme onderzetterset met kattenthema voor salontafels, dressoirs en doordachte cadeaus voor kattenliefhebbers."
+        "slug": "tree-of-life-wooden-coasters",
+        "summary": "Een bestverkochte onderzetterset die warme houtdetails brengt naar salontafels, planken en verhuiscadeaus."
       },
       {
-        "slug": "fantasy-reader-gift-set",
-        "summary": "Een complete set met bladwijzer, deurhanger en onderzetters voor fantasylezers."
+        "slug": "sun-and-moon-wooden-coasters",
+        "summary": "Een hemels ontwerp voor gezellige interieurs, avondtafels en kopers die een set met duidelijk karakter zoeken."
       },
       {
-        "slug": "moon-cat-shadow-tealight-holder",
-        "summary": "Een klein decorstuk dat snel sfeer brengt op planken en in leeshoeken."
+        "slug": "viking-wooden-coasters",
+        "summary": "Een uitgesproken gegraveerde set voor Viking-inspiratie, hobbykamers en cadeaus met een sterker thema."
       }
     ],
     "intentCards": [
@@ -78,9 +78,9 @@
     "collectionCards": [
       {
         "title": "Houten onderzetters",
-        "description": "Kat-, hemelse en botanische onderzettersets voor gezellige tafels, planken en doordachte cadeaus.",
-        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-        "imageAlt": "Collectie houten onderzetters",
+        "description": "Bestverkochte onderzettersets met hemelse, natuur-, Viking- en andere uitgesproken ontwerpen voor tafels, planken en vlotte cadeaus.",
+        "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
+        "imageAlt": "Collectie levensboom houten onderzetters",
         "href": "/pages/onderzetters.html"
       },
       {
@@ -144,15 +144,15 @@
       "label": "Open de Etsy shop",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
-    "heroSupport": "Begin met de bestsellers en blader daarna per gelegenheid of collectie als je gerichter wilt kijken.",
+    "heroSupport": "Bekijk eerst de bestverkochte onderzettersets en blader daarna per gelegenheid of collectie als je meer opties wilt zien.",
     "discoveryCta": {
       "label": "Ontdek bestsellers",
       "target": "#featured-bestsellers"
     },
     "heroProducts": [
-      "cat-and-moon-wooden-coasters",
-      "fantasy-reader-gift-set",
-      "moon-cat-shadow-tealight-holder"
+      "tree-of-life-wooden-coasters",
+      "sun-and-moon-wooden-coasters",
+      "viking-wooden-coasters"
     ],
     "sections": {
       "featuredCategories": {
@@ -239,11 +239,11 @@
     "pairPath": "/en/pages/wooden-coasters.html",
     "template": "collection",
     "locale": "nl",
-    "title": "Handgemaakte Houten Onderzetters met Kat-, Hemel- en Botanische Thema's | Craftygiftsplace",
-    "metaDescription": "Bekijk handgemaakte houten onderzetters met kat-, hemel- en botanische thema's voor gezellige tafels, planken en doordachte cadeaus.",
-    "h1": "Handgemaakte houten onderzetters met kat-, hemel- en botanische thema's",
+    "title": "Handgemaakte houten onderzetters met hemelse, natuurlijke en opvallende gravures | Craftygiftsplace",
+    "metaDescription": "Bekijk handgemaakte houten onderzettersets met hemelse, natuurlijke, Viking- en andere gegraveerde ontwerpen voor tafels, planken en doordachte cadeaus.",
+    "h1": "Handgemaakte houten onderzetters met hemelse, natuurlijke en opvallende gravures",
     "eyebrow": "Collectie",
-    "intro": "Bekijk hier de gecureerde collectie onderzetters op één plek. Deze pagina blijft bewust productgericht, zodat bezoekers katten-, hemel- en botanische ontwerpen voor gezellige tafels kunnen vergelijken zonder dat ze meteen in bredere cadeaugidsen belanden.",
+    "intro": "Bekijk hier de gecureerde collectie onderzetters op één plek. Deze pagina blijft bewust productgericht, zodat bezoekers bestverkochte gegraveerde sets voor salontafels, bureaus en planken kunnen vergelijken zonder meteen tussen bredere cadeaugidsen te springen. Je vindt er rustige hemelse en natuurlijke ontwerpen naast uitgesproken keuzes zoals Viking-, spirituele en game-room thema's, zodat kiezen op stijl en sfeer eenvoudiger wordt voordat iemand doorklikt naar Etsy.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -298,40 +298,45 @@
     },
     "featuredItems": [
       {
-        "slug": "cat-and-moon-wooden-coasters",
-        "summary": "Een kattenthema-set die goed past bij knusse interieurs, verjaardagen en doordachte cadeaus."
+        "slug": "tree-of-life-wooden-coasters",
+        "summary": "Een bestverkochte onderzetterset die warme gravure naar salontafels, planken en makkelijke verhuiscadeaus brengt."
       },
       {
-        "slug": "zodiac-wooden-coasters",
-        "summary": "Een sterk verhuiscadeau wanneer iemand houten woondecoratie wil die toch meteen bruikbaar voelt op tafel."
+        "slug": "sun-and-moon-wooden-coasters",
+        "summary": "Een hemels ontwerp voor gezellige interieurs, avondtafels en kopers die een set met duidelijk karakter zoeken."
       },
       {
-        "slug": "floral-wooden-coasters",
-        "summary": "Een zachtere botanische set voor warme keukens, gastentafels en huizen die natuurlijker dan opvallend willen aanvoelen."
+        "slug": "viking-wooden-coasters",
+        "summary": "Een uitgesproken gegraveerde set voor Viking-inspiratie, hobbykamers en cadeaus met een sterker thema."
       }
     ],
     "featuredWhy": [
-      "Ze houdt het volledige aanbod onderzetters samen in één duidelijk overzicht.",
-      "Ze maakt het makkelijk om praktische tafelcadeaus en meer decoratieve thema's te vergelijken.",
-      "Ze wijst bezoekers door naar cadeaus voor kattenliefhebbers en verhuiscadeaus zodra ze iets gerichters zoeken."
+      "Ze houdt de bestverkochte onderzetterthema's samen in één duidelijk overzicht.",
+      "Ze maakt het makkelijk om rustigere tafelsets en uitgesproken statementontwerpen te vergelijken.",
+      "Ze verwijst nog steeds door naar cadeaus voor kattenliefhebbers, verhuiscadeaus en bredere houten cadeaupagina's zodra iemand gerichter zoekt."
     ],
     "catalog": {
       "mode": "slugs",
       "slugs": [
+        "tree-of-life-wooden-coasters",
+        "sun-and-moon-wooden-coasters",
+        "viking-wooden-coasters",
+        "buddha-wood-wooden-coasters",
+        "mushroom-moon-wooden-coasters",
+        "zodiac-wooden-coasters",
+        "hand-painted-wiccan-symbol-wooden-coasters",
+        "dartboard-wooden-coasters",
+        "sports-ball-wooden-coasters",
+        "bitcoin-wooden-coasters",
         "cat-and-moon-wooden-coasters",
         "cat-wooden-coasters",
         "celestial-cat-wooden-coasters",
-        "zodiac-wooden-coasters",
-        "sun-and-moon-wooden-coasters",
-        "mushroom-moon-wooden-coasters",
         "floral-wooden-coasters",
         "leaf-wooden-coasters",
-        "tree-of-life-wooden-coasters",
         "bee-motif-wooden-coasters",
-        "forest-animal-wooden-coasters",
-        "picasso-animal-line-art-wooden-coasters"
+        "forest-animal-wooden-coasters"
       ],
-      "intro": "Een gecureerde selectie onderzetters voor gezellige tafels, kattenliefhebbers en warme huizen.",
+      "intro": "Een gecureerde selectie onderzetters die bestverkochte tafelsets, warme wooncadeaus en meer uitgesproken gravures samenbrengt.",
       "ctaLabel": "Bekijk onderzetters op Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
     },
@@ -341,8 +346,8 @@
         "answer": "Ja. Veel ontwerpen passen goed bij nieuwe huizen omdat ze praktisch, decoratief en meteen bruikbaar op tafel zijn."
       },
       {
-        "question": "Hebben kattenthema's ook een eigen pagina?",
-        "answer": "Ja. De pagina voor cadeaus voor kattenliefhebbers verzamelt de kattengerichte onderzetters en bijpassende decoratie op één plek."
+        "question": "Vind ik hier ook uitgesproken onderzetterthema's?",
+        "answer": "Ja. Naast rustigere natuur- en hemelontwerpen bevat deze pagina ook sterkere thema's zoals Viking-, spirituele, gaming- en alternatieve gravures."
       },
       {
         "question": "Kan ik vanaf hier nog andere houten collecties vinden?",

@@ -1,10 +1,10 @@
 {
-  "title": "Cadeaux en bois faits main pour lecteurs, amoureux des chats et intérieurs chaleureux | Craftygiftsplace",
-  "metaDescription": "Découvrez des cadeaux en bois faits main pour lecteurs, amoureux des chats et intérieurs chaleureux. Parcourez des dessous-verres, marque-pages et objets déco en bois qui mènent vers Etsy.",
-  "h1": "Des cadeaux en bois faits main au charme chaleureux",
+  "title": "Dessous-verres en bois, marque-pages et cadeaux artisanaux | Craftygiftsplace",
+  "metaDescription": "Découvrez les dessous-verres, marque-pages et cadeaux en bois les plus appréciés avant de poursuivre sur Etsy pour les détails complets.",
+  "h1": "Des cadeaux en bois faits main à découvrir",
   "eyebrow": "4,96/5 sur Etsy",
-  "intro": "Parcourez des dessous-verres sur le thème du chat, des cadeaux pour lecteurs et une déco en bois chaleureuse sans devoir fouiller tout le catalogue.",
-  "heroSupport": "Commencez par les meilleures ventes, puis explorez par occasion ou par collection si vous voulez comparer davantage.",
+  "intro": "Commencez par les pièces les plus choisies : des dessous-verres gravés, des marque-pages et quelques idées cadeaux pleines de caractère à comparer tranquillement avant de poursuivre sur Etsy.",
+  "heroSupport": "Voyez d'abord les sets de dessous-verres les plus appréciés, puis explorez par occasion ou par collection si vous voulez plus d'options.",
   "discoveryCta": {
     "label": "Découvrir les meilleures ventes",
     "target": "#featured-bestsellers"
@@ -14,9 +14,9 @@
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
   "heroProducts": [
-    "cat-and-moon-wooden-coasters",
-    "fantasy-reader-gift-set",
-    "moon-cat-shadow-tealight-holder"
+    "tree-of-life-wooden-coasters",
+    "sun-and-moon-wooden-coasters",
+    "viking-wooden-coasters"
   ],
   "sections": {
     "featuredCategories": {
@@ -76,16 +76,16 @@
   ],
   "featuredItems": [
     {
-      "slug": "cat-and-moon-wooden-coasters",
-      "summary": "Un set de dessous-verres chaleureux au motif chat pour tables basses, buffets et cadeaux pensés pour les amoureux des chats."
+      "slug": "tree-of-life-wooden-coasters",
+      "summary": "Un set parmi les meilleures ventes qui apporte un détail chaleureux à une table basse, une étagère ou un cadeau de crémaillère."
     },
     {
-      "slug": "fantasy-reader-gift-set",
-      "summary": "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour lecteurs de fantasy."
+      "slug": "sun-and-moon-wooden-coasters",
+      "summary": "Un modèle céleste pour tables du soir, intérieurs cosy et cadeaux au style visuel affirmé."
     },
     {
-      "slug": "moon-cat-shadow-tealight-holder",
-      "summary": "Un petit porte-bougie en bois qui apporte une ambiance douce aux étagères et coins lecture."
+      "slug": "viking-wooden-coasters",
+      "summary": "Un set gravé au style nordique pour décors inspirés des sagas, bureaux et cadeaux plus marqués."
     }
   ],
   "intentCards": [
@@ -114,9 +114,9 @@
   "collectionCards": [
     {
       "title": "Dessous-verres en bois",
-      "description": "Sets de dessous-verres chats, célestes et botaniques pour tables chaleureuses, étagères et cadeaux bien choisis.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Collection de dessous-verres en bois",
+      "description": "Des sets de dessous-verres appréciés, entre motifs célestes, nature, inspirations nordiques et autres designs affirmés pour tables et étagères.",
+      "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
+      "imageAlt": "Collection de dessous-verres en bois Arbre de vie",
       "href": "/fr/pages/sous-verres-en-bois.html"
     },
     {

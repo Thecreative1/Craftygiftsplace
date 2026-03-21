@@ -14,7 +14,14 @@ const CATEGORY_MAP = {
   "checkers-wooden-coasters": "Dam houten onderzetters",
   "cricket-dad-coaster": "Cricket papa houten onderzetters",
   "dartboard-wooden-coasters": "Dartbord houten onderzetters",
-    "fantasy-sword-wooden-bookmark": "Fantasiezwaard houten bladwijzer",
+  "bitcoin-wooden-coasters": "Bitcoin houten onderzetters",
+  "buddha-wood-wooden-coasters": "Boeddha, OM en lotus houten onderzetters",
+  "hand-painted-wiccan-symbol-wooden-coasters": "Handbeschilderde wicca-symbool houten onderzetters",
+  "mushroom-moon-wooden-coasters": "Paddenstoel en maan houten onderzetters",
+  "sports-ball-wooden-coasters": "Sportbal houten onderzetters",
+  "sun-and-moon-wooden-coasters": "Zon en maan houten onderzetters",
+  "tree-of-life-wooden-coasters": "Levensboom houten onderzetters",
+  "fantasy-sword-wooden-bookmark": "Fantasiezwaard houten bladwijzer",
   "tabletop-adventure-coaster-set": "Tafelspel-avontuur houten onderzetters",
   "rocket-wooden-bookmark": "Raket houten bladwijzer",
   "1984-inspired-wooden-bookmark": "1984-geinspireerde houten bladwijzer",
@@ -48,8 +55,12 @@ const GERMAN_NAME_OVERRIDES = {
     "fantasy-reader-gift-set": "Fantasy-Leserset",
     "fantasy-sword-wooden-bookmark": "Fantasy-Schwert Holzlesezeichen",
     "fantasy-wooden-coasters": "Fantasy Holzuntersetzer",
+  "bitcoin-wooden-coasters": "Bitcoin-Holzuntersetzer",
+  "buddha-wood-wooden-coasters": "Buddha-, OM- und Lotus-Holzuntersetzer",
+  "dartboard-wooden-coasters": "Dartscheiben-Holzuntersetzer",
   "floral-wooden-coasters": "Blumenmotiv Holzuntersetzer",
   "forest-animal-wooden-coasters": "Waldtiere Holzuntersetzer",
+  "hand-painted-wiccan-symbol-wooden-coasters": "Handbemalte Wicca-Symbol-Holzuntersetzer",
   "laser-birch-wood-incense-burner": "Räucherhalter aus Birkenholz",
   "leaf-wooden-coasters": "Blattmotiv Holzuntersetzer",
   "lighthouse-wooden-bookmark": "Leuchtturm Holzlesezeichen",
@@ -60,6 +71,8 @@ const GERMAN_NAME_OVERRIDES = {
     "just-married-wedding-money-holder": "Geldgeschenkhalter zur Hochzeit",
     "personalized-pet-memorial-plaque": "Personalisierte Haustier-Gedenkplakette",
   "picasso-animal-line-art-wooden-coasters": "Picasso Tier Line Art Holzuntersetzer",
+  "sports-ball-wooden-coasters": "Holzuntersetzer mit Sportball-Motiven",
+  "viking-wooden-coasters": "Wikinger-Holzuntersetzer",
   "sun-and-moon-wooden-coasters": "Sonne und Mond Holzuntersetzer",
   "tree-of-life-wooden-coasters": "Lebensbaum Holzuntersetzer",
   "zodiac-wooden-coasters": "Sternzeichen Holzuntersetzer"
@@ -524,7 +537,7 @@ const LABELS = {
     },
     benefitSecondary: {
       coasters: "setzt thematische Deko",
-      bookmarks: "macht ein Buchgeschenk persönlicher",
+      bookmarks: "macht ein Geschenk für Leser persönlicher",
       "door-hanger": "setzt schon vor dem Eintreten den richtigen Ton",
       "decor-piece": "legt einen warmen thematischen Akzent",
       keepsake: "macht den Moment leichter bewahrbar",
@@ -564,7 +577,7 @@ const LABELS = {
       bookmarks: {
         fantasy: "Buchstapeln, Abendlektüre und Fantasy-Regalen",
         celestial: "Lesetagebüchern, Nachttischen und ruhigen Lesestunden",
-        botanical: "Buchgeschenken, Stofftaschen und stillen Lesemomenten",
+        botanical: "Lesetagebüchern, Stofftaschen und stillen Lesemomenten",
         gothic: "Dark-Academia-Regalen und dramatischen Leseecken",
         default: "Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen"
       },
@@ -1227,59 +1240,95 @@ function applyNameReplacements(name, replacements) {
 }
 
 const FRENCH_NAME_OVERRIDES = {
+    "bitcoin-wooden-coasters": "Dessous-verres en bois Bitcoin",
+    "buddha-wood-wooden-coasters": "Dessous-verres en bois Bouddha, OM et lotus",
+    "dartboard-wooden-coasters": "Dessous-verres en bois motif cible",
     "dragon-eye-wooden-bookmark": "Marque-page oeil de dragon en bois",
     "dragon-wooden-bookmark": "Marque-page dragon en bois",
     "epic-fantasy-wooden-bookmark": "Marque-page fantasy épique en bois",
     "fantasy-reader-gift-set": "Coffret pour lecteurs de fantasy",
     "fantasy-sword-wooden-bookmark": "Marque-page épée fantasy en bois",
     "fantasy-wooden-coasters": "Dessous-verres fantasy en bois",
+    "hand-painted-wiccan-symbol-wooden-coasters": "Dessous-verres en bois symboles wiccans peints à la main",
+    "mushroom-moon-wooden-coasters": "Dessous-verres en bois champignons et lune",
     "moon-cat-shadow-tealight-holder": "Porte-bougie lune et chat",
     "personalized-feather-wooden-bookmark": "Marque-page en bois personnalisé avec plume",
     "personalized-just-married-wooden-door-hanger": "Suspension de porte personnalisée jeunes mariés",
     "just-married-wedding-money-holder": "Porte-billets de mariage pour jeunes mariés",
-    "epic-fantasy-door-sign": "Plaque de porte fantasy"
+    "epic-fantasy-door-sign": "Plaque de porte fantasy",
+    "sports-ball-wooden-coasters": "Dessous-verres en bois ballons de sport",
+    "sun-and-moon-wooden-coasters": "Dessous-verres en bois Soleil et lune",
+    "tree-of-life-wooden-coasters": "Dessous-verres en bois Arbre de vie",
+    "viking-wooden-coasters": "Dessous-verres en bois vikings"
   };
 
 const SPANISH_NAME_OVERRIDES = {
+    "bitcoin-wooden-coasters": "Posavasos de madera Bitcoin",
+    "buddha-wood-wooden-coasters": "Posavasos de madera Buda, OM y loto",
+    "dartboard-wooden-coasters": "Posavasos de madera con diseño de diana",
     "dragon-eye-wooden-bookmark": "Marcapáginas ojo de dragón en madera",
     "dragon-wooden-bookmark": "Marcapáginas dragón en madera",
     "epic-fantasy-wooden-bookmark": "Marcapáginas de fantasía épica en madera",
     "fantasy-reader-gift-set": "Set de fantasía para lectores",
     "fantasy-sword-wooden-bookmark": "Marcapáginas espada de fantasía en madera",
     "fantasy-wooden-coasters": "Posavasos de madera de fantasía",
+    "hand-painted-wiccan-symbol-wooden-coasters": "Posavasos de madera con símbolos wiccanos pintados a mano",
+    "mushroom-moon-wooden-coasters": "Posavasos de madera Setas y Luna",
     "moon-cat-shadow-tealight-holder": "Portavelas gato y luna",
     "personalized-feather-wooden-bookmark": "Marcapáginas de madera personalizado con pluma",
     "personalized-just-married-wooden-door-hanger": "Colgador de puerta personalizado para recién casados",
     "just-married-wedding-money-holder": "Portaefectivo de boda para recién casados",
-    "epic-fantasy-door-sign": "Placa de puerta de fantasía"
+    "epic-fantasy-door-sign": "Placa de puerta de fantasía",
+    "sports-ball-wooden-coasters": "Posavasos de madera con pelotas deportivas",
+    "sun-and-moon-wooden-coasters": "Posavasos de madera Sol y Luna",
+    "tree-of-life-wooden-coasters": "Posavasos de madera Árbol de la Vida",
+    "viking-wooden-coasters": "Posavasos de madera vikingos"
   };
 
 const PORTUGUESE_NAME_OVERRIDES = {
+    "bitcoin-wooden-coasters": "Porta-copos de madeira Bitcoin",
+    "buddha-wood-wooden-coasters": "Porta-copos de madeira Buda, OM e lótus",
+    "dartboard-wooden-coasters": "Porta-copos de madeira com padrão de alvo de dardos",
     "dragon-eye-wooden-bookmark": "Marcador olho de dragão em madeira",
     "dragon-wooden-bookmark": "Marcador dragão em madeira",
     "epic-fantasy-wooden-bookmark": "Marcador de fantasia épica em madeira",
     "fantasy-reader-gift-set": "Conjunto de fantasia para leitores",
     "fantasy-sword-wooden-bookmark": "Marcador espada de fantasia em madeira",
     "fantasy-wooden-coasters": "Porta-copos de madeira de fantasia",
+    "hand-painted-wiccan-symbol-wooden-coasters": "Porta-copos de madeira com símbolos wiccanos pintados à mão",
+    "mushroom-moon-wooden-coasters": "Porta-copos de madeira Cogumelos e Lua",
     "moon-cat-shadow-tealight-holder": "Porta-vela gato e lua",
     "personalized-feather-wooden-bookmark": "Marcador de livros personalizado com pena",
     "personalized-just-married-wooden-door-hanger": "Pendente de porta personalizado para recém-casados",
     "just-married-wedding-money-holder": "Porta-dinheiro de casamento para recém-casados",
-    "epic-fantasy-door-sign": "Placa de porta de fantasia"
+    "epic-fantasy-door-sign": "Placa de porta de fantasia",
+    "sports-ball-wooden-coasters": "Porta-copos de madeira com bolas de desporto",
+    "sun-and-moon-wooden-coasters": "Porta-copos de madeira Sol e Lua",
+    "tree-of-life-wooden-coasters": "Porta-copos de madeira Árvore da Vida",
+    "viking-wooden-coasters": "Porta-copos de madeira viking"
   };
 
 const ITALIAN_NAME_OVERRIDES = {
+  "bitcoin-wooden-coasters": "Sottobicchieri in legno Bitcoin",
+  "buddha-wood-wooden-coasters": "Sottobicchieri in legno Buddha, OM e loto",
+  "dartboard-wooden-coasters": "Sottobicchieri in legno motivo bersaglio",
   "dragon-eye-wooden-bookmark": "Segnalibro occhio di drago in legno",
   "dragon-wooden-bookmark": "Segnalibro drago in legno",
   "epic-fantasy-wooden-bookmark": "Segnalibro fantasy epico in legno",
   "fantasy-reader-gift-set": "Set per lettori fantasy",
   "fantasy-sword-wooden-bookmark": "Segnalibro spada fantasy in legno",
-    "fantasy-wooden-coasters": "Sottobicchieri fantasy in legno",
-    "moon-cat-shadow-tealight-holder": "Portacandela gatto e luna",
-    "personalized-feather-wooden-bookmark": "Segnalibro in legno personalizzato con piuma",
-    "personalized-just-married-wooden-door-hanger": "Targhetta da porta personalizzata per novelli sposi",
-    "just-married-wedding-money-holder": "Portasoldi matrimonio per novelli sposi",
-    "epic-fantasy-door-sign": "Targa da porta fantasy"
+  "fantasy-wooden-coasters": "Sottobicchieri fantasy in legno",
+  "hand-painted-wiccan-symbol-wooden-coasters": "Sottobicchieri in legno con simboli wiccani dipinti a mano",
+  "moon-cat-shadow-tealight-holder": "Portacandela gatto e luna",
+  "mushroom-moon-wooden-coasters": "Sottobicchieri in legno funghi e luna",
+  "personalized-feather-wooden-bookmark": "Segnalibro in legno personalizzato con piuma",
+  "personalized-just-married-wooden-door-hanger": "Targhetta da porta personalizzata per novelli sposi",
+  "just-married-wedding-money-holder": "Portasoldi matrimonio per novelli sposi",
+  "epic-fantasy-door-sign": "Targa da porta fantasy",
+  "sports-ball-wooden-coasters": "Sottobicchieri in legno con palloni sportivi",
+  "sun-and-moon-wooden-coasters": "Sottobicchieri in legno Sole e luna",
+  "tree-of-life-wooden-coasters": "Sottobicchieri in legno Albero della vita",
+  "viking-wooden-coasters": "Sottobicchieri in legno vichinghi"
   };
 
 const FRENCH_NAME_REPLACEMENTS = [
@@ -1618,7 +1667,531 @@ function pickVariant(seed, total) {
   return hash % total;
 }
 
-function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrimary, motif, usageContext, audience) {
+function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
+  const specificHooks = [
+    {
+      pattern: /tree-of-life/,
+      noteGroup: "nature-home",
+      labels: {
+        en: "tree of life engraving",
+        nl: "een levensboomgravure",
+        de: "einer Lebensbaum-Gravur",
+        fr: "une gravure arbre de vie",
+        es: "un grabado de árbol de la vida",
+        pt: "uma gravura de árvore da vida",
+        it: "un'incisione albero della vita"
+      }
+    },
+    {
+      pattern: /sun-and-moon/,
+      noteGroup: "evening",
+      labels: {
+        en: "sun and moon engraving",
+        nl: "een zon- en maangravure",
+        de: "einer Sonne-und-Mond-Gravur",
+        fr: "une gravure soleil et lune",
+        es: "un grabado de sol y luna",
+        pt: "uma gravura de sol e lua",
+        it: "un'incisione sole e luna"
+      }
+    },
+    {
+      pattern: /zodiac/,
+      noteGroup: "astrology",
+      labels: {
+        en: "zodiac-inspired engraving",
+        nl: "een gravure met sterrenbeeldthema",
+        de: "einer Gravur mit Sternzeichenmotiv",
+        fr: "une gravure inspirée du zodiaque",
+        es: "un grabado inspirado en el zodiaco",
+        pt: "uma gravura inspirada no zodíaco",
+        it: "un'incisione ispirata allo zodiaco"
+      }
+    },
+    {
+      pattern: /mushroom-moon/,
+      noteGroup: "dreamy",
+      labels: {
+        en: "a moon-and-mushroom motif",
+        nl: "een maan- en paddenstoelmotief",
+        de: "einem Mond-und-Pilz-Motiv",
+        fr: "un motif lune et champignons",
+        es: "un motivo de luna y setas",
+        pt: "um motivo de lua e cogumelos",
+        it: "un motivo luna e funghi"
+      }
+    },
+    {
+      pattern: /cat-and-moon/,
+      noteGroup: "cat-home",
+      labels: {
+        en: "cat and moon engraving",
+        nl: "een kat-en-maangravure",
+        de: "einer Katze-und-Mond-Gravur",
+        fr: "une gravure chat et lune",
+        es: "un grabado de gato y luna",
+        pt: "uma gravura de gato e lua",
+        it: "un'incisione gatto e luna"
+      }
+    },
+    {
+      pattern: /celestial-cat/,
+      noteGroup: "cat-home",
+      labels: {
+        en: "a celestial cat motif",
+        nl: "een hemels kattenmotief",
+        de: "einem himmlischen Katzenmotiv",
+        fr: "un motif chat céleste",
+        es: "un motivo de gato celeste",
+        pt: "um motivo de gato celeste",
+        it: "un motivo gatto celeste"
+      }
+    },
+    {
+      pattern: /leaf/,
+      noteGroup: "nature-home",
+      labels: {
+        en: "leaf-inspired engraving",
+        nl: "een gravure met bladdetail",
+        de: "einer Gravur mit Blattdetail",
+        fr: "une gravure feuillage",
+        es: "un grabado de hojas",
+        pt: "uma gravura de folhas",
+        it: "un'incisione a foglia"
+      }
+    },
+    {
+      pattern: /floral/,
+      noteGroup: "nature-home",
+      labels: {
+        en: "a floral engraving",
+        nl: "een bloemengravure",
+        de: "einer floralen Gravur",
+        fr: "une gravure florale",
+        es: "un grabado floral",
+        pt: "uma gravura floral",
+        it: "un'incisione floreale"
+      }
+    },
+    {
+      pattern: /bee-motif/,
+      noteGroup: "nature-home",
+      labels: {
+        en: "a bee motif",
+        nl: "een bijenmotief",
+        de: "einem Bienenmotiv",
+        fr: "un motif abeille",
+        es: "un motivo de abeja",
+        pt: "um motivo de abelha",
+        it: "un motivo ape"
+      }
+    },
+    {
+      pattern: /forest-animal/,
+      noteGroup: "forest",
+      labels: {
+        en: "forest-animal detail",
+        nl: "een bosdierdetail",
+        de: "einem Waldtier-Detail",
+        fr: "un détail animalier de forêt",
+        es: "un detalle de animales del bosque",
+        pt: "um detalhe de animais da floresta",
+        it: "un dettaglio di animali del bosco"
+      }
+    },
+    {
+      pattern: /viking/,
+      noteGroup: "norse",
+      labels: {
+        en: "Viking-inspired engraving",
+        nl: "een Vikinggravure",
+        de: "einer Wikinger-Gravur",
+        fr: "une gravure d'inspiration viking",
+        es: "un grabado de inspiración vikinga",
+        pt: "uma gravura de inspiração viking",
+        it: "un'incisione di ispirazione vichinga"
+      }
+    },
+    {
+      pattern: /buddha/,
+      noteGroup: "spiritual",
+      labels: {
+        en: "Buddha, OM and lotus detail",
+        nl: "een Boeddha-, OM- en lotusdetail",
+        de: "einem Buddha-, OM- und Lotus-Detail",
+        fr: "un détail Bouddha, OM et lotus",
+        es: "un detalle de Buda, OM y loto",
+        pt: "um detalhe de Buda, OM e lótus",
+        it: "un dettaglio Buddha, OM e loto"
+      }
+    },
+    {
+      pattern: /dartboard/,
+      noteGroup: "games",
+      labels: {
+        en: "a dartboard design",
+        nl: "een dartbordmotief",
+        de: "einem Dartscheibenmotiv",
+        fr: "un motif cible",
+        es: "un diseño de diana",
+        pt: "um padrão de alvo de dardos",
+        it: "un motivo bersaglio"
+      }
+    },
+    {
+      pattern: /sports-ball/,
+      noteGroup: "sports",
+      labels: {
+        en: "sports-ball graphics",
+        nl: "sportbalmotieven",
+        de: "Sportball-Motiven",
+        fr: "des motifs ballons de sport",
+        es: "motivos de pelotas deportivas",
+        pt: "motivos de bolas de desporto",
+        it: "motivi con palloni sportivi"
+      }
+    },
+    {
+      pattern: /bitcoin/,
+      noteGroup: "desk",
+      labels: {
+        en: "Bitcoin engraving",
+        nl: "een Bitcoingravure",
+        de: "einer Bitcoin-Gravur",
+        fr: "une gravure Bitcoin",
+        es: "un grabado Bitcoin",
+        pt: "uma gravura Bitcoin",
+        it: "un'incisione Bitcoin"
+      }
+    },
+    {
+      pattern: /wiccan/,
+      noteGroup: "gothic",
+      labels: {
+        en: "painted Wiccan symbols",
+        nl: "handbeschilderde wicca-symbolen",
+        de: "handbemalten Wicca-Symbolen",
+        fr: "des symboles wiccans peints à la main",
+        es: "símbolos wiccanos pintados a mano",
+        pt: "símbolos wiccanos pintados à mão",
+        it: "simboli wiccani dipinti a mano"
+      }
+    }
+  ];
+
+  const hooks = {
+    en: {
+      cat: ["cat-themed engraving", "a feline accent", "playful cat detail"],
+      celestial: ["sun, moon and star detail", "a celestial engraving", "evening-inspired linework"],
+      botanical: ["leaf and nature-inspired detail", "a natural engraved pattern", "woodland-style detail"],
+      gaming: ["a game-room theme", "a playful hobby motif", "a more playful engraved look"],
+      gothic: ["darker symbolic detail", "an alternative engraved mood", "a bolder mystical theme"],
+      faith: ["spiritual engraved symbols", "a calm spiritual theme", "meaningful symbolic detail"],
+      default: ["a stronger engraved theme", "a warmer handmade accent", "a standout wooden motif"]
+    },
+    nl: {
+      cat: ["een kattenthema", "een speels kattendetail", "een warme kattengravure"],
+      celestial: ["een zon-, maan- en sterdetail", "een hemelse gravure", "een rustig avondthema"],
+      botanical: ["een natuurlijk bladmotief", "een gravure met natuurdetail", "een warm botanisch accent"],
+      gaming: ["een speelser hobbythema", "een game-room detail", "een luchtiger gegraveerd motief"],
+      gothic: ["een donkerder symbolisch detail", "een alternatieve sfeer", "een sterker mystiek thema"],
+      faith: ["spirituele symbolen", "een rustig spiritueel accent", "een betekenisvolle gravure"],
+      default: ["een uitgesproken gravure", "een warmer houten accent", "een motief met meer karakter"]
+    },
+    de: {
+      cat: ["eine Katzen-Gravur", "ein verspieltes Katzenmotiv", "ein warmes Katzendetail"],
+      celestial: ["Sonne-, Mond- und Sterndetails", "eine himmlische Gravur", "eine ruhige Abendstimmung"],
+      botanical: ["ein Naturmotiv", "eine Gravur mit Blattdetail", "ein warmes botanisches Muster"],
+      gaming: ["ein spielerisches Hobby-Motiv", "ein Game-Room-Thema", "eine lockere gravierte Optik"],
+      gothic: ["dunklere Symbolik", "eine alternative Stimmung", "ein mystisches Detail"],
+      faith: ["spirituelle Symbole", "eine ruhige spirituelle Note", "eine bedeutungsvolle Gravur"],
+      default: ["eine markantere Gravur", "ein warmes Holzdetail", "ein Motiv mit mehr Charakter"]
+    },
+    fr: {
+      cat: ["un motif chat", "un détail félin", "une gravure autour du chat"],
+      celestial: ["un décor soleil, lune et étoiles", "une gravure céleste", "une ambiance de soirée"],
+      botanical: ["un motif nature", "un détail végétal gravé", "une touche botanique chaleureuse"],
+      gaming: ["un thème plus ludique", "un motif pour coin loisirs", "un style gravé plus joueur"],
+      gothic: ["une symbolique plus sombre", "une ambiance alternative", "un thème mystique marqué"],
+      faith: ["des symboles spirituels", "une note spirituelle apaisante", "une gravure pleine de sens"],
+      default: ["un thème gravé plus marqué", "une touche bois chaleureuse", "un motif qui a du caractère"]
+    },
+    es: {
+      cat: ["un motivo de gato", "un detalle felino", "un grabado con tema de gato"],
+      celestial: ["un detalle de sol, luna y estrellas", "un grabado celeste", "un aire de final del día"],
+      botanical: ["un motivo natural", "un detalle botánico grabado", "un acento vegetal cálido"],
+      gaming: ["un tema más lúdico", "un motivo para zona de hobbies", "un diseño grabado más juguetón"],
+      gothic: ["una simbología más oscura", "un aire alternativo", "un tema místico más marcado"],
+      faith: ["símbolos espirituales", "un detalle espiritual sereno", "un grabado con significado"],
+      default: ["un tema grabado con más fuerza", "un acento de madera cálido", "un motivo con más carácter"]
+    },
+    pt: {
+      cat: ["um tema de gato", "um detalhe felino", "uma gravura com inspiração felina"],
+      celestial: ["um detalhe de sol, lua e estrelas", "uma gravura celeste", "um ambiente de fim de dia"],
+      botanical: ["um motivo natural", "um detalhe botânico gravado", "um apontamento vegetal acolhedor"],
+      gaming: ["um tema mais lúdico", "um motivo para zona de hobbies", "um desenho gravado mais leve"],
+      gothic: ["uma simbologia mais escura", "um ambiente alternativo", "um tema místico mais marcado"],
+      faith: ["símbolos espirituais", "um detalhe espiritual sereno", "uma gravura com significado"],
+      default: ["um tema gravado com mais presença", "um apontamento de madeira acolhedor", "um motivo com mais carácter"]
+    },
+    it: {
+      cat: ["un motivo a tema gatto", "un dettaglio felino", "un'incisione ispirata ai gatti"],
+      celestial: ["un dettaglio sole, luna e stelle", "un'incisione celeste", "un'atmosfera da fine giornata"],
+      botanical: ["un motivo naturale", "un dettaglio botanico inciso", "un accento vegetale caldo"],
+      gaming: ["un tema più giocoso", "un motivo per la stanza hobby", "un look inciso più dinamico"],
+      gothic: ["una simbologia più scura", "un'atmosfera alternativa", "un tema mistico più deciso"],
+      faith: ["simboli spirituali", "un dettaglio spirituale sereno", "un'incisione piena di significato"],
+      default: ["un tema inciso più deciso", "un caldo dettaglio in legno", "un motivo con più carattere"]
+    }
+  };
+
+  const templates = {
+    en: [
+      `${usageContext} feel more distinctive with %HOOK%.`,
+      `Built for ${usageContext}, with %HOOK% that stands out on the table.`,
+      `A practical coaster set for ${usageContext}, finished with %HOOK%.`,
+      `%HOOK% gives ${usageContext} a more intentional look without overdoing it.`,
+      `Made to suit ${usageContext}, with %HOOK% and a more decorative finish.`,
+      `For ${usageContext}, this wooden set brings in %HOOK% with a calmer handmade feel.`
+    ],
+    nl: [
+      `Geeft ${usageContext} meer karakter met %HOOK%.`,
+      `Gemaakt voor ${usageContext}, met %HOOK% die meteen opvalt op tafel.`,
+      `Een praktische onderzetterset voor ${usageContext}, afgewerkt met %HOOK%.`,
+      `%HOOK% geeft ${usageContext} meer sfeer zonder te nadrukkelijk te worden.`,
+      `Gemaakt voor ${usageContext}, met %HOOK% en een decoratievere afwerking.`,
+      `Voor ${usageContext} brengt deze houten set %HOOK% met een rustiger handgemaakt gevoel.`
+    ],
+    de: [
+      `Gibt ${usageContext} mehr Charakter mit %HOOK%.`,
+      `Gemacht für ${usageContext}, mit %HOOK%, die auf dem Tisch direkt auffällt.`,
+      `Ein praktisches Untersetzer-Set für ${usageContext}, veredelt mit %HOOK%.`,
+      `%HOOK% gibt ${usageContext} mehr Stimmung, ohne zu dominant zu wirken.`,
+      `Passend für ${usageContext}, mit %HOOK% und einer dekorativeren Ausstrahlung.`,
+      `Für ${usageContext} bringt dieses Holzset %HOOK% mit einem ruhigeren handgemachten Eindruck.`
+    ],
+    fr: [
+      `Apporte plus de caractère à ${usageContext} grâce à %HOOK%.`,
+      `Pensé pour ${usageContext}, avec %HOOK% qui se remarque vite sur la table.`,
+      `Un set de dessous-verres pratique pour ${usageContext}, avec %HOOK%.`,
+      `%HOOK% donne plus de présence à ${usageContext} sans en faire trop.`,
+      `Pensé pour ${usageContext}, avec %HOOK% et une finition plus décorative.`,
+      `Pour ${usageContext}, ce set en bois apporte %HOOK% avec un rendu plus apaisé.`
+    ],
+    es: [
+      `Da más carácter a ${usageContext} con %HOOK%.`,
+      `Pensado para ${usageContext}, con %HOOK% que destaca enseguida en la mesa.`,
+      `Un set de posavasos práctico para ${usageContext}, rematado con %HOOK%.`,
+      `%HOOK% da más presencia a ${usageContext} sin cargar demasiado el conjunto.`,
+      `Pensado para ${usageContext}, con %HOOK% y un acabado más decorativo.`,
+      `Para ${usageContext}, este set de madera aporta %HOOK% con una sensación más serena.`
+    ],
+    pt: [
+      `Dá mais carácter a ${usageContext} com %HOOK%.`,
+      `Pensado para ${usageContext}, com %HOOK% que se nota logo na mesa.`,
+      `Um conjunto de porta-copos prático para ${usageContext}, rematado com %HOOK%.`,
+      `%HOOK% dá mais presença a ${usageContext} sem pesar demasiado no conjunto.`,
+      `Pensado para ${usageContext}, com %HOOK% e um acabamento mais decorativo.`,
+      `Para ${usageContext}, este conjunto em madeira traz %HOOK% com uma sensação mais serena.`
+    ],
+    it: [
+      `Dà più carattere a ${usageContext} con %HOOK%.`,
+      `Pensato per ${usageContext}, con %HOOK% che si nota subito sul tavolo.`,
+      `Un set di sottobicchieri pratico per ${usageContext}, rifinito con %HOOK%.`,
+      `%HOOK% dà più presenza a ${usageContext} senza appesantire l'insieme.`,
+      `Pensato per ${usageContext}, con %HOOK% e una finitura più decorativa.`,
+      `Per ${usageContext}, questo set in legno porta %HOOK% con un'atmosfera più calma.`
+    ]
+  };
+
+  const themeNotes = {
+    en: {
+      cat: "It fits homes that enjoy a subtle cat theme without taking over the room.",
+      celestial: "It suits calmer rooms, evening tables and shoppers who like a little atmosphere.",
+      botanical: "It works especially well in homes that already lean into plants, wood and softer decor.",
+      gaming: "It feels right in hobby spaces and gift picks with a more playful theme.",
+      gothic: "It adds a darker decorative note for buyers who want something less expected.",
+      faith: "It gives the table a calmer symbolic detail that still feels easy to use every day.",
+      default: "It gives everyday tables a stronger identity than a plain coaster set."
+    },
+    nl: {
+      cat: "Dat past goed in huizen waar een subtiel kattenthema welkom is zonder te overheersen.",
+      celestial: "Het werkt vooral goed in rustigere kamers, avondtafels en interieurs met sfeerlicht.",
+      botanical: "Het voelt thuis in interieurs met planten, hout en zachtere decoratie.",
+      gaming: "Dat sluit mooi aan bij hobbykamers en cadeaus met een speelser thema.",
+      gothic: "Het voegt een donkerder accent toe voor kopers die iets minder voorspelbaars zoeken.",
+      faith: "Zo komt er een rustiger symbolisch detail op tafel dat toch dagelijks bruikbaar blijft.",
+      default: "Zo krijgt een gewone tafel sneller meer eigenheid dan met een standaard set."
+    },
+    de: {
+      cat: "Das passt gut in Wohnräume, in denen ein dezentes Katzenmotiv willkommen ist.",
+      celestial: "Es wirkt besonders stimmig in ruhigeren Räumen und auf Tischen mit Abendstimmung.",
+      botanical: "Es passt gut in Häuser mit Pflanzen, Holz und weicheren Naturtönen.",
+      gaming: "Damit fühlt es sich in Hobbyräumen und verspielteren Geschenkideen sofort passend an.",
+      gothic: "So entsteht ein dunklerer Akzent für Käufer, die etwas Ungewöhnlicheres suchen.",
+      faith: "Dadurch kommt eine ruhigere symbolische Note auf den Tisch, ohne unpraktisch zu wirken.",
+      default: "So bekommt der Tisch schneller mehr Eigenständigkeit als mit einem Standardsatz."
+    },
+    fr: {
+      cat: "Cela convient bien aux intérieurs où le thème chat reste discret et chaleureux.",
+      celestial: "Le rendu fonctionne particulièrement bien dans des pièces calmes et des ambiances du soir.",
+      botanical: "Cela se marie facilement avec des intérieurs qui aiment les plantes, le bois et les tons doux.",
+      gaming: "Le style colle bien aux coins loisirs et aux cadeaux avec un thème plus ludique.",
+      gothic: "Cela ajoute une note plus sombre pour les acheteurs qui veulent quelque chose de moins attendu.",
+      faith: "Le résultat apporte un détail symbolique plus apaisant, sans perdre le côté pratique.",
+      default: "Le résultat donne plus d'identité à la table qu'un set trop standard."
+    },
+    es: {
+      cat: "Queda bien en casas donde el tema de gato se quiere mantener cálido y discreto.",
+      celestial: "Funciona especialmente bien en rincones tranquilos y mesas con un ambiente más sereno.",
+      botanical: "Encaja con interiores que ya tiran hacia plantas, madera y detalles más suaves.",
+      gaming: "Se nota más natural en zonas de hobbies y regalos con un aire más lúdico.",
+      gothic: "Aporta un acento más oscuro para quien busca algo menos previsible.",
+      faith: "Así suma un detalle simbólico más sereno sin perder el lado práctico.",
+      default: "El conjunto da más identidad a la mesa que un set demasiado básico."
+    },
+    pt: {
+      cat: "Fica bem em casas onde o tema de gato deve aparecer de forma discreta e acolhedora.",
+      celestial: "Resulta especialmente bem em cantos tranquilos e mesas com um ambiente mais sereno.",
+      botanical: "Combina com interiores que já puxam por plantas, madeira e detalhes mais suaves.",
+      gaming: "Faz mais sentido em zonas de hobbies e presentes com um lado mais lúdico.",
+      gothic: "Acrescenta um acento mais escuro para quem procura algo menos previsível.",
+      faith: "Assim junta um detalhe simbólico mais sereno sem perder o lado prático.",
+      default: "O conjunto dá mais identidade à mesa do que uma opção demasiado básica."
+    },
+    it: {
+      cat: "Sta bene in case dove il tema gatto deve restare discreto e accogliente.",
+      celestial: "Funziona soprattutto in angoli tranquilli e tavoli con un'atmosfera più serena.",
+      botanical: "Si abbina bene a interni che amano già piante, legno e dettagli più morbidi.",
+      gaming: "Ha più senso in stanze hobby e regali con un lato più giocoso.",
+      gothic: "Aggiunge un accento più scuro per chi cerca qualcosa di meno prevedibile.",
+      faith: "Così aggiunge un dettaglio simbolico più sereno senza perdere praticità.",
+      default: "Il set dà più identità al tavolo rispetto a una soluzione troppo semplice."
+    }
+  };
+
+  const specificNoteGroups = {
+    en: {
+      evening: "It feels especially at home on evening tables and in softer, mood-lit rooms.",
+      astrology: "It appeals to shoppers who like astrology details in small, usable home accents.",
+      dreamy: "It suits reading corners and homes that lean into a more dreamy, story-like mood.",
+      "cat-home": "It works well in cozy homes where cat details are meant to feel warm rather than loud.",
+      "nature-home": "It suits homes with plants, wood textures and a calmer natural look.",
+      forest: "It gives woodland-themed homes and cabin-style corners a little more personality.",
+      norse: "It lands well in hobby rooms and gift picks with a clear Norse-inspired edge.",
+      spiritual: "It brings in spiritual symbolism without losing the easy, everyday feel of a coaster set.",
+      games: "It fits game rooms and playful host gifts better than a more neutral table set would.",
+      sports: "It makes sense for sports fans, shared lounges and casual game-day tables.",
+      desk: "It works nicely in home offices, desk setups and gifts with a more modern theme.",
+      gothic: "It adds a darker decorative layer for buyers who prefer a more alternative style."
+    },
+    nl: {
+      evening: "Het voelt vooral thuis op avondtafels en in kamers met zacht sfeerlicht.",
+      astrology: "Het spreekt kopers aan die astrologie graag terugzien in een klein bruikbaar woonaccent.",
+      dreamy: "Het past goed in leeshoeken en huizen met een wat dromeriger sfeer.",
+      "cat-home": "Het werkt mooi in gezellige huizen waar kattendetails warm mogen voelen en niet te nadrukkelijk.",
+      "nature-home": "Het sluit goed aan bij interieurs met planten, houtstructuren en een rustig natuurlijk geheel.",
+      forest: "Het geeft woningen met bos- of cabin-sfeer net wat meer eigen karakter.",
+      norse: "Het komt goed tot zijn recht in hobbykamers en cadeaus met een duidelijke Noordse richting.",
+      spiritual: "Zo voeg je spirituele symboliek toe zonder het praktische karakter van een onderzetterset te verliezen.",
+      games: "Het past beter bij spelkamers en speelse cadeaus dan een neutralere tafelset.",
+      sports: "Het voelt logisch voor sportliefhebbers, gedeelde woonkamers en tafels op speeldagen.",
+      desk: "Het werkt goed in thuiskantoren, op bureaus en in cadeaus met een moderner thema.",
+      gothic: "Het voegt een donkerder decorlaag toe voor kopers die liever iets alternatievers kiezen."
+    },
+    de: {
+      evening: "Es passt besonders gut auf Abendtische und in Räume mit weicher Stimmung.",
+      astrology: "Es spricht Käufer an, die Astrologie gern in kleinen nutzbaren Wohnakzenten sehen.",
+      dreamy: "Es passt gut in Leseecken und Wohnungen mit etwas verträumterer Stimmung.",
+      "cat-home": "Es wirkt stimmig in gemütlichen Wohnräumen, in denen Katzendetails warm und nicht zu laut sein sollen.",
+      "nature-home": "Es passt gut zu Interieurs mit Pflanzen, Holzstrukturen und einer ruhig natürlichen Wirkung.",
+      forest: "Es gibt Wohnräumen mit Wald- oder Hüttencharakter noch etwas mehr Persönlichkeit.",
+      norse: "Es funktioniert besonders gut in Hobbyräumen und Geschenken mit klar nordischer Richtung.",
+      spiritual: "So kommt spirituelle Symbolik auf den Tisch, ohne die praktische Seite zu verlieren.",
+      games: "Es passt besser in Spielzimmer und verspieltere Geschenke als ein neutraleres Set.",
+      sports: "Es wirkt stimmig für Sportfans, gemeinsame Wohnbereiche und lockere Spieltag-Tische.",
+      desk: "Es passt gut in Homeoffices, auf Schreibtische und zu Geschenken mit modernerem Thema.",
+      gothic: "Es bringt eine dunklere Dekoschicht für Käufer, die lieber etwas Alternativeres wählen."
+    },
+    fr: {
+      evening: "Cela trouve facilement sa place sur les tables du soir et dans des pièces à l'ambiance douce.",
+      astrology: "Cela parle aux acheteurs qui aiment glisser l'astrologie dans de petits accents utiles pour la maison.",
+      dreamy: "Cela va bien dans les coins lecture et les intérieurs à l'atmosphère plus rêveuse.",
+      "cat-home": "Cela fonctionne bien dans les maisons cosy où le détail chat doit rester chaleureux et discret.",
+      "nature-home": "Cela se marie bien avec des intérieurs où il y a des plantes, du bois et une ambiance naturelle.",
+      forest: "Cela donne un peu plus de personnalité aux intérieurs d'inspiration forêt ou chalet.",
+      norse: "Cela marche particulièrement bien dans les coins loisirs et les cadeaux à l'inspiration nordique affirmée.",
+      spiritual: "On garde ainsi une symbolique spirituelle sans perdre l'usage simple du dessous-verre.",
+      games: "Cela colle mieux aux pièces de jeux et aux cadeaux ludiques qu'un set plus neutre.",
+      sports: "Cela fonctionne bien pour les fans de sport, les salons partagés et les tables de match.",
+      desk: "Cela convient bien aux bureaux à domicile et aux cadeaux au thème plus actuel.",
+      gothic: "Cela ajoute une couche plus sombre pour les acheteurs qui préfèrent un style plus alternatif."
+    },
+    es: {
+      evening: "Queda especialmente bien en mesas de tarde y rincones con una luz más suave.",
+      astrology: "Encaja con compradores a quienes les gusta ver la astrología en pequeños acentos útiles para casa.",
+      dreamy: "Va bien en rincones de lectura y casas con una atmósfera más soñadora.",
+      "cat-home": "Funciona bien en casas acogedoras donde el detalle de gato debe sentirse cálido y discreto.",
+      "nature-home": "Combina con interiores donde ya hay plantas, madera y una sensación más natural.",
+      forest: "Da un poco más de personalidad a interiores con aire de bosque o de cabaña.",
+      norse: "Funciona especialmente bien en cuartos de hobbies y regalos con una dirección nórdica clara.",
+      spiritual: "Así se añade simbolismo espiritual sin perder el lado práctico del set.",
+      games: "Encaja mejor en cuartos de juegos y regalos más divertidos que un set neutro.",
+      sports: "Tiene sentido para aficionados al deporte, salones compartidos y mesas de día de partido.",
+      desk: "Funciona bien en despachos caseros y regalos con un tema más actual.",
+      gothic: "Añade una capa más oscura para compradores que prefieren un estilo más alternativo."
+    },
+    pt: {
+      evening: "Resulta especialmente bem em mesas de fim de dia e recantos com luz mais suave.",
+      astrology: "Combina com compradores que gostam de ver astrologia em pequenos apontamentos úteis para a casa.",
+      dreamy: "Fica bem em cantos de leitura e casas com uma atmosfera mais sonhadora.",
+      "cat-home": "Funciona bem em casas acolhedoras onde o detalhe de gato deve ser quente e discreto.",
+      "nature-home": "Combina com interiores onde já existem plantas, madeira e um ambiente mais natural.",
+      forest: "Dá um pouco mais de personalidade a interiores com ar de floresta ou cabana.",
+      norse: "Resulta especialmente bem em salas de hobbies e presentes com uma direção nórdica clara.",
+      spiritual: "Assim junta simbolismo espiritual sem perder o lado prático do conjunto.",
+      games: "Encaixa melhor em zonas de jogos e presentes mais divertidos do que um conjunto neutro.",
+      sports: "Faz sentido para fãs de desporto, salas partilhadas e mesas de dia de jogo.",
+      desk: "Funciona bem em escritórios em casa e em presentes com um tema mais atual.",
+      gothic: "Acrescenta uma camada mais escura para compradores que preferem um estilo mais alternativo."
+    },
+    it: {
+      evening: "Sta particolarmente bene su tavoli serali e in angoli con una luce più morbida.",
+      astrology: "Piace a chi ama vedere l'astrologia in piccoli accenti utili per la casa.",
+      dreamy: "Si adatta bene ad angoli lettura e case con un'atmosfera più sognante.",
+      "cat-home": "Funziona bene in case accoglienti dove il dettaglio gatto deve restare caldo e discreto.",
+      "nature-home": "Si abbina a interni dove ci sono già piante, legno e una sensazione più naturale.",
+      forest: "Dà un po' più di personalità a interni con un'aria da bosco o da baita.",
+      norse: "Rende bene soprattutto in stanze hobby e regali con una direzione nordica più chiara.",
+      spiritual: "Aggiunge simbolismo spirituale senza perdere il lato pratico del set.",
+      games: "Si adatta meglio a stanze da gioco e regali più giocosi rispetto a un set neutro.",
+      sports: "Ha senso per tifosi, salotti condivisi e tavoli da giorno della partita.",
+      desk: "Funziona bene in home office e regali con un tema più attuale.",
+      gothic: "Aggiunge uno strato più scuro per chi preferisce uno stile più alternativo."
+    }
+  };
+
+  const themeHooks = hooks[locale] || hooks.en;
+  const chosenHooks = themeHooks[themeKey] || themeHooks.default;
+  const matchedSpecificHook = specificHooks.find((entry) => entry.pattern.test(seed));
+  const hook = matchedSpecificHook
+    ? matchedSpecificHook.labels[locale] || matchedSpecificHook.labels.en
+    : chosenHooks[pickVariant(`${seed}-${themeKey}-hook`, chosenHooks.length)];
+  const template = (templates[locale] || templates.en)[pickVariant(`${seed}-${themeKey}-template`, (templates[locale] || templates.en).length)];
+  const specificNoteBucket = specificNoteGroups[locale] || specificNoteGroups.en;
+  const noteBucket = themeNotes[locale] || themeNotes.en;
+  const note = matchedSpecificHook
+    ? specificNoteBucket[matchedSpecificHook.noteGroup] || noteBucket[themeKey] || noteBucket.default
+    : noteBucket[themeKey] || noteBucket.default;
+
+  return `${template.replace("%HOOK%", hook)} ${note}`;
+}
+
+function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrimary, motif, usageContext, audience, themeKey) {
+  if (formatKey === "coasters") {
+    return buildCoasterDescription(locale, seed, themeKey, motif, usageContext);
+  }
+
   const audienceLabel = audience[0] || (locale === "nl" ? "cadeauzoekers" : locale === "de" ? "Geschenkkäufer" : "gift shoppers");
   const catalogCopy = {
     en: {
@@ -1720,7 +2293,7 @@ function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrim
         `${capitalize(benefitPrimary)} und gibt dem Lesemoment mehr Charakter.`,
         `Ein ${formatLabel} für ${usageContext}, klein im Format und trotzdem besonders.`,
         `Gemacht für Leser, die lieber ein schönes Extra als ein beliebiges Mitbringsel bekommen.`,
-        `Passt leicht in Buchgeschenke, Lesetagebücher und ruhige Abendroutinen.`
+        `Passt leicht zu Lesetagebüchern, Geschenkboxen und ruhigen Abendroutinen.`
       ],
       "door-hanger": [
         `${capitalize(benefitPrimary)} für Türen, Hobbyräume und persönliche Ecken.`,
@@ -1959,7 +2532,7 @@ function buildCollectionDescription(locale, seed, formatKey) {
     },
     de: {
       coasters: "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
-      bookmarks: "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
+      bookmarks: "Ein handgemachtes Holzlesezeichen für Leser, liebevoll ausgewählte Buchpräsente und ruhige Lesemomente.",
       "door-hanger": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
       "decor-piece": "Ein Deko-Stück aus Holz für Regale, Beistelltische und gemütliche Ecken.",
       keepsake: "Ein persönliches Holzstück für Meilensteine, Erinnerungen und besondere Daten.",
@@ -2095,7 +2668,7 @@ function buildLocaleProduct(locale, rawProduct, localizedName, signals) {
     image_srcset: rawProduct.image_srcset || "",
     image_sizes: rawProduct.image_sizes || "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     alt: `${normalizedName} ${labels.brandSuffix}`,
-    short_desc: buildShortDescription(locale, rawProduct.id, signals.formatKey, formatLabel, benefitPrimary, motif, usageContext, audience),
+    short_desc: buildShortDescription(locale, rawProduct.id, signals.formatKey, formatLabel, benefitPrimary, motif, usageContext, audience, signals.themeKey),
     collection_desc: buildCollectionDescription(locale, rawProduct.id, signals.formatKey),
     intent_keys: signals.intentKeys,
     intent_tags: intentTags,

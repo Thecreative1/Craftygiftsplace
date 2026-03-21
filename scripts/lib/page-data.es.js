@@ -29,10 +29,10 @@ const definition = {
   },
   pages: {
     coasters: {
-      title: "Posavasos de madera hechos a mano con estilos felinos, celestiales y botánicos | Craftygiftsplace",
-      metaDescription: "Explora posavasos de madera hechos a mano con estilos felinos, celestiales y botánicos para mesas acogedoras, estanterías y regalos bien pensados.",
-      h1: "Posavasos de madera hechos a mano con estilos felinos, celestiales y botánicos",
-      intro: "Explora la selección de posavasos en un solo lugar. Esta página se mantiene centrada en el tipo de producto para que sea fácil comparar diseños de gatos, celestiales y botánicos para mesas acogedoras, sin mezclar las guías de regalo.",
+      title: "Posavasos de madera hechos a mano con grabados celestiales, naturales y más marcados | Craftygiftsplace",
+      metaDescription: "Explora posavasos de madera hechos a mano con grabados celestiales, naturales, vikingos y otros diseños con personalidad para mesas, estanterías y regalos bien pensados.",
+      h1: "Posavasos de madera hechos a mano con grabados celestiales, naturales y más marcados",
+      intro: "Explora la selección de posavasos en un solo lugar. Esta página se mantiene centrada en el tipo de producto para que resulte fácil comparar sets grabados muy buscados para mesas de centro, escritorios y estanterías sin mezclar guías de regalo más amplias. Aquí conviven diseños celestiales y naturales más calmados con opciones más fuertes, como temas vikingos, espirituales o pensados para una zona de ocio.",
       primaryCtaLabel: "Ver posavasos en Etsy",
       secondaryCtaLabel: "Ver la selección de posavasos",
       linkCloud: [
@@ -52,19 +52,19 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un set con tema felino que encaja igual de bien en un cumpleaños que en una mesa de centro acogedora.",
-        "Una elección segura para casa nueva cuando se busca una pieza útil y decorativa de madera.",
-        "Una opción botánica más suave para cocinas cálidas, mesas de invitados e interiores naturales."
+        "Un set superventas que aporta un detalle cálido de madera a mesas de centro, estanterías y regalos para casa nueva.",
+        "Un diseño celestial para mesas de tarde, interiores acogedores y compradores que buscan una pieza con personalidad clara.",
+        "Un set grabado con fuerza para decoración nórdica, salas de ocio y regalos con un tema más marcado."
       ],
       featuredWhy: [
-        "Reúne toda la gama de posavasos en una sola vista clara.",
-        "Permite comparar regalos de mesa prácticos y estilos más decorativos.",
-        "Después guía hacia ideas para amantes de los gatos o para casa nueva cuando el interés es más específico."
+        "Reúne los temas de posavasos más buscados en una sola vista clara.",
+        "Permite comparar sets más tranquilos y diseños con más presencia.",
+        "Sigue guiando hacia ideas para gatos, casa nueva o regalos de madera cuando el interés ya es más concreto."
       ],
-      catalogIntro: "Una selección de posavasos pensada para mesas acogedoras, amantes de los gatos y hogares con calidez.",
+      catalogIntro: "Una selección de posavasos que reúne sets muy vendidos, regalos cálidos para el hogar y grabados con más personalidad.",
       faq: [
         { question: "¿Estos posavasos sirven para un regalo de casa nueva?", answer: "Sí. Muchos diseños encajan de forma natural en regalos para una casa nueva, porque son prácticos, decorativos y fáciles de usar desde el primer día." },
-        { question: "¿Los posavasos con temática felina tienen su propia página?", answer: "Sí. La página para amantes de los gatos reúne los modelos felinos y las piezas decorativas a juego en un solo lugar." },
+        { question: "¿Aquí también hay posavasos con temas más potentes?", answer: "Sí. Además de los diseños más serenos, esta página reúne sets vikingos, espirituales, gaming o alternativos con una presencia visual más fuerte." },
         { question: "¿Se pueden descubrir otras colecciones desde aquí?", answer: "Sí. Esta página enlaza directamente con marcapáginas, regalos de madera y guías para lectores o casa nueva." }
       ],
       relatedLinks: [

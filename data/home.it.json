@@ -1,10 +1,10 @@
 {
-  "title": "Regali in legno fatti a mano per lettori, amanti dei gatti e case accoglienti | Craftygiftsplace",
-  "metaDescription": "Scopri regali in legno fatti a mano per lettori, amanti dei gatti e case accoglienti. Esplora sottobicchieri, segnalibri e decorazioni in legno che portano su Etsy.",
-  "h1": "Regali in legno fatti a mano dal calore accogliente",
+  "title": "Sottobicchieri in legno, segnalibri e regali dal tocco speciale | Craftygiftsplace",
+  "metaDescription": "Scopri i sottobicchieri, i segnalibri e i regali in legno più venduti prima di passare su Etsy per tutti i dettagli.",
+  "h1": "Regali in legno fatti a mano che vale la pena scoprire",
   "eyebrow": "4,96/5 su Etsy",
-  "intro": "Esplora sottobicchieri a tema gatto, regali per lettori e decorazioni in legno accoglienti senza dover passare in rassegna tutto il catalogo.",
-  "heroSupport": "Inizia dai più venduti e poi naviga per occasione o per collezione se vuoi confrontare meglio.",
+  "intro": "Inizia dai pezzi più scelti: sottobicchieri incisi, segnalibri e alcune idee regalo con carattere da confrontare con calma prima di passare su Etsy.",
+  "heroSupport": "Guarda prima i set di sottobicchieri più venduti e poi continua per occasione o per collezione se vuoi più opzioni.",
   "discoveryCta": {
     "label": "Scopri i più venduti",
     "target": "#featured-bestsellers"
@@ -14,9 +14,9 @@
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
   "heroProducts": [
-    "cat-and-moon-wooden-coasters",
-    "fantasy-reader-gift-set",
-    "moon-cat-shadow-tealight-holder"
+    "tree-of-life-wooden-coasters",
+    "sun-and-moon-wooden-coasters",
+    "viking-wooden-coasters"
   ],
   "sections": {
     "featuredCategories": {
@@ -76,16 +76,16 @@
   ],
   "featuredItems": [
     {
-      "slug": "cat-and-moon-wooden-coasters",
-      "summary": "Un caldo set di sottobicchieri a tema gatto per tavolini, credenze e regali pensati per chi ama i gatti."
+      "slug": "tree-of-life-wooden-coasters",
+      "summary": "Un set tra i più venduti che aggiunge un dettaglio caldo in legno a tavolini, mensole e regali per la casa nuova."
     },
     {
-      "slug": "fantasy-reader-gift-set",
-      "summary": "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy."
+      "slug": "sun-and-moon-wooden-coasters",
+      "summary": "Un design celeste per tavole serali, interni accoglienti e regali con una presenza visiva chiara."
     },
     {
-      "slug": "moon-cat-shadow-tealight-holder",
-      "summary": "Un piccolo portacandela in legno che aggiunge atmosfera a mensole e angoli lettura."
+      "slug": "viking-wooden-coasters",
+      "summary": "Un set inciso dal carattere deciso per decorazioni nordiche, stanze hobby e regali con un tema più forte."
     }
   ],
   "intentCards": [
@@ -114,9 +114,9 @@
   "collectionCards": [
     {
       "title": "Sottobicchieri in legno",
-      "description": "Set di sottobicchieri con temi felini, celesti e botanici per tavoli accoglienti, mensole e regali utili.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Collezione sottobicchieri in legno",
+      "description": "Set di sottobicchieri più venduti con design celesti, naturali, vichinghi e altri motivi pieni di carattere per tavoli e mensole.",
+      "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
+      "imageAlt": "Collezione di sottobicchieri in legno Albero della vita",
       "href": "/it/pages/sottobicchieri-in-legno.html"
     },
     {

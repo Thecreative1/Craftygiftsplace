@@ -29,10 +29,10 @@ const definition = {
   },
   pages: {
     coasters: {
-      title: "Sottobicchieri in legno fatti a mano con stili felini, celesti e botanici | Craftygiftsplace",
-      metaDescription: "Esplora sottobicchieri in legno fatti a mano con stili felini, celesti e botanici per tavoli accoglienti, mensole e regali ben scelti.",
-      h1: "Sottobicchieri in legno fatti a mano con stili felini, celesti e botanici",
-      intro: "Esplora la selezione di sottobicchieri in un solo posto. Questa pagina resta focalizzata sul tipo di prodotto, così è facile confrontare design con gatti, motivi celesti e temi botanici per tavoli accoglienti, senza mescolare le guide regalo.",
+      title: "Sottobicchieri in legno fatti a mano con incisioni celesti, naturali e più decise | Craftygiftsplace",
+      metaDescription: "Esplora sottobicchieri in legno fatti a mano con incisioni celesti, naturali, vichinghe e altri design ricchi di carattere per tavoli, mensole e regali ben scelti.",
+      h1: "Sottobicchieri in legno fatti a mano con incisioni celesti, naturali e più decise",
+      intro: "Esplora la selezione di sottobicchieri in un solo posto. Questa pagina resta focalizzata sul tipo di prodotto, così è facile confrontare set incisi molto richiesti per tavolini, scrivanie e mensole senza mescolare guide regalo più ampie. Qui trovi design celesti e naturali più tranquilli accanto a scelte più forti, come temi vichinghi, spirituali o pensati per uno spazio hobby.",
       primaryCtaLabel: "Vedi i sottobicchieri su Etsy",
       secondaryCtaLabel: "Vedi la selezione di sottobicchieri",
       linkCloud: [
@@ -52,19 +52,19 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un set a tema felino che funziona bene sia per un compleanno sia su un tavolino accogliente.",
-        "Una scelta sicura per una casa nuova quando si cerca un oggetto in legno utile e decorativo.",
-        "Un'opzione botanica più delicata per cucine calde, tavoli per ospiti e interni naturali."
+        "Un set tra i più venduti che aggiunge un dettaglio caldo in legno a tavolini, mensole e regali per la casa nuova.",
+        "Un design celeste per tavole serali, interni accoglienti e regali con una presenza visiva chiara.",
+        "Un set inciso dal carattere deciso per decorazioni nordiche, stanze hobby e regali con un tema più forte."
       ],
       featuredWhy: [
-        "Riunisce tutta la gamma dei sottobicchieri in una sola vista chiara.",
-        "Permette di confrontare regali da tavola pratici e stili più decorativi.",
-        "Poi indirizza verso idee per amanti dei gatti o per la casa nuova quando l'interesse si fa più preciso."
+        "Riunisce i temi di sottobicchieri più richiesti in una sola vista chiara.",
+        "Permette di confrontare set più tranquilli e design più decisi.",
+        "Continua a rimandare a pagine su gatti, casa nuova o regali in legno quando l'intenzione diventa più specifica."
       ],
-      catalogIntro: "Una selezione di sottobicchieri pensata per tavoli accoglienti, amanti dei gatti e case piene di calore.",
+      catalogIntro: "Una selezione di sottobicchieri che riunisce set molto venduti, regali caldi per la casa e incisioni dal carattere più deciso.",
       faq: [
         { question: "Questi sottobicchieri vanno bene come regalo per la casa nuova?", answer: "Sì. Molti design si adattano naturalmente a un regalo per una casa nuova, perché sono pratici, decorativi e facili da usare fin dal primo giorno." },
-        { question: "I sottobicchieri a tema gatto hanno una pagina dedicata?", answer: "Sì. La pagina per gli amanti dei gatti riunisce i modelli felini e le piccole decorazioni coordinate in un unico posto." },
+        { question: "Qui ci sono anche sottobicchieri con temi più forti?", answer: "Sì. Oltre ai design più delicati, questa pagina raccoglie anche set vichinghi, spirituali, gaming o alternativi con una presenza visiva più marcata." },
         { question: "Si possono vedere anche altre collezioni da qui?", answer: "Sì. Questa pagina collega direttamente a segnalibri, regali in legno e guide per lettori o casa nuova." }
       ],
       relatedLinks: [

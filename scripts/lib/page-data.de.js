@@ -377,11 +377,11 @@ pagesDe.push({
   pairPath: "/en/pages/wooden-coasters.html",
   template: "collection",
   locale: "de",
-  title: "Handgemachte Holzuntersetzer mit Katzen-, Sternzeichen- und Naturmotiven | Craftygiftsplace",
-  metaDescription: "Entdecke handgemachte Holzuntersetzer mit Katzen-, Sternzeichen- und Naturmotiven für gemütliche Tische, Regale und unkomplizierte Geschenke.",
-  h1: "Handgemachte Holzuntersetzer mit Katzen-, Sternzeichen- und Naturmotiven",
+  title: "Handgemachte Holzuntersetzer mit himmlischen, natürlichen und markanten Gravuren | Craftygiftsplace",
+  metaDescription: "Entdecke handgemachte Holzuntersetzer mit himmlischen, natürlichen, Wikinger- und anderen gravierten Motiven für Tische, Regale und durchdachte Geschenke.",
+  h1: "Handgemachte Holzuntersetzer mit himmlischen, natürlichen und markanten Gravuren",
   eyebrow: "Kollektion",
-  intro: "Hier findest du die kuratierte Untersetzer-Kollektion an einem Ort. Die Seite bleibt bewusst produktorientiert, damit Käufer Katzen-, Sternzeichen- und Naturdesigns für gemütliche Tische vergleichen können, ohne dass die Geschenk-Guides dazwischenfunken.",
+  intro: "Hier findest du die kuratierte Untersetzer-Kollektion an einem Ort. Die Seite bleibt bewusst produktorientiert, damit Käufer beliebte gravierte Sets für Couchtische, Schreibtische und Regale vergleichen können, ohne zwischen größere Geschenk-Guides zu springen. Neben ruhigeren himmlischen und natürlichen Motiven stehen auch markantere Themen wie Wikinger-, spirituelle und Game-Room-Designs, was die Auswahl nach Stil und Stimmung leichter macht.",
   breadcrumbs: [
     { label: "Start", path: "/de/index.html" },
     { label: "Holzuntersetzer", path: "/de/pages/holzuntersetzer.html" }
@@ -412,40 +412,45 @@ pagesDe.push({
   },
   featuredItems: [
     {
-      slug: "cat-and-moon-wooden-coasters",
-      summary: "Ein Katzenmotiv-Set, das sich besonders stark für gemütliche Wohnräume, Geburtstage und unkomplizierte Etsy-Geschenke anbietet."
+      slug: "tree-of-life-wooden-coasters",
+      summary: "Ein beliebtes Untersetzer-Set, das Couchtische, Regale und Einzugsgeschenke mit warmem Holzcharakter ergänzt."
     },
     {
-      slug: "zodiac-wooden-coasters",
-      summary: "Eine sichere Wahl zum Einzug, wenn jemand Holzdeko sucht, die auf dem Couchtisch trotzdem nützlich bleibt."
+      slug: "sun-and-moon-wooden-coasters",
+      summary: "Ein himmlisches Set für gemütliche Wohnräume, Abendtische und Käufer, die ein Motiv mit klarer Ausstrahlung suchen."
     },
     {
-      slug: "floral-wooden-coasters",
-      summary: "Ein weicheres Naturset für warme Küchen, Gästetische und Wohnräume, die eher ruhig als verspielt wirken sollen."
+      slug: "viking-wooden-coasters",
+      summary: "Ein markantes graviertes Set für nordisch inspirierte Deko, Hobbyräume und Geschenke mit stärkerem Thema."
     }
   ],
   featuredWhy: [
-    "Sie zeigt die ganze Untersetzer-Auswahl in einem klaren Überblick.",
-    "Sie erleichtert den Vergleich zwischen praktischen Tischgeschenken und dekorativeren Motiven.",
-    "Sie verweist bei Bedarf direkt weiter zu Katzen- und Einzugsgeschenken."
+    "Sie hält die beliebtesten Untersetzer-Themen in einem klaren Überblick zusammen.",
+    "Sie erleichtert den Vergleich zwischen ruhigen Tischsets und markanteren Statement-Motiven.",
+    "Sie verweist bei Bedarf weiter zu Katzen-, Einzugs- und breiteren Holzgeschenk-Seiten."
   ],
   catalog: {
     mode: "slugs",
     slugs: [
+      "tree-of-life-wooden-coasters",
+      "sun-and-moon-wooden-coasters",
+      "viking-wooden-coasters",
+      "buddha-wood-wooden-coasters",
+      "mushroom-moon-wooden-coasters",
+      "zodiac-wooden-coasters",
+      "hand-painted-wiccan-symbol-wooden-coasters",
+      "dartboard-wooden-coasters",
+      "sports-ball-wooden-coasters",
+      "bitcoin-wooden-coasters",
       "cat-and-moon-wooden-coasters",
       "cat-wooden-coasters",
       "celestial-cat-wooden-coasters",
-      "zodiac-wooden-coasters",
-      "sun-and-moon-wooden-coasters",
-      "mushroom-moon-wooden-coasters",
       "floral-wooden-coasters",
       "leaf-wooden-coasters",
-      "tree-of-life-wooden-coasters",
       "bee-motif-wooden-coasters",
-      "forest-animal-wooden-coasters",
-      "picasso-animal-line-art-wooden-coasters"
+      "forest-animal-wooden-coasters"
     ],
-    intro: "Eine kuratierte Untersetzer-Auswahl für gemütliche Tische, Katzenliebhaber und warme Wohnräume.",
+    intro: "Eine kuratierte Untersetzer-Auswahl, die beliebte Tischsets, warme Wohngeschenke und markantere Gravuren zusammenbringt.",
     ctaLabel: "Untersetzer auf Etsy ansehen",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   },
@@ -455,8 +460,8 @@ pagesDe.push({
       answer: "Ja. Viele Motive passen natürlich zu neuen Wohnungen, weil sie praktisch sind, dekorativ wirken und sich sofort auf dem Tisch einsetzen lassen."
     },
     {
-      question: "Gibt es für Katzen-Untersetzer auch eine eigene Seite?",
-      answer: "Ja. Die Seite für Geschenke für Katzenliebhaber bündelt die katzennahen Untersetzer zusammen mit passenden Dekoideen."
+      question: "Gibt es hier auch Untersetzer mit stärkerem Thema?",
+      answer: "Ja. Neben ruhigeren Natur- und Himmelsmotiven findest du hier auch markantere Sets mit Wikinger-, spirituellen, Gaming- oder alternativen Gravuren."
     },
     {
       question: "Kann man von hier auch andere Holzkollektionen finden?",

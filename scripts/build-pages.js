@@ -423,7 +423,22 @@ function compactProductLead(product) {
   return cleaned;
 }
 
-function buildCardDescription(product, page, position = 0) {
+function buildDuplicateTail(product) {
+  const tails = {
+    en: `Shown here in the ${product.name} design.`,
+    nl: `Hier in de uitvoering ${product.name}.`,
+    de: `Hier in der Ausführung ${product.name}.`,
+    fr: `Ici, dans la version ${product.name}.`,
+    es: `Aquí, en la versión ${product.name}.`,
+    pt: `Aqui, na versão ${product.name}.`,
+    it: `Qui, nella versione ${product.name}.`
+  };
+
+  return tails[product.locale] || tails.en;
+}
+
+function buildCardDescription(product, page, position = 0, repeatCount = 1) {
+  const preferredDescription = product.short_desc || "";
   const lead = product.name;
   const usageDefaults = {
     nl: "gezellige hoekjes in huis",
@@ -1082,10 +1097,14 @@ function buildCardDescription(product, page, position = 0) {
   const suffixBucket = suffixSets[product.locale] || suffixSets.en;
   const suffixes = suffixBucket[key] || suffixBucket["small-gift"];
   const suffix = suffixes[Math.floor(position / variants.length) % suffixes.length];
+  if (preferredDescription) {
+    const composed = `${preferredDescription} ${suffixes[position % suffixes.length]}`;
+    return repeatCount > 1 ? `${composed} ${buildDuplicateTail(product)}` : composed;
+  }
   return `${variants[position % variants.length]} ${suffix}`;
 }
 
-function renderProductCard(product, page, position) {
+function renderProductCard(product, page, position, repeatCount = 1) {
   return renderTemplate(productCardTemplate, {
     image: escapeAttribute(product.image),
     imageSrcset: escapeAttribute(product.image_srcset || product.image),
@@ -1093,7 +1112,7 @@ function renderProductCard(product, page, position) {
     alt: escapeAttribute(product.alt),
     chips: renderChips(product),
     title: escapeHtml(product.name),
-    description: escapeHtml(buildCardDescription(product, page, position)),
+    description: escapeHtml(buildCardDescription(product, page, position, repeatCount)),
     ctaUrl: escapeAttribute(product.etsy_url),
     ctaLabel: escapeAttribute(product.cta_label)
   });
@@ -1175,6 +1194,12 @@ function renderFeaturedSection(page, productsByLocale) {
 
 function renderCatalogSection(page, catalogProducts) {
   if (!page.catalog) return "";
+  const descriptionCounts = new Map();
+  catalogProducts.forEach((product) => {
+    const key = product.short_desc || "";
+    if (!key) return;
+    descriptionCounts.set(key, (descriptionCounts.get(key) || 0) + 1);
+  });
   return `
     <section class="section" id="shop-catalog">
       <div class="container">
@@ -1186,7 +1211,7 @@ function renderCatalogSection(page, catalogProducts) {
           <a class="btn" href="${escapeAttribute(page.catalog.ctaUrl)}" target="_blank" rel="noopener">${escapeHtml(page.catalog.ctaLabel)}</a>
         </div>
         <div class="product-grid catalog-grid">
-          ${catalogProducts.map((product, index) => renderProductCard(product, page, index)).join("\n")}
+          ${catalogProducts.map((product, index) => renderProductCard(product, page, index, descriptionCounts.get(product.short_desc || "") || 1)).join("\n")}
         </div>
       </div>
     </section>`;

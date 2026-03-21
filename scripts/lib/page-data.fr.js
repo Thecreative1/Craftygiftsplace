@@ -29,10 +29,10 @@ const definition = {
   },
   pages: {
     coasters: {
-      title: "Dessous-verres en bois faits main aux motifs chats, célestes et botaniques | Craftygiftsplace",
-      metaDescription: "Parcourez des dessous-verres en bois faits main aux motifs chats, célestes et botaniques pour tables chaleureuses, étagères et cadeaux attentionnés.",
-      h1: "Dessous-verres en bois faits main aux motifs chats, célestes et botaniques",
-      intro: "Parcourez la sélection de dessous-verres en un seul endroit. Cette page reste centrée sur le type de produit afin de comparer facilement les motifs chats, célestes et botaniques pour des tables chaleureuses, sans mélanger les guides cadeaux.",
+      title: "Dessous-verres en bois faits main aux gravures célestes, naturelles et plus marquées | Craftygiftsplace",
+      metaDescription: "Parcourez des dessous-verres en bois faits main aux gravures célestes, naturelles, vikings et autres motifs affirmés pour tables, étagères et cadeaux attentionnés.",
+      h1: "Dessous-verres en bois faits main aux gravures célestes, naturelles et plus marquées",
+      intro: "Parcourez la sélection de dessous-verres en un seul endroit. Cette page reste centrée sur le type de produit afin de comparer des sets gravés appréciés pour tables basses, bureaux et étagères sans mélanger les guides cadeaux plus larges. On y trouve des modèles célestes ou nature plus calmes, mais aussi des choix plus affirmés comme des motifs vikings, spirituels ou pensés pour une pièce à vivre avec plus de caractère.",
       primaryCtaLabel: "Voir les dessous-verres sur Etsy",
       secondaryCtaLabel: "Voir la sélection de dessous-verres",
       linkCloud: [
@@ -52,24 +52,24 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un set à thème chat qui fonctionne aussi bien pour un anniversaire que pour une table de salon chaleureuse.",
-        "Une valeur sûre pour une crémaillère lorsque l'on veut un objet en bois utile et décoratif sur une table basse.",
-        "Un choix botanique plus doux pour cuisines chaleureuses, tables d'invités et intérieurs plus naturels."
+        "Un set parmi les meilleures ventes qui apporte un détail chaleureux à une table basse, une étagère ou un cadeau de crémaillère.",
+        "Un modèle céleste pour tables du soir, intérieurs cosy et cadeaux au style visuel affirmé.",
+        "Un set gravé au style nordique pour décors inspirés des sagas, bureaux et cadeaux plus marqués."
       ],
       featuredWhy: [
-        "Elle rassemble toute la sélection de dessous-verres en un coup d'oeil.",
-        "Elle permet de comparer facilement des cadeaux de table pratiques et des styles plus décoratifs.",
-        "Elle oriente ensuite vers les idées chats ou crémaillère quand le visiteur veut un angle plus précis."
+        "Elle rassemble les thèmes de dessous-verres les plus appréciés en un seul aperçu.",
+        "Elle permet de comparer des sets plus calmes et des designs plus marqués.",
+        "Elle renvoie toujours vers les pages chats, crémaillère ou cadeaux en bois quand l'intention devient plus précise."
       ],
-      catalogIntro: "Une sélection de dessous-verres pensée pour tables chaleureuses, amoureux des chats et intérieurs accueillants.",
+      catalogIntro: "Une sélection de dessous-verres qui réunit des sets appréciés, des cadeaux de maison chaleureux et des gravures plus distinctives.",
       faq: [
         {
           question: "Ces dessous-verres conviennent-ils pour une crémaillère ?",
           answer: "Oui. Beaucoup de motifs conviennent naturellement à un cadeau de maison, car ils sont à la fois pratiques, décoratifs et faciles à utiliser dès le premier jour."
         },
         {
-          question: "Les dessous-verres à thème chat ont-ils leur propre page ?",
-          answer: "Oui. La page dédiée aux amoureux des chats rassemble les modèles félins et les pièces déco assorties dans un seul endroit."
+          question: "Trouve-t-on ici aussi des dessous-verres au style plus affirmé ?",
+          answer: "Oui. En plus des motifs plus doux, cette page réunit aussi des sets vikings, spirituels, gaming ou alternatifs avec une présence visuelle plus forte."
         },
         {
           question: "Peut-on encore découvrir d'autres collections depuis ici ?",

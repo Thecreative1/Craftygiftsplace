@@ -1,10 +1,10 @@
 {
-  "title": "Presentes em madeira feitos à mão para leitores, amantes de gatos e casas acolhedoras | Craftygiftsplace",
-  "metaDescription": "Descobre presentes em madeira feitos à mão para leitores, amantes de gatos e casas acolhedoras. Explora porta-copos, marcadores de livros e decoração em madeira que encaminham para a Etsy.",
-  "h1": "Presentes em madeira feitos à mão com um toque acolhedor",
+  "title": "Porta-copos de madeira, marcadores de livros e presentes com significado | Craftygiftsplace",
+  "metaDescription": "Descobre os porta-copos, marcadores de livros e presentes de madeira mais vendidos antes de seguir para a Etsy para ver todos os detalhes.",
+  "h1": "Presentes de madeira feitos à mão que vale a pena descobrir",
   "eyebrow": "4,96/5 na Etsy",
-  "intro": "Explora porta-copos com tema de gatos, presentes para leitores e decoração em madeira acolhedora sem ter de percorrer todo o catálogo.",
-  "heroSupport": "Começa pelos mais vendidos e depois navega por ocasião ou por coleção se quiseres comparar melhor.",
+  "intro": "Começa pelas peças que mais se vendem: porta-copos gravados, marcadores de livros e algumas ideias de presente com personalidade que podes comparar com calma antes de ir para a Etsy.",
+  "heroSupport": "Vê primeiro os conjuntos de porta-copos mais vendidos e depois navega por ocasião ou por coleção se quiseres mais opções.",
   "discoveryCta": {
     "label": "Descobrir os mais vendidos",
     "target": "#featured-bestsellers"
@@ -14,9 +14,9 @@
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
   "heroProducts": [
-    "cat-and-moon-wooden-coasters",
-    "fantasy-reader-gift-set",
-    "moon-cat-shadow-tealight-holder"
+    "tree-of-life-wooden-coasters",
+    "sun-and-moon-wooden-coasters",
+    "viking-wooden-coasters"
   ],
   "sections": {
     "featuredCategories": {
@@ -76,16 +76,16 @@
   ],
   "featuredItems": [
     {
-      "slug": "cat-and-moon-wooden-coasters",
-      "summary": "Um conjunto acolhedor de porta-copos com tema de gatos para mesas de centro, aparadores e presentes pensados para amantes de gatos."
+      "slug": "tree-of-life-wooden-coasters",
+      "summary": "Um conjunto entre os mais vendidos que leva um detalhe quente de madeira a mesas de centro, prateleiras e presentes de casa nova."
     },
     {
-      "slug": "fantasy-reader-gift-set",
-      "summary": "Um conjunto já pronto com marcador, pendente de porta e porta-copos para leitores de fantasia."
+      "slug": "sun-and-moon-wooden-coasters",
+      "summary": "Um desenho celeste para mesas de fim de dia, interiores acolhedores e compradores que procuram uma peça com presença."
     },
     {
-      "slug": "moon-cat-shadow-tealight-holder",
-      "summary": "Um pequeno porta-vela em madeira que acrescenta ambiente a prateleiras e cantos de leitura."
+      "slug": "viking-wooden-coasters",
+      "summary": "Um conjunto gravado com mais força para decoração viking, salas de hobbies e presentes com um tema marcante."
     }
   ],
   "intentCards": [
@@ -114,14 +114,14 @@
   "collectionCards": [
     {
       "title": "Porta-copos de madeira",
-      "description": "Conjuntos de porta-copos com temas de gatos, motivos celestes e botânicos para mesas acolhedoras, prateleiras e presentes úteis.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Coleção de porta-copos de madeira",
+      "description": "Conjuntos de porta-copos mais vendidos com desenhos celestes, naturais, vikings e outros temas com personalidade para mesas e prateleiras.",
+      "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
+      "imageAlt": "Coleção de porta-copos de madeira Árvore da Vida",
       "href": "/pt/pages/porta-copos-de-madeira.html"
     },
     {
       "title": "Marcadores de livros de madeira",
-      "description": "Marcadores pensados para leitores e conjuntos presente para estantes de fantasia, diários de leitura e serões tranquilos.",
+      "description": "Marcadores pensados para leitores e conjuntos de presente para estantes de fantasia, diários de leitura e serões tranquilos.",
       "image": "/assets/img/products/celtic-bookmark.jpg",
       "imageAlt": "Coleção de marcadores de livros de madeira",
       "href": "/pt/pages/marcadores-de-livros-de-madeira.html"

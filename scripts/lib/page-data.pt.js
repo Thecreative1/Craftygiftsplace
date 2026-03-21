@@ -29,10 +29,10 @@ const definition = {
   },
   pages: {
     coasters: {
-      title: "Porta-copos de madeira feitos à mão com estilos felinos, celestes e botânicos | Craftygiftsplace",
-      metaDescription: "Explora porta-copos de madeira feitos à mão com estilos felinos, celestes e botânicos para mesas acolhedoras, prateleiras e presentes bem pensados.",
-      h1: "Porta-copos de madeira feitos à mão com estilos felinos, celestes e botânicos",
-      intro: "Explora a seleção de porta-copos num só lugar. Esta página mantém-se centrada no tipo de produto para facilitar a comparação entre desenhos de gatos, motivos celestes e temas botânicos para mesas acolhedoras, sem misturar os guias de presentes.",
+      title: "Porta-copos de madeira feitos à mão com gravuras celestes, naturais e mais marcantes | Craftygiftsplace",
+      metaDescription: "Explora porta-copos de madeira feitos à mão com gravuras celestes, naturais, vikings e outros desenhos com personalidade para mesas, prateleiras e presentes bem pensados.",
+      h1: "Porta-copos de madeira feitos à mão com gravuras celestes, naturais e mais marcantes",
+      intro: "Explora a seleção de porta-copos num só lugar. Esta página mantém-se centrada no tipo de produto para facilitar a comparação entre conjuntos gravados muito procurados para mesas de centro, secretárias e prateleiras, sem misturar guias de presentes mais amplos. Aqui entram lado a lado desenhos celestes e naturais mais tranquilos e escolhas mais fortes, como temas vikings, espirituais ou pensados para uma zona de hobbies.",
       primaryCtaLabel: "Ver porta-copos na Etsy",
       secondaryCtaLabel: "Ver a seleção de porta-copos",
       linkCloud: [
@@ -52,19 +52,19 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Um conjunto com tema felino que funciona tão bem num aniversário como numa mesa de centro acolhedora.",
-        "Uma escolha segura para casa nova quando se quer uma peça útil e decorativa em madeira.",
-        "Uma opção botânica mais suave para cozinhas quentes, mesas de convidados e interiores mais naturais."
+        "Um conjunto entre os mais vendidos que leva um detalhe quente de madeira a mesas de centro, prateleiras e presentes de casa nova.",
+        "Um desenho celeste para mesas de fim de dia, interiores acolhedores e compradores que procuram uma peça com presença.",
+        "Um conjunto gravado com mais força para decoração viking, salas de hobbies e presentes com um tema marcante."
       ],
       featuredWhy: [
-        "Reúne toda a gama de porta-copos numa só vista clara.",
-        "Permite comparar presentes de mesa práticos e estilos mais decorativos.",
-        "Depois orienta para ideias de gatos ou casa nova quando o interesse é mais específico."
+        "Reúne os temas de porta-copos mais procurados numa só vista clara.",
+        "Permite comparar conjuntos mais tranquilos e desenhos com mais presença.",
+        "Continua a encaminhar para páginas de gatos, casa nova ou presentes de madeira quando a intenção já é mais específica."
       ],
-      catalogIntro: "Uma seleção de porta-copos pensada para mesas acolhedoras, amantes de gatos e casas com calor.",
+      catalogIntro: "Uma seleção de porta-copos que junta conjuntos muito vendidos, presentes quentes para a casa e gravuras com mais personalidade.",
       faq: [
         { question: "Estes porta-copos servem para um presente de casa nova?", answer: "Sim. Muitos desenhos encaixam naturalmente em presentes para uma casa nova, porque são práticos, decorativos e fáceis de usar desde o primeiro dia." },
-        { question: "Os porta-copos com tema de gatos têm uma página própria?", answer: "Sim. A página para amantes de gatos reúne os modelos felinos e as peças decorativas a combinar num só lugar." },
+        { question: "Há aqui também porta-copos com temas mais fortes?", answer: "Sim. Para além dos desenhos mais serenos, esta página reúne conjuntos vikings, espirituais, gaming e alternativos com uma presença visual mais marcada." },
         { question: "Posso descobrir outras coleções a partir daqui?", answer: "Sim. Esta página liga diretamente a marcadores, presentes de madeira e guias para leitores ou casa nova." }
       ],
       relatedLinks: [

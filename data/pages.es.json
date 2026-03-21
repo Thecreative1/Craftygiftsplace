@@ -4,12 +4,12 @@
     "pairPath": "/en/index.html",
     "template": "home",
     "locale": "es",
-    "title": "Regalos de madera hechos a mano para lectores, amantes de los gatos y hogares acogedores | Craftygiftsplace",
-    "metaDescription": "Descubre regalos de madera hechos a mano para lectores, amantes de los gatos y hogares acogedores. Explora posavasos, marcapáginas y decoración de madera que lleva a Etsy.",
-    "h1": "Regalos de madera hechos a mano con encanto acogedor",
+    "title": "Posavasos de madera, marcapáginas y regalos con carácter | Craftygiftsplace",
+    "metaDescription": "Descubre los posavasos, marcapáginas y regalos de madera más vendidos antes de pasar a Etsy para ver todos los detalles.",
+    "h1": "Regalos de madera hechos a mano que merece la pena descubrir",
     "eyebrow": "4,96/5 en Etsy",
-    "intro": "Explora posavasos con temática de gatos, regalos para lectores y decoración de madera acogedora sin tener que revisar todo el catálogo.",
-    "heroSupport": "Empieza por los más vendidos y después navega por ocasión o por colección si quieres comparar mejor.",
+    "intro": "Empieza por las piezas que más se venden: posavasos grabados, marcapáginas y algunas ideas de regalo con personalidad que puedes comparar con calma antes de ir a Etsy.",
+    "heroSupport": "Mira primero los sets de posavasos más vendidos y después navega por ocasión o por colección si quieres ver más opciones.",
     "discoveryCta": {
       "label": "Descubrir los más vendidos",
       "target": "#featured-bestsellers"
@@ -19,9 +19,9 @@
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
     "heroProducts": [
-      "cat-and-moon-wooden-coasters",
-      "fantasy-reader-gift-set",
-      "moon-cat-shadow-tealight-holder"
+      "tree-of-life-wooden-coasters",
+      "sun-and-moon-wooden-coasters",
+      "viking-wooden-coasters"
     ],
     "sections": {
       "featuredCategories": {
@@ -81,16 +81,16 @@
     ],
     "featuredItems": [
       {
-        "slug": "cat-and-moon-wooden-coasters",
-        "summary": "Un set cálido de posavasos con temática felina para mesas de centro, aparadores y regalos pensados para amantes de los gatos."
+        "slug": "tree-of-life-wooden-coasters",
+        "summary": "Un set superventas que aporta un detalle cálido de madera a mesas de centro, estanterías y regalos para casa nueva."
       },
       {
-        "slug": "fantasy-reader-gift-set",
-        "summary": "Un set ya preparado con marcapáginas, colgador de puerta y posavasos para lectores de fantasía."
+        "slug": "sun-and-moon-wooden-coasters",
+        "summary": "Un diseño celestial para mesas de tarde, interiores acogedores y compradores que buscan una pieza con personalidad clara."
       },
       {
-        "slug": "moon-cat-shadow-tealight-holder",
-        "summary": "Un pequeño portavelas de madera que aporta ambiente a estanterías y rincones de lectura."
+        "slug": "viking-wooden-coasters",
+        "summary": "Un set grabado con fuerza para decoración nórdica, salas de ocio y regalos con un tema más marcado."
       }
     ],
     "intentCards": [
@@ -119,9 +119,9 @@
     "collectionCards": [
       {
         "title": "Posavasos de madera",
-        "description": "Sets de posavasos con temas de gatos, motivos celestiales y botánicos para mesas acogedoras, estanterías y regalos útiles.",
-        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-        "imageAlt": "Colección de posavasos de madera",
+        "description": "Sets de posavasos muy vendidos con diseños celestiales, naturales, vikingos y otros motivos con personalidad para mesas y estanterías.",
+        "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
+        "imageAlt": "Colección de posavasos de madera Árbol de la Vida",
         "href": "/es/pages/posavasos-de-madera.html"
       },
       {
@@ -208,11 +208,11 @@
     "pairPath": "/en/pages/wooden-coasters.html",
     "template": "collection",
     "locale": "es",
-    "title": "Posavasos de madera hechos a mano con estilos felinos, celestiales y botánicos | Craftygiftsplace",
-    "metaDescription": "Explora posavasos de madera hechos a mano con estilos felinos, celestiales y botánicos para mesas acogedoras, estanterías y regalos bien pensados.",
-    "h1": "Posavasos de madera hechos a mano con estilos felinos, celestiales y botánicos",
+    "title": "Posavasos de madera hechos a mano con grabados celestiales, naturales y más marcados | Craftygiftsplace",
+    "metaDescription": "Explora posavasos de madera hechos a mano con grabados celestiales, naturales, vikingos y otros diseños con personalidad para mesas, estanterías y regalos bien pensados.",
+    "h1": "Posavasos de madera hechos a mano con grabados celestiales, naturales y más marcados",
     "eyebrow": "Colección",
-    "intro": "Explora la selección de posavasos en un solo lugar. Esta página se mantiene centrada en el tipo de producto para que sea fácil comparar diseños de gatos, celestiales y botánicos para mesas acogedoras, sin mezclar las guías de regalo.",
+    "intro": "Explora la selección de posavasos en un solo lugar. Esta página se mantiene centrada en el tipo de producto para que resulte fácil comparar sets grabados muy buscados para mesas de centro, escritorios y estanterías sin mezclar guías de regalo más amplias. Aquí conviven diseños celestiales y naturales más calmados con opciones más fuertes, como temas vikingos, espirituales o pensados para una zona de ocio.",
     "breadcrumbs": [
       {
         "label": "Inicio",
@@ -267,40 +267,45 @@
     },
     "featuredItems": [
       {
-        "slug": "cat-and-moon-wooden-coasters",
-        "summary": "Un set con tema felino que encaja igual de bien en un cumpleaños que en una mesa de centro acogedora."
+        "slug": "tree-of-life-wooden-coasters",
+        "summary": "Un set superventas que aporta un detalle cálido de madera a mesas de centro, estanterías y regalos para casa nueva."
       },
       {
-        "slug": "zodiac-wooden-coasters",
-        "summary": "Una elección segura para casa nueva cuando se busca una pieza útil y decorativa de madera."
+        "slug": "sun-and-moon-wooden-coasters",
+        "summary": "Un diseño celestial para mesas de tarde, interiores acogedores y compradores que buscan una pieza con personalidad clara."
       },
       {
-        "slug": "floral-wooden-coasters",
-        "summary": "Una opción botánica más suave para cocinas cálidas, mesas de invitados e interiores naturales."
+        "slug": "viking-wooden-coasters",
+        "summary": "Un set grabado con fuerza para decoración nórdica, salas de ocio y regalos con un tema más marcado."
       }
     ],
     "featuredWhy": [
-      "Reúne toda la gama de posavasos en una sola vista clara.",
-      "Permite comparar regalos de mesa prácticos y estilos más decorativos.",
-      "Después guía hacia ideas para amantes de los gatos o para casa nueva cuando el interés es más específico."
+      "Reúne los temas de posavasos más buscados en una sola vista clara.",
+      "Permite comparar sets más tranquilos y diseños con más presencia.",
+      "Sigue guiando hacia ideas para gatos, casa nueva o regalos de madera cuando el interés ya es más concreto."
     ],
     "catalog": {
       "mode": "slugs",
       "slugs": [
+        "tree-of-life-wooden-coasters",
+        "sun-and-moon-wooden-coasters",
+        "viking-wooden-coasters",
+        "buddha-wood-wooden-coasters",
+        "mushroom-moon-wooden-coasters",
+        "zodiac-wooden-coasters",
+        "hand-painted-wiccan-symbol-wooden-coasters",
+        "dartboard-wooden-coasters",
+        "sports-ball-wooden-coasters",
+        "bitcoin-wooden-coasters",
         "cat-and-moon-wooden-coasters",
         "cat-wooden-coasters",
         "celestial-cat-wooden-coasters",
-        "zodiac-wooden-coasters",
-        "sun-and-moon-wooden-coasters",
-        "mushroom-moon-wooden-coasters",
         "floral-wooden-coasters",
         "leaf-wooden-coasters",
-        "tree-of-life-wooden-coasters",
         "bee-motif-wooden-coasters",
-        "forest-animal-wooden-coasters",
-        "picasso-animal-line-art-wooden-coasters"
+        "forest-animal-wooden-coasters"
       ],
-      "intro": "Una selección de posavasos pensada para mesas acogedoras, amantes de los gatos y hogares con calidez.",
+      "intro": "Una selección de posavasos que reúne sets muy vendidos, regalos cálidos para el hogar y grabados con más personalidad.",
       "ctaLabel": "Ver posavasos en Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
     },
@@ -310,8 +315,8 @@
         "answer": "Sí. Muchos diseños encajan de forma natural en regalos para una casa nueva, porque son prácticos, decorativos y fáciles de usar desde el primer día."
       },
       {
-        "question": "¿Los posavasos con temática felina tienen su propia página?",
-        "answer": "Sí. La página para amantes de los gatos reúne los modelos felinos y las piezas decorativas a juego en un solo lugar."
+        "question": "¿Aquí también hay posavasos con temas más potentes?",
+        "answer": "Sí. Además de los diseños más serenos, esta página reúne sets vikingos, espirituales, gaming o alternativos con una presencia visual más fuerte."
       },
       {
         "question": "¿Se pueden descubrir otras colecciones desde aquí?",
