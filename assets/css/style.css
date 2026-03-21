@@ -223,6 +223,22 @@ img {
   background: linear-gradient(180deg, #151515 0 33.33%, #c64040 33.33% 66.66%, #f0c04c 66.66% 100%);
 }
 
+.flag-icon--fr {
+  background: linear-gradient(90deg, #2b5cab 0 33.33%, #f8f7f3 33.33% 66.66%, #d25145 66.66% 100%);
+}
+
+.flag-icon--es {
+  background: linear-gradient(180deg, #c53d2f 0 25%, #f1c75a 25% 75%, #c53d2f 75% 100%);
+}
+
+.flag-icon--pt {
+  background: linear-gradient(90deg, #1f6a4d 0 40%, #d25145 40% 100%);
+}
+
+.flag-icon--it {
+  background: linear-gradient(90deg, #2d7a56 0 33.33%, #f8f7f3 33.33% 66.66%, #d25145 66.66% 100%);
+}
+
 .nav-toggle {
   display: none;
   align-items: center;

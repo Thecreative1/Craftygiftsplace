@@ -1,0 +1,191 @@
+{
+  "title": "Regali in legno fatti a mano per lettori, amanti dei gatti e case accoglienti | Craftygiftsplace",
+  "metaDescription": "Scopri regali in legno fatti a mano per lettori, amanti dei gatti e case accoglienti. Esplora sottobicchieri, segnalibri e decorazioni in legno che portano su Etsy.",
+  "h1": "Regali in legno fatti a mano dal calore accogliente",
+  "eyebrow": "4,96/5 su Etsy",
+  "intro": "Esplora sottobicchieri a tema gatto, regali per lettori e decorazioni in legno accoglienti senza dover passare in rassegna tutto il catalogo.",
+  "heroSupport": "Inizia dai più venduti e poi naviga per occasione o per collezione se vuoi confrontare meglio.",
+  "discoveryCta": {
+    "label": "Scopri i più venduti",
+    "target": "#featured-bestsellers"
+  },
+  "primaryCta": {
+    "label": "Vedi Craftygiftsplace su Etsy",
+    "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+  },
+  "heroProducts": [
+    "cat-and-moon-wooden-coasters",
+    "fantasy-reader-gift-set",
+    "moon-cat-shadow-tealight-holder"
+  ],
+  "sections": {
+    "featuredCategories": {
+      "heading": "Categorie in evidenza",
+      "intro": "Inizia dai temi regalo che gli acquirenti cercano più spesso."
+    },
+    "bestsellers": {
+      "heading": "Regali più venduti",
+      "intro": "Tre punti di partenza solidi se vuoi scegliere qualcosa già apprezzato."
+    },
+    "occasions": {
+      "heading": "Acquista per occasione",
+      "intro": "Hai già in mente l'occasione? Parti da queste pagine."
+    },
+    "collections": {
+      "heading": "Acquista per collezione",
+      "intro": "Preferisci partire dal tipo di prodotto? Usa le collezioni principali."
+    },
+    "support": {
+      "heading": "Come aiuta questo sito",
+      "intro": "Una spiegazione veloce, spostata più in basso per lasciare i prodotti in primo piano."
+    },
+    "reviews": {
+      "heading": "Amato su Etsy",
+      "intro": "Alcune recensioni brevi che rafforzano qualità e fiducia."
+    },
+    "faq": {
+      "heading": "Domande utili",
+      "intro": "Risposte rapide prima di passare a Etsy."
+    }
+  },
+  "featuredCategories": [
+    {
+      "kicker": "Per chi ama i gatti",
+      "title": "Regali per amanti dei gatti",
+      "description": "Vai subito a sottobicchieri e decorazioni a tema gatto per case accoglienti e compleanni.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Idea regalo sottobicchieri gatto e luna",
+      "href": "/it/pages/regali-per-amanti-dei-gatti.html"
+    },
+    {
+      "kicker": "Per lettori",
+      "title": "Regali per lettori",
+      "description": "Scopri segnalibri, set fantasy e pezzi per angoli lettura pensati per chi ama i libri.",
+      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+      "imageAlt": "Fantasy Reader Gift Set per lettori",
+      "href": "/it/pages/regali-per-lettori.html"
+    },
+    {
+      "kicker": "Per case nuove",
+      "title": "Regali per la casa nuova",
+      "description": "Esplora pezzi in legno utili per tavolini, mensole e regali ben scelti per una nuova casa.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Sottobicchieri zodiac come regalo per casa nuova",
+      "href": "/it/pages/regali-per-la-casa-nuova.html"
+    }
+  ],
+  "featuredItems": [
+    {
+      "slug": "cat-and-moon-wooden-coasters",
+      "summary": "Un caldo set di sottobicchieri a tema gatto per tavolini, credenze e regali pensati per chi ama i gatti."
+    },
+    {
+      "slug": "fantasy-reader-gift-set",
+      "summary": "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy."
+    },
+    {
+      "slug": "moon-cat-shadow-tealight-holder",
+      "summary": "Un piccolo portacandela in legno che aggiunge atmosfera a mensole e angoli lettura."
+    }
+  ],
+  "intentCards": [
+    {
+      "title": "Regali per amanti dei gatti",
+      "description": "Sottobicchieri e decorazioni in legno a tema felino per case accoglienti, compleanni e pensieri curati.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Idea regalo sottobicchieri gatto e luna",
+      "href": "/it/pages/regali-per-amanti-dei-gatti.html"
+    },
+    {
+      "title": "Regali per lettori",
+      "description": "Segnalibri, set fantasy e pezzi per angoli lettura pensati per lettori e scaffali accoglienti.",
+      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+      "imageAlt": "Fantasy Reader Gift Set per lettori",
+      "href": "/it/pages/regali-per-lettori.html"
+    },
+    {
+      "title": "Regali per la casa nuova",
+      "description": "Sottobicchieri in legno e dettagli decorativi facili da regalare per nuove case, appartamenti e regali da ospite.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Sottobicchieri zodiac per casa nuova",
+      "href": "/it/pages/regali-per-la-casa-nuova.html"
+    }
+  ],
+  "collectionCards": [
+    {
+      "title": "Sottobicchieri in legno",
+      "description": "Set di sottobicchieri con temi felini, celesti e botanici per tavoli accoglienti, mensole e regali utili.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Collezione sottobicchieri in legno",
+      "href": "/it/pages/sottobicchieri-in-legno.html"
+    },
+    {
+      "title": "Segnalibri in legno",
+      "description": "Segnalibri pensati per lettori e set regalo per scaffali fantasy, diari di lettura e serate tranquille.",
+      "image": "/assets/img/products/celtic-bookmark.jpg",
+      "imageAlt": "Collezione segnalibri in legno",
+      "href": "/it/pages/segnalibri-in-legno.html"
+    },
+    {
+      "title": "Regali in legno",
+      "description": "Portacandela, ricordi, targhette da porta e pezzi decorativi per mensole, ingressi e regali significativi.",
+      "image": "/assets/img/products/just-married-door-hanger.jpg",
+      "imageAlt": "Collezione regali in legno",
+      "href": "/it/pages/regali-in-legno.html"
+    }
+  ],
+  "supportCards": [
+    {
+      "title": "Inizia dai più venduti",
+      "text": "Questa homepage mette in primo piano le idee regalo più chiare per aiutare a scegliere più velocemente."
+    },
+    {
+      "title": "Scegli per occasione o per collezione",
+      "text": "Usa le guide regalo quando conta prima l'occasione, oppure vai alle collezioni quando conta di più il tipo di prodotto."
+    },
+    {
+      "title": "L'ordine resta su Etsy",
+      "text": "Quando qualcuno è pronto, il pulsante porta su Etsy per prezzi, recensioni, personalizzazione, spedizione e checkout."
+    }
+  ],
+  "reviews": {
+    "linkLabel": "Leggi le recensioni Etsy",
+    "linkUrl": "https://www.etsy.com/shop/Craftygiftsplace#reviews",
+    "items": [
+      {
+        "title": "Clare · 5/5",
+        "text": "\"È stato un vero piacere acquistare qui... tornerò sicuramente.\""
+      },
+      {
+        "title": "Caroline · 5/5",
+        "text": "\"Ottima qualità, proprio come descritto, con una venditrice gentile e chiara.\""
+      },
+      {
+        "title": "Andrew · 5/5",
+        "text": "\"Questi sottobicchieri sono bellissimi. Sembrano robusti e molto ben fatti.\""
+      },
+      {
+        "title": "Acquirente di segnalibri · 5/5",
+        "text": "\"Il livello di dettaglio è incredibile, la lavorazione è ottima e il segnalibro è molto resistente.\""
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Si ordina su questo sito?",
+      "answer": "No. Questo sito aiuta a scoprire la collezione e poi manda su Etsy per completare l'ordine."
+    },
+    {
+      "question": "Posso chiedere della personalizzazione prima di acquistare?",
+      "answer": "Sì. I messaggi Etsy sono il posto migliore per chiedere nomi, date o piccoli dettagli personalizzati prima dell'acquisto."
+    },
+    {
+      "question": "Qual è il modo più veloce per scegliere il regalo giusto?",
+      "answer": "Inizia dalle categorie in evidenza se l'occasione è chiara, oppure dal blocco dei più venduti se vuoi una scelta già collaudata."
+    },
+    {
+      "question": "Dove posso vedere spedizione e dettagli del processo?",
+      "answer": "Tempi di spedizione, dettagli del prodotto e checkout restano su Etsy, dove l'acquirente può controllare tutto prima di ordinare."
+    }
+  ]
+}

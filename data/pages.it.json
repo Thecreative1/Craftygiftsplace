@@ -1,0 +1,1186 @@
+[
+  {
+    "path": "/it/index.html",
+    "pairPath": "/en/index.html",
+    "template": "home",
+    "locale": "it",
+    "title": "Regali in legno fatti a mano per lettori, amanti dei gatti e case accoglienti | Craftygiftsplace",
+    "metaDescription": "Scopri regali in legno fatti a mano per lettori, amanti dei gatti e case accoglienti. Esplora sottobicchieri, segnalibri e decorazioni in legno che portano su Etsy.",
+    "h1": "Regali in legno fatti a mano dal calore accogliente",
+    "eyebrow": "4,96/5 su Etsy",
+    "intro": "Esplora sottobicchieri a tema gatto, regali per lettori e decorazioni in legno accoglienti senza dover passare in rassegna tutto il catalogo.",
+    "heroSupport": "Inizia dai più venduti e poi naviga per occasione o per collezione se vuoi confrontare meglio.",
+    "discoveryCta": {
+      "label": "Scopri i più venduti",
+      "target": "#featured-bestsellers"
+    },
+    "primaryCta": {
+      "label": "Vedi Craftygiftsplace su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "heroProducts": [
+      "cat-and-moon-wooden-coasters",
+      "fantasy-reader-gift-set",
+      "moon-cat-shadow-tealight-holder"
+    ],
+    "sections": {
+      "featuredCategories": {
+        "heading": "Categorie in evidenza",
+        "intro": "Inizia dai temi regalo che gli acquirenti cercano più spesso."
+      },
+      "bestsellers": {
+        "heading": "Regali più venduti",
+        "intro": "Tre punti di partenza solidi se vuoi scegliere qualcosa già apprezzato."
+      },
+      "occasions": {
+        "heading": "Acquista per occasione",
+        "intro": "Hai già in mente l'occasione? Parti da queste pagine."
+      },
+      "collections": {
+        "heading": "Acquista per collezione",
+        "intro": "Preferisci partire dal tipo di prodotto? Usa le collezioni principali."
+      },
+      "support": {
+        "heading": "Come aiuta questo sito",
+        "intro": "Una spiegazione veloce, spostata più in basso per lasciare i prodotti in primo piano."
+      },
+      "reviews": {
+        "heading": "Amato su Etsy",
+        "intro": "Alcune recensioni brevi che rafforzano qualità e fiducia."
+      },
+      "faq": {
+        "heading": "Domande utili",
+        "intro": "Risposte rapide prima di passare a Etsy."
+      }
+    },
+    "featuredCategories": [
+      {
+        "kicker": "Per chi ama i gatti",
+        "title": "Regali per amanti dei gatti",
+        "description": "Vai subito a sottobicchieri e decorazioni a tema gatto per case accoglienti e compleanni.",
+        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+        "imageAlt": "Idea regalo sottobicchieri gatto e luna",
+        "href": "/it/pages/regali-per-amanti-dei-gatti.html"
+      },
+      {
+        "kicker": "Per lettori",
+        "title": "Regali per lettori",
+        "description": "Scopri segnalibri, set fantasy e pezzi per angoli lettura pensati per chi ama i libri.",
+        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+        "imageAlt": "Fantasy Reader Gift Set per lettori",
+        "href": "/it/pages/regali-per-lettori.html"
+      },
+      {
+        "kicker": "Per case nuove",
+        "title": "Regali per la casa nuova",
+        "description": "Esplora pezzi in legno utili per tavolini, mensole e regali ben scelti per una nuova casa.",
+        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+        "imageAlt": "Sottobicchieri zodiac come regalo per casa nuova",
+        "href": "/it/pages/regali-per-la-casa-nuova.html"
+      }
+    ],
+    "featuredItems": [
+      {
+        "slug": "cat-and-moon-wooden-coasters",
+        "summary": "Un caldo set di sottobicchieri a tema gatto per tavolini, credenze e regali pensati per chi ama i gatti."
+      },
+      {
+        "slug": "fantasy-reader-gift-set",
+        "summary": "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy."
+      },
+      {
+        "slug": "moon-cat-shadow-tealight-holder",
+        "summary": "Un piccolo portacandela in legno che aggiunge atmosfera a mensole e angoli lettura."
+      }
+    ],
+    "intentCards": [
+      {
+        "title": "Regali per amanti dei gatti",
+        "description": "Sottobicchieri e decorazioni in legno a tema felino per case accoglienti, compleanni e pensieri curati.",
+        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+        "imageAlt": "Idea regalo sottobicchieri gatto e luna",
+        "href": "/it/pages/regali-per-amanti-dei-gatti.html"
+      },
+      {
+        "title": "Regali per lettori",
+        "description": "Segnalibri, set fantasy e pezzi per angoli lettura pensati per lettori e scaffali accoglienti.",
+        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+        "imageAlt": "Fantasy Reader Gift Set per lettori",
+        "href": "/it/pages/regali-per-lettori.html"
+      },
+      {
+        "title": "Regali per la casa nuova",
+        "description": "Sottobicchieri in legno e dettagli decorativi facili da regalare per nuove case, appartamenti e regali da ospite.",
+        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+        "imageAlt": "Sottobicchieri zodiac per casa nuova",
+        "href": "/it/pages/regali-per-la-casa-nuova.html"
+      }
+    ],
+    "collectionCards": [
+      {
+        "title": "Sottobicchieri in legno",
+        "description": "Set di sottobicchieri con temi felini, celesti e botanici per tavoli accoglienti, mensole e regali utili.",
+        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+        "imageAlt": "Collezione sottobicchieri in legno",
+        "href": "/it/pages/sottobicchieri-in-legno.html"
+      },
+      {
+        "title": "Segnalibri in legno",
+        "description": "Segnalibri pensati per lettori e set regalo per scaffali fantasy, diari di lettura e serate tranquille.",
+        "image": "/assets/img/products/celtic-bookmark.jpg",
+        "imageAlt": "Collezione segnalibri in legno",
+        "href": "/it/pages/segnalibri-in-legno.html"
+      },
+      {
+        "title": "Regali in legno",
+        "description": "Portacandela, ricordi, targhette da porta e pezzi decorativi per mensole, ingressi e regali significativi.",
+        "image": "/assets/img/products/just-married-door-hanger.jpg",
+        "imageAlt": "Collezione regali in legno",
+        "href": "/it/pages/regali-in-legno.html"
+      }
+    ],
+    "supportCards": [
+      {
+        "title": "Inizia dai più venduti",
+        "text": "Questa homepage mette in primo piano le idee regalo più chiare per aiutare a scegliere più velocemente."
+      },
+      {
+        "title": "Scegli per occasione o per collezione",
+        "text": "Usa le guide regalo quando conta prima l'occasione, oppure vai alle collezioni quando conta di più il tipo di prodotto."
+      },
+      {
+        "title": "L'ordine resta su Etsy",
+        "text": "Quando qualcuno è pronto, il pulsante porta su Etsy per prezzi, recensioni, personalizzazione, spedizione e checkout."
+      }
+    ],
+    "reviews": {
+      "linkLabel": "Leggi le recensioni Etsy",
+      "linkUrl": "https://www.etsy.com/shop/Craftygiftsplace#reviews",
+      "items": [
+        {
+          "title": "Clare · 5/5",
+          "text": "\"È stato un vero piacere acquistare qui... tornerò sicuramente.\""
+        },
+        {
+          "title": "Caroline · 5/5",
+          "text": "\"Ottima qualità, proprio come descritto, con una venditrice gentile e chiara.\""
+        },
+        {
+          "title": "Andrew · 5/5",
+          "text": "\"Questi sottobicchieri sono bellissimi. Sembrano robusti e molto ben fatti.\""
+        },
+        {
+          "title": "Acquirente di segnalibri · 5/5",
+          "text": "\"Il livello di dettaglio è incredibile, la lavorazione è ottima e il segnalibro è molto resistente.\""
+        }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Si ordina su questo sito?",
+        "answer": "No. Questo sito aiuta a scoprire la collezione e poi manda su Etsy per completare l'ordine."
+      },
+      {
+        "question": "Posso chiedere della personalizzazione prima di acquistare?",
+        "answer": "Sì. I messaggi Etsy sono il posto migliore per chiedere nomi, date o piccoli dettagli personalizzati prima dell'acquisto."
+      },
+      {
+        "question": "Qual è il modo più veloce per scegliere il regalo giusto?",
+        "answer": "Inizia dalle categorie in evidenza se l'occasione è chiara, oppure dal blocco dei più venduti se vuoi una scelta già collaudata."
+      },
+      {
+        "question": "Dove posso vedere spedizione e dettagli del processo?",
+        "answer": "Tempi di spedizione, dettagli del prodotto e checkout restano su Etsy, dove l'acquirente può controllare tutto prima di ordinare."
+      }
+    ],
+    "alternatePaths": {
+      "en": "/en/index.html",
+      "nl": "/index.html",
+      "de": "/de/index.html",
+      "fr": "/fr/index.html",
+      "es": "/es/index.html",
+      "pt": "/pt/index.html",
+      "it": "/it/index.html"
+    }
+  },
+  {
+    "path": "/it/pages/sottobicchieri-in-legno.html",
+    "pairPath": "/en/pages/wooden-coasters.html",
+    "template": "collection",
+    "locale": "it",
+    "title": "Sottobicchieri in legno fatti a mano con stili felini, celesti e botanici | Craftygiftsplace",
+    "metaDescription": "Esplora sottobicchieri in legno fatti a mano con stili felini, celesti e botanici per tavoli accoglienti, mensole e regali ben scelti.",
+    "h1": "Sottobicchieri in legno fatti a mano con stili felini, celesti e botanici",
+    "eyebrow": "Collezione",
+    "intro": "Esplora la selezione di sottobicchieri in un solo posto. Questa pagina resta focalizzata sul tipo di prodotto, così è facile confrontare design con gatti, motivi celesti e temi botanici per tavoli accoglienti, senza mescolare le guide regalo.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/it/index.html"
+      },
+      {
+        "label": "Sottobicchieri in legno",
+        "path": "/it/pages/sottobicchieri-in-legno.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Vedi i sottobicchieri su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
+    },
+    "secondaryCta": {
+      "label": "Vedi la selezione di sottobicchieri",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Regali per amanti dei gatti",
+        "target": "/it/pages/regali-per-amanti-dei-gatti.html"
+      },
+      {
+        "label": "Regali per la casa nuova",
+        "target": "/it/pages/regali-per-la-casa-nuova.html"
+      },
+      {
+        "label": "Tutti gli stili di sottobicchieri",
+        "target": "#shop-catalog"
+      }
+    ],
+    "sidebar": {
+      "title": "Acquistare con fiducia",
+      "quote": "\"Questi sottobicchieri sono bellissimi. Sembrano robusti e molto ben fatti.\"",
+      "attribution": "Andrew · Recensione Etsy",
+      "text": "I sottobicchieri funzionano molto bene per una casa nuova o per un regalo quotidiano perché sono utili, caldi e facili da inserire in casa.",
+      "links": [
+        {
+          "label": "Vedi i regali per amanti dei gatti",
+          "href": "/it/pages/regali-per-amanti-dei-gatti.html"
+        },
+        {
+          "label": "Vedi i regali per la casa nuova",
+          "href": "/it/pages/regali-per-la-casa-nuova.html"
+        },
+        {
+          "label": "Esplora i segnalibri in legno",
+          "href": "/it/pages/segnalibri-in-legno.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "cat-and-moon-wooden-coasters",
+        "summary": "Un set a tema felino che funziona bene sia per un compleanno sia su un tavolino accogliente."
+      },
+      {
+        "slug": "zodiac-wooden-coasters",
+        "summary": "Una scelta sicura per una casa nuova quando si cerca un oggetto in legno utile e decorativo."
+      },
+      {
+        "slug": "floral-wooden-coasters",
+        "summary": "Un'opzione botanica più delicata per cucine calde, tavoli per ospiti e interni naturali."
+      }
+    ],
+    "featuredWhy": [
+      "Riunisce tutta la gamma dei sottobicchieri in una sola vista chiara.",
+      "Permette di confrontare regali da tavola pratici e stili più decorativi.",
+      "Poi indirizza verso idee per amanti dei gatti o per la casa nuova quando l'interesse si fa più preciso."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "cat-and-moon-wooden-coasters",
+        "cat-wooden-coasters",
+        "celestial-cat-wooden-coasters",
+        "zodiac-wooden-coasters",
+        "sun-and-moon-wooden-coasters",
+        "mushroom-moon-wooden-coasters",
+        "floral-wooden-coasters",
+        "leaf-wooden-coasters",
+        "tree-of-life-wooden-coasters",
+        "bee-motif-wooden-coasters",
+        "forest-animal-wooden-coasters",
+        "picasso-animal-line-art-wooden-coasters"
+      ],
+      "intro": "Una selezione di sottobicchieri pensata per tavoli accoglienti, amanti dei gatti e case piene di calore.",
+      "ctaLabel": "Vedi i sottobicchieri su Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
+    },
+    "faq": [
+      {
+        "question": "Questi sottobicchieri vanno bene come regalo per la casa nuova?",
+        "answer": "Sì. Molti design si adattano naturalmente a un regalo per una casa nuova, perché sono pratici, decorativi e facili da usare fin dal primo giorno."
+      },
+      {
+        "question": "I sottobicchieri a tema gatto hanno una pagina dedicata?",
+        "answer": "Sì. La pagina per gli amanti dei gatti riunisce i modelli felini e le piccole decorazioni coordinate in un unico posto."
+      },
+      {
+        "question": "Si possono vedere anche altre collezioni da qui?",
+        "answer": "Sì. Questa pagina collega direttamente a segnalibri, regali in legno e guide per lettori o casa nuova."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Regali per amanti dei gatti",
+        "href": "/it/pages/regali-per-amanti-dei-gatti.html",
+        "description": "Sottobicchieri a tema felino e alcune piccole decorazioni in legno raccolte per questo pubblico."
+      },
+      {
+        "label": "Regali per la casa nuova",
+        "href": "/it/pages/regali-per-la-casa-nuova.html",
+        "description": "Pezzi utili in legno per tavolini, mensole e regali per una nuova casa."
+      },
+      {
+        "label": "Segnalibri in legno",
+        "href": "/it/pages/segnalibri-in-legno.html",
+        "description": "Lascia i regali per la casa e passa a idee pensate per chi legge."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto a confrontare i sottobicchieri su Etsy?",
+      "text": "Apri Etsy per vedere prezzi, dettagli completi e recensioni dei compratori.",
+      "label": "Apri i sottobicchieri su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/wooden-coasters.html",
+      "nl": "/pages/onderzetters.html",
+      "de": "/de/pages/holzuntersetzer.html",
+      "fr": "/fr/pages/sous-verres-en-bois.html",
+      "es": "/es/pages/posavasos-de-madera.html",
+      "pt": "/pt/pages/porta-copos-de-madeira.html",
+      "it": "/it/pages/sottobicchieri-in-legno.html"
+    }
+  },
+  {
+    "path": "/it/pages/segnalibri-in-legno.html",
+    "pairPath": "/en/pages/wooden-bookmarks.html",
+    "template": "collection",
+    "locale": "it",
+    "title": "Segnalibri in legno fatti a mano per scaffali fantasy e letture tranquille | Craftygiftsplace",
+    "metaDescription": "Scopri segnalibri in legno fatti a mano per scaffali fantasy, regali per lettori e momenti di lettura tranquilli con molto carattere.",
+    "h1": "Segnalibri in legno fatti a mano per scaffali fantasy e letture tranquille",
+    "eyebrow": "Collezione",
+    "intro": "Questa pagina mantiene la collezione di segnalibri chiaramente focalizzata sul prodotto. In questo modo è facile confrontare segnalibri in legno per scaffali fantasy, pile di libri e letture tranquille, senza confondere la scelta con guide regalo più ampie.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/it/index.html"
+      },
+      {
+        "label": "Segnalibri in legno",
+        "path": "/it/pages/segnalibri-in-legno.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Vedi i segnalibri su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+    },
+    "secondaryCta": {
+      "label": "Vedi la selezione di segnalibri",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Regali per lettori",
+        "target": "/it/pages/regali-per-lettori.html"
+      },
+      {
+        "label": "Regali in legno",
+        "target": "/it/pages/regali-in-legno.html"
+      },
+      {
+        "label": "Tutti i segnalibri",
+        "target": "#shop-catalog"
+      }
+    ],
+    "sidebar": {
+      "title": "Acquistare con fiducia",
+      "quote": "\"Il livello di dettaglio è incredibile, la lavorazione è ottima e il segnalibro è molto resistente.\"",
+      "attribution": "Acquirente di segnalibri · Recensione Etsy",
+      "text": "I segnalibri sono facili da regalare, occupano poco spazio e risultano più personali di un semplice extra infilato in un libro.",
+      "links": [
+        {
+          "label": "Vedi i regali per lettori",
+          "href": "/it/pages/regali-per-lettori.html"
+        },
+        {
+          "label": "Vedi i regali in legno",
+          "href": "/it/pages/regali-in-legno.html"
+        },
+        {
+          "label": "Scopri i sottobicchieri",
+          "href": "/it/pages/sottobicchieri-in-legno.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "dragon-eye-wooden-bookmark",
+        "summary": "Un segnalibro fantasy molto visivo per lettori che amano dettagli forti su uno scaffale o in un diario di lettura."
+      },
+      {
+        "slug": "fantasy-reader-gift-set",
+        "summary": "Un'opzione più calma per chi cerca un regalo per lettore con un'aria più classica."
+      },
+      {
+        "slug": "personalized-feather-wooden-bookmark",
+        "summary": "Un set che unisce segnalibro, targhetta da porta e sottobicchieri quando il tema deve già risultare coerente."
+      }
+    ],
+    "featuredWhy": [
+      "Mantiene il focus su segnalibri e dettagli legati alla lettura.",
+      "Permette di confrontare rapidamente stili fantasy, classici e personalizzati.",
+      "Porta alla pagina dei regali per lettori quando chi compra ha bisogno di un'idea più ampia."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "dragon-eye-wooden-bookmark",
+        "dragon-wooden-bookmark",
+        "epic-fantasy-wooden-bookmark",
+        "fantasy-sword-wooden-bookmark",
+        "fantasy-reader-gift-set",
+        "celtic-wooden-bookmark",
+        "classic-wooden-bookmark",
+        "personalized-feather-wooden-bookmark",
+        "1984-inspired-wooden-bookmark",
+        "lighthouse-wooden-bookmark"
+      ],
+      "intro": "Una selezione di segnalibri pensata per lettori, scaffali fantasy e momenti di lettura tranquilli.",
+      "ctaLabel": "Vedi i segnalibri su Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+    },
+    "faq": [
+      {
+        "question": "Questi segnalibri sono soprattutto per lettori fantasy?",
+        "answer": "Molti si adattano particolarmente bene a scaffali fantasy e letture d'atmosfera, ma ci sono anche opzioni più sobrie per gusti classici."
+      },
+      {
+        "question": "Esiste una pagina più ampia di regali per lettori?",
+        "answer": "Sì. La pagina dei regali per lettori riunisce segnalibri, set coordinati e alcuni piccoli pezzi in legno per angoli lettura."
+      },
+      {
+        "question": "Posso scoprire altri tipi di regalo da qui?",
+        "answer": "Sì. Questa collezione collega direttamente a regali in legno, sottobicchieri e alle principali guide regalo."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Regali per lettori",
+        "href": "/it/pages/regali-per-lettori.html",
+        "description": "Segnalibri, set fantasy e piccoli pezzi per angoli lettura raccolti in una sola pagina."
+      },
+      {
+        "label": "Regali in legno",
+        "href": "/it/pages/regali-in-legno.html",
+        "description": "Targhette da porta, portacandela e ricordi per andare oltre il segnalibro."
+      },
+      {
+        "label": "Sottobicchieri in legno",
+        "href": "/it/pages/sottobicchieri-in-legno.html",
+        "description": "Regali in legno più orientati alla casa, al tavolino e a una nuova abitazione."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto a vedere i segnalibri su Etsy?",
+      "text": "Apri Etsy per confrontare design, finiture, recensioni e dettagli di personalizzazione.",
+      "label": "Apri i segnalibri su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/wooden-bookmarks.html",
+      "nl": "/pages/bladwijzers.html",
+      "de": "/de/pages/holzlesezeichen.html",
+      "fr": "/fr/pages/marque-pages-en-bois.html",
+      "es": "/es/pages/marcapaginas-de-madera.html",
+      "pt": "/pt/pages/marcadores-de-livros-de-madeira.html",
+      "it": "/it/pages/segnalibri-in-legno.html"
+    }
+  },
+  {
+    "path": "/it/pages/regali-in-legno.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "template": "collection",
+    "locale": "it",
+    "title": "Regali in legno fatti a mano per angoli lettura, mensole e momenti speciali | Craftygiftsplace",
+    "metaDescription": "Esplora regali in legno fatti a mano, come portacandela, targhette da porta e ricordi personalizzati per mensole, ingressi e momenti speciali.",
+    "h1": "Regali in legno fatti a mano per angoli lettura, mensole e momenti speciali",
+    "eyebrow": "Collezione",
+    "intro": "Questa collezione riunisce i regali in legno che non sono né sottobicchieri né segnalibri. Aiuta a confrontare portacandela, targhette da porta, ricordi personalizzati e altri pezzi decorativi in uno spazio più tranquillo.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/it/index.html"
+      },
+      {
+        "label": "Regali in legno",
+        "path": "/it/pages/regali-in-legno.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Vedi i regali in legno su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "secondaryCta": {
+      "label": "Vedi la selezione di regali in legno",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Regali per lettori",
+        "target": "/it/pages/regali-per-lettori.html"
+      },
+      {
+        "label": "Regali per la casa nuova",
+        "target": "/it/pages/regali-per-la-casa-nuova.html"
+      },
+      {
+        "label": "Tutti i regali in legno",
+        "target": "#shop-catalog"
+      }
+    ],
+    "sidebar": {
+      "title": "Acquistare con fiducia",
+      "quote": "\"Ottima qualità, proprio come descritto, con una venditrice gentile e chiara.\"",
+      "attribution": "Caroline · Recensione Etsy",
+      "text": "Questa collezione aiuta quando chi compra vuole qualcosa di più decorativo o personale di un regalo legato solo al tavolo o alla lettura.",
+      "links": [
+        {
+          "label": "Vedi i regali per lettori",
+          "href": "/it/pages/regali-per-lettori.html"
+        },
+        {
+          "label": "Vedi i regali per la casa nuova",
+          "href": "/it/pages/regali-per-la-casa-nuova.html"
+        },
+        {
+          "label": "Vedi la pagina contatto",
+          "href": "/it/pages/contatto.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "moon-cat-shadow-tealight-holder",
+        "summary": "Un piccolo portacandela caldo per mensole, consolle e angoli lettura."
+      },
+      {
+        "slug": "laser-birch-wood-incense-burner",
+        "summary": "Una targhetta da porta più personale quando il regalo deve essere visibile fin dall'ingresso."
+      },
+      {
+        "slug": "personalized-just-married-wooden-door-hanger",
+        "summary": "Un ricordo personalizzato che si adatta bene a matrimoni, anniversari e momenti che vale la pena conservare."
+      }
+    ],
+    "featuredWhy": [
+      "Riunisce i pezzi in legno più decorativi e personalizzati.",
+      "Permette di confrontare regali per casa, ingresso e ricordi in un solo spazio.",
+      "Porta con facilità alle pagine per lettori, gatti o casa nuova quando l'intenzione cambia."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "moon-cat-shadow-tealight-holder",
+        "laser-birch-wood-incense-burner",
+        "personalized-just-married-wooden-door-hanger",
+        "epic-fantasy-door-sign",
+        "personalized-pet-memorial-plaque",
+        "do-not-ring-door-sign"
+      ],
+      "intro": "Una selezione di regali in legno per mensole, ingressi, angoli lettura e ricordi da conservare.",
+      "ctaLabel": "Vedi i regali in legno su Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "faq": [
+      {
+        "question": "Che cosa si trova in questa collezione?",
+        "answer": "Qui ci sono portacandela, targhette da porta, ricordi personalizzati e altri pezzi in legno che non rientrano in sottobicchieri o segnalibri."
+      },
+      {
+        "question": "Questi regali vanno bene anche per la casa nuova?",
+        "answer": "Sì. Diversi pezzi funzionano molto bene su mensole, ingressi e angoli accoglienti di una casa nuova."
+      },
+      {
+        "question": "Posso continuare a navigare verso altre collezioni da qui?",
+        "answer": "Sì. Questa pagina collega a sottobicchieri, segnalibri e alle principali guide regalo."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Regali per lettori",
+        "href": "/it/pages/regali-per-lettori.html",
+        "description": "Idee pensate per libri, angoli lettura e alcuni piccoli set coordinati."
+      },
+      {
+        "label": "Regali per la casa nuova",
+        "href": "/it/pages/regali-per-la-casa-nuova.html",
+        "description": "Pezzi in legno utili e decorativi per nuove case e appartamenti."
+      },
+      {
+        "label": "Contatto",
+        "href": "/it/pages/contatto.html",
+        "description": "Passa da Etsy se vuoi chiedere informazioni sulla personalizzazione o su un regalo specifico."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto a vedere altri regali in legno su Etsy?",
+      "text": "Apri Etsy per confrontare schede prodotto, prezzi, recensioni e opzioni di personalizzazione.",
+      "label": "Apri i regali in legno su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/wooden-gifts.html",
+      "nl": "/pages/houten-cadeaus.html",
+      "de": "/de/pages/holzgeschenke.html",
+      "fr": "/fr/pages/cadeaux-en-bois.html",
+      "es": "/es/pages/regalos-de-madera.html",
+      "pt": "/pt/pages/presentes-de-madeira.html",
+      "it": "/it/pages/regali-in-legno.html"
+    }
+  },
+  {
+    "path": "/it/pages/contatto.html",
+    "pairPath": "/en/pages/contact.html",
+    "template": "contact",
+    "locale": "it",
+    "title": "Contatta Craftygiftsplace per regali in legno personalizzati | Craftygiftsplace",
+    "metaDescription": "Contatta Craftygiftsplace su Etsy per domande sulla personalizzazione, aiuto nella scelta di un regalo o confronto tra sottobicchieri, segnalibri e decorazioni in legno.",
+    "h1": "Hai una domanda o vuoi personalizzare?",
+    "eyebrow": "Contatto",
+    "intro": "Per un ordine, una personalizzazione o una domanda su un articolo specifico, Etsy resta il punto di contatto migliore. Questa pagina mostra solo il passo successivo più chiaro e alcuni accessi semplici alle collezioni principali.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/it/index.html"
+      },
+      {
+        "label": "Contatto",
+        "path": "/it/pages/contatto.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Scrivici su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "secondaryCta": {
+      "label": "Leggi le recensioni Etsy",
+      "targetUrl": "https://www.etsy.com/shop/Craftygiftsplace#reviews"
+    },
+    "infoCards": [
+      {
+        "title": "Piccolo laboratorio di legno fatto a mano",
+        "text": "Craftygiftsplace si concentra su regali in legno incisi che risultano caldi, utili e personali. La selezione mostrata qui resta vicina a lettori, amanti dei gatti, case accoglienti e alcuni ricordi personalizzati."
+      },
+      {
+        "title": "Materiali e finitura",
+        "items": [
+          "Il legno è scelto per un'incisione pulita, una venatura visibile e una finitura naturalmente calda.",
+          "Molti set di sottobicchieri usano il fondo in sughero quando è indicato nella scheda Etsy.",
+          "Ogni pezzo viene controllato dopo l'incisione per mantenere un risultato pulito, caldo e piacevole da regalare."
+        ]
+      },
+      {
+        "title": "Come funziona il processo",
+        "text": "Le idee partono spesso da un tema, un nome o una piccola scritta, poi passano da incisione, finitura a mano e controllo finale prima di arrivare su Etsy."
+      },
+      {
+        "title": "Che cosa si può chiedere",
+        "items": [
+          "Personalizzazione con nome, data o messaggio breve.",
+          "Aiuto nella scelta tra sottobicchieri, segnalibri e altri regali in legno.",
+          "Suggerimenti per un regalo per la casa nuova, per lettori o per un'occasione importante."
+        ]
+      },
+      {
+        "title": "Perché Etsy resta il contatto giusto",
+        "text": "Etsy riunisce ordini, tempi di consegna, note di personalizzazione, protezione dell'acquirente e messaggi nello stesso posto."
+      },
+      {
+        "title": "Buoni punti da cui iniziare",
+        "text": "Se qualcuno è ancora indeciso, il modo migliore è iniziare dai sottobicchieri in legno, dai segnalibri in legno o da una delle guide regalo."
+      }
+    ],
+    "sidebar": {
+      "title": "Acquistare con fiducia",
+      "quote": "\"È stato un vero piacere acquistare qui... tornerò sicuramente.\"",
+      "attribution": "Clare · Recensione Etsy",
+      "text": "La pagina contatto resta semplice: scrivi su Etsy per un dubbio sull'ordine, oppure esplora prima una collezione se vuoi confrontare gli stili.",
+      "links": [
+        {
+          "label": "Sottobicchieri in legno",
+          "href": "/it/pages/sottobicchieri-in-legno.html"
+        },
+        {
+          "label": "Regali per lettori",
+          "href": "/it/pages/regali-per-lettori.html"
+        },
+        {
+          "label": "Regali per la casa nuova",
+          "href": "/it/pages/regali-per-la-casa-nuova.html"
+        }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Gli ordini si fanno su questo sito?",
+        "answer": "No. Ordini e messaggi passano da Etsy, dove restano raccolti scheda prodotto, consegna e opzioni di personalizzazione."
+      },
+      {
+        "question": "Posso chiedere la personalizzazione prima di acquistare?",
+        "answer": "Sì. I messaggi Etsy sono il posto migliore per chiedere un nome, una data o una breve scritta prima dell'ordine."
+      },
+      {
+        "question": "Posso vedere le collezioni prima di scrivere?",
+        "answer": "Sì. Le collezioni principali e le guide regalo restano collegate da questa pagina per confrontare con calma prima di scrivere."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto a scrivere o a navigare su Etsy?",
+      "text": "Apri il negozio Etsy per inviare un messaggio, leggere le recensioni o continuare a esplorare le schede che si adattano alla tua idea regalo.",
+      "label": "Apri Craftygiftsplace su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/contact.html",
+      "nl": "/pages/contact.html",
+      "de": "/de/pages/kontakt.html",
+      "fr": "/fr/pages/contact.html",
+      "es": "/es/pages/contacto.html",
+      "pt": "/pt/pages/contacto.html",
+      "it": "/it/pages/contatto.html"
+    }
+  },
+  {
+    "path": "/it/pages/regali-per-amanti-dei-gatti.html",
+    "pairPath": "/en/pages/cat-lover-gifts.html",
+    "template": "intent",
+    "locale": "it",
+    "title": "Regali in legno per amanti dei gatti, case accoglienti e idee Etsy ben pensate | Craftygiftsplace",
+    "metaDescription": "Scopri regali in legno per amanti dei gatti, con sottobicchieri felini e decorazioni calde per mensole, tavolini e idee che portano su Etsy.",
+    "h1": "Regali in legno per amanti dei gatti, mensole e tavolini",
+    "eyebrow": "Guida regalo",
+    "intro": "Questa pagina è per chi sa già di voler regalare qualcosa a un amante dei gatti. Riunisce i migliori pezzi a tema felino in un solo posto: sottobicchieri per tavolini, design con gatti dal tono più celeste e un piccolo pezzo decorativo per mensole o angoli lettura.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/it/index.html"
+      },
+      {
+        "label": "Regali per amanti dei gatti",
+        "path": "/it/pages/regali-per-amanti-dei-gatti.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Vedi i regali per gatti su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
+    },
+    "secondaryCta": {
+      "label": "Vai alle idee per amanti dei gatti",
+      "target": "#featured-products"
+    },
+    "linkCloud": [
+      {
+        "label": "Sottobicchieri in legno",
+        "target": "/it/pages/sottobicchieri-in-legno.html"
+      },
+      {
+        "label": "Regali per la casa nuova",
+        "target": "/it/pages/regali-per-la-casa-nuova.html"
+      },
+      {
+        "label": "Tutti i regali per gatti",
+        "target": "#shop-catalog"
+      }
+    ],
+    "sidebar": {
+      "title": "Perché questa pagina aiuta",
+      "quote": "\"Questi sottobicchieri sono bellissimi. Sembrano robusti e molto ben fatti.\"",
+      "attribution": "Andrew · Recensione Etsy",
+      "text": "I pezzi a tema gatto erano già popolari nel negozio. Questa pagina li raccoglie per confrontarli senza saltare da una categoria all'altra.",
+      "links": [
+        {
+          "label": "Vedi i sottobicchieri in legno",
+          "href": "/it/pages/sottobicchieri-in-legno.html"
+        },
+        {
+          "label": "Vedi i regali per la casa nuova",
+          "href": "/it/pages/regali-per-la-casa-nuova.html"
+        },
+        {
+          "label": "Vedi i risultati per gatti su Etsy",
+          "href": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "cat-and-moon-wooden-coasters",
+        "summary": "Un favorito a tema felino che resta decorativo e pratico per salotto, scrivania o compleanno."
+      },
+      {
+        "slug": "celestial-cat-wooden-coasters",
+        "summary": "Un'opzione più lunare per chi ama i gatti e un'atmosfera più celeste sul tavolino."
+      },
+      {
+        "slug": "moon-cat-shadow-tealight-holder",
+        "summary": "Un piccolo pezzo decorativo pensato per mensole, comodini e angoli lettura più delicati."
+      }
+    ],
+    "featuredWhy": [
+      "Mantiene i regali a tema gatto in una selezione calma e facile da scorrere.",
+      "Mescola set utili con un pezzo decorativo più morbido.",
+      "Funziona bene quando il regalo deve sembrare accogliente, utile e chiaramente legato ai gatti."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "cat-and-moon-wooden-coasters",
+        "cat-wooden-coasters",
+        "celestial-cat-wooden-coasters",
+        "moon-cat-shadow-tealight-holder"
+      ],
+      "intro": "Le scelte migliori a tema gatto per case accoglienti, mensole e regali intorno a un tavolino.",
+      "ctaLabel": "Vedi i regali per gatti su Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
+    },
+    "faq": [
+      {
+        "question": "Tutti questi regali per amanti dei gatti sono sottobicchieri?",
+        "answer": "No. La pagina riunisce set di sottobicchieri a tema felino e un piccolo pezzo decorativo in legno per scegliere tra regalo pratico e regalo più visivo."
+      },
+      {
+        "question": "Queste idee vanno bene anche per la casa nuova?",
+        "answer": "Sì. Diversi modelli funzionano molto bene per una nuova casa, soprattutto quando il regalo deve sembrare utile e accogliente."
+      },
+      {
+        "question": "Posso continuare a vedere tutta la collezione di sottobicchieri?",
+        "answer": "Sì. Questa pagina collega direttamente alla collezione completa per chi vuole confrontare più temi."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Sottobicchieri in legno",
+        "href": "/it/pages/sottobicchieri-in-legno.html",
+        "description": "Una selezione di sottobicchieri con stili felini, celesti e botanici."
+      },
+      {
+        "label": "Regali per la casa nuova",
+        "href": "/it/pages/regali-per-la-casa-nuova.html",
+        "description": "Pezzi utili in legno per nuove case, tavolini e mensole."
+      },
+      {
+        "label": "Regali in legno",
+        "href": "/it/pages/regali-in-legno.html",
+        "description": "Esplora pezzi decorativi e targhette se vuoi andare oltre i sottobicchieri."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto a confrontare i regali per gatti su Etsy?",
+      "text": "Apri Etsy per confrontare design, prezzi e recensioni intorno a idee a tema felino.",
+      "label": "Apri i regali per gatti su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/cat-lover-gifts.html",
+      "nl": "/pages/cadeaus-voor-kattenliefhebbers.html",
+      "de": "/de/pages/geschenke-fuer-katzenliebhaber.html",
+      "fr": "/fr/pages/cadeaux-pour-amoureux-des-chats.html",
+      "es": "/es/pages/regalos-para-amantes-de-los-gatos.html",
+      "pt": "/pt/pages/presentes-para-amantes-de-gatos.html",
+      "it": "/it/pages/regali-per-amanti-dei-gatti.html"
+    }
+  },
+  {
+    "path": "/it/pages/regali-per-lettori.html",
+    "pairPath": "/en/pages/reader-gifts.html",
+    "template": "intent",
+    "locale": "it",
+    "title": "Regali in legno per lettori, angoli lettura e scaffali accoglienti | Craftygiftsplace",
+    "metaDescription": "Esplora regali in legno per lettori, con segnalibri, un set fantasy e pezzi per angoli lettura e scaffali tranquilli.",
+    "h1": "Regali in legno per lettori e angoli lettura accoglienti",
+    "eyebrow": "Guida regalo",
+    "intro": "Questa pagina aiuta chi sta già cercando un regalo per lettori. Riunisce segnalibri, un set fantasy coordinato e alcuni pezzi che stanno bene in un angolo lettura, così si possono confrontare più stili senza uscire dallo stesso tema.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/it/index.html"
+      },
+      {
+        "label": "Regali per lettori",
+        "path": "/it/pages/regali-per-lettori.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Vedi i regali per lettori su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+    },
+    "secondaryCta": {
+      "label": "Vai alle idee per lettori",
+      "target": "#featured-products"
+    },
+    "linkCloud": [
+      {
+        "label": "Segnalibri in legno",
+        "target": "/it/pages/segnalibri-in-legno.html"
+      },
+      {
+        "label": "Regali in legno",
+        "target": "/it/pages/regali-in-legno.html"
+      },
+      {
+        "label": "Tutte le idee per lettori",
+        "target": "#shop-catalog"
+      }
+    ],
+    "sidebar": {
+      "title": "Perché questa pagina aiuta",
+      "quote": "\"Il livello di dettaglio è incredibile, la lavorazione è ottima e il segnalibro è molto resistente.\"",
+      "attribution": "Acquirente di segnalibri · Recensione Etsy",
+      "text": "Evita di spargere il visitatore tra più collezioni quando l'intenzione è semplice: trovare un regalo per lettori che sembri giusto fin dal primo sguardo.",
+      "links": [
+        {
+          "label": "Vedi i segnalibri in legno",
+          "href": "/it/pages/segnalibri-in-legno.html"
+        },
+        {
+          "label": "Vedi i regali in legno",
+          "href": "/it/pages/regali-in-legno.html"
+        },
+        {
+          "label": "Vedi i risultati per lettori su Etsy",
+          "href": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "fantasy-reader-gift-set",
+        "summary": "Un segnalibro fantasy molto visivo per lettori che amano dettagli forti e un bel oggetto tra le pagine."
+      },
+      {
+        "slug": "dragon-eye-wooden-bookmark",
+        "summary": "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy."
+      },
+      {
+        "slug": "epic-fantasy-door-sign",
+        "summary": "Un piccolo pezzo d'atmosfera per mensole e angoli lettura quando il regalo può essere più morbido che strettamente pratico."
+      }
+    ],
+    "featuredWhy": [
+      "Mantiene la selezione centrata su lettori e abitudini di lettura accoglienti.",
+      "Mescola segnalibri, un set pronto da regalare e un pezzo decorativo leggero.",
+      "Rimanda facilmente alla collezione completa di segnalibri se il visitatore vuole confrontare con più dettaglio."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "fantasy-reader-gift-set",
+        "dragon-eye-wooden-bookmark",
+        "epic-fantasy-wooden-bookmark",
+        "fantasy-sword-wooden-bookmark",
+        "dragon-wooden-bookmark",
+        "personalized-feather-wooden-bookmark",
+        "classic-wooden-bookmark",
+        "epic-fantasy-door-sign",
+        "fantasy-wooden-coasters",
+        "laser-birch-wood-incense-burner"
+      ],
+      "intro": "Idee in legno per lettori, segnalibri, set fantasy e piccoli dettagli per angoli lettura.",
+      "ctaLabel": "Vedi i regali per lettori su Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+    },
+    "faq": [
+      {
+        "question": "Questa pagina include solo segnalibri?",
+        "answer": "No. Riunisce soprattutto segnalibri, ma anche un set coordinato e un piccolo pezzo decorativo che funziona bene in un angolo lettura."
+      },
+      {
+        "question": "Esiste anche una collezione dedicata ai segnalibri?",
+        "answer": "Sì. La collezione di segnalibri in legno resta disponibile per chi vuole restare solo su questo tipo di prodotto."
+      },
+      {
+        "question": "Questi regali si adattano ai lettori fantasy?",
+        "answer": "Sì. Diverse opzioni sono chiaramente orientate al fantasy, senza escludere stili più tranquilli per altri lettori."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Segnalibri in legno",
+        "href": "/it/pages/segnalibri-in-legno.html",
+        "description": "Resta sulla collezione prodotto se vuoi confrontare più segnalibri."
+      },
+      {
+        "label": "Regali in legno",
+        "href": "/it/pages/regali-in-legno.html",
+        "description": "Aggiungi portacandela, targhette e altri oggetti in legno all'idea regalo."
+      },
+      {
+        "label": "Regali per la casa nuova",
+        "href": "/it/pages/regali-per-la-casa-nuova.html",
+        "description": "Passa a idee più legate alla casa se il regalo serve soprattutto per un interno nuovo."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto a vedere i regali per lettori su Etsy?",
+      "text": "Apri Etsy per confrontare schede, recensioni e opzioni che si adattano meglio al tuo lettore.",
+      "label": "Apri i regali per lettori su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/reader-gifts.html",
+      "nl": "/pages/lezerscadeaus.html",
+      "de": "/de/pages/geschenke-fuer-leser.html",
+      "fr": "/fr/pages/cadeaux-pour-lecteurs.html",
+      "es": "/es/pages/regalos-para-lectores.html",
+      "pt": "/pt/pages/presentes-para-leitores.html",
+      "it": "/it/pages/regali-per-lettori.html"
+    }
+  },
+  {
+    "path": "/it/pages/regali-per-la-casa-nuova.html",
+    "pairPath": "/en/pages/housewarming-gifts.html",
+    "template": "intent",
+    "locale": "it",
+    "title": "Regali in legno per la casa nuova, tavolini, mensole e case accoglienti | Craftygiftsplace",
+    "metaDescription": "Esplora regali in legno per la casa nuova, con sottobicchieri utili e pezzi decorativi caldi per tavolini, mensole e nuovi ambienti.",
+    "h1": "Regali in legno per la casa nuova, tavolini, mensole e case accoglienti",
+    "eyebrow": "Guida regalo",
+    "intro": "Questa pagina è per chi sta già cercando un regalo per una casa nuova. Si concentra su sottobicchieri utili, qualche pezzo decorativo più morbido e idee che hanno subito senso su un tavolino, una mensola o un ingresso.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/it/index.html"
+      },
+      {
+        "label": "Regali per la casa nuova",
+        "path": "/it/pages/regali-per-la-casa-nuova.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Vedi i regali per la casa nuova su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
+    },
+    "secondaryCta": {
+      "label": "Vai alle idee per la casa nuova",
+      "target": "#featured-products"
+    },
+    "linkCloud": [
+      {
+        "label": "Sottobicchieri in legno",
+        "target": "/it/pages/sottobicchieri-in-legno.html"
+      },
+      {
+        "label": "Regali per amanti dei gatti",
+        "target": "/it/pages/regali-per-amanti-dei-gatti.html"
+      },
+      {
+        "label": "Tutte le idee per la casa",
+        "target": "#shop-catalog"
+      }
+    ],
+    "sidebar": {
+      "title": "Perché questa pagina funziona",
+      "quote": "\"Questi sottobicchieri sono bellissimi. Sembrano robusti e molto ben fatti.\"",
+      "attribution": "Andrew · Recensione Etsy",
+      "text": "Per una casa nuova, molti visitatori vogliono qualcosa di utile, decorativo e facile da integrare nell'ambiente. Questa pagina mantiene proprio quel focus.",
+      "links": [
+        {
+          "label": "Vedi i sottobicchieri in legno",
+          "href": "/it/pages/sottobicchieri-in-legno.html"
+        },
+        {
+          "label": "Vedi i regali per gatti",
+          "href": "/it/pages/regali-per-amanti-dei-gatti.html"
+        },
+        {
+          "label": "Vedi i regali in legno",
+          "href": "/it/pages/regali-in-legno.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "zodiac-wooden-coasters",
+        "summary": "Un set di sottobicchieri in legno molto facile da regalare per tavolini, caffè del mattino e nuovi salotti."
+      },
+      {
+        "slug": "moon-cat-shadow-tealight-holder",
+        "summary": "Un'altra opzione pratica con uno stile più celeste per case calde e mensole in vista."
+      },
+      {
+        "slug": "laser-birch-wood-incense-burner",
+        "summary": "Un piccolo pezzo decorativo che aggiunge un accento morbido su mensole o consolle quando si vuole variare oltre i sottobicchieri."
+      }
+    ],
+    "featuredWhy": [
+      "Mantiene il focus su idee per la casa chiare e facili da regalare.",
+      "Mescola sottobicchieri utili e un piccolo pezzo decorativo più delicato.",
+      "Aiuta a confrontare opzioni adatte a tavolini, mensole e appartamenti."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "zodiac-wooden-coasters",
+        "floral-wooden-coasters",
+        "bee-motif-wooden-coasters",
+        "tree-of-life-wooden-coasters",
+        "cat-and-moon-wooden-coasters",
+        "moon-cat-shadow-tealight-holder",
+        "laser-birch-wood-incense-burner",
+        "mushroom-moon-wooden-coasters",
+        "forest-animal-wooden-coasters",
+        "leaf-wooden-coasters"
+      ],
+      "intro": "Idee in legno per case nuove, tavolini, mensole e interni accoglienti.",
+      "ctaLabel": "Vedi i regali per la casa nuova su Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
+    },
+    "faq": [
+      {
+        "question": "Queste idee vanno bene per un appartamento o una casa piccola?",
+        "answer": "Sì. Diversi pezzi sono compatti, utili e facili da sistemare su un tavolino, una mensola o una consolle senza occupare troppo spazio."
+      },
+      {
+        "question": "In questa pagina dominano i sottobicchieri?",
+        "answer": "I sottobicchieri restano al centro della selezione, ma la pagina mantiene anche un piccolo pezzo decorativo per chi vuole qualcosa di più morbido."
+      },
+      {
+        "question": "Posso vedere altre idee regalo da qui?",
+        "answer": "Sì. Questa pagina collega alle collezioni e alle guide per gatti o lettori se l'intenzione cambia."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Sottobicchieri in legno",
+        "href": "/it/pages/sottobicchieri-in-legno.html",
+        "description": "Confronta altri stili se vuoi restare su un regalo pratico per la casa."
+      },
+      {
+        "label": "Regali per amanti dei gatti",
+        "href": "/it/pages/regali-per-amanti-dei-gatti.html",
+        "description": "Aggiungi un tocco felino se la casa nuova appartiene a qualcuno che adora i gatti."
+      },
+      {
+        "label": "Regali in legno",
+        "href": "/it/pages/regali-in-legno.html",
+        "description": "Passa a pezzi decorativi e ricordi se vuoi uscire dal mondo dei sottobicchieri."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto a confrontare i regali per la casa nuova su Etsy?",
+      "text": "Apri Etsy per vedere schede, prezzi e recensioni intorno ai regali per nuovi ambienti.",
+      "label": "Apri le idee per la casa nuova su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
+    },
+    "alternatePaths": {
+      "en": "/en/pages/housewarming-gifts.html",
+      "nl": "/pages/verhuiscadeaus.html",
+      "de": "/de/pages/einzugsgeschenke.html",
+      "fr": "/fr/pages/cadeaux-de-cremaillere.html",
+      "es": "/es/pages/regalos-para-casa-nueva.html",
+      "pt": "/pt/pages/presentes-de-casa-nova.html",
+      "it": "/it/pages/regali-per-la-casa-nuova.html"
+    }
+  }
+]

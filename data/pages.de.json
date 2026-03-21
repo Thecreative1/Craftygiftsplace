@@ -227,7 +227,11 @@
     "alternatePaths": {
       "en": "/en/index.html",
       "nl": "/index.html",
-      "de": "/de/index.html"
+      "de": "/de/index.html",
+      "fr": "/fr/index.html",
+      "es": "/es/index.html",
+      "pt": "/pt/index.html",
+      "it": "/it/index.html"
     }
   },
   {
@@ -369,7 +373,11 @@
     "alternatePaths": {
       "en": "/en/pages/wooden-bookmarks.html",
       "nl": "/pages/bladwijzers.html",
-      "de": "/de/pages/holzlesezeichen.html"
+      "de": "/de/pages/holzlesezeichen.html",
+      "fr": "/fr/pages/marque-pages-en-bois.html",
+      "es": "/es/pages/marcapaginas-de-madera.html",
+      "pt": "/pt/pages/marcadores-de-livros-de-madeira.html",
+      "it": "/it/pages/segnalibri-in-legno.html"
     }
   },
   {
@@ -507,7 +515,11 @@
     "alternatePaths": {
       "en": "/en/pages/wooden-gifts.html",
       "nl": "/pages/houten-cadeaus.html",
-      "de": "/de/pages/holzgeschenke.html"
+      "de": "/de/pages/holzgeschenke.html",
+      "fr": "/fr/pages/cadeaux-en-bois.html",
+      "es": "/es/pages/regalos-de-madera.html",
+      "pt": "/pt/pages/presentes-de-madeira.html",
+      "it": "/it/pages/regali-in-legno.html"
     }
   },
   {
@@ -651,7 +663,11 @@
     "alternatePaths": {
       "en": "/en/pages/wooden-coasters.html",
       "nl": "/pages/onderzetters.html",
-      "de": "/de/pages/holzuntersetzer.html"
+      "de": "/de/pages/holzuntersetzer.html",
+      "fr": "/fr/pages/sous-verres-en-bois.html",
+      "es": "/es/pages/posavasos-de-madera.html",
+      "pt": "/pt/pages/porta-copos-de-madeira.html",
+      "it": "/it/pages/sottobicchieri-in-legno.html"
     }
   },
   {
@@ -759,7 +775,11 @@
     "alternatePaths": {
       "en": "/en/pages/contact.html",
       "nl": "/pages/contact.html",
-      "de": "/de/pages/kontakt.html"
+      "de": "/de/pages/kontakt.html",
+      "fr": "/fr/pages/contact.html",
+      "es": "/es/pages/contacto.html",
+      "pt": "/pt/pages/contacto.html",
+      "it": "/it/pages/contatto.html"
     }
   },
   {
@@ -895,7 +915,11 @@
     "alternatePaths": {
       "en": "/en/pages/cat-lover-gifts.html",
       "nl": "/pages/cadeaus-voor-kattenliefhebbers.html",
-      "de": "/de/pages/geschenke-fuer-katzenliebhaber.html"
+      "de": "/de/pages/geschenke-fuer-katzenliebhaber.html",
+      "fr": "/fr/pages/cadeaux-pour-amoureux-des-chats.html",
+      "es": "/es/pages/regalos-para-amantes-de-los-gatos.html",
+      "pt": "/pt/pages/presentes-para-amantes-de-gatos.html",
+      "it": "/it/pages/regali-per-amanti-dei-gatti.html"
     }
   },
   {
@@ -1037,7 +1061,11 @@
     "alternatePaths": {
       "en": "/en/pages/reader-gifts.html",
       "nl": "/pages/lezerscadeaus.html",
-      "de": "/de/pages/geschenke-fuer-leser.html"
+      "de": "/de/pages/geschenke-fuer-leser.html",
+      "fr": "/fr/pages/cadeaux-pour-lecteurs.html",
+      "es": "/es/pages/regalos-para-lectores.html",
+      "pt": "/pt/pages/presentes-para-leitores.html",
+      "it": "/it/pages/regali-per-lettori.html"
     }
   },
   {
@@ -1179,7 +1207,11 @@
     "alternatePaths": {
       "en": "/en/pages/housewarming-gifts.html",
       "nl": "/pages/verhuiscadeaus.html",
-      "de": "/de/pages/einzugsgeschenke.html"
+      "de": "/de/pages/einzugsgeschenke.html",
+      "fr": "/fr/pages/cadeaux-de-cremaillere.html",
+      "es": "/es/pages/regalos-para-casa-nueva.html",
+      "pt": "/pt/pages/presentes-de-casa-nova.html",
+      "it": "/it/pages/regali-per-la-casa-nuova.html"
     }
   }
 ]

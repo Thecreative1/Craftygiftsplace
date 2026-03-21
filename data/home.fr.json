@@ -1,0 +1,191 @@
+{
+  "title": "Cadeaux en bois faits main pour lecteurs, amoureux des chats et intérieurs chaleureux | Craftygiftsplace",
+  "metaDescription": "Découvrez des cadeaux en bois faits main pour lecteurs, amoureux des chats et intérieurs chaleureux. Parcourez des dessous-verres, marque-pages et objets déco en bois qui mènent vers Etsy.",
+  "h1": "Des cadeaux en bois faits main au charme chaleureux",
+  "eyebrow": "4,96/5 sur Etsy",
+  "intro": "Parcourez des dessous-verres sur le thème du chat, des cadeaux pour lecteurs et une déco en bois chaleureuse sans devoir fouiller tout le catalogue.",
+  "heroSupport": "Commencez par les meilleures ventes, puis explorez par occasion ou par collection si vous voulez comparer davantage.",
+  "discoveryCta": {
+    "label": "Découvrir les meilleures ventes",
+    "target": "#featured-bestsellers"
+  },
+  "primaryCta": {
+    "label": "Voir Craftygiftsplace sur Etsy",
+    "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+  },
+  "heroProducts": [
+    "cat-and-moon-wooden-coasters",
+    "fantasy-reader-gift-set",
+    "moon-cat-shadow-tealight-holder"
+  ],
+  "sections": {
+    "featuredCategories": {
+      "heading": "Catégories mises en avant",
+      "intro": "Commencez par les thèmes cadeaux les plus recherchés."
+    },
+    "bestsellers": {
+      "heading": "Meilleures ventes",
+      "intro": "Trois bonnes options pour partir d'un choix déjà apprécié."
+    },
+    "occasions": {
+      "heading": "Par occasion",
+      "intro": "Vous avez déjà l'occasion en tête ? Commencez ici."
+    },
+    "collections": {
+      "heading": "Par collection",
+      "intro": "Vous préférez partir du type de produit ? Explorez les collections principales."
+    },
+    "support": {
+      "heading": "Comment ce site aide",
+      "intro": "Une explication rapide, placée plus bas pour laisser les produits au premier plan."
+    },
+    "reviews": {
+      "heading": "Apprécié sur Etsy",
+      "intro": "Quelques avis courts qui renforcent la confiance."
+    },
+    "faq": {
+      "heading": "Questions utiles",
+      "intro": "Des réponses rapides avant de passer sur Etsy."
+    }
+  },
+  "featuredCategories": [
+    {
+      "kicker": "Pour les amoureux des chats",
+      "title": "Cadeaux pour amoureux des chats",
+      "description": "Allez directement vers des dessous-verres et objets déco sur le thème du chat pour maisons chaleureuses et anniversaires.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Idée cadeau dessous-verres chat et lune",
+      "href": "/fr/pages/cadeaux-pour-amoureux-des-chats.html"
+    },
+    {
+      "kicker": "Pour les lecteurs",
+      "title": "Cadeaux pour lecteurs",
+      "description": "Découvrez marque-pages, sets fantasy et pièces pour coin lecture destinés aux amoureux des livres.",
+      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+      "imageAlt": "Fantasy Reader Gift Set pour lecteurs",
+      "href": "/fr/pages/cadeaux-pour-lecteurs.html"
+    },
+    {
+      "kicker": "Pour les nouveaux intérieurs",
+      "title": "Cadeaux de crémaillère",
+      "description": "Parcourez des pièces en bois utiles pour tables basses, étagères et cadeaux de maison bien choisis.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Dessous-verres zodiac comme cadeau de crémaillère",
+      "href": "/fr/pages/cadeaux-de-cremaillere.html"
+    }
+  ],
+  "featuredItems": [
+    {
+      "slug": "cat-and-moon-wooden-coasters",
+      "summary": "Un set de dessous-verres chaleureux au motif chat pour tables basses, buffets et cadeaux pensés pour les amoureux des chats."
+    },
+    {
+      "slug": "fantasy-reader-gift-set",
+      "summary": "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour lecteurs de fantasy."
+    },
+    {
+      "slug": "moon-cat-shadow-tealight-holder",
+      "summary": "Un petit porte-bougie en bois qui apporte une ambiance douce aux étagères et coins lecture."
+    }
+  ],
+  "intentCards": [
+    {
+      "title": "Cadeaux pour amoureux des chats",
+      "description": "Dessous-verres et déco en bois sur le thème du chat pour intérieurs chaleureux, anniversaires et surprises attentionnées.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Idée cadeau dessous-verres chat et lune",
+      "href": "/fr/pages/cadeaux-pour-amoureux-des-chats.html"
+    },
+    {
+      "title": "Cadeaux pour lecteurs",
+      "description": "Marque-pages, sets fantasy et pièces pour coin lecture destinés aux lecteurs et aux étagères douillettes.",
+      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+      "imageAlt": "Fantasy Reader Gift Set pour lecteurs",
+      "href": "/fr/pages/cadeaux-pour-lecteurs.html"
+    },
+    {
+      "title": "Cadeaux de crémaillère",
+      "description": "Dessous-verres en bois et accents déco faciles à offrir pour nouveaux logements, appartements et cadeaux d'hôte.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Dessous-verres zodiac pour crémaillère",
+      "href": "/fr/pages/cadeaux-de-cremaillere.html"
+    }
+  ],
+  "collectionCards": [
+    {
+      "title": "Dessous-verres en bois",
+      "description": "Sets de dessous-verres chats, célestes et botaniques pour tables chaleureuses, étagères et cadeaux bien choisis.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Collection de dessous-verres en bois",
+      "href": "/fr/pages/sous-verres-en-bois.html"
+    },
+    {
+      "title": "Marque-pages en bois",
+      "description": "Marque-pages pensés pour les lecteurs et sets cadeaux pour étagères fantasy, carnets de lecture et soirées calmes.",
+      "image": "/assets/img/products/celtic-bookmark.jpg",
+      "imageAlt": "Collection de marque-pages en bois",
+      "href": "/fr/pages/marque-pages-en-bois.html"
+    },
+    {
+      "title": "Cadeaux en bois",
+      "description": "Porte-bougies, souvenirs, suspensions de porte et objets déco pour étagères, entrées et cadeaux marquants.",
+      "image": "/assets/img/products/just-married-door-hanger.jpg",
+      "imageAlt": "Collection de cadeaux en bois",
+      "href": "/fr/pages/cadeaux-en-bois.html"
+    }
+  ],
+  "supportCards": [
+    {
+      "title": "Commencez par les meilleures ventes",
+      "text": "Cette page d'accueil met les idées cadeaux les plus claires au premier plan pour aider à choisir plus vite."
+    },
+    {
+      "title": "Choisissez par occasion ou par collection",
+      "text": "Utilisez les guides cadeaux si l'occasion compte d'abord, ou passez aux collections si le type de produit compte davantage."
+    },
+    {
+      "title": "La commande reste sur Etsy",
+      "text": "Quand quelqu'un est prêt, le bouton mène vers Etsy pour les prix, les avis, la personnalisation, l'expédition et le paiement."
+    }
+  ],
+  "reviews": {
+    "linkLabel": "Lire les avis Etsy",
+    "linkUrl": "https://www.etsy.com/shop/Craftygiftsplace#reviews",
+    "items": [
+      {
+        "title": "Clare · 5/5",
+        "text": "\"Un vrai plaisir d'échanger avec cette boutique... je reviendrai volontiers.\""
+      },
+      {
+        "title": "Caroline · 5/5",
+        "text": "\"Très belle qualité, conforme à la description, avec une vendeuse aimable et claire.\""
+      },
+      {
+        "title": "Andrew · 5/5",
+        "text": "\"Ces dessous-verres sont magnifiques. Ils semblent solides et bien faits.\""
+      },
+      {
+        "title": "Acheteur de marque-page · 5/5",
+        "text": "\"Le niveau de détail est superbe, la finition est soignée et le marque-page est très durable.\""
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Est-ce que je commande sur ce site ?",
+      "answer": "Non. Ce site aide à découvrir la collection puis envoie les visiteurs vers Etsy pour finaliser la commande."
+    },
+    {
+      "question": "Puis-je poser une question sur la personnalisation avant d'acheter ?",
+      "answer": "Oui. La messagerie Etsy est le meilleur endroit pour demander un prénom, une date ou un petit détail personnalisé avant l'achat."
+    },
+    {
+      "question": "Quelle est la façon la plus rapide de trouver le bon cadeau ?",
+      "answer": "Commencez par les catégories mises en avant si l'occasion est claire, ou par les meilleures ventes si vous voulez une option déjà éprouvée."
+    },
+    {
+      "question": "Où vérifier l'expédition et le déroulement de la commande ?",
+      "answer": "Les délais d'envoi, les détails des fiches produit et le paiement restent sur Etsy, où l'acheteur peut tout vérifier avant de commander."
+    }
+  ]
+}

@@ -600,6 +600,570 @@ const LABELS = {
   }
 };
 
+LABELS.fr = {
+  audience: {
+    "cat-lovers": "amoureux des chats",
+    "dog-lovers": "amoureux des chiens",
+    readers: "lecteurs",
+    "book-lovers": "amoureux des livres",
+    "fantasy-readers": "lecteurs de fantasy",
+    gamers: "joueurs",
+    newlyweds: "jeunes mariés",
+    "new-parents": "jeunes parents",
+    "cozy-homeowners": "amateurs d'intérieurs chaleureux",
+    "alternative-decor-fans": "amateurs de déco affirmée",
+    crafters: "créatifs",
+    "gift-shoppers": "chercheurs de cadeaux"
+  },
+  occasion: {
+    housewarming: "crémaillère",
+    birthday: "anniversaire",
+    "reader-gift": "cadeau pour lecteur",
+    wedding: "mariage",
+    anniversary: "anniversaire de mariage",
+    christmas: "Noël",
+    "new-baby": "nouveau bébé",
+    "everyday-gift": "petit cadeau du quotidien",
+    memorial: "cadeau souvenir",
+    "hobby-gift": "cadeau loisir"
+  },
+  style: {
+    cozy: "chaleureux",
+    celestial: "céleste",
+    fantasy: "fantasy",
+    botanical: "botanique",
+    playful: "ludique",
+    personalized: "personnalisé",
+    gothic: "gothique",
+    rustic: "rustique",
+    minimal: "sobre",
+    alternative: "alternatif",
+    "faith-inspired": "spirituel",
+    seasonal: "de saison",
+    coastal: "bord de mer"
+  },
+  intent: {
+    "cat-lover-gift": "cadeau pour amoureux des chats",
+    "reader-gift": "cadeau pour lecteur",
+    "book-lover-gift": "cadeau pour amoureux des livres",
+    "fantasy-reader-gift": "cadeau fantasy pour lecteur",
+    "bookmark-gift": "cadeau marque-page",
+    "reading-nook-gift": "cadeau pour coin lecture",
+    "housewarming-gift": "cadeau de crémaillère",
+    "cozy-home-decor": "déco chaleureuse pour la maison",
+    "personalized-wedding-gift": "cadeau de mariage personnalisé"
+  },
+  chip: {
+    "cat-lovers": "Cadeau pour amoureux des chats",
+    "dog-lovers": "Cadeau pour amoureux des chiens",
+    readers: "Cadeau pour lecteurs",
+    "book-lovers": "Cadeau pour amoureux des livres",
+    "fantasy-readers": "Cadeau fantasy",
+    gamers: "Cadeau pour joueur",
+    newlyweds: "Cadeau pour jeunes mariés",
+    "new-parents": "Nouveau bébé",
+    "cozy-homeowners": "Cadeau maison",
+    "alternative-decor-fans": "Déco marquée",
+    crafters: "Cadeau DIY",
+    housewarming: "Cadeau de crémaillère",
+    wedding: "Cadeau de mariage",
+    anniversary: "Souvenir de mariage",
+    christmas: "Déco de saison",
+    memorial: "Souvenir",
+    personalized: "Personnalisé",
+    cozy: "Style chaleureux",
+    celestial: "Design céleste",
+    fantasy: "Décor fantasy",
+    botanical: "Thème nature",
+    playful: "Thème ludique",
+    gothic: "Ambiance gothique",
+    coastal: "Déco maison",
+    seasonal: "Déco de saison"
+  },
+  format: {
+    coasters: "set de dessous-verres",
+    bookmarks: "marque-page",
+    "door-hanger": "suspension de porte",
+    "decor-piece": "pièce déco",
+    keepsake: "cadeau souvenir",
+    craft: "set DIY en bois",
+    plaque: "plaque en bois",
+    "small-gift": "petit cadeau en bois"
+  },
+  benefitPrimary: {
+    coasters: "protège les tables",
+    bookmarks: "garde la page facile à retrouver",
+    "door-hanger": "donne une touche personnelle à la pièce",
+    "decor-piece": "apporte de l'ambiance aux étagères et aux tables",
+    keepsake: "marque un moment important de façon concrète",
+    craft: "donne une base en bois prête à être terminée",
+    plaque: "rend un souvenir visible",
+    "small-gift": "ajoute une petite touche artisanale"
+  },
+  benefitSecondary: {
+    coasters: "ajoute un décor thématique",
+    bookmarks: "rend un cadeau livre plus personnel",
+    "door-hanger": "donne le ton dès l'entrée",
+    "decor-piece": "apporte un accent chaleureux",
+    keepsake: "rend le moment plus facile à garder",
+    craft: "garde les idées créatives simples à offrir",
+    plaque: "ajoute une finition attentionnée",
+    "small-gift": "fonctionne bien comme petit cadeau ou ajout"
+  },
+  motif: {
+    cat: "un motif de chat",
+    dog: "un détail de patte",
+    celestial: "un tracé céleste",
+    fantasy: "un détail fantasy",
+    gaming: "un motif de jeu",
+    botanical: "un détail botanique",
+    coastal: "un détail bord de mer",
+    faith: "un détail spirituel",
+    gothic: "un détail gothique",
+    seasonal: "un motif de saison",
+    wedding: "un détail d'occasion",
+    baby: "une formule souvenir",
+    craft: "du bois brut prêt à être décoré",
+    memorial: "un détail souvenir",
+    default: "une gravure chaleureuse"
+  },
+  usage: {
+    coasters: { cat: "tables basses, bureaux et coins cosy", dog: "tables du quotidien et espaces avec animaux", celestial: "tables basses, guéridons et pièces d'ambiance", fantasy: "coins lecture, bureaux et pièces loisirs", gaming: "salles de jeu, bureaux et tables du week-end", botanical: "cuisines, tables d'invités et intérieurs chaleureux", coastal: "chambres d'amis, terrasses et maisons détendues", gothic: "guéridons, étagères et décors affirmés", default: "tables du quotidien, bureaux et coins chaleureux" },
+    bookmarks: { fantasy: "piles de livres, lectures du soir et étagères fantasy", celestial: "journaux de lecture, tables de nuit et chapitres calmes", botanical: "cadeaux livres, sacs et lectures silencieuses", gothic: "étagères dark academia et coins lecture marqués", default: "piles de livres, journaux de lecture et coffrets cadeaux" },
+    "door-hanger": { fantasy: "coins lecture, pièces loisirs et portes de chambre", gaming: "salles de jeu, coins streaming et bureaux", wedding: "entrées, coins mariage et espaces partagés", default: "portes de chambre, bureaux à domicile et coins personnels" },
+    "decor-piece": { cat: "étagères, guéridons et coins éclairés à la bougie", celestial: "tables de nuit, consoles et ambiances du soir", gothic: "étagères, buffets et coins atmosphériques", default: "étagères, guéridons et coins cosy" },
+    keepsake: { wedding: "boîtes cadeaux, étagères souvenirs et tables d'occasion", baby: "étagères de chambre, tiroirs et photos marquantes", memorial: "coins mémoire et étagères pleines de sens", default: "boîtes cadeaux, étagères et moments à garder" },
+    craft: { default: "tables créatives, projets personnalisés et cadeaux faits main" },
+    plaque: { memorial: "coins mémoire, bureaux et espaces hommage", default: "étagères, guéridons et endroits souvenirs" },
+    "small-gift": { default: "tiroirs de bureau, coffrets cadeaux et petits espaces du quotidien" }
+  },
+  ctaPrefix: "Voir",
+  brandSuffix: "de Craftygiftsplace"
+};
+
+LABELS.es = {
+  audience: {
+    "cat-lovers": "amantes de los gatos",
+    "dog-lovers": "amantes de los perros",
+    readers: "lectores",
+    "book-lovers": "amantes de los libros",
+    "fantasy-readers": "lectores de fantasía",
+    gamers: "jugadores",
+    newlyweds: "recién casados",
+    "new-parents": "padres recientes",
+    "cozy-homeowners": "amantes de hogares acogedores",
+    "alternative-decor-fans": "amantes de la decoración con carácter",
+    crafters: "personas creativas",
+    "gift-shoppers": "compradores de regalos"
+  },
+  occasion: {
+    housewarming: "casa nueva",
+    birthday: "cumpleaños",
+    "reader-gift": "regalo para lectores",
+    wedding: "boda",
+    anniversary: "aniversario",
+    christmas: "Navidad",
+    "new-baby": "nuevo bebé",
+    "everyday-gift": "pequeño regalo",
+    memorial: "regalo conmemorativo",
+    "hobby-gift": "regalo afición"
+  },
+  style: {
+    cozy: "acogedor",
+    celestial: "celestial",
+    fantasy: "fantasy",
+    botanical: "botánico",
+    playful: "divertido",
+    personalized: "personalizado",
+    gothic: "gótico",
+    rustic: "rústico",
+    minimal: "sereno",
+    alternative: "alternativo",
+    "faith-inspired": "espiritual",
+    seasonal: "de temporada",
+    coastal: "costero"
+  },
+  intent: {
+    "cat-lover-gift": "regalo para amantes de los gatos",
+    "reader-gift": "regalo para lectores",
+    "book-lover-gift": "regalo para amantes de los libros",
+    "fantasy-reader-gift": "regalo fantasy para lectores",
+    "bookmark-gift": "regalo marcapáginas",
+    "reading-nook-gift": "regalo para rincón de lectura",
+    "housewarming-gift": "regalo para casa nueva",
+    "cozy-home-decor": "decoración acogedora para el hogar",
+    "personalized-wedding-gift": "regalo de boda personalizado"
+  },
+  chip: {
+    "cat-lovers": "Regalo para amantes de los gatos",
+    "dog-lovers": "Regalo para amantes de los perros",
+    readers: "Regalo para lectores",
+    "book-lovers": "Regalo para amantes de los libros",
+    "fantasy-readers": "Regalo fantasy",
+    gamers: "Regalo para jugador",
+    newlyweds: "Regalo para recién casados",
+    "new-parents": "Nuevo bebé",
+    "cozy-homeowners": "Regalo para el hogar",
+    "alternative-decor-fans": "Decoración con carácter",
+    crafters: "Regalo DIY",
+    housewarming: "Regalo para casa nueva",
+    wedding: "Regalo de boda",
+    anniversary: "Recuerdo de aniversario",
+    christmas: "Decoración de temporada",
+    memorial: "Recuerdo",
+    personalized: "Personalizado",
+    cozy: "Estilo acogedor",
+    celestial: "Diseño celestial",
+    fantasy: "Decoración fantasy",
+    botanical: "Tema natural",
+    playful: "Tema divertido",
+    gothic: "Ambiente gótico",
+    coastal: "Decoración para casa",
+    seasonal: "Decoración de temporada"
+  },
+  format: {
+    coasters: "set de posavasos",
+    bookmarks: "marcapáginas",
+    "door-hanger": "colgador de puerta",
+    "decor-piece": "pieza decorativa",
+    keepsake: "regalo recuerdo",
+    craft: "set DIY de madera",
+    plaque: "placa de madera",
+    "small-gift": "pequeño regalo de madera"
+  },
+  benefitPrimary: {
+    coasters: "protege las mesas",
+    bookmarks: "mantiene la página fácil de encontrar",
+    "door-hanger": "da un toque personal a la habitación",
+    "decor-piece": "aporta ambiente a estanterías y mesas",
+    keepsake: "marca un momento importante de forma práctica",
+    craft: "da una base de madera lista para terminar",
+    plaque: "convierte un recuerdo en algo visible",
+    "small-gift": "añade un pequeño toque artesanal"
+  },
+  benefitSecondary: {
+    coasters: "añade decoración temática",
+    bookmarks: "hace más personal un regalo de libro",
+    "door-hanger": "marca el tono antes de entrar",
+    "decor-piece": "aporta un acento cálido",
+    keepsake: "hace más fácil conservar el momento",
+    craft: "mantiene las ideas creativas fáciles de regalar",
+    plaque: "añade un acabado atento",
+    "small-gift": "funciona bien como regalo pequeño o extra"
+  },
+  motif: {
+    cat: "un motivo felino",
+    dog: "un detalle de huella",
+    celestial: "un trazo celestial",
+    fantasy: "un detalle fantasy",
+    gaming: "un motivo de juego",
+    botanical: "un detalle botánico",
+    coastal: "un detalle costero",
+    faith: "un detalle espiritual",
+    gothic: "un detalle gótico",
+    seasonal: "un motivo de temporada",
+    wedding: "un detalle de ocasión",
+    baby: "un mensaje de recuerdo",
+    craft: "madera sin tratar lista para decorar",
+    memorial: "un detalle conmemorativo",
+    default: "un grabado cálido"
+  },
+  usage: {
+    coasters: { cat: "mesas de centro, escritorios y rincones acogedores", dog: "mesas del día a día y espacios con mascotas", celestial: "mesas de centro, auxiliares y ambientes suaves", fantasy: "rincones de lectura, escritorios y cuartos de aficiones", gaming: "cuartos de juego, escritorios y mesas de fin de semana", botanical: "cocinas, mesas de invitados e interiores cálidos", coastal: "habitaciones de invitados, terrazas y casas relajadas", gothic: "mesas auxiliares, estanterías y decoraciones marcadas", default: "mesas diarias, escritorios y rincones acogedores" },
+    bookmarks: { fantasy: "montones de libros, lectura nocturna y estanterías fantasy", celestial: "diarios de lectura, mesillas y capítulos tranquilos", botanical: "regalos de libros, bolsas y lectura silenciosa", gothic: "estanterías dark academia y rincones de lectura intensos", default: "montones de libros, diarios de lectura y cajas regalo" },
+    "door-hanger": { fantasy: "rincones de lectura, cuartos de aficiones y puertas de dormitorio", gaming: "cuartos de juego, rincones de streaming y escritorios", wedding: "entradas, rincones de boda y espacios compartidos", default: "puertas de dormitorio, despachos y rincones personales" },
+    "decor-piece": { cat: "estanterías, mesas auxiliares y rincones con velas", celestial: "mesillas, consolas y ambientes de tarde", gothic: "estanterías, aparadores y rincones atmosféricos", default: "estanterías, mesas auxiliares y rincones acogedores" },
+    keepsake: { wedding: "cajas regalo, estantes recuerdo y mesas de ocasión", baby: "estantes de habitación, cajones y fotos importantes", memorial: "rincones de memoria y estantes con significado", default: "cajas regalo, estantes y momentos para conservar" },
+    craft: { default: "mesas creativas, proyectos personalizados y regalos hechos a mano" },
+    plaque: { memorial: "rincones de memoria, escritorios y espacios tranquilos", default: "estanterías, mesas auxiliares y lugares recuerdo" },
+    "small-gift": { default: "cajones de escritorio, cajas regalo y pequeños espacios del día a día" }
+  },
+  ctaPrefix: "Ver",
+  brandSuffix: "de Craftygiftsplace"
+};
+
+LABELS.pt = {
+  audience: {
+    "cat-lovers": "amantes de gatos",
+    "dog-lovers": "amantes de cães",
+    readers: "leitores",
+    "book-lovers": "amantes de livros",
+    "fantasy-readers": "leitores de fantasia",
+    gamers: "gamers",
+    newlyweds: "recém-casados",
+    "new-parents": "novos pais",
+    "cozy-homeowners": "amantes de casas acolhedoras",
+    "alternative-decor-fans": "amantes de decoração marcante",
+    crafters: "pessoas criativas",
+    "gift-shoppers": "compradores de presentes"
+  },
+  occasion: {
+    housewarming: "casa nova",
+    birthday: "aniversário",
+    "reader-gift": "presente para leitores",
+    wedding: "casamento",
+    anniversary: "aniversário",
+    christmas: "Natal",
+    "new-baby": "novo bebé",
+    "everyday-gift": "pequeno presente",
+    memorial: "presente de memória",
+    "hobby-gift": "presente de hobby"
+  },
+  style: {
+    cozy: "acolhedor",
+    celestial: "celeste",
+    fantasy: "fantasy",
+    botanical: "botânico",
+    playful: "divertido",
+    personalized: "personalizado",
+    gothic: "gótico",
+    rustic: "rústico",
+    minimal: "sereno",
+    alternative: "alternativo",
+    "faith-inspired": "espiritual",
+    seasonal: "sazonal",
+    coastal: "costeiro"
+  },
+  intent: {
+    "cat-lover-gift": "presente para amantes de gatos",
+    "reader-gift": "presente para leitores",
+    "book-lover-gift": "presente para amantes de livros",
+    "fantasy-reader-gift": "presente fantasy para leitores",
+    "bookmark-gift": "presente marcador",
+    "reading-nook-gift": "presente para canto de leitura",
+    "housewarming-gift": "presente de casa nova",
+    "cozy-home-decor": "decoração acolhedora para casa",
+    "personalized-wedding-gift": "presente de casamento personalizado"
+  },
+  chip: {
+    "cat-lovers": "Presente para amantes de gatos",
+    "dog-lovers": "Presente para amantes de cães",
+    readers: "Presente para leitores",
+    "book-lovers": "Presente para amantes de livros",
+    "fantasy-readers": "Presente fantasy",
+    gamers: "Presente gamer",
+    newlyweds: "Presente para recém-casados",
+    "new-parents": "Novo bebé",
+    "cozy-homeowners": "Presente para a casa",
+    "alternative-decor-fans": "Decoração com carácter",
+    crafters: "Presente DIY",
+    housewarming: "Presente de casa nova",
+    wedding: "Presente de casamento",
+    anniversary: "Recordação",
+    christmas: "Decoração sazonal",
+    memorial: "Recordação",
+    personalized: "Personalizado",
+    cozy: "Estilo acolhedor",
+    celestial: "Design celeste",
+    fantasy: "Decoração fantasy",
+    botanical: "Tema natural",
+    playful: "Tema divertido",
+    gothic: "Ambiente gótico",
+    coastal: "Decoração para casa",
+    seasonal: "Decoração sazonal"
+  },
+  format: {
+    coasters: "conjunto de porta-copos",
+    bookmarks: "marcador",
+    "door-hanger": "pendente de porta",
+    "decor-piece": "peça decorativa",
+    keepsake: "presente recordação",
+    craft: "set DIY de madeira",
+    plaque: "placa de madeira",
+    "small-gift": "pequeno presente de madeira"
+  },
+  benefitPrimary: {
+    coasters: "protege as mesas",
+    bookmarks: "mantém a página fácil de encontrar",
+    "door-hanger": "dá um toque pessoal ao espaço",
+    "decor-piece": "traz ambiente a prateleiras e mesas",
+    keepsake: "marca um momento importante de forma prática",
+    craft: "dá uma base de madeira pronta a terminar",
+    plaque: "torna uma recordação visível",
+    "small-gift": "acrescenta um pequeno toque artesanal"
+  },
+  benefitSecondary: {
+    coasters: "acrescenta decoração temática",
+    bookmarks: "torna um presente de livro mais pessoal",
+    "door-hanger": "define o tom logo à entrada",
+    "decor-piece": "acrescenta um apontamento quente",
+    keepsake: "torna o momento mais fácil de guardar",
+    craft: "mantém as ideias criativas fáceis de oferecer",
+    plaque: "acrescenta um acabamento atencioso",
+    "small-gift": "funciona bem como pequeno presente ou extra"
+  },
+  motif: {
+    cat: "um motivo felino",
+    dog: "um detalhe de pata",
+    celestial: "um traço celeste",
+    fantasy: "um detalhe fantasy",
+    gaming: "um motivo de jogo",
+    botanical: "um detalhe botânico",
+    coastal: "um detalhe costeiro",
+    faith: "um detalhe espiritual",
+    gothic: "um detalhe gótico",
+    seasonal: "um motivo sazonal",
+    wedding: "um detalhe de ocasião",
+    baby: "uma mensagem de recordação",
+    craft: "madeira crua pronta a decorar",
+    memorial: "um detalhe de memória",
+    default: "uma gravação acolhedora"
+  },
+  usage: {
+    coasters: { cat: "mesas de centro, secretárias e cantos acolhedores", dog: "mesas do dia a dia e espaços com animais", celestial: "mesas de centro, mesas de apoio e ambientes suaves", fantasy: "cantos de leitura, secretárias e salas de hobbies", gaming: "salas de jogo, secretárias e mesas de fim de semana", botanical: "cozinhas, mesas de convidados e interiores quentes", coastal: "quartos de hóspedes, terraços e casas descontraídas", gothic: "mesas de apoio, prateleiras e decorações marcantes", default: "mesas do dia a dia, secretárias e cantos acolhedores" },
+    bookmarks: { fantasy: "pilhas de livros, leitura à noite e estantes fantasy", celestial: "diários de leitura, mesinhas e capítulos tranquilos", botanical: "presentes de livros, sacos e leituras silenciosas", gothic: "estantes dark academia e cantos de leitura marcantes", default: "pilhas de livros, diários de leitura e caixas-presente" },
+    "door-hanger": { fantasy: "cantos de leitura, salas de hobbies e portas de quarto", gaming: "salas de jogo, cantos de streaming e secretárias", wedding: "entradas, cantos de casamento e espaços partilhados", default: "portas de quarto, escritórios em casa e cantos pessoais" },
+    "decor-piece": { cat: "prateleiras, mesas de apoio e cantos iluminados por velas", celestial: "mesinhas, consolas e ambientes ao final do dia", gothic: "prateleiras, aparadores e cantos atmosféricos", default: "prateleiras, mesas de apoio e cantos acolhedores" },
+    keepsake: { wedding: "caixas de presente, prateleiras de recordação e mesas de ocasião", baby: "prateleiras de quarto, gavetas e fotografias marcantes", memorial: "cantos de memória e prateleiras com significado", default: "caixas de presente, prateleiras e momentos para guardar" },
+    craft: { default: "mesas criativas, projetos personalizados e presentes feitos à mão" },
+    plaque: { memorial: "cantos de memória, secretárias e espaços tranquilos", default: "prateleiras, mesas de apoio e lugares de recordação" },
+    "small-gift": { default: "gavetas de secretária, caixas-presente e pequenos espaços do dia a dia" }
+  },
+  ctaPrefix: "Ver",
+  brandSuffix: "da Craftygiftsplace"
+};
+
+LABELS.it = {
+  audience: {
+    "cat-lovers": "amanti dei gatti",
+    "dog-lovers": "amanti dei cani",
+    readers: "lettori",
+    "book-lovers": "amanti dei libri",
+    "fantasy-readers": "lettori fantasy",
+    gamers: "giocatori",
+    newlyweds: "neo-sposi",
+    "new-parents": "neo-genitori",
+    "cozy-homeowners": "amanti di case accoglienti",
+    "alternative-decor-fans": "amanti di decorazioni con carattere",
+    crafters: "persone creative",
+    "gift-shoppers": "chi cerca un regalo"
+  },
+  occasion: {
+    housewarming: "casa nuova",
+    birthday: "compleanno",
+    "reader-gift": "regalo per lettori",
+    wedding: "matrimonio",
+    anniversary: "anniversario",
+    christmas: "Natale",
+    "new-baby": "nuovo bebè",
+    "everyday-gift": "piccolo regalo",
+    memorial: "regalo ricordo",
+    "hobby-gift": "regalo per hobby"
+  },
+  style: {
+    cozy: "accogliente",
+    celestial: "celeste",
+    fantasy: "fantasy",
+    botanical: "botanico",
+    playful: "giocoso",
+    personalized: "personalizzato",
+    gothic: "gotico",
+    rustic: "rustico",
+    minimal: "sobrio",
+    alternative: "alternativo",
+    "faith-inspired": "spirituale",
+    seasonal: "stagionale",
+    coastal: "costiero"
+  },
+  intent: {
+    "cat-lover-gift": "regalo per amanti dei gatti",
+    "reader-gift": "regalo per lettori",
+    "book-lover-gift": "regalo per amanti dei libri",
+    "fantasy-reader-gift": "regalo fantasy per lettori",
+    "bookmark-gift": "regalo segnalibro",
+    "reading-nook-gift": "regalo per angolo lettura",
+    "housewarming-gift": "regalo per la casa nuova",
+    "cozy-home-decor": "decorazione accogliente per la casa",
+    "personalized-wedding-gift": "regalo di nozze personalizzato"
+  },
+  chip: {
+    "cat-lovers": "Regalo per amanti dei gatti",
+    "dog-lovers": "Regalo per amanti dei cani",
+    readers: "Regalo per lettori",
+    "book-lovers": "Regalo per amanti dei libri",
+    "fantasy-readers": "Regalo fantasy",
+    gamers: "Regalo gamer",
+    newlyweds: "Regalo per neo-sposi",
+    "new-parents": "Nuovo bebè",
+    "cozy-homeowners": "Regalo per la casa",
+    "alternative-decor-fans": "Decorazione con carattere",
+    crafters: "Regalo DIY",
+    housewarming: "Regalo per la casa nuova",
+    wedding: "Regalo di matrimonio",
+    anniversary: "Ricordo",
+    christmas: "Decorazione stagionale",
+    memorial: "Ricordo",
+    personalized: "Personalizzato",
+    cozy: "Stile accogliente",
+    celestial: "Design celeste",
+    fantasy: "Decorazione fantasy",
+    botanical: "Tema naturale",
+    playful: "Tema giocoso",
+    gothic: "Atmosfera gotica",
+    coastal: "Decorazione per la casa",
+    seasonal: "Decorazione stagionale"
+  },
+  format: {
+    coasters: "set di sottobicchieri",
+    bookmarks: "segnalibro",
+    "door-hanger": "targhetta da porta",
+    "decor-piece": "pezzo decorativo",
+    keepsake: "regalo ricordo",
+    craft: "set DIY in legno",
+    plaque: "placca in legno",
+    "small-gift": "piccolo regalo in legno"
+  },
+  benefitPrimary: {
+    coasters: "protegge i tavoli",
+    bookmarks: "mantiene la pagina facile da ritrovare",
+    "door-hanger": "dà un tocco personale alla stanza",
+    "decor-piece": "porta atmosfera a mensole e tavoli",
+    keepsake: "segna un momento importante in modo concreto",
+    craft: "dà una base in legno pronta da finire",
+    plaque: "rende visibile un ricordo",
+    "small-gift": "aggiunge un piccolo tocco artigianale"
+  },
+  benefitSecondary: {
+    coasters: "aggiunge decorazione a tema",
+    bookmarks: "rende più personale un regalo libro",
+    "door-hanger": "dà il tono prima ancora di entrare",
+    "decor-piece": "aggiunge un accento caldo",
+    keepsake: "rende più facile custodire il momento",
+    craft: "mantiene le idee creative facili da regalare",
+    plaque: "aggiunge una finitura attenta",
+    "small-gift": "funziona bene come piccolo regalo o extra"
+  },
+  motif: {
+    cat: "un motivo felino",
+    dog: "un dettaglio di zampa",
+    celestial: "un tratto celeste",
+    fantasy: "un dettaglio fantasy",
+    gaming: "un motivo di gioco",
+    botanical: "un dettaglio botanico",
+    coastal: "un dettaglio costiero",
+    faith: "un dettaglio spirituale",
+    gothic: "un dettaglio gotico",
+    seasonal: "un motivo stagionale",
+    wedding: "un dettaglio d'occasione",
+    baby: "un messaggio ricordo",
+    craft: "legno grezzo pronto da decorare",
+    memorial: "un dettaglio commemorativo",
+    default: "un'incisione calda"
+  },
+  usage: {
+    coasters: { cat: "tavolini, scrivanie e angoli accoglienti", dog: "tavoli di ogni giorno e spazi con animali", celestial: "tavolini, tavoli d'appoggio e ambienti soffusi", fantasy: "angoli lettura, scrivanie e stanze hobby", gaming: "stanze da gioco, scrivanie e tavoli del weekend", botanical: "cucine, tavoli per ospiti e interni caldi", coastal: "camere per ospiti, terrazze e case rilassate", gothic: "tavolini, mensole e decorazioni decise", default: "tavoli quotidiani, scrivanie e angoli accoglienti" },
+    bookmarks: { fantasy: "pile di libri, letture serali e scaffali fantasy", celestial: "diari di lettura, comodini e capitoli tranquilli", botanical: "regali libro, borse e letture silenziose", gothic: "scaffali dark academia e angoli lettura intensi", default: "pile di libri, diari di lettura e scatole regalo" },
+    "door-hanger": { fantasy: "angoli lettura, stanze hobby e porte di camera", gaming: "stanze da gioco, angoli streaming e scrivanie", wedding: "ingressi, angoli matrimonio e spazi condivisi", default: "porte di camera, studi e angoli personali" },
+    "decor-piece": { cat: "mensole, tavolini e angoli illuminati da candele", celestial: "comodini, consolle e atmosfere della sera", gothic: "mensole, credenze e angoli suggestivi", default: "mensole, tavolini e angoli accoglienti" },
+    keepsake: { wedding: "scatole regalo, mensole ricordo e tavoli d'occasione", baby: "mensole di cameretta, cassetti e foto importanti", memorial: "angoli memoria e mensole piene di significato", default: "scatole regalo, mensole e momenti da custodire" },
+    craft: { default: "tavoli creativi, progetti personalizzati e regali fatti a mano" },
+    plaque: { memorial: "angoli memoria, scrivanie e spazi tranquilli", default: "mensole, tavolini e posti del ricordo" },
+    "small-gift": { default: "cassetti della scrivania, scatole regalo e piccoli spazi quotidiani" }
+  },
+  ctaPrefix: "Vedi",
+  brandSuffix: "di Craftygiftsplace"
+};
+
 function fixEnglishName(name) {
   const clean = String(name || "").trim();
   if (!clean) {
@@ -654,6 +1218,182 @@ function fixGermanName(rawProduct) {
     .replace(/\bBee Motif\b/gi, "Bienenmotiv")
     .replace(/\bLeaf\b/gi, "Blattmotiv")
     .replace(/\bFloral\b/gi, "Blumenmotiv");
+}
+
+function applyNameReplacements(name, replacements) {
+  return replacements.reduce((value, [pattern, replacement]) => value.replace(pattern, replacement), String(name || "").trim());
+}
+
+const FRENCH_NAME_OVERRIDES = {
+  "fantasy-reader-gift-set": "Set cadeau fantasy pour lecteur",
+  "moon-cat-shadow-tealight-holder": "Porte-bougie lune et chat",
+  "personalized-feather-wooden-bookmark": "Marque-page en bois personnalisé avec plume",
+  "personalized-just-married-wooden-door-hanger": "Suspension de porte personnalisée jeunes mariés",
+  "epic-fantasy-door-sign": "Plaque de porte fantasy"
+};
+
+const SPANISH_NAME_OVERRIDES = {
+  "fantasy-reader-gift-set": "Set fantasy para lectores",
+  "moon-cat-shadow-tealight-holder": "Portavelas gato y luna",
+  "personalized-feather-wooden-bookmark": "Marcapaginas de madera personalizado con pluma",
+  "personalized-just-married-wooden-door-hanger": "Colgador de puerta personalizado para recien casados",
+  "epic-fantasy-door-sign": "Placa de puerta fantasy"
+};
+
+const PORTUGUESE_NAME_OVERRIDES = {
+  "fantasy-reader-gift-set": "Conjunto fantasy para leitores",
+  "moon-cat-shadow-tealight-holder": "Suporte para tealight gato e lua",
+  "personalized-feather-wooden-bookmark": "Marcador de livros personalizado com pena",
+  "personalized-just-married-wooden-door-hanger": "Pendente de porta personalizado para recem-casados",
+  "epic-fantasy-door-sign": "Placa de porta fantasy"
+};
+
+const ITALIAN_NAME_OVERRIDES = {
+  "fantasy-reader-gift-set": "Set fantasy per lettori",
+  "moon-cat-shadow-tealight-holder": "Portacandela gatto e luna",
+  "personalized-feather-wooden-bookmark": "Segnalibro in legno personalizzato con piuma",
+  "personalized-just-married-wooden-door-hanger": "Targhetta da porta personalizzata per novelli sposi",
+  "epic-fantasy-door-sign": "Targa da porta fantasy"
+};
+
+const FRENCH_NAME_REPLACEMENTS = [
+  [/\bWooden Coasters\b/gi, "Dessous-verres en bois"],
+  [/\bWooden Bookmark\b/gi, "Marque-page en bois"],
+  [/\bCoaster Set\b/gi, "Set de dessous-verres"],
+  [/\bDoor Hanger\b/gi, "Suspension de porte"],
+  [/\bDoor Sign\b/gi, "Plaque de porte"],
+  [/\bTealight Holder\b/gi, "Porte-bougie chauffe-plat"],
+  [/\bIncense Burner\b/gi, "Porte-encens"],
+  [/\bPet Memorial Plaque\b/gi, "Plaque souvenir pour animal"],
+  [/\bPersonalized\b/gi, "Personnalisé"],
+  [/\bPersonalised\b/gi, "Personnalisé"],
+  [/\bInspired\b/gi, "inspiré"],
+  [/\bClassic\b/gi, "Classique"],
+  [/\bCeltic\b/gi, "Celtique"],
+  [/\bRocket\b/gi, "Fusée"],
+  [/\bFeather\b/gi, "Plume"],
+  [/\bLighthouse\b/gi, "Phare"],
+  [/\bDragon Eye\b/gi, "Oeil de dragon"],
+  [/\bDragon\b/gi, "Dragon"],
+  [/\bCat and Moon\b/gi, "Chat et lune"],
+  [/\bSun and Moon\b/gi, "Soleil et lune"],
+  [/\bCat\b/gi, "Chat"],
+  [/\bMoon\b/gi, "Lune"],
+  [/\bSun\b/gi, "Soleil"],
+  [/\bZodiac\b/gi, "Zodiaque"],
+  [/\bTree of Life\b/gi, "Arbre de vie"],
+  [/\bBee Motif\b/gi, "Motif abeille"],
+  [/\bLeaf\b/gi, "Feuille"],
+  [/\bFloral\b/gi, "Floral"]
+];
+
+const SPANISH_NAME_REPLACEMENTS = [
+  [/\bWooden Coasters\b/gi, "Posavasos de madera"],
+  [/\bWooden Bookmark\b/gi, "Marcapaginas de madera"],
+  [/\bCoaster Set\b/gi, "Set de posavasos"],
+  [/\bDoor Hanger\b/gi, "Colgador de puerta"],
+  [/\bDoor Sign\b/gi, "Placa de puerta"],
+  [/\bTealight Holder\b/gi, "Portavelas tealight"],
+  [/\bIncense Burner\b/gi, "Quemador de incienso"],
+  [/\bPet Memorial Plaque\b/gi, "Placa conmemorativa para mascota"],
+  [/\bPersonalized\b/gi, "Personalizado"],
+  [/\bPersonalised\b/gi, "Personalizado"],
+  [/\bInspired\b/gi, "inspirado"],
+  [/\bClassic\b/gi, "Clasico"],
+  [/\bCeltic\b/gi, "Celta"],
+  [/\bRocket\b/gi, "Cohete"],
+  [/\bFeather\b/gi, "Pluma"],
+  [/\bLighthouse\b/gi, "Faro"],
+  [/\bDragon Eye\b/gi, "Ojo de dragon"],
+  [/\bDragon\b/gi, "Dragon"],
+  [/\bCat and Moon\b/gi, "Gato y luna"],
+  [/\bSun and Moon\b/gi, "Sol y luna"],
+  [/\bCat\b/gi, "Gato"],
+  [/\bMoon\b/gi, "Luna"],
+  [/\bSun\b/gi, "Sol"],
+  [/\bZodiac\b/gi, "Zodiaco"],
+  [/\bTree of Life\b/gi, "Arbol de la vida"],
+  [/\bBee Motif\b/gi, "Motivo de abeja"],
+  [/\bLeaf\b/gi, "Hoja"],
+  [/\bFloral\b/gi, "Floral"]
+];
+
+const PORTUGUESE_NAME_REPLACEMENTS = [
+  [/\bWooden Coasters\b/gi, "Porta-copos de madeira"],
+  [/\bWooden Bookmark\b/gi, "Marcador de livros em madeira"],
+  [/\bCoaster Set\b/gi, "Conjunto de porta-copos"],
+  [/\bDoor Hanger\b/gi, "Pendente de porta"],
+  [/\bDoor Sign\b/gi, "Placa de porta"],
+  [/\bTealight Holder\b/gi, "Suporte para tealight"],
+  [/\bIncense Burner\b/gi, "Queimador de incenso"],
+  [/\bPet Memorial Plaque\b/gi, "Placa memorial para animal"],
+  [/\bPersonalized\b/gi, "Personalizado"],
+  [/\bPersonalised\b/gi, "Personalizado"],
+  [/\bInspired\b/gi, "inspirado"],
+  [/\bClassic\b/gi, "Classico"],
+  [/\bCeltic\b/gi, "Celtico"],
+  [/\bRocket\b/gi, "Foguetao"],
+  [/\bFeather\b/gi, "Pena"],
+  [/\bLighthouse\b/gi, "Farol"],
+  [/\bDragon Eye\b/gi, "Olho de dragao"],
+  [/\bDragon\b/gi, "Dragao"],
+  [/\bCat and Moon\b/gi, "Gato e lua"],
+  [/\bSun and Moon\b/gi, "Sol e lua"],
+  [/\bCat\b/gi, "Gato"],
+  [/\bMoon\b/gi, "Lua"],
+  [/\bSun\b/gi, "Sol"],
+  [/\bZodiac\b/gi, "Zodiaco"],
+  [/\bTree of Life\b/gi, "Arvore da vida"],
+  [/\bBee Motif\b/gi, "Motivo de abelha"],
+  [/\bLeaf\b/gi, "Folha"],
+  [/\bFloral\b/gi, "Floral"]
+];
+
+const ITALIAN_NAME_REPLACEMENTS = [
+  [/\bWooden Coasters\b/gi, "Sottobicchieri in legno"],
+  [/\bWooden Bookmark\b/gi, "Segnalibro in legno"],
+  [/\bCoaster Set\b/gi, "Set di sottobicchieri"],
+  [/\bDoor Hanger\b/gi, "Targhetta da porta"],
+  [/\bDoor Sign\b/gi, "Targa da porta"],
+  [/\bTealight Holder\b/gi, "Portacandela tealight"],
+  [/\bIncense Burner\b/gi, "Bruciatore d'incenso"],
+  [/\bPet Memorial Plaque\b/gi, "Placca ricordo per animale"],
+  [/\bPersonalized\b/gi, "Personalizzato"],
+  [/\bPersonalised\b/gi, "Personalizzato"],
+  [/\bInspired\b/gi, "ispirato"],
+  [/\bClassic\b/gi, "Classico"],
+  [/\bCeltic\b/gi, "Celtico"],
+  [/\bRocket\b/gi, "Razzo"],
+  [/\bFeather\b/gi, "Piuma"],
+  [/\bLighthouse\b/gi, "Faro"],
+  [/\bDragon Eye\b/gi, "Occhio di drago"],
+  [/\bDragon\b/gi, "Drago"],
+  [/\bCat and Moon\b/gi, "Gatto e luna"],
+  [/\bSun and Moon\b/gi, "Sole e luna"],
+  [/\bCat\b/gi, "Gatto"],
+  [/\bMoon\b/gi, "Luna"],
+  [/\bSun\b/gi, "Sole"],
+  [/\bZodiac\b/gi, "Zodiaco"],
+  [/\bTree of Life\b/gi, "Albero della vita"],
+  [/\bBee Motif\b/gi, "Motivo ape"],
+  [/\bLeaf\b/gi, "Foglia"],
+  [/\bFloral\b/gi, "Floreale"]
+];
+
+function fixFrenchName(rawProduct) {
+  return FRENCH_NAME_OVERRIDES[rawProduct.id] || applyNameReplacements(rawProduct.name, FRENCH_NAME_REPLACEMENTS);
+}
+
+function fixSpanishName(rawProduct) {
+  return SPANISH_NAME_OVERRIDES[rawProduct.id] || applyNameReplacements(rawProduct.name, SPANISH_NAME_REPLACEMENTS);
+}
+
+function fixPortugueseName(rawProduct) {
+  return PORTUGUESE_NAME_OVERRIDES[rawProduct.id] || applyNameReplacements(rawProduct.name, PORTUGUESE_NAME_REPLACEMENTS);
+}
+
+function fixItalianName(rawProduct) {
+  return ITALIAN_NAME_OVERRIDES[rawProduct.id] || applyNameReplacements(rawProduct.name, ITALIAN_NAME_REPLACEMENTS);
 }
 
 function pickThemeKey(source) {
@@ -984,6 +1724,182 @@ function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrim
         `Ein kompaktes Holzgeschenk, das auch nach dem Anlass nützlich bleibt.`,
         `Ein einfaches Extra für Käufer, die etwas Kleines und Handgemachtes suchen.`
       ]
+    },
+    fr: {
+      coasters: [
+        `${capitalize(benefitPrimary)} et apporte ${motif} à ${usageContext}.`,
+        `Un ${formatLabel} pour ${usageContext}, plus chaleureux qu'un simple accessoire de table.`,
+        `Un choix pratique pour les boissons du quotidien avec une vraie présence en bois.`,
+        `Un cadeau utile pour les maisons où les petits détails comptent.`
+      ],
+      bookmarks: [
+        `${capitalize(benefitPrimary)} et ajoute du caractère au moment de lecture.`,
+        `Un ${formatLabel} pour ${usageContext}, petit par la taille mais marqué dans le détail.`,
+        `Pensé pour les lecteurs qui préfèrent un bel extra à un petit objet sans âme.`,
+        `Se glisse facilement dans un journal de lecture, un coffret cadeau ou une soirée tranquille.`
+      ],
+      "door-hanger": [
+        `${capitalize(benefitPrimary)} sur portes, pièces loisirs et coins personnels.`,
+        `Une pièce en bois facile à accrocher et simple à remarquer dès le premier regard.`,
+        `Fonctionne bien quand le cadeau doit être personnel et visible tout de suite.`
+      ],
+      "decor-piece": [
+        `Ajoute un accent chaleureux en bois à ${usageContext}.`,
+        `Une petite pièce déco qui rend étagères et guéridons plus habités.`,
+        `Un cadeau décoratif pour ceux qui préfèrent l'ambiance à l'objet purement pratique.`
+      ],
+      keepsake: [
+        `Transforme un moment important en objet facile à garder et à exposer.`,
+        `Un souvenir en bois personnel pour dates marquantes, souvenirs et gestes calmes.`,
+        `Pensé pour les moments qui méritent plus qu'une simple carte.`
+      ],
+      plaque: [
+        `Transforme un souvenir en objet à garder près de soi.`,
+        `Une plaque en bois attentionnée pour hommages, étapes marquantes et souvenirs durables.`,
+        `Un cadeau plus discret pour les moments qui demandent quelque chose de personnel.`
+      ],
+      craft: [
+        `Donne une base en bois que l'on peut finir à sa manière.`,
+        `Une pièce DIY pratique pour projets, ateliers et idées cadeaux faites main.`,
+        `Utile pour ceux qui préfèrent composer eux-mêmes un petit cadeau.`
+      ],
+      "small-gift": [
+        `Ajoute une petite touche artisanale à un bureau, un tiroir ou un coffret cadeau.`,
+        `Un petit cadeau en bois qui reste utile après l'occasion.`,
+        `Un complément simple pour ceux qui veulent quelque chose de petit et fait main.`
+      ]
+    },
+    es: {
+      coasters: [
+        `${capitalize(benefitPrimary)} y lleva ${motif} a ${usageContext}.`,
+        `Un ${formatLabel} para ${usageContext} que resulta mas calido que un simple extra de mesa.`,
+        `Una opcion practica para bebidas del dia a dia con presencia clara de madera.`,
+        `Un regalo util para hogares donde los detalles pequenos importan.`
+      ],
+      bookmarks: [
+        `${capitalize(benefitPrimary)} y anade mas caracter al momento de lectura.`,
+        `Un ${formatLabel} para ${usageContext}, pequeno en tamano pero especial en el detalle.`,
+        `Pensado para lectores que prefieren un detalle bonito antes que algo generico.`,
+        `Encaja bien en diarios de lectura, cajas regalo y noches tranquilas.`
+      ],
+      "door-hanger": [
+        `${capitalize(benefitPrimary)} en puertas, cuartos de aficiones y rincones personales.`,
+        `Una pieza de madera facil de colgar y sencilla de notar desde el primer momento.`,
+        `Funciona bien cuando el regalo debe sentirse personal y visible al instante.`
+      ],
+      "decor-piece": [
+        `Anade un acento calido de madera a ${usageContext}.`,
+        `Una pequena pieza decorativa que hace mas habitadas las estanterias y mesas auxiliares.`,
+        `Un regalo decorativo para quien prefiere atmosfera antes que algo puramente practico.`
+      ],
+      keepsake: [
+        `Convierte un momento importante en algo facil de guardar y mostrar.`,
+        `Un recuerdo personal en madera para fechas, memorias y regalos tranquilos.`,
+        `Pensado para momentos que merecen mas que una tarjeta sencilla.`
+      ],
+      plaque: [
+        `Convierte un recuerdo en algo que se puede mantener cerca.`,
+        `Una placa de madera atenta para homenajes, hitos y recuerdos duraderos.`,
+        `Un regalo mas sereno para ocasiones que piden algo personal.`
+      ],
+      craft: [
+        `Da una base de madera que cada uno puede terminar a su manera.`,
+        `Una pieza DIY practica para proyectos, clases e ideas de regalo hechas a mano.`,
+        `Util para quien prefiere montar un pequeno regalo desde cero.`
+      ],
+      "small-gift": [
+        `Anade un pequeno toque artesanal a escritorio, cajon o caja regalo.`,
+        `Un pequeno regalo de madera que sigue siendo util despues de la ocasion.`,
+        `Un extra sencillo para quien quiere algo pequeno y hecho a mano.`
+      ]
+    },
+    pt: {
+      coasters: [
+        `${capitalize(benefitPrimary)} e leva ${motif} para ${usageContext}.`,
+        `Um ${formatLabel} para ${usageContext} mais acolhedor do que um simples extra de mesa.`,
+        `Uma escolha pratica para bebidas do dia a dia com presenca clara de madeira.`,
+        `Um presente util para casas onde os pequenos detalhes contam.`
+      ],
+      bookmarks: [
+        `${capitalize(benefitPrimary)} e da mais caracter ao momento de leitura.`,
+        `Um ${formatLabel} para ${usageContext}, pequeno no formato mas especial no detalhe.`,
+        `Pensado para leitores que preferem um extra bonito a um objeto generico.`,
+        `Encaixa bem em diarios de leitura, caixas-presente e seroes tranquilos.`
+      ],
+      "door-hanger": [
+        `${capitalize(benefitPrimary)} em portas, salas de hobbies e cantos pessoais.`,
+        `Uma peca de madeira facil de pendurar e facil de notar desde o primeiro momento.`,
+        `Funciona bem quando o presente deve parecer pessoal e visivel logo a partida.`
+      ],
+      "decor-piece": [
+        `Acrescenta um apontamento quente de madeira a ${usageContext}.`,
+        `Uma pequena peca decorativa que torna prateleiras e mesas de apoio mais vividas.`,
+        `Um presente decorativo para quem prefere ambiente a algo puramente pratico.`
+      ],
+      keepsake: [
+        `Transforma um momento importante em algo facil de guardar e expor.`,
+        `Uma recordacao pessoal em madeira para datas, memorias e presentes tranquilos.`,
+        `Pensado para momentos que merecem mais do que um simples cartao.`
+      ],
+      plaque: [
+        `Transforma uma memoria em algo que se pode manter por perto.`,
+        `Uma placa de madeira atenciosa para homenagens, marcos e recordacoes duradouras.`,
+        `Um presente mais discreto para ocasioes que pedem algo pessoal.`
+      ],
+      craft: [
+        `Da uma base de madeira que cada pessoa pode terminar a sua maneira.`,
+        `Uma peca DIY pratica para projetos, aulas e ideias de presente feitas a mao.`,
+        `Util para quem prefere montar um pequeno presente desde o inicio.`
+      ],
+      "small-gift": [
+        `Acrescenta um pequeno toque artesanal a secretaria, gaveta ou caixa-presente.`,
+        `Um pequeno presente de madeira que continua util depois da ocasiao.`,
+        `Um extra simples para quem quer algo pequeno e feito a mao.`
+      ]
+    },
+    it: {
+      coasters: [
+        `${capitalize(benefitPrimary)} e porta ${motif} in ${usageContext}.`,
+        `Un ${formatLabel} per ${usageContext} piu caldo di un semplice extra da tavola.`,
+        `Una scelta pratica per le bevande di ogni giorno con una presenza chiara del legno.`,
+        `Un regalo utile per case dove i piccoli dettagli contano davvero.`
+      ],
+      bookmarks: [
+        `${capitalize(benefitPrimary)} e da piu carattere al momento di lettura.`,
+        `Un ${formatLabel} per ${usageContext}, piccolo nel formato ma speciale nel dettaglio.`,
+        `Pensato per lettori che preferiscono un bel dettaglio a un oggetto qualsiasi.`,
+        `Sta bene con diari di lettura, scatole regalo e serate tranquille.`
+      ],
+      "door-hanger": [
+        `${capitalize(benefitPrimary)} su porte, stanze hobby e angoli personali.`,
+        `Un pezzo in legno facile da appendere e facile da notare fin dal primo sguardo.`,
+        `Funziona bene quando il regalo deve sembrare personale e subito visibile.`
+      ],
+      "decor-piece": [
+        `Aggiunge un accento caldo in legno a ${usageContext}.`,
+        `Un piccolo pezzo decorativo che rende piu vissute mensole e tavolini.`,
+        `Un regalo decorativo per chi preferisce atmosfera a qualcosa di puramente pratico.`
+      ],
+      keepsake: [
+        `Trasforma un momento importante in qualcosa di facile da custodire e mostrare.`,
+        `Un ricordo personale in legno per date, memorie e regali piu quieti.`,
+        `Pensato per momenti che meritano piu di un semplice biglietto.`
+      ],
+      plaque: [
+        `Trasforma un ricordo in qualcosa da tenere vicino.`,
+        `Una placca in legno attenta per omaggi, traguardi e ricordi duraturi.`,
+        `Un regalo piu discreto per occasioni che chiedono qualcosa di personale.`
+      ],
+      craft: [
+        `Dà una base in legno che si puo finire a modo proprio.`,
+        `Un pezzo DIY pratico per progetti, lezioni e idee regalo fatte a mano.`,
+        `Utile per chi preferisce costruire da zero un piccolo regalo.`
+      ],
+      "small-gift": [
+        `Aggiunge un piccolo tocco artigianale a scrivania, cassetto o scatola regalo.`,
+        `Un piccolo regalo in legno che resta utile anche dopo l'occasione.`,
+        `Un extra semplice per chi vuole qualcosa di piccolo e fatto a mano.`
+      ]
     }
   };
 
@@ -1022,6 +1938,46 @@ function buildCollectionDescription(locale, seed, formatKey) {
       plaque: "Eine Holzplakette für Erinnerungen, Meilensteine und bleibende Gesten.",
       craft: "Eine Holzbasis für kreative Projekte und handgemachte Geschenke.",
       "small-gift": "Ein kleines Holzgeschenk mit warmer handgemachter Ausstrahlung."
+    },
+    fr: {
+      coasters: "Un set de dessous-verres en bois pour tables basses, bureaux et intérieurs chaleureux.",
+      bookmarks: "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
+      "door-hanger": "Une suspension de porte en bois pour chambres, pièces loisirs et coins personnels.",
+      "decor-piece": "Une pièce déco en bois pour étagères, guéridons et coins cosy.",
+      keepsake: "Un cadeau souvenir en bois pour étapes, mémoires et dates spéciales.",
+      plaque: "Une plaque en bois pour hommages, étapes marquantes et souvenirs durables.",
+      craft: "Une base créative en bois pour projets à finir soi-même.",
+      "small-gift": "Un petit cadeau en bois à l'allure artisanale."
+    },
+    es: {
+      coasters: "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
+      bookmarks: "Un marcapaginas de madera para lectores, regalos de libro y lecturas tranquilas.",
+      "door-hanger": "Un colgador de puerta de madera para dormitorios, cuartos de aficiones y rincones personales.",
+      "decor-piece": "Una pieza decorativa de madera para estanterias, mesas auxiliares y rincones acogedores.",
+      keepsake: "Un recuerdo de madera para hitos, memorias y fechas especiales.",
+      plaque: "Una placa de madera para homenajes, hitos y recuerdos duraderos.",
+      craft: "Una base creativa de madera para proyectos que se terminan a mano.",
+      "small-gift": "Un pequeno regalo de madera con aire artesanal."
+    },
+    pt: {
+      coasters: "Um conjunto de porta-copos em madeira para mesas de centro, secretarias e casas acolhedoras.",
+      bookmarks: "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
+      "door-hanger": "Um pendente de porta em madeira para quartos, salas de hobbies e cantos pessoais.",
+      "decor-piece": "Uma peca decorativa em madeira para prateleiras, mesas de apoio e cantos acolhedores.",
+      keepsake: "Uma recordacao em madeira para marcos, memorias e datas especiais.",
+      plaque: "Uma placa de madeira para homenagens, marcos e recordacoes duradouras.",
+      craft: "Uma base criativa em madeira para projetos a terminar a mao.",
+      "small-gift": "Um pequeno presente de madeira com ar artesanal."
+    },
+    it: {
+      coasters: "Un set di sottobicchieri in legno per tavolini, scrivanie e case accoglienti.",
+      bookmarks: "Un segnalibro in legno per lettori, regali libro e letture tranquille.",
+      "door-hanger": "Una targhetta da porta in legno per camere, stanze hobby e angoli personali.",
+      "decor-piece": "Un pezzo decorativo in legno per mensole, tavolini e angoli accoglienti.",
+      keepsake: "Un ricordo in legno per tappe importanti, memorie e date speciali.",
+      plaque: "Una placca in legno per omaggi, traguardi e ricordi duraturi.",
+      craft: "Una base creativa in legno per progetti da finire a mano.",
+      "small-gift": "Un piccolo regalo in legno dal gusto artigianale."
     }
   };
 
@@ -1032,6 +1988,18 @@ function buildCtaLabel(locale, name) {
   if (locale === "de") {
     return "Auf Etsy ansehen";
   }
+  if (locale === "fr") {
+    return "Voir sur Etsy";
+  }
+  if (locale === "es") {
+    return "Ver en Etsy";
+  }
+  if (locale === "pt") {
+    return "Ver na Etsy";
+  }
+  if (locale === "it") {
+    return "Vedi su Etsy";
+  }
   return locale === "nl"
     ? `${LABELS[locale].ctaPrefix} ${name} op Etsy`
     : `${LABELS[locale].ctaPrefix} ${name} on Etsy`;
@@ -1040,9 +2008,11 @@ function buildCtaLabel(locale, name) {
 function normalizeLocalizedName(locale, rawProduct, localizedName) {
   const clean = String(localizedName || "").replace(/\s+/g, " ").trim();
   if (locale !== "nl") {
-    if (locale === "de") {
-      return fixGermanName(rawProduct);
-    }
+    if (locale === "de") return fixGermanName(rawProduct);
+    if (locale === "fr") return fixFrenchName(rawProduct);
+    if (locale === "es") return fixSpanishName(rawProduct);
+    if (locale === "pt") return fixPortugueseName(rawProduct);
+    if (locale === "it") return fixItalianName(rawProduct);
     return clean;
   }
 
@@ -1115,6 +2085,10 @@ function buildProductData() {
   const productsEn = [];
   const productsNl = [];
   const productsDe = [];
+  const productsFr = [];
+  const productsEs = [];
+  const productsPt = [];
+  const productsIt = [];
 
   for (const baseProduct of rawEn) {
     const localizedNl = nlById.get(baseProduct.id);
@@ -1142,14 +2116,26 @@ function buildProductData() {
 
     const englishSource = { ...baseProduct, name: nameEn, alt: `${nameEn} by Craftygiftsplace` };
     const germanSource = { ...baseProduct, name: nameEn };
+    const frenchSource = { ...baseProduct, name: nameEn };
+    const spanishSource = { ...baseProduct, name: nameEn };
+    const portugueseSource = { ...baseProduct, name: nameEn };
+    const italianSource = { ...baseProduct, name: nameEn };
     const germanName = fixGermanName(germanSource);
+    const frenchName = fixFrenchName(frenchSource);
+    const spanishName = fixSpanishName(spanishSource);
+    const portugueseName = fixPortugueseName(portugueseSource);
+    const italianName = fixItalianName(italianSource);
 
     productsEn.push(buildLocaleProduct("en", englishSource, nameEn, signals));
     productsNl.push(buildLocaleProduct("nl", localizedNl, localizedNl.name, signals));
     productsDe.push(buildLocaleProduct("de", { ...germanSource, name: germanName }, germanName, signals));
+    productsFr.push(buildLocaleProduct("fr", { ...frenchSource, name: frenchName }, frenchName, signals));
+    productsEs.push(buildLocaleProduct("es", { ...spanishSource, name: spanishName }, spanishName, signals));
+    productsPt.push(buildLocaleProduct("pt", { ...portugueseSource, name: portugueseName }, portugueseName, signals));
+    productsIt.push(buildLocaleProduct("it", { ...italianSource, name: italianName }, italianName, signals));
   }
 
-  return { productsEn, productsNl, productsDe };
+  return { productsEn, productsNl, productsDe, productsFr, productsEs, productsPt, productsIt };
 }
 
 module.exports = {

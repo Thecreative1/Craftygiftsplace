@@ -11,6 +11,7 @@ const {
   writeText,
   xDefaultPath
 } = require("./lib/site");
+const { LOCALE_ORDER, LOCALE_META } = require("./lib/locales");
 
 const text = {
   en: {
@@ -96,14 +97,119 @@ const text = {
     collectionsIntro: "Lieber nach Produkttyp schauen? Dann beginne mit diesen Kernkollektionen.",
     reviewsHeading: "Beliebt auf Etsy",
     reviewsIntro: "Ein paar kurze Bewertungen, die Qualität und Vertrauen unterstreichen."
+  },
+  fr: {
+    brandTagline: "Cadeaux en bois faits main avec caractère",
+    skipLink: "Aller au contenu",
+    navAria: "Menu principal",
+    langSwitch: "Choisir la langue",
+    homeAria: "Aller à la page d'accueil",
+    menu: "Menu",
+    navToggle: "Ouvrir le menu",
+    home: "Accueil",
+    footerCollections: "Collections",
+    footerIntents: "Idées cadeaux",
+    footerTagline: "Cadeaux en bois faits main avec chaleur, détail et caractère.",
+    footerNote: "Noté 4,96/5 sur Etsy pour un service attentionné, de beaux détails et une vraie finition artisanale.",
+    featuredHeading: "Meilleures idées",
+    featuredIntro: "Commencez par quelques pièces fortes, puis parcourez la sélection complète.",
+    catalogHeading: "Voir la collection",
+    faqHeading: "Questions fréquentes",
+    faqIntro: "Des réponses rapides pour les visiteurs qui veulent décider plus vite.",
+    relatedHeading: "Collections associées",
+    relatedIntro: "Continuez avec ces suggestions.",
+    whyHeading: "Pourquoi ça plaît",
+    intentsHeading: "Acheter par occasion",
+    intentsIntro: "Commencez par le type de cadeau que vous voulez offrir.",
+    collectionsHeading: "Acheter par collection",
+    collectionsIntro: "Vous préférez partir du type de produit ? Commencez par ces collections principales.",
+    reviewsHeading: "Aimé sur Etsy",
+    reviewsIntro: "Quelques avis courts qui renforcent la confiance."
+  },
+  es: {
+    brandTagline: "Regalos de madera hechos a mano con carácter",
+    skipLink: "Ir al contenido",
+    navAria: "Menú principal",
+    langSwitch: "Elegir idioma",
+    homeAria: "Ir a la página de inicio",
+    menu: "Menú",
+    navToggle: "Abrir el menú",
+    home: "Inicio",
+    footerCollections: "Colecciones",
+    footerIntents: "Ideas de regalo",
+    footerTagline: "Regalos de madera hechos a mano con calidez, detalle y carácter.",
+    footerNote: "Valorado con 4,96/5 en Etsy por un servicio atento, bonitos detalles y acabado artesanal.",
+    featuredHeading: "Mejores ideas",
+    featuredIntro: "Empieza por algunas piezas destacadas y después explora la selección completa.",
+    catalogHeading: "Ver la colección",
+    faqHeading: "Preguntas frecuentes",
+    faqIntro: "Respuestas rápidas para quien quiere decidir más deprisa.",
+    relatedHeading: "Colecciones relacionadas",
+    relatedIntro: "Sigue explorando con estas sugerencias.",
+    whyHeading: "Por qué gusta",
+    intentsHeading: "Comprar por ocasión",
+    intentsIntro: "Empieza por el tipo de regalo que quieres hacer.",
+    collectionsHeading: "Comprar por colección",
+    collectionsIntro: "¿Prefieres empezar por el tipo de producto? Comienza por estas colecciones principales.",
+    reviewsHeading: "Muy querido en Etsy",
+    reviewsIntro: "Algunas reseñas breves que refuerzan calidad y confianza."
+  },
+  pt: {
+    brandTagline: "Presentes em madeira feitos à mão com carácter",
+    skipLink: "Ir para o conteúdo",
+    navAria: "Menu principal",
+    langSwitch: "Escolher idioma",
+    homeAria: "Ir para a página inicial",
+    menu: "Menu",
+    navToggle: "Abrir o menu",
+    home: "Início",
+    footerCollections: "Coleções",
+    footerIntents: "Ideias de presente",
+    footerTagline: "Presentes em madeira feitos à mão com calor, detalhe e carácter.",
+    footerNote: "Avaliado com 4,96/5 na Etsy por um serviço atencioso, belos detalhes e acabamento artesanal.",
+    featuredHeading: "Melhores escolhas",
+    featuredIntro: "Começa por algumas peças em destaque e depois explora a seleção completa.",
+    catalogHeading: "Ver a coleção",
+    faqHeading: "Perguntas frequentes",
+    faqIntro: "Respostas rápidas para quem quer decidir mais depressa.",
+    relatedHeading: "Coleções relacionadas",
+    relatedIntro: "Continua a explorar com estas sugestões.",
+    whyHeading: "Porque agrada",
+    intentsHeading: "Comprar por ocasião",
+    intentsIntro: "Começa pelo tipo de presente que queres oferecer.",
+    collectionsHeading: "Comprar por coleção",
+    collectionsIntro: "Preferes começar pelo tipo de produto? Começa por estas coleções principais.",
+    reviewsHeading: "Adorado na Etsy",
+    reviewsIntro: "Algumas avaliações curtas que reforçam qualidade e confiança."
+  },
+  it: {
+    brandTagline: "Regali in legno fatti a mano con carattere",
+    skipLink: "Vai al contenuto",
+    navAria: "Menu principale",
+    langSwitch: "Scegli la lingua",
+    homeAria: "Vai alla homepage",
+    menu: "Menu",
+    navToggle: "Apri il menu",
+    home: "Home",
+    footerCollections: "Collezioni",
+    footerIntents: "Idee regalo",
+    footerTagline: "Regali in legno fatti a mano con calore, dettaglio e carattere.",
+    footerNote: "Valutato 4,96/5 su Etsy per un servizio attento, bei dettagli e qualità artigianale.",
+    featuredHeading: "Scelte migliori",
+    featuredIntro: "Inizia con alcune proposte forti e poi guarda tutta la selezione.",
+    catalogHeading: "Vedi la collezione",
+    faqHeading: "Domande frequenti",
+    faqIntro: "Risposte rapide per chi vuole decidere più in fretta.",
+    relatedHeading: "Collezioni correlate",
+    relatedIntro: "Continua a esplorare con questi suggerimenti.",
+    whyHeading: "Perché piace",
+    intentsHeading: "Acquista per occasione",
+    intentsIntro: "Inizia dal tipo di regalo che vuoi fare.",
+    collectionsHeading: "Acquista per collezione",
+    collectionsIntro: "Preferisci partire dal tipo di prodotto? Comincia da queste collezioni principali.",
+    reviewsHeading: "Amato su Etsy",
+    reviewsIntro: "Alcune recensioni brevi che rafforzano qualità e fiducia."
   }
-};
-
-const LOCALE_ORDER = ["nl", "en", "de"];
-const LOCALE_META = {
-  nl: { homePath: "/index.html", ogLocale: "nl_NL" },
-  en: { homePath: "/en/index.html", ogLocale: "en_US" },
-  de: { homePath: "/de/index.html", ogLocale: "de_DE" }
 };
 
 const productCardTemplate = loadTemplate("product-card.html");
@@ -117,27 +223,20 @@ const homeCategoryCardTemplate = loadTemplate("home-category-card.html");
 const homeBestsellerCardTemplate = loadTemplate("home-bestseller-card.html");
 
 function loadData() {
-  const pagesEn = readJson("data/pages.en.json");
-  const pagesNl = readJson("data/pages.nl.json");
-  const pagesDe = readJson("data/pages.de.json");
-  const productsEn = readJson("data/products.en.json");
-  const productsNl = readJson("data/products.nl.json");
-  const productsDe = readJson("data/products.de.json");
+  const pagesByLocale = {};
+  const productsListByLocale = {};
 
-  const pages = [...pagesEn, ...pagesNl, ...pagesDe];
+  LOCALE_ORDER.forEach((locale) => {
+    pagesByLocale[locale] = readJson(LOCALE_META[locale].pageFile);
+    productsListByLocale[locale] = readJson(LOCALE_META[locale].productFile);
+  });
+
+  const pages = LOCALE_ORDER.flatMap((locale) => pagesByLocale[locale]);
   return {
     pages,
     pagesByPath: new Map(pages.map((page) => [page.path, page])),
-    productsByLocale: {
-      en: new Map(productsEn.map((product) => [product.slug, product])),
-      nl: new Map(productsNl.map((product) => [product.slug, product])),
-      de: new Map(productsDe.map((product) => [product.slug, product]))
-    },
-    productsListByLocale: {
-      en: productsEn,
-      nl: productsNl,
-      de: productsDe
-    }
+    productsByLocale: Object.fromEntries(LOCALE_ORDER.map((locale) => [locale, new Map(productsListByLocale[locale].map((product) => [product.slug, product]))])),
+    productsListByLocale
   };
 }
 
@@ -159,6 +258,46 @@ function navItems(locale) {
       { label: "Holzlesezeichen", path: "/de/pages/holzlesezeichen.html" },
       { label: "Holzgeschenke", path: "/de/pages/holzgeschenke.html" },
       { label: "Kontakt", path: "/de/pages/kontakt.html" }
+    ];
+  }
+
+  if (locale === "fr") {
+    return [
+      { label: text.fr.home, path: "/fr/index.html" },
+      { label: "Dessous-verres en bois", path: "/fr/pages/sous-verres-en-bois.html" },
+      { label: "Marque-pages en bois", path: "/fr/pages/marque-pages-en-bois.html" },
+      { label: "Cadeaux en bois", path: "/fr/pages/cadeaux-en-bois.html" },
+      { label: "Contact", path: "/fr/pages/contact.html" }
+    ];
+  }
+
+  if (locale === "es") {
+    return [
+      { label: text.es.home, path: "/es/index.html" },
+      { label: "Posavasos de madera", path: "/es/pages/posavasos-de-madera.html" },
+      { label: "Marcapaginas de madera", path: "/es/pages/marcapaginas-de-madera.html" },
+      { label: "Regalos de madera", path: "/es/pages/regalos-de-madera.html" },
+      { label: "Contacto", path: "/es/pages/contacto.html" }
+    ];
+  }
+
+  if (locale === "pt") {
+    return [
+      { label: text.pt.home, path: "/pt/index.html" },
+      { label: "Porta-copos de madeira", path: "/pt/pages/porta-copos-de-madeira.html" },
+      { label: "Marcadores de livros", path: "/pt/pages/marcadores-de-livros-de-madeira.html" },
+      { label: "Presentes de madeira", path: "/pt/pages/presentes-de-madeira.html" },
+      { label: "Contacto", path: "/pt/pages/contacto.html" }
+    ];
+  }
+
+  if (locale === "it") {
+    return [
+      { label: text.it.home, path: "/it/index.html" },
+      { label: "Sottobicchieri in legno", path: "/it/pages/sottobicchieri-in-legno.html" },
+      { label: "Segnalibri in legno", path: "/it/pages/segnalibri-in-legno.html" },
+      { label: "Regali in legno", path: "/it/pages/regali-in-legno.html" },
+      { label: "Contatto", path: "/it/pages/contatto.html" }
     ];
   }
 
@@ -189,6 +328,38 @@ function footerIntents(locale) {
       { label: "Geschenke für Katzenliebhaber", path: "/de/pages/geschenke-fuer-katzenliebhaber.html" },
       { label: "Geschenke für Leser", path: "/de/pages/geschenke-fuer-leser.html" },
       { label: "Einzugsgeschenke", path: "/de/pages/einzugsgeschenke.html" }
+    ];
+  }
+
+  if (locale === "fr") {
+    return [
+      { label: "Cadeaux pour amoureux des chats", path: "/fr/pages/cadeaux-pour-amoureux-des-chats.html" },
+      { label: "Cadeaux pour lecteurs", path: "/fr/pages/cadeaux-pour-lecteurs.html" },
+      { label: "Cadeaux de crémaillère", path: "/fr/pages/cadeaux-de-cremaillere.html" }
+    ];
+  }
+
+  if (locale === "es") {
+    return [
+      { label: "Regalos para amantes de los gatos", path: "/es/pages/regalos-para-amantes-de-los-gatos.html" },
+      { label: "Regalos para lectores", path: "/es/pages/regalos-para-lectores.html" },
+      { label: "Regalos para casa nueva", path: "/es/pages/regalos-para-casa-nueva.html" }
+    ];
+  }
+
+  if (locale === "pt") {
+    return [
+      { label: "Presentes para amantes de gatos", path: "/pt/pages/presentes-para-amantes-de-gatos.html" },
+      { label: "Presentes para leitores", path: "/pt/pages/presentes-para-leitores.html" },
+      { label: "Presentes de casa nova", path: "/pt/pages/presentes-de-casa-nova.html" }
+    ];
+  }
+
+  if (locale === "it") {
+    return [
+      { label: "Regali per amanti dei gatti", path: "/it/pages/regali-per-amanti-dei-gatti.html" },
+      { label: "Regali per lettori", path: "/it/pages/regali-per-lettori.html" },
+      { label: "Regali per la casa nuova", path: "/it/pages/regali-per-la-casa-nuova.html" }
     ];
   }
 
@@ -254,9 +425,36 @@ function compactProductLead(product) {
 
 function buildCardDescription(product, page, position = 0) {
   const lead = product.name;
-  const usage = product.usage_context || (product.locale === "nl" ? "gezellige hoekjes in huis" : product.locale === "de" ? "gemütliche Ecken im Zuhause" : "cozy corners at home");
-  const motif = product.motif || (product.locale === "nl" ? "een warm houten detail" : product.locale === "de" ? "einen warmen Holzakzent" : "a warm wooden accent");
-  const audience = (product.audience && product.audience[0]) || (product.locale === "nl" ? "cadeauzoekers" : product.locale === "de" ? "Geschenkkäufer" : "gift shoppers");
+  const usageDefaults = {
+    nl: "gezellige hoekjes in huis",
+    de: "gemütliche Ecken im Zuhause",
+    fr: "les coins chaleureux de la maison",
+    es: "rincones acogedores del hogar",
+    pt: "cantos acolhedores da casa",
+    it: "angoli accoglienti della casa",
+    en: "cozy corners at home"
+  };
+  const motifDefaults = {
+    nl: "een warm houten detail",
+    de: "einen warmen Holzakzent",
+    fr: "un accent chaleureux en bois",
+    es: "un acento cálido de madera",
+    pt: "um detalhe quente em madeira",
+    it: "un accento caldo in legno",
+    en: "a warm wooden accent"
+  };
+  const audienceDefaults = {
+    nl: "cadeauzoekers",
+    de: "Geschenkkäufer",
+    fr: "chercheurs de cadeaux",
+    es: "compradores de regalos",
+    pt: "compradores de presentes",
+    it: "chi cerca un regalo",
+    en: "gift shoppers"
+  };
+  const usage = product.usage_context || usageDefaults[product.locale] || usageDefaults.en;
+  const motif = product.motif || motifDefaults[product.locale] || motifDefaults.en;
+  const audience = (product.audience && product.audience[0]) || audienceDefaults[product.locale] || audienceDefaults.en;
   const key = product.format_key || "small-gift";
   let variants;
 
@@ -349,6 +547,190 @@ function buildCardDescription(product, page, position = 0) {
         `${lead} setzt einen kleinen handgemachten Akzent auf Schreibtisch, Regal oder im Geschenkset.`,
         `${lead} ist ein kompaktes Holzgeschenk, das auch nach dem Anlass nützlich bleibt.`,
         `${lead} ist ein einfaches Extra für Käufer, die etwas Kleines und Handgemachtes für ${usage} suchen.`
+      ]
+    };
+    variants = byFormat[key] || byFormat["small-gift"];
+  } else if (product.locale === "fr") {
+    const byFormat = {
+      coasters: [
+        `${lead} protège les tables et apporte ${motif} à ${usage}.`,
+        `${lead} apporte ${motif} à ${usage} tout en restant pratique pour les boissons du quotidien.`,
+        `${lead} est un set de dessous-verres pour ${usage} avec plus de caractère qu'un simple extra de table.`,
+        `${lead} convient à ${audience} qui cherchent quelque chose d'utile avec ${motif} dans ${usage}.`
+      ],
+      bookmarks: [
+        `${lead} garde la page facile à retrouver et donne plus de caractère au moment de lecture.`,
+        `${lead} trouve naturellement sa place dans ${usage}.`,
+        `${lead} est un marque-page pour ${audience} qui préfèrent offrir un beau détail pour ${usage} plutôt qu'un objet générique.`,
+        `${lead} se glisse facilement dans des journaux de lecture, coffrets cadeaux et soirées calmes.`
+      ],
+      "door-hanger": [
+        `${lead} ajoute du caractère aux portes, pièces loisirs et coins personnels.`,
+        `${lead} est une pièce en bois facile à suspendre et simple à remarquer dès le premier regard.`,
+        `${lead} fonctionne bien quand le cadeau doit paraître personnel et visible dans ${usage}.`
+      ],
+      "decor-piece": [
+        `${lead} apporte ${motif} à ${usage}.`,
+        `${lead} est une petite pièce déco qui rend étagères et guéridons plus vivants.`,
+        `${lead} convient aux acheteurs qui préfèrent offrir de l'ambiance plutôt qu'un objet purement pratique pour ${usage}.`
+      ],
+      keepsake: [
+        `${lead} transforme un moment important en objet facile à garder et à exposer.`,
+        `${lead} est un souvenir en bois personnel pour étapes, souvenirs et journées importantes.`,
+        `${lead} convient aux moments qui méritent plus qu'une simple carte et une place dans ${usage}.`
+      ],
+      plaque: [
+        `${lead} transforme un souvenir en quelque chose que l'on peut garder visible.`,
+        `${lead} est une plaque en bois attentionnée pour hommages, étapes et souvenirs durables.`,
+        `${lead} convient à des occasions plus personnelles qui trouvent leur place dans ${usage}.`
+      ],
+      craft: [
+        `${lead} donne aux créatifs une base en bois à finir eux-mêmes.`,
+        `${lead} est une base DIY pratique pour projets, ateliers et idées cadeaux faites main.`,
+        `${lead} aide ceux qui préfèrent composer eux-mêmes un petit cadeau pour ${usage}.`
+      ],
+      "small-gift": [
+        `${lead} ajoute une petite touche artisanale à un bureau, un tiroir ou un coffret cadeau.`,
+        `${lead} est un petit cadeau en bois qui reste utile après l'occasion.`,
+        `${lead} est un extra simple pour ceux qui cherchent quelque chose de petit et fait main pour ${usage}.`
+      ]
+    };
+    variants = byFormat[key] || byFormat["small-gift"];
+  } else if (product.locale === "es") {
+    const byFormat = {
+      coasters: [
+        `${lead} protege las mesas y lleva ${motif} a ${usage}.`,
+        `${lead} aporta ${motif} a ${usage} mientras sigue siendo practico para bebidas de diario.`,
+        `${lead} es un set de posavasos para ${usage} con mas caracter que un simple extra de mesa.`,
+        `${lead} encaja con ${audience} que buscan algo util con ${motif} en ${usage}.`
+      ],
+      bookmarks: [
+        `${lead} mantiene la pagina facil de encontrar y da mas caracter al momento de lectura.`,
+        `${lead} se siente en casa dentro de ${usage}.`,
+        `${lead} es un marcapaginas para ${audience} que prefieren regalar un detalle bonito para ${usage} antes que algo generico.`,
+        `${lead} encaja bien en diarios de lectura, cajas regalo y noches tranquilas.`
+      ],
+      "door-hanger": [
+        `${lead} da mas caracter a puertas, cuartos de aficiones y rincones personales.`,
+        `${lead} es una pieza de madera facil de colgar y facil de notar.`,
+        `${lead} funciona bien cuando el regalo debe sentirse personal y visible en ${usage}.`
+      ],
+      "decor-piece": [
+        `${lead} lleva ${motif} a ${usage}.`,
+        `${lead} es una pieza decorativa pequena que hace mas vividas estanterias y mesas auxiliares.`,
+        `${lead} encaja con compradores que prefieren ambiente antes que algo puramente practico para ${usage}.`
+      ],
+      keepsake: [
+        `${lead} convierte un momento importante en algo facil de guardar y mostrar.`,
+        `${lead} es un recuerdo personal de madera para hitos, memorias y fechas especiales.`,
+        `${lead} encaja en momentos que merecen mas que una tarjeta y un lugar en ${usage}.`
+      ],
+      plaque: [
+        `${lead} convierte un recuerdo en algo que se puede mantener visible.`,
+        `${lead} es una placa de madera atenta para homenajes, hitos y recuerdos duraderos.`,
+        `${lead} encaja en ocasiones mas personales que encuentran su sitio en ${usage}.`
+      ],
+      craft: [
+        `${lead} da a personas creativas una base de madera para terminar a su manera.`,
+        `${lead} es una base DIY practica para proyectos, clases e ideas de regalo hechas a mano.`,
+        `${lead} ayuda a quien prefiere preparar por su cuenta un pequeno regalo para ${usage}.`
+      ],
+      "small-gift": [
+        `${lead} anade un pequeno toque artesanal a escritorio, cajon o caja regalo.`,
+        `${lead} es un pequeno regalo de madera que sigue siendo util despues de la ocasion.`,
+        `${lead} es un extra sencillo para quien quiere algo pequeno y hecho a mano para ${usage}.`
+      ]
+    };
+    variants = byFormat[key] || byFormat["small-gift"];
+  } else if (product.locale === "pt") {
+    const byFormat = {
+      coasters: [
+        `${lead} protege as mesas e leva ${motif} para ${usage}.`,
+        `${lead} acrescenta ${motif} a ${usage} e continua pratico para bebidas do dia a dia.`,
+        `${lead} e um conjunto de porta-copos para ${usage} com mais caracter do que um simples extra de mesa.`,
+        `${lead} encaixa em ${audience} que procuram algo util com ${motif} em ${usage}.`
+      ],
+      bookmarks: [
+        `${lead} mantem a pagina facil de reencontrar e da mais caracter ao momento de leitura.`,
+        `${lead} sente-se em casa em ${usage}.`,
+        `${lead} e um marcador para ${audience} que preferem oferecer um detalhe bonito para ${usage} em vez de algo generico.`,
+        `${lead} encaixa bem em diarios de leitura, caixas-presente e seroes tranquilos.`
+      ],
+      "door-hanger": [
+        `${lead} da mais caracter a portas, salas de hobbies e cantos pessoais.`,
+        `${lead} e uma peca de madeira facil de pendurar e facil de notar.`,
+        `${lead} funciona bem quando o presente deve parecer pessoal e visivel em ${usage}.`
+      ],
+      "decor-piece": [
+        `${lead} leva ${motif} para ${usage}.`,
+        `${lead} e uma pequena peca decorativa que torna prateleiras e mesas de apoio mais vividas.`,
+        `${lead} encaixa em compradores que preferem ambiente a algo puramente pratico para ${usage}.`
+      ],
+      keepsake: [
+        `${lead} transforma um momento importante em algo facil de guardar e mostrar.`,
+        `${lead} e uma recordacao pessoal em madeira para marcos, memorias e datas especiais.`,
+        `${lead} encaixa em momentos que merecem mais do que um cartao e um lugar em ${usage}.`
+      ],
+      plaque: [
+        `${lead} transforma uma memoria em algo que se pode manter visivel.`,
+        `${lead} e uma placa de madeira atenciosa para homenagens, marcos e recordacoes duradouras.`,
+        `${lead} encaixa em ocasioes mais pessoais que encontram lugar em ${usage}.`
+      ],
+      craft: [
+        `${lead} da uma base de madeira a pessoas criativas para terminarem a sua maneira.`,
+        `${lead} e uma base DIY pratica para projetos, aulas e ideias de presente feitas a mao.`,
+        `${lead} ajuda quem prefere montar um pequeno presente por conta propria para ${usage}.`
+      ],
+      "small-gift": [
+        `${lead} acrescenta um pequeno toque artesanal a secretaria, gaveta ou caixa-presente.`,
+        `${lead} e um pequeno presente de madeira que continua util depois da ocasiao.`,
+        `${lead} e um extra simples para quem quer algo pequeno e feito a mao para ${usage}.`
+      ]
+    };
+    variants = byFormat[key] || byFormat["small-gift"];
+  } else if (product.locale === "it") {
+    const byFormat = {
+      coasters: [
+        `${lead} protegge i tavoli e porta ${motif} in ${usage}.`,
+        `${lead} aggiunge ${motif} a ${usage} restando pratico per le bevande di ogni giorno.`,
+        `${lead} e un set di sottobicchieri per ${usage} con piu carattere di un semplice extra da tavola.`,
+        `${lead} si adatta a ${audience} che cercano qualcosa di utile con ${motif} in ${usage}.`
+      ],
+      bookmarks: [
+        `${lead} mantiene la pagina facile da ritrovare e da piu carattere al momento di lettura.`,
+        `${lead} si sente subito a casa in ${usage}.`,
+        `${lead} e un segnalibro per ${audience} che preferiscono regalare un bel dettaglio per ${usage} invece di qualcosa di generico.`,
+        `${lead} sta bene con diari di lettura, scatole regalo e serate tranquille.`
+      ],
+      "door-hanger": [
+        `${lead} da piu carattere a porte, stanze hobby e angoli personali.`,
+        `${lead} e un pezzo in legno facile da appendere e facile da notare.`,
+        `${lead} funziona bene quando il regalo deve sembrare personale e visibile in ${usage}.`
+      ],
+      "decor-piece": [
+        `${lead} porta ${motif} in ${usage}.`,
+        `${lead} e un piccolo pezzo decorativo che rende piu vissute mensole e tavolini.`,
+        `${lead} si adatta a chi preferisce atmosfera invece di qualcosa di puramente pratico per ${usage}.`
+      ],
+      keepsake: [
+        `${lead} trasforma un momento importante in qualcosa di facile da custodire e mostrare.`,
+        `${lead} e un ricordo personale in legno per tappe, memorie e date speciali.`,
+        `${lead} si adatta a momenti che meritano piu di un semplice biglietto e un posto in ${usage}.`
+      ],
+      plaque: [
+        `${lead} trasforma un ricordo in qualcosa che si puo tenere in vista.`,
+        `${lead} e una placca in legno attenta per omaggi, traguardi e ricordi duraturi.`,
+        `${lead} si adatta a occasioni piu personali che trovano posto in ${usage}.`
+      ],
+      craft: [
+        `${lead} da una base in legno a persone creative da finire a modo proprio.`,
+        `${lead} e una base DIY pratica per progetti, lezioni e idee regalo fatte a mano.`,
+        `${lead} aiuta chi preferisce preparare da solo un piccolo regalo per ${usage}.`
+      ],
+      "small-gift": [
+        `${lead} aggiunge un piccolo tocco artigianale a scrivania, cassetto o scatola regalo.`,
+        `${lead} e un piccolo regalo in legno che resta utile dopo l'occasione.`,
+        `${lead} e un extra semplice per chi vuole qualcosa di piccolo e fatto a mano per ${usage}.`
       ]
     };
     variants = byFormat[key] || byFormat["small-gift"];
@@ -526,10 +908,179 @@ function buildCardDescription(product, page, position = 0) {
         "Es funktioniert gut, wenn ein kleines handgemachtes Extra reicht.",
         "Es bringt Wärme, ohne das Geschenk unnötig kompliziert zu machen."
       ]
+    },
+    fr: {
+      coasters: [
+        "Il trouve naturellement sa place sur les tables basses et les bureaux.",
+        "Il fonctionne bien quand le cadeau doit être utile dès le premier jour.",
+        "Il ajoute un peu plus de chaleur aux boissons du quotidien."
+      ],
+      bookmarks: [
+        "Il glisse facilement dans des journaux, sacs et coffrets cadeaux.",
+        "Il convient aux lecteurs qui aiment les petits détails avec du caractère.",
+        "Il fonctionne bien comme petit extra à côté d'un beau livre."
+      ],
+      "door-hanger": [
+        "Il donne aussitôt plus de personnalité à la pièce.",
+        "Il est facile à suspendre et simple à remarquer.",
+        "Il convient aux cadeaux qui doivent paraître ludiques et personnels."
+      ],
+      "decor-piece": [
+        "Il se place très bien sur étagères, guéridons et coins plus calmes.",
+        "Il convient à ceux qui préfèrent l'ambiance à l'objet de table.",
+        "Il apporte de la chaleur sans prendre beaucoup de place."
+      ],
+      keepsake: [
+        "Il reste facile à exposer longtemps après l'occasion.",
+        "Il garde une date, un prénom ou un souvenir tout près.",
+        "Il paraît plus durable qu'une simple carte."
+      ],
+      plaque: [
+        "Il convient aux hommages et aux étapes importantes que l'on garde visibles.",
+        "Il garde un nom, une date ou un message à portée de vue.",
+        "Il apporte un ton plus calme aux occasions personnelles."
+      ],
+      craft: [
+        "Il garde le projet simple à commencer et agréable à finir.",
+        "Il fonctionne bien pour ateliers, après-midi pluvieux et préparations de cadeaux.",
+        "Il donne une base chaleureuse aux idées créatives."
+      ],
+      "small-gift": [
+        "Il trouve facilement sa place dans un coffret cadeau ou sur un bureau.",
+        "Il fonctionne bien quand un petit supplément artisanal suffit.",
+        "Il ajoute de la chaleur sans compliquer le cadeau."
+      ]
+    },
+    es: {
+      coasters: [
+        "Se coloca de forma natural en mesas de centro y escritorios.",
+        "Funciona bien cuando el regalo debe resultar util desde el primer dia.",
+        "Aporta un poco mas de calidez a las bebidas del dia a dia."
+      ],
+      bookmarks: [
+        "Se desliza bien en diarios, bolsas y cajas regalo.",
+        "Encaja con lectores a quienes les gustan los pequenos detalles con caracter.",
+        "Funciona bien como pequeno extra junto a un buen libro."
+      ],
+      "door-hanger": [
+        "Da mas personalidad a la estancia desde el primer momento.",
+        "Es facil de colgar y facil de notar.",
+        "Encaja en regalos que deben sentirse divertidos y personales."
+      ],
+      "decor-piece": [
+        "Queda muy bien en estanterias, mesas auxiliares y rincones tranquilos.",
+        "Encaja con quien prefiere ambiente antes que menaje.",
+        "Aporta calidez sin ocupar demasiado espacio."
+      ],
+      keepsake: [
+        "Es facil de mostrar incluso mucho despues de la ocasion.",
+        "Mantiene cerca una fecha, un nombre o un recuerdo.",
+        "Se siente mas duradero que una tarjeta sencilla."
+      ],
+      plaque: [
+        "Encaja en homenajes y regalos de hito que siguen a la vista.",
+        "Mantiene cerca un nombre, una fecha o un mensaje.",
+        "Aporta un tono mas sereno a ocasiones personales."
+      ],
+      craft: [
+        "Mantiene el proyecto facil de empezar y facil de terminar.",
+        "Funciona bien para clases, tardes de lluvia y preparacion de regalos.",
+        "Da una base calida a las ideas creativas."
+      ],
+      "small-gift": [
+        "Queda bien en una caja regalo o en un escritorio.",
+        "Funciona cuando un pequeno extra artesanal es suficiente.",
+        "Aporta calidez sin complicar el regalo."
+      ]
+    },
+    pt: {
+      coasters: [
+        "Fica naturalmente em mesas de centro e secretarias.",
+        "Funciona bem quando o presente deve ser util desde o primeiro dia.",
+        "Acrescenta um pouco mais de calor as bebidas do dia a dia."
+      ],
+      bookmarks: [
+        "Desliza-se bem em diarios, sacos e caixas-presente.",
+        "Encaixa em leitores que gostam de pequenos detalhes com caracter.",
+        "Funciona bem como pequeno extra ao lado de um bom livro."
+      ],
+      "door-hanger": [
+        "Da mais personalidade ao espaco desde o primeiro momento.",
+        "E facil de pendurar e facil de notar.",
+        "Encaixa em presentes que devem parecer divertidos e pessoais."
+      ],
+      "decor-piece": [
+        "Fica muito bem em prateleiras, mesas de apoio e cantos tranquilos.",
+        "Encaixa em quem prefere ambiente a pecas de mesa.",
+        "Acrescenta calor sem ocupar muito espaco."
+      ],
+      keepsake: [
+        "E facil de expor muito depois da ocasiao.",
+        "Mantem por perto uma data, um nome ou uma memoria.",
+        "Parece mais duradouro do que um simples cartao."
+      ],
+      plaque: [
+        "Encaixa em homenagens e presentes de marco que ficam a vista.",
+        "Mantem por perto um nome, uma data ou uma mensagem.",
+        "Da um tom mais sereno a ocasioes pessoais."
+      ],
+      craft: [
+        "Mantem o projeto facil de comecar e simples de terminar.",
+        "Funciona bem para aulas, tardes de chuva e preparacao de presentes.",
+        "Da uma base calorosa as ideias criativas."
+      ],
+      "small-gift": [
+        "Fica bem numa caixa-presente ou numa secretaria.",
+        "Funciona quando um pequeno extra artesanal e suficiente.",
+        "Acrescenta calor sem complicar o presente."
+      ]
+    },
+    it: {
+      coasters: [
+        "Sta in modo naturale su tavolini e scrivanie.",
+        "Funziona bene quando il regalo deve risultare utile dal primo giorno.",
+        "Aggiunge un po piu di calore alle bevande di ogni giorno."
+      ],
+      bookmarks: [
+        "Scivola bene in diari, borse e scatole regalo.",
+        "Si adatta a lettori a cui piacciono i piccoli dettagli con carattere.",
+        "Funziona bene come piccolo extra accanto a un buon libro."
+      ],
+      "door-hanger": [
+        "Dà piu personalita allo spazio fin dal primo momento.",
+        "E facile da appendere e facile da notare.",
+        "Si adatta a regali che devono sembrare giocosi e personali."
+      ],
+      "decor-piece": [
+        "Sta benissimo su mensole, tavolini e angoli tranquilli.",
+        "Si adatta a chi preferisce atmosfera invece di oggetti da tavola.",
+        "Aggiunge calore senza occupare troppo spazio."
+      ],
+      keepsake: [
+        "E facile da esporre anche molto dopo l'occasione.",
+        "Tiene vicino una data, un nome o un ricordo.",
+        "Sembra piu duraturo di un semplice biglietto."
+      ],
+      plaque: [
+        "Si adatta a omaggi e regali di tappa importante che restano in vista.",
+        "Tiene vicino un nome, una data o un messaggio.",
+        "Dà un tono piu calmo alle occasioni personali."
+      ],
+      craft: [
+        "Mantiene il progetto facile da iniziare e da finire.",
+        "Funziona bene per lezioni, pomeriggi di pioggia e preparazione dei regali.",
+        "Dà una base calda alle idee creative."
+      ],
+      "small-gift": [
+        "Sta bene in una scatola regalo o su una scrivania.",
+        "Funziona quando basta un piccolo extra artigianale.",
+        "Aggiunge calore senza complicare il regalo."
+      ]
     }
   };
 
-  const suffixes = suffixSets[product.locale][key] || suffixSets[product.locale]["small-gift"];
+  const suffixBucket = suffixSets[product.locale] || suffixSets.en;
+  const suffixes = suffixBucket[key] || suffixBucket["small-gift"];
   const suffix = suffixes[Math.floor(position / variants.length) % suffixes.length];
   return `${variants[position % variants.length]} ${suffix}`;
 }

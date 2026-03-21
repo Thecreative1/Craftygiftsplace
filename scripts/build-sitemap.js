@@ -1,11 +1,12 @@
 const { canonicalUrl, readJson, writeText } = require("./lib/site");
+const { LOCALE_ORDER, LOCALE_META } = require("./lib/locales");
 
 function lastmod() {
   return new Date().toISOString().slice(0, 10);
 }
 
 function buildSitemap() {
-  const pages = [...readJson("data/pages.en.json"), ...readJson("data/pages.nl.json"), ...readJson("data/pages.de.json")];
+  const pages = LOCALE_ORDER.flatMap((locale) => readJson(LOCALE_META[locale].pageFile));
   const stamp = lastmod();
 
   const urls = pages

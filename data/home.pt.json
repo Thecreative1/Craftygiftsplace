@@ -1,0 +1,191 @@
+{
+  "title": "Presentes em madeira feitos à mão para leitores, amantes de gatos e casas acolhedoras | Craftygiftsplace",
+  "metaDescription": "Descobre presentes em madeira feitos à mão para leitores, amantes de gatos e casas acolhedoras. Explora porta-copos, marcadores de livros e decoração em madeira que encaminham para a Etsy.",
+  "h1": "Presentes em madeira feitos à mão com um toque acolhedor",
+  "eyebrow": "4,96/5 na Etsy",
+  "intro": "Explora porta-copos com tema de gatos, presentes para leitores e decoração em madeira acolhedora sem ter de percorrer todo o catálogo.",
+  "heroSupport": "Começa pelos mais vendidos e depois navega por ocasião ou por coleção se quiseres comparar melhor.",
+  "discoveryCta": {
+    "label": "Descobrir os mais vendidos",
+    "target": "#featured-bestsellers"
+  },
+  "primaryCta": {
+    "label": "Ver Craftygiftsplace na Etsy",
+    "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+  },
+  "heroProducts": [
+    "cat-and-moon-wooden-coasters",
+    "fantasy-reader-gift-set",
+    "moon-cat-shadow-tealight-holder"
+  ],
+  "sections": {
+    "featuredCategories": {
+      "heading": "Categorias em destaque",
+      "intro": "Começa pelos temas de presente que as pessoas mais procuram."
+    },
+    "bestsellers": {
+      "heading": "Mais vendidos",
+      "intro": "Três bons pontos de partida se quiseres uma escolha já comprovada."
+    },
+    "occasions": {
+      "heading": "Comprar por ocasião",
+      "intro": "Já tens a ocasião em mente? Começa por estas páginas."
+    },
+    "collections": {
+      "heading": "Comprar por coleção",
+      "intro": "Preferes começar pelo tipo de produto? Usa as coleções principais."
+    },
+    "support": {
+      "heading": "Como este site ajuda",
+      "intro": "Uma explicação breve, colocada mais abaixo para manter os produtos em primeiro plano."
+    },
+    "reviews": {
+      "heading": "Adorado na Etsy",
+      "intro": "Algumas avaliações curtas que reforçam qualidade e confiança."
+    },
+    "faq": {
+      "heading": "Perguntas úteis",
+      "intro": "Respostas rápidas antes de seguir para a Etsy."
+    }
+  },
+  "featuredCategories": [
+    {
+      "kicker": "Para amantes de gatos",
+      "title": "Presentes para amantes de gatos",
+      "description": "Vai diretamente para porta-copos e decoração com tema felino para casas acolhedoras e aniversários.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Ideia de presente porta-copos gato e lua",
+      "href": "/pt/pages/presentes-para-amantes-de-gatos.html"
+    },
+    {
+      "kicker": "Para leitores",
+      "title": "Presentes para leitores",
+      "description": "Descobre marcadores, conjuntos fantasy e peças para cantos de leitura pensadas para quem gosta de livros.",
+      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+      "imageAlt": "Fantasy Reader Gift Set para leitores",
+      "href": "/pt/pages/presentes-para-leitores.html"
+    },
+    {
+      "kicker": "Para casas novas",
+      "title": "Presentes de casa nova",
+      "description": "Explora peças em madeira úteis para mesas de centro, prateleiras e presentes de mudança bem escolhidos.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Porta-copos zodiac como presente de casa nova",
+      "href": "/pt/pages/presentes-de-casa-nova.html"
+    }
+  ],
+  "featuredItems": [
+    {
+      "slug": "cat-and-moon-wooden-coasters",
+      "summary": "Um conjunto acolhedor de porta-copos com tema de gatos para mesas de centro, aparadores e presentes pensados para amantes de gatos."
+    },
+    {
+      "slug": "fantasy-reader-gift-set",
+      "summary": "Um conjunto já pronto com marcador, pendente de porta e porta-copos para leitores de fantasia."
+    },
+    {
+      "slug": "moon-cat-shadow-tealight-holder",
+      "summary": "Um pequeno suporte para tealight em madeira que acrescenta ambiente a prateleiras e cantos de leitura."
+    }
+  ],
+  "intentCards": [
+    {
+      "title": "Presentes para amantes de gatos",
+      "description": "Porta-copos e decoração em madeira com tema felino para casas acolhedoras, aniversários e presentes atenciosos.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Ideia de presente porta-copos gato e lua",
+      "href": "/pt/pages/presentes-para-amantes-de-gatos.html"
+    },
+    {
+      "title": "Presentes para leitores",
+      "description": "Marcadores, conjuntos fantasy e peças para cantos de leitura pensadas para leitores e estantes acolhedoras.",
+      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
+      "imageAlt": "Fantasy Reader Gift Set para leitores",
+      "href": "/pt/pages/presentes-para-leitores.html"
+    },
+    {
+      "title": "Presentes de casa nova",
+      "description": "Porta-copos em madeira e apontamentos decorativos fáceis de oferecer para casas novas, apartamentos e presentes de anfitrião.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Porta-copos zodiac para casa nova",
+      "href": "/pt/pages/presentes-de-casa-nova.html"
+    }
+  ],
+  "collectionCards": [
+    {
+      "title": "Porta-copos de madeira",
+      "description": "Conjuntos de porta-copos com temas de gatos, motivos celestes e botânicos para mesas acolhedoras, prateleiras e presentes úteis.",
+      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
+      "imageAlt": "Coleção de porta-copos de madeira",
+      "href": "/pt/pages/porta-copos-de-madeira.html"
+    },
+    {
+      "title": "Marcadores de livros de madeira",
+      "description": "Marcadores pensados para leitores e conjuntos presente para estantes fantasy, diários de leitura e serões tranquilos.",
+      "image": "/assets/img/products/celtic-bookmark.jpg",
+      "imageAlt": "Coleção de marcadores de livros de madeira",
+      "href": "/pt/pages/marcadores-de-livros-de-madeira.html"
+    },
+    {
+      "title": "Presentes de madeira",
+      "description": "Suportes para tealight, recordações, pendentes de porta e peças decorativas para prateleiras, entradas e presentes com significado.",
+      "image": "/assets/img/products/just-married-door-hanger.jpg",
+      "imageAlt": "Coleção de presentes de madeira",
+      "href": "/pt/pages/presentes-de-madeira.html"
+    }
+  ],
+  "supportCards": [
+    {
+      "title": "Começa pelos mais vendidos",
+      "text": "Esta homepage coloca as ideias de presente mais claras em primeiro plano para ajudar a escolher mais depressa."
+    },
+    {
+      "title": "Escolhe por ocasião ou por coleção",
+      "text": "Usa os guias de presentes quando a ocasião importa primeiro, ou entra nas coleções quando o tipo de produto importa mais."
+    },
+    {
+      "title": "A encomenda continua na Etsy",
+      "text": "Quando alguém já decidiu, o botão leva para a Etsy para ver preços, avaliações, personalização, envio e checkout."
+    }
+  ],
+  "reviews": {
+    "linkLabel": "Ler avaliações na Etsy",
+    "linkUrl": "https://www.etsy.com/shop/Craftygiftsplace#reviews",
+    "items": [
+      {
+        "title": "Clare · 5/5",
+        "text": "\"Foi um prazer lidar com esta loja... vou voltar para mais.\""
+      },
+      {
+        "title": "Caroline · 5/5",
+        "text": "\"Ótima qualidade, exatamente como descrito, e uma comunicação simpática e clara.\""
+      },
+      {
+        "title": "Andrew · 5/5",
+        "text": "\"Estes porta-copos são lindos. Parecem resistentes e muito bem feitos.\""
+      },
+      {
+        "title": "Comprador de marcador · 5/5",
+        "text": "\"O detalhe é incrível, o acabamento é muito bom e nota-se durabilidade. Um marcador lindíssimo.\""
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "A encomenda é feita neste site?",
+      "answer": "Não. Este site ajuda a descobrir a coleção e depois envia para a Etsy para concluir a encomenda."
+    },
+    {
+      "question": "Posso perguntar sobre personalização antes de comprar?",
+      "answer": "Sim. As mensagens da Etsy são o melhor lugar para perguntar por nomes, datas ou pequenos detalhes personalizados antes da compra."
+    },
+    {
+      "question": "Qual é a forma mais rápida de escolher o presente certo?",
+      "answer": "Começa pelas categorias em destaque se a ocasião estiver clara, ou pelo bloco dos mais vendidos se quiseres uma opção já testada."
+    },
+    {
+      "question": "Onde posso ver envio e detalhes do processo?",
+      "answer": "Os prazos de envio, os detalhes dos produtos e o checkout continuam na Etsy, onde o comprador pode rever tudo antes de encomendar."
+    }
+  ]
+}

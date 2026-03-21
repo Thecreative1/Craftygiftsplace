@@ -1,12 +1,17 @@
 const fs = require("fs");
 const { canonicalUrl, readJson, sitePathToFile } = require("./lib/site");
+const { LOCALE_ORDER, LOCALE_META } = require("./lib/locales");
 
-const LOCALES = ["en", "nl", "de"];
+const LOCALES = LOCALE_ORDER;
 
 const localeBans = {
   en: ["onderzetters", "bladwijzers", "houten", "persoonlijke", "personaliseerbare"],
   nl: ["housewarming", "coasters", "gift-ready", "reader gift"],
-  de: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift", "wooden coasters", "wooden bookmarks"]
+  de: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift", "wooden coasters", "wooden bookmarks"],
+  fr: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift"],
+  es: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift"],
+  pt: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift"],
+  it: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift"]
 };
 
 const editorialBans = {
@@ -67,6 +72,46 @@ const editorialBans = {
     "regalstück",
     "geschenkgrund",
     "gesamtgeschenk"
+  ],
+  fr: [
+    "product grid",
+    "données produit localisées",
+    "source partagée",
+    "landing page",
+    "métadonnées",
+    "taxonomie",
+    "liens internes",
+    "architecture du site"
+  ],
+  es: [
+    "product grid",
+    "datos de producto localizados",
+    "fuente compartida",
+    "landing page",
+    "metadatos",
+    "taxonomía",
+    "enlaces internos",
+    "arquitectura del sitio"
+  ],
+  pt: [
+    "product grid",
+    "dados de produto localizados",
+    "fonte partilhada",
+    "landing page",
+    "metadados",
+    "taxonomia",
+    "ligações internas",
+    "arquitetura do site"
+  ],
+  it: [
+    "product grid",
+    "dati prodotto localizzati",
+    "fonte condivisa",
+    "landing page",
+    "metadati",
+    "tassonomia",
+    "link interni",
+    "architettura del sito"
   ]
 };
 
@@ -102,13 +147,21 @@ const productLocaleBans = {
     /\breader gift\b/i,
     /\bgift-ready\b/i,
     /\bgepersonaliseerde team\b/i
-  ]
+  ],
+  fr: [],
+  es: [],
+  pt: [],
+  it: []
 };
 
 const collectionIntentTerms = {
   en: ["reader gifts", "cat lover gifts", "housewarming gifts"],
   nl: ["lezerscadeaus", "cadeaus voor kattenliefhebbers", "verhuiscadeaus"],
-  de: ["geschenke für leser", "geschenke für katzenliebhaber", "einzugsgeschenke"]
+  de: ["geschenke für leser", "geschenke für katzenliebhaber", "einzugsgeschenke"],
+  fr: ["cadeaux pour lecteurs", "cadeaux pour amoureux des chats", "cadeaux de crémaillère"],
+  es: ["regalos para lectores", "regalos para amantes de los gatos", "regalos para casa nueva"],
+  pt: ["presentes para leitores", "presentes para amantes de gatos", "presentes de casa nova"],
+  it: ["regali per lettori", "regali per amanti dei gatti", "regali per la casa nuova"]
 };
 
 const supportPageDisallowedProductPatterns = [
@@ -183,6 +236,30 @@ const homepageLanguagePromotionBans = {
     "verfugbar in drei sprachen",
     "in 3 sprachen stöbern",
     "in 3 sprachen stobern"
+  ],
+  fr: [
+    "en trois langues",
+    "disponible en trois langues",
+    "parcourir en 3 langues",
+    "parcourir en trois langues"
+  ],
+  es: [
+    "en tres idiomas",
+    "disponible en tres idiomas",
+    "navegar en 3 idiomas",
+    "navegar en tres idiomas"
+  ],
+  pt: [
+    "em três idiomas",
+    "disponível em três idiomas",
+    "navegar em 3 idiomas",
+    "navegar em três idiomas"
+  ],
+  it: [
+    "in tre lingue",
+    "disponibile in tre lingue",
+    "navigare in 3 lingue",
+    "navigare in tre lingue"
   ]
 };
 
@@ -514,10 +591,18 @@ function validateSitemap() {
 const productsEn = readJson("data/products.en.json");
 const productsNl = readJson("data/products.nl.json");
 const productsDe = readJson("data/products.de.json");
+const productsFr = readJson(LOCALE_META.fr.productFile);
+const productsEs = readJson(LOCALE_META.es.productFile);
+const productsPt = readJson(LOCALE_META.pt.productFile);
+const productsIt = readJson(LOCALE_META.it.productFile);
 
 validateProducts(productsEn, "en");
 validateProducts(productsNl, "nl");
 validateProducts(productsDe, "de");
+validateProducts(productsFr, "fr");
+validateProducts(productsEs, "es");
+validateProducts(productsPt, "pt");
+validateProducts(productsIt, "it");
 validatePageData(productsEn);
 validatePages();
 validateHomepages();
