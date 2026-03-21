@@ -562,7 +562,8 @@ pagesEn.push({
   featuredItems: [
     { slug: "dragon-eye-wooden-bookmark", summary: "A fantasy-led bookmark that feels like a real gift for a reader instead of a generic accessory." },
     { slug: "fantasy-reader-gift-set", summary: "A ready-made bundle for buyers who want more than a single bookmark and prefer one complete reader gift." },
-    { slug: "personalized-feather-wooden-bookmark", summary: "A softer, more personalized option for readers who want a name-led or keepsake-style present." }
+    { slug: "personalized-feather-wooden-bookmark", summary: "A softer, more personalized option for readers who want a name-led or keepsake-style present." },
+    { slug: "celtic-wooden-bookmark", summary: "A more classic wooden bookmark for readers who prefer a calmer gift with handcrafted detail." }
   ],
   featuredWhy: [
     "It keeps every bookmark style in one easy browse.",
@@ -667,7 +668,8 @@ pagesNl.push({
   featuredItems: [
     { slug: "dragon-eye-wooden-bookmark", summary: "Een fantasybladwijzer die meteen als boekcadeau aanvoelt in plaats van als generiek accessoire." },
     { slug: "fantasy-reader-gift-set", summary: "Een complete set voor kopers die meer willen dan één bladwijzer en liever direct één volledig lezerscadeau kiezen." },
-    { slug: "personalized-feather-wooden-bookmark", summary: "Een zachtere, persoonlijkere optie voor lezers die een naam of een bijzonder detail willen toevoegen." }
+    { slug: "personalized-feather-wooden-bookmark", summary: "Een zachtere, persoonlijkere optie voor lezers die een naam of een bijzonder detail willen toevoegen." },
+    { slug: "celtic-wooden-bookmark", summary: "Een klassiek houten ontwerp voor lezers die een rustiger boekcadeau met ambachtelijk detail zoeken." }
   ],
   featuredWhy: [
     "Ze houdt elke bladwijzerstijl samen in één duidelijk overzicht.",
@@ -772,7 +774,8 @@ pagesEn.push({
     featuredItems: [
       { slug: "moon-cat-shadow-tealight-holder", summary: "A cozy shelf and side-table piece that fits cat lover gifts and reading nook styling." },
       { slug: "personalized-just-married-wooden-door-hanger", summary: "A visible personalized door piece that marks a wedding or newlywed moment with warmth." },
-      { slug: "just-married-wedding-money-holder", summary: "A wedding cash or gift-card holder that feels more personal than handing over a plain envelope." }
+      { slug: "just-married-wedding-money-holder", summary: "A wedding cash or gift-card holder that feels more personal than handing over a plain envelope." },
+      { slug: "laser-birch-wood-incense-burner", summary: "An incense holder for shelves and quiet corners when a wooden gift should feel calm, decorative and a little different." }
     ],
   featuredWhy: [
     "It brings together signs, decor and keepsakes in one browse.",
@@ -874,7 +877,8 @@ pagesNl.push({
     featuredItems: [
       { slug: "moon-cat-shadow-tealight-holder", summary: "Een gezellige plank- en bijzettafelkeuze die werkt voor kattenliefhebbers en leeshoekstyling." },
       { slug: "personalized-just-married-wooden-door-hanger", summary: "Een persoonlijke deurhanger die een bruiloft of pasgetrouwd moment meteen zichtbaar maakt." },
-      { slug: "just-married-wedding-money-holder", summary: "Een trouwgeldhouder die een geldcadeau of cadeaubon net wat persoonlijker laat aanvoelen." }
+      { slug: "just-married-wedding-money-holder", summary: "Een trouwgeldhouder die een geldcadeau of cadeaubon net wat persoonlijker laat aanvoelen." },
+      { slug: "laser-birch-wood-incense-burner", summary: "Een wierookhouder voor planken en rustige hoekjes wanneer een houten cadeau kalm, decoratief en net even anders mag zijn." }
     ],
   featuredWhy: [
     "Ze brengt deurhangers, decoratie en herinneringscadeaus samen in één overzicht.",
@@ -1154,7 +1158,8 @@ pagesEn.push({
   featuredItems: [
     { slug: "cat-and-moon-wooden-coasters", summary: "A cat-lover favorite that feels both decorative and practical for living rooms, desks and easy birthday gifting." },
     { slug: "celestial-cat-wooden-coasters", summary: "A slightly moodier cat gift pick for shoppers who want celestial detail and cozy coffee-table styling." },
-    { slug: "moon-cat-shadow-tealight-holder", summary: "A shelf-ready decor piece that turns the cat theme into a softer gift for reading nooks and nightstands." }
+    { slug: "moon-cat-shadow-tealight-holder", summary: "A shelf-ready decor piece that turns the cat theme into a softer gift for reading nooks and nightstands." },
+    { slug: "cat-wooden-coasters", summary: "A simpler cat-themed coaster set for buyers who want an easy, practical gift with a clear feline look." }
   ],
   featuredWhy: [
     "It keeps every cat-themed pick in one calm, easy browse.",
@@ -1253,7 +1258,8 @@ pagesNl.push({
   featuredItems: [
     { slug: "cat-and-moon-wooden-coasters", summary: "Een favoriet voor kattenliefhebbers die tegelijk decoratief en praktisch voelt voor woonkamers, bureaus en verjaardagen." },
     { slug: "celestial-cat-wooden-coasters", summary: "Een iets sfeervollere kattenkeuze voor kopers die hemelse details en warme koffietafelstyling zoeken." },
-    { slug: "moon-cat-shadow-tealight-holder", summary: "Een klein decorstuk dat het kattenthema zachter maakt voor leeshoeken en nachtkastjes." }
+    { slug: "moon-cat-shadow-tealight-holder", summary: "Een klein decorstuk dat het kattenthema zachter maakt voor leeshoeken en nachtkastjes." },
+    { slug: "cat-wooden-coasters", summary: "Een eenvoudigere set kattenonderzetters voor kopers die een bruikbaar cadeau met een duidelijk kattenthema zoeken." }
   ],
   featuredWhy: [
     "Ze brengt alle kattenthema-keuzes samen in één rustig overzicht.",
@@ -1352,7 +1358,8 @@ pagesEn.push({
   featuredItems: [
     { slug: "fantasy-reader-gift-set", summary: "The fastest way to buy a themed reader gift that already feels complete without combining separate listings manually." },
     { slug: "dragon-eye-wooden-bookmark", summary: "A fantasy bookmark that feels instantly right for a reader who prefers one focused gift." },
-    { slug: "epic-fantasy-door-sign", summary: "A reading-room or hobby-room piece that expands the page beyond bookmarks while staying firmly inside the fantasy reader mood." }
+    { slug: "epic-fantasy-door-sign", summary: "A reading-room or hobby-room piece that expands the page beyond bookmarks while staying firmly inside the fantasy reader mood." },
+    { slug: "personalized-feather-wooden-bookmark", summary: "A personalized bookmark for shoppers who want the reader gift to feel quieter, more personal and easy to keep." }
   ],
   featuredWhy: [
     "It starts with gifts that feel clearly chosen for a reader.",
@@ -1457,7 +1464,8 @@ pagesNl.push({
   featuredItems: [
     { slug: "fantasy-reader-gift-set", summary: "De snelste manier om één thematisch lezerscadeau te kopen dat al compleet aanvoelt zonder losse listings te combineren." },
     { slug: "dragon-eye-wooden-bookmark", summary: "Een fantasybladwijzer die meteen als boekcadeau leest en goed werkt voor lezers die liever één gericht item krijgen." },
-    { slug: "epic-fantasy-door-sign", summary: "Een leeskamer- of hobbykamerstuk dat de pagina breder maakt dan alleen bladwijzers zonder het fantasylezersgevoel te verliezen." }
+    { slug: "epic-fantasy-door-sign", summary: "Een leeskamer- of hobbykamerstuk dat de pagina breder maakt dan alleen bladwijzers zonder het fantasylezersgevoel te verliezen." },
+    { slug: "personalized-feather-wooden-bookmark", summary: "Een persoonlijke bladwijzer voor kopers die het lezerscadeau liever wat rustiger, persoonlijker en blijvender maken." }
   ],
   featuredWhy: [
     "Ze begint bij cadeaus die meteen bij een lezer passen.",
@@ -1562,7 +1570,8 @@ pagesEn.push({
   featuredItems: [
     { slug: "zodiac-wooden-coasters", summary: "A practical table gift with enough visual personality to feel chosen for the home, not just for the occasion." },
     { slug: "moon-cat-shadow-tealight-holder", summary: "A smaller decor piece for shelves and side tables when a housewarming gift needs warmth more than size." },
-    { slug: "laser-birch-wood-incense-burner", summary: "A calm, decor-led option for shoppers who want a cozy atmosphere gift rather than a purely functional table set." }
+    { slug: "laser-birch-wood-incense-burner", summary: "A calm, decor-led option for shoppers who want a cozy atmosphere gift rather than a purely functional table set." },
+    { slug: "tree-of-life-wooden-coasters", summary: "A warm tree motif that suits new shelves, coffee tables and easy welcome-home gifting." }
   ],
   featuredWhy: [
     "It keeps practical table gifts and softer decor together.",
@@ -1667,7 +1676,8 @@ pagesNl.push({
   featuredItems: [
     { slug: "zodiac-wooden-coasters", summary: "Een praktisch tafelcadeau met genoeg karakter om gekozen aan te voelen voor het huis, niet alleen voor de gelegenheid." },
     { slug: "moon-cat-shadow-tealight-holder", summary: "Een kleiner decorstuk voor planken en bijzettafels wanneer een verhuiscadeau vooral warmte moet toevoegen." },
-    { slug: "laser-birch-wood-incense-burner", summary: "Een rustige decoratieve keuze voor kopers die liever een sfeerobject dan een puur functionele tafelset geven." }
+    { slug: "laser-birch-wood-incense-burner", summary: "Een rustige decoratieve keuze voor kopers die liever een sfeerobject dan een puur functionele tafelset geven." },
+    { slug: "tree-of-life-wooden-coasters", summary: "Een warme boomgravure die goed past bij nieuwe planken, salontafels en een makkelijk welkom-thuiscadeau." }
   ],
   featuredWhy: [
     "Ze houdt praktische tafelcadeaus en zachtere decoratie samen.",

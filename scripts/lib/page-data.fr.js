@@ -114,7 +114,8 @@ const definition = {
       featuredSummaries: [
         "Un marque-page fantasy très visuel pour lecteurs qui aiment les détails marqués sur une étagère ou dans un journal de lecture.",
         "Une option plus calme pour ceux qui cherchent un cadeau pour lecteur avec une allure plus classique.",
-        "Un set qui réunit marque-page, suspension de porte et dessous-verres quand le thème doit déjà être cohérent."
+        "Un set qui réunit marque-page, suspension de porte et dessous-verres quand le thème doit déjà être cohérent.",
+        "Un marque-page plus classique pour lecteurs qui préfèrent un cadeau sobre avec un détail artisanal."
       ],
       featuredWhy: [
         "Elle garde l'accent clairement sur les marque-pages et les idées proches de la lecture.",
@@ -173,7 +174,8 @@ const definition = {
       featuredSummaries: [
         "Un petit porte-bougie chaleureux pour étagères, consoles et coins lecture.",
         "Une suspension de porte plus personnelle quand le cadeau doit être visible dès l'entrée.",
-        "Un souvenir personnalisé qui convient aux mariages, anniversaires et moments que l'on veut garder en évidence."
+        "Un souvenir personnalisé qui convient aux mariages, anniversaires et moments que l'on veut garder en évidence.",
+        "Un brûleur d'encens pour étagères et coins calmes quand le cadeau en bois doit paraître apaisant, décoratif et un peu différent."
       ],
       featuredWhy: [
         "Elle rassemble les pièces en bois plus décoratives et personnalisées.",
@@ -269,7 +271,8 @@ const definition = {
       featuredSummaries: [
         "Un favori à thème chat qui reste à la fois décoratif et pratique pour salon, bureau ou anniversaire.",
         "Une option plus lunaire pour quelqu'un qui aime les chats et une ambiance plus céleste sur une table basse.",
-        "Une petite pièce déco pensée pour étagères, tables de nuit et coins lecture plus doux."
+        "Une petite pièce déco pensée pour étagères, tables de nuit et coins lecture plus doux.",
+        "Un set de dessous-verres à motif chat plus simple pour ceux qui cherchent un cadeau pratique au thème félin bien lisible."
       ],
       featuredWhy: [
         "Elle garde les cadeaux à thème chat dans une sélection calme et facile à parcourir.",
@@ -319,7 +322,8 @@ const definition = {
       featuredSummaries: [
         "Un marque-page fantasy très visuel pour lecteurs qui aiment les détails marqués et un bel objet à glisser dans un livre.",
         "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour les lecteurs de fantasy.",
-        "Une petite pièce d'ambiance pour étagères et coins lecture quand le cadeau peut être plus doux que strictement pratique."
+        "Une petite pièce d'ambiance pour étagères et coins lecture quand le cadeau peut être plus doux que strictement pratique.",
+        "Un marque-page personnalisé pour ceux qui veulent un cadeau de lecteur plus intime, plus calme et facile à garder."
       ],
       featuredWhy: [
         "Elle garde la sélection centrée sur les lecteurs et les habitudes de lecture cosy.",
@@ -369,7 +373,8 @@ const definition = {
       featuredSummaries: [
         "Un set de dessous-verres en bois très simple à offrir pour tables basses, cafés du matin et nouveaux salons.",
         "Un autre choix pratique avec un style plus céleste pour maisons chaleureuses et étagères visibles.",
-        "Une petite pièce déco qui ajoute un accent doux sur étagère ou console quand l'on veut varier au-delà des dessous-verres."
+        "Une petite pièce déco qui ajoute un accent doux sur étagère ou console quand l'on veut varier au-delà des dessous-verres.",
+        "Un motif arbre chaleureux en bois qui fonctionne très bien sur une nouvelle étagère, une table basse ou comme cadeau de bienvenue."
       ],
       featuredWhy: [
         "Elle garde l'accent sur des idées maison claires et faciles à offrir.",

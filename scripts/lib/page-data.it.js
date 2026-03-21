@@ -105,7 +105,8 @@ const definition = {
       featuredSummaries: [
         "Un segnalibro fantasy molto visivo per lettori che amano dettagli decisi su uno scaffale o in un diario di lettura.",
         "Un'opzione più calma per chi cerca un regalo per lettore con un'aria più classica.",
-        "Un set che unisce segnalibro, targhetta da porta e sottobicchieri quando il tema deve già risultare coerente."
+        "Un set che unisce segnalibro, targhetta da porta e sottobicchieri quando il tema deve già risultare coerente.",
+        "Un segnalibro più classico per lettori che preferiscono un regalo sobrio con un dettaglio artigianale."
       ],
       featuredWhy: [
         "Mantiene il focus su segnalibri e dettagli legati alla lettura.",
@@ -155,7 +156,8 @@ const definition = {
       featuredSummaries: [
         "Un piccolo portacandela caldo per mensole, consolle e angoli lettura.",
         "Una targhetta da porta più personale quando il regalo deve essere visibile fin dall'ingresso.",
-        "Un ricordo personalizzato che si adatta bene a matrimoni, anniversari e momenti che vale la pena conservare."
+        "Un ricordo personalizzato che si adatta bene a matrimoni, anniversari e momenti che vale la pena conservare.",
+        "Un bruciatore d'incenso per mensole e angoli tranquilli quando il regalo in legno deve risultare sereno, decorativo e un po' diverso."
       ],
       featuredWhy: [
         "Riunisce i pezzi in legno più decorativi e personalizzati.",
@@ -242,7 +244,8 @@ const definition = {
       featuredSummaries: [
         "Un favorito a tema felino che resta decorativo e pratico per salotto, scrivania o compleanno.",
         "Un'opzione più lunare per chi ama i gatti e un'atmosfera più celeste sul tavolino.",
-        "Un piccolo pezzo decorativo pensato per mensole, comodini e angoli lettura più delicati."
+        "Un piccolo pezzo decorativo pensato per mensole, comodini e angoli lettura più delicati.",
+        "Un set di sottobicchieri a tema gatto più semplice per chi cerca un regalo pratico con un tema felino ben riconoscibile."
       ],
       featuredWhy: [
         "Mantiene i regali a tema gatto in una selezione calma e facile da scorrere.",
@@ -292,7 +295,8 @@ const definition = {
       featuredSummaries: [
         "Un segnalibro fantasy molto visivo per lettori che amano dettagli forti e un bel oggetto tra le pagine.",
         "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy.",
-        "Un piccolo pezzo d'atmosfera per mensole e angoli lettura quando il regalo può essere più morbido che strettamente pratico."
+        "Un piccolo pezzo d'atmosfera per mensole e angoli lettura quando il regalo può essere più morbido che strettamente pratico.",
+        "Un segnalibro personalizzato per chi vuole che il regalo per lettori sembri più intimo, più tranquillo e duraturo."
       ],
       featuredWhy: [
         "Mantiene la selezione centrata su lettori e abitudini di lettura accoglienti.",
@@ -342,7 +346,8 @@ const definition = {
       featuredSummaries: [
         "Un set di sottobicchieri in legno molto facile da regalare per tavolini, caffè del mattino e nuovi salotti.",
         "Un'altra opzione pratica con uno stile più celeste per case calde e mensole in vista.",
-        "Un piccolo pezzo decorativo che aggiunge un accento morbido su mensole o consolle quando si vuole variare oltre i sottobicchieri."
+        "Un piccolo pezzo decorativo che aggiunge un accento morbido su mensole o consolle quando si vuole variare oltre i sottobicchieri.",
+        "Un motivo ad albero caldo in legno che si adatta bene a nuove mensole, tavolini e regali di benvenuto per la casa."
       ],
       featuredWhy: [
         "Mantiene il focus su idee per la casa chiare e facili da regalare.",

@@ -197,6 +197,10 @@ pagesDe.push({
     {
       slug: "fantasy-reader-gift-set",
       summary: "Ein Set, das Lesezeichen, Türschild und Untersetzer verbindet, wenn das Geschenkthema direkt zusammenpassen soll."
+    },
+    {
+      slug: "personalized-feather-wooden-bookmark",
+      summary: "Ein personalisiertes Lesezeichen für Käufer, die ein Geschenk für Leser etwas ruhiger, persönlicher und bleibender machen möchten."
     }
   ],
   featuredWhy: [
@@ -308,11 +312,15 @@ pagesDe.push({
         slug: "personalized-just-married-wooden-door-hanger",
         summary: "Eine persönliche Türidee, die ein Hochzeits- oder Frischvermählten-Geschenk sofort sichtbar macht."
       },
-      {
-        slug: "just-married-wedding-money-holder",
-        summary: "Ein Geldgeschenkhalter zur Hochzeit, der Bargeld oder Gutscheine deutlich schöner überreicht als ein Umschlag."
-      }
-    ],
+    {
+      slug: "just-married-wedding-money-holder",
+      summary: "Ein Geldgeschenkhalter zur Hochzeit, der Bargeld oder Gutscheine deutlich schöner überreicht als ein Umschlag."
+    },
+    {
+      slug: "laser-birch-wood-incense-burner",
+      summary: "Ein Räucherstäbchenhalter für Regale und ruhige Ecken, wenn ein Holzgeschenk ruhig, dekorativ und etwas anders wirken soll."
+    }
+  ],
   featuredWhy: [
     "Sie hält größere Holzstücke an einem Ort gebündelt.",
     "Sie trennt Dekostücke und Erinnerungsobjekte sauber von den Anlass-Guides.",
@@ -636,6 +644,10 @@ pagesDe.push({
     {
       slug: "moon-cat-shadow-tealight-holder",
       summary: "Ein kleines Deko-Stück, das Katzenliebhabern mehr Atmosphäre schenkt als ein rein praktisches Tischgeschenk."
+    },
+    {
+      slug: "cat-wooden-coasters",
+      summary: "Ein schlichteres Katzen-Untersetzer-Set für Käufer, die ein praktisches Geschenk mit klar erkennbarem Katzenthema suchen."
     }
   ],
   featuredWhy: [
@@ -744,6 +756,10 @@ pagesDe.push({
     {
       slug: "moon-cat-shadow-tealight-holder",
       summary: "Ein warmes Deko-Stück für Käufer, die eine Leseecke gemütlicher machen wollen, ohne nur beim Buchaccessoire zu bleiben."
+    },
+    {
+      slug: "personalized-feather-wooden-bookmark",
+      summary: "Ein personalisiertes Lesezeichen für Käufer, die ein Geschenk für Leser etwas ruhiger, persönlicher und bleibender machen möchten."
     }
   ],
   featuredWhy: [
@@ -858,6 +874,10 @@ pagesDe.push({
     {
       slug: "laser-birch-wood-incense-burner",
       summary: "Eine ruhigere Dekooption für Käufer, die lieber Atmosphäre als ein rein funktionales Tischset schenken."
+    },
+    {
+      slug: "tree-of-life-wooden-coasters",
+      summary: "Ein warmes Baummotiv aus Holz, das gut zu neuen Regalen, Couchtischen und unkomplizierten Einzugsgeschenken passt."
     }
   ],
   featuredWhy: [

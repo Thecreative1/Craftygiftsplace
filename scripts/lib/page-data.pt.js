@@ -105,7 +105,8 @@ const definition = {
       featuredSummaries: [
         "Um marcador de fantasia muito visual para leitores que gostam de detalhes fortes numa estante ou num diário de leitura.",
         "Uma opção mais serena para quem procura um presente para leitor com um ar mais clássico.",
-        "Um conjunto que reúne marcador, pendente de porta e porta-copos quando o tema já deve parecer coerente."
+        "Um conjunto que reúne marcador, pendente de porta e porta-copos quando o tema já deve parecer coerente.",
+        "Um marcador mais clássico para leitores que preferem um presente sereno com detalhe artesanal."
       ],
       featuredWhy: [
         "Mantém o foco em marcadores e em detalhes ligados à leitura.",
@@ -155,7 +156,8 @@ const definition = {
       featuredSummaries: [
         "Um pequeno porta-vela acolhedor para prateleiras, consolas e cantos de leitura.",
         "Um pendente de porta mais pessoal quando o presente deve ser visível logo à entrada.",
-        "Uma recordação personalizada que funciona bem em casamentos, aniversários e momentos que vale a pena guardar."
+        "Uma recordação personalizada que funciona bem em casamentos, aniversários e momentos que vale a pena guardar.",
+        "Um queimador de incenso para prateleiras e cantos tranquilos quando o presente de madeira deve parecer sereno, decorativo e um pouco diferente."
       ],
       featuredWhy: [
         "Reúne as peças de madeira mais decorativas e personalizadas.",
@@ -242,7 +244,8 @@ const definition = {
       featuredSummaries: [
         "Um favorito com tema felino que continua decorativo e prático para sala, secretária ou aniversário.",
         "Uma opção mais lunar para quem gosta de gatos e de uma atmosfera mais celeste na mesa de centro.",
-        "Uma pequena peça decorativa pensada para prateleiras, mesinhas e cantos de leitura mais suaves."
+        "Uma pequena peça decorativa pensada para prateleiras, mesinhas e cantos de leitura mais suaves.",
+        "Um conjunto mais simples de porta-copos com gatos para quem procura um presente prático com um tema felino bem claro."
       ],
       featuredWhy: [
         "Mantém os presentes com tema de gatos numa seleção calma e fácil de percorrer.",
@@ -292,7 +295,8 @@ const definition = {
       featuredSummaries: [
         "Um marcador de fantasia muito visual para leitores que gostam de detalhes fortes e de um objeto bonito dentro do livro.",
         "Um conjunto pronto a oferecer com marcador, pendente de porta e porta-copos para leitores de fantasia.",
-        "Uma pequena peça de ambiente para prateleiras e cantos de leitura quando o presente pode ser mais suave do que estritamente prático."
+        "Uma pequena peça de ambiente para prateleiras e cantos de leitura quando o presente pode ser mais suave do que estritamente prático.",
+        "Um marcador personalizado para quem quer que o presente para leitor pareça mais íntimo, mais sereno e duradouro."
       ],
       featuredWhy: [
         "Mantém a seleção centrada em leitores e hábitos de leitura acolhedores.",
@@ -342,7 +346,8 @@ const definition = {
       featuredSummaries: [
         "Um conjunto de porta-copos em madeira muito fácil de oferecer para mesas de centro, cafés de manhã e salas novas.",
         "Outra opção prática com um estilo mais celeste para lares acolhedores e prateleiras visíveis.",
-        "Uma pequena peça decorativa que acrescenta um apontamento suave a prateleiras ou consolas quando se quer variar para além dos porta-copos."
+        "Uma pequena peça decorativa que acrescenta um apontamento suave a prateleiras ou consolas quando se quer variar para além dos porta-copos.",
+        "Um motivo de árvore em madeira que assenta bem em novas prateleiras, mesas de centro e presentes de boas-vindas para a casa."
       ],
       featuredWhy: [
         "Mantém o foco em ideias para a casa claras e fáceis de oferecer.",

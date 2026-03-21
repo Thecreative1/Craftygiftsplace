@@ -105,7 +105,8 @@ const definition = {
       featuredSummaries: [
         "Un marcapáginas de fantasía muy visual para lectores que disfrutan de detalles potentes en una estantería o en un diario de lectura.",
         "Una opción más serena para quien busca un regalo para lector con un aire más clásico.",
-        "Un set que reúne marcapáginas, colgador de puerta y posavasos cuando el tema debe sentirse coherente desde el principio."
+        "Un set que reúne marcapáginas, colgador de puerta y posavasos cuando el tema debe sentirse coherente desde el principio.",
+        "Un marcapáginas más clásico para lectores que prefieren un regalo sereno con detalle artesanal."
       ],
       featuredWhy: [
         "Mantiene el foco en marcapáginas y detalles relacionados con la lectura.",
@@ -155,7 +156,8 @@ const definition = {
       featuredSummaries: [
         "Un pequeño portavelas cálido para estanterías, consolas y rincones de lectura.",
         "Un colgador de puerta más personal cuando el regalo debe verse nada más entrar.",
-        "Un recuerdo personalizado que encaja bien en bodas, aniversarios y momentos que merece la pena conservar."
+        "Un recuerdo personalizado que encaja bien en bodas, aniversarios y momentos que merece la pena conservar.",
+        "Un quemador de incienso para estanterías y rincones tranquilos cuando el regalo de madera debe sentirse sereno, decorativo y un poco distinto."
       ],
       featuredWhy: [
         "Reúne las piezas de madera más decorativas y personalizadas.",
@@ -242,7 +244,8 @@ const definition = {
       featuredSummaries: [
         "Un favorito con tema felino que sigue siendo decorativo y práctico para salón, escritorio o cumpleaños.",
         "Una opción más lunar para alguien a quien le gustan los gatos y un ambiente más celestial en la mesa de centro.",
-        "Una pieza decorativa pequeña pensada para estanterías, mesillas y rincones de lectura más suaves."
+        "Una pieza decorativa pequeña pensada para estanterías, mesillas y rincones de lectura más suaves.",
+        "Un set de posavasos con gatos más sencillo para quien busca un regalo práctico con un tema felino claro."
       ],
       featuredWhy: [
         "Mantiene los regalos con tema de gatos en una selección tranquila y fácil de recorrer.",
@@ -292,7 +295,8 @@ const definition = {
       featuredSummaries: [
         "Un marcapáginas de fantasía muy visual para lectores que disfrutan de detalles potentes y un objeto bonito dentro del libro.",
         "Un set listo para regalar con marcapáginas, colgador de puerta y posavasos para lectores de fantasía.",
-        "Una pequeña pieza de ambiente para estanterías y rincones de lectura cuando el regalo puede ser más suave que estrictamente práctico."
+        "Una pequeña pieza de ambiente para estanterías y rincones de lectura cuando el regalo puede ser más suave que estrictamente práctico.",
+        "Un marcapáginas personalizado para quienes quieren que el regalo para lector se sienta más íntimo, sereno y duradero."
       ],
       featuredWhy: [
         "Mantiene la selección centrada en lectores y hábitos de lectura acogedores.",
@@ -342,7 +346,8 @@ const definition = {
       featuredSummaries: [
         "Un set de posavasos de madera muy fácil de regalar para mesas de centro, cafés de la mañana y nuevos salones.",
         "Otra opción práctica con un estilo más celestial para hogares cálidos y estanterías visibles.",
-        "Una pequeña pieza decorativa que añade un acento suave en estanterías o consolas cuando se quiere variar más allá del posavasos."
+        "Una pequeña pieza decorativa que añade un acento suave en estanterías o consolas cuando se quiere variar más allá del posavasos.",
+        "Un motivo de árbol en madera que encaja muy bien en estanterías nuevas, mesas de centro y regalos de bienvenida al hogar."
       ],
       featuredWhy: [
         "Mantiene el foco en ideas para el hogar claras y fáciles de regalar.",
