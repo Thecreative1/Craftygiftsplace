@@ -25,9 +25,9 @@ const text = {
     footerCollections: "Collections",
     footerIntents: "Gift ideas",
     footerTagline: "Handmade wooden gifts with warmth, detail and character.",
-    footerNote: "Rated 4.96/5 on Etsy for thoughtful service, strong detail and gift-ready quality.",
+    footerNote: "Rated 4.96/5 on Etsy for thoughtful service, beautiful detail and handmade quality.",
     featuredHeading: "Best Picks",
-    featuredIntro: "Start with these highlighted products and then continue into the collection below.",
+    featuredIntro: "Start with a few standout pieces, then browse the full selection below.",
     catalogHeading: "Browse the Collection",
     faqHeading: "Frequently Asked Questions",
     faqIntro: "Quick answers for visitors who want a faster decision path.",
@@ -53,15 +53,15 @@ const text = {
     footerCollections: "Collecties",
     footerIntents: "Cadeau-ideeën",
     footerTagline: "Handgemaakte houten cadeaus met warmte, detail en karakter.",
-    footerNote: "Beoordeeld met 4.96/5 op Etsy voor attente service, mooi detail en cadeauwaardige kwaliteit.",
-    featuredHeading: "Beste Keuzes",
-    featuredIntro: "Begin met deze uitgelichte producten en ga daarna verder in de collectie hieronder.",
+    footerNote: "Beoordeeld met 4.96/5 op Etsy voor attente service, mooi detail en handgemaakte kwaliteit.",
+    featuredHeading: "Favorieten",
+    featuredIntro: "Begin met een paar uitgelichte stukken en bekijk daarna de volledige selectie.",
     catalogHeading: "Bekijk de collectie",
     faqHeading: "Veelgestelde Vragen",
     faqIntro: "Korte antwoorden voor bezoekers die sneller willen kiezen.",
     relatedHeading: "Gerelateerde Collecties",
     relatedIntro: "Blader verder met deze suggesties.",
-    whyHeading: "Waarom Bezoekers Dit Mooi Vinden",
+    whyHeading: "Waarom Mensen Hiervoor Kiezen",
     intentsHeading: "Shop per gelegenheid",
     intentsIntro: "Begin bij het soort cadeau dat je wilt geven.",
     collectionsHeading: "Blader per collectie",
@@ -81,9 +81,9 @@ const text = {
     footerCollections: "Kollektionen",
     footerIntents: "Geschenkideen",
     footerTagline: "Handgemachte Holzgeschenke mit Wärme, Detail und Charakter.",
-    footerNote: "Mit 4.96/5 auf Etsy bewertet für aufmerksamen Service, schöne Details und geschenkfertige Qualität.",
-    featuredHeading: "Beste Favoriten",
-    featuredIntro: "Starte mit diesen ausgewählten Produkten und gehe danach in die Kollektion weiter.",
+    footerNote: "Mit 4.96/5 auf Etsy bewertet für aufmerksamen Service, schöne Details und handgemachte Qualität.",
+    featuredHeading: "Favoriten",
+    featuredIntro: "Starte mit ein paar ausgewählten Stücken und sieh dir danach die ganze Auswahl an.",
     catalogHeading: "Kollektion ansehen",
     faqHeading: "Häufige Fragen",
     faqIntro: "Kurze Antworten für Besucher, die schneller entscheiden möchten.",
@@ -253,61 +253,285 @@ function compactProductLead(product) {
 }
 
 function buildCardDescription(product, page, position = 0) {
-  const lead = compactProductLead(product);
-  const usage = product.usage_context || (product.locale === "nl" ? "gezellige hoekjes in huis" : "cozy corners at home");
-  const motif = product.motif || (product.locale === "nl" ? "een warme gravure" : "warm engraved detail");
-  const occasion = (product.occasions && product.occasions[0]) || (product.locale === "nl" ? "kleine cadeaumomenten" : "easy gifting");
-  const name = lead || product.name;
+  const lead = product.name;
+  const usage = product.usage_context || (product.locale === "nl" ? "gezellige hoekjes in huis" : product.locale === "de" ? "gemütliche Ecken im Zuhause" : "cozy corners at home");
+  const motif = product.motif || (product.locale === "nl" ? "een warm houten detail" : product.locale === "de" ? "einen warmen Holzakzent" : "a warm wooden accent");
+  const audience = (product.audience && product.audience[0]) || (product.locale === "nl" ? "cadeauzoekers" : product.locale === "de" ? "Geschenkkäufer" : "gift shoppers");
+  const key = product.format_key || "small-gift";
   let variants;
 
   if (product.locale === "nl") {
-    variants = [
-      `${name} brengt ${motif} naar ${usage}.`,
-      `${name} is een warme keuze voor ${occasion} met ${motif}.`,
-      `${name} houdt het praktisch en voegt tegelijk ${motif} toe.`,
-      `${name} past mooi bij ${usage}.`,
-      `${name} voegt ${motif} toe zonder te zwaar te voelen.`,
-      `${name} is een makkelijke keuze voor ${occasion}.`,
-      `${name} houdt de handgemaakte uitstraling warm en bruikbaar.`,
-      `${name} voelt natuurlijk in ${usage}.`,
-      `${name} geeft extra karakter via ${motif}.`,
-      `${name} werkt goed wanneer een cadeau gezellig moet aanvoelen.`,
-      `${name} houdt de styling eenvoudig, warm en makkelijk neer te zetten.`,
-      `${name} past bij kopers die iets bruikbaars met persoonlijkheid zoeken.`
-    ];
+    const byFormat = {
+      coasters: [
+        `${lead} beschermt tafels en brengt ${motif} naar ${usage}.`,
+        `${lead} voegt ${motif} toe aan ${usage} en blijft tegelijk praktisch bij dagelijkse drankjes.`,
+        `${lead} is een onderzetterset voor ${usage} met meer karakter dan een gewone tafelset.`,
+        `${lead} past bij ${audience} die iets bruikbaars met ${motif} in ${usage} zoeken.`
+      ],
+      bookmarks: [
+        `${lead} houdt je pagina makkelijk terugvindbaar en geeft extra karakter aan het leesmoment.`,
+        `${lead} voelt helemaal op zijn plek in ${usage}.`,
+        `${lead} is een bladwijzer voor ${audience} die liever een mooi detail voor ${usage} geven dan iets algemeens.`,
+        `${lead} past makkelijk bij leesjournalen, cadeaupakketten en rustige avonden.`
+      ],
+      "door-hanger": [
+        `${lead} geeft deuren, hobbykamers en persoonlijke hoekjes extra karakter.`,
+        `${lead} is een houten hanger die meteen opvalt en makkelijk op te hangen is.`,
+        `${lead} werkt goed als het cadeau persoonlijk en direct zichtbaar mag zijn in ${usage}.`
+      ],
+      "decor-piece": [
+        `${lead} brengt ${motif} naar ${usage}.`,
+        `${lead} is een klein decorstuk dat planken en bijzettafels huiselijker maakt.`,
+        `${lead} past bij kopers die liever sfeer geven dan iets puur praktisch voor ${usage}.`
+      ],
+      keepsake: [
+        `${lead} maakt van een belangrijk moment iets tastbaars om te bewaren en neer te zetten.`,
+        `${lead} is een persoonlijk houten aandenken voor mijlpalen, herinneringen en bijzondere dagen.`,
+        `${lead} past bij momenten die meer vragen dan een kaartje alleen en graag zichtbaar blijven in ${usage}.`
+      ],
+      plaque: [
+        `${lead} maakt van een herinnering iets dat je zichtbaar kunt bewaren.`,
+        `${lead} is een warme houten plaquette voor herinneringen, mijlpalen en blijvende momenten.`,
+        `${lead} is een stiller cadeau voor gelegenheden die om iets persoonlijks vragen en een plek krijgen in ${usage}.`
+      ],
+      craft: [
+        `${lead} geeft makers een houten basis om zelf af te werken.`,
+        `${lead} is een praktische DIY-basis voor projecten, lessen en handgemaakte cadeaus.`,
+        `${lead} helpt wie een klein cadeau liever zelf samenstelt aan een werkplek in ${usage}.`
+      ],
+      "small-gift": [
+        `${lead} voegt een klein handgemaakt detail toe aan bureau, lade of cadeaupakket.`,
+        `${lead} is een compact houten cadeau dat ook na het geven bruikbaar blijft.`,
+        `${lead} is een eenvoudig extraatje voor wie iets kleins en handgemaakts zoekt voor ${usage}.`
+      ]
+    };
+    variants = byFormat[key] || byFormat["small-gift"];
   } else if (product.locale === "de") {
-    variants = [
-      `${name} bringt ${motif} in ${usage}.`,
-      `${name} ist eine warme Wahl für ${occasion} mit ${motif}.`,
-      `${name} bleibt praktisch und setzt zugleich ${motif}.`,
-      `${name} passt gut zu ${usage}.`,
-      `${name} bringt ${motif}, ohne zu schwer zu wirken.`,
-      `${name} ist eine unkomplizierte Wahl für ${occasion}.`,
-      `${name} hält den handgemachten Eindruck warm und nützlich.`,
-      `${name} fühlt sich in ${usage} ganz natürlich an.`,
-      `${name} gibt dem Ganzen über ${motif} mehr Charakter.`,
-      `${name} funktioniert gut, wenn ein Geschenk gemütlich wirken soll.`,
-      `${name} hält das Styling schlicht, warm und leicht zu platzieren.`,
-      `${name} passt zu Käufern, die etwas Nützliches mit Persönlichkeit suchen.`
-    ];
+    const byFormat = {
+      coasters: [
+        `${lead} schützt Tische und bringt ${motif} in ${usage}.`,
+        `${lead} setzt ${motif} in ${usage} und bleibt dabei praktisch für Getränke im Alltag.`,
+        `${lead} ist ein Untersetzer-Set für ${usage} mit mehr Charakter als ein schlichtes Tisch-Extra.`,
+        `${lead} passt zu ${audience}, die etwas Nützliches mit ${motif} in ${usage} suchen.`
+      ],
+      bookmarks: [
+        `${lead} hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.`,
+        `${lead} fühlt sich in ${usage} sofort richtig an.`,
+        `${lead} ist ein Lesezeichen für ${audience}, die lieber ein schönes Detail für ${usage} als etwas Beliebiges schenken.`,
+        `${lead} passt gut zu Lesetagebüchern, Geschenkboxen und ruhigen Abenden.`
+      ],
+      "door-hanger": [
+        `${lead} gibt Türen, Hobbyräumen und persönlichen Ecken mehr Charakter.`,
+        `${lead} ist ein Holzschild, das sofort auffällt und sich leicht aufhängen lässt.`,
+        `${lead} passt gut, wenn das Geschenk persönlich und direkt sichtbar sein soll in ${usage}.`
+      ],
+      "decor-piece": [
+        `${lead} bringt ${motif} in ${usage}.`,
+        `${lead} ist ein kleines Deko-Stück, das Regale und Beistelltische wohnlicher macht.`,
+        `${lead} passt zu Käufern, die lieber Atmosphäre als etwas rein Praktisches für ${usage} schenken.`
+      ],
+      keepsake: [
+        `${lead} macht aus einem wichtigen Moment etwas, das sich aufstellen und bewahren lässt.`,
+        `${lead} ist ein persönliches Holzstück für Erinnerungen, Meilensteine und besondere Daten.`,
+        `${lead} passt zu Momenten, in denen ein einfaches Kärtchen nicht reicht und ein Platz in ${usage} wichtig ist.`
+      ],
+      plaque: [
+        `${lead} macht aus einer Erinnerung etwas, das sich sichtbar aufstellen lässt.`,
+        `${lead} ist eine warme Holzplakette für Erinnerungen, Meilensteine und bleibende Gesten.`,
+        `${lead} ist ein stilleres Geschenk für Anlässe, die etwas Persönliches mit Platz in ${usage} brauchen.`
+      ],
+      craft: [
+        `${lead} gibt Kreativen eine Holzbasis, die sie selbst fertigstellen können.`,
+        `${lead} ist eine praktische DIY-Grundlage für Projekte, Unterricht und handgemachte Geschenke.`,
+        `${lead} hilft allen, die ein kleines Geschenk lieber selbst gestalten für ${usage}.`
+      ],
+      "small-gift": [
+        `${lead} setzt einen kleinen handgemachten Akzent auf Schreibtisch, Regal oder im Geschenkset.`,
+        `${lead} ist ein kompaktes Holzgeschenk, das auch nach dem Anlass nützlich bleibt.`,
+        `${lead} ist ein einfaches Extra für Käufer, die etwas Kleines und Handgemachtes für ${usage} suchen.`
+      ]
+    };
+    variants = byFormat[key] || byFormat["small-gift"];
   } else {
-    variants = [
-      `${name} brings ${motif} to ${usage}.`,
-      `${name} is a warm ${occasion} pick with ${motif}.`,
-      `${name} keeps things practical while adding ${motif}.`,
-      `${name} feels right for ${usage}.`,
-      `${name} adds ${motif} without feeling overdone.`,
-      `${name} makes an easy pick for ${occasion}.`,
-      `${name} keeps the handmade look warm and useful.`,
-      `${name} fits naturally into ${usage}.`,
-      `${name} adds extra character through ${motif}.`,
-      `${name} works well when the gift needs a cozy feel.`,
-      `${name} keeps the styling simple, warm and easy to place.`,
-      `${name} suits shoppers who want something useful with personality.`
-    ];
+    const byFormat = {
+      coasters: [
+        `${lead} protects tables and brings ${motif} to ${usage}.`,
+        `${lead} adds ${motif} to ${usage} while staying practical for everyday drinks.`,
+        `${lead} is a coaster set for ${usage} with more character than a plain table extra.`,
+        `${lead} suits ${audience} who want something useful with ${motif} in ${usage}.`
+      ],
+      bookmarks: [
+        `${lead} keeps the page easy to find and adds more character to reading time.`,
+        `${lead} feels right at home in ${usage}.`,
+        `${lead} is a bookmark for ${audience} who would rather give one beautiful detail for ${usage} than something generic.`,
+        `${lead} fits easily into reading journals, gift boxes and quiet evenings.`
+      ],
+      "door-hanger": [
+        `${lead} adds character to doors, hobby rooms and personal corners.`,
+        `${lead} is a wooden sign that stands out quickly and is easy to display.`,
+        `${lead} works well when the gift should feel personal and immediately visible in ${usage}.`
+      ],
+      "decor-piece": [
+        `${lead} brings ${motif} to ${usage}.`,
+        `${lead} is a small decor piece that makes shelves and side tables feel more lived in.`,
+        `${lead} suits shoppers who want something softer and more decorative than tableware for ${usage}.`
+      ],
+      keepsake: [
+        `${lead} turns a meaningful moment into something easy to keep and display.`,
+        `${lead} is a personal wooden keepsake for milestones, memories and quieter gifts.`,
+        `${lead} fits moments that deserve more than a standard card or note and a place in ${usage}.`
+      ],
+      plaque: [
+        `${lead} turns a memory into something you can keep close and display.`,
+        `${lead} is a thoughtful wooden plaque for memorials, milestones and lasting keepsakes.`,
+        `${lead} is a quieter gift for moments that call for something personal and lasting in ${usage}.`
+      ],
+      craft: [
+        `${lead} gives makers a wooden base they can finish in their own way.`,
+        `${lead} is a practical craft piece for projects, lessons and handmade gift ideas.`,
+        `${lead} helps anyone who wants to build a small handmade gift from scratch for ${usage}.`
+      ],
+      "small-gift": [
+        `${lead} adds a small handmade touch to desks, drawers or gift bundles.`,
+        `${lead} is a compact wooden gift that stays useful after the occasion has passed.`,
+        `${lead} is an easy little extra for shoppers who want something simple and handmade for ${usage}.`
+      ]
+    };
+    variants = byFormat[key] || byFormat["small-gift"];
   }
 
-  return variants[position % variants.length];
+  const suffixSets = {
+    en: {
+      coasters: [
+        "It sits naturally on coffee tables and desks.",
+        "It works well when the gift should feel useful from day one.",
+        "It adds a little extra warmth to everyday drinks."
+      ],
+      bookmarks: [
+        "It slips easily into journals, tote bags and gift boxes.",
+        "It suits readers who like small details that still feel personal.",
+        "It works well as a simple extra beside a good book."
+      ],
+      "door-hanger": [
+        "It gives the room a clearer sense of personality.",
+        "It is easy to hang and notice straight away.",
+        "It suits gifts that should feel playful and personal."
+      ],
+      "decor-piece": [
+        "It works beautifully on shelves, side tables and quieter corners.",
+        "It suits shoppers who want atmosphere rather than tableware.",
+        "It adds warmth without taking up much space."
+      ],
+      keepsake: [
+        "It is easy to display long after the occasion has passed.",
+        "It keeps a date, name or memory close at hand.",
+        "It feels more lasting than a standard card or note."
+      ],
+      plaque: [
+        "It suits memorials and milestone gifts that stay on display.",
+        "It keeps a name, date or message close at hand.",
+        "It brings a quieter tone to more personal occasions."
+      ],
+      craft: [
+        "It keeps the project simple to start and easy to finish.",
+        "It works well for lessons, rainy afternoons and gift prep.",
+        "It gives makers a warm base to build on."
+      ],
+      "small-gift": [
+        "It fits nicely into a gift bundle or desk setup.",
+        "It works well when a small handmade extra is enough.",
+        "It brings a warm detail without overcomplicating the gift."
+      ]
+    },
+    nl: {
+      coasters: [
+        "Het past vanzelf op salontafels en bureaus.",
+        "Het werkt goed wanneer een cadeau meteen bruikbaar moet zijn.",
+        "Het brengt net wat extra warmte bij dagelijkse drankjes."
+      ],
+      bookmarks: [
+        "Het glijdt makkelijk in leesjournalen, tassen en cadeaupakketten.",
+        "Het past bij lezers die houden van kleine details met karakter.",
+        "Het werkt goed als eenvoudig extraatje naast een mooi boek."
+      ],
+      "door-hanger": [
+        "Het geeft de ruimte meteen meer persoonlijkheid.",
+        "Het is makkelijk op te hangen en valt direct op.",
+        "Het past bij cadeaus die speels en persoonlijk mogen zijn."
+      ],
+      "decor-piece": [
+        "Het staat mooi op planken, bijzettafels en rustige hoekjes.",
+        "Het past bij kopers die liever sfeer dan tafelwaar geven.",
+        "Het voegt warmte toe zonder veel ruimte in te nemen."
+      ],
+      keepsake: [
+        "Het blijft ook na het moment mooi zichtbaar.",
+        "Het houdt een datum, naam of herinnering dichtbij.",
+        "Het voelt blijvender dan een standaard kaartje."
+      ],
+      plaque: [
+        "Het past bij herinneringen en mijlpalen die zichtbaar mogen blijven.",
+        "Het houdt een naam, datum of boodschap dichtbij.",
+        "Het geeft persoonlijkere momenten een rustigere toon."
+      ],
+      craft: [
+        "Het houdt een project overzichtelijk van begin tot eind.",
+        "Het werkt goed voor lessen, regenachtige middagen en cadeau-ideeën.",
+        "Het geeft makers een warme basis om op verder te bouwen."
+      ],
+      "small-gift": [
+        "Het past mooi in een cadeaupakket of op een bureau.",
+        "Het werkt goed wanneer een klein handgemaakt extraatje genoeg is.",
+        "Het voegt warmte toe zonder het cadeau ingewikkeld te maken."
+      ]
+    },
+    de: {
+      coasters: [
+        "Es passt ganz selbstverständlich auf Couchtische und Schreibtische.",
+        "Es funktioniert gut, wenn ein Geschenk sofort nützlich sein soll.",
+        "Es bringt etwas mehr Wärme in Getränke im Alltag."
+      ],
+      bookmarks: [
+        "Es passt leicht in Lesetagebücher, Taschen und Geschenkboxen.",
+        "Es passt zu Lesern, die kleine Details mit Charakter mögen.",
+        "Es funktioniert gut als schönes Extra neben einem Buch."
+      ],
+      "door-hanger": [
+        "Es gibt dem Raum sofort mehr Persönlichkeit.",
+        "Es lässt sich leicht aufhängen und direkt wahrnehmen.",
+        "Es passt zu Geschenken, die verspielt und persönlich wirken sollen."
+      ],
+      "decor-piece": [
+        "Es macht sich gut auf Regalen, Beistelltischen und in ruhigen Ecken.",
+        "Es passt zu Käufern, die lieber Atmosphäre als Tischware schenken.",
+        "Es bringt Wärme, ohne viel Platz zu brauchen."
+      ],
+      keepsake: [
+        "Es bleibt auch lange nach dem Anlass schön sichtbar.",
+        "Es hält ein Datum, einen Namen oder eine Erinnerung in greifbarer Nähe.",
+        "Es wirkt beständiger als eine einfache Karte."
+      ],
+      plaque: [
+        "Es passt zu Erinnerungen und Meilensteinen, die sichtbar bleiben dürfen.",
+        "Es hält Namen, Datum oder Botschaft in greifbarer Nähe.",
+        "Es gibt persönlicheren Anlässen einen ruhigeren Ton."
+      ],
+      craft: [
+        "Es hält ein Projekt von Anfang bis Ende übersichtlich.",
+        "Es passt gut zu Unterricht, Regentagen und Geschenkideen.",
+        "Es gibt Kreativen eine warme Basis zum Weitergestalten."
+      ],
+      "small-gift": [
+        "Es passt gut in ein Geschenkset oder auf den Schreibtisch.",
+        "Es funktioniert gut, wenn ein kleines handgemachtes Extra reicht.",
+        "Es bringt Wärme, ohne das Geschenk unnötig kompliziert zu machen."
+      ]
+    }
+  };
+
+  const suffixes = suffixSets[product.locale][key] || suffixSets[product.locale]["small-gift"];
+  const suffix = suffixes[Math.floor(position / variants.length) % suffixes.length];
+  return `${variants[position % variants.length]} ${suffix}`;
 }
 
 function renderProductCard(product, page, position) {

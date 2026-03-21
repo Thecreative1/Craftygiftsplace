@@ -8,7 +8,7 @@ pagesDe.push({
   title: "Handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume | Craftygiftsplace",
   metaDescription: "Entdecke handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume. Finde Untersetzer, Lesezeichen und Holzdeko, die direkt zu Etsy führen.",
   h1: "Handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume",
-  eyebrow: "4.96/5 Etsy-Bewertung · geschenkfertige Favoriten",
+  eyebrow: "4.96/5 Etsy-Bewertung · Bestseller",
   intro: "Craftygiftsplace hilft Besuchern, das passende handgemachte Holzgeschenk schneller zu finden. Statt alles auf einmal zu durchsuchen, können Käufer mit Untersetzern, Lesezeichen und kleinen Dekoideen für Leser, Katzenliebhaber, Einzüge und persönliche Erinnerungsmomente starten.",
   heroImage: "/assets/img/products/moon-cat-tealight-holder.jpg",
   heroImageAlt: "Mondkatzen Teelichthalter von Craftygiftsplace",
@@ -19,7 +19,7 @@ pagesDe.push({
       text: "Führe Besucher direkt zu Geschenken für Leser, Katzenliebhaber und Einzüge statt nur zu Produktkategorien."
     },
     {
-      title: "Geschenkfertige Produkte",
+      title: "Bestseller",
       text: "Untersetzer, Lesezeichen und Holzdeko führen direkt zur passenden Etsy-Suche oder zum Listing."
     },
     {
@@ -46,7 +46,7 @@ pagesDe.push({
     },
     {
       slug: "fantasy-reader-gift-set",
-      summary: "Ein Lesegeschenk-Set mit Lesezeichen, Türschild und Untersetzern für Käufer, die auf Etsy direkt ein stimmiges Themenpaket suchen."
+      summary: "Ein fertiges Set mit Lesezeichen, Türschild und Untersetzern für Käufer, die direkt ein stimmiges Geschenk für Leser suchen."
     },
     {
       slug: "moon-cat-shadow-tealight-holder",
@@ -56,16 +56,16 @@ pagesDe.push({
   intentCards: [
     {
       title: "Geschenke für Katzenliebhaber",
-      description: "Holzuntersetzer und Deko mit Katzenmotiv für gemütliche Wohnungen, Geburtstage und durchdachte Überraschungen für Katzenfans.",
+      description: "Holzuntersetzer und Deko mit Katzenmotiv für gemütliche Wohnungen, Geburtstage und durchdachte Überraschungen für Katzenliebhaber.",
       image: "/assets/img/products/cat-and-moon-coasters.jpg",
       imageAlt: "Katze und Mond Holzuntersetzer als Geschenkidee",
       href: "/de/pages/geschenke-fuer-katzenliebhaber.html"
     },
     {
       title: "Geschenke für Leser",
-      description: "Lesezeichen, Fantasy-Sets und Ideen für die Leseecke, die zu Bücherfans und gemütlichen Buchgeschenken passen.",
+      description: "Lesezeichen, Fantasy-Sets und Ideen für die Leseecke, die zu Bücherfans und gemütlichen Lesestunden passen.",
       image: "/assets/img/products/fantasy-reader-gift-set.jpg",
-      imageAlt: "Fantasy Lesegeschenk Set für Bücherfans",
+      imageAlt: "Fantasy-Leserset für Bücherfans",
       href: "/de/pages/geschenke-fuer-leser.html"
     },
     {
@@ -153,7 +153,7 @@ pagesDe.push({
   template: "collection",
   locale: "de",
   title: "Handgemachte Holzlesezeichen für Fantasy-Regale und ruhige Lesemomente | Craftygiftsplace",
-  metaDescription: "Entdecke handgemachte Holzlesezeichen für Fantasy-Regale, Buchgeschenke und ruhige Lesemomente mit viel Charakter.",
+  metaDescription: "Entdecke handgemachte Holzlesezeichen für Fantasy-Regale, Geschenke für Bücherfans und ruhige Lesemomente mit viel Charakter.",
   h1: "Handgemachte Holzlesezeichen für Fantasy-Regale und ruhige Lesemomente",
   eyebrow: "Kollektion",
   intro: "Diese Seite hält die Lesezeichen-Kollektion bewusst produktfokussiert. So können Käufer Holzlesezeichen für Fantasy-Regale, Buchstapel und ruhige Lesemomente vergleichen, ohne dass die Geschenk-Guides die eigentliche Auswahl verwischen.",
@@ -192,7 +192,7 @@ pagesDe.push({
     },
     {
       slug: "celtic-wooden-bookmark",
-      summary: "Eine ruhigere Wahl für Käufer, die ein handgemachtes Buchgeschenk mit klassischerem Charakter suchen."
+      summary: "Eine ruhigere Wahl für Käufer, die ein handgemachtes Geschenk für Bücherfans mit klassischerem Charakter suchen."
     },
     {
       slug: "fantasy-reader-gift-set",
@@ -202,7 +202,7 @@ pagesDe.push({
   featuredWhy: [
     "Sie hält den Fokus klar auf Lesezeichen und buchigen Begleitern.",
     "Sie macht Fantasy-, klassische und personalisierte Stile direkt vergleichbar.",
-    "Sie verweist weiter zu Leser-Geschenken, wenn jemand nach einem breiteren Anlass sucht."
+    "Sie verweist weiter zu Geschenken für Leser, wenn jemand nach einem breiteren Anlass sucht."
   ],
   catalog: {
     mode: "slugs",
@@ -218,17 +218,17 @@ pagesDe.push({
       "1984-inspired-wooden-bookmark",
       "lighthouse-wooden-bookmark"
     ],
-    intro: "Eine kuratierte Lesezeichen-Auswahl für Leser, Fantasy-Regale und ruhige Buchgeschenke.",
+    intro: "Eine kuratierte Lesezeichen-Auswahl für Leser, Fantasy-Regale und ruhige Lesemomente.",
     ctaLabel: "Lesezeichen auf Etsy ansehen",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
   faq: [
     {
       question: "Sind diese Lesezeichen eher für Fantasy-Leser gedacht?",
-      answer: "Viele davon passen besonders gut zu Fantasy-Regalen und atmosphärischen Buchgeschenken, aber es gibt auch ruhigere Motive für klassischere Leser."
+      answer: "Viele davon passen besonders gut zu Fantasy-Regalen und atmosphärischen Lesemomenten, aber es gibt auch ruhigere Motive für klassischere Leser."
     },
     {
-      question: "Gibt es auch eine breitere Seite für Lesegeschenke?",
+      question: "Gibt es auch eine breitere Seite für Geschenke für Leser?",
       answer: "Ja. Die Seite für Geschenke für Leser verbindet Lesezeichen mit passenden Sets und kleinen Holzstücken für die Leseecke."
     },
     {
@@ -270,7 +270,7 @@ pagesDe.push({
   metaDescription: "Entdecke handgemachte Holzgeschenke für Regale, Türen und persönliche Erinnerungsmomente, von Teelichthaltern bis zu personalisierten Holzstücken.",
   h1: "Handgemachte Holzgeschenke für Regale, Türen und persönliche Erinnerungsmomente",
   eyebrow: "Kollektion",
-  intro: "Diese Kollektion bündelt die breiteren Holzgeschenke von Craftygiftsplace in einer klaren Übersicht. Sie bleibt produkttypisch fokussiert, damit Käufer Türschilder, Teelichthalter und persönliche Erinnerungsstücke getrennt von Anlassseiten wie Einzug oder Leser-Geschenken vergleichen können.",
+  intro: "Diese Kollektion bündelt die breiteren Holzgeschenke von Craftygiftsplace in einer klaren Übersicht. Sie bleibt produkttypisch fokussiert, damit Käufer Türschilder, Teelichthalter und persönliche Erinnerungsstücke getrennt von Anlassseiten wie Einzug oder Geschenken für Leser vergleichen können.",
   breadcrumbs: [
     { label: "Start", path: "/de/index.html" },
     { label: "Holzgeschenke", path: "/de/pages/holzgeschenke.html" }
@@ -302,7 +302,7 @@ pagesDe.push({
   featuredItems: [
     {
       slug: "moon-cat-shadow-tealight-holder",
-      summary: "Ein kleines Regalstück mit Katzenmotiv, das schnell Atmosphäre aufbaut und sich leicht verschenken lässt."
+      summary: "Ein kleines Deko-Stück mit Katzenmotiv, das schnell Atmosphäre aufbaut und sich leicht verschenken lässt."
     },
     {
       slug: "personalized-just-married-wooden-door-hanger",
@@ -316,7 +316,7 @@ pagesDe.push({
   featuredWhy: [
     "Sie hält größere Holzstücke an einem Ort gebündelt.",
     "Sie trennt Dekostücke und Erinnerungsobjekte sauber von den Anlass-Guides.",
-    "Sie hilft Käufern, zwischen Regalstücken, Türideen und personalisierten Geschenken zu unterscheiden."
+    "Sie hilft Käufern, zwischen Deko-Stücken, Türideen und personalisierten Geschenken zu unterscheiden."
   ],
   catalog: {
     mode: "slugs",
@@ -339,7 +339,7 @@ pagesDe.push({
     },
     {
       question: "Sind diese Produkte auch für Einzüge geeignet?",
-      answer: "Einige schon, vor allem Teelichthalter und kleinere Regalstücke. Für den klaren Einzugsfokus gibt es aber die eigene Einzugsgeschenke-Seite."
+      answer: "Einige schon, vor allem Teelichthalter und kleinere Deko-Stücke. Für den klaren Einzugsfokus gibt es aber die eigene Einzugsgeschenke-Seite."
     },
     {
       question: "Wo kann ich Fragen zur Personalisierung stellen?",
@@ -402,7 +402,7 @@ pagesDe.push({
     title: "Kaufvertrauen",
     quote: "\"Diese Untersetzer sehen wunderschön aus. Sie sind aus Holz und wirken sehr langlebig.\"",
     attribution: "Andrew · Etsy-Bewertung",
-    text: "Untersetzer sind ein leichter Volltreffer für Einzüge und kleine Geschenke, weil sie nützlich, warm und im Zuhause einfach zu platzieren sind.",
+    text: "Untersetzer passen gut zu Einzügen und kleinen Geschenken, weil sie nützlich sind und im Zuhause sofort einen Platz finden.",
     links: [
       { label: "Geschenke für Katzenliebhaber", href: "/de/pages/geschenke-fuer-katzenliebhaber.html" },
       { label: "Einzugsgeschenke", href: "/de/pages/einzugsgeschenke.html" },
@@ -444,7 +444,7 @@ pagesDe.push({
       "forest-animal-wooden-coasters",
       "picasso-animal-line-art-wooden-coasters"
     ],
-    intro: "Eine kuratierte Untersetzer-Auswahl für gemütliche Tische, Katzenfans und warme Wohnräume.",
+    intro: "Eine kuratierte Untersetzer-Auswahl für gemütliche Tische, Katzenliebhaber und warme Wohnräume.",
     ctaLabel: "Untersetzer auf Etsy ansehen",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   },
@@ -466,7 +466,7 @@ pagesDe.push({
     {
       label: "Geschenke für Katzenliebhaber",
       href: "/de/pages/geschenke-fuer-katzenliebhaber.html",
-      description: "Untersetzer und Holzdeko mit Katzenmotiv, gesammelt für Katzenfans und gemütliche Wohnungen."
+      description: "Untersetzer und Holzdeko mit Katzenmotiv für Katzenliebhaber und gemütliche Wohnungen."
     },
     {
       label: "Einzugsgeschenke",
@@ -496,7 +496,7 @@ pagesDe.push({
   metaDescription: "Kontaktiere Craftygiftsplace auf Etsy für Personalisierung, Geschenkberatung und Hilfe bei Holzuntersetzern, Lesezeichen oder Deko.",
   h1: "Fragen oder Personalisierung?",
   eyebrow: "Kontakt",
-  intro: "Für Bestellung, Personalisierung und Fragen zu einem konkreten Produkt ist Etsy der beste Kontaktpunkt. Diese Seite zeigt einfach den schnellsten nächsten Schritt und verweist zusätzlich auf die wichtigsten Kollektionen und Geschenk-Guides.",
+  intro: "Für Bestellung, Personalisierung und Fragen zu einem konkreten Produkt ist Etsy der beste Kontaktpunkt. Diese Seite zeigt vor allem den klarsten nächsten Schritt und ein paar gute Wege in die wichtigsten Kollektionen.",
   breadcrumbs: [
     { label: "Start", path: "/de/index.html" },
     { label: "Kontakt", path: "/de/pages/kontakt.html" }
@@ -512,14 +512,14 @@ pagesDe.push({
   infoCards: [
     {
       title: "Kleines handgemachtes Holzstudio",
-      text: "Craftygiftsplace konzentriert sich auf gravierte Holzgeschenke, die warm, nützlich und persönlich wirken, statt massenhaft produziert auszusehen. Der Support-Auftritt hält diesen Fokus bewusst bei Lesern, Katzenliebhabern, gemütlichen Wohnungen und ausgewählten personalisierten Erinnerungsstücken."
+      text: "Craftygiftsplace konzentriert sich auf gravierte Holzgeschenke, die warm, nützlich und persönlich wirken statt wie Massenware. Die Auswahl hier bleibt bewusst bei Lesern, Katzenliebhabern, gemütlichen Wohnungen und einigen personalisierten Erinnerungsstücken."
     },
     {
       title: "Materialien und Verarbeitung",
       items: [
         "Holz wird für saubere Gravuren, sichtbare Maserung und eine warme natürliche Oberfläche ausgewählt.",
         "Viele Untersetzer-Sets nutzen Kork auf der Rückseite, wenn dies auch im Etsy-Listing angegeben ist.",
-        "Jedes Stück wird nach der Gravur geprüft, damit das Ergebnis geschenkfertig wirkt."
+        "Jedes Stück wird nach der Gravur geprüft, damit die Oberfläche sauber, warm und sorgfältig verarbeitet wirkt."
       ]
     },
     {
@@ -531,7 +531,7 @@ pagesDe.push({
       items: [
         "Personalisierung mit Name, Datum oder kurzer Nachricht.",
         "Hilfe bei der Wahl zwischen Untersetzern, Lesezeichen und größeren Holzgeschenken.",
-        "Fragen dazu, welches Produkt besser zu Einzug, Lesegeschenk oder Erinnerungsmoment passt."
+        "Fragen dazu, welches Produkt besser zu einem Einzug, zu einem Geschenk für Leser oder zu einem Erinnerungsmoment passt."
       ]
     },
     {
@@ -625,13 +625,13 @@ pagesDe.push({
     },
     {
       slug: "moon-cat-shadow-tealight-holder",
-      summary: "Ein kleines Regalstück, das Katzenfans mehr Atmosphäre schenkt als ein rein praktisches Tischgeschenk."
+      summary: "Ein kleines Deko-Stück, das Katzenliebhabern mehr Atmosphäre schenkt als ein rein praktisches Tischgeschenk."
     }
   ],
   featuredWhy: [
     "Sie hält die stärksten Katzenmotive an einem Ort zusammen.",
     "Sie verbindet praktische Tischstücke mit einer wärmeren Dekooption.",
-    "Sie hilft Käufern schneller zu entscheiden, wenn das Geschenk klar auf Katzenfans zielt."
+    "Sie hilft Käufern schneller zu entscheiden, wenn das Geschenk klar für Katzenliebhaber gedacht ist."
   ],
   catalog: {
     mode: "slugs",
@@ -648,7 +648,7 @@ pagesDe.push({
   faq: [
     {
       question: "Sind hier nur Katzen-Untersetzer zu finden?",
-      answer: "Nein. Die Seite verbindet die stärksten Katzen-Untersetzer mit einer passenden Dekoidee, damit Käufer zwischen Tischgeschenk und Regalstück wählen können."
+      answer: "Nein. Die Seite verbindet die stärksten Katzen-Untersetzer mit einer passenden Dekoidee, damit Käufer zwischen Tischgeschenk und einem kleinen Deko-Stück wählen können."
     },
     {
       question: "Passen diese Produkte auch zu Einzugsgeschenken?",
@@ -699,7 +699,7 @@ pagesDe.push({
     { label: "Geschenke für Leser", path: "/de/pages/geschenke-fuer-leser.html" }
   ],
   primaryCta: {
-    label: "Leser-Geschenke auf Etsy ansehen",
+    label: "Geschenke für Leser auf Etsy ansehen",
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
   secondaryCta: {
@@ -715,7 +715,7 @@ pagesDe.push({
     title: "Kaufvertrauen",
     quote: "\"Die Details sind unglaublich, schön verarbeitet und sehr robust.\"",
     attribution: "Lesezeichen-Käufer · Etsy-Bewertung",
-    text: "Leser-Geschenke funktionieren am besten, wenn sie direkt in Buchregal, Lesetagebuch oder Leseecke passen und nicht wie ein beliebiger Zusatz wirken.",
+    text: "Geschenke für Leser funktionieren am besten, wenn sie direkt in Buchregal, Lesetagebuch oder Leseecke passen und nicht wie ein beliebiger Zusatz wirken.",
     links: [
       { label: "Holzlesezeichen ansehen", href: "/de/pages/holzlesezeichen.html" },
       { label: "Fantasy-Set auf Etsy ansehen", href: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" },
@@ -733,7 +733,7 @@ pagesDe.push({
     },
     {
       slug: "moon-cat-shadow-tealight-holder",
-      summary: "Ein warmes Regalstück für Käufer, die eine Leseecke gemütlicher machen wollen, ohne nur beim Buchaccessoire zu bleiben."
+      summary: "Ein warmes Deko-Stück für Käufer, die eine Leseecke gemütlicher machen wollen, ohne nur beim Buchaccessoire zu bleiben."
     }
   ],
   featuredWhy: [
@@ -755,7 +755,7 @@ pagesDe.push({
       "1984-inspired-wooden-bookmark",
       "lighthouse-wooden-bookmark"
     ],
-    intro: "Eine kuratierte Auswahl für Leser, Buchgeschenke und gemütliche Regale mit viel Charakter.",
+    intro: "Eine kuratierte Auswahl für Leser, Geschenke für Bücherfans und gemütliche Regale mit viel Charakter.",
     ctaLabel: "Leser-Produkte auf Etsy ansehen",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
@@ -791,7 +791,7 @@ pagesDe.push({
     }
   ],
   ctaPanel: {
-    title: "Bereit, Leser-Geschenke auf Etsy zu vergleichen?",
+    title: "Bereit, Geschenke für Leser auf Etsy zu vergleichen?",
     text: "Öffne Etsy, um Lesesets, Lesezeichen und passende Listing-Details direkt nebeneinander zu prüfen.",
     label: "Leser-Ergebnisse auf Etsy öffnen",
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
@@ -817,7 +817,7 @@ pagesDe.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   },
   secondaryCta: {
-    label: "Die besten Einzugs-Produkte sehen",
+    label: "Die besten Einzugsideen sehen",
     target: "#shop-catalog"
   },
   linkCloud: [
@@ -843,7 +843,7 @@ pagesDe.push({
     },
     {
       slug: "moon-cat-shadow-tealight-holder",
-      summary: "Ein kleineres Regalstück für Beistelltisch und Wohnregal, wenn ein Einzugsgeschenk vor allem Wärme mitbringen soll."
+      summary: "Ein kleineres Deko-Stück für Beistelltisch und Wohnregal, wenn ein Einzugsgeschenk vor allem Wärme mitbringen soll."
     },
     {
       slug: "laser-birch-wood-incense-burner",
@@ -870,7 +870,7 @@ pagesDe.push({
       "leaf-wooden-coasters"
     ],
     intro: "Diese Auswahl passt besonders gut zu neuen Wohnungen, weil sie Alltagstauglichkeit mit warmer Holzoptik verbindet.",
-    ctaLabel: "Einzugs-Produkte auf Etsy ansehen",
+    ctaLabel: "Einzugsideen auf Etsy ansehen",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   },
   faq: [
@@ -901,11 +901,11 @@ pagesDe.push({
     {
       label: "Geschenke für Katzenliebhaber",
       href: "/de/pages/geschenke-fuer-katzenliebhaber.html",
-      description: "Eine nahe Route, wenn das Geschenk zugleich für neue Wohnung und Katzenfan gedacht ist."
+      description: "Eine gute Route, wenn das Geschenk zugleich zur neuen Wohnung und zu einem Katzenliebhaber passen soll."
     }
   ],
   ctaPanel: {
-    title: "Bereit, Einzugsfavoriten auf Etsy zu vergleichen?",
+    title: "Bereit, Einzugsgeschenke auf Etsy zu vergleichen?",
     text: "Öffne Etsy, um gemütliche Tischgeschenke, Dekoideen und alle Listing-Details direkt anzusehen.",
     label: "Einzugs-Ergebnisse auf Etsy öffnen",
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"

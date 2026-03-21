@@ -3,8 +3,8 @@
   "metaDescription": "Entdecke handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume. Sieh dir Bestseller in Untersetzern, Lesezeichen und warmer Holzdeko an, die direkt zu Etsy führen.",
   "h1": "Handgemachte Holzgeschenke mit gemütlichem Charakter",
   "eyebrow": "4.96/5 auf Etsy",
-  "intro": "Shop Katzen-Untersetzer, Leser-Geschenke und warme Holzdeko, ohne dich zuerst durch einen breiten Katalog arbeiten zu müssen.",
-  "heroSupport": "Starte mit den Bestsellern und spring dann zu Anlässen oder Kollektionen, wenn du gezielter vergleichen möchtest.",
+  "intro": "Shop Katzen-Untersetzer, Geschenke für Leser und warme Holzdeko, ohne dich erst durch den ganzen Katalog arbeiten zu müssen.",
+  "heroSupport": "Starte mit den Bestsellern und stöbere dann nach Anlass oder Kollektion weiter, wenn du gezielter vergleichen möchtest.",
   "discoveryCta": {
     "label": "Bestseller entdecken",
     "target": "#featured-bestsellers"
@@ -29,7 +29,7 @@
     },
     "occasions": {
       "heading": "Nach Anlass shoppen",
-      "intro": "Lieber zuerst den passenden Geschenkgrund wählen? Dann starte hier."
+      "intro": "Lieber zuerst nach Anlass wählen? Dann starte hier."
     },
     "collections": {
       "heading": "Nach Kollektion stöbern",
@@ -50,7 +50,7 @@
   },
   "featuredCategories": [
     {
-      "kicker": "Katzengeschenke",
+      "kicker": "Für Katzenliebhaber",
       "title": "Geschenke für Katzenliebhaber",
       "description": "Gehe direkt zu Untersetzern und warmer Holzdeko mit Katzenmotiv für gemütliche Wohnungen und Geburtstage.",
       "image": "/assets/img/products/cat-and-moon-coasters.jpg",
@@ -58,17 +58,17 @@
       "href": "/de/pages/geschenke-fuer-katzenliebhaber.html"
     },
     {
-      "kicker": "Buchgeschenke",
+      "kicker": "Für Leser",
       "title": "Geschenke für Leser",
       "description": "Sieh dir Lesezeichen, Fantasy-Sets und Ideen für die Leseecke für Bücherfans und ruhige Regale an.",
       "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Fantasy Lesegeschenk Set für Bücherfans",
+      "imageAlt": "Fantasy-Leserset für Bücherfans",
       "href": "/de/pages/geschenke-fuer-leser.html"
     },
     {
-      "kicker": "Neues Zuhause",
+      "kicker": "Für neue Wohnungen",
       "title": "Einzugsgeschenke",
-      "description": "Öffne nützliche Holzstücke, die sich leicht für warme Wohnungen und neue Häuser kaufen lassen.",
+      "description": "Entdecke nützliche Holzstücke für Couchtische, Regale und liebevolle Geschenke zum Einzug.",
       "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
       "imageAlt": "Sternzeichen Holzuntersetzer als Einzugsgeschenk",
       "href": "/de/pages/einzugsgeschenke.html"
@@ -77,15 +77,15 @@
   "featuredItems": [
     {
       "slug": "cat-and-moon-wooden-coasters",
-      "summary": "Ein gemütliches Untersetzer-Set mit Katzenmotiv, das Tische schützt und sich sofort warm als Geschenk anfühlt."
+      "summary": "Ein warmes Untersetzer-Set mit Katzenmotiv für Couchtische, Sideboards und durchdachte Geschenke für Katzenliebhaber."
     },
     {
       "slug": "fantasy-reader-gift-set",
-      "summary": "Ein Leserset mit Lesezeichen, Türschild und Untersetzern für Käufer, die auf Etsy direkt ein stärkeres Gesamtgeschenk suchen."
+      "summary": "Ein fertiges Geschenkset mit Lesezeichen, Türhänger und Untersetzern für Fantasy-Leser."
     },
     {
       "slug": "moon-cat-shadow-tealight-holder",
-      "summary": "Ein kleines Regalstück, das schnell Stimmung bringt, wenn jemand lieber Deko statt eines weiteren Standardartikels schenkt."
+      "summary": "Ein kleines Deko-Stück, das schnell Wärme auf Regale und in Leseecken bringt."
     }
   ],
   "intentCards": [
@@ -98,9 +98,9 @@
     },
     {
       "title": "Geschenke für Leser",
-      "description": "Lesezeichen, Fantasy-Lesersets und Stücke für die Leseecke, die zu Bücherfans und ruhigen Geschenkmomenten passen.",
+      "description": "Lesezeichen, Fantasy-Sets und Stücke für die Leseecke, die zu Bücherfans und ruhigen Wohnmomenten passen.",
       "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Fantasy Lesegeschenk Set für Bücherfans",
+      "imageAlt": "Fantasy-Leserset für Bücherfans",
       "href": "/de/pages/geschenke-fuer-leser.html"
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "title": "Holzlesezeichen",
-      "description": "Leserorientierte Lesezeichen und Buchgeschenke für Fantasy-Regale, Lesetagebücher und ruhige Kapitel.",
+      "description": "Leserorientierte Lesezeichen und Geschenkideen für Fantasy-Regale, Lesetagebücher und ruhige Lesestunden.",
       "image": "/assets/img/products/celtic-bookmark.jpg",
       "imageAlt": "Kollektion Holzlesezeichen",
       "href": "/de/pages/holzlesezeichen.html"
@@ -136,7 +136,7 @@
   ],
   "supportCards": [
     {
-      "title": "Starte mit den stärksten Picks",
+      "title": "Starte mit den Bestsellern",
       "text": "Diese Homepage stellt die klarsten Geschenkideen nach vorn, damit Besucher schneller bei einer starken Option landen."
     },
     {

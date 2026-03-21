@@ -34,7 +34,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Funny%20Husband%20Medals%20Coaster%20Set",
@@ -42,8 +42,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/fcbb6c/7435990575/il_340x270.7435990575_sg5h.jpg 340w, https://i.etsystatic.com/46731516/r/il/fcbb6c/7435990575/il_600x600.7435990575_sg5h.jpg 600w, https://i.etsystatic.com/46731516/r/il/fcbb6c/7435990575/il_794xN.7435990575_sg5h.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Funny Husband Medal Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit eine warme Gravur, das gut zu Alltagstischen, Schreibtischen und einfachen Geschenksets passt.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Schützt Tische und bringt eine warme Gravur in Alltagstischen, Schreibtischen und gemütlichen Ecken.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -51,8 +51,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -82,7 +82,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -104,8 +104,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_340x270.6371593681_3p4r.jpg 340w, https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_600x600.6371593681_3p4r.jpg 600w, https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_794xN.6371593681_3p4r.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Drachenauge Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Gemacht für Leser, mit ein Fantasy-Detail und einer ruhigeren handgemachten Wirkung für Buchstapeln, Abendlektüre und Fantasy-Regalen.",
-    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Passt leicht in Buchgeschenke, Lesetagebücher und ruhige Abendroutinen.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -119,8 +119,8 @@
       "Fantasy Geschenk für Leser"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -168,8 +168,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/5633fd/5458770934/il_340x270.5458770934_dos6.jpg 340w, https://i.etsystatic.com/46731516/r/il/5633fd/5458770934/il_600x600.5458770934_dos6.jpg 600w, https://i.etsystatic.com/46731516/r/il/5633fd/5458770934/il_794xN.5458770934_dos6.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Dog Paw Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen und haustierfreundlichen Räumen, während ein Pfotendetail den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Schützt Tische und bringt ein Pfotendetail in Alltagstischen und haustierfreundlichen Räumen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -177,8 +177,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Hundefan",
-      "Einzug"
+      "Geschenk für Hundeliebhaber",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -228,8 +228,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/f18bda/7528087613/il_340x270.7528087613_8ciw.jpg 340w, https://i.etsystatic.com/46731516/r/il/f18bda/7528087613/il_600x600.7528087613_8ciw.jpg 600w, https://i.etsystatic.com/46731516/r/il/f18bda/7528087613/il_794xN.7528087613_8ciw.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Sternzeichen Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Gemacht für Liebhaber gemütlicher Wohnräume, mit himmlische Linienarbeit und einer ruhigeren handgemachten Wirkung für Kaffeetischen, Beistelltischen und stimmungsvollen Räumen.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Schützt Tische und bringt himmlische Linienarbeit in Kaffeetischen, Beistelltischen und stimmungsvollen Räumen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift",
       "reading-nook-gift"
@@ -239,8 +239,8 @@
       "Geschenk für die Leseecke"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -288,8 +288,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/33c325/5457158726/il_340x270.5457158726_9gea.jpg 340w, https://i.etsystatic.com/46731516/r/il/33c325/5457158726/il_600x600.5457158726_9gea.jpg 600w, https://i.etsystatic.com/46731516/r/il/33c325/5457158726/il_794xN.5457158726_9gea.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Katzenmotiv Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Kaffeetischen, Schreibtischen und gemütlichen Ecken, während ein Katzenmotiv den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "cat-lover-gift",
       "cozy-home-decor",
@@ -301,8 +301,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Katzenfan",
-      "Einzug"
+      "Geschenk für Katzenliebhaber",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -352,8 +352,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/0a2f9b/6315785232/il_340x270.6315785232_7ohz.jpg 340w, https://i.etsystatic.com/46731516/r/il/0a2f9b/6315785232/il_600x600.6315785232_7ohz.jpg 600w, https://i.etsystatic.com/46731516/r/il/0a2f9b/6315785232/il_794xN.6315785232_7ohz.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Cannabis Blattmotiv Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Gemacht für Liebhaber gemütlicher Wohnräume, mit ein botanisches Detail und einer ruhigeren handgemachten Wirkung für Küchen, Gästetischen und warmen Wohnräumen.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -361,8 +361,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -402,7 +402,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Samurai%20Mask%20Wood%20Coasters%20Set%20of%206",
@@ -410,8 +410,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/fff060/7483094513/il_340x270.7483094513_qtbe.jpg 340w, https://i.etsystatic.com/46731516/r/il/fff060/7483094513/il_600x600.7483094513_qtbe.jpg 600w, https://i.etsystatic.com/46731516/r/il/fff060/7483094513/il_794xN.7483094513_qtbe.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Samurai Mask Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Ein Untersetzer-Set für Alltagstischen, Schreibtischen und gemütlichen Ecken, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -419,8 +419,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -470,8 +470,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/696c37/5942707396/il_340x270.5942707396_8896.jpg 340w, https://i.etsystatic.com/46731516/r/il/696c37/5942707396/il_600x600.5942707396_8896.jpg 600w, https://i.etsystatic.com/46731516/r/il/696c37/5942707396/il_794xN.5942707396_8896.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Chess Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Gemacht für Liebhaber gemütlicher Wohnräume, mit ein Spielemotiv und einer ruhigeren handgemachten Wirkung für Spielzimmern, Schreibtischen und Wochenendtischen.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Schützt Tische und bringt ein Spielemotiv in Spielzimmern, Schreibtischen und Wochenendtischen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -479,8 +479,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -528,8 +528,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_340x270.6103181163_fltt.jpg 340w, https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_600x600.6103181163_fltt.jpg 600w, https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_794xN.6103181163_fltt.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Fantasy Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein Fantasy-Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Schützt Tische und bringt ein Fantasy-Detail in Leseecken, Schreibtischen und Hobbyräumen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift",
       "reading-nook-gift"
@@ -539,8 +539,8 @@
       "Geschenk für die Leseecke"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -588,8 +588,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a0c9ae/7368650430/il_340x270.7368650430_1wqw.jpg 340w, https://i.etsystatic.com/46731516/r/il/a0c9ae/7368650430/il_600x600.7368650430_1wqw.jpg 600w, https://i.etsystatic.com/46731516/r/il/a0c9ae/7368650430/il_794xN.7368650430_1wqw.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "My First Christmas Ornament 2025 von Craftygiftsplace",
-    "short_desc": "Markiert einen wichtigen Moment auf praktische Weise und bringt ein saisonales Motiv in Geschenkboxen, Regalen und bedeutungsvollen Erinnerungsmomenten.",
-    "collection_desc": "Ein Erinnerungsstück mit ruhiger Ausstrahlung, passend zu Weihnachten und dem Alltag.",
+    "short_desc": "Ein persönliches Holzstück für Erinnerungen, Meilensteine und besondere Daten.",
+    "collection_desc": "Ein persönliches Holzstück für Meilensteine, Erinnerungen und besondere Daten.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
@@ -621,7 +621,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -643,8 +643,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/4195e9/5386088642/il_340x270.5386088642_8puv.jpg 340w, https://i.etsystatic.com/46731516/r/il/4195e9/5386088642/il_600x600.5386088642_8puv.jpg 600w, https://i.etsystatic.com/46731516/r/il/4195e9/5386088642/il_794xN.5386088642_8puv.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Desert Saga Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Hält die Seite leicht wiederfindbar und bringt eine warme Gravur in Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen.",
-    "collection_desc": "Ein Holzlesezeichen, das sich für Leser und Anlässe wie Lesegeschenk leicht auswählen lässt.",
+    "short_desc": "Hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -656,8 +656,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -685,7 +685,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -707,8 +707,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9e7b87/7824030219/il_340x270.7824030219_c6ot.jpg 340w, https://i.etsystatic.com/46731516/r/il/9e7b87/7824030219/il_600x600.7824030219_c6ot.jpg 600w, https://i.etsystatic.com/46731516/r/il/9e7b87/7824030219/il_794xN.7824030219_c6ot.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Keltisches Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Gemacht für Leser, mit eine warme Gravur und einer ruhigeren handgemachten Wirkung für Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen.",
-    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -720,8 +720,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -771,8 +771,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/61fc68/7533758309/il_340x270.7533758309_2wu5.jpg 340w, https://i.etsystatic.com/46731516/r/il/61fc68/7533758309/il_600x600.7533758309_2wu5.jpg 600w, https://i.etsystatic.com/46731516/r/il/61fc68/7533758309/il_794xN.7533758309_2wu5.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Blumenmotiv Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt ein botanisches Detail in Küchen, Gästetischen und warmen Wohnräumen.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -780,8 +780,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -829,8 +829,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/10c262/5411743080/il_340x270.5411743080_iwdn.jpg 340w, https://i.etsystatic.com/46731516/r/il/10c262/5411743080/il_600x600.5411743080_iwdn.jpg 600w, https://i.etsystatic.com/46731516/r/il/10c262/5411743080/il_794xN.5411743080_iwdn.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Fantasy Gamer Türschild von Craftygiftsplace",
-    "short_desc": "Ein Türhänger mit ein Fantasy-Detail, das gut zu Leseecken, Hobbyräumen und Schlafzimmertüren passt.",
-    "collection_desc": "Ein Türhänger, das sich für Gamer und Anlässe wie Hobbygeschenk leicht auswählen lässt.",
+    "short_desc": "Gibt dem Raum eine persönliche Note für Türen, Hobbyräume und persönliche Ecken.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -879,7 +879,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Mayan%20Disc%20Coasters",
@@ -887,8 +887,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9c4efa/5675812615/il_340x270.5675812615_ogn2.jpg 340w, https://i.etsystatic.com/46731516/r/il/9c4efa/5675812615/il_600x600.5675812615_ogn2.jpg 600w, https://i.etsystatic.com/46731516/r/il/9c4efa/5675812615/il_794xN.5675812615_ogn2.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Mayan Disc Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit eine warme Gravur und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Schützt Tische und bringt eine warme Gravur in Alltagstischen, Schreibtischen und gemütlichen Ecken.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -896,8 +896,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -948,7 +948,7 @@
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Waldtiere Holzuntersetzer von Craftygiftsplace",
     "short_desc": "Schützt Tische und bringt ein botanisches Detail in Küchen, Gästetischen und warmen Wohnräumen.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -956,8 +956,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1003,8 +1003,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/58f128/5503536607/il_340x270.5503536607_ezbg.jpg 340w, https://i.etsystatic.com/46731516/r/il/58f128/5503536607/il_600x600.5503536607_ezbg.jpg 600w, https://i.etsystatic.com/46731516/r/il/58f128/5503536607/il_794xN.5503536607_ezbg.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Bitte nicht klingeln Türschild von Craftygiftsplace",
-    "short_desc": "Gemacht für Geschenkkäufer, mit eine warme Gravur und einer ruhigeren handgemachten Wirkung für Schlafzimmertüren, Homeoffices und persönlichen Ecken.",
-    "collection_desc": "Ein handgemachtes Türhänger für Geschenkkäufer, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Gibt dem Raum eine persönliche Note für Türen, Hobbyräume und persönliche Ecken.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1062,8 +1062,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8a1b8a/7533803427/il_340x270.7533803427_pk2c.jpg 340w, https://i.etsystatic.com/46731516/r/il/8a1b8a/7533803427/il_600x600.7533803427_pk2c.jpg 600w, https://i.etsystatic.com/46731516/r/il/8a1b8a/7533803427/il_794xN.7533803427_pk2c.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Blattmotiv Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein botanisches Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1071,8 +1071,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1112,7 +1112,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=themed%20wooden%20coasters",
@@ -1120,8 +1120,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/6926b3/5407035414/il_340x270.5407035414_hn0g.jpg 340w, https://i.etsystatic.com/46731516/r/il/6926b3/5407035414/il_600x600.5407035414_hn0g.jpg 600w, https://i.etsystatic.com/46731516/r/il/6926b3/5407035414/il_794xN.5407035414_hn0g.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Space Saga Untersetzer-Set von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit eine warme Gravur, das gut zu Alltagstischen, Schreibtischen und einfachen Geschenksets passt.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Schützt Tische und bringt eine warme Gravur in Alltagstischen, Schreibtischen und gemütlichen Ecken.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1129,8 +1129,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1180,8 +1180,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b6e8ca/7529254877/il_340x270.7529254877_rq2i.jpg 340w, https://i.etsystatic.com/46731516/r/il/b6e8ca/7529254877/il_600x600.7529254877_rq2i.jpg 600w, https://i.etsystatic.com/46731516/r/il/b6e8ca/7529254877/il_794xN.7529254877_rq2i.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Sonne und Mond Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt himmlische Linienarbeit in Kaffeetischen, Beistelltischen und stimmungsvollen Räumen.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift",
       "reading-nook-gift"
@@ -1191,8 +1191,8 @@
       "Geschenk für die Leseecke"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1242,8 +1242,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/7f88d5/6280541489/il_340x270.6280541489_6a86.jpg 340w, https://i.etsystatic.com/46731516/r/il/7f88d5/6280541489/il_600x600.6280541489_6a86.jpg 600w, https://i.etsystatic.com/46731516/r/il/7f88d5/6280541489/il_794xN.6280541489_6a86.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Motorsport Untersetzer-Set von Craftygiftsplace",
-    "short_desc": "Gemacht für Liebhaber gemütlicher Wohnräume, mit ein Spielemotiv und einer ruhigeren handgemachten Wirkung für Spielzimmern, Schreibtischen und Wochenendtischen.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Schützt Tische und bringt ein Spielemotiv in Spielzimmern, Schreibtischen und Wochenendtischen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1251,8 +1251,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1263,7 +1263,7 @@
     "locale": "de",
     "category": "wooden-gifts",
     "section": "deurhangers-en-borden",
-    "name": "Episches Fantasy Türschild",
+    "name": "Fantasy-Türschild",
     "price": "15.99",
     "price_label": "EUR 15.99",
     "audience_keys": [
@@ -1297,9 +1297,9 @@
     "image": "https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_600x600.5462349697_5c2j.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_340x270.5462349697_5c2j.jpg 340w, https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_600x600.5462349697_5c2j.jpg 600w, https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_794xN.5462349697_5c2j.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Episches Fantasy Türschild von Craftygiftsplace",
-    "short_desc": "Gemacht für Geschenkkäufer, mit ein Fantasy-Detail und einer ruhigeren handgemachten Wirkung für Leseecken, Hobbyräumen und Schlafzimmertüren.",
-    "collection_desc": "Ein handgemachtes Türhänger für Geschenkkäufer, die etwas Warmes und Nützliches suchen.",
+    "alt": "Fantasy-Türschild von Craftygiftsplace",
+    "short_desc": "Gibt dem Raum eine persönliche Note für Türen, Hobbyräume und persönliche Ecken.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1355,8 +1355,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/776584/5442155599/il_340x270.5442155599_qtxo.jpg 340w, https://i.etsystatic.com/46731516/r/il/776584/5442155599/il_600x600.5442155599_qtxo.jpg 600w, https://i.etsystatic.com/46731516/r/il/776584/5442155599/il_794xN.5442155599_qtxo.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Wooden Baby Milestone Discs von Craftygiftsplace",
-    "short_desc": "Ein Erinnerungsstück mit eine erinnerungsstarke Botschaft, das gut zu Kinderzimmerregalen, Schubladen und Meilensteinfotos passt.",
-    "collection_desc": "Ein Erinnerungsstück mit ruhiger Ausstrahlung, passend zu neues Baby und dem Alltag.",
+    "short_desc": "Macht aus einem wichtigen Moment etwas, das sich aufstellen und bewahren lässt.",
+    "collection_desc": "Ein persönliches Holzstück für Meilensteine, Erinnerungen und besondere Daten.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
@@ -1409,8 +1409,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/c53917/6270337504/il_340x270.6270337504_kd1c.jpg 340w, https://i.etsystatic.com/46731516/r/il/c53917/6270337504/il_600x600.6270337504_kd1c.jpg 600w, https://i.etsystatic.com/46731516/r/il/c53917/6270337504/il_794xN.6270337504_kd1c.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Anchor Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt ein Küstendetail in Gästezimmern, Terrassen und entspannten Wohnungen.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Gästezimmern, Terrassen und entspannten Wohnungen, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1418,8 +1418,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1465,12 +1465,12 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/1e60c4/7424299275/il_340x270.7424299275_ome0.jpg 340w, https://i.etsystatic.com/46731516/r/il/1e60c4/7424299275/il_600x600.7424299275_ome0.jpg 600w, https://i.etsystatic.com/46731516/r/il/1e60c4/7424299275/il_794xN.7424299275_ome0.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Montessori Wooden Numicon Set von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Basteltischen, persönlichen Projekten und handgemachten Geschenkstunden, während unbehandeltes Holz zum Weitergestalten den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein DIY-Holzset mit ruhiger Ausstrahlung, passend zu Geburtstag und dem Alltag.",
+    "short_desc": "Eine praktische DIY-Grundlage für Projekte, Unterricht und handgemachte Geschenke.",
+    "collection_desc": "Eine Holzbasis für kreative Projekte und handgemachte Geschenke.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
-      "DIY Geschenk",
+      "DIY-Geschenk",
       "Warmer Stil"
     ],
     "cta_label": "Auf Etsy ansehen",
@@ -1521,8 +1521,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/4b60d2/7572843312/il_340x270.7572843312_bdln.jpg 340w, https://i.etsystatic.com/46731516/r/il/4b60d2/7572843312/il_600x600.7572843312_bdln.jpg 600w, https://i.etsystatic.com/46731516/r/il/4b60d2/7572843312/il_794xN.7572843312_bdln.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Bienenmotiv Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein botanisches Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1530,8 +1530,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1577,8 +1577,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a15192/7343823221/il_340x270.7343823221_5i4t.jpg 340w, https://i.etsystatic.com/46731516/r/il/a15192/7343823221/il_600x600.7343823221_5i4t.jpg 600w, https://i.etsystatic.com/46731516/r/il/a15192/7343823221/il_794xN.7343823221_5i4t.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Wooden No Cameras Türhänger von Craftygiftsplace",
-    "short_desc": "Gibt dem Raum eine persönliche Note und bringt eine warme Gravur in Schlafzimmertüren, Homeoffices und persönlichen Ecken.",
-    "collection_desc": "Ein Türhänger, das sich für Geschenkkäufer und Anlässe wie Geburtstag leicht auswählen lässt.",
+    "short_desc": "Passt gut, wenn das Geschenk persönlich und direkt sichtbar sein soll.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1635,7 +1635,7 @@
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Katze und Mond Holzuntersetzer von Craftygiftsplace",
     "short_desc": "Schützt Tische und bringt ein Katzenmotiv in Kaffeetischen, Schreibtischen und gemütlichen Ecken.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Katzenliebhaber und Anlässe wie Einzug leicht auswählen lässt.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "cat-lover-gift",
       "cozy-home-decor",
@@ -1647,8 +1647,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Katzenfan",
-      "Einzug"
+      "Geschenk für Katzenliebhaber",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1688,7 +1688,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Funny%20Swear%20Word%20Wood%20Coasters%20Set%20of%204",
@@ -1696,8 +1696,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bd8656/6936500070/il_340x270.6936500070_obt5.jpg 340w, https://i.etsystatic.com/46731516/r/il/bd8656/6936500070/il_600x600.6936500070_obt5.jpg 600w, https://i.etsystatic.com/46731516/r/il/bd8656/6936500070/il_794xN.6936500070_obt5.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Funny Swear Word Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt eine warme Gravur in Alltagstischen, Schreibtischen und einfachen Geschenksets.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1705,8 +1705,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1746,7 +1746,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handmade%20Persian%20Turkish%20Coasters",
@@ -1754,8 +1754,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/ef6aac/5920179814/il_340x270.5920179814_b58p.jpg 340w, https://i.etsystatic.com/46731516/r/il/ef6aac/5920179814/il_600x600.5920179814_b58p.jpg 600w, https://i.etsystatic.com/46731516/r/il/ef6aac/5920179814/il_794xN.5920179814_b58p.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Persian Turkish Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein nützliches Geschenk für Wohnräume, in denen kleine Details zählen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1763,8 +1763,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1775,7 +1775,7 @@
     "locale": "de",
     "category": "wooden-gifts",
     "section": "decoratie-en-sfeer",
-    "name": "Mondkatzen Teelichthalter",
+    "name": "Teelichthalter mit Mondkatze",
     "price": "10.99",
     "price_label": "EUR 10.99",
     "audience_keys": [
@@ -1802,7 +1802,7 @@
     ],
     "theme_key": "cat",
     "format_key": "decor-piece",
-    "format_label": "Dekoobjekt",
+    "format_label": "Deko-Stück",
     "motif": "ein Katzenmotiv",
     "usage_context": "Regalen, Beistelltischen und kerzenbeleuchteten Ecken",
     "benefit_primary": "bringt Stimmung auf Regale und Tische",
@@ -1811,9 +1811,9 @@
     "image": "https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_600x600.6325144691_ecdm.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_340x270.6325144691_ecdm.jpg 340w, https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_600x600.6325144691_ecdm.jpg 600w, https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_794xN.6325144691_ecdm.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Mondkatzen Teelichthalter von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Regalen, Beistelltischen und kerzenbeleuchteten Ecken, während ein Katzenmotiv den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein handgemachtes Dekoobjekt für Katzenliebhaber, die etwas Warmes und Nützliches suchen.",
+    "alt": "Teelichthalter mit Mondkatze von Craftygiftsplace",
+    "short_desc": "Bringt einen warmen Holzakzent in Regalen, Beistelltischen und kerzenbeleuchteten Ecken.",
+    "collection_desc": "Ein Deko-Stück aus Holz für Regale, Beistelltische und gemütliche Ecken.",
     "intent_keys": [
       "cat-lover-gift",
       "cozy-home-decor",
@@ -1825,8 +1825,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Katzenfan",
-      "Einzug"
+      "Geschenk für Katzenliebhaber",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1866,7 +1866,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "ein spirituelles Detail",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Religious%20Wooden%20Coaster%20Set",
@@ -1874,8 +1874,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/3eb110/5455657378/il_340x270.5455657378_qnvq.jpg 340w, https://i.etsystatic.com/46731516/r/il/3eb110/5455657378/il_600x600.5455657378_qnvq.jpg 600w, https://i.etsystatic.com/46731516/r/il/3eb110/5455657378/il_794xN.5455657378_qnvq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Faith-Inspired Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit ein spirituelles Detail, das gut zu Alltagstischen, Schreibtischen und einfachen Geschenksets passt.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Ein Untersetzer-Set für Alltagstischen, Schreibtischen und gemütlichen Ecken, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1883,8 +1883,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1924,7 +1924,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalised%20Team%20Coaster",
@@ -1932,8 +1932,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/c8b13b/7475569258/il_340x270.7475569258_hzso.jpg 340w, https://i.etsystatic.com/46731516/r/il/c8b13b/7475569258/il_600x600.7475569258_hzso.jpg 600w, https://i.etsystatic.com/46731516/r/il/c8b13b/7475569258/il_794xN.7475569258_hzso.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalisiert Team Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein nützliches Geschenk für Wohnräume, in denen kleine Details zählen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -1941,8 +1941,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -1992,8 +1992,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_340x270.5535942596_jl8w.jpg 340w, https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg 600w, https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_794xN.5535942596_jl8w.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Lebensbaum Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit ein botanisches Detail, das gut zu Küchen, Gästetischen und warmen Wohnräumen passt.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Küchen, Gästetischen und warmen Wohnräumen, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2001,8 +2001,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2032,7 +2032,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -2054,8 +2054,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_340x270.5434960961_8gmc.jpg 340w, https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_600x600.5434960961_8gmc.jpg 600w, https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_794xN.5434960961_8gmc.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Drachen Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Ein Holzlesezeichen mit ein Fantasy-Detail, das gut zu Buchstapeln, Abendlektüre und Fantasy-Regalen passt.",
-    "collection_desc": "Ein Holzlesezeichen mit ruhiger Ausstrahlung, passend zu Lesegeschenk und dem Alltag.",
+    "short_desc": "Passt leicht in Buchgeschenke, Lesetagebücher und ruhige Abendroutinen.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -2069,8 +2069,8 @@
       "Fantasy Geschenk für Leser"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2110,7 +2110,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Ski%20Lodge%20Coasters",
@@ -2118,8 +2118,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/6a78ae/5382480214/il_340x270.5382480214_2jxm.jpg 340w, https://i.etsystatic.com/46731516/r/il/6a78ae/5382480214/il_600x600.5382480214_2jxm.jpg 600w, https://i.etsystatic.com/46731516/r/il/6a78ae/5382480214/il_794xN.5382480214_2jxm.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Ski Lodge Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt eine warme Gravur in Alltagstischen, Schreibtischen und einfachen Geschenksets.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Ein Untersetzer-Set für Alltagstischen, Schreibtischen und gemütlichen Ecken, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2127,8 +2127,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2168,7 +2168,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "ein spirituelles Detail",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Buddha%20Coasters%20Set%20Wood",
@@ -2176,8 +2176,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a2c1d1/7635957768/il_340x270.7635957768_9qc1.jpg 340w, https://i.etsystatic.com/46731516/r/il/a2c1d1/7635957768/il_600x600.7635957768_9qc1.jpg 600w, https://i.etsystatic.com/46731516/r/il/a2c1d1/7635957768/il_794xN.7635957768_9qc1.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Buddha Wood Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während ein spirituelles Detail den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Schützt Tische und bringt ein spirituelles Detail in Alltagstischen, Schreibtischen und gemütlichen Ecken.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2185,8 +2185,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2236,8 +2236,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/aa1792/5344238782/il_340x270.5344238782_sy7n.jpg 340w, https://i.etsystatic.com/46731516/r/il/aa1792/5344238782/il_600x600.5344238782_sy7n.jpg 600w, https://i.etsystatic.com/46731516/r/il/aa1792/5344238782/il_794xN.5344238782_sy7n.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Spider Web Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt ein gotisches Detail in Beistelltischen, Regalen und markanten Deko-Konzepten.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Fans auffälliger Deko, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Beistelltischen, Regalen und markanten Deko-Konzepten, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2246,7 +2246,7 @@
     ],
     "chips": [
       "Markante Deko",
-      "Einzug"
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2294,12 +2294,12 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/e2a1f8/5392453943/il_340x270.5392453943_rd6e.jpg 340w, https://i.etsystatic.com/46731516/r/il/e2a1f8/5392453943/il_600x600.5392453943_rd6e.jpg 600w, https://i.etsystatic.com/46731516/r/il/e2a1f8/5392453943/il_794xN.5392453943_rd6e.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "DIY Christmas Ornaments von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Weihnachten, mit ein saisonales Motiv und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein DIY-Holzset, das sich für Kreative und Anlässe wie Weihnachten leicht auswählen lässt.",
+    "short_desc": "Hilfreich für alle, die ein kleines Geschenk lieber selbst gestalten.",
+    "collection_desc": "Eine Holzbasis für kreative Projekte und handgemachte Geschenke.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
-      "DIY Geschenk",
+      "DIY-Geschenk",
       "Saisonale Deko"
     ],
     "cta_label": "Auf Etsy ansehen",
@@ -2340,7 +2340,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Celtic%20Knot%20Wooden%20Coasters",
@@ -2348,8 +2348,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/7cd96f/6355916419/il_340x270.6355916419_d97i.jpg 340w, https://i.etsystatic.com/46731516/r/il/7cd96f/6355916419/il_600x600.6355916419_d97i.jpg 600w, https://i.etsystatic.com/46731516/r/il/7cd96f/6355916419/il_794xN.6355916419_d97i.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Keltisch Knot Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Ein nützliches Geschenk für Wohnräume, in denen kleine Details zählen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2357,8 +2357,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2396,9 +2396,9 @@
     ],
     "theme_key": "default",
     "format_key": "decor-piece",
-    "format_label": "Dekoobjekt",
+    "format_label": "Deko-Stück",
     "motif": "eine warme Gravur",
-    "usage_context": "Regalen, Beistelltischen und geschenkfertigen Wohnwinkeln",
+    "usage_context": "Regalen, Beistelltischen und gemütlichen Ecken",
     "benefit_primary": "bringt Stimmung auf Regale und Tische",
     "benefit_secondary": "legt einen warmen thematischen Akzent",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Laser%20Engraved%20Birch%20Wood%20Incense%20Burner",
@@ -2406,8 +2406,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_340x270.6303435020_tsf2.jpg 340w, https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_600x600.6303435020_tsf2.jpg 600w, https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_794xN.6303435020_tsf2.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Räucherhalter aus Birkenholz von Craftygiftsplace",
-    "short_desc": "Ein Dekoobjekt mit eine warme Gravur, das gut zu Regalen, Beistelltischen und geschenkfertigen Wohnwinkeln passt.",
-    "collection_desc": "Ein Dekoobjekt mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Ein kleines Deko-Stück, das Regale und Beistelltische wohnlicher macht.",
+    "collection_desc": "Ein Deko-Stück aus Holz für Regale, Beistelltische und gemütliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2415,7 +2415,7 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Einzug",
+      "Geschenk zum Einzug",
       "Warmer Stil"
     ],
     "cta_label": "Auf Etsy ansehen",
@@ -2466,8 +2466,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/4a287f/6355959209/il_340x270.6355959209_9hqu.jpg 340w, https://i.etsystatic.com/46731516/r/il/4a287f/6355959209/il_600x600.6355959209_9hqu.jpg 600w, https://i.etsystatic.com/46731516/r/il/4a287f/6355959209/il_794xN.6355959209_9hqu.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Wildlife Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein botanisches Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2475,8 +2475,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2524,8 +2524,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/3fff5b/5906404554/il_340x270.5906404554_foeo.jpg 340w, https://i.etsystatic.com/46731516/r/il/3fff5b/5906404554/il_600x600.5906404554_foeo.jpg 600w, https://i.etsystatic.com/46731516/r/il/3fff5b/5906404554/il_794xN.5906404554_foeo.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Wooden Baby Closet Dividers von Craftygiftsplace",
-    "short_desc": "Gemacht für frische Eltern, mit eine erinnerungsstarke Botschaft und einer ruhigeren handgemachten Wirkung für Kinderzimmerregalen, Schubladen und Meilensteinfotos.",
-    "collection_desc": "Ein Erinnerungsstück, das sich für frische Eltern und Anlässe wie neues Baby leicht auswählen lässt.",
+    "short_desc": "Ein persönliches Holzstück für Erinnerungen, Meilensteine und besondere Daten.",
+    "collection_desc": "Ein persönliches Holzstück für Meilensteine, Erinnerungen und besondere Daten.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
@@ -2580,8 +2580,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a5413b/7481255030/il_340x270.7481255030_oi90.jpg 340w, https://i.etsystatic.com/46731516/r/il/a5413b/7481255030/il_600x600.7481255030_oi90.jpg 600w, https://i.etsystatic.com/46731516/r/il/a5413b/7481255030/il_794xN.7481255030_oi90.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Horse Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt ein botanisches Detail in Küchen, Gästetischen und warmen Wohnräumen.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein nützliches Geschenk für Wohnräume, in denen kleine Details zählen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2589,8 +2589,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2630,7 +2630,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Hand-Painted%20Spiderweb%20Coasters",
@@ -2638,8 +2638,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/3f2d7b/6338748593/il_340x270.6338748593_qokh.jpg 340w, https://i.etsystatic.com/46731516/r/il/3f2d7b/6338748593/il_600x600.6338748593_qokh.jpg 600w, https://i.etsystatic.com/46731516/r/il/3f2d7b/6338748593/il_794xN.6338748593_qokh.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Hand-Painted Spiderweb Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Alltagstischen, Schreibtischen und gemütlichen Ecken, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2647,8 +2647,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2688,7 +2688,7 @@
     ],
     "theme_key": "gothic",
     "format_key": "decor-piece",
-    "format_label": "Dekoobjekt",
+    "format_label": "Deko-Stück",
     "motif": "ein gotisches Detail",
     "usage_context": "Regalen, Sideboards und atmosphärischen Ecken",
     "benefit_primary": "bringt Stimmung auf Regale und Tische",
@@ -2698,8 +2698,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8dcb7c/6339150323/il_340x270.6339150323_jmbn.jpg 340w, https://i.etsystatic.com/46731516/r/il/8dcb7c/6339150323/il_600x600.6339150323_jmbn.jpg 600w, https://i.etsystatic.com/46731516/r/il/8dcb7c/6339150323/il_794xN.6339150323_jmbn.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Spider Web Teelichthalter von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein gotisches Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Dekoobjekt mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Bringt einen warmen Holzakzent in Regalen, Sideboards und atmosphärischen Ecken.",
+    "collection_desc": "Ein Deko-Stück aus Holz für Regale, Beistelltische und gemütliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2708,7 +2708,7 @@
     ],
     "chips": [
       "Markante Deko",
-      "Einzug"
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2748,7 +2748,7 @@
     ],
     "theme_key": "gothic",
     "format_key": "decor-piece",
-    "format_label": "Dekoobjekt",
+    "format_label": "Deko-Stück",
     "motif": "ein gotisches Detail",
     "usage_context": "Regalen, Sideboards und atmosphärischen Ecken",
     "benefit_primary": "bringt Stimmung auf Regale und Tische",
@@ -2758,8 +2758,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/58d874/6329506163/il_340x270.6329506163_9aip.jpg 340w, https://i.etsystatic.com/46731516/r/il/58d874/6329506163/il_600x600.6329506163_9aip.jpg 600w, https://i.etsystatic.com/46731516/r/il/58d874/6329506163/il_794xN.6329506163_9aip.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Skull Teelichthalter von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein gotisches Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Dekoobjekt, das sich für Fans auffälliger Deko und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Ein kleines Deko-Stück, das Regale und Beistelltische wohnlicher macht.",
+    "collection_desc": "Ein Deko-Stück aus Holz für Regale, Beistelltische und gemütliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2768,7 +2768,7 @@
     ],
     "chips": [
       "Markante Deko",
-      "Einzug"
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2798,7 +2798,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -2820,8 +2820,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_340x270.5417484435_8pfz.jpg 340w, https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_600x600.5417484435_8pfz.jpg 600w, https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_794xN.5417484435_8pfz.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Episches Fantasy Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Ein Holzlesezeichen mit ein Fantasy-Detail, das gut zu Buchstapeln, Abendlektüre und Fantasy-Regalen passt.",
-    "collection_desc": "Ein Holzlesezeichen mit ruhiger Ausstrahlung, passend zu Lesegeschenk und dem Alltag.",
+    "short_desc": "Hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -2835,8 +2835,8 @@
       "Fantasy Geschenk für Leser"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2882,12 +2882,12 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/ef7380/7439397136/il_340x270.7439397136_qiy2.jpg 340w, https://i.etsystatic.com/46731516/r/il/ef7380/7439397136/il_600x600.7439397136_qiy2.jpg 600w, https://i.etsystatic.com/46731516/r/il/ef7380/7439397136/il_794xN.7439397136_qiy2.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Wooden Dinosaur Shapes von Craftygiftsplace",
-    "short_desc": "Gibt Kreativen eine fertige Holzbasis und bringt unbehandeltes Holz zum Weitergestalten in Basteltischen, persönlichen Projekten und handgemachten Geschenkstunden.",
-    "collection_desc": "Ein DIY-Holzset mit ruhiger Ausstrahlung, passend zu Geburtstag und dem Alltag.",
+    "short_desc": "Eine praktische DIY-Grundlage für Projekte, Unterricht und handgemachte Geschenke.",
+    "collection_desc": "Eine Holzbasis für kreative Projekte und handgemachte Geschenke.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
-      "DIY Geschenk",
+      "DIY-Geschenk",
       "Warmer Stil"
     ],
     "cta_label": "Auf Etsy ansehen",
@@ -2928,7 +2928,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Viking%20Coasters",
@@ -2936,8 +2936,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/2421bb/7419936955/il_340x270.7419936955_jhjs.jpg 340w, https://i.etsystatic.com/46731516/r/il/2421bb/7419936955/il_600x600.7419936955_jhjs.jpg 600w, https://i.etsystatic.com/46731516/r/il/2421bb/7419936955/il_794xN.7419936955_jhjs.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Viking Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit eine warme Gravur und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -2945,8 +2945,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -2996,8 +2996,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/6fba28/5456284258/il_340x270.5456284258_lj80.jpg 340w, https://i.etsystatic.com/46731516/r/il/6fba28/5456284258/il_600x600.5456284258_lj80.jpg 600w, https://i.etsystatic.com/46731516/r/il/6fba28/5456284258/il_794xN.5456284258_lj80.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Checkers Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt ein Spielemotiv in Spielzimmern, Schreibtischen und Wochenendtischen.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3005,8 +3005,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3017,7 +3017,7 @@
     "locale": "de",
     "category": "wooden-gifts",
     "section": "persoonlijke-cadeaus",
-    "name": "Personalisierter Frisch verheiratet Holz Türhänger",
+    "name": "Personalisierter Türhänger für Frischvermählte",
     "price": "17.99",
     "price_label": "EUR 17.99",
     "audience_keys": [
@@ -3055,9 +3055,9 @@
     "image": "https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_600x600.6310906229_kdqa.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_340x270.6310906229_kdqa.jpg 340w, https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_600x600.6310906229_kdqa.jpg 600w, https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_794xN.6310906229_kdqa.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Personalisierter Frisch verheiratet Holz Türhänger von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Eingängen, Hochzeitsecken und gemeinsamen Räumen, während ein Anlassdetail den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein handgemachtes Türhänger für Frischvermählte, die etwas Warmes und Nützliches suchen.",
+    "alt": "Personalisierter Türhänger für Frischvermählte von Craftygiftsplace",
+    "short_desc": "Gibt dem Raum eine persönliche Note für Türen, Hobbyräume und persönliche Ecken.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift",
       "personalized-wedding-gift"
@@ -3067,7 +3067,7 @@
       "personalisiertes Hochzeitsgeschenk"
     ],
     "chips": [
-      "Frisch verheiratet",
+      "Geschenk für Frischvermählte",
       "Hochzeitsgeschenk"
     ],
     "cta_label": "Auf Etsy ansehen",
@@ -3108,7 +3108,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Calendar%20Coaster%20Engraved%20Birthday%20Reminder%20for%20Husband",
@@ -3116,8 +3116,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bde01c/6310421867/il_340x270.6310421867_jtom.jpg 340w, https://i.etsystatic.com/46731516/r/il/bde01c/6310421867/il_600x600.6310421867_jtom.jpg 600w, https://i.etsystatic.com/46731516/r/il/bde01c/6310421867/il_794xN.6310421867_jtom.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalisiert Calendar Coaster von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt eine warme Gravur in Alltagstischen, Schreibtischen und einfachen Geschenksets.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Alltagstischen, Schreibtischen und gemütlichen Ecken, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3125,8 +3125,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3166,7 +3166,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personaliseerbare%20Houten%20Onderzetters%20met%20Kurk%20Onderkant%20Set%20van%206",
@@ -3174,8 +3174,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8d73d1/6307701661/il_340x270.6307701661_levg.jpg 340w, https://i.etsystatic.com/46731516/r/il/8d73d1/6307701661/il_600x600.6307701661_levg.jpg 600w, https://i.etsystatic.com/46731516/r/il/8d73d1/6307701661/il_794xN.6307701661_levg.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalisiert Cork Back Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3183,8 +3183,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3224,7 +3224,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Portuguese%20Tile%20Wood%20Coasters",
@@ -3232,8 +3232,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/3fbff0/5917328803/il_340x270.5917328803_7lr0.jpg 340w, https://i.etsystatic.com/46731516/r/il/3fbff0/5917328803/il_600x600.5917328803_7lr0.jpg 600w, https://i.etsystatic.com/46731516/r/il/3fbff0/5917328803/il_794xN.5917328803_7lr0.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Portuguese Tile Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Schützt Tische und bringt eine warme Gravur in Alltagstischen, Schreibtischen und gemütlichen Ecken.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3241,8 +3241,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3292,8 +3292,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/7007c4/6250051934/il_340x270.6250051934_7n2k.jpg 340w, https://i.etsystatic.com/46731516/r/il/7007c4/6250051934/il_600x600.6250051934_7n2k.jpg 600w, https://i.etsystatic.com/46731516/r/il/7007c4/6250051934/il_794xN.6250051934_7n2k.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Gothic Skull Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein gotisches Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Fans auffälliger Deko, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Beistelltischen, Regalen und markanten Deko-Konzepten, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3302,7 +3302,7 @@
     ],
     "chips": [
       "Markante Deko",
-      "Einzug"
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3352,8 +3352,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8846b7/5446496422/il_340x270.5446496422_bjfu.jpg 340w, https://i.etsystatic.com/46731516/r/il/8846b7/5446496422/il_600x600.5446496422_bjfu.jpg 600w, https://i.etsystatic.com/46731516/r/il/8846b7/5446496422/il_794xN.5446496422_bjfu.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Aces Poker Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Spielzimmern, Schreibtischen und Wochenendtischen, während ein Spielemotiv den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Schützt Tische und bringt ein Spielemotiv in Spielzimmern, Schreibtischen und Wochenendtischen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3361,8 +3361,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3390,7 +3390,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -3412,8 +3412,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/2edcc7/7152998408/il_340x270.7152998408_1stg.jpg 340w, https://i.etsystatic.com/46731516/r/il/2edcc7/7152998408/il_600x600.7152998408_1stg.jpg 600w, https://i.etsystatic.com/46731516/r/il/2edcc7/7152998408/il_794xN.7152998408_1stg.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Sardine Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Lesegeschenk, mit eine warme Gravur und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Gemacht für Leser, die lieber ein schönes Extra als ein beliebiges Mitbringsel bekommen.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -3425,8 +3425,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3474,8 +3474,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/2b801b/5939846262/il_340x270.5939846262_aq1b.jpg 340w, https://i.etsystatic.com/46731516/r/il/2b801b/5939846262/il_600x600.5939846262_aq1b.jpg 600w, https://i.etsystatic.com/46731516/r/il/2b801b/5939846262/il_794xN.5939846262_aq1b.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Cricket Dad Coaster von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit ein Spielemotiv, das gut zu Spielzimmern, Schreibtischen und Wochenendtischen passt.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Ein Untersetzer-Set für Spielzimmern, Schreibtischen und Wochenendtischen, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3483,8 +3483,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3534,8 +3534,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/0efcb4/7488880455/il_340x270.7488880455_piz0.jpg 340w, https://i.etsystatic.com/46731516/r/il/0efcb4/7488880455/il_600x600.7488880455_piz0.jpg 600w, https://i.etsystatic.com/46731516/r/il/0efcb4/7488880455/il_794xN.7488880455_piz0.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Sugar Skull Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit ein gotisches Detail, das gut zu Beistelltischen, Regalen und markanten Deko-Konzepten passt.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Ein Untersetzer-Set für Beistelltischen, Regalen und markanten Deko-Konzepten, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3544,7 +3544,7 @@
     ],
     "chips": [
       "Markante Deko",
-      "Einzug"
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3594,8 +3594,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bca0c9/5333219114/il_340x270.5333219114_lv3n.jpg 340w, https://i.etsystatic.com/46731516/r/il/bca0c9/5333219114/il_600x600.5333219114_lv3n.jpg 600w, https://i.etsystatic.com/46731516/r/il/bca0c9/5333219114/il_794xN.5333219114_lv3n.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "DIY Halloween Kit Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein gotisches Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Kreative, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Beistelltischen, Regalen und markanten Deko-Konzepten, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3603,8 +3603,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "DIY Geschenk",
-      "Einzug"
+      "DIY-Geschenk",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3644,7 +3644,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Dartboard%20Coasters%20Set",
@@ -3652,8 +3652,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bd6bcf/7481334728/il_340x270.7481334728_33ng.jpg 340w, https://i.etsystatic.com/46731516/r/il/bd6bcf/7481334728/il_600x600.7481334728_33ng.jpg 600w, https://i.etsystatic.com/46731516/r/il/bd6bcf/7481334728/il_794xN.7481334728_33ng.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Dartboard Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Alltagstischen, Schreibtischen und einfachen Geschenksets, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Alltagstischen, Schreibtischen und gemütlichen Ecken, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3661,8 +3661,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3708,8 +3708,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/7ef519/7368729056/il_340x270.7368729056_ndjv.jpg 340w, https://i.etsystatic.com/46731516/r/il/7ef519/7368729056/il_600x600.7368729056_ndjv.jpg 600w, https://i.etsystatic.com/46731516/r/il/7ef519/7368729056/il_794xN.7368729056_ndjv.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Gaming Do Not Disturb Sign von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Geburtstag, mit ein Spielemotiv und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Türhänger, das sich für Gamer und Anlässe wie Geburtstag leicht auswählen lässt.",
+    "short_desc": "Gibt dem Raum eine persönliche Note für Türen, Hobbyräume und persönliche Ecken.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3766,13 +3766,13 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/1a761c/5962006217/il_340x270.5962006217_sgpc.jpg 340w, https://i.etsystatic.com/46731516/r/il/1a761c/5962006217/il_600x600.5962006217_sgpc.jpg 600w, https://i.etsystatic.com/46731516/r/il/1a761c/5962006217/il_794xN.5962006217_sgpc.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalisierte Haustier-Gedenkplakette von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Erinnerungsecken, Schreibtischen und stillen Gedenkplätzen, während ein Erinnerungsdetail den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein handgemachtes Holzplakette für Geschenkkäufer, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Macht aus einer Erinnerung etwas, das sich sichtbar aufstellen lässt.",
+    "collection_desc": "Eine Holzplakette für Erinnerungen, Meilensteine und bleibende Gesten.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
       "Erinnerungsgeschenk",
-      "Personalisiert"
+      "Personalisiertes Geschenk"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3802,7 +3802,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -3824,8 +3824,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_340x270.5558263255_rmiq.jpg 340w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg 600w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_794xN.5558263255_rmiq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Fantasy Schwert Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Lesegeschenk, mit ein Fantasy-Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Holzlesezeichen, das sich für Leser und Anlässe wie Lesegeschenk leicht auswählen lässt.",
+    "short_desc": "Gemacht für Leser, die lieber ein schönes Extra als ein beliebiges Mitbringsel bekommen.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -3839,8 +3839,8 @@
       "Fantasy Geschenk für Leser"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3886,8 +3886,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/6b90e3/5945198279/il_340x270.5945198279_d3g2.jpg 340w, https://i.etsystatic.com/46731516/r/il/6b90e3/5945198279/il_600x600.5945198279_d3g2.jpg 600w, https://i.etsystatic.com/46731516/r/il/6b90e3/5945198279/il_794xN.5945198279_d3g2.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Birch Wood Circle Blanks von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Schreibtischschubladen, Geschenkboxen und praktischen Alltagsplätzen, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein kleines Holzgeschenk mit ruhiger Ausstrahlung, passend zu Geburtstag und dem Alltag.",
+    "short_desc": "Ein kompaktes Holzgeschenk, das auch nach dem Anlass nützlich bleibt.",
+    "collection_desc": "Ein kleines Holzgeschenk mit warmer handgemachter Ausstrahlung.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
@@ -3939,8 +3939,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9e42b5/5479510204/il_340x270.5479510204_4i0v.jpg 340w, https://i.etsystatic.com/46731516/r/il/9e42b5/5479510204/il_600x600.5479510204_4i0v.jpg 600w, https://i.etsystatic.com/46731516/r/il/9e42b5/5479510204/il_794xN.5479510204_4i0v.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Tabletop Adventure Untersetzer-Set von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein Spielemotiv und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Ein Untersetzer-Set für Spielzimmern, Schreibtischen und Wochenendtischen, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -3948,8 +3948,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -3995,8 +3995,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/1e623d/7504661252/il_340x270.7504661252_eppi.jpg 340w, https://i.etsystatic.com/46731516/r/il/1e623d/7504661252/il_600x600.7504661252_eppi.jpg 600w, https://i.etsystatic.com/46731516/r/il/1e623d/7504661252/il_794xN.7504661252_eppi.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Prayer in Progress Türhänger von Craftygiftsplace",
-    "short_desc": "Gemacht für Geschenkkäufer, mit ein spirituelles Detail und einer ruhigeren handgemachten Wirkung für Schlafzimmertüren, Homeoffices und persönlichen Ecken.",
-    "collection_desc": "Ein handgemachtes Türhänger für Geschenkkäufer, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Gibt dem Raum eine persönliche Note für Türen, Hobbyräume und persönliche Ecken.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4044,7 +4044,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Wood%20Coasters",
@@ -4052,8 +4052,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_340x270.5611355601_9mfy.jpg 340w, https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_600x600.5611355601_9mfy.jpg 600w, https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_794xN.5611355601_9mfy.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Personalisiert Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit eine warme Gravur, das gut zu Alltagstischen, Schreibtischen und einfachen Geschenksets passt.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4061,8 +4061,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4108,8 +4108,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/04a22b/6453094459/il_340x270.6453094459_6kwu.jpg 340w, https://i.etsystatic.com/46731516/r/il/04a22b/6453094459/il_600x600.6453094459_6kwu.jpg 600w, https://i.etsystatic.com/46731516/r/il/04a22b/6453094459/il_794xN.6453094459_6kwu.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Bald Man's Comb von Craftygiftsplace",
-    "short_desc": "Ein kleines Holzgeschenk mit eine warme Gravur, das gut zu Schreibtischschubladen, Geschenkboxen und praktischen Alltagsplätzen passt.",
-    "collection_desc": "Ein kleines Holzgeschenk, das sich für Geschenkkäufer und Anlässe wie Geburtstag leicht auswählen lässt.",
+    "short_desc": "Ein einfaches Extra für Käufer, die etwas Kleines und Handgemachtes suchen.",
+    "collection_desc": "Ein kleines Holzgeschenk mit warmer handgemachter Ausstrahlung.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
@@ -4141,7 +4141,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -4163,8 +4163,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/0caf95/6350677773/il_340x270.6350677773_97pq.jpg 340w, https://i.etsystatic.com/46731516/r/il/0caf95/6350677773/il_600x600.6350677773_97pq.jpg 600w, https://i.etsystatic.com/46731516/r/il/0caf95/6350677773/il_794xN.6350677773_97pq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Rakete Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Gemacht für Leser, mit eine warme Gravur und einer ruhigeren handgemachten Wirkung für Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen.",
-    "collection_desc": "Ein Holzlesezeichen, das sich für Leser und Anlässe wie Lesegeschenk leicht auswählen lässt.",
+    "short_desc": "Hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -4176,8 +4176,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4225,8 +4225,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/c8dbb2/6232479392/il_340x270.6232479392_9rtx.jpg 340w, https://i.etsystatic.com/46731516/r/il/c8dbb2/6232479392/il_600x600.6232479392_9rtx.jpg 600w, https://i.etsystatic.com/46731516/r/il/c8dbb2/6232479392/il_794xN.6232479392_9rtx.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "MOBA Gamer Türhänger von Craftygiftsplace",
-    "short_desc": "Gemacht für Gamer, mit ein Spielemotiv und einer ruhigeren handgemachten Wirkung für Spielzimmern, Streaming-Ecken und Schreibtischen.",
-    "collection_desc": "Ein Türhänger, das sich für Gamer und Anlässe wie Hobbygeschenk leicht auswählen lässt.",
+    "short_desc": "Gibt dem Raum eine persönliche Note für Türen, Hobbyräume und persönliche Ecken.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4285,8 +4285,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/d5691e/5456130459/il_340x270.5456130459_5mlp.jpg 340w, https://i.etsystatic.com/46731516/r/il/d5691e/5456130459/il_600x600.5456130459_5mlp.jpg 600w, https://i.etsystatic.com/46731516/r/il/d5691e/5456130459/il_794xN.5456130459_5mlp.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "FPS Gamer Untersetzer-Set von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein Spielemotiv und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Gamer und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4295,7 +4295,7 @@
     ],
     "chips": [
       "Gamergeschenk",
-      "Einzug"
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4335,7 +4335,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Sports%20Ball%20Wooden%20Coasters",
@@ -4343,8 +4343,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/891980/5503478891/il_340x270.5503478891_mg1a.jpg 340w, https://i.etsystatic.com/46731516/r/il/891980/5503478891/il_600x600.5503478891_mg1a.jpg 600w, https://i.etsystatic.com/46731516/r/il/891980/5503478891/il_794xN.5503478891_mg1a.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Sports Ball Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Gemacht für Liebhaber gemütlicher Wohnräume, mit eine warme Gravur und einer ruhigeren handgemachten Wirkung für Alltagstischen, Schreibtischen und einfachen Geschenksets.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Alltagstischen, Schreibtischen und gemütlichen Ecken, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4352,8 +4352,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4401,8 +4401,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/106593/6445292551/il_340x270.6445292551_i62c.jpg 340w, https://i.etsystatic.com/46731516/r/il/106593/6445292551/il_600x600.6445292551_i62c.jpg 600w, https://i.etsystatic.com/46731516/r/il/106593/6445292551/il_794xN.6445292551_i62c.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "FPS Gamer Türhänger von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Hobbygeschenk, mit ein Spielemotiv und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein handgemachtes Türhänger für Gamer, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Holzschild, das sofort auffällt und sich leicht aufhängen lässt.",
+    "collection_desc": "Ein Türhänger aus Holz für Schlafzimmer, Hobbyräume und persönliche Ecken.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4439,7 +4439,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -4461,8 +4461,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a3f9f1/5930235094/il_340x270.5930235094_keb8.jpg 340w, https://i.etsystatic.com/46731516/r/il/a3f9f1/5930235094/il_600x600.5930235094_keb8.jpg 600w, https://i.etsystatic.com/46731516/r/il/a3f9f1/5930235094/il_794xN.5930235094_keb8.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Von 1984 inspiriertes Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Holzlesezeichen mit ruhiger Ausstrahlung, passend zu Lesegeschenk und dem Alltag.",
+    "short_desc": "Ein Holzlesezeichen für Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen, klein im Format und trotzdem besonders.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -4474,8 +4474,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4517,7 +4517,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Fishing%20Coasters",
@@ -4525,8 +4525,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/784d62/5456321300/il_340x270.5456321300_r9oc.jpg 340w, https://i.etsystatic.com/46731516/r/il/784d62/5456321300/il_600x600.5456321300_r9oc.jpg 600w, https://i.etsystatic.com/46731516/r/il/784d62/5456321300/il_794xN.5456321300_r9oc.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Fishing Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Gemacht für Liebhaber gemütlicher Wohnräume, mit eine warme Gravur und einer ruhigeren handgemachten Wirkung für Alltagstischen, Schreibtischen und einfachen Geschenksets.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4534,8 +4534,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4585,8 +4585,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/fbf85f/5872491538/il_340x270.5872491538_biw7.jpg 340w, https://i.etsystatic.com/46731516/r/il/fbf85f/5872491538/il_600x600.5872491538_biw7.jpg 600w, https://i.etsystatic.com/46731516/r/il/fbf85f/5872491538/il_794xN.5872491538_biw7.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Golf Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Gemacht für Liebhaber gemütlicher Wohnräume, mit ein Spielemotiv und einer ruhigeren handgemachten Wirkung für Spielzimmern, Schreibtischen und Wochenendtischen.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4594,8 +4594,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4635,7 +4635,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Engraved%20Bitcoin%20Coasters%20Set",
@@ -4643,8 +4643,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/af65d9/6310115112/il_340x270.6310115112_i33q.jpg 340w, https://i.etsystatic.com/46731516/r/il/af65d9/6310115112/il_600x600.6310115112_i33q.jpg 600w, https://i.etsystatic.com/46731516/r/il/af65d9/6310115112/il_794xN.6310115112_i33q.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Bitcoin Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Gemacht für Liebhaber gemütlicher Wohnräume, mit eine warme Gravur und einer ruhigeren handgemachten Wirkung für Alltagstischen, Schreibtischen und einfachen Geschenksets.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4652,8 +4652,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4703,8 +4703,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/db8621/6360269569/il_340x270.6360269569_a57j.jpg 340w, https://i.etsystatic.com/46731516/r/il/db8621/6360269569/il_600x600.6360269569_a57j.jpg 600w, https://i.etsystatic.com/46731516/r/il/db8621/6360269569/il_794xN.6360269569_a57j.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Picasso Tier Line Art Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit ein botanisches Detail, das gut zu Küchen, Gästetischen und warmen Wohnräumen passt.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Liebhaber gemütlicher Wohnräume und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Schützt Tische und bringt ein botanisches Detail in Küchen, Gästetischen und warmen Wohnräumen.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -4712,8 +4712,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4724,7 +4724,7 @@
     "locale": "de",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Fantasy Lesegeschenk Set",
+    "name": "Fantasy-Leserset",
     "price": "34.99",
     "price_label": "EUR 34.99",
     "audience_keys": [
@@ -4743,7 +4743,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -4764,9 +4764,9 @@
     "image": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_340x270.7593439386_5kt7.jpg 340w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg 600w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_794xN.7593439386_5kt7.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy Lesegeschenk Set von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Lesegeschenk, mit ein Fantasy-Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, die etwas Warmes und Nützliches suchen.",
+    "alt": "Fantasy-Leserset von Craftygiftsplace",
+    "short_desc": "Gemacht für Leser, die lieber ein schönes Extra als ein beliebiges Mitbringsel bekommen.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -4780,8 +4780,8 @@
       "Fantasy Geschenk für Leser"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4809,7 +4809,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -4833,8 +4833,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/70f541/5862785388/il_340x270.5862785388_v7tu.jpg 340w, https://i.etsystatic.com/46731516/r/il/70f541/5862785388/il_600x600.5862785388_v7tu.jpg 600w, https://i.etsystatic.com/46731516/r/il/70f541/5862785388/il_794xN.5862785388_v7tu.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Witch Symbols Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Ein Holzlesezeichen mit himmlische Linienarbeit, das gut zu Lesetagebüchern, Nachttischen und ruhigen Lesestunden passt.",
-    "collection_desc": "Ein Holzlesezeichen, das sich für Leser und Anlässe wie Lesegeschenk leicht auswählen lässt.",
+    "short_desc": "Ein Holzlesezeichen für Lesetagebüchern, Nachttischen und ruhigen Lesestunden, klein im Format und trotzdem besonders.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -4846,8 +4846,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4875,7 +4875,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -4897,8 +4897,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/baa714/5867402258/il_340x270.5867402258_k3f2.jpg 340w, https://i.etsystatic.com/46731516/r/il/baa714/5867402258/il_600x600.5867402258_k3f2.jpg 600w, https://i.etsystatic.com/46731516/r/il/baa714/5867402258/il_794xN.5867402258_k3f2.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Klassisches Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Gemacht für Leser, mit eine warme Gravur und einer ruhigeren handgemachten Wirkung für Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen.",
-    "collection_desc": "Ein Holzlesezeichen, das sich für Leser und Anlässe wie Lesegeschenk leicht auswählen lässt.",
+    "short_desc": "Gemacht für Leser, die lieber ein schönes Extra als ein beliebiges Mitbringsel bekommen.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -4910,8 +4910,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -4922,7 +4922,7 @@
     "locale": "de",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Personalisiertes Feder Holzlesezeichen",
+    "name": "Personalisiertes Holzlesezeichen mit Feder",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -4939,7 +4939,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -4960,9 +4960,9 @@
     "image": "https://i.etsystatic.com/46731516/r/il/d43783/6350652261/il_600x600.6350652261_krpm.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/d43783/6350652261/il_340x270.6350652261_krpm.jpg 340w, https://i.etsystatic.com/46731516/r/il/d43783/6350652261/il_600x600.6350652261_krpm.jpg 600w, https://i.etsystatic.com/46731516/r/il/d43783/6350652261/il_794xN.6350652261_krpm.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Personalisiertes Feder Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen, während eine warme Gravur den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein Holzlesezeichen, das sich für Leser und Anlässe wie Lesegeschenk leicht auswählen lässt.",
+    "alt": "Personalisiertes Holzlesezeichen mit Feder von Craftygiftsplace",
+    "short_desc": "Hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -4974,8 +4974,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -5003,7 +5003,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -5025,8 +5025,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/10210b/6302753436/il_340x270.6302753436_7f9v.jpg 340w, https://i.etsystatic.com/46731516/r/il/10210b/6302753436/il_600x600.6302753436_7f9v.jpg 600w, https://i.etsystatic.com/46731516/r/il/10210b/6302753436/il_794xN.6302753436_7f9v.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Leuchtturm Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Hält die Seite leicht wiederfindbar und bringt ein Küstendetail in Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen.",
-    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -5038,8 +5038,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -5087,8 +5087,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/5f82fd/5844157974/il_340x270.5844157974_54wf.jpg 340w, https://i.etsystatic.com/46731516/r/il/5f82fd/5844157974/il_600x600.5844157974_54wf.jpg 600w, https://i.etsystatic.com/46731516/r/il/5f82fd/5844157974/il_794xN.5844157974_54wf.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Himmlische Katzen Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Wirkt stimmig in Kaffeetischen, Schreibtischen und gemütlichen Ecken, während ein Katzenmotiv den handgemachten Eindruck warm hält.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Katzenliebhaber, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Ein Untersetzer-Set für Kaffeetischen, Schreibtischen und gemütlichen Ecken, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "cat-lover-gift",
       "cozy-home-decor",
@@ -5100,8 +5100,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Katzenfan",
-      "Einzug"
+      "Geschenk für Katzenliebhaber",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -5149,8 +5149,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/313bf1/7414342910/il_340x270.7414342910_5k0q.jpg 340w, https://i.etsystatic.com/46731516/r/il/313bf1/7414342910/il_600x600.7414342910_5k0q.jpg 600w, https://i.etsystatic.com/46731516/r/il/313bf1/7414342910/il_794xN.7414342910_5k0q.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Camping Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Schützt Tische und bringt ein Küstendetail in Gästezimmern, Terrassen und entspannten Wohnungen.",
-    "collection_desc": "Ein Untersetzer-Set mit ruhiger Ausstrahlung, passend zu Einzug und dem Alltag.",
+    "short_desc": "Ein Untersetzer-Set für Gästezimmern, Terrassen und entspannten Wohnungen, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -5158,8 +5158,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -5187,7 +5187,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -5209,8 +5209,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/7aad23/5835539282/il_340x270.5835539282_qawn.jpg 340w, https://i.etsystatic.com/46731516/r/il/7aad23/5835539282/il_600x600.5835539282_qawn.jpg 600w, https://i.etsystatic.com/46731516/r/il/7aad23/5835539282/il_794xN.5835539282_qawn.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Spanish Guitar Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Ein Holzlesezeichen mit eine warme Gravur, das gut zu Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen passt.",
-    "collection_desc": "Ein Holzlesezeichen, das sich für Leser und Anlässe wie Lesegeschenk leicht auswählen lässt.",
+    "short_desc": "Passt leicht in Buchgeschenke, Lesetagebücher und ruhige Abendroutinen.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -5222,8 +5222,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -5253,7 +5253,7 @@
       "everyday-gift"
     ],
     "occasions": [
-      "Lesegeschenk",
+      "Geschenk für Leser",
       "Geburtstag",
       "kleines Alltagsgeschenk"
     ],
@@ -5277,8 +5277,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/88c057/6345408651/il_340x270.6345408651_46a3.jpg 340w, https://i.etsystatic.com/46731516/r/il/88c057/6345408651/il_600x600.6345408651_46a3.jpg 600w, https://i.etsystatic.com/46731516/r/il/88c057/6345408651/il_794xN.6345408651_46a3.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Gothic Skull Holzlesezeichen von Craftygiftsplace",
-    "short_desc": "Gemacht für Leser, mit ein gotisches Detail und einer ruhigeren handgemachten Wirkung für Dark-Academia-Regalen und dramatischen Leseecken.",
-    "collection_desc": "Ein Holzlesezeichen mit ruhiger Ausstrahlung, passend zu Lesegeschenk und dem Alltag.",
+    "short_desc": "Gemacht für Leser, die lieber ein schönes Extra als ein beliebiges Mitbringsel bekommen.",
+    "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
       "reader-gift",
       "book-lover-gift",
@@ -5290,8 +5290,8 @@
       "Lesezeichengeschenk"
     ],
     "chips": [
-      "Lesegeschenk",
-      "Buchgeschenk"
+      "Geschenk für Leser",
+      "Geschenk für Bücherfans"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -5331,7 +5331,7 @@
     "format_key": "coasters",
     "format_label": "Untersetzer-Set",
     "motif": "eine warme Gravur",
-    "usage_context": "Alltagstischen, Schreibtischen und einfachen Geschenksets",
+    "usage_context": "Alltagstischen, Schreibtischen und gemütlichen Ecken",
     "benefit_primary": "schützt Tische",
     "benefit_secondary": "setzt thematische Deko",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Hunting%20Life%20Wood%20Coaster",
@@ -5339,8 +5339,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b3a9fd/6310182096/il_340x270.6310182096_1c8i.jpg 340w, https://i.etsystatic.com/46731516/r/il/b3a9fd/6310182096/il_600x600.6310182096_1c8i.jpg 600w, https://i.etsystatic.com/46731516/r/il/b3a9fd/6310182096/il_794xN.6310182096_1c8i.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Hunting Life Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit eine warme Gravur, das gut zu Alltagstischen, Schreibtischen und einfachen Geschenksets passt.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Schützt Tische und bringt eine warme Gravur in Alltagstischen, Schreibtischen und gemütlichen Ecken.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -5348,8 +5348,8 @@
       "Einzugsgeschenk"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -5399,8 +5399,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/2c31a7/6333629560/il_340x270.6333629560_9ta6.jpg 340w, https://i.etsystatic.com/46731516/r/il/2c31a7/6333629560/il_600x600.6333629560_9ta6.jpg 600w, https://i.etsystatic.com/46731516/r/il/2c31a7/6333629560/il_794xN.6333629560_9ta6.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Hand-Painted Wiccan Symbol Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Eine unkomplizierte Wahl für Einzug, mit ein gotisches Detail und praktischem Nutzen im Alltag.",
-    "collection_desc": "Ein Untersetzer-Set, das sich für Fans auffälliger Deko und Anlässe wie Einzug leicht auswählen lässt.",
+    "short_desc": "Ein Untersetzer-Set für Beistelltischen, Regalen und markanten Deko-Konzepten, das wärmer wirkt als ein schlichtes Tisch-Extra.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift"
     ],
@@ -5409,7 +5409,7 @@
     ],
     "chips": [
       "Markante Deko",
-      "Einzug"
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"
@@ -5455,8 +5455,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/885244/7443464993/il_340x270.7443464993_trrw.jpg 340w, https://i.etsystatic.com/46731516/r/il/885244/7443464993/il_600x600.7443464993_trrw.jpg 600w, https://i.etsystatic.com/46731516/r/il/885244/7443464993/il_794xN.7443464993_trrw.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Upcycled Ram Keychain von Craftygiftsplace",
-    "short_desc": "Ein kleines Holzgeschenk mit eine warme Gravur, das gut zu Schreibtischschubladen, Geschenkboxen und praktischen Alltagsplätzen passt.",
-    "collection_desc": "Ein kleines Holzgeschenk mit ruhiger Ausstrahlung, passend zu Geburtstag und dem Alltag.",
+    "short_desc": "Ein kompaktes Holzgeschenk, das auch nach dem Anlass nützlich bleibt.",
+    "collection_desc": "Ein kleines Holzgeschenk mit warmer handgemachter Ausstrahlung.",
     "intent_keys": [],
     "intent_tags": [],
     "chips": [
@@ -5510,8 +5510,8 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/bd29be/7372563446/il_340x270.7372563446_2bxg.jpg 340w, https://i.etsystatic.com/46731516/r/il/bd29be/7372563446/il_600x600.7372563446_2bxg.jpg 600w, https://i.etsystatic.com/46731516/r/il/bd29be/7372563446/il_794xN.7372563446_2bxg.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Pilz und Mond Holzuntersetzer von Craftygiftsplace",
-    "short_desc": "Ein Untersetzer-Set mit himmlische Linienarbeit, das gut zu Kaffeetischen, Beistelltischen und stimmungsvollen Räumen passt.",
-    "collection_desc": "Ein handgemachtes Untersetzer-Set für Liebhaber gemütlicher Wohnräume, die etwas Warmes und Nützliches suchen.",
+    "short_desc": "Eine praktische Wahl für Getränke im Alltag mit einem klaren Holzcharakter.",
+    "collection_desc": "Ein handgemachtes Untersetzer-Set für Couchtische, Schreibtische und warme Wohnräume.",
     "intent_keys": [
       "housewarming-gift",
       "reading-nook-gift"
@@ -5521,8 +5521,8 @@
       "Geschenk für die Leseecke"
     ],
     "chips": [
-      "Gemütliche Deko",
-      "Einzug"
+      "Geschenk fürs Zuhause",
+      "Geschenk zum Einzug"
     ],
     "cta_label": "Auf Etsy ansehen",
     "brand_suffix": "von Craftygiftsplace"

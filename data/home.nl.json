@@ -4,7 +4,7 @@
   "h1": "Handgemaakte houten cadeaus met warme uitstraling",
   "eyebrow": "4.96/5 op Etsy",
   "intro": "Shop kattenthema-onderzetters, lezerscadeaus en warme houten decoratie zonder eerst door een brede catalogus te hoeven zoeken.",
-  "heroSupport": "Begin met de bestsellers en ga daarna verder naar gelegenheden of collecties als je specifieker wilt kijken.",
+  "heroSupport": "Begin met de bestsellers en blader daarna per gelegenheid of collectie als je gerichter wilt kijken.",
   "discoveryCta": {
     "label": "Ontdek bestsellers",
     "target": "#featured-bestsellers"
@@ -29,7 +29,7 @@
     },
     "occasions": {
       "heading": "Shop per gelegenheid",
-      "intro": "Liever eerst de juiste cadeauredenering kiezen? Begin dan hier."
+      "intro": "Kies je liever eerst op gelegenheid? Begin dan hier."
     },
     "collections": {
       "heading": "Blader per collectie",
@@ -62,13 +62,13 @@
       "title": "Lezerscadeaus",
       "description": "Bekijk bladwijzers, fantasy-sets en leeshoekideeën voor boekenliefhebbers en rustige planken.",
       "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Fantasy lezerscadeauset voor boekenliefhebbers",
+      "imageAlt": "Fantasy lezersset voor boekenliefhebbers",
       "href": "/pages/lezerscadeaus.html"
     },
     {
       "kicker": "Nieuwe woning",
       "title": "Verhuiscadeaus",
-      "description": "Open bruikbare houten stukken die makkelijk werken voor warme appartementen en nieuwe huizen.",
+      "description": "Bekijk bruikbare houten stukken voor salontafels, planken en doordachte cadeaus voor een nieuw huis.",
       "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
       "imageAlt": "Zodiac houten onderzetters als verhuiscadeau",
       "href": "/pages/verhuiscadeaus.html"
@@ -77,15 +77,15 @@
   "featuredItems": [
     {
       "slug": "cat-and-moon-wooden-coasters",
-      "summary": "Een gezellige onderzetterset met kattenthema die tafels beschermt en meteen warm aanvoelt als cadeau."
+      "summary": "Een warme onderzetterset met kattenthema voor salontafels, dressoirs en doordachte cadeaus voor kattenliefhebbers."
     },
     {
       "slug": "fantasy-reader-gift-set",
-      "summary": "Een lezersset met bladwijzer, deurhanger en onderzetters voor kopers die op Etsy meteen een sterker totaalcadeau zoeken."
+      "summary": "Een complete set met bladwijzer, deurhanger en onderzetters voor fantasylezers."
     },
     {
       "slug": "moon-cat-shadow-tealight-holder",
-      "summary": "Een klein plankstuk dat snel sfeer toevoegt wanneer iemand liever decoratie geeft dan een standaard item."
+      "summary": "Een klein decorstuk dat snel sfeer brengt op planken en in leeshoeken."
     }
   ],
   "intentCards": [
@@ -98,9 +98,9 @@
     },
     {
       "title": "Lezerscadeaus",
-      "description": "Bladwijzers, fantasy lezerssets en stukken voor de leeshoek die passen bij boekenliefhebbers en rustige cadeaumomenten.",
+      "description": "Bladwijzers, fantasy-sets en stukken voor de leeshoek die passen bij boekenliefhebbers en rustige hoekjes.",
       "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Fantasy lezerscadeauset voor boekenliefhebbers",
+      "imageAlt": "Fantasy lezersset voor boekenliefhebbers",
       "href": "/pages/lezerscadeaus.html"
     },
     {
@@ -114,21 +114,21 @@
   "collectionCards": [
     {
       "title": "Houten onderzetters",
-      "description": "Kat-, hemelse en botanische onderzettersets voor gezellige tafels, planken en makkelijke cadeaus.",
+      "description": "Kat-, hemelse en botanische onderzettersets voor gezellige tafels, planken en doordachte cadeaus.",
       "image": "/assets/img/products/cat-and-moon-coasters.jpg",
       "imageAlt": "Collectie houten onderzetters",
       "href": "/pages/onderzetters.html"
     },
     {
       "title": "Houten bladwijzers",
-      "description": "Lezersgerichte bladwijzers en boekcadeaus voor fantasyplanken, leesjournalen en rustige hoofdstukken.",
+      "description": "Lezersgerichte bladwijzers en boekcadeaus voor fantasyboekenplanken, leesjournalen en rustige leesmomenten.",
       "image": "/assets/img/products/celtic-bookmark.jpg",
       "imageAlt": "Collectie houten bladwijzers",
       "href": "/pages/bladwijzers.html"
     },
     {
       "title": "Houten cadeaus",
-      "description": "Theelichthouders, bewaarcadeaus, deurhangers en decoratie voor planken, entrees en betekenisvolle momenten.",
+      "description": "Theelichthouders, herinneringscadeaus, deurhangers en decoratie voor planken, entrees en betekenisvolle momenten.",
       "image": "/assets/img/products/just-married-door-hanger.jpg",
       "imageAlt": "Collectie houten cadeaus",
       "href": "/pages/houten-cadeaus.html"
@@ -136,7 +136,7 @@
   ],
   "supportCards": [
     {
-      "title": "Begin met de sterkste keuzes",
+      "title": "Begin met de bestsellers",
       "text": "Deze homepage zet de duidelijkste cadeaukeuzes vooraan, zodat bezoekers sneller bij een goede optie uitkomen."
     },
     {

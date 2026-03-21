@@ -23,7 +23,10 @@ const editorialBans = {
     "taxonomy",
     "internal links",
     "internal routes",
-    "site architecture"
+    "site architecture",
+    "gift-ready",
+    "etsy-ready",
+    "reader gifting"
   ],
   nl: [
     "productgrid",
@@ -37,7 +40,12 @@ const editorialBans = {
     "metadata",
     "taxonomie",
     "interne links",
-    "sitestructuur"
+    "sitestructuur",
+    "cadeauredenering",
+    "plankstuk",
+    "fantasyplanken",
+    "bewaarcadeau",
+    "cadeauwaardig"
   ],
   de: [
     "produktgitter",
@@ -52,7 +60,13 @@ const editorialBans = {
     "interne links",
     "seitenarchitektur",
     "product grid",
-    "localized product data"
+    "localized product data",
+    "geschenkfertig",
+    "lesegeschenk",
+    "buchgeschenk",
+    "regalstück",
+    "geschenkgrund",
+    "gesamtgeschenk"
   ]
 };
 

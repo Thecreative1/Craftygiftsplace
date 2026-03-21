@@ -3,8 +3,8 @@
   "metaDescription": "Discover handmade wooden gifts for readers, cat lovers and cozy homes. Browse bestselling coasters, bookmarks and warm wooden decor that lead shoppers to Etsy.",
   "h1": "Handmade wooden gifts with cozy character",
   "eyebrow": "4.96/5 on Etsy",
-  "intro": "Shop cat-themed coasters, reader gifts and warm wooden decor without digging through a crowded catalog first.",
-  "heroSupport": "Start with bestselling picks, then jump into occasions or collections when you want a closer look.",
+  "intro": "Shop cat-themed coasters, gifts for readers and warm wooden decor without digging through the full catalog first.",
+  "heroSupport": "Start with the bestsellers, then browse by occasion or collection when you want a closer look.",
   "discoveryCta": {
     "label": "Discover bestselling gifts",
     "target": "#featured-bestsellers"
@@ -25,7 +25,7 @@
     },
     "bestsellers": {
       "heading": "Bestselling Gifts",
-      "intro": "Three strong starting points if you want a fast, proven pick."
+      "intro": "Three strong starting points if you want a quick, proven pick."
     },
     "occasions": {
       "heading": "Shop by occasion",
@@ -50,7 +50,7 @@
   },
   "featuredCategories": [
     {
-      "kicker": "Cat gifts",
+      "kicker": "For cat lovers",
       "title": "Cat lover gifts",
       "description": "Go straight to cat-themed coasters and warm wooden decor for cozy homes and birthdays.",
       "image": "/assets/img/products/cat-and-moon-coasters.jpg",
@@ -58,7 +58,7 @@
       "href": "/en/pages/cat-lover-gifts.html"
     },
     {
-      "kicker": "Bookish gifts",
+      "kicker": "For readers",
       "title": "Reader gifts",
       "description": "See bookmarks, fantasy sets and reading nook pieces for book lovers and cozy shelves.",
       "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
@@ -66,9 +66,9 @@
       "href": "/en/pages/reader-gifts.html"
     },
     {
-      "kicker": "New-home gifts",
+      "kicker": "For new homes",
       "title": "Housewarming gifts",
-      "description": "Open useful wooden pieces that feel easy to buy for warm apartments and new homes.",
+      "description": "Browse useful wooden pieces for coffee tables, shelves and thoughtful new-home gifts.",
       "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
       "imageAlt": "Zodiac wooden coasters for housewarming gifting",
       "href": "/en/pages/housewarming-gifts.html"
@@ -77,15 +77,15 @@
   "featuredItems": [
     {
       "slug": "cat-and-moon-wooden-coasters",
-      "summary": "A cozy cat-themed coaster set that protects tables while making the gift feel warm and easy to place."
+      "summary": "A warm cat-themed coaster set for coffee tables, sideboards and thoughtful cat-lover gifts."
     },
     {
       "slug": "fantasy-reader-gift-set",
-      "summary": "A reader-ready bundle that gives bookmark, door sign and coasters in one stronger themed Etsy pick."
+      "summary": "A ready-made gift set with a bookmark, door hanger and coasters for fantasy readers."
     },
     {
       "slug": "moon-cat-shadow-tealight-holder",
-      "summary": "A small shelf accent that adds mood fast when someone wants a decorative gift instead of another basic item."
+      "summary": "A small wooden tealight holder that adds atmosphere to shelves and reading nooks."
     }
   ],
   "intentCards": [
@@ -98,7 +98,7 @@
     },
     {
       "title": "Reader gifts",
-      "description": "Bookmarks, fantasy reader bundles and reading nook pieces that suit book lovers and cozy gifting.",
+      "description": "Bookmarks, fantasy-themed sets and reading nook pieces for book lovers and cozy corners.",
       "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
       "imageAlt": "Fantasy Reader Gift Set for book lovers",
       "href": "/en/pages/reader-gifts.html"
@@ -114,21 +114,21 @@
   "collectionCards": [
     {
       "title": "Wooden coasters",
-      "description": "Cat, celestial and botanical coaster sets for cozy tables, shelves and easy gifting.",
+      "description": "Cat, celestial and botanical coaster sets for cozy tables, shelves and thoughtful gifting.",
       "image": "/assets/img/products/cat-and-moon-coasters.jpg",
       "imageAlt": "Wooden coaster collection",
       "href": "/en/pages/wooden-coasters.html"
     },
     {
       "title": "Wooden bookmarks",
-      "description": "Reader-focused bookmarks and bookish gift sets for fantasy shelves, reading journals and cozy chapters.",
+      "description": "Reader-focused bookmarks and gift sets for fantasy shelves, reading journals and cozy evenings.",
       "image": "/assets/img/products/celtic-bookmark.jpg",
       "imageAlt": "Wooden bookmark collection",
       "href": "/en/pages/wooden-bookmarks.html"
     },
     {
       "title": "Wooden gifts",
-      "description": "Tealight holders, keepsakes, door hangers and decor pieces for shelves, entryways and thoughtful gifting moments.",
+      "description": "Tealight holders, keepsakes, door hangers and decor pieces for shelves, entryways and meaningful gifts.",
       "image": "/assets/img/products/just-married-door-hanger.jpg",
       "imageAlt": "Wooden gifts collection",
       "href": "/en/pages/wooden-gifts.html"
@@ -136,8 +136,8 @@
   ],
   "supportCards": [
     {
-      "title": "Start with the strongest picks",
-      "text": "This homepage pulls the clearest gift ideas to the front so shoppers can reach a strong option faster."
+      "title": "Start with the bestsellers",
+      "text": "This homepage puts the clearest gift ideas up front so shoppers can reach a strong option faster."
     },
     {
       "title": "Choose by occasion or collection",
