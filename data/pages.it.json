@@ -65,9 +65,9 @@
       {
         "kicker": "Per lettori",
         "title": "Regali per lettori",
-        "description": "Scopri segnalibri, set fantasy e pezzi per angoli lettura pensati per chi ama i libri.",
+        "description": "Scopri segnalibri, set per lettori fantasy e pezzi per angoli lettura pensati per chi ama i libri.",
         "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Fantasy Reader Gift Set per lettori",
+        "imageAlt": "Set per lettori fantasy",
         "href": "/it/pages/regali-per-lettori.html"
       },
       {
@@ -103,9 +103,9 @@
       },
       {
         "title": "Regali per lettori",
-        "description": "Segnalibri, set fantasy e pezzi per angoli lettura pensati per lettori e scaffali accoglienti.",
+        "description": "Segnalibri, set per lettori fantasy e pezzi per angoli lettura pensati per lettori e scaffali accoglienti.",
         "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Fantasy Reader Gift Set per lettori",
+        "imageAlt": "Set per lettori fantasy",
         "href": "/it/pages/regali-per-lettori.html"
       },
       {
@@ -416,7 +416,7 @@
     "featuredItems": [
       {
         "slug": "dragon-eye-wooden-bookmark",
-        "summary": "Un segnalibro fantasy molto visivo per lettori che amano dettagli forti su uno scaffale o in un diario di lettura."
+        "summary": "Un segnalibro fantasy molto visivo per lettori che amano dettagli decisi su uno scaffale o in un diario di lettura."
       },
       {
         "slug": "fantasy-reader-gift-set",
@@ -468,7 +468,7 @@
       {
         "label": "Regali per lettori",
         "href": "/it/pages/regali-per-lettori.html",
-        "description": "Segnalibri, set fantasy e piccoli pezzi per angoli lettura raccolti in una sola pagina."
+        "description": "Segnalibri, set per lettori fantasy e piccoli pezzi per angoli lettura raccolti in una sola pagina."
       },
       {
         "label": "Regali in legno",
@@ -565,11 +565,11 @@
         "summary": "Un piccolo portacandela caldo per mensole, consolle e angoli lettura."
       },
       {
-        "slug": "laser-birch-wood-incense-burner",
+        "slug": "personalized-just-married-wooden-door-hanger",
         "summary": "Una targhetta da porta più personale quando il regalo deve essere visibile fin dall'ingresso."
       },
       {
-        "slug": "personalized-just-married-wooden-door-hanger",
+        "slug": "just-married-wedding-money-holder",
         "summary": "Un ricordo personalizzato che si adatta bene a matrimoni, anniversari e momenti che vale la pena conservare."
       }
     ],
@@ -584,6 +584,7 @@
         "moon-cat-shadow-tealight-holder",
         "laser-birch-wood-incense-burner",
         "personalized-just-married-wooden-door-hanger",
+        "just-married-wedding-money-holder",
         "epic-fantasy-door-sign",
         "personalized-pet-memorial-plaque",
         "do-not-ring-door-sign"
@@ -897,10 +898,10 @@
     "template": "intent",
     "locale": "it",
     "title": "Regali in legno per lettori, angoli lettura e scaffali accoglienti | Craftygiftsplace",
-    "metaDescription": "Esplora regali in legno per lettori, con segnalibri, un set fantasy e pezzi per angoli lettura e scaffali tranquilli.",
+    "metaDescription": "Esplora regali in legno per lettori, con segnalibri, un set per lettori fantasy e pezzi per angoli lettura e scaffali tranquilli.",
     "h1": "Regali in legno per lettori e angoli lettura accoglienti",
     "eyebrow": "Guida regalo",
-    "intro": "Questa pagina aiuta chi sta già cercando un regalo per lettori. Riunisce segnalibri, un set fantasy coordinato e alcuni pezzi che stanno bene in un angolo lettura, così si possono confrontare più stili senza uscire dallo stesso tema.",
+    "intro": "Questa pagina aiuta chi sta già cercando un regalo per lettori. Riunisce segnalibri, un set per lettori fantasy coordinato e alcuni pezzi che stanno bene in un angolo lettura, così si possono confrontare più stili senza uscire dallo stesso tema.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -986,7 +987,7 @@
         "fantasy-wooden-coasters",
         "laser-birch-wood-incense-burner"
       ],
-      "intro": "Idee in legno per lettori, segnalibri, set fantasy e piccoli dettagli per angoli lettura.",
+      "intro": "Idee in legno per lettori, segnalibri, set per lettori fantasy e piccoli dettagli per angoli lettura.",
       "ctaLabel": "Vedi i regali per lettori su Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },

@@ -3074,6 +3074,66 @@
     "brand_suffix": "van Craftygiftsplace"
   },
   {
+    "slug": "just-married-wedding-money-holder",
+    "source_id": "just-married-wedding-money-holder",
+    "locale": "nl",
+    "category": "wooden-gifts",
+    "section": "persoonlijke-cadeaus",
+    "name": "Trouwgeldhouder voor pasgetrouwden",
+    "price": "14.99",
+    "price_label": "EUR 14.99",
+    "audience_keys": [
+      "newlyweds"
+    ],
+    "audience": [
+      "pasgetrouwden"
+    ],
+    "occasion_keys": [
+      "wedding",
+      "anniversary",
+      "birthday",
+      "everyday-gift"
+    ],
+    "occasions": [
+      "bruiloft",
+      "jubileum",
+      "verjaardag",
+      "klein cadeau"
+    ],
+    "style_keys": [
+      "personalized"
+    ],
+    "style": [
+      "persoonlijk"
+    ],
+    "theme_key": "wedding",
+    "format_key": "keepsake",
+    "format_label": "herinneringscadeau",
+    "motif": "een mijlpaaldetail",
+    "usage_context": "cadeaudozen, herinneringsplanken en mijlpaaltafels",
+    "benefit_primary": "markeert een mijlpaal op een bruikbare manier",
+    "benefit_secondary": "maakt het moment makkelijker om te bewaren",
+    "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wedding%20Money%20Holder",
+    "image": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg",
+    "image_srcset": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_340x270.7821492120_9zkv.jpg 340w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg 600w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_794xN.7821492120_9zkv.jpg 794w",
+    "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
+    "alt": "Trouwgeldhouder voor pasgetrouwden van Craftygiftsplace",
+    "short_desc": "Gemaakt voor momenten die meer vragen dan een kaartje alleen.",
+    "collection_desc": "Een houten herinneringscadeau voor mijlpalen, herinneringen en bijzondere data.",
+    "intent_keys": [
+      "personalized-wedding-gift"
+    ],
+    "intent_tags": [
+      "gepersonaliseerd huwelijkscadeau"
+    ],
+    "chips": [
+      "Cadeau voor pasgetrouwden",
+      "Bruiloftscadeau"
+    ],
+    "cta_label": "Bekijk Trouwgeldhouder voor pasgetrouwden op Etsy",
+    "brand_suffix": "van Craftygiftsplace"
+  },
+  {
     "slug": "personalized-calendar-coaster",
     "source_id": "personalized-calendar-coaster",
     "locale": "nl",
@@ -3783,7 +3843,7 @@
     "locale": "nl",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Fantasy zwaard houten bladwijzer",
+    "name": "Fantasiezwaard houten bladwijzer",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -3823,7 +3883,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_340x270.5558263255_rmiq.jpg 340w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg 600w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_794xN.5558263255_rmiq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy zwaard houten bladwijzer van Craftygiftsplace",
+    "alt": "Fantasiezwaard houten bladwijzer van Craftygiftsplace",
     "short_desc": "Houdt je pagina makkelijk terugvindbaar en voegt karakter toe aan het leesmoment.",
     "collection_desc": "Een handgemaakte bladwijzer voor lezers, boekcadeaus en rustige leesmomenten.",
     "intent_keys": [
@@ -3842,7 +3902,7 @@
       "Cadeau voor lezers",
       "Cadeau voor boekenliefhebbers"
     ],
-    "cta_label": "Bekijk Fantasy zwaard houten bladwijzer op Etsy",
+    "cta_label": "Bekijk Fantasiezwaard houten bladwijzer op Etsy",
     "brand_suffix": "van Craftygiftsplace"
   },
   {
@@ -4724,7 +4784,7 @@
     "locale": "nl",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Fantasy lezersset",
+    "name": "Cadeauset voor fantasylezers",
     "price": "34.99",
     "price_label": "EUR 34.99",
     "audience_keys": [
@@ -4764,7 +4824,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_340x270.7593439386_5kt7.jpg 340w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg 600w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_794xN.7593439386_5kt7.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy lezersset van Craftygiftsplace",
+    "alt": "Cadeauset voor fantasylezers van Craftygiftsplace",
     "short_desc": "Houdt je pagina makkelijk terugvindbaar en voegt karakter toe aan het leesmoment.",
     "collection_desc": "Een handgemaakte bladwijzer voor lezers, boekcadeaus en rustige leesmomenten.",
     "intent_keys": [
@@ -4783,7 +4843,7 @@
       "Cadeau voor lezers",
       "Cadeau voor boekenliefhebbers"
     ],
-    "cta_label": "Bekijk Fantasy lezersset op Etsy",
+    "cta_label": "Bekijk Cadeauset voor fantasylezers op Etsy",
     "brand_suffix": "van Craftygiftsplace"
   },
   {

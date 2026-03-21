@@ -79,10 +79,10 @@ const definition = {
       }
     },
     bookmarks: {
-      title: "Marcadores de livros de madeira feitos à mão para estantes fantasy e leituras tranquilas | Craftygiftsplace",
-      metaDescription: "Descobre marcadores de livros de madeira feitos à mão para estantes fantasy, presentes para leitores e momentos de leitura tranquilos com muito carácter.",
-      h1: "Marcadores de livros de madeira feitos à mão para estantes fantasy e leituras tranquilas",
-      intro: "Esta página mantém a coleção de marcadores claramente centrada no produto. Assim, torna-se mais fácil comparar marcadores de livros em madeira para estantes fantasy, pilhas de livros e leituras tranquilas, sem misturar guias de presentes mais amplos.",
+      title: "Marcadores de livros de madeira feitos à mão para estantes de fantasia e leituras tranquilas | Craftygiftsplace",
+      metaDescription: "Descobre marcadores de livros de madeira feitos à mão para estantes de fantasia, presentes para leitores e momentos de leitura tranquilos com muito carácter.",
+      h1: "Marcadores de livros de madeira feitos à mão para estantes de fantasia e leituras tranquilas",
+      intro: "Esta página mantém a coleção de marcadores claramente centrada no produto. Assim, torna-se mais fácil comparar marcadores de livros em madeira para estantes de fantasia, pilhas de livros e leituras tranquilas, sem misturar guias de presentes mais amplos.",
       primaryCtaLabel: "Ver marcadores na Etsy",
       secondaryCtaLabel: "Ver a seleção de marcadores",
       linkCloud: [
@@ -102,24 +102,24 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Um marcador fantasy muito visual para leitores que gostam de detalhes fortes numa estante ou num diário de leitura.",
+        "Um marcador de fantasia muito visual para leitores que gostam de detalhes fortes numa estante ou num diário de leitura.",
         "Uma opção mais serena para quem procura um presente para leitor com um ar mais clássico.",
         "Um conjunto que reúne marcador, pendente de porta e porta-copos quando o tema já deve parecer coerente."
       ],
       featuredWhy: [
         "Mantém o foco em marcadores e em detalhes ligados à leitura.",
-        "Permite comparar rapidamente estilos fantasy, clássicos e personalizados.",
+        "Permite comparar rapidamente estilos de fantasia, clássicos e personalizados.",
         "Leva à página de presentes para leitores quando o comprador precisa de uma ideia mais ampla."
       ],
-      catalogIntro: "Uma seleção de marcadores pensada para leitores, estantes fantasy e momentos de leitura tranquilos.",
+      catalogIntro: "Uma seleção de marcadores pensada para leitores, estantes de fantasia e momentos de leitura tranquilos.",
       faq: [
-        { question: "Estes marcadores são sobretudo para leitores de fantasia?", answer: "Muitos encaixam especialmente bem em estantes fantasy e leituras com ambiente, embora também haja opções mais sóbrias para gostos clássicos." },
+        { question: "Estes marcadores são sobretudo para leitores de fantasia?", answer: "Muitos encaixam especialmente bem em estantes de fantasia e leituras com ambiente, embora também haja opções mais sóbrias para gostos clássicos." },
         { question: "Existe uma página mais ampla de presentes para leitores?", answer: "Sim. A página de presentes para leitores junta marcadores, conjuntos a condizer e algumas peças pequenas de madeira para cantos de leitura." },
         { question: "Posso descobrir outros tipos de presente a partir daqui?", answer: "Sim. Esta coleção liga diretamente a presentes de madeira, porta-copos e aos principais guias de presentes." }
       ],
       relatedLinks: [
-        { label: "Presentes para leitores", targetKey: "reader", description: "Marcadores, conjuntos fantasy e pequenas peças para cantos de leitura reunidos numa só página." },
-        { label: "Presentes de madeira", targetKey: "gifts", description: "Pendentes de porta, suportes para tealight e recordações para ir além do marcador." },
+        { label: "Presentes para leitores", targetKey: "reader", description: "Marcadores, conjuntos de fantasia e pequenas peças para cantos de leitura reunidos numa só página." },
+        { label: "Presentes de madeira", targetKey: "gifts", description: "Pendentes de porta, porta-velas e recordações para ir além do marcador." },
         { label: "Porta-copos de madeira", targetKey: "coasters", description: "Presentes em madeira mais virados para a casa, a mesa de centro e uma casa nova." }
       ],
       ctaPanel: {
@@ -130,9 +130,9 @@ const definition = {
     },
     gifts: {
       title: "Presentes de madeira feitos à mão para cantos de leitura, prateleiras e momentos especiais | Craftygiftsplace",
-      metaDescription: "Explora presentes de madeira feitos à mão, como suportes para tealight, pendentes de porta e recordações personalizadas para prateleiras, entradas e momentos especiais.",
+      metaDescription: "Explora presentes de madeira feitos à mão, como porta-velas, pendentes de porta e recordações personalizadas para prateleiras, entradas e momentos especiais.",
       h1: "Presentes de madeira feitos à mão para cantos de leitura, prateleiras e momentos especiais",
-      intro: "Esta coleção reúne os presentes de madeira que não são nem porta-copos nem marcadores. Ajuda a comparar suportes para tealight, pendentes de porta, recordações personalizadas e outras peças decorativas num espaço mais calmo.",
+      intro: "Esta coleção reúne os presentes de madeira que não são nem porta-copos nem marcadores. Ajuda a comparar porta-velas, pendentes de porta, recordações personalizadas e outras peças decorativas num espaço mais calmo.",
       primaryCtaLabel: "Ver presentes de madeira na Etsy",
       secondaryCtaLabel: "Ver a seleção de presentes de madeira",
       linkCloud: [
@@ -152,7 +152,7 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Um pequeno suporte para tealight acolhedor para prateleiras, consolas e cantos de leitura.",
+        "Um pequeno porta-vela acolhedor para prateleiras, consolas e cantos de leitura.",
         "Um pendente de porta mais pessoal quando o presente deve ser visível logo à entrada.",
         "Uma recordação personalizada que funciona bem em casamentos, aniversários e momentos que vale a pena guardar."
       ],
@@ -163,7 +163,7 @@ const definition = {
       ],
       catalogIntro: "Uma seleção de presentes de madeira para prateleiras, entradas, cantos de leitura e recordações que vale a pena guardar.",
       faq: [
-        { question: "O que se encontra nesta coleção?", answer: "Aqui há suportes para tealight, pendentes de porta, recordações personalizadas e outras peças de madeira que não entram em porta-copos ou marcadores." },
+        { question: "O que se encontra nesta coleção?", answer: "Aqui há porta-velas, pendentes de porta, recordações personalizadas e outras peças de madeira que não entram em porta-copos ou marcadores." },
         { question: "Estes presentes também servem para casa nova?", answer: "Sim. Várias peças funcionam muito bem em prateleiras, entradas e cantos acolhedores de uma casa nova." },
         { question: "Posso continuar a navegar para outras coleções a partir daqui?", answer: "Sim. Esta página liga a porta-copos, marcadores e aos principais guias de presentes." }
       ],
@@ -267,9 +267,9 @@ const definition = {
     },
     reader: {
       title: "Presentes de madeira para leitores, cantos de leitura e estantes acolhedoras | Craftygiftsplace",
-      metaDescription: "Explora presentes de madeira para leitores, com marcadores, um conjunto fantasy e peças para cantos de leitura e estantes tranquilas.",
+      metaDescription: "Explora presentes de madeira para leitores, com marcadores, um conjunto de fantasia e peças para cantos de leitura e estantes tranquilas.",
       h1: "Presentes de madeira para leitores e cantos de leitura acolhedores",
-      intro: "Esta página ajuda quem já procura um presente para leitor. Reúne marcadores, um conjunto fantasy a combinar e algumas peças que assentam bem num canto de leitura, para comparar vários estilos sem sair do mesmo tema.",
+      intro: "Esta página ajuda quem já procura um presente para leitor. Reúne marcadores, um conjunto de fantasia a combinar e algumas peças que assentam bem num canto de leitura, para comparar vários estilos sem sair do mesmo tema.",
       primaryCtaLabel: "Ver presentes para leitores na Etsy",
       secondaryCtaLabel: "Ir para as ideias de leitores",
       linkCloud: [
@@ -289,7 +289,7 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Um marcador fantasy muito visual para leitores que gostam de detalhes fortes e de um objeto bonito dentro do livro.",
+        "Um marcador de fantasia muito visual para leitores que gostam de detalhes fortes e de um objeto bonito dentro do livro.",
         "Um conjunto pronto a oferecer com marcador, pendente de porta e porta-copos para leitores de fantasia.",
         "Uma pequena peça de ambiente para prateleiras e cantos de leitura quando o presente pode ser mais suave do que estritamente prático."
       ],
@@ -298,7 +298,7 @@ const definition = {
         "Mistura marcadores, um conjunto pronto a oferecer e uma peça decorativa leve.",
         "Remete facilmente para a coleção completa de marcadores se o visitante quiser comparar com mais detalhe."
       ],
-      catalogIntro: "Ideias em madeira para leitores, marcadores, conjunto fantasy e pequenos detalhes para cantos de leitura.",
+      catalogIntro: "Ideias em madeira para leitores, marcadores, conjunto de fantasia e pequenos detalhes para cantos de leitura.",
       faq: [
         { question: "Esta página inclui apenas marcadores?", answer: "Não. Reúne sobretudo marcadores, mas também um conjunto a condizer e uma pequena peça decorativa que funciona bem num canto de leitura." },
         { question: "Existe também uma coleção dedicada aos marcadores?", answer: "Sim. A coleção de marcadores de livros de madeira continua disponível para quem quiser ficar apenas nesse tipo de produto." },
@@ -306,7 +306,7 @@ const definition = {
       ],
       relatedLinks: [
         { label: "Marcadores de livros de madeira", targetKey: "bookmarks", description: "Fica na coleção de produto se quiseres comparar mais marcadores." },
-        { label: "Presentes de madeira", targetKey: "gifts", description: "Acrescenta suportes para tealight, pendentes e outros objetos de madeira à ideia de presente." },
+        { label: "Presentes de madeira", targetKey: "gifts", description: "Acrescenta porta-velas, pendentes e outros objetos de madeira à ideia de presente." },
         { label: "Presentes de casa nova", targetKey: "housewarming", description: "Passa para ideias mais ligadas à casa se o principal for um presente para um interior novo." }
       ],
       ctaPanel: {

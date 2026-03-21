@@ -299,20 +299,20 @@ pagesDe.push({
       { label: "Kontakt und Personalisierung", href: "/de/pages/kontakt.html" }
     ]
   },
-  featuredItems: [
-    {
-      slug: "moon-cat-shadow-tealight-holder",
-      summary: "Ein kleines Deko-Stück mit Katzenmotiv, das schnell Atmosphäre aufbaut und sich leicht verschenken lässt."
-    },
-    {
-      slug: "personalized-just-married-wooden-door-hanger",
-      summary: "Eine persönlichere Wahl für Käufer, die ein Holzgeschenk mit Namens- oder Anlassbezug suchen."
-    },
-    {
-      slug: "personalized-pet-memorial-plaque",
-      summary: "Ein stilleres Erinnerungsstück für bedeutsame Momente, wenn das Geschenk persönlich und dauerhaft wirken soll."
-    }
-  ],
+    featuredItems: [
+      {
+        slug: "moon-cat-shadow-tealight-holder",
+        summary: "Ein kleines Deko-Stück mit Katzenmotiv, das schnell Atmosphäre aufbaut und sich leicht verschenken lässt."
+      },
+      {
+        slug: "personalized-just-married-wooden-door-hanger",
+        summary: "Eine persönliche Türidee, die ein Hochzeits- oder Frischvermählten-Geschenk sofort sichtbar macht."
+      },
+      {
+        slug: "just-married-wedding-money-holder",
+        summary: "Ein Geldgeschenkhalter zur Hochzeit, der Bargeld oder Gutscheine deutlich schöner überreicht als ein Umschlag."
+      }
+    ],
   featuredWhy: [
     "Sie hält größere Holzstücke an einem Ort gebündelt.",
     "Sie trennt Dekostücke und Erinnerungsobjekte sauber von den Anlass-Guides.",
@@ -320,13 +320,14 @@ pagesDe.push({
   ],
   catalog: {
     mode: "slugs",
-    slugs: [
-      "moon-cat-shadow-tealight-holder",
-      "laser-birch-wood-incense-burner",
-      "personalized-just-married-wooden-door-hanger",
-      "epic-fantasy-door-sign",
-      "personalized-pet-memorial-plaque",
-      "do-not-ring-door-sign"
+      slugs: [
+        "moon-cat-shadow-tealight-holder",
+        "laser-birch-wood-incense-burner",
+        "personalized-just-married-wooden-door-hanger",
+        "just-married-wedding-money-holder",
+        "epic-fantasy-door-sign",
+        "personalized-pet-memorial-plaque",
+        "do-not-ring-door-sign"
     ],
     intro: "Eine kuratierte Auswahl größerer Holzgeschenke für Regale, Türen und bedeutungsvolle Momente.",
     ctaLabel: "Holzgeschenke auf Etsy ansehen",

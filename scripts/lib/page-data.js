@@ -757,11 +757,11 @@ pagesEn.push({
       { label: "Contact on Etsy", href: "/en/pages/contact.html" }
     ]
   },
-  featuredItems: [
-    { slug: "moon-cat-shadow-tealight-holder", summary: "A cozy shelf and side-table piece that fits cat lover gifts and reading nook styling." },
-    { slug: "laser-birch-wood-incense-burner", summary: "A simple decor-led gift for calm interiors, shelves and housewarming moments." },
-    { slug: "personalized-just-married-wooden-door-hanger", summary: "A clear personalized milestone piece for wedding, newlywed or couple-focused gifting." }
-  ],
+    featuredItems: [
+      { slug: "moon-cat-shadow-tealight-holder", summary: "A cozy shelf and side-table piece that fits cat lover gifts and reading nook styling." },
+      { slug: "personalized-just-married-wooden-door-hanger", summary: "A visible personalized door piece that marks a wedding or newlywed moment with warmth." },
+      { slug: "just-married-wedding-money-holder", summary: "A wedding cash or gift-card holder that feels more personal than handing over a plain envelope." }
+    ],
   featuredWhy: [
     "It brings together signs, decor and keepsakes in one browse.",
     "It gives shoppers more choice for shelves, doors and cozy corners.",
@@ -769,13 +769,14 @@ pagesEn.push({
   ],
   catalog: {
     mode: "slugs",
-    slugs: [
-      "moon-cat-shadow-tealight-holder",
-      "laser-birch-wood-incense-burner",
-      "personalized-just-married-wooden-door-hanger",
-      "epic-fantasy-door-sign",
-      "personalized-pet-memorial-plaque",
-      "do-not-ring-door-sign"
+      slugs: [
+        "moon-cat-shadow-tealight-holder",
+        "laser-birch-wood-incense-burner",
+        "personalized-just-married-wooden-door-hanger",
+        "just-married-wedding-money-holder",
+        "epic-fantasy-door-sign",
+        "personalized-pet-memorial-plaque",
+        "do-not-ring-door-sign"
     ],
     intro: "A curated mix of decor pieces, door hangers and personalized keepsakes.",
     ctaLabel: "View wooden gifts on Etsy",
@@ -858,11 +859,11 @@ pagesNl.push({
       { label: "Contact via Etsy", href: "/pages/contact.html" }
     ]
   },
-  featuredItems: [
-    { slug: "moon-cat-shadow-tealight-holder", summary: "Een gezellige plank- en bijzettafelkeuze die werkt voor kattenliefhebbers en leeshoekstyling." },
-    { slug: "laser-birch-wood-incense-burner", summary: "Een rustige decoratieve keuze voor warme interieurs, planken en verhuiscadeaus." },
-    { slug: "personalized-just-married-wooden-door-hanger", summary: "Een duidelijke persoonlijke keuze voor een bruiloft, pasgetrouwden of een blijvend aandenken voor koppels." }
-  ],
+    featuredItems: [
+      { slug: "moon-cat-shadow-tealight-holder", summary: "Een gezellige plank- en bijzettafelkeuze die werkt voor kattenliefhebbers en leeshoekstyling." },
+      { slug: "personalized-just-married-wooden-door-hanger", summary: "Een persoonlijke deurhanger die een bruiloft of pasgetrouwd moment meteen zichtbaar maakt." },
+      { slug: "just-married-wedding-money-holder", summary: "Een trouwgeldhouder die een geldcadeau of cadeaubon net wat persoonlijker laat aanvoelen." }
+    ],
   featuredWhy: [
     "Ze brengt deurhangers, decoratie en herinneringscadeaus samen in één overzicht.",
     "Ze geeft bezoekers meer keuze voor planken, deuren en gezellige hoekjes.",
@@ -870,13 +871,14 @@ pagesNl.push({
   ],
   catalog: {
     mode: "slugs",
-    slugs: [
-      "moon-cat-shadow-tealight-holder",
-      "laser-birch-wood-incense-burner",
-      "personalized-just-married-wooden-door-hanger",
-      "epic-fantasy-door-sign",
-      "personalized-pet-memorial-plaque",
-      "do-not-ring-door-sign"
+      slugs: [
+        "moon-cat-shadow-tealight-holder",
+        "laser-birch-wood-incense-burner",
+        "personalized-just-married-wooden-door-hanger",
+        "just-married-wedding-money-holder",
+        "epic-fantasy-door-sign",
+        "personalized-pet-memorial-plaque",
+        "do-not-ring-door-sign"
     ],
     intro: "Een gecureerde mix van decorstukken, deurhangers en persoonlijke herinneringscadeaus.",
     ctaLabel: "Bekijk houten cadeaus op Etsy",

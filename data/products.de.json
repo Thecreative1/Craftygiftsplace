@@ -2779,7 +2779,7 @@
     "locale": "de",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Episches Fantasy Holzlesezeichen",
+    "name": "Episches Fantasy-Holzlesezeichen",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -2819,7 +2819,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_600x600.5417484435_8pfz.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_340x270.5417484435_8pfz.jpg 340w, https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_600x600.5417484435_8pfz.jpg 600w, https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_794xN.5417484435_8pfz.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Episches Fantasy Holzlesezeichen von Craftygiftsplace",
+    "alt": "Episches Fantasy-Holzlesezeichen von Craftygiftsplace",
     "short_desc": "Hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.",
     "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [
@@ -3064,6 +3064,66 @@
     ],
     "intent_tags": [
       "Einzugsgeschenk",
+      "personalisiertes Hochzeitsgeschenk"
+    ],
+    "chips": [
+      "Geschenk für Frischvermählte",
+      "Hochzeitsgeschenk"
+    ],
+    "cta_label": "Auf Etsy ansehen",
+    "brand_suffix": "von Craftygiftsplace"
+  },
+  {
+    "slug": "just-married-wedding-money-holder",
+    "source_id": "just-married-wedding-money-holder",
+    "locale": "de",
+    "category": "wooden-gifts",
+    "section": "persoonlijke-cadeaus",
+    "name": "Geldgeschenkhalter zur Hochzeit",
+    "price": "14.99",
+    "price_label": "EUR 14.99",
+    "audience_keys": [
+      "newlyweds"
+    ],
+    "audience": [
+      "Frischvermählte"
+    ],
+    "occasion_keys": [
+      "wedding",
+      "anniversary",
+      "birthday",
+      "everyday-gift"
+    ],
+    "occasions": [
+      "Hochzeit",
+      "Jubiläum",
+      "Geburtstag",
+      "kleines Alltagsgeschenk"
+    ],
+    "style_keys": [
+      "personalized"
+    ],
+    "style": [
+      "personalisiert"
+    ],
+    "theme_key": "wedding",
+    "format_key": "keepsake",
+    "format_label": "Erinnerungsstück",
+    "motif": "ein Anlassdetail",
+    "usage_context": "Geschenkboxen, Erinnerungsregalen und Anlass-Tischen",
+    "benefit_primary": "markiert einen wichtigen Moment auf praktische Weise",
+    "benefit_secondary": "macht den Moment leichter bewahrbar",
+    "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wedding%20Money%20Holder",
+    "image": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg",
+    "image_srcset": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_340x270.7821492120_9zkv.jpg 340w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg 600w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_794xN.7821492120_9zkv.jpg 794w",
+    "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
+    "alt": "Geldgeschenkhalter zur Hochzeit von Craftygiftsplace",
+    "short_desc": "Ein persönliches Holzstück für Erinnerungen, Meilensteine und besondere Daten.",
+    "collection_desc": "Ein persönliches Holzstück für Meilensteine, Erinnerungen und besondere Daten.",
+    "intent_keys": [
+      "personalized-wedding-gift"
+    ],
+    "intent_tags": [
       "personalisiertes Hochzeitsgeschenk"
     ],
     "chips": [
@@ -3783,7 +3843,7 @@
     "locale": "de",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Fantasy Schwert Holzlesezeichen",
+    "name": "Fantasy-Schwert Holzlesezeichen",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -3823,7 +3883,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_340x270.5558263255_rmiq.jpg 340w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg 600w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_794xN.5558263255_rmiq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy Schwert Holzlesezeichen von Craftygiftsplace",
+    "alt": "Fantasy-Schwert Holzlesezeichen von Craftygiftsplace",
     "short_desc": "Gemacht für Leser, die lieber ein schönes Extra als ein beliebiges Mitbringsel bekommen.",
     "collection_desc": "Ein handgemachtes Holzlesezeichen für Leser, Buchgeschenke und ruhige Lesemomente.",
     "intent_keys": [

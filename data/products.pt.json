@@ -63,7 +63,7 @@
     "locale": "pt",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Olho de dragao Marcador de livros em madeira",
+    "name": "Marcador olho de dragão em madeira",
     "price": "18.99",
     "price_label": "EUR 18.99",
     "audience_keys": [
@@ -90,20 +90,20 @@
       "fantasy"
     ],
     "style": [
-      "fantasy"
+      "de fantasia"
     ],
     "theme_key": "fantasy",
     "format_key": "bookmarks",
     "format_label": "marcador",
-    "motif": "um detalhe fantasy",
-    "usage_context": "pilhas de livros, leitura à noite e estantes fantasy",
+    "motif": "um detalhe de fantasia",
+    "usage_context": "pilhas de livros, leitura à noite e estantes de fantasia",
     "benefit_primary": "mantém a página fácil de encontrar",
     "benefit_secondary": "torna um presente de livro mais pessoal",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Dragon%20Eye%20Bookmark",
     "image": "https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_600x600.6371593681_3p4r.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_340x270.6371593681_3p4r.jpg 340w, https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_600x600.6371593681_3p4r.jpg 600w, https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_794xN.6371593681_3p4r.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Olho de dragao Marcador de livros em madeira da Craftygiftsplace",
+    "alt": "Marcador olho de dragão em madeira da Craftygiftsplace",
     "short_desc": "Encaixa bem em diarios de leitura, caixas-presente e seroes tranquilos.",
     "collection_desc": "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
     "intent_keys": [
@@ -116,7 +116,7 @@
       "presente para leitores",
       "presente para amantes de livros",
       "presente marcador",
-      "presente fantasy para leitores"
+      "presente para leitores de fantasia"
     ],
     "chips": [
       "Presente para leitores",
@@ -491,7 +491,7 @@
     "locale": "pt",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Fantasy Porta-copos de madeira",
+    "name": "Porta-copos de madeira de fantasia",
     "price": "24.99",
     "price_label": "EUR 24.99",
     "audience_keys": [
@@ -514,12 +514,12 @@
       "fantasy"
     ],
     "style": [
-      "fantasy"
+      "de fantasia"
     ],
     "theme_key": "fantasy",
     "format_key": "coasters",
     "format_label": "conjunto de porta-copos",
-    "motif": "um detalhe fantasy",
+    "motif": "um detalhe de fantasia",
     "usage_context": "cantos de leitura, secretárias e salas de hobbies",
     "benefit_primary": "protege as mesas",
     "benefit_secondary": "acrescenta decoração temática",
@@ -527,7 +527,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_600x600.6103181163_fltt.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_340x270.6103181163_fltt.jpg 340w, https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_600x600.6103181163_fltt.jpg 600w, https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_794xN.6103181163_fltt.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy Porta-copos de madeira da Craftygiftsplace",
+    "alt": "Porta-copos de madeira de fantasia da Craftygiftsplace",
     "short_desc": "Um presente util para casas onde os pequenos detalhes contam.",
     "collection_desc": "Um conjunto de porta-copos em madeira para mesas de centro, secretarias e casas acolhedoras.",
     "intent_keys": [
@@ -792,7 +792,7 @@
     "locale": "pt",
     "category": "wooden-gifts",
     "section": "deurhangers-en-borden",
-    "name": "Fantasy Gamer Placa de porta",
+    "name": "Fantasia Gamer Placa de porta",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -815,12 +815,12 @@
       "fantasy"
     ],
     "style": [
-      "fantasy"
+      "de fantasia"
     ],
     "theme_key": "fantasy",
     "format_key": "door-hanger",
     "format_label": "pendente de porta",
-    "motif": "um detalhe fantasy",
+    "motif": "um detalhe de fantasia",
     "usage_context": "cantos de leitura, salas de hobbies e portas de quarto",
     "benefit_primary": "dá um toque pessoal ao espaço",
     "benefit_secondary": "define o tom logo à entrada",
@@ -828,7 +828,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/10c262/5411743080/il_600x600.5411743080_iwdn.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/10c262/5411743080/il_340x270.5411743080_iwdn.jpg 340w, https://i.etsystatic.com/46731516/r/il/10c262/5411743080/il_600x600.5411743080_iwdn.jpg 600w, https://i.etsystatic.com/46731516/r/il/10c262/5411743080/il_794xN.5411743080_iwdn.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy Gamer Placa de porta da Craftygiftsplace",
+    "alt": "Fantasia Gamer Placa de porta da Craftygiftsplace",
     "short_desc": "Dá um toque pessoal ao espaço em portas, salas de hobbies e cantos pessoais.",
     "collection_desc": "Um pendente de porta em madeira para quartos, salas de hobbies e cantos pessoais.",
     "intent_keys": [
@@ -839,7 +839,7 @@
     ],
     "chips": [
       "Presente gamer",
-      "Decoração fantasy"
+      "Decoração de fantasia"
     ],
     "cta_label": "Ver na Etsy",
     "brand_suffix": "da Craftygiftsplace"
@@ -1263,7 +1263,7 @@
     "locale": "pt",
     "category": "wooden-gifts",
     "section": "deurhangers-en-borden",
-    "name": "Placa de porta fantasy",
+    "name": "Placa de porta de fantasia",
     "price": "15.99",
     "price_label": "EUR 15.99",
     "audience_keys": [
@@ -1284,12 +1284,12 @@
       "fantasy"
     ],
     "style": [
-      "fantasy"
+      "de fantasia"
     ],
     "theme_key": "fantasy",
     "format_key": "door-hanger",
     "format_label": "pendente de porta",
-    "motif": "um detalhe fantasy",
+    "motif": "um detalhe de fantasia",
     "usage_context": "cantos de leitura, salas de hobbies e portas de quarto",
     "benefit_primary": "dá um toque pessoal ao espaço",
     "benefit_secondary": "define o tom logo à entrada",
@@ -1297,7 +1297,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_600x600.5462349697_5c2j.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_340x270.5462349697_5c2j.jpg 340w, https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_600x600.5462349697_5c2j.jpg 600w, https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_794xN.5462349697_5c2j.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Placa de porta fantasy da Craftygiftsplace",
+    "alt": "Placa de porta de fantasia da Craftygiftsplace",
     "short_desc": "Uma peca de madeira facil de pendurar e facil de notar desde o primeiro momento.",
     "collection_desc": "Um pendente de porta em madeira para quartos, salas de hobbies e cantos pessoais.",
     "intent_keys": [
@@ -1307,7 +1307,7 @@
       "presente de casa nova"
     ],
     "chips": [
-      "Decoração fantasy"
+      "Decoração de fantasia"
     ],
     "cta_label": "Ver na Etsy",
     "brand_suffix": "da Craftygiftsplace"
@@ -1775,7 +1775,7 @@
     "locale": "pt",
     "category": "wooden-gifts",
     "section": "decoratie-en-sfeer",
-    "name": "Suporte para tealight gato e lua",
+    "name": "Porta-vela gato e lua",
     "price": "10.99",
     "price_label": "EUR 10.99",
     "audience_keys": [
@@ -1811,7 +1811,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_600x600.6325144691_ecdm.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_340x270.6325144691_ecdm.jpg 340w, https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_600x600.6325144691_ecdm.jpg 600w, https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_794xN.6325144691_ecdm.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Suporte para tealight gato e lua da Craftygiftsplace",
+    "alt": "Porta-vela gato e lua da Craftygiftsplace",
     "short_desc": "Um presente decorativo para quem prefere ambiente a algo puramente pratico.",
     "collection_desc": "Uma peca decorativa em madeira para prateleiras, mesas de apoio e cantos acolhedores.",
     "intent_keys": [
@@ -1953,7 +1953,7 @@
     "locale": "pt",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Arvore da vida Porta-copos de madeira",
+    "name": "Árvore da vida Porta-copos de madeira",
     "price": "29.99",
     "price_label": "EUR 29.99",
     "audience_keys": [
@@ -1991,7 +1991,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_340x270.5535942596_jl8w.jpg 340w, https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg 600w, https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_794xN.5535942596_jl8w.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Arvore da vida Porta-copos de madeira da Craftygiftsplace",
+    "alt": "Árvore da vida Porta-copos de madeira da Craftygiftsplace",
     "short_desc": "Protege as mesas e leva um detalhe botânico para cozinhas, mesas de convidados e interiores quentes.",
     "collection_desc": "Um conjunto de porta-copos em madeira para mesas de centro, secretarias e casas acolhedoras.",
     "intent_keys": [
@@ -2013,7 +2013,7 @@
     "locale": "pt",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Dragao Marcador de livros em madeira",
+    "name": "Marcador dragão em madeira",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -2040,20 +2040,20 @@
       "fantasy"
     ],
     "style": [
-      "fantasy"
+      "de fantasia"
     ],
     "theme_key": "fantasy",
     "format_key": "bookmarks",
     "format_label": "marcador",
-    "motif": "um detalhe fantasy",
-    "usage_context": "pilhas de livros, leitura à noite e estantes fantasy",
+    "motif": "um detalhe de fantasia",
+    "usage_context": "pilhas de livros, leitura à noite e estantes de fantasia",
     "benefit_primary": "mantém a página fácil de encontrar",
     "benefit_secondary": "torna um presente de livro mais pessoal",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handmade%20Wooden%20Dragon%20Bookmark",
     "image": "https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_600x600.5434960961_8gmc.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_340x270.5434960961_8gmc.jpg 340w, https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_600x600.5434960961_8gmc.jpg 600w, https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_794xN.5434960961_8gmc.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Dragao Marcador de livros em madeira da Craftygiftsplace",
+    "alt": "Marcador dragão em madeira da Craftygiftsplace",
     "short_desc": "Encaixa bem em diarios de leitura, caixas-presente e seroes tranquilos.",
     "collection_desc": "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
     "intent_keys": [
@@ -2066,7 +2066,7 @@
       "presente para leitores",
       "presente para amantes de livros",
       "presente marcador",
-      "presente fantasy para leitores"
+      "presente para leitores de fantasia"
     ],
     "chips": [
       "Presente para leitores",
@@ -2659,7 +2659,7 @@
     "locale": "pt",
     "category": "wooden-gifts",
     "section": "decoratie-en-sfeer",
-    "name": "Spider Web Suporte para tealight",
+    "name": "Spider Web Porta-vela",
     "price": "10.99",
     "price_label": "EUR 10.99",
     "audience_keys": [
@@ -2697,7 +2697,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/8dcb7c/6339150323/il_600x600.6339150323_jmbn.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8dcb7c/6339150323/il_340x270.6339150323_jmbn.jpg 340w, https://i.etsystatic.com/46731516/r/il/8dcb7c/6339150323/il_600x600.6339150323_jmbn.jpg 600w, https://i.etsystatic.com/46731516/r/il/8dcb7c/6339150323/il_794xN.6339150323_jmbn.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Spider Web Suporte para tealight da Craftygiftsplace",
+    "alt": "Spider Web Porta-vela da Craftygiftsplace",
     "short_desc": "Acrescenta um apontamento quente de madeira a prateleiras, aparadores e cantos atmosféricos.",
     "collection_desc": "Uma peca decorativa em madeira para prateleiras, mesas de apoio e cantos acolhedores.",
     "intent_keys": [
@@ -2719,7 +2719,7 @@
     "locale": "pt",
     "category": "wooden-gifts",
     "section": "decoratie-en-sfeer",
-    "name": "Skull Suporte para tealight",
+    "name": "Skull Porta-vela",
     "price": "10.99",
     "price_label": "EUR 10.99",
     "audience_keys": [
@@ -2757,7 +2757,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/58d874/6329506163/il_600x600.6329506163_9aip.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/58d874/6329506163/il_340x270.6329506163_9aip.jpg 340w, https://i.etsystatic.com/46731516/r/il/58d874/6329506163/il_600x600.6329506163_9aip.jpg 600w, https://i.etsystatic.com/46731516/r/il/58d874/6329506163/il_794xN.6329506163_9aip.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Skull Suporte para tealight da Craftygiftsplace",
+    "alt": "Skull Porta-vela da Craftygiftsplace",
     "short_desc": "Uma pequena peca decorativa que torna prateleiras e mesas de apoio mais vividas.",
     "collection_desc": "Uma peca decorativa em madeira para prateleiras, mesas de apoio e cantos acolhedores.",
     "intent_keys": [
@@ -2779,7 +2779,7 @@
     "locale": "pt",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Epic Fantasy Marcador de livros em madeira",
+    "name": "Marcador de fantasia épica em madeira",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -2806,20 +2806,20 @@
       "fantasy"
     ],
     "style": [
-      "fantasy"
+      "de fantasia"
     ],
     "theme_key": "fantasy",
     "format_key": "bookmarks",
     "format_label": "marcador",
-    "motif": "um detalhe fantasy",
-    "usage_context": "pilhas de livros, leitura à noite e estantes fantasy",
+    "motif": "um detalhe de fantasia",
+    "usage_context": "pilhas de livros, leitura à noite e estantes de fantasia",
     "benefit_primary": "mantém a página fácil de encontrar",
     "benefit_secondary": "torna um presente de livro mais pessoal",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark",
     "image": "https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_600x600.5417484435_8pfz.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_340x270.5417484435_8pfz.jpg 340w, https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_600x600.5417484435_8pfz.jpg 600w, https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_794xN.5417484435_8pfz.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Epic Fantasy Marcador de livros em madeira da Craftygiftsplace",
+    "alt": "Marcador de fantasia épica em madeira da Craftygiftsplace",
     "short_desc": "Mantém a página fácil de encontrar e da mais caracter ao momento de leitura.",
     "collection_desc": "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
     "intent_keys": [
@@ -2832,7 +2832,7 @@
       "presente para leitores",
       "presente para amantes de livros",
       "presente marcador",
-      "presente fantasy para leitores"
+      "presente para leitores de fantasia"
     ],
     "chips": [
       "Presente para leitores",
@@ -3017,7 +3017,7 @@
     "locale": "pt",
     "category": "wooden-gifts",
     "section": "persoonlijke-cadeaus",
-    "name": "Pendente de porta personalizado para recem-casados",
+    "name": "Pendente de porta personalizado para recém-casados",
     "price": "17.99",
     "price_label": "EUR 17.99",
     "audience_keys": [
@@ -3055,7 +3055,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_600x600.6310906229_kdqa.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_340x270.6310906229_kdqa.jpg 340w, https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_600x600.6310906229_kdqa.jpg 600w, https://i.etsystatic.com/46731516/r/il/a7175d/6310906229/il_794xN.6310906229_kdqa.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Pendente de porta personalizado para recem-casados da Craftygiftsplace",
+    "alt": "Pendente de porta personalizado para recém-casados da Craftygiftsplace",
     "short_desc": "Funciona bem quando o presente deve parecer pessoal e visivel logo a partida.",
     "collection_desc": "Um pendente de porta em madeira para quartos, salas de hobbies e cantos pessoais.",
     "intent_keys": [
@@ -3064,6 +3064,66 @@
     ],
     "intent_tags": [
       "presente de casa nova",
+      "presente de casamento personalizado"
+    ],
+    "chips": [
+      "Presente para recém-casados",
+      "Presente de casamento"
+    ],
+    "cta_label": "Ver na Etsy",
+    "brand_suffix": "da Craftygiftsplace"
+  },
+  {
+    "slug": "just-married-wedding-money-holder",
+    "source_id": "just-married-wedding-money-holder",
+    "locale": "pt",
+    "category": "wooden-gifts",
+    "section": "persoonlijke-cadeaus",
+    "name": "Porta-dinheiro de casamento para recém-casados",
+    "price": "14.99",
+    "price_label": "EUR 14.99",
+    "audience_keys": [
+      "newlyweds"
+    ],
+    "audience": [
+      "recém-casados"
+    ],
+    "occasion_keys": [
+      "wedding",
+      "anniversary",
+      "birthday",
+      "everyday-gift"
+    ],
+    "occasions": [
+      "casamento",
+      "aniversário",
+      "aniversário",
+      "pequeno presente"
+    ],
+    "style_keys": [
+      "personalized"
+    ],
+    "style": [
+      "personalizado"
+    ],
+    "theme_key": "wedding",
+    "format_key": "keepsake",
+    "format_label": "presente recordação",
+    "motif": "um detalhe de ocasião",
+    "usage_context": "caixas de presente, prateleiras de recordação e mesas de ocasião",
+    "benefit_primary": "marca um momento importante de forma prática",
+    "benefit_secondary": "torna o momento mais fácil de guardar",
+    "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wedding%20Money%20Holder",
+    "image": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg",
+    "image_srcset": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_340x270.7821492120_9zkv.jpg 340w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg 600w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_794xN.7821492120_9zkv.jpg 794w",
+    "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
+    "alt": "Porta-dinheiro de casamento para recém-casados da Craftygiftsplace",
+    "short_desc": "Transforma um momento importante em algo facil de guardar e expor.",
+    "collection_desc": "Uma recordacao em madeira para marcos, memorias e datas especiais.",
+    "intent_keys": [
+      "personalized-wedding-gift"
+    ],
+    "intent_tags": [
       "presente de casamento personalizado"
     ],
     "chips": [
@@ -3783,7 +3843,7 @@
     "locale": "pt",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Fantasy Sword Marcador de livros em madeira",
+    "name": "Marcador espada de fantasia em madeira",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -3810,20 +3870,20 @@
       "fantasy"
     ],
     "style": [
-      "fantasy"
+      "de fantasia"
     ],
     "theme_key": "fantasy",
     "format_key": "bookmarks",
     "format_label": "marcador",
-    "motif": "um detalhe fantasy",
-    "usage_context": "pilhas de livros, leitura à noite e estantes fantasy",
+    "motif": "um detalhe de fantasia",
+    "usage_context": "pilhas de livros, leitura à noite e estantes de fantasia",
     "benefit_primary": "mantém a página fácil de encontrar",
     "benefit_secondary": "torna um presente de livro mais pessoal",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark",
     "image": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_340x270.5558263255_rmiq.jpg 340w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg 600w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_794xN.5558263255_rmiq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy Sword Marcador de livros em madeira da Craftygiftsplace",
+    "alt": "Marcador espada de fantasia em madeira da Craftygiftsplace",
     "short_desc": "Pensado para leitores que preferem um extra bonito a um objeto generico.",
     "collection_desc": "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
     "intent_keys": [
@@ -3836,7 +3896,7 @@
       "presente para leitores",
       "presente para amantes de livros",
       "presente marcador",
-      "presente fantasy para leitores"
+      "presente para leitores de fantasia"
     ],
     "chips": [
       "Presente para leitores",
@@ -4124,7 +4184,7 @@
     "locale": "pt",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Foguetao Marcador de livros em madeira",
+    "name": "Foguetão Marcador de livros em madeira",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -4162,7 +4222,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/0caf95/6350677773/il_600x600.6350677773_97pq.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/0caf95/6350677773/il_340x270.6350677773_97pq.jpg 340w, https://i.etsystatic.com/46731516/r/il/0caf95/6350677773/il_600x600.6350677773_97pq.jpg 600w, https://i.etsystatic.com/46731516/r/il/0caf95/6350677773/il_794xN.6350677773_97pq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Foguetao Marcador de livros em madeira da Craftygiftsplace",
+    "alt": "Foguetão Marcador de livros em madeira da Craftygiftsplace",
     "short_desc": "Mantém a página fácil de encontrar e da mais caracter ao momento de leitura.",
     "collection_desc": "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
     "intent_keys": [
@@ -4724,7 +4784,7 @@
     "locale": "pt",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Conjunto fantasy para leitores",
+    "name": "Conjunto de fantasia para leitores",
     "price": "34.99",
     "price_label": "EUR 34.99",
     "audience_keys": [
@@ -4751,20 +4811,20 @@
       "fantasy"
     ],
     "style": [
-      "fantasy"
+      "de fantasia"
     ],
     "theme_key": "fantasy",
     "format_key": "bookmarks",
     "format_label": "marcador",
-    "motif": "um detalhe fantasy",
-    "usage_context": "pilhas de livros, leitura à noite e estantes fantasy",
+    "motif": "um detalhe de fantasia",
+    "usage_context": "pilhas de livros, leitura à noite e estantes de fantasia",
     "benefit_primary": "mantém a página fácil de encontrar",
     "benefit_secondary": "torna um presente de livro mais pessoal",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Book%20Lover%20Gift%20Set%20Fantasy%20Dragon%20Bookmark%20Wizard%20Door%20Hanger%20Wooden%20Coasters%20Reading%20Nook%20Decor%20BookTok%20Dark%20Academia%20for%20Fantasy%20Readers",
     "image": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_340x270.7593439386_5kt7.jpg 340w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg 600w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_794xN.7593439386_5kt7.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Conjunto fantasy para leitores da Craftygiftsplace",
+    "alt": "Conjunto de fantasia para leitores da Craftygiftsplace",
     "short_desc": "Pensado para leitores que preferem um extra bonito a um objeto generico.",
     "collection_desc": "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
     "intent_keys": [
@@ -4777,7 +4837,7 @@
       "presente para leitores",
       "presente para amantes de livros",
       "presente marcador",
-      "presente fantasy para leitores"
+      "presente para leitores de fantasia"
     ],
     "chips": [
       "Presente para leitores",
@@ -4858,7 +4918,7 @@
     "locale": "pt",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Classico Marcador de livros em madeira",
+    "name": "Clássico Marcador de livros em madeira",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -4896,7 +4956,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/baa714/5867402258/il_600x600.5867402258_k3f2.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/baa714/5867402258/il_340x270.5867402258_k3f2.jpg 340w, https://i.etsystatic.com/46731516/r/il/baa714/5867402258/il_600x600.5867402258_k3f2.jpg 600w, https://i.etsystatic.com/46731516/r/il/baa714/5867402258/il_794xN.5867402258_k3f2.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Classico Marcador de livros em madeira da Craftygiftsplace",
+    "alt": "Clássico Marcador de livros em madeira da Craftygiftsplace",
     "short_desc": "Pensado para leitores que preferem um extra bonito a um objeto generico.",
     "collection_desc": "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
     "intent_keys": [

@@ -600,45 +600,45 @@ function buildCardDescription(product, page, position = 0) {
     const byFormat = {
       coasters: [
         `${lead} protege las mesas y lleva ${motif} a ${usage}.`,
-        `${lead} aporta ${motif} a ${usage} mientras sigue siendo practico para bebidas de diario.`,
-        `${lead} es un set de posavasos para ${usage} con mas caracter que un simple extra de mesa.`,
-        `${lead} encaja con ${audience} que buscan algo util con ${motif} en ${usage}.`
+        `${lead} aporta ${motif} a ${usage} y sigue siendo práctico para las bebidas del día a día.`,
+        `${lead} es un set de posavasos para ${usage} con más carácter que un simple extra de mesa.`,
+        `${lead} encaja con ${audience} que buscan algo útil con ${motif} en ${usage}.`
       ],
       bookmarks: [
-        `${lead} mantiene la pagina facil de encontrar y da mas caracter al momento de lectura.`,
+        `${lead} mantiene la página fácil de encontrar y da más carácter al momento de lectura.`,
         `${lead} se siente en casa dentro de ${usage}.`,
-        `${lead} es un marcapaginas para ${audience} que prefieren regalar un detalle bonito para ${usage} antes que algo generico.`,
+        `${lead} es un marcapáginas para ${audience} que prefieren regalar un detalle bonito para ${usage} antes que algo genérico.`,
         `${lead} encaja bien en diarios de lectura, cajas regalo y noches tranquilas.`
       ],
       "door-hanger": [
-        `${lead} da mas caracter a puertas, cuartos de aficiones y rincones personales.`,
-        `${lead} es una pieza de madera facil de colgar y facil de notar.`,
+        `${lead} da más carácter a puertas, cuartos de aficiones y rincones personales.`,
+        `${lead} es una pieza de madera fácil de colgar y fácil de notar.`,
         `${lead} funciona bien cuando el regalo debe sentirse personal y visible en ${usage}.`
       ],
       "decor-piece": [
         `${lead} lleva ${motif} a ${usage}.`,
-        `${lead} es una pieza decorativa pequena que hace mas vividas estanterias y mesas auxiliares.`,
-        `${lead} encaja con compradores que prefieren ambiente antes que algo puramente practico para ${usage}.`
+        `${lead} es una pieza decorativa pequeña que hace más vividas estanterías y mesas auxiliares.`,
+        `${lead} encaja con compradores que prefieren ambiente antes que algo puramente práctico para ${usage}.`
       ],
       keepsake: [
-        `${lead} convierte un momento importante en algo facil de guardar y mostrar.`,
+        `${lead} convierte un momento importante en algo fácil de guardar y mostrar.`,
         `${lead} es un recuerdo personal de madera para hitos, memorias y fechas especiales.`,
-        `${lead} encaja en momentos que merecen mas que una tarjeta y un lugar en ${usage}.`
+        `${lead} encaja en momentos que merecen más que una tarjeta y un lugar en ${usage}.`
       ],
       plaque: [
         `${lead} convierte un recuerdo en algo que se puede mantener visible.`,
-        `${lead} es una placa de madera atenta para homenajes, hitos y recuerdos duraderos.`,
-        `${lead} encaja en ocasiones mas personales que encuentran su sitio en ${usage}.`
+        `${lead} es una placa de madera cuidada para homenajes, hitos y recuerdos duraderos.`,
+        `${lead} encaja en ocasiones más personales que encuentran su sitio en ${usage}.`
       ],
       craft: [
         `${lead} da a personas creativas una base de madera para terminar a su manera.`,
-        `${lead} es una base DIY practica para proyectos, clases e ideas de regalo hechas a mano.`,
-        `${lead} ayuda a quien prefiere preparar por su cuenta un pequeno regalo para ${usage}.`
+        `${lead} es una base DIY práctica para proyectos, clases e ideas de regalo hechas a mano.`,
+        `${lead} ayuda a quien prefiere preparar por su cuenta un pequeño regalo para ${usage}.`
       ],
       "small-gift": [
-        `${lead} anade un pequeno toque artesanal a escritorio, cajon o caja regalo.`,
-        `${lead} es un pequeno regalo de madera que sigue siendo util despues de la ocasion.`,
-        `${lead} es un extra sencillo para quien quiere algo pequeno y hecho a mano para ${usage}.`
+        `${lead} añade un pequeño toque artesanal a escritorio, cajón o caja regalo.`,
+        `${lead} es un pequeño regalo de madera que sigue siendo útil después de la ocasión.`,
+        `${lead} es un extra sencillo para quien quiere algo pequeño y hecho a mano para ${usage}.`
       ]
     };
     variants = byFormat[key] || byFormat["small-gift"];
@@ -646,45 +646,45 @@ function buildCardDescription(product, page, position = 0) {
     const byFormat = {
       coasters: [
         `${lead} protege as mesas e leva ${motif} para ${usage}.`,
-        `${lead} acrescenta ${motif} a ${usage} e continua pratico para bebidas do dia a dia.`,
-        `${lead} e um conjunto de porta-copos para ${usage} com mais caracter do que um simples extra de mesa.`,
-        `${lead} encaixa em ${audience} que procuram algo util com ${motif} em ${usage}.`
+        `${lead} acrescenta ${motif} a ${usage} e continua prático para bebidas do dia a dia.`,
+        `${lead} é um conjunto de porta-copos para ${usage} com mais carácter do que um simples extra de mesa.`,
+        `${lead} encaixa em ${audience} que procuram algo útil com ${motif} em ${usage}.`
       ],
       bookmarks: [
-        `${lead} mantem a pagina facil de reencontrar e da mais caracter ao momento de leitura.`,
+        `${lead} mantém a página fácil de reencontrar e dá mais carácter ao momento de leitura.`,
         `${lead} sente-se em casa em ${usage}.`,
-        `${lead} e um marcador para ${audience} que preferem oferecer um detalhe bonito para ${usage} em vez de algo generico.`,
-        `${lead} encaixa bem em diarios de leitura, caixas-presente e seroes tranquilos.`
+        `${lead} é um marcador para ${audience} que preferem oferecer um detalhe bonito para ${usage} em vez de algo genérico.`,
+        `${lead} encaixa bem em diários de leitura, caixas-presente e serões tranquilos.`
       ],
       "door-hanger": [
-        `${lead} da mais caracter a portas, salas de hobbies e cantos pessoais.`,
-        `${lead} e uma peca de madeira facil de pendurar e facil de notar.`,
-        `${lead} funciona bem quando o presente deve parecer pessoal e visivel em ${usage}.`
+        `${lead} dá mais carácter a portas, salas de hobbies e cantos pessoais.`,
+        `${lead} é uma peça de madeira fácil de pendurar e fácil de notar.`,
+        `${lead} funciona bem quando o presente deve parecer pessoal e visível em ${usage}.`
       ],
       "decor-piece": [
         `${lead} leva ${motif} para ${usage}.`,
-        `${lead} e uma pequena peca decorativa que torna prateleiras e mesas de apoio mais vividas.`,
-        `${lead} encaixa em compradores que preferem ambiente a algo puramente pratico para ${usage}.`
+        `${lead} é uma pequena peça decorativa que torna prateleiras e mesas de apoio mais vividas.`,
+        `${lead} encaixa em compradores que preferem ambiente a algo puramente prático para ${usage}.`
       ],
       keepsake: [
-        `${lead} transforma um momento importante em algo facil de guardar e mostrar.`,
-        `${lead} e uma recordacao pessoal em madeira para marcos, memorias e datas especiais.`,
-        `${lead} encaixa em momentos que merecem mais do que um cartao e um lugar em ${usage}.`
+        `${lead} transforma um momento importante em algo fácil de guardar e mostrar.`,
+        `${lead} é uma recordação pessoal em madeira para marcos, memórias e datas especiais.`,
+        `${lead} encaixa em momentos que merecem mais do que um cartão e um lugar em ${usage}.`
       ],
       plaque: [
-        `${lead} transforma uma memoria em algo que se pode manter visivel.`,
-        `${lead} e uma placa de madeira atenciosa para homenagens, marcos e recordacoes duradouras.`,
-        `${lead} encaixa em ocasioes mais pessoais que encontram lugar em ${usage}.`
+        `${lead} transforma uma memória em algo que se pode manter visível.`,
+        `${lead} é uma placa de madeira atenciosa para homenagens, marcos e recordações duradouras.`,
+        `${lead} encaixa em ocasiões mais pessoais que encontram lugar em ${usage}.`
       ],
       craft: [
-        `${lead} da uma base de madeira a pessoas criativas para terminarem a sua maneira.`,
-        `${lead} e uma base DIY pratica para projetos, aulas e ideias de presente feitas a mao.`,
-        `${lead} ajuda quem prefere montar um pequeno presente por conta propria para ${usage}.`
+        `${lead} dá uma base de madeira a pessoas criativas para terminarem à sua maneira.`,
+        `${lead} é uma base DIY prática para projetos, aulas e ideias de presente feitas à mão.`,
+        `${lead} ajuda quem prefere montar um pequeno presente por conta própria para ${usage}.`
       ],
       "small-gift": [
-        `${lead} acrescenta um pequeno toque artesanal a secretaria, gaveta ou caixa-presente.`,
-        `${lead} e um pequeno presente de madeira que continua util depois da ocasiao.`,
-        `${lead} e um extra simples para quem quer algo pequeno e feito a mao para ${usage}.`
+        `${lead} acrescenta um pequeno toque artesanal à secretária, gaveta ou caixa-presente.`,
+        `${lead} é um pequeno presente de madeira que continua útil depois da ocasião.`,
+        `${lead} é um extra simples para quem quer algo pequeno e feito à mão para ${usage}.`
       ]
     };
     variants = byFormat[key] || byFormat["small-gift"];
@@ -693,44 +693,44 @@ function buildCardDescription(product, page, position = 0) {
       coasters: [
         `${lead} protegge i tavoli e porta ${motif} in ${usage}.`,
         `${lead} aggiunge ${motif} a ${usage} restando pratico per le bevande di ogni giorno.`,
-        `${lead} e un set di sottobicchieri per ${usage} con piu carattere di un semplice extra da tavola.`,
+        `${lead} è un set di sottobicchieri per ${usage} con più carattere di un semplice extra da tavola.`,
         `${lead} si adatta a ${audience} che cercano qualcosa di utile con ${motif} in ${usage}.`
       ],
       bookmarks: [
-        `${lead} mantiene la pagina facile da ritrovare e da piu carattere al momento di lettura.`,
+        `${lead} mantiene la pagina facile da ritrovare e dà più carattere al momento di lettura.`,
         `${lead} si sente subito a casa in ${usage}.`,
-        `${lead} e un segnalibro per ${audience} che preferiscono regalare un bel dettaglio per ${usage} invece di qualcosa di generico.`,
+        `${lead} è un segnalibro per ${audience} che preferiscono regalare un bel dettaglio per ${usage} invece di qualcosa di generico.`,
         `${lead} sta bene con diari di lettura, scatole regalo e serate tranquille.`
       ],
       "door-hanger": [
-        `${lead} da piu carattere a porte, stanze hobby e angoli personali.`,
-        `${lead} e un pezzo in legno facile da appendere e facile da notare.`,
+        `${lead} dà più carattere a porte, stanze hobby e angoli personali.`,
+        `${lead} è un pezzo in legno facile da appendere e facile da notare.`,
         `${lead} funziona bene quando il regalo deve sembrare personale e visibile in ${usage}.`
       ],
       "decor-piece": [
         `${lead} porta ${motif} in ${usage}.`,
-        `${lead} e un piccolo pezzo decorativo che rende piu vissute mensole e tavolini.`,
+        `${lead} è un piccolo pezzo decorativo che rende più vissute mensole e tavolini.`,
         `${lead} si adatta a chi preferisce atmosfera invece di qualcosa di puramente pratico per ${usage}.`
       ],
       keepsake: [
         `${lead} trasforma un momento importante in qualcosa di facile da custodire e mostrare.`,
-        `${lead} e un ricordo personale in legno per tappe, memorie e date speciali.`,
-        `${lead} si adatta a momenti che meritano piu di un semplice biglietto e un posto in ${usage}.`
+        `${lead} è un ricordo personale in legno per tappe, memorie e date speciali.`,
+        `${lead} si adatta a momenti che meritano più di un semplice biglietto e un posto in ${usage}.`
       ],
       plaque: [
-        `${lead} trasforma un ricordo in qualcosa che si puo tenere in vista.`,
-        `${lead} e una placca in legno attenta per omaggi, traguardi e ricordi duraturi.`,
-        `${lead} si adatta a occasioni piu personali che trovano posto in ${usage}.`
+        `${lead} trasforma un ricordo in qualcosa che si può tenere in vista.`,
+        `${lead} è una placca in legno curata per omaggi, traguardi e ricordi duraturi.`,
+        `${lead} si adatta a occasioni più personali che trovano posto in ${usage}.`
       ],
       craft: [
-        `${lead} da una base in legno a persone creative da finire a modo proprio.`,
-        `${lead} e una base DIY pratica per progetti, lezioni e idee regalo fatte a mano.`,
+        `${lead} dà una base in legno a persone creative da finire a modo proprio.`,
+        `${lead} è una base DIY pratica per progetti, lezioni e idee regalo fatte a mano.`,
         `${lead} aiuta chi preferisce preparare da solo un piccolo regalo per ${usage}.`
       ],
       "small-gift": [
         `${lead} aggiunge un piccolo tocco artigianale a scrivania, cassetto o scatola regalo.`,
-        `${lead} e un piccolo regalo in legno che resta utile dopo l'occasione.`,
-        `${lead} e un extra semplice per chi vuole qualcosa di piccolo e fatto a mano per ${usage}.`
+        `${lead} è un piccolo regalo in legno che resta utile dopo l'occasione.`,
+        `${lead} è un extra semplice per chi vuole qualcosa di piccolo e fatto a mano per ${usage}.`
       ]
     };
     variants = byFormat[key] || byFormat["small-gift"];
@@ -954,84 +954,84 @@ function buildCardDescription(product, page, position = 0) {
     es: {
       coasters: [
         "Se coloca de forma natural en mesas de centro y escritorios.",
-        "Funciona bien cuando el regalo debe resultar util desde el primer dia.",
-        "Aporta un poco mas de calidez a las bebidas del dia a dia."
+        "Funciona bien cuando el regalo debe resultar útil desde el primer día.",
+        "Aporta un poco más de calidez a las bebidas del día a día."
       ],
       bookmarks: [
         "Se desliza bien en diarios, bolsas y cajas regalo.",
-        "Encaja con lectores a quienes les gustan los pequenos detalles con caracter.",
-        "Funciona bien como pequeno extra junto a un buen libro."
+        "Encaja con lectores a quienes les gustan los pequeños detalles con carácter.",
+        "Funciona bien como pequeño extra junto a un buen libro."
       ],
       "door-hanger": [
-        "Da mas personalidad a la estancia desde el primer momento.",
-        "Es facil de colgar y facil de notar.",
+        "Da más personalidad a la estancia desde el primer momento.",
+        "Es fácil de colgar y fácil de notar.",
         "Encaja en regalos que deben sentirse divertidos y personales."
       ],
       "decor-piece": [
-        "Queda muy bien en estanterias, mesas auxiliares y rincones tranquilos.",
+        "Queda muy bien en estanterías, mesas auxiliares y rincones tranquilos.",
         "Encaja con quien prefiere ambiente antes que menaje.",
         "Aporta calidez sin ocupar demasiado espacio."
       ],
       keepsake: [
-        "Es facil de mostrar incluso mucho despues de la ocasion.",
+        "Es fácil de mostrar incluso mucho después de la ocasión.",
         "Mantiene cerca una fecha, un nombre o un recuerdo.",
-        "Se siente mas duradero que una tarjeta sencilla."
+        "Se siente más duradero que una tarjeta sencilla."
       ],
       plaque: [
         "Encaja en homenajes y regalos de hito que siguen a la vista.",
         "Mantiene cerca un nombre, una fecha o un mensaje.",
-        "Aporta un tono mas sereno a ocasiones personales."
+        "Aporta un tono más sereno a ocasiones personales."
       ],
       craft: [
-        "Mantiene el proyecto facil de empezar y facil de terminar.",
-        "Funciona bien para clases, tardes de lluvia y preparacion de regalos.",
-        "Da una base calida a las ideas creativas."
+        "Mantiene el proyecto fácil de empezar y fácil de terminar.",
+        "Funciona bien para clases, tardes de lluvia y preparación de regalos.",
+        "Da una base cálida a las ideas creativas."
       ],
       "small-gift": [
         "Queda bien en una caja regalo o en un escritorio.",
-        "Funciona cuando un pequeno extra artesanal es suficiente.",
+        "Funciona cuando un pequeño extra artesanal es suficiente.",
         "Aporta calidez sin complicar el regalo."
       ]
     },
     pt: {
       coasters: [
-        "Fica naturalmente em mesas de centro e secretarias.",
-        "Funciona bem quando o presente deve ser util desde o primeiro dia.",
-        "Acrescenta um pouco mais de calor as bebidas do dia a dia."
+        "Fica naturalmente em mesas de centro e secretárias.",
+        "Funciona bem quando o presente deve ser útil desde o primeiro dia.",
+        "Acrescenta um pouco mais de calor às bebidas do dia a dia."
       ],
       bookmarks: [
-        "Desliza-se bem em diarios, sacos e caixas-presente.",
-        "Encaixa em leitores que gostam de pequenos detalhes com caracter.",
+        "Desliza-se bem em diários, sacos e caixas-presente.",
+        "Encaixa em leitores que gostam de pequenos detalhes com carácter.",
         "Funciona bem como pequeno extra ao lado de um bom livro."
       ],
       "door-hanger": [
-        "Da mais personalidade ao espaco desde o primeiro momento.",
-        "E facil de pendurar e facil de notar.",
+        "Dá mais personalidade ao espaço desde o primeiro momento.",
+        "É fácil de pendurar e fácil de notar.",
         "Encaixa em presentes que devem parecer divertidos e pessoais."
       ],
       "decor-piece": [
         "Fica muito bem em prateleiras, mesas de apoio e cantos tranquilos.",
         "Encaixa em quem prefere ambiente a pecas de mesa.",
-        "Acrescenta calor sem ocupar muito espaco."
+        "Acrescenta calor sem ocupar muito espaço."
       ],
       keepsake: [
-        "E facil de expor muito depois da ocasiao.",
-        "Mantem por perto uma data, um nome ou uma memoria.",
-        "Parece mais duradouro do que um simples cartao."
+        "É fácil de expor muito depois da ocasião.",
+        "Mantém por perto uma data, um nome ou uma memória.",
+        "Parece mais duradouro do que um simples cartão."
       ],
       plaque: [
-        "Encaixa em homenagens e presentes de marco que ficam a vista.",
-        "Mantem por perto um nome, uma data ou uma mensagem.",
-        "Da um tom mais sereno a ocasioes pessoais."
+        "Encaixa em homenagens e presentes de marco que ficam à vista.",
+        "Mantém por perto um nome, uma data ou uma mensagem.",
+        "Dá um tom mais sereno a ocasiões pessoais."
       ],
       craft: [
-        "Mantem o projeto facil de comecar e simples de terminar.",
-        "Funciona bem para aulas, tardes de chuva e preparacao de presentes.",
-        "Da uma base calorosa as ideias criativas."
+        "Mantém o projeto fácil de começar e simples de terminar.",
+        "Funciona bem para aulas, tardes de chuva e preparação de presentes.",
+        "Dá uma base calorosa às ideias criativas."
       ],
       "small-gift": [
-        "Fica bem numa caixa-presente ou numa secretaria.",
-        "Funciona quando um pequeno extra artesanal e suficiente.",
+        "Fica bem numa caixa-presente ou numa secretária.",
+        "Funciona quando um pequeno extra artesanal é suficiente.",
         "Acrescenta calor sem complicar o presente."
       ]
     },
@@ -1039,7 +1039,7 @@ function buildCardDescription(product, page, position = 0) {
       coasters: [
         "Sta in modo naturale su tavolini e scrivanie.",
         "Funziona bene quando il regalo deve risultare utile dal primo giorno.",
-        "Aggiunge un po piu di calore alle bevande di ogni giorno."
+        "Aggiunge un po' più di calore alle bevande di ogni giorno."
       ],
       bookmarks: [
         "Scivola bene in diari, borse e scatole regalo.",
@@ -1047,8 +1047,8 @@ function buildCardDescription(product, page, position = 0) {
         "Funziona bene come piccolo extra accanto a un buon libro."
       ],
       "door-hanger": [
-        "Dà piu personalita allo spazio fin dal primo momento.",
-        "E facile da appendere e facile da notare.",
+        "Dà più personalità allo spazio fin dal primo momento.",
+        "È facile da appendere e facile da notare.",
         "Si adatta a regali che devono sembrare giocosi e personali."
       ],
       "decor-piece": [
@@ -1057,14 +1057,14 @@ function buildCardDescription(product, page, position = 0) {
         "Aggiunge calore senza occupare troppo spazio."
       ],
       keepsake: [
-        "E facile da esporre anche molto dopo l'occasione.",
+        "È facile da esporre anche molto dopo l'occasione.",
         "Tiene vicino una data, un nome o un ricordo.",
-        "Sembra piu duraturo di un semplice biglietto."
+        "Sembra più duraturo di un semplice biglietto."
       ],
       plaque: [
         "Si adatta a omaggi e regali di tappa importante che restano in vista.",
         "Tiene vicino un nome, una data o un messaggio.",
-        "Dà un tono piu calmo alle occasioni personali."
+        "Dà un tono più calmo alle occasioni personali."
       ],
       craft: [
         "Mantiene il progetto facile da iniziare e da finire.",

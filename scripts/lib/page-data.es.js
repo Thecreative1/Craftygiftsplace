@@ -79,10 +79,10 @@ const definition = {
       }
     },
     bookmarks: {
-      title: "Marcapáginas de madera hechos a mano para estanterías fantasy y lecturas tranquilas | Craftygiftsplace",
-      metaDescription: "Descubre marcapáginas de madera hechos a mano para estanterías fantasy, regalos para lectores y momentos de lectura tranquilos con mucho carácter.",
-      h1: "Marcapáginas de madera hechos a mano para estanterías fantasy y lecturas tranquilas",
-      intro: "Esta página mantiene la colección de marcapáginas centrada en el producto. Así resulta más fácil comparar marcapáginas de madera para estanterías fantasy, montones de libros y ratos de lectura tranquila, sin mezclarlo con guías de regalo más amplias.",
+      title: "Marcapáginas de madera hechos a mano para estanterías de fantasía y lecturas tranquilas | Craftygiftsplace",
+      metaDescription: "Descubre marcapáginas de madera hechos a mano para estanterías de fantasía, regalos para lectores y momentos de lectura tranquilos con mucho carácter.",
+      h1: "Marcapáginas de madera hechos a mano para estanterías de fantasía y lecturas tranquilas",
+      intro: "Esta página mantiene la colección de marcapáginas centrada en el producto. Así resulta más fácil comparar marcapáginas de madera para estanterías de fantasía, montones de libros y ratos de lectura tranquila, sin mezclarlo con guías de regalo más amplias.",
       primaryCtaLabel: "Ver marcapáginas en Etsy",
       secondaryCtaLabel: "Ver la selección de marcapáginas",
       linkCloud: [
@@ -102,23 +102,23 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un marcapáginas fantasy muy visual para lectores que disfrutan de detalles potentes en una estantería o en un diario de lectura.",
+        "Un marcapáginas de fantasía muy visual para lectores que disfrutan de detalles potentes en una estantería o en un diario de lectura.",
         "Una opción más serena para quien busca un regalo para lector con un aire más clásico.",
         "Un set que reúne marcapáginas, colgador de puerta y posavasos cuando el tema debe sentirse coherente desde el principio."
       ],
       featuredWhy: [
         "Mantiene el foco en marcapáginas y detalles relacionados con la lectura.",
-        "Permite comparar rápido estilos fantasy, clásicos y personalizados.",
+        "Permite comparar rápido estilos de fantasía, clásicos y personalizados.",
         "Lleva a la página de regalos para lectores cuando el comprador necesita una idea más amplia."
       ],
-      catalogIntro: "Una selección de marcapáginas pensada para lectores, estanterías fantasy y momentos de lectura tranquilos.",
+      catalogIntro: "Una selección de marcapáginas pensada para lectores, estanterías de fantasía y momentos de lectura tranquilos.",
       faq: [
-        { question: "¿Estos marcapáginas son sobre todo para lectores de fantasía?", answer: "Muchos encajan especialmente bien en estanterías fantasy y lecturas con ambiente, aunque también hay opciones más sobrias para gustos clásicos." },
+        { question: "¿Estos marcapáginas son sobre todo para lectores de fantasía?", answer: "Muchos encajan especialmente bien en estanterías de fantasía y lecturas con ambiente, aunque también hay opciones más sobrias para gustos clásicos." },
         { question: "¿Existe una página más amplia de regalos para lectores?", answer: "Sí. La página de regalos para lectores reúne marcapáginas, sets a juego y algunas piezas pequeñas de madera para rincones de lectura." },
         { question: "¿Puedo descubrir otros tipos de regalo desde aquí?", answer: "Sí. Esta colección enlaza directamente con regalos de madera, posavasos y las principales guías de regalo." }
       ],
       relatedLinks: [
-        { label: "Regalos para lectores", targetKey: "reader", description: "Marcapáginas, sets fantasy y pequeñas piezas para rincones de lectura reunidos en una sola página." },
+        { label: "Regalos para lectores", targetKey: "reader", description: "Marcapáginas, sets de fantasía y pequeñas piezas para rincones de lectura reunidos en una sola página." },
         { label: "Regalos de madera", targetKey: "gifts", description: "Colgadores de puerta, portavelas y recuerdos para ir más allá del marcapáginas." },
         { label: "Posavasos de madera", targetKey: "coasters", description: "Regalos de madera más orientados al hogar, a la mesa de centro y a una casa nueva." }
       ],
@@ -267,9 +267,9 @@ const definition = {
     },
     reader: {
       title: "Regalos de madera para lectores, rincones de lectura y estanterías acogedoras | Craftygiftsplace",
-      metaDescription: "Explora regalos de madera para lectores, con marcapáginas, un set fantasy y piezas para rincones de lectura y estanterías tranquilas.",
+      metaDescription: "Explora regalos de madera para lectores, con marcapáginas, un set de fantasía y piezas para rincones de lectura y estanterías tranquilas.",
       h1: "Regalos de madera para lectores y rincones de lectura acogedores",
-      intro: "Esta página ayuda a quien ya busca un regalo para lector. Reúne marcapáginas, un set fantasy a juego y algunas piezas que encajan bien en un rincón de lectura, para comparar varios estilos sin salir del mismo tema.",
+      intro: "Esta página ayuda a quien ya busca un regalo para lector. Reúne marcapáginas, un set de fantasía a juego y algunas piezas que encajan bien en un rincón de lectura, para comparar varios estilos sin salir del mismo tema.",
       primaryCtaLabel: "Ver regalos para lectores en Etsy",
       secondaryCtaLabel: "Ir a las ideas para lectores",
       linkCloud: [
@@ -289,7 +289,7 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un marcapáginas fantasy muy visual para lectores que disfrutan de detalles potentes y un objeto bonito dentro del libro.",
+        "Un marcapáginas de fantasía muy visual para lectores que disfrutan de detalles potentes y un objeto bonito dentro del libro.",
         "Un set listo para regalar con marcapáginas, colgador de puerta y posavasos para lectores de fantasía.",
         "Una pequeña pieza de ambiente para estanterías y rincones de lectura cuando el regalo puede ser más suave que estrictamente práctico."
       ],
@@ -298,7 +298,7 @@ const definition = {
         "Combina marcapáginas, un set listo para regalar y una pieza decorativa ligera.",
         "Remite fácilmente a la colección completa de marcapáginas si el visitante quiere comparar con más detalle."
       ],
-      catalogIntro: "Ideas de madera para lectores, marcapáginas, set fantasy y pequeños detalles para rincones de lectura.",
+      catalogIntro: "Ideas de madera para lectores, marcapáginas, set de fantasía y pequeños detalles para rincones de lectura.",
       faq: [
         { question: "¿Esta página incluye solo marcapáginas?", answer: "No. Reúne sobre todo marcapáginas, pero también un set a juego y una pequeña pieza decorativa que funciona bien en un rincón de lectura." },
         { question: "¿Existe también una colección dedicada a los marcapáginas?", answer: "Sí. La colección de marcapáginas de madera sigue disponible para quien quiera quedarse solo en ese tipo de producto." },

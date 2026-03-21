@@ -8,10 +8,10 @@ const localeBans = {
   en: ["onderzetters", "bladwijzers", "houten", "persoonlijke", "personaliseerbare"],
   nl: ["housewarming", "coasters", "gift-ready", "reader gift"],
   de: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift", "wooden coasters", "wooden bookmarks"],
-  fr: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift"],
-  es: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift"],
-  pt: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift"],
-  it: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift"]
+  fr: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift", "tealight"],
+  es: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift", "fantasy", "tealight"],
+  pt: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift", "fantasy", "tealight"],
+  it: ["onderzetters", "bladwijzers", "houten", "housewarming", "reader gift", "tealight"]
 };
 
 const editorialBans = {
@@ -148,10 +148,20 @@ const productLocaleBans = {
     /\bgift-ready\b/i,
     /\bgepersonaliseerde team\b/i
   ],
-  fr: [],
-  es: [],
-  pt: [],
-  it: []
+  fr: [
+    /\btealight\b/i
+  ],
+  es: [
+    /\bfantasy\b/i,
+    /\btealight\b/i
+  ],
+  pt: [
+    /\bfantasy\b/i,
+    /\btealight\b/i
+  ],
+  it: [
+    /\btealight\b/i
+  ]
 };
 
 const collectionIntentTerms = {

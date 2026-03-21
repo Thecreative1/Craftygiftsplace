@@ -1196,6 +1196,29 @@
         "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Personalized%20Just%20Married%20Wooden%20Door%20Hanger"
     },
     {
+        "id":  "just-married-wedding-money-holder",
+        "name":  "Just Married Wedding Money Holder",
+        "title":  "Just Married Wedding Money Holder",
+        "category":  "houten-cadeaus",
+        "section":  "persoonlijke-cadeaus",
+        "price_eur":  14.99,
+        "price_label":  "EUR 14.99",
+        "tags":  [
+                     "Wedding keepsake",
+                     "Gift for newlyweds"
+                 ],
+        "image":  "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg",
+        "image_full":  "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_fullxfull.7821492120_9zkv.jpg",
+        "image_srcset":  "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_340x270.7821492120_9zkv.jpg 340w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg 600w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_794xN.7821492120_9zkv.jpg 794w",
+        "image_sizes":  "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
+        "category_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=wedding",
+        "page":  "../pages/wooden-gifts.html#shop-catalog",
+        "description":  "A wooden money holder that turns a wedding cash gift or gift card into something a couple can keep after the day itself.",
+        "alt":  "Just Married Wedding Money Holder by Craftygiftsplace",
+        "cta_label":  "View Just Married Wedding Money Holder on Etsy",
+        "etsy_url":  "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wedding%20Money%20Holder"
+    },
+    {
         "id":  "personalized-calendar-coaster",
         "name":  "Personalized Calendar Coaster",
         "title":  "Personalized Calendar Coaster",

@@ -6,7 +6,7 @@ const CATEGORY_MAP = {
   "houten-cadeaus": "wooden-gifts"
 };
 
-const DUTCH_NAME_OVERRIDES = {
+  const DUTCH_NAME_OVERRIDES = {
   "bee-motif-wooden-coasters": "Bijenmotief houten onderzetters",
   "personalised-team-wooden-coasters": "Gepersonaliseerde teamonderzetters",
   "hand-painted-spiderweb-wooden-coasters": "Handbeschilderde spinnenweb houten onderzetters",
@@ -14,7 +14,7 @@ const DUTCH_NAME_OVERRIDES = {
   "checkers-wooden-coasters": "Dam houten onderzetters",
   "cricket-dad-coaster": "Cricket papa houten onderzetters",
   "dartboard-wooden-coasters": "Dartbord houten onderzetters",
-  "fantasy-sword-wooden-bookmark": "Fantasy zwaard houten bladwijzer",
+    "fantasy-sword-wooden-bookmark": "Fantasiezwaard houten bladwijzer",
   "tabletop-adventure-coaster-set": "Tafelspel-avontuur houten onderzetters",
   "rocket-wooden-bookmark": "Raket houten bladwijzer",
   "1984-inspired-wooden-bookmark": "1984-geinspireerde houten bladwijzer",
@@ -26,10 +26,11 @@ const DUTCH_NAME_OVERRIDES = {
   "spanish-guitar-wooden-bookmark": "Spaanse gitaar houten bladwijzer",
   "hunting-life-wooden-coasters": "Jachtthema houten onderzetters",
   "upcycled-ram-keychain": "Upcyclede RAM-sleutelhanger",
-  "fantasy-reader-gift-set": "Fantasy lezersset",
-  "moon-cat-shadow-tealight-holder": "Theelichthouder met maan en kat",
-  "personalized-just-married-wooden-door-hanger": "Gepersonaliseerde deurhanger voor pasgetrouwden"
-};
+    "fantasy-reader-gift-set": "Cadeauset voor fantasylezers",
+    "moon-cat-shadow-tealight-holder": "Theelichthouder met maan en kat",
+    "personalized-just-married-wooden-door-hanger": "Gepersonaliseerde deurhanger voor pasgetrouwden",
+    "just-married-wedding-money-holder": "Trouwgeldhouder voor pasgetrouwden"
+  };
 
 const GERMAN_NAME_OVERRIDES = {
   "1984-inspired-wooden-bookmark": "Von 1984 inspiriertes Holzlesezeichen",
@@ -43,20 +44,21 @@ const GERMAN_NAME_OVERRIDES = {
   "dragon-eye-wooden-bookmark": "Drachenauge Holzlesezeichen",
   "dragon-wooden-bookmark": "Drachen Holzlesezeichen",
   "epic-fantasy-door-sign": "Fantasy-Türschild",
-  "epic-fantasy-wooden-bookmark": "Episches Fantasy Holzlesezeichen",
-  "fantasy-reader-gift-set": "Fantasy-Leserset",
-  "fantasy-sword-wooden-bookmark": "Fantasy Schwert Holzlesezeichen",
-  "fantasy-wooden-coasters": "Fantasy Holzuntersetzer",
+    "epic-fantasy-wooden-bookmark": "Episches Fantasy-Holzlesezeichen",
+    "fantasy-reader-gift-set": "Fantasy-Leserset",
+    "fantasy-sword-wooden-bookmark": "Fantasy-Schwert Holzlesezeichen",
+    "fantasy-wooden-coasters": "Fantasy Holzuntersetzer",
   "floral-wooden-coasters": "Blumenmotiv Holzuntersetzer",
   "forest-animal-wooden-coasters": "Waldtiere Holzuntersetzer",
   "laser-birch-wood-incense-burner": "Räucherhalter aus Birkenholz",
   "leaf-wooden-coasters": "Blattmotiv Holzuntersetzer",
   "lighthouse-wooden-bookmark": "Leuchtturm Holzlesezeichen",
-  "moon-cat-shadow-tealight-holder": "Teelichthalter mit Mondkatze",
-  "mushroom-moon-wooden-coasters": "Pilz und Mond Holzuntersetzer",
-  "personalized-feather-wooden-bookmark": "Personalisiertes Holzlesezeichen mit Feder",
-  "personalized-just-married-wooden-door-hanger": "Personalisierter Türhänger für Frischvermählte",
-  "personalized-pet-memorial-plaque": "Personalisierte Haustier-Gedenkplakette",
+    "moon-cat-shadow-tealight-holder": "Teelichthalter mit Mondkatze",
+    "mushroom-moon-wooden-coasters": "Pilz und Mond Holzuntersetzer",
+    "personalized-feather-wooden-bookmark": "Personalisiertes Holzlesezeichen mit Feder",
+    "personalized-just-married-wooden-door-hanger": "Personalisierter Türhänger für Frischvermählte",
+    "just-married-wedding-money-holder": "Geldgeschenkhalter zur Hochzeit",
+    "personalized-pet-memorial-plaque": "Personalisierte Haustier-Gedenkplakette",
   "picasso-animal-line-art-wooden-coasters": "Picasso Tier Line Art Holzuntersetzer",
   "sun-and-moon-wooden-coasters": "Sonne und Mond Holzuntersetzer",
   "tree-of-life-wooden-coasters": "Lebensbaum Holzuntersetzer",
@@ -646,7 +648,7 @@ LABELS.fr = {
     "cat-lover-gift": "cadeau pour amoureux des chats",
     "reader-gift": "cadeau pour lecteur",
     "book-lover-gift": "cadeau pour amoureux des livres",
-    "fantasy-reader-gift": "cadeau fantasy pour lecteur",
+    "fantasy-reader-gift": "cadeau pour lecteur de fantasy",
     "bookmark-gift": "cadeau marque-page",
     "reading-nook-gift": "cadeau pour coin lecture",
     "housewarming-gift": "cadeau de crémaillère",
@@ -658,7 +660,7 @@ LABELS.fr = {
     "dog-lovers": "Cadeau pour amoureux des chiens",
     readers: "Cadeau pour lecteurs",
     "book-lovers": "Cadeau pour amoureux des livres",
-    "fantasy-readers": "Cadeau fantasy",
+    "fantasy-readers": "Cadeau pour lecteur de fantasy",
     gamers: "Cadeau pour joueur",
     newlyweds: "Cadeau pour jeunes mariés",
     "new-parents": "Nouveau bébé",
@@ -729,7 +731,7 @@ LABELS.fr = {
   },
   usage: {
     coasters: { cat: "tables basses, bureaux et coins cosy", dog: "tables du quotidien et espaces avec animaux", celestial: "tables basses, guéridons et pièces d'ambiance", fantasy: "coins lecture, bureaux et pièces loisirs", gaming: "salles de jeu, bureaux et tables du week-end", botanical: "cuisines, tables d'invités et intérieurs chaleureux", coastal: "chambres d'amis, terrasses et maisons détendues", gothic: "guéridons, étagères et décors affirmés", default: "tables du quotidien, bureaux et coins chaleureux" },
-    bookmarks: { fantasy: "piles de livres, lectures du soir et étagères fantasy", celestial: "journaux de lecture, tables de nuit et chapitres calmes", botanical: "cadeaux livres, sacs et lectures silencieuses", gothic: "étagères dark academia et coins lecture marqués", default: "piles de livres, journaux de lecture et coffrets cadeaux" },
+    bookmarks: { fantasy: "piles de livres, lectures du soir et étagères de fantasy", celestial: "journaux de lecture, tables de nuit et chapitres calmes", botanical: "cadeaux livres, sacs et lectures silencieuses", gothic: "étagères dark academia et coins lecture marqués", default: "piles de livres, journaux de lecture et coffrets cadeaux" },
     "door-hanger": { fantasy: "coins lecture, pièces loisirs et portes de chambre", gaming: "salles de jeu, coins streaming et bureaux", wedding: "entrées, coins mariage et espaces partagés", default: "portes de chambre, bureaux à domicile et coins personnels" },
     "decor-piece": { cat: "étagères, guéridons et coins éclairés à la bougie", celestial: "tables de nuit, consoles et ambiances du soir", gothic: "étagères, buffets et coins atmosphériques", default: "étagères, guéridons et coins cosy" },
     keepsake: { wedding: "boîtes cadeaux, étagères souvenirs et tables d'occasion", baby: "étagères de chambre, tiroirs et photos marquantes", memorial: "coins mémoire et étagères pleines de sens", default: "boîtes cadeaux, étagères et moments à garder" },
@@ -771,7 +773,7 @@ LABELS.es = {
   style: {
     cozy: "acogedor",
     celestial: "celestial",
-    fantasy: "fantasy",
+    fantasy: "de fantasía",
     botanical: "botánico",
     playful: "divertido",
     personalized: "personalizado",
@@ -787,7 +789,7 @@ LABELS.es = {
     "cat-lover-gift": "regalo para amantes de los gatos",
     "reader-gift": "regalo para lectores",
     "book-lover-gift": "regalo para amantes de los libros",
-    "fantasy-reader-gift": "regalo fantasy para lectores",
+    "fantasy-reader-gift": "regalo para lectores de fantasía",
     "bookmark-gift": "regalo marcapáginas",
     "reading-nook-gift": "regalo para rincón de lectura",
     "housewarming-gift": "regalo para casa nueva",
@@ -799,7 +801,7 @@ LABELS.es = {
     "dog-lovers": "Regalo para amantes de los perros",
     readers: "Regalo para lectores",
     "book-lovers": "Regalo para amantes de los libros",
-    "fantasy-readers": "Regalo fantasy",
+    "fantasy-readers": "Regalo para lectores de fantasía",
     gamers: "Regalo para jugador",
     newlyweds: "Regalo para recién casados",
     "new-parents": "Nuevo bebé",
@@ -814,7 +816,7 @@ LABELS.es = {
     personalized: "Personalizado",
     cozy: "Estilo acogedor",
     celestial: "Diseño celestial",
-    fantasy: "Decoración fantasy",
+    fantasy: "Decoración de fantasía",
     botanical: "Tema natural",
     playful: "Tema divertido",
     gothic: "Ambiente gótico",
@@ -855,7 +857,7 @@ LABELS.es = {
     cat: "un motivo felino",
     dog: "un detalle de huella",
     celestial: "un trazo celestial",
-    fantasy: "un detalle fantasy",
+    fantasy: "un detalle de fantasía",
     gaming: "un motivo de juego",
     botanical: "un detalle botánico",
     coastal: "un detalle costero",
@@ -870,7 +872,7 @@ LABELS.es = {
   },
   usage: {
     coasters: { cat: "mesas de centro, escritorios y rincones acogedores", dog: "mesas del día a día y espacios con mascotas", celestial: "mesas de centro, auxiliares y ambientes suaves", fantasy: "rincones de lectura, escritorios y cuartos de aficiones", gaming: "cuartos de juego, escritorios y mesas de fin de semana", botanical: "cocinas, mesas de invitados e interiores cálidos", coastal: "habitaciones de invitados, terrazas y casas relajadas", gothic: "mesas auxiliares, estanterías y decoraciones marcadas", default: "mesas diarias, escritorios y rincones acogedores" },
-    bookmarks: { fantasy: "montones de libros, lectura nocturna y estanterías fantasy", celestial: "diarios de lectura, mesillas y capítulos tranquilos", botanical: "regalos de libros, bolsas y lectura silenciosa", gothic: "estanterías dark academia y rincones de lectura intensos", default: "montones de libros, diarios de lectura y cajas regalo" },
+    bookmarks: { fantasy: "montones de libros, lectura nocturna y estanterías de fantasía", celestial: "diarios de lectura, mesillas y capítulos tranquilos", botanical: "regalos de libros, bolsas y lectura silenciosa", gothic: "estanterías dark academia y rincones de lectura intensos", default: "montones de libros, diarios de lectura y cajas regalo" },
     "door-hanger": { fantasy: "rincones de lectura, cuartos de aficiones y puertas de dormitorio", gaming: "cuartos de juego, rincones de streaming y escritorios", wedding: "entradas, rincones de boda y espacios compartidos", default: "puertas de dormitorio, despachos y rincones personales" },
     "decor-piece": { cat: "estanterías, mesas auxiliares y rincones con velas", celestial: "mesillas, consolas y ambientes de tarde", gothic: "estanterías, aparadores y rincones atmosféricos", default: "estanterías, mesas auxiliares y rincones acogedores" },
     keepsake: { wedding: "cajas regalo, estantes recuerdo y mesas de ocasión", baby: "estantes de habitación, cajones y fotos importantes", memorial: "rincones de memoria y estantes con significado", default: "cajas regalo, estantes y momentos para conservar" },
@@ -912,7 +914,7 @@ LABELS.pt = {
   style: {
     cozy: "acolhedor",
     celestial: "celeste",
-    fantasy: "fantasy",
+    fantasy: "de fantasia",
     botanical: "botânico",
     playful: "divertido",
     personalized: "personalizado",
@@ -928,7 +930,7 @@ LABELS.pt = {
     "cat-lover-gift": "presente para amantes de gatos",
     "reader-gift": "presente para leitores",
     "book-lover-gift": "presente para amantes de livros",
-    "fantasy-reader-gift": "presente fantasy para leitores",
+    "fantasy-reader-gift": "presente para leitores de fantasia",
     "bookmark-gift": "presente marcador",
     "reading-nook-gift": "presente para canto de leitura",
     "housewarming-gift": "presente de casa nova",
@@ -940,7 +942,7 @@ LABELS.pt = {
     "dog-lovers": "Presente para amantes de cães",
     readers: "Presente para leitores",
     "book-lovers": "Presente para amantes de livros",
-    "fantasy-readers": "Presente fantasy",
+    "fantasy-readers": "Presente para leitores de fantasia",
     gamers: "Presente gamer",
     newlyweds: "Presente para recém-casados",
     "new-parents": "Novo bebé",
@@ -955,7 +957,7 @@ LABELS.pt = {
     personalized: "Personalizado",
     cozy: "Estilo acolhedor",
     celestial: "Design celeste",
-    fantasy: "Decoração fantasy",
+    fantasy: "Decoração de fantasia",
     botanical: "Tema natural",
     playful: "Tema divertido",
     gothic: "Ambiente gótico",
@@ -996,7 +998,7 @@ LABELS.pt = {
     cat: "um motivo felino",
     dog: "um detalhe de pata",
     celestial: "um traço celeste",
-    fantasy: "um detalhe fantasy",
+    fantasy: "um detalhe de fantasia",
     gaming: "um motivo de jogo",
     botanical: "um detalhe botânico",
     coastal: "um detalhe costeiro",
@@ -1011,7 +1013,7 @@ LABELS.pt = {
   },
   usage: {
     coasters: { cat: "mesas de centro, secretárias e cantos acolhedores", dog: "mesas do dia a dia e espaços com animais", celestial: "mesas de centro, mesas de apoio e ambientes suaves", fantasy: "cantos de leitura, secretárias e salas de hobbies", gaming: "salas de jogo, secretárias e mesas de fim de semana", botanical: "cozinhas, mesas de convidados e interiores quentes", coastal: "quartos de hóspedes, terraços e casas descontraídas", gothic: "mesas de apoio, prateleiras e decorações marcantes", default: "mesas do dia a dia, secretárias e cantos acolhedores" },
-    bookmarks: { fantasy: "pilhas de livros, leitura à noite e estantes fantasy", celestial: "diários de leitura, mesinhas e capítulos tranquilos", botanical: "presentes de livros, sacos e leituras silenciosas", gothic: "estantes dark academia e cantos de leitura marcantes", default: "pilhas de livros, diários de leitura e caixas-presente" },
+    bookmarks: { fantasy: "pilhas de livros, leitura à noite e estantes de fantasia", celestial: "diários de leitura, mesinhas e capítulos tranquilos", botanical: "presentes de livros, sacos e leituras silenciosas", gothic: "estantes dark academia e cantos de leitura marcantes", default: "pilhas de livros, diários de leitura e caixas-presente" },
     "door-hanger": { fantasy: "cantos de leitura, salas de hobbies e portas de quarto", gaming: "salas de jogo, cantos de streaming e secretárias", wedding: "entradas, cantos de casamento e espaços partilhados", default: "portas de quarto, escritórios em casa e cantos pessoais" },
     "decor-piece": { cat: "prateleiras, mesas de apoio e cantos iluminados por velas", celestial: "mesinhas, consolas e ambientes ao final do dia", gothic: "prateleiras, aparadores e cantos atmosféricos", default: "prateleiras, mesas de apoio e cantos acolhedores" },
     keepsake: { wedding: "caixas de presente, prateleiras de recordação e mesas de ocasião", baby: "prateleiras de quarto, gavetas e fotografias marcantes", memorial: "cantos de memória e prateleiras com significado", default: "caixas de presente, prateleiras e momentos para guardar" },
@@ -1069,7 +1071,7 @@ LABELS.it = {
     "cat-lover-gift": "regalo per amanti dei gatti",
     "reader-gift": "regalo per lettori",
     "book-lover-gift": "regalo per amanti dei libri",
-    "fantasy-reader-gift": "regalo fantasy per lettori",
+    "fantasy-reader-gift": "regalo per lettori fantasy",
     "bookmark-gift": "regalo segnalibro",
     "reading-nook-gift": "regalo per angolo lettura",
     "housewarming-gift": "regalo per la casa nuova",
@@ -1081,7 +1083,7 @@ LABELS.it = {
     "dog-lovers": "Regalo per amanti dei cani",
     readers: "Regalo per lettori",
     "book-lovers": "Regalo per amanti dei libri",
-    "fantasy-readers": "Regalo fantasy",
+    "fantasy-readers": "Regalo per lettori fantasy",
     gamers: "Regalo gamer",
     newlyweds: "Regalo per neo-sposi",
     "new-parents": "Nuovo bebè",
@@ -1225,36 +1227,60 @@ function applyNameReplacements(name, replacements) {
 }
 
 const FRENCH_NAME_OVERRIDES = {
-  "fantasy-reader-gift-set": "Set cadeau fantasy pour lecteur",
-  "moon-cat-shadow-tealight-holder": "Porte-bougie lune et chat",
-  "personalized-feather-wooden-bookmark": "Marque-page en bois personnalisé avec plume",
-  "personalized-just-married-wooden-door-hanger": "Suspension de porte personnalisée jeunes mariés",
-  "epic-fantasy-door-sign": "Plaque de porte fantasy"
-};
+    "dragon-eye-wooden-bookmark": "Marque-page oeil de dragon en bois",
+    "dragon-wooden-bookmark": "Marque-page dragon en bois",
+    "epic-fantasy-wooden-bookmark": "Marque-page fantasy épique en bois",
+    "fantasy-reader-gift-set": "Coffret pour lecteurs de fantasy",
+    "fantasy-sword-wooden-bookmark": "Marque-page épée fantasy en bois",
+    "fantasy-wooden-coasters": "Dessous-verres fantasy en bois",
+    "moon-cat-shadow-tealight-holder": "Porte-bougie lune et chat",
+    "personalized-feather-wooden-bookmark": "Marque-page en bois personnalisé avec plume",
+    "personalized-just-married-wooden-door-hanger": "Suspension de porte personnalisée jeunes mariés",
+    "just-married-wedding-money-holder": "Porte-billets de mariage pour jeunes mariés",
+    "epic-fantasy-door-sign": "Plaque de porte fantasy"
+  };
 
 const SPANISH_NAME_OVERRIDES = {
-  "fantasy-reader-gift-set": "Set fantasy para lectores",
-  "moon-cat-shadow-tealight-holder": "Portavelas gato y luna",
-  "personalized-feather-wooden-bookmark": "Marcapaginas de madera personalizado con pluma",
-  "personalized-just-married-wooden-door-hanger": "Colgador de puerta personalizado para recien casados",
-  "epic-fantasy-door-sign": "Placa de puerta fantasy"
-};
+    "dragon-eye-wooden-bookmark": "Marcapáginas ojo de dragón en madera",
+    "dragon-wooden-bookmark": "Marcapáginas dragón en madera",
+    "epic-fantasy-wooden-bookmark": "Marcapáginas de fantasía épica en madera",
+    "fantasy-reader-gift-set": "Set de fantasía para lectores",
+    "fantasy-sword-wooden-bookmark": "Marcapáginas espada de fantasía en madera",
+    "fantasy-wooden-coasters": "Posavasos de madera de fantasía",
+    "moon-cat-shadow-tealight-holder": "Portavelas gato y luna",
+    "personalized-feather-wooden-bookmark": "Marcapáginas de madera personalizado con pluma",
+    "personalized-just-married-wooden-door-hanger": "Colgador de puerta personalizado para recién casados",
+    "just-married-wedding-money-holder": "Portaefectivo de boda para recién casados",
+    "epic-fantasy-door-sign": "Placa de puerta de fantasía"
+  };
 
 const PORTUGUESE_NAME_OVERRIDES = {
-  "fantasy-reader-gift-set": "Conjunto fantasy para leitores",
-  "moon-cat-shadow-tealight-holder": "Suporte para tealight gato e lua",
-  "personalized-feather-wooden-bookmark": "Marcador de livros personalizado com pena",
-  "personalized-just-married-wooden-door-hanger": "Pendente de porta personalizado para recem-casados",
-  "epic-fantasy-door-sign": "Placa de porta fantasy"
-};
+    "dragon-eye-wooden-bookmark": "Marcador olho de dragão em madeira",
+    "dragon-wooden-bookmark": "Marcador dragão em madeira",
+    "epic-fantasy-wooden-bookmark": "Marcador de fantasia épica em madeira",
+    "fantasy-reader-gift-set": "Conjunto de fantasia para leitores",
+    "fantasy-sword-wooden-bookmark": "Marcador espada de fantasia em madeira",
+    "fantasy-wooden-coasters": "Porta-copos de madeira de fantasia",
+    "moon-cat-shadow-tealight-holder": "Porta-vela gato e lua",
+    "personalized-feather-wooden-bookmark": "Marcador de livros personalizado com pena",
+    "personalized-just-married-wooden-door-hanger": "Pendente de porta personalizado para recém-casados",
+    "just-married-wedding-money-holder": "Porta-dinheiro de casamento para recém-casados",
+    "epic-fantasy-door-sign": "Placa de porta de fantasia"
+  };
 
 const ITALIAN_NAME_OVERRIDES = {
-  "fantasy-reader-gift-set": "Set fantasy per lettori",
-  "moon-cat-shadow-tealight-holder": "Portacandela gatto e luna",
-  "personalized-feather-wooden-bookmark": "Segnalibro in legno personalizzato con piuma",
-  "personalized-just-married-wooden-door-hanger": "Targhetta da porta personalizzata per novelli sposi",
-  "epic-fantasy-door-sign": "Targa da porta fantasy"
-};
+  "dragon-eye-wooden-bookmark": "Segnalibro occhio di drago in legno",
+  "dragon-wooden-bookmark": "Segnalibro drago in legno",
+  "epic-fantasy-wooden-bookmark": "Segnalibro fantasy epico in legno",
+  "fantasy-reader-gift-set": "Set per lettori fantasy",
+  "fantasy-sword-wooden-bookmark": "Segnalibro spada fantasy in legno",
+    "fantasy-wooden-coasters": "Sottobicchieri fantasy in legno",
+    "moon-cat-shadow-tealight-holder": "Portacandela gatto e luna",
+    "personalized-feather-wooden-bookmark": "Segnalibro in legno personalizzato con piuma",
+    "personalized-just-married-wooden-door-hanger": "Targhetta da porta personalizzata per novelli sposi",
+    "just-married-wedding-money-holder": "Portasoldi matrimonio per novelli sposi",
+    "epic-fantasy-door-sign": "Targa da porta fantasy"
+  };
 
 const FRENCH_NAME_REPLACEMENTS = [
   [/\bWooden Coasters\b/gi, "Dessous-verres en bois"],
@@ -1287,63 +1313,65 @@ const FRENCH_NAME_REPLACEMENTS = [
   [/\bFloral\b/gi, "Floral"]
 ];
 
-const SPANISH_NAME_REPLACEMENTS = [
-  [/\bWooden Coasters\b/gi, "Posavasos de madera"],
-  [/\bWooden Bookmark\b/gi, "Marcapaginas de madera"],
-  [/\bCoaster Set\b/gi, "Set de posavasos"],
-  [/\bDoor Hanger\b/gi, "Colgador de puerta"],
-  [/\bDoor Sign\b/gi, "Placa de puerta"],
-  [/\bTealight Holder\b/gi, "Portavelas tealight"],
-  [/\bIncense Burner\b/gi, "Quemador de incienso"],
-  [/\bPet Memorial Plaque\b/gi, "Placa conmemorativa para mascota"],
-  [/\bPersonalized\b/gi, "Personalizado"],
-  [/\bPersonalised\b/gi, "Personalizado"],
-  [/\bInspired\b/gi, "inspirado"],
-  [/\bClassic\b/gi, "Clasico"],
-  [/\bCeltic\b/gi, "Celta"],
-  [/\bRocket\b/gi, "Cohete"],
-  [/\bFeather\b/gi, "Pluma"],
-  [/\bLighthouse\b/gi, "Faro"],
-  [/\bDragon Eye\b/gi, "Ojo de dragon"],
-  [/\bDragon\b/gi, "Dragon"],
+  const SPANISH_NAME_REPLACEMENTS = [
+    [/\bWooden Coasters\b/gi, "Posavasos de madera"],
+    [/\bWooden Bookmark\b/gi, "Marcapáginas de madera"],
+    [/\bCoaster Set\b/gi, "Set de posavasos"],
+    [/\bDoor Hanger\b/gi, "Colgador de puerta"],
+    [/\bDoor Sign\b/gi, "Placa de puerta"],
+    [/\bTealight Holder\b/gi, "Portavelas"],
+    [/\bIncense Burner\b/gi, "Quemador de incienso"],
+    [/\bPet Memorial Plaque\b/gi, "Placa conmemorativa para mascota"],
+    [/\bPersonalized\b/gi, "Personalizado"],
+    [/\bPersonalised\b/gi, "Personalizado"],
+    [/\bFantasy\b/gi, "Fantasía"],
+    [/\bInspired\b/gi, "inspirado"],
+    [/\bClassic\b/gi, "Clásico"],
+    [/\bCeltic\b/gi, "Celta"],
+    [/\bRocket\b/gi, "Cohete"],
+    [/\bFeather\b/gi, "Pluma"],
+    [/\bLighthouse\b/gi, "Faro"],
+    [/\bDragon Eye\b/gi, "Ojo de dragón"],
+    [/\bDragon\b/gi, "Dragón"],
   [/\bCat and Moon\b/gi, "Gato y luna"],
   [/\bSun and Moon\b/gi, "Sol y luna"],
   [/\bCat\b/gi, "Gato"],
   [/\bMoon\b/gi, "Luna"],
   [/\bSun\b/gi, "Sol"],
   [/\bZodiac\b/gi, "Zodiaco"],
-  [/\bTree of Life\b/gi, "Arbol de la vida"],
+    [/\bTree of Life\b/gi, "Árbol de la vida"],
   [/\bBee Motif\b/gi, "Motivo de abeja"],
   [/\bLeaf\b/gi, "Hoja"],
   [/\bFloral\b/gi, "Floral"]
 ];
 
-const PORTUGUESE_NAME_REPLACEMENTS = [
-  [/\bWooden Coasters\b/gi, "Porta-copos de madeira"],
-  [/\bWooden Bookmark\b/gi, "Marcador de livros em madeira"],
-  [/\bCoaster Set\b/gi, "Conjunto de porta-copos"],
-  [/\bDoor Hanger\b/gi, "Pendente de porta"],
+  const PORTUGUESE_NAME_REPLACEMENTS = [
+    [/\bWooden Coasters\b/gi, "Porta-copos de madeira"],
+    [/\bWooden Bookmark\b/gi, "Marcador de livros em madeira"],
+    [/\bCoaster Set\b/gi, "Conjunto de porta-copos"],
+    [/\bDoor Hanger\b/gi, "Pendente de porta"],
   [/\bDoor Sign\b/gi, "Placa de porta"],
-  [/\bTealight Holder\b/gi, "Suporte para tealight"],
+  [/\bTealight Holder\b/gi, "Porta-vela"],
   [/\bIncense Burner\b/gi, "Queimador de incenso"],
-  [/\bPet Memorial Plaque\b/gi, "Placa memorial para animal"],
-  [/\bPersonalized\b/gi, "Personalizado"],
-  [/\bPersonalised\b/gi, "Personalizado"],
-  [/\bInspired\b/gi, "inspirado"],
-  [/\bClassic\b/gi, "Classico"],
-  [/\bCeltic\b/gi, "Celtico"],
-  [/\bRocket\b/gi, "Foguetao"],
-  [/\bFeather\b/gi, "Pena"],
-  [/\bLighthouse\b/gi, "Farol"],
-  [/\bDragon Eye\b/gi, "Olho de dragao"],
-  [/\bDragon\b/gi, "Dragao"],
+    [/\bPet Memorial Plaque\b/gi, "Placa memorial para animal"],
+    [/\bPersonalized\b/gi, "Personalizado"],
+    [/\bPersonalised\b/gi, "Personalizado"],
+    [/\bFantasy\b/gi, "Fantasia"],
+    [/\bInspired\b/gi, "inspirado"],
+    [/\bClassic\b/gi, "Clássico"],
+    [/\bCeltic\b/gi, "Celtico"],
+    [/\bRocket\b/gi, "Foguetão"],
+    [/\bFeather\b/gi, "Pena"],
+    [/\bLighthouse\b/gi, "Farol"],
+    [/\bDragon Eye\b/gi, "Olho de dragão"],
+    [/\bDragon\b/gi, "Dragão"],
   [/\bCat and Moon\b/gi, "Gato e lua"],
   [/\bSun and Moon\b/gi, "Sol e lua"],
   [/\bCat\b/gi, "Gato"],
   [/\bMoon\b/gi, "Lua"],
   [/\bSun\b/gi, "Sol"],
   [/\bZodiac\b/gi, "Zodiaco"],
-  [/\bTree of Life\b/gi, "Arvore da vida"],
+    [/\bTree of Life\b/gi, "Árvore da vida"],
   [/\bBee Motif\b/gi, "Motivo de abelha"],
   [/\bLeaf\b/gi, "Folha"],
   [/\bFloral\b/gi, "Floral"]
@@ -1355,7 +1383,7 @@ const ITALIAN_NAME_REPLACEMENTS = [
   [/\bCoaster Set\b/gi, "Set di sottobicchieri"],
   [/\bDoor Hanger\b/gi, "Targhetta da porta"],
   [/\bDoor Sign\b/gi, "Targa da porta"],
-  [/\bTealight Holder\b/gi, "Portacandela tealight"],
+  [/\bTealight Holder\b/gi, "Portacandela"],
   [/\bIncense Burner\b/gi, "Bruciatore d'incenso"],
   [/\bPet Memorial Plaque\b/gi, "Placca ricordo per animale"],
   [/\bPersonalized\b/gi, "Personalizzato"],
@@ -1427,7 +1455,7 @@ function inferFormatKey(category, source) {
   if (/\btealight\b|\bincense\b/.test(source)) {
     return "decor-piece";
   }
-  if (/\bmilestone\b|\bbaby\b|\bcloset divider\b|\bchristmas ornament\b|\bornament\b/.test(source)) {
+  if (/\bmilestone\b|\bbaby\b|\bcloset divider\b|\bchristmas ornament\b|\bornament\b|\bmoney holder\b|\bcash holder\b|\bgift card holder\b|\bhoneymoon fund\b/.test(source)) {
     return "keepsake";
   }
   if (/\bnumicon\b|\bdinosaur\b|\bblank\b|\bshapes\b|\bdiy\b/.test(source)) {

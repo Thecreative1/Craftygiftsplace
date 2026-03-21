@@ -3074,6 +3074,66 @@
     "brand_suffix": "by Craftygiftsplace"
   },
   {
+    "slug": "just-married-wedding-money-holder",
+    "source_id": "just-married-wedding-money-holder",
+    "locale": "en",
+    "category": "wooden-gifts",
+    "section": "persoonlijke-cadeaus",
+    "name": "Just Married Wedding Money Holder",
+    "price": "14.99",
+    "price_label": "EUR 14.99",
+    "audience_keys": [
+      "newlyweds"
+    ],
+    "audience": [
+      "newlyweds"
+    ],
+    "occasion_keys": [
+      "wedding",
+      "anniversary",
+      "birthday",
+      "everyday-gift"
+    ],
+    "occasions": [
+      "wedding",
+      "anniversary",
+      "birthday",
+      "everyday gifting"
+    ],
+    "style_keys": [
+      "personalized"
+    ],
+    "style": [
+      "personalized"
+    ],
+    "theme_key": "wedding",
+    "format_key": "keepsake",
+    "format_label": "keepsake gift",
+    "motif": "milestone detail",
+    "usage_context": "gift boxes, memory shelves and milestone tables",
+    "benefit_primary": "marks a milestone in a practical way",
+    "benefit_secondary": "makes the moment easier to keep and revisit",
+    "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wedding%20Money%20Holder",
+    "image": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg",
+    "image_srcset": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_340x270.7821492120_9zkv.jpg 340w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg 600w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_794xN.7821492120_9zkv.jpg 794w",
+    "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
+    "alt": "Just Married Wedding Money Holder by Craftygiftsplace",
+    "short_desc": "Turns a meaningful moment into something easy to keep and display.",
+    "collection_desc": "A keepsake-style wooden gift for milestones, memories and special dates.",
+    "intent_keys": [
+      "personalized-wedding-gift"
+    ],
+    "intent_tags": [
+      "personalized wedding gift"
+    ],
+    "chips": [
+      "Gift for newlyweds",
+      "Wedding gift"
+    ],
+    "cta_label": "View Just Married Wedding Money Holder on Etsy",
+    "brand_suffix": "by Craftygiftsplace"
+  },
+  {
     "slug": "personalized-calendar-coaster",
     "source_id": "personalized-calendar-coaster",
     "locale": "en",

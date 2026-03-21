@@ -63,7 +63,7 @@
     "locale": "fr",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Oeil de Dragon Marque-page en bois",
+    "name": "Marque-page oeil de dragon en bois",
     "price": "18.99",
     "price_label": "EUR 18.99",
     "audience_keys": [
@@ -96,14 +96,14 @@
     "format_key": "bookmarks",
     "format_label": "marque-page",
     "motif": "un détail fantasy",
-    "usage_context": "piles de livres, lectures du soir et étagères fantasy",
+    "usage_context": "piles de livres, lectures du soir et étagères de fantasy",
     "benefit_primary": "garde la page facile à retrouver",
     "benefit_secondary": "rend un cadeau livre plus personnel",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Dragon%20Eye%20Bookmark",
     "image": "https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_600x600.6371593681_3p4r.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_340x270.6371593681_3p4r.jpg 340w, https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_600x600.6371593681_3p4r.jpg 600w, https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_794xN.6371593681_3p4r.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Oeil de Dragon Marque-page en bois de Craftygiftsplace",
+    "alt": "Marque-page oeil de dragon en bois de Craftygiftsplace",
     "short_desc": "Se glisse facilement dans un journal de lecture, un coffret cadeau ou une soirée tranquille.",
     "collection_desc": "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
     "intent_keys": [
@@ -116,7 +116,7 @@
       "cadeau pour lecteur",
       "cadeau pour amoureux des livres",
       "cadeau marque-page",
-      "cadeau fantasy pour lecteur"
+      "cadeau pour lecteur de fantasy"
     ],
     "chips": [
       "Cadeau pour lecteurs",
@@ -491,7 +491,7 @@
     "locale": "fr",
     "category": "coasters",
     "section": "onderzetters",
-    "name": "Fantasy Dessous-verres en bois",
+    "name": "Dessous-verres fantasy en bois",
     "price": "24.99",
     "price_label": "EUR 24.99",
     "audience_keys": [
@@ -527,7 +527,7 @@
     "image": "https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_600x600.6103181163_fltt.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_340x270.6103181163_fltt.jpg 340w, https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_600x600.6103181163_fltt.jpg 600w, https://i.etsystatic.com/46731516/r/il/9814c8/6103181163/il_794xN.6103181163_fltt.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy Dessous-verres en bois de Craftygiftsplace",
+    "alt": "Dessous-verres fantasy en bois de Craftygiftsplace",
     "short_desc": "Un choix pratique pour les boissons du quotidien avec une vraie présence en bois.",
     "collection_desc": "Un set de dessous-verres en bois pour tables basses, bureaux et intérieurs chaleureux.",
     "intent_keys": [
@@ -2013,7 +2013,7 @@
     "locale": "fr",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Dragon Marque-page en bois",
+    "name": "Marque-page dragon en bois",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -2046,14 +2046,14 @@
     "format_key": "bookmarks",
     "format_label": "marque-page",
     "motif": "un détail fantasy",
-    "usage_context": "piles de livres, lectures du soir et étagères fantasy",
+    "usage_context": "piles de livres, lectures du soir et étagères de fantasy",
     "benefit_primary": "garde la page facile à retrouver",
     "benefit_secondary": "rend un cadeau livre plus personnel",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Handmade%20Wooden%20Dragon%20Bookmark",
     "image": "https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_600x600.5434960961_8gmc.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_340x270.5434960961_8gmc.jpg 340w, https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_600x600.5434960961_8gmc.jpg 600w, https://i.etsystatic.com/46731516/r/il/41b00f/5434960961/il_794xN.5434960961_8gmc.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Dragon Marque-page en bois de Craftygiftsplace",
+    "alt": "Marque-page dragon en bois de Craftygiftsplace",
     "short_desc": "Se glisse facilement dans un journal de lecture, un coffret cadeau ou une soirée tranquille.",
     "collection_desc": "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
     "intent_keys": [
@@ -2066,7 +2066,7 @@
       "cadeau pour lecteur",
       "cadeau pour amoureux des livres",
       "cadeau marque-page",
-      "cadeau fantasy pour lecteur"
+      "cadeau pour lecteur de fantasy"
     ],
     "chips": [
       "Cadeau pour lecteurs",
@@ -2779,7 +2779,7 @@
     "locale": "fr",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Epic Fantasy Marque-page en bois",
+    "name": "Marque-page fantasy épique en bois",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -2812,14 +2812,14 @@
     "format_key": "bookmarks",
     "format_label": "marque-page",
     "motif": "un détail fantasy",
-    "usage_context": "piles de livres, lectures du soir et étagères fantasy",
+    "usage_context": "piles de livres, lectures du soir et étagères de fantasy",
     "benefit_primary": "garde la page facile à retrouver",
     "benefit_secondary": "rend un cadeau livre plus personnel",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark",
     "image": "https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_600x600.5417484435_8pfz.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_340x270.5417484435_8pfz.jpg 340w, https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_600x600.5417484435_8pfz.jpg 600w, https://i.etsystatic.com/46731516/r/il/1f951a/5417484435/il_794xN.5417484435_8pfz.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Epic Fantasy Marque-page en bois de Craftygiftsplace",
+    "alt": "Marque-page fantasy épique en bois de Craftygiftsplace",
     "short_desc": "Garde la page facile à retrouver et ajoute du caractère au moment de lecture.",
     "collection_desc": "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
     "intent_keys": [
@@ -2832,7 +2832,7 @@
       "cadeau pour lecteur",
       "cadeau pour amoureux des livres",
       "cadeau marque-page",
-      "cadeau fantasy pour lecteur"
+      "cadeau pour lecteur de fantasy"
     ],
     "chips": [
       "Cadeau pour lecteurs",
@@ -3064,6 +3064,66 @@
     ],
     "intent_tags": [
       "cadeau de crémaillère",
+      "cadeau de mariage personnalisé"
+    ],
+    "chips": [
+      "Cadeau pour jeunes mariés",
+      "Cadeau de mariage"
+    ],
+    "cta_label": "Voir sur Etsy",
+    "brand_suffix": "de Craftygiftsplace"
+  },
+  {
+    "slug": "just-married-wedding-money-holder",
+    "source_id": "just-married-wedding-money-holder",
+    "locale": "fr",
+    "category": "wooden-gifts",
+    "section": "persoonlijke-cadeaus",
+    "name": "Porte-billets de mariage pour jeunes mariés",
+    "price": "14.99",
+    "price_label": "EUR 14.99",
+    "audience_keys": [
+      "newlyweds"
+    ],
+    "audience": [
+      "jeunes mariés"
+    ],
+    "occasion_keys": [
+      "wedding",
+      "anniversary",
+      "birthday",
+      "everyday-gift"
+    ],
+    "occasions": [
+      "mariage",
+      "anniversaire de mariage",
+      "anniversaire",
+      "petit cadeau du quotidien"
+    ],
+    "style_keys": [
+      "personalized"
+    ],
+    "style": [
+      "personnalisé"
+    ],
+    "theme_key": "wedding",
+    "format_key": "keepsake",
+    "format_label": "cadeau souvenir",
+    "motif": "un détail d'occasion",
+    "usage_context": "boîtes cadeaux, étagères souvenirs et tables d'occasion",
+    "benefit_primary": "marque un moment important de façon concrète",
+    "benefit_secondary": "rend le moment plus facile à garder",
+    "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Wedding%20Money%20Holder",
+    "image": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg",
+    "image_srcset": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_340x270.7821492120_9zkv.jpg 340w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_600x600.7821492120_9zkv.jpg 600w, https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_794xN.7821492120_9zkv.jpg 794w",
+    "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
+    "alt": "Porte-billets de mariage pour jeunes mariés de Craftygiftsplace",
+    "short_desc": "Pensé pour les moments qui méritent plus qu'une simple carte.",
+    "collection_desc": "Un cadeau souvenir en bois pour étapes, mémoires et dates spéciales.",
+    "intent_keys": [
+      "personalized-wedding-gift"
+    ],
+    "intent_tags": [
       "cadeau de mariage personnalisé"
     ],
     "chips": [
@@ -3783,7 +3843,7 @@
     "locale": "fr",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Fantasy Sword Marque-page en bois",
+    "name": "Marque-page épée fantasy en bois",
     "price": "12.99",
     "price_label": "EUR 12.99",
     "audience_keys": [
@@ -3816,14 +3876,14 @@
     "format_key": "bookmarks",
     "format_label": "marque-page",
     "motif": "un détail fantasy",
-    "usage_context": "piles de livres, lectures du soir et étagères fantasy",
+    "usage_context": "piles de livres, lectures du soir et étagères de fantasy",
     "benefit_primary": "garde la page facile à retrouver",
     "benefit_secondary": "rend un cadeau livre plus personnel",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=fantasy%20wooden%20bookmark",
     "image": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_340x270.5558263255_rmiq.jpg 340w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_600x600.5558263255_rmiq.jpg 600w, https://i.etsystatic.com/46731516/r/il/d6f3ef/5558263255/il_794xN.5558263255_rmiq.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Fantasy Sword Marque-page en bois de Craftygiftsplace",
+    "alt": "Marque-page épée fantasy en bois de Craftygiftsplace",
     "short_desc": "Pensé pour les lecteurs qui préfèrent un bel extra à un petit objet sans âme.",
     "collection_desc": "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
     "intent_keys": [
@@ -3836,7 +3896,7 @@
       "cadeau pour lecteur",
       "cadeau pour amoureux des livres",
       "cadeau marque-page",
-      "cadeau fantasy pour lecteur"
+      "cadeau pour lecteur de fantasy"
     ],
     "chips": [
       "Cadeau pour lecteurs",
@@ -4724,7 +4784,7 @@
     "locale": "fr",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Set cadeau fantasy pour lecteur",
+    "name": "Coffret pour lecteurs de fantasy",
     "price": "34.99",
     "price_label": "EUR 34.99",
     "audience_keys": [
@@ -4757,14 +4817,14 @@
     "format_key": "bookmarks",
     "format_label": "marque-page",
     "motif": "un détail fantasy",
-    "usage_context": "piles de livres, lectures du soir et étagères fantasy",
+    "usage_context": "piles de livres, lectures du soir et étagères de fantasy",
     "benefit_primary": "garde la page facile à retrouver",
     "benefit_secondary": "rend un cadeau livre plus personnel",
     "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=Book%20Lover%20Gift%20Set%20Fantasy%20Dragon%20Bookmark%20Wizard%20Door%20Hanger%20Wooden%20Coasters%20Reading%20Nook%20Decor%20BookTok%20Dark%20Academia%20for%20Fantasy%20Readers",
     "image": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_340x270.7593439386_5kt7.jpg 340w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg 600w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_794xN.7593439386_5kt7.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Set cadeau fantasy pour lecteur de Craftygiftsplace",
+    "alt": "Coffret pour lecteurs de fantasy de Craftygiftsplace",
     "short_desc": "Pensé pour les lecteurs qui préfèrent un bel extra à un petit objet sans âme.",
     "collection_desc": "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
     "intent_keys": [
@@ -4777,7 +4837,7 @@
       "cadeau pour lecteur",
       "cadeau pour amoureux des livres",
       "cadeau marque-page",
-      "cadeau fantasy pour lecteur"
+      "cadeau pour lecteur de fantasy"
     ],
     "chips": [
       "Cadeau pour lecteurs",

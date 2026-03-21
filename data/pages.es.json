@@ -65,9 +65,9 @@
       {
         "kicker": "Para lectores",
         "title": "Regalos para lectores",
-        "description": "Descubre marcapáginas, sets fantasy y piezas para rincones de lectura pensadas para amantes de los libros.",
+        "description": "Descubre marcapáginas, sets de fantasía y piezas para rincones de lectura pensadas para amantes de los libros.",
         "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Fantasy Reader Gift Set para lectores",
+        "imageAlt": "Set de fantasía para lectores",
         "href": "/es/pages/regalos-para-lectores.html"
       },
       {
@@ -103,9 +103,9 @@
       },
       {
         "title": "Regalos para lectores",
-        "description": "Marcapáginas, sets fantasy y piezas para rincones de lectura pensadas para lectores y estanterías acogedoras.",
+        "description": "Marcapáginas, sets de fantasía y piezas para rincones de lectura pensadas para lectores y estanterías acogedoras.",
         "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Fantasy Reader Gift Set para lectores",
+        "imageAlt": "Set de fantasía para lectores",
         "href": "/es/pages/regalos-para-lectores.html"
       },
       {
@@ -126,7 +126,7 @@
       },
       {
         "title": "Marcapáginas de madera",
-        "description": "Marcapáginas pensados para lectores y sets regalo para estanterías fantasy, diarios de lectura y noches tranquilas.",
+        "description": "Marcapáginas pensados para lectores y sets regalo para estanterías de fantasía, diarios de lectura y noches tranquilas.",
         "image": "/assets/img/products/celtic-bookmark.jpg",
         "imageAlt": "Colección de marcapáginas de madera",
         "href": "/es/pages/marcapaginas-de-madera.html"
@@ -356,11 +356,11 @@
     "pairPath": "/en/pages/wooden-bookmarks.html",
     "template": "collection",
     "locale": "es",
-    "title": "Marcapáginas de madera hechos a mano para estanterías fantasy y lecturas tranquilas | Craftygiftsplace",
-    "metaDescription": "Descubre marcapáginas de madera hechos a mano para estanterías fantasy, regalos para lectores y momentos de lectura tranquilos con mucho carácter.",
-    "h1": "Marcapáginas de madera hechos a mano para estanterías fantasy y lecturas tranquilas",
+    "title": "Marcapáginas de madera hechos a mano para estanterías de fantasía y lecturas tranquilas | Craftygiftsplace",
+    "metaDescription": "Descubre marcapáginas de madera hechos a mano para estanterías de fantasía, regalos para lectores y momentos de lectura tranquilos con mucho carácter.",
+    "h1": "Marcapáginas de madera hechos a mano para estanterías de fantasía y lecturas tranquilas",
     "eyebrow": "Colección",
-    "intro": "Esta página mantiene la colección de marcapáginas centrada en el producto. Así resulta más fácil comparar marcapáginas de madera para estanterías fantasy, montones de libros y ratos de lectura tranquila, sin mezclarlo con guías de regalo más amplias.",
+    "intro": "Esta página mantiene la colección de marcapáginas centrada en el producto. Así resulta más fácil comparar marcapáginas de madera para estanterías de fantasía, montones de libros y ratos de lectura tranquila, sin mezclarlo con guías de regalo más amplias.",
     "breadcrumbs": [
       {
         "label": "Inicio",
@@ -416,7 +416,7 @@
     "featuredItems": [
       {
         "slug": "dragon-eye-wooden-bookmark",
-        "summary": "Un marcapáginas fantasy muy visual para lectores que disfrutan de detalles potentes en una estantería o en un diario de lectura."
+        "summary": "Un marcapáginas de fantasía muy visual para lectores que disfrutan de detalles potentes en una estantería o en un diario de lectura."
       },
       {
         "slug": "fantasy-reader-gift-set",
@@ -429,7 +429,7 @@
     ],
     "featuredWhy": [
       "Mantiene el foco en marcapáginas y detalles relacionados con la lectura.",
-      "Permite comparar rápido estilos fantasy, clásicos y personalizados.",
+      "Permite comparar rápido estilos de fantasía, clásicos y personalizados.",
       "Lleva a la página de regalos para lectores cuando el comprador necesita una idea más amplia."
     ],
     "catalog": {
@@ -446,14 +446,14 @@
         "1984-inspired-wooden-bookmark",
         "lighthouse-wooden-bookmark"
       ],
-      "intro": "Una selección de marcapáginas pensada para lectores, estanterías fantasy y momentos de lectura tranquilos.",
+      "intro": "Una selección de marcapáginas pensada para lectores, estanterías de fantasía y momentos de lectura tranquilos.",
       "ctaLabel": "Ver marcapáginas en Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },
     "faq": [
       {
         "question": "¿Estos marcapáginas son sobre todo para lectores de fantasía?",
-        "answer": "Muchos encajan especialmente bien en estanterías fantasy y lecturas con ambiente, aunque también hay opciones más sobrias para gustos clásicos."
+        "answer": "Muchos encajan especialmente bien en estanterías de fantasía y lecturas con ambiente, aunque también hay opciones más sobrias para gustos clásicos."
       },
       {
         "question": "¿Existe una página más amplia de regalos para lectores?",
@@ -468,7 +468,7 @@
       {
         "label": "Regalos para lectores",
         "href": "/es/pages/regalos-para-lectores.html",
-        "description": "Marcapáginas, sets fantasy y pequeñas piezas para rincones de lectura reunidos en una sola página."
+        "description": "Marcapáginas, sets de fantasía y pequeñas piezas para rincones de lectura reunidos en una sola página."
       },
       {
         "label": "Regalos de madera",
@@ -565,11 +565,11 @@
         "summary": "Un pequeño portavelas cálido para estanterías, consolas y rincones de lectura."
       },
       {
-        "slug": "laser-birch-wood-incense-burner",
+        "slug": "personalized-just-married-wooden-door-hanger",
         "summary": "Un colgador de puerta más personal cuando el regalo debe verse nada más entrar."
       },
       {
-        "slug": "personalized-just-married-wooden-door-hanger",
+        "slug": "just-married-wedding-money-holder",
         "summary": "Un recuerdo personalizado que encaja bien en bodas, aniversarios y momentos que merece la pena conservar."
       }
     ],
@@ -584,6 +584,7 @@
         "moon-cat-shadow-tealight-holder",
         "laser-birch-wood-incense-burner",
         "personalized-just-married-wooden-door-hanger",
+        "just-married-wedding-money-holder",
         "epic-fantasy-door-sign",
         "personalized-pet-memorial-plaque",
         "do-not-ring-door-sign"
@@ -897,10 +898,10 @@
     "template": "intent",
     "locale": "es",
     "title": "Regalos de madera para lectores, rincones de lectura y estanterías acogedoras | Craftygiftsplace",
-    "metaDescription": "Explora regalos de madera para lectores, con marcapáginas, un set fantasy y piezas para rincones de lectura y estanterías tranquilas.",
+    "metaDescription": "Explora regalos de madera para lectores, con marcapáginas, un set de fantasía y piezas para rincones de lectura y estanterías tranquilas.",
     "h1": "Regalos de madera para lectores y rincones de lectura acogedores",
     "eyebrow": "Guía de regalo",
-    "intro": "Esta página ayuda a quien ya busca un regalo para lector. Reúne marcapáginas, un set fantasy a juego y algunas piezas que encajan bien en un rincón de lectura, para comparar varios estilos sin salir del mismo tema.",
+    "intro": "Esta página ayuda a quien ya busca un regalo para lector. Reúne marcapáginas, un set de fantasía a juego y algunas piezas que encajan bien en un rincón de lectura, para comparar varios estilos sin salir del mismo tema.",
     "breadcrumbs": [
       {
         "label": "Inicio",
@@ -956,7 +957,7 @@
     "featuredItems": [
       {
         "slug": "fantasy-reader-gift-set",
-        "summary": "Un marcapáginas fantasy muy visual para lectores que disfrutan de detalles potentes y un objeto bonito dentro del libro."
+        "summary": "Un marcapáginas de fantasía muy visual para lectores que disfrutan de detalles potentes y un objeto bonito dentro del libro."
       },
       {
         "slug": "dragon-eye-wooden-bookmark",
@@ -986,7 +987,7 @@
         "fantasy-wooden-coasters",
         "laser-birch-wood-incense-burner"
       ],
-      "intro": "Ideas de madera para lectores, marcapáginas, set fantasy y pequeños detalles para rincones de lectura.",
+      "intro": "Ideas de madera para lectores, marcapáginas, set de fantasía y pequeños detalles para rincones de lectura.",
       "ctaLabel": "Ver regalos para lectores en Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },

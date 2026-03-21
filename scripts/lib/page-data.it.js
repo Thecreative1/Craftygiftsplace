@@ -102,7 +102,7 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un segnalibro fantasy molto visivo per lettori che amano dettagli forti su uno scaffale o in un diario di lettura.",
+        "Un segnalibro fantasy molto visivo per lettori che amano dettagli decisi su uno scaffale o in un diario di lettura.",
         "Un'opzione più calma per chi cerca un regalo per lettore con un'aria più classica.",
         "Un set che unisce segnalibro, targhetta da porta e sottobicchieri quando il tema deve già risultare coerente."
       ],
@@ -118,7 +118,7 @@ const definition = {
         { question: "Posso scoprire altri tipi di regalo da qui?", answer: "Sì. Questa collezione collega direttamente a regali in legno, sottobicchieri e alle principali guide regalo." }
       ],
       relatedLinks: [
-        { label: "Regali per lettori", targetKey: "reader", description: "Segnalibri, set fantasy e piccoli pezzi per angoli lettura raccolti in una sola pagina." },
+        { label: "Regali per lettori", targetKey: "reader", description: "Segnalibri, set per lettori fantasy e piccoli pezzi per angoli lettura raccolti in una sola pagina." },
         { label: "Regali in legno", targetKey: "gifts", description: "Targhette da porta, portacandela e ricordi per andare oltre il segnalibro." },
         { label: "Sottobicchieri in legno", targetKey: "coasters", description: "Regali in legno più orientati alla casa, al tavolino e a una nuova abitazione." }
       ],
@@ -267,9 +267,9 @@ const definition = {
     },
     reader: {
       title: "Regali in legno per lettori, angoli lettura e scaffali accoglienti | Craftygiftsplace",
-      metaDescription: "Esplora regali in legno per lettori, con segnalibri, un set fantasy e pezzi per angoli lettura e scaffali tranquilli.",
+      metaDescription: "Esplora regali in legno per lettori, con segnalibri, un set per lettori fantasy e pezzi per angoli lettura e scaffali tranquilli.",
       h1: "Regali in legno per lettori e angoli lettura accoglienti",
-      intro: "Questa pagina aiuta chi sta già cercando un regalo per lettori. Riunisce segnalibri, un set fantasy coordinato e alcuni pezzi che stanno bene in un angolo lettura, così si possono confrontare più stili senza uscire dallo stesso tema.",
+      intro: "Questa pagina aiuta chi sta già cercando un regalo per lettori. Riunisce segnalibri, un set per lettori fantasy coordinato e alcuni pezzi che stanno bene in un angolo lettura, così si possono confrontare più stili senza uscire dallo stesso tema.",
       primaryCtaLabel: "Vedi i regali per lettori su Etsy",
       secondaryCtaLabel: "Vai alle idee per lettori",
       linkCloud: [
@@ -298,7 +298,7 @@ const definition = {
         "Mescola segnalibri, un set pronto da regalare e un pezzo decorativo leggero.",
         "Rimanda facilmente alla collezione completa di segnalibri se il visitatore vuole confrontare con più dettaglio."
       ],
-      catalogIntro: "Idee in legno per lettori, segnalibri, set fantasy e piccoli dettagli per angoli lettura.",
+      catalogIntro: "Idee in legno per lettori, segnalibri, set per lettori fantasy e piccoli dettagli per angoli lettura.",
       faq: [
         { question: "Questa pagina include solo segnalibri?", answer: "No. Riunisce soprattutto segnalibri, ma anche un set coordinato e un piccolo pezzo decorativo che funziona bene in un angolo lettura." },
         { question: "Esiste anche una collezione dedicata ai segnalibri?", answer: "Sì. La collezione di segnalibri in legno resta disponibile per chi vuole restare solo su questo tipo di prodotto." },

@@ -88,10 +88,10 @@ const definition = {
       }
     },
     bookmarks: {
-      title: "Marque-pages en bois faits main pour étagères fantasy et lectures paisibles | Craftygiftsplace",
-      metaDescription: "Découvrez des marque-pages en bois faits main pour étagères fantasy, cadeaux pour lecteurs et moments de lecture calmes avec beaucoup de caractère.",
-      h1: "Marque-pages en bois faits main pour étagères fantasy et lectures paisibles",
-      intro: "Cette page garde la collection de marque-pages clairement centrée sur le produit. Les visiteurs peuvent ainsi comparer des marque-pages en bois pour étagères fantasy, piles de livres et lectures calmes, sans brouiller la sélection avec des guides cadeaux plus larges.",
+      title: "Marque-pages en bois faits main pour étagères de fantasy et lectures paisibles | Craftygiftsplace",
+      metaDescription: "Découvrez des marque-pages en bois faits main pour étagères de fantasy, cadeaux pour lecteurs et moments de lecture calmes avec beaucoup de caractère.",
+      h1: "Marque-pages en bois faits main pour étagères de fantasy et lectures paisibles",
+      intro: "Cette page garde la collection de marque-pages clairement centrée sur le produit. Les visiteurs peuvent ainsi comparer des marque-pages en bois pour étagères de fantasy, piles de livres et lectures calmes, sans brouiller la sélection avec des guides cadeaux plus larges.",
       primaryCtaLabel: "Voir les marque-pages sur Etsy",
       secondaryCtaLabel: "Voir la sélection de marque-pages",
       linkCloud: [
@@ -111,20 +111,20 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un marque-page fantasy très visuel pour lecteurs qui aiment des détails forts sur une étagère ou dans un journal de lecture.",
+        "Un marque-page fantasy très visuel pour lecteurs qui aiment les détails marqués sur une étagère ou dans un journal de lecture.",
         "Une option plus calme pour ceux qui cherchent un cadeau pour lecteur avec une allure plus classique.",
         "Un set qui réunit marque-page, suspension de porte et dessous-verres quand le thème doit déjà être cohérent."
       ],
       featuredWhy: [
         "Elle garde l'accent clairement sur les marque-pages et les idées proches de la lecture.",
-        "Elle permet de comparer rapidement styles fantasy, classiques et personnalisés.",
+        "Elle permet de comparer rapidement des styles fantasy, classiques et personnalisés.",
         "Elle renvoie vers les cadeaux pour lecteurs quand l'acheteur cherche une idée plus large."
       ],
-      catalogIntro: "Une sélection de marque-pages pensée pour lecteurs, étagères fantasy et moments de lecture paisibles.",
+      catalogIntro: "Une sélection de marque-pages pensée pour lecteurs, étagères de fantasy et moments de lecture paisibles.",
       faq: [
         {
           question: "Ces marque-pages conviennent-ils surtout aux lecteurs de fantasy ?",
-          answer: "Beaucoup d'entre eux fonctionnent particulièrement bien pour des étagères fantasy et des lectures d'ambiance, mais il existe aussi des modèles plus sobres pour des goûts plus classiques."
+          answer: "Beaucoup d'entre eux fonctionnent particulièrement bien pour des étagères de fantasy et des lectures d'ambiance, mais il existe aussi des modèles plus sobres pour des goûts plus classiques."
         },
         {
           question: "Existe-t-il une page plus large pour les cadeaux destinés aux lecteurs ?",
@@ -136,7 +136,7 @@ const definition = {
         }
       ],
       relatedLinks: [
-        { label: "Cadeaux pour lecteurs", targetKey: "reader", description: "Des marque-pages, sets fantasy et petits objets pour coins lecture réunis sur une seule page." },
+        { label: "Cadeaux pour lecteurs", targetKey: "reader", description: "Des marque-pages, des coffrets pour lecteurs de fantasy et de petits objets pour coins lecture réunis sur une seule page." },
         { label: "Cadeaux en bois", targetKey: "gifts", description: "Des suspensions de porte, porte-bougies et souvenirs pour aller au-delà du marque-page." },
         { label: "Dessous-verres en bois", targetKey: "coasters", description: "Des cadeaux en bois plus tournés vers la maison, les tables basses et les crémaillères." }
       ],
@@ -294,9 +294,9 @@ const definition = {
     },
     reader: {
       title: "Cadeaux pour lecteurs en bois, coins lecture et étagères cosy | Craftygiftsplace",
-      metaDescription: "Parcourez des cadeaux en bois pour lecteurs, avec marque-pages, set fantasy et pièces pour coins lecture et étagères calmes.",
+      metaDescription: "Parcourez des cadeaux en bois pour lecteurs, avec marque-pages, coffret pour lecteurs de fantasy et pièces pour coins lecture et étagères calmes.",
       h1: "Cadeaux en bois pour lecteurs et coins lecture cosy",
-      intro: "Cette page aide les visiteurs qui cherchent déjà un cadeau pour lecteur. Elle rassemble des marque-pages, un set fantasy assorti et quelques pièces qui conviennent bien à un coin lecture, afin de comparer plusieurs styles sans quitter le même thème.",
+      intro: "Cette page aide les visiteurs qui cherchent déjà un cadeau pour lecteur. Elle rassemble des marque-pages, un coffret pour lecteurs de fantasy assorti et quelques pièces qui conviennent bien à un coin lecture, afin de comparer plusieurs styles sans quitter le même thème.",
       primaryCtaLabel: "Voir les cadeaux lecteurs sur Etsy",
       secondaryCtaLabel: "Aller aux idées lecteurs",
       linkCloud: [
@@ -316,18 +316,18 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un marque-page fantasy très visuel pour lecteurs qui aiment des détails forts et un bel objet à glisser dans un livre.",
-        "Un set prêt à offrir avec marque-page, suspension de porte et dessous-verres pour les lecteurs de fantasy.",
+        "Un marque-page fantasy très visuel pour lecteurs qui aiment les détails marqués et un bel objet à glisser dans un livre.",
+        "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour les lecteurs de fantasy.",
         "Une petite pièce d'ambiance pour étagères et coins lecture quand le cadeau peut être plus doux que strictement pratique."
       ],
       featuredWhy: [
         "Elle garde la sélection centrée sur les lecteurs et les habitudes de lecture cosy.",
-        "Elle mélange des marque-pages, un set prêt à offrir et une pièce déco légère.",
+        "Elle mélange des marque-pages, un coffret prêt à offrir et une pièce déco légère.",
         "Elle renvoie facilement vers la collection complète de marque-pages si le visiteur veut comparer plus en détail."
       ],
-      catalogIntro: "Des idées bois pour lecteurs, marque-pages, set fantasy et petits détails pour coins lecture.",
+      catalogIntro: "Des idées bois pour lecteurs, marque-pages, coffret pour lecteurs de fantasy et petits détails pour coins lecture.",
       faq: [
-        { question: "Cette page contient-elle uniquement des marque-pages ?", answer: "Non. Elle rassemble surtout des marque-pages, mais aussi un set assorti et une petite pièce déco qui fonctionne bien dans un coin lecture." },
+        { question: "Cette page contient-elle uniquement des marque-pages ?", answer: "Non. Elle rassemble surtout des marque-pages, mais aussi un coffret assorti et une petite pièce déco qui fonctionne bien dans un coin lecture." },
         { question: "Existe-t-il aussi une collection dédiée aux marque-pages ?", answer: "Oui. La collection marque-pages en bois reste disponible pour ceux qui veulent rester uniquement sur ce type de produit." },
         { question: "Ces cadeaux conviennent-ils aux lecteurs de fantasy ?", answer: "Oui. Plusieurs choix sont clairement orientés fantasy, sans pour autant exclure des styles plus calmes pour d'autres lecteurs." }
       ],
