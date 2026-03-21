@@ -336,7 +336,8 @@ pagesEn.push({
   featuredItems: [
     { slug: "tree-of-life-wooden-coasters", summary: "A bestselling coaster set that adds warm engraved detail to coffee tables, shelves and easy housewarming gifts." },
     { slug: "sun-and-moon-wooden-coasters", summary: "A celestial design for cozy interiors, evening tables and shoppers who want a set with clear visual character." },
-    { slug: "viking-wooden-coasters", summary: "A bold engraved set for Norse-inspired decor, hobby rooms and gifts with a stronger theme." }
+    { slug: "viking-wooden-coasters", summary: "A bold engraved set for Norse-inspired decor, hobby rooms and gifts with a stronger theme." },
+    { slug: "buddha-wood-wooden-coasters", summary: "A calmer spiritual set for tea corners, shelves and homes that suit meaningful table details." }
   ],
   featuredWhy: [
     "It keeps the bestselling coaster themes in one easy view.",
@@ -448,7 +449,8 @@ pagesNl.push({
   featuredItems: [
     { slug: "tree-of-life-wooden-coasters", summary: "Een bestverkochte onderzetterset die warme gravure naar salontafels, planken en makkelijke verhuiscadeaus brengt." },
     { slug: "sun-and-moon-wooden-coasters", summary: "Een hemels ontwerp voor gezellige interieurs, avondtafels en kopers die een set met duidelijk karakter zoeken." },
-    { slug: "viking-wooden-coasters", summary: "Een uitgesproken gegraveerde set voor Viking-inspiratie, hobbykamers en cadeaus met een sterker thema." }
+    { slug: "viking-wooden-coasters", summary: "Een uitgesproken gegraveerde set voor Viking-inspiratie, hobbykamers en cadeaus met een sterker thema." },
+    { slug: "buddha-wood-wooden-coasters", summary: "Een rustiger spiritueel ontwerp voor theehoekjes, planken en huizen waar tafeldecoratie iets betekenisvols mag toevoegen." }
   ],
   featuredWhy: [
     "Ze houdt de bestverkochte onderzetterthema's samen in één duidelijk overzicht.",

@@ -54,7 +54,8 @@ const definition = {
       featuredSummaries: [
         "Um conjunto entre os mais vendidos que leva um detalhe quente de madeira a mesas de centro, prateleiras e presentes de casa nova.",
         "Um desenho celeste para mesas de fim de dia, interiores acolhedores e compradores que procuram uma peça com presença.",
-        "Um conjunto gravado com mais força para decoração viking, salas de hobbies e presentes com um tema marcante."
+        "Um conjunto gravado com mais força para decoração viking, salas de hobbies e presentes com um tema marcante.",
+        "Um conjunto de inspiração espiritual mais sereno para cantos de chá, prateleiras e casas onde um detalhe de mesa com significado faz sentido."
       ],
       featuredWhy: [
         "Reúne os temas de porta-copos mais procurados numa só vista clara.",

@@ -54,7 +54,8 @@ const definition = {
       featuredSummaries: [
         "Un set superventas que aporta un detalle cálido de madera a mesas de centro, estanterías y regalos para casa nueva.",
         "Un diseño celestial para mesas de tarde, interiores acogedores y compradores que buscan una pieza con personalidad clara.",
-        "Un set grabado con fuerza para decoración nórdica, salas de ocio y regalos con un tema más marcado."
+        "Un set grabado con fuerza para decoración nórdica, salas de ocio y regalos con un tema más marcado.",
+        "Un set espiritual más sereno para rincones de té, estanterías y casas donde los detalles de mesa con significado encajan bien."
       ],
       featuredWhy: [
         "Reúne los temas de posavasos más buscados en una sola vista clara.",

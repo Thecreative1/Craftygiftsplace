@@ -422,6 +422,10 @@ pagesDe.push({
     {
       slug: "viking-wooden-coasters",
       summary: "Ein markantes graviertes Set für nordisch inspirierte Deko, Hobbyräume und Geschenke mit stärkerem Thema."
+    },
+    {
+      slug: "buddha-wood-wooden-coasters",
+      summary: "Ein ruhigeres spirituelles Set für Teeecken, Regale und Wohnräume, in denen bewusst gewählte Tischdetails gut wirken."
     }
   ],
   featuredWhy: [

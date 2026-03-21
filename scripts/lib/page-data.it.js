@@ -54,7 +54,8 @@ const definition = {
       featuredSummaries: [
         "Un set tra i più venduti che aggiunge un dettaglio caldo in legno a tavolini, mensole e regali per la casa nuova.",
         "Un design celeste per tavole serali, interni accoglienti e regali con una presenza visiva chiara.",
-        "Un set inciso dal carattere deciso per decorazioni nordiche, stanze hobby e regali con un tema più forte."
+        "Un set inciso dal carattere deciso per decorazioni nordiche, stanze hobby e regali con un tema più forte.",
+        "Un set spirituale più tranquillo per angoli tè, mensole e case in cui un dettaglio da tavolo più simbolico si sente naturale."
       ],
       featuredWhy: [
         "Riunisce i temi di sottobicchieri più richiesti in una sola vista chiara.",

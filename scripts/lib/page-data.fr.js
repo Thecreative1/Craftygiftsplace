@@ -54,7 +54,8 @@ const definition = {
       featuredSummaries: [
         "Un set parmi les meilleures ventes qui apporte un détail chaleureux à une table basse, une étagère ou un cadeau de crémaillère.",
         "Un modèle céleste pour tables du soir, intérieurs cosy et cadeaux au style visuel affirmé.",
-        "Un set gravé au style nordique pour décors inspirés des sagas, bureaux et cadeaux plus marqués."
+        "Un set gravé au style nordique pour décors inspirés des sagas, bureaux et cadeaux plus marqués.",
+        "Un set spirituel plus apaisé pour coins thé, étagères et intérieurs où un détail de table plus symbolique trouve naturellement sa place."
       ],
       featuredWhy: [
         "Elle rassemble les thèmes de dessous-verres les plus appréciés en un seul aperçu.",
