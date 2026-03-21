@@ -227,23 +227,23 @@ pagesNl.push({
   collectionCards: [
     {
       title: "Houten onderzetters",
-      description: "Kat-, hemelse en botanische onderzettersets voor gezellige tafels, planken en vlotte cadeaus.",
+      description: "Kat-, hemelse en botanische onderzettersets voor gezellige tafels, planken en cadeaus met karakter.",
       image: "/assets/img/products/cat-and-moon-coasters.jpg",
       imageAlt: "Collectie houten onderzetters",
       href: "/pages/onderzetters.html"
     },
     {
       title: "Houten bladwijzers",
-      description: "Lezersgerichte bladwijzers en boekcadeaus voor fantasyboekenplanken, leesjournalen en rustige leesmomenten.",
+      description: "Lezersgerichte bladwijzers en boekcadeaus voor fantasylezers, leesjournalen en rustige leesmomenten.",
       image: "/assets/img/products/celtic-bookmark.jpg",
       imageAlt: "Collectie houten bladwijzers",
       href: "/pages/bladwijzers.html"
     },
     {
       title: "Houten cadeaus",
-      description: "Theelichthouders, herinneringscadeaus, deurhangers en decoratie voor planken, entrees en betekenisvolle cadeaumomenten.",
+      description: "Deurhangers, theelichthouders, herinneringscadeaus en decoratie voor planken, entrees en bijzondere gelegenheden.",
       image: "/assets/img/products/just-married-door-hanger.jpg",
-      imageAlt: "Collectie houten cadeaus",
+      imageAlt: "Just Married deurhanger uit de collectie houten cadeaus",
       href: "/pages/houten-cadeaus.html"
     }
   ],
@@ -629,9 +629,9 @@ pagesNl.push({
   pairPath: "/en/pages/wooden-bookmarks.html",
   template: "collection",
   locale: "nl",
-  title: "Handgemaakte Houten Bladwijzers voor Lezers en Fantasyboekenplanken | Craftygiftsplace",
-  metaDescription: "Bekijk handgemaakte houten bladwijzers voor lezers en fantasyboekenplanken, van klassieke ontwerpen tot persoonlijke boekfavorieten.",
-  h1: "Handgemaakte houten bladwijzers voor lezers en fantasyboekenplanken",
+  title: "Handgemaakte Houten Bladwijzers voor Lezers en Fans van Fantasyboeken | Craftygiftsplace",
+  metaDescription: "Bekijk handgemaakte houten bladwijzers voor lezers en fans van fantasyboeken, van klassieke ontwerpen tot persoonlijke boekfavorieten.",
+  h1: "Handgemaakte houten bladwijzers voor lezers en fans van fantasyboeken",
   eyebrow: "Collectie",
   intro: "Bekijk hier de gecureerde collectie bladwijzers op één plek. Deze pagina blijft bewust bij bladwijzers zelf, zodat bezoekers klassieke, fantasy- en persoonlijke ontwerpen kunnen vergelijken voordat ze naar bredere lezerscadeaus gaan.",
   breadcrumbs: [

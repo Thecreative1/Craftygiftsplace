@@ -1342,12 +1342,12 @@ footer {
   }
 
   .nav {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .brand {
     gap: 0.7rem;
-    max-width: calc(100% - 206px);
+    max-width: calc(100% - 116px);
   }
 
   .brand-logo {
@@ -1364,16 +1364,41 @@ footer {
   }
 
   .language-switch-header {
-    margin-right: 0.45rem;
+    order: 4;
+    width: 100%;
+    margin: 0.6rem 0 0;
+    padding: 0 0 0.15rem;
+    gap: 0.35rem;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    scrollbar-width: none;
   }
 
   .language-switch-header a {
-    padding: 0.58rem 0.62rem;
+    flex: 0 0 auto;
+    padding: 0.5rem 0.56rem;
   }
 
   .language-switch-header .flag-icon {
     width: 0.92rem;
     height: 0.92rem;
+  }
+
+  .language-switch-header .language-code {
+    display: none;
+  }
+
+  .language-switch-header::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-toggle {
+    margin-left: auto;
+  }
+
+  .nav-links {
+    order: 5;
   }
 
   .hero-home-shell,
@@ -1546,14 +1571,10 @@ footer {
 
 @media (max-width: 540px) {
   .brand {
-    max-width: calc(100% - 176px);
+    max-width: calc(100% - 104px);
   }
 
   .brand-copy > span {
     display: none;
-  }
-
-  .language-switch-header .language-code {
-    font-size: 0.76rem;
   }
 }

@@ -114,23 +114,23 @@
   "collectionCards": [
     {
       "title": "Dessous-verres en bois",
-      "description": "Des sets de dessous-verres appréciés, entre motifs célestes, nature, inspirations nordiques et autres designs affirmés pour tables et étagères.",
-      "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
-      "imageAlt": "Collection de dessous-verres en bois Arbre de vie",
+      "description": "Des sets de dessous-verres appréciés, entre motifs célestes, nature, inspirations nordiques et autres designs marquants pour tables, étagères et cadeaux de crémaillère.",
+      "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
+      "imageAlt": "Dessous-verres en bois Arbre de vie",
       "href": "/fr/pages/sous-verres-en-bois.html"
     },
     {
       "title": "Marque-pages en bois",
-      "description": "Marque-pages pensés pour les lecteurs et coffrets cadeaux pour étagères de fantasy, carnets de lecture et soirées calmes.",
+      "description": "Des marque-pages pensés pour les lecteurs, les amateurs de fantasy, les carnets de lecture et les soirées calmes.",
       "image": "/assets/img/products/celtic-bookmark.jpg",
       "imageAlt": "Collection de marque-pages en bois",
       "href": "/fr/pages/marque-pages-en-bois.html"
     },
     {
       "title": "Cadeaux en bois",
-      "description": "Porte-bougies, souvenirs, suspensions de porte et objets déco pour étagères, entrées et cadeaux marquants.",
+      "description": "Suspensions de porte, porte-bougies, souvenirs et objets déco pour étagères, entrées et cadeaux marquants.",
       "image": "/assets/img/products/just-married-door-hanger.jpg",
-      "imageAlt": "Collection de cadeaux en bois",
+      "imageAlt": "Suspension de porte Just Married dans la collection cadeaux en bois",
       "href": "/fr/pages/cadeaux-en-bois.html"
     }
   ],

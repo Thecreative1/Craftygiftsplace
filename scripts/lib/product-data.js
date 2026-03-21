@@ -397,7 +397,7 @@ const LABELS = {
         default: "dagelijkse tafels, bureaus en gezellige hoekjes"
       },
       bookmarks: {
-        fantasy: "boekenstapels, avondlezen en fantasyboekenplanken",
+        fantasy: "boekenstapels, fantasyboeken en avondlezen",
         celestial: "leesjournalen, nachtkastjes en rustige leesuren",
         botanical: "boekcadeaus, tassen en stille leesmomenten",
         gothic: "dark academia planken en uitgesproken leeshoeken",

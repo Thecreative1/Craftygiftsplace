@@ -86,16 +86,16 @@ pagesDe.push({
     },
     {
       title: "Holzlesezeichen",
-      description: "Lesezeichen und buchige Geschenkideen für Fantasy-Regale, Lesetagebücher und ruhige Abendstunden.",
+      description: "Lesezeichen und Geschenkideen für Fantasy-Leser, Lesetagebücher und ruhige Leseabende.",
       image: "/assets/img/products/celtic-bookmark.jpg",
       imageAlt: "Kollektion Holzlesezeichen",
       href: "/de/pages/holzlesezeichen.html"
     },
     {
       title: "Holzgeschenke",
-      description: "Teelichthalter, Türschilder und persönliche Dekoideen für Regale, Eingänge und bedeutungsvolle Geschenkmomente.",
+      description: "Türhänger, Teelichthalter, Erinnerungsstücke und Deko für Regale, Eingänge und besondere Anlässe.",
       image: "/assets/img/products/just-married-door-hanger.jpg",
-      imageAlt: "Kollektion Holzgeschenke",
+      imageAlt: "Just Married Türhänger aus der Holzgeschenke-Kollektion",
       href: "/de/pages/holzgeschenke.html"
     }
   ],
@@ -588,7 +588,7 @@ pagesDe.push({
   template: "intent",
   locale: "de",
   title: "Holzgeschenke für Katzenliebhaber und gemütliche Katzenecken | Craftygiftsplace",
-  metaDescription: "Finde Holzgeschenke für Katzenliebhaber mit Untersetzern, warmer Deko und kleinen Ideen für gemütliche Wohnungen und katzennahe Geschenkmomente.",
+  metaDescription: "Finde Holzgeschenke für Katzenliebhaber mit Untersetzern, warmer Deko und kleinen Ideen für gemütliche Wohnungen und persönliche Geschenkideen.",
   h1: "Holzgeschenke für Katzenliebhaber und gemütliche Katzenecken",
   eyebrow: "Geschenkguide",
   intro: "Diese Seite bündelt die katzennahen Produkte von Craftygiftsplace für Käufer, die bewusst nach einem Geschenk für Katzenliebhaber suchen. Statt alle Untersetzer oder alle Holzgeschenke zu durchsuchen, lassen sich hier die stärksten Katzenmotive und die passenden warmen Dekoideen schneller vergleichen.",
@@ -788,7 +788,7 @@ pagesDe.push({
     {
       label: "Holzgeschenke",
       href: "/de/pages/holzgeschenke.html",
-      description: "Weitere warme Holzstücke für Regale, Türen und persönliche Geschenkmomente."
+      description: "Weitere warme Holzstücke für Regale, Türen und persönliche Geschenkideen."
     },
     {
       label: "Einzugsgeschenke",

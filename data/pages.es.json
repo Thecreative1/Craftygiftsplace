@@ -119,23 +119,23 @@
     "collectionCards": [
       {
         "title": "Posavasos de madera",
-        "description": "Sets de posavasos muy vendidos con diseños celestiales, naturales, vikingos y otros motivos con personalidad para mesas y estanterías.",
-        "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
-        "imageAlt": "Colección de posavasos de madera Árbol de la Vida",
+        "description": "Sets de posavasos superventas con diseños celestiales, naturales, vikingos y otros motivos con carácter para mesas, estanterías y regalos de casa nueva.",
+        "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
+        "imageAlt": "Posavasos de madera Árbol de la Vida",
         "href": "/es/pages/posavasos-de-madera.html"
       },
       {
         "title": "Marcapáginas de madera",
-        "description": "Marcapáginas pensados para lectores y sets regalo para estanterías de fantasía, diarios de lectura y noches tranquilas.",
+        "description": "Marcapáginas pensados para lectores, fans de la fantasía, diarios de lectura y noches tranquilas.",
         "image": "/assets/img/products/celtic-bookmark.jpg",
         "imageAlt": "Colección de marcapáginas de madera",
         "href": "/es/pages/marcapaginas-de-madera.html"
       },
       {
         "title": "Regalos de madera",
-        "description": "Portavelas, recuerdos, colgadores de puerta y piezas decorativas para estanterías, entradas y regalos con significado.",
+        "description": "Colgadores de puerta, portavelas, recuerdos y piezas decorativas para estanterías, entradas y regalos con un toque personal.",
         "image": "/assets/img/products/just-married-door-hanger.jpg",
-        "imageAlt": "Colección de regalos de madera",
+        "imageAlt": "Colgador de puerta Just Married de la colección de regalos de madera",
         "href": "/es/pages/regalos-de-madera.html"
       }
     ],

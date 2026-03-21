@@ -114,23 +114,23 @@
   "collectionCards": [
     {
       "title": "Porta-copos de madeira",
-      "description": "Conjuntos de porta-copos mais vendidos com desenhos celestes, naturais, vikings e outros temas com personalidade para mesas e prateleiras.",
-      "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
-      "imageAlt": "Coleção de porta-copos de madeira Árvore da Vida",
+      "description": "Conjuntos de porta-copos mais vendidos com desenhos celestes, naturais, vikings e outros temas com personalidade para mesas, prateleiras e presentes de casa nova.",
+      "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
+      "imageAlt": "Porta-copos de madeira Árvore da Vida",
       "href": "/pt/pages/porta-copos-de-madeira.html"
     },
     {
       "title": "Marcadores de livros de madeira",
-      "description": "Marcadores pensados para leitores e conjuntos de presente para estantes de fantasia, diários de leitura e serões tranquilos.",
+      "description": "Marcadores pensados para leitores, fãs de fantasia, diários de leitura e serões tranquilos.",
       "image": "/assets/img/products/celtic-bookmark.jpg",
       "imageAlt": "Coleção de marcadores de livros de madeira",
       "href": "/pt/pages/marcadores-de-livros-de-madeira.html"
     },
     {
       "title": "Presentes de madeira",
-      "description": "Porta-velas, recordações, pendentes de porta e peças decorativas para prateleiras, entradas e presentes com significado.",
+      "description": "Pendentes de porta, porta-velas, recordações e peças decorativas para prateleiras, entradas e presentes com um toque pessoal.",
       "image": "/assets/img/products/just-married-door-hanger.jpg",
-      "imageAlt": "Coleção de presentes de madeira",
+      "imageAlt": "Pendente de porta Just Married da coleção de presentes de madeira",
       "href": "/pt/pages/presentes-de-madeira.html"
     }
   ],

@@ -78,23 +78,23 @@
     "collectionCards": [
       {
         "title": "Houten onderzetters",
-        "description": "Bestverkochte onderzettersets met hemelse, natuur-, Viking- en andere uitgesproken ontwerpen voor tafels, planken en vlotte cadeaus.",
-        "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
-        "imageAlt": "Collectie levensboom houten onderzetters",
+        "description": "Bestverkochte onderzettersets met hemelse, natuur-, Viking- en andere uitgesproken ontwerpen voor tafels, planken en cadeaus met karakter.",
+        "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
+        "imageAlt": "Levensboom houten onderzetters",
         "href": "/pages/onderzetters.html"
       },
       {
         "title": "Houten bladwijzers",
-        "description": "Lezersgerichte bladwijzers en boekcadeaus voor fantasyboekenplanken, leesjournalen en rustige leesmomenten.",
+        "description": "Lezersgerichte bladwijzers en boekcadeaus voor fantasylezers, leesjournalen en rustige leesmomenten.",
         "image": "/assets/img/products/celtic-bookmark.jpg",
         "imageAlt": "Collectie houten bladwijzers",
         "href": "/pages/bladwijzers.html"
       },
       {
         "title": "Houten cadeaus",
-        "description": "Theelichthouders, herinneringscadeaus, deurhangers en decoratie voor planken, entrees en betekenisvolle momenten.",
+        "description": "Deurhangers, theelichthouders, herinneringscadeaus en decoratie voor planken, entrees en bijzondere gelegenheden.",
         "image": "/assets/img/products/just-married-door-hanger.jpg",
-        "imageAlt": "Collectie houten cadeaus",
+        "imageAlt": "Just Married deurhanger uit de collectie houten cadeaus",
         "href": "/pages/houten-cadeaus.html"
       }
     ],
@@ -392,9 +392,9 @@
     "pairPath": "/en/pages/wooden-bookmarks.html",
     "template": "collection",
     "locale": "nl",
-    "title": "Handgemaakte Houten Bladwijzers voor Lezers en Fantasyboekenplanken | Craftygiftsplace",
-    "metaDescription": "Bekijk handgemaakte houten bladwijzers voor lezers en fantasyboekenplanken, van klassieke ontwerpen tot persoonlijke boekfavorieten.",
-    "h1": "Handgemaakte houten bladwijzers voor lezers en fantasyboekenplanken",
+    "title": "Handgemaakte Houten Bladwijzers voor Lezers en Fans van Fantasyboeken | Craftygiftsplace",
+    "metaDescription": "Bekijk handgemaakte houten bladwijzers voor lezers en fans van fantasyboeken, van klassieke ontwerpen tot persoonlijke boekfavorieten.",
+    "h1": "Handgemaakte houten bladwijzers voor lezers en fans van fantasyboeken",
     "eyebrow": "Collectie",
     "intro": "Bekijk hier de gecureerde collectie bladwijzers op één plek. Deze pagina blijft bewust bij bladwijzers zelf, zodat bezoekers klassieke, fantasy- en persoonlijke ontwerpen kunnen vergelijken voordat ze naar bredere lezerscadeaus gaan.",
     "breadcrumbs": [

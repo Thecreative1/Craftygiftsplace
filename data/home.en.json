@@ -114,23 +114,23 @@
   "collectionCards": [
     {
       "title": "Wooden coasters",
-      "description": "Bestselling coaster sets with celestial, nature, Norse and statement designs for tables, shelves and easy gifting.",
-      "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
-      "imageAlt": "Tree of Life wooden coaster collection",
+      "description": "Bestselling coaster sets with celestial, nature, Norse and other standout designs for tables, shelves and housewarming gifts.",
+      "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
+      "imageAlt": "Tree of Life wooden coasters",
       "href": "/en/pages/wooden-coasters.html"
     },
     {
       "title": "Wooden bookmarks",
-      "description": "Reader-focused bookmarks and gift sets for fantasy shelves, reading journals and cozy evenings.",
+      "description": "Reader-focused bookmarks and gift sets for fantasy readers, reading journals and quiet evenings.",
       "image": "/assets/img/products/celtic-bookmark.jpg",
       "imageAlt": "Wooden bookmark collection",
       "href": "/en/pages/wooden-bookmarks.html"
     },
     {
       "title": "Wooden gifts",
-      "description": "Tealight holders, keepsakes, door hangers and decor pieces for shelves, entryways and meaningful gifts.",
+      "description": "Door hangers, tealight holders, keepsakes and decor pieces for shelves, entryways and milestone gifts.",
       "image": "/assets/img/products/just-married-door-hanger.jpg",
-      "imageAlt": "Wooden gifts collection",
+      "imageAlt": "Just Married wooden door hanger from the wooden gifts collection",
       "href": "/en/pages/wooden-gifts.html"
     }
   ],

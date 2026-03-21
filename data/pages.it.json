@@ -119,23 +119,23 @@
     "collectionCards": [
       {
         "title": "Sottobicchieri in legno",
-        "description": "Set di sottobicchieri più venduti con design celesti, naturali, vichinghi e altri motivi pieni di carattere per tavoli e mensole.",
-        "image": "/assets/img/products/tree-of-life-wooden-coasters.jpg",
-        "imageAlt": "Collezione di sottobicchieri in legno Albero della vita",
+        "description": "Set di sottobicchieri più venduti con design celesti, naturali, vichinghi e altri motivi di carattere per tavoli, mensole e regali per la casa nuova.",
+        "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
+        "imageAlt": "Sottobicchieri in legno Albero della vita",
         "href": "/it/pages/sottobicchieri-in-legno.html"
       },
       {
         "title": "Segnalibri in legno",
-        "description": "Segnalibri pensati per lettori e set regalo per scaffali fantasy, diari di lettura e serate tranquille.",
+        "description": "Segnalibri pensati per lettori, amanti del fantasy, diari di lettura e serate tranquille.",
         "image": "/assets/img/products/celtic-bookmark.jpg",
         "imageAlt": "Collezione segnalibri in legno",
         "href": "/it/pages/segnalibri-in-legno.html"
       },
       {
         "title": "Regali in legno",
-        "description": "Portacandela, ricordi, targhette da porta e pezzi decorativi per mensole, ingressi e regali significativi.",
+        "description": "Targhette da porta, portacandela, ricordi e pezzi decorativi per mensole, ingressi e regali dal tocco personale.",
         "image": "/assets/img/products/just-married-door-hanger.jpg",
-        "imageAlt": "Collezione regali in legno",
+        "imageAlt": "Targhetta da porta Just Married della collezione regali in legno",
         "href": "/it/pages/regali-in-legno.html"
       }
     ],
