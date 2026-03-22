@@ -1176,9 +1176,10 @@ function renderFaq(faqItems) {
 }
 
 function renderFeaturedCard(product, summary) {
+  const featuredImage = product.image_full || product.image;
   return `
     <article class="copy-card">
-      <img class="listing-photo" src="${escapeAttribute(product.image)}" alt="${escapeAttribute(product.alt)}" width="600" height="600" loading="lazy" decoding="async" />
+      <img class="listing-photo" src="${escapeAttribute(featuredImage)}" alt="${escapeAttribute(product.alt)}" width="600" height="600" loading="lazy" decoding="async" />
       <div class="product-meta">${renderChips(product)}</div>
       <h2>${escapeHtml(product.name)}</h2>
       <p>${escapeHtml(summary)}</p>
@@ -1407,9 +1408,10 @@ function renderReviews(page, sectionMeta = null) {
 function renderHeroProductTiles(page, productsByLocale) {
   return (page.heroProducts || []).slice(0, 3).map((slug, index) => {
     const product = getProduct(page, productsByLocale, slug);
+    const heroImage = product.image_full || product.image;
     return `
       <article class="hero-collage-tile hero-collage-tile--${index + 1}">
-        <img src="${escapeAttribute(product.image)}" alt="${escapeAttribute(product.alt)}" width="600" height="600" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" fetchpriority="${index === 0 ? "high" : "low"}" />
+        <img src="${escapeAttribute(heroImage)}" alt="${escapeAttribute(product.alt)}" width="600" height="600" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" fetchpriority="${index === 0 ? "high" : "low"}" />
         <div class="hero-collage-label">${escapeHtml(product.name)}</div>
       </article>`;
   }).join("\n");
@@ -1662,7 +1664,7 @@ function renderStructuredData(page, productsByLocale) {
 
 function renderHead(page, productsByLocale) {
   const firstProduct = page.featuredItems && page.featuredItems.length ? getProduct(page, productsByLocale, page.featuredItems[0].slug) : null;
-  const socialImage = firstProduct ? absoluteUrl(firstProduct.image) : absoluteUrl("/assets/img/products/moon-cat-tealight-holder.jpg");
+  const socialImage = firstProduct ? absoluteUrl(firstProduct.image_full || firstProduct.image) : absoluteUrl("/assets/img/products/moon-cat-tealight-holder.jpg");
   const socialImageAlt = firstProduct ? firstProduct.alt : page.heroImageAlt || page.title;
   const rootRedirectScript = page.path === "/index.html" ? `<script>
     if (/\\/index\\.html$/.test(window.location.pathname)) {

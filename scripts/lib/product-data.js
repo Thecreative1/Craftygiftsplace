@@ -2741,6 +2741,7 @@ function buildLocaleProduct(locale, rawProduct, localizedName, signals) {
     benefit_secondary: benefitSecondary,
     etsy_url: getEtsyUrl(rawProduct),
     image: rawProduct.image,
+    image_full: rawProduct.image_full || rawProduct.image,
     image_srcset: rawProduct.image_srcset || "",
     image_sizes: rawProduct.image_sizes || "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     alt: `${normalizedName} ${labels.brandSuffix}`,
