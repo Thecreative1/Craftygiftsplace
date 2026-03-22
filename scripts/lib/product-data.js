@@ -582,15 +582,15 @@ const LABELS = {
     },
     usage: {
       coasters: {
-        cat: "Kaffeetischen, Schreibtischen und gemütlichen Ecken",
+        cat: "Kaffeetische, Schreibtische und gemütliche Ecken",
         dog: "Alltagstischen und haustierfreundlichen Räumen",
-        celestial: "Kaffeetischen, Beistelltischen und stimmungsvollen Räumen",
-        fantasy: "Leseecken, Schreibtischen und Hobbyräumen",
-        gaming: "Spielzimmern, Schreibtischen und Wochenendtischen",
-        botanical: "Küchen, Gästetischen und warmen Wohnräumen",
+        celestial: "Kaffeetische, Beistelltische und stimmungsvolle Räume",
+        fantasy: "Leseecken, Schreibtische und Hobbyräume",
+        gaming: "Spielzimmer, Schreibtische und Wochenendtische",
+        botanical: "Küchen, Gästetische und warme Wohnräume",
         coastal: "Gästezimmern, Terrassen und entspannten Wohnungen",
-        gothic: "Beistelltischen, Regalen und markanten Deko-Konzepten",
-        default: "Alltagstischen, Schreibtischen und gemütlichen Ecken"
+        gothic: "Beistelltische, Regale und markante Deko-Konzepte",
+        default: "Alltagstische, Schreibtische und gemütliche Ecken"
       },
       bookmarks: {
         fantasy: "Bücherstapeln, Fantasy-Regalen und der Abendlektüre",
@@ -1719,7 +1719,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "tree of life engraving",
         nl: "een levensboomgravure",
-        de: "einer Lebensbaum-Gravur",
+        de: "Lebensbaum-Motiv",
         fr: "une gravure arbre de vie",
         es: "un grabado de árbol de la vida",
         pt: "uma gravura de árvore da vida",
@@ -1732,7 +1732,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "sun and moon engraving",
         nl: "een zon- en maangravure",
-        de: "einer Sonne-und-Mond-Gravur",
+        de: "Sonne-und-Mond-Motiv",
         fr: "une gravure soleil et lune",
         es: "un grabado de sol y luna",
         pt: "uma gravura de sol e lua",
@@ -1745,7 +1745,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "zodiac-inspired engraving",
         nl: "een gravure met sterrenbeeldthema",
-        de: "einer Gravur mit Sternzeichenmotiv",
+        de: "Sternzeichen-Motiv",
         fr: "une gravure inspirée du zodiaque",
         es: "un grabado inspirado en el zodiaco",
         pt: "uma gravura inspirada no zodíaco",
@@ -1758,7 +1758,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "a moon-and-mushroom motif",
         nl: "een maan- en paddenstoelmotief",
-        de: "einem Mond-und-Pilz-Motiv",
+        de: "Mond-und-Pilz-Motiv",
         fr: "un motif lune et champignons",
         es: "un motivo de luna y setas",
         pt: "um motivo de lua e cogumelos",
@@ -1771,7 +1771,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "cat and moon engraving",
         nl: "een kat-en-maangravure",
-        de: "einer Katze-und-Mond-Gravur",
+        de: "Katze-und-Mond-Motiv",
         fr: "une gravure chat et lune",
         es: "un grabado de gato y luna",
         pt: "uma gravura de gato e lua",
@@ -1784,7 +1784,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "a celestial cat motif",
         nl: "een hemels kattenmotief",
-        de: "einem himmlischen Katzenmotiv",
+        de: "Katzenmotiv mit Himmelsdetail",
         fr: "un motif chat céleste",
         es: "un motivo de gato celeste",
         pt: "um motivo de gato celeste",
@@ -1797,7 +1797,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "leaf-inspired engraving",
         nl: "een gravure met bladdetail",
-        de: "einer Gravur mit Blattdetail",
+        de: "Blattmotiv",
         fr: "une gravure feuillage",
         es: "un grabado de hojas",
         pt: "uma gravura de folhas",
@@ -1810,7 +1810,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "a floral engraving",
         nl: "een bloemengravure",
-        de: "einer floralen Gravur",
+        de: "Blumenmotiv",
         fr: "une gravure florale",
         es: "un grabado floral",
         pt: "uma gravura floral",
@@ -1823,7 +1823,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "a bee motif",
         nl: "een bijenmotief",
-        de: "einem Bienenmotiv",
+        de: "Bienenmotiv",
         fr: "un motif abeille",
         es: "un motivo de abeja",
         pt: "um motivo de abelha",
@@ -1836,7 +1836,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "forest-animal detail",
         nl: "een bosdierdetail",
-        de: "einem Waldtier-Detail",
+        de: "Waldtier-Motiv",
         fr: "un détail animalier de forêt",
         es: "un detalle de animales del bosque",
         pt: "um detalhe de animais da floresta",
@@ -1849,7 +1849,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "Viking-inspired engraving",
         nl: "een Vikinggravure",
-        de: "einer Wikinger-Gravur",
+        de: "Wikinger-Motiv",
         fr: "une gravure d'inspiration viking",
         es: "un grabado de inspiración vikinga",
         pt: "uma gravura de inspiração viking",
@@ -1862,7 +1862,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "Buddha, OM and lotus detail",
         nl: "een Boeddha-, OM- en lotusdetail",
-        de: "einem Buddha-, OM- und Lotus-Detail",
+        de: "Buddha-, OM- und Lotus-Motiv",
         fr: "un détail Bouddha, OM et lotus",
         es: "un detalle de Buda, OM y loto",
         pt: "um detalhe de Buda, OM e lótus",
@@ -1875,7 +1875,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "a dartboard design",
         nl: "een dartbordmotief",
-        de: "einem Dartscheibenmotiv",
+        de: "Dartscheibenmotiv",
         fr: "un motif cible",
         es: "un diseño de diana",
         pt: "um padrão de alvo de dardos",
@@ -1888,7 +1888,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "sports-ball graphics",
         nl: "sportbalmotieven",
-        de: "Sportball-Motiven",
+        de: "Sportball-Motiv",
         fr: "des motifs ballons de sport",
         es: "motivos de pelotas deportivas",
         pt: "motivos de bolas de desporto",
@@ -1901,7 +1901,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "Bitcoin engraving",
         nl: "een Bitcoingravure",
-        de: "einer Bitcoin-Gravur",
+        de: "Bitcoin-Motiv",
         fr: "une gravure Bitcoin",
         es: "un grabado Bitcoin",
         pt: "uma gravura Bitcoin",
@@ -1914,7 +1914,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       labels: {
         en: "painted Wiccan symbols",
         nl: "handbeschilderde wicca-symbolen",
-        de: "handbemalten Wicca-Symbolen",
+        de: "Wicca-Motiv",
         fr: "des symboles wiccans peints à la main",
         es: "símbolos wiccanos pintados a mano",
         pt: "símbolos wiccanos pintados à mão",
@@ -1943,13 +1943,13 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       default: ["een uitgesproken gravure", "een warmer houten accent", "een motief met meer karakter"]
     },
     de: {
-      cat: ["eine Katzen-Gravur", "ein verspieltes Katzenmotiv", "ein warmes Katzendetail"],
-      celestial: ["Sonne-, Mond- und Sterndetails", "eine himmlische Gravur", "eine ruhige Abendstimmung"],
-      botanical: ["ein Naturmotiv", "eine Gravur mit Blattdetail", "ein warmes botanisches Muster"],
-      gaming: ["ein spielerisches Hobby-Motiv", "ein Game-Room-Thema", "eine lockere gravierte Optik"],
-      gothic: ["dunklere Symbolik", "eine alternative Stimmung", "ein mystisches Detail"],
-      faith: ["spirituelle Symbole", "eine ruhige spirituelle Note", "eine bedeutungsvolle Gravur"],
-      default: ["eine markantere Gravur", "ein warmes Holzdetail", "ein Motiv mit mehr Charakter"]
+      cat: ["Katzen-Motiv", "Katzen-Detail", "Katzen-Thema"],
+      celestial: ["Himmels-Motiv", "Sterne-Detail", "Abend-Thema"],
+      botanical: ["Natur-Motiv", "Blatt-Detail", "botanisches Muster"],
+      gaming: ["Hobby-Motiv", "Spielzimmer-Thema", "Freizeit-Detail"],
+      gothic: ["mystisches Motiv", "alternatives Detail", "dunkleres Thema"],
+      faith: ["spirituelles Motiv", "symbolisches Detail", "ruhiges Thema"],
+      default: ["graviertes Motiv", "Holz-Detail", "markanteres Thema"]
     },
     fr: {
       cat: ["un motif chat", "un détail félin", "une gravure autour du chat"],
@@ -1991,7 +1991,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
 
   const templates = {
     en: [
-      `${usageContext} feel more distinctive with %HOOK%.`,
+      `${capitalize(usageContext)} feel more distinctive with %HOOK%.`,
       `Built for ${usageContext}, with %HOOK% that stands out on the table.`,
       `A practical coaster set for ${usageContext}, finished with %HOOK%.`,
       `%HOOK% gives ${usageContext} a more intentional look without overdoing it.`,
@@ -2007,12 +2007,12 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       `Voor ${usageContext} brengt deze houten set %HOOK% met een rustiger handgemaakt gevoel.`
     ],
     de: [
-      `Gibt ${usageContext} mehr Charakter mit %HOOK%.`,
-      `Gemacht für ${usageContext}, mit %HOOK%, die auf dem Tisch direkt auffällt.`,
-      `Ein praktisches Untersetzer-Set für ${usageContext}, veredelt mit %HOOK%.`,
-      `%HOOK% gibt ${usageContext} mehr Stimmung, ohne zu dominant zu wirken.`,
-      `Passend für ${usageContext}, mit %HOOK% und einer dekorativeren Ausstrahlung.`,
-      `Für ${usageContext} bringt dieses Holzset %HOOK% mit einem ruhigeren handgemachten Eindruck.`
+      `Das %HOOK% bringt auf ${usageContext} mehr Charakter.`,
+      `Für ${usageContext} ist das %HOOK% ein Detail, das auf dem Tisch direkt auffällt.`,
+      `Ein praktisches Untersetzer-Set für ${usageContext}, gestaltet mit dem %HOOK%.`,
+      `Das %HOOK% wirkt auf ${usageContext} stimmungsvoll, ohne zu dominant zu werden.`,
+      `Für ${usageContext} sorgt das %HOOK% für eine dekorativere Ausstrahlung.`,
+      `Das %HOOK% gibt diesem Holzset für ${usageContext} eine ruhigere handgemachte Wirkung.`
     ],
     fr: [
       `Apporte plus de caractère à ${usageContext} grâce à %HOOK%.`,
@@ -2258,9 +2258,9 @@ function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrim
         `Fits easily into book gifts, reading journals and quiet evening routines.`
       ],
       "door-hanger": [
-        `${capitalize(benefitPrimary)} on doors, hobby rooms and personal corners.`,
-        `A wooden sign that stands out quickly and is easy to display from day one.`,
-        `Works well when the gift should feel personal and immediately visible.`
+        `A wooden door sign for bedrooms, hobby rooms and personal corners.`,
+        `Easy to hang and easy to notice from the doorway.`,
+        `A playful room detail for gifts that should stay visible every day.`
       ],
       "decor-piece": [
         `Adds a warm wooden accent to ${usageContext}.`,
@@ -2637,19 +2637,19 @@ function buildCollectionDescription(locale, seed, formatKey) {
 
 function buildCtaLabel(locale, name) {
   if (locale === "de") {
-    return "Auf Etsy ansehen";
+    return `${name} auf Etsy ansehen`;
   }
   if (locale === "fr") {
-    return "Voir sur Etsy";
+    return `Voir ${name} sur Etsy`;
   }
   if (locale === "es") {
-    return "Ver en Etsy";
+    return `Ver ${name} en Etsy`;
   }
   if (locale === "pt") {
-    return "Ver na Etsy";
+    return `Ver ${name} na Etsy`;
   }
   if (locale === "it") {
-    return "Vedi su Etsy";
+    return `Vedi ${name} su Etsy`;
   }
   return locale === "nl"
     ? `${LABELS[locale].ctaPrefix} ${name} op Etsy`

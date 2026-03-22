@@ -204,7 +204,7 @@ pagesDe.push({
     }
   ],
   featuredWhy: [
-    "Sie hält den Fokus klar auf Lesezeichen und buchigen Begleitern.",
+    "Sie hält den Fokus klar auf Lesezeichen und kleinen Begleitern fürs Lesen.",
     "Sie macht Fantasy-, klassische und personalisierte Stile direkt vergleichbar.",
     "Sie verweist weiter zu Geschenken für Leser, wenn jemand nach einem breiteren Anlass sucht."
   ],
@@ -274,7 +274,7 @@ pagesDe.push({
   metaDescription: "Entdecke handgemachte Holzgeschenke für Regale, Türen und persönliche Erinnerungsmomente, von Teelichthaltern bis zu personalisierten Holzstücken.",
   h1: "Handgemachte Holzgeschenke für Regale, Türen und persönliche Erinnerungsmomente",
   eyebrow: "Kollektion",
-  intro: "Diese Kollektion bündelt die breiteren Holzgeschenke von Craftygiftsplace in einer klaren Übersicht. Sie bleibt produkttypisch fokussiert, damit Käufer Türschilder, Teelichthalter und persönliche Erinnerungsstücke getrennt von Anlassseiten wie Einzug oder Geschenken für Leser vergleichen können.",
+  intro: "Diese Kollektion bündelt die breiteren Holzgeschenke von Craftygiftsplace in einer klaren Übersicht. Sie bleibt klar auf den Produkttyp fokussiert, damit Käufer Türschilder, Teelichthalter und persönliche Erinnerungsstücke getrennt von Anlassseiten wie Einzug oder Geschenken für Leser vergleichen können.",
   breadcrumbs: [
     { label: "Start", path: "/de/index.html" },
     { label: "Holzgeschenke", path: "/de/pages/holzgeschenke.html" }

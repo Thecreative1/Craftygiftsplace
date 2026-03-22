@@ -13,6 +13,16 @@ const {
 } = require("./lib/site");
 const { LOCALE_ORDER, LOCALE_META } = require("./lib/locales");
 
+const LOCALE_LANGUAGE_NAMES = {
+  nl: "Nederlands",
+  en: "English",
+  de: "Deutsch",
+  fr: "Français",
+  es: "Español",
+  pt: "Português",
+  it: "Italiano"
+};
+
 const text = {
   en: {
     brandTagline: "Handmade wooden gifts with character",
@@ -805,8 +815,8 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
       ],
       "door-hanger": [
         `${lead} adds character to doors, hobby rooms and personal corners.`,
-        `${lead} is a wooden sign that stands out quickly and is easy to display.`,
-        `${lead} works well when the gift should feel personal and immediately visible in ${usage}.`
+        `${lead} is easy to hang and easy to notice from the doorway.`,
+        `${lead} suits gifts for people who would enjoy seeing the design every day in ${usage}.`
       ],
       "decor-piece": [
         `${lead} brings ${motif} to ${usage}.`,
@@ -841,7 +851,7 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
     en: {
       coasters: [
         "It sits naturally on coffee tables and desks.",
-        "It works well when the gift should feel useful from day one.",
+        "It feels useful from the first coffee or tea.",
         "It adds a little extra warmth to everyday drinks."
       ],
       bookmarks: [
@@ -850,9 +860,9 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
         "It works well as a simple extra beside a good book."
       ],
       "door-hanger": [
-        "It gives the room a clearer sense of personality.",
-        "It is easy to hang and notice straight away.",
-        "It suits gifts that should feel playful and personal."
+        "It makes the room feel more personal straight away.",
+        "It hangs easily on bedroom doors and hobby corners.",
+        "It works especially well on doors that set the tone for the room."
       ],
       "decor-piece": [
         "It works beautifully on shelves, side tables and quieter corners.",
@@ -860,7 +870,7 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
         "It adds warmth without taking up much space."
       ],
       keepsake: [
-        "It is easy to display long after the occasion has passed.",
+        "It keeps the occasion easy to revisit long after the day itself.",
         "It keeps a date, name or memory close at hand.",
         "It feels more lasting than a standard card or note."
       ],
@@ -1653,7 +1663,7 @@ function renderStructuredData(page, productsByLocale) {
 function renderHead(page, productsByLocale) {
   const firstProduct = page.featuredItems && page.featuredItems.length ? getProduct(page, productsByLocale, page.featuredItems[0].slug) : null;
   const socialImage = firstProduct ? absoluteUrl(firstProduct.image) : absoluteUrl("/assets/img/products/moon-cat-tealight-holder.jpg");
-  const socialImageAlt = firstProduct ? firstProduct.alt : page.heroImageAlt || "Craftygiftsplace product";
+  const socialImageAlt = firstProduct ? firstProduct.alt : page.heroImageAlt || page.title;
   const rootRedirectScript = page.path === "/index.html" ? `<script>
     if (/\\/index\\.html$/.test(window.location.pathname)) {
       window.location.replace(window.location.pathname.replace(/index\\.html$/, "") + window.location.search + window.location.hash);
@@ -1698,8 +1708,9 @@ function renderHeader(page) {
   const languageLinks = LOCALE_ORDER.filter((locale) => alternatePaths[locale]).map((locale) => ({
     locale,
     href: relativeUrl(page.path, alternatePaths[locale]),
-    current: page.locale === locale
-  })).map((item) => `<a href="${escapeAttribute(item.href)}" lang="${item.locale}"${item.current ? ' aria-current="true"' : ""}>
+    current: page.locale === locale,
+    label: LOCALE_LANGUAGE_NAMES[locale] || locale.toUpperCase()
+  })).map((item) => `<a href="${escapeAttribute(item.href)}" lang="${item.locale}" aria-label="${escapeAttribute(item.label)}" title="${escapeAttribute(item.label)}"${item.current ? ' aria-current="true"' : ""}>
           <span class="flag-icon flag-icon--${item.locale}" aria-hidden="true"></span>
           <span class="language-code">${item.locale.toUpperCase()}</span>
         </a>`).join("\n");
