@@ -1293,7 +1293,7 @@
     "usage_context": "coins lecture, pièces loisirs et portes de chambre",
     "benefit_primary": "donne une touche personnelle à la pièce",
     "benefit_secondary": "donne le ton dès l'entrée",
-    "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=wooden%20gamer%20door%20sign",
+    "etsy_url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=epic%20fantasy%20door%20sign",
     "image": "https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_600x600.5462349697_5c2j.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_340x270.5462349697_5c2j.jpg 340w, https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_600x600.5462349697_5c2j.jpg 600w, https://i.etsystatic.com/46731516/r/il/af8679/5462349697/il_794xN.5462349697_5c2j.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
@@ -4825,7 +4825,7 @@
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_340x270.7593439386_5kt7.jpg 340w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_600x600.7593439386_5kt7.jpg 600w, https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_794xN.7593439386_5kt7.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
     "alt": "Coffret pour lecteurs de fantasy de Craftygiftsplace",
-    "short_desc": "Pensé pour les lecteurs qui préfèrent un bel extra à un petit objet sans âme.",
+    "short_desc": "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour lecteurs de fantasy.",
     "collection_desc": "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
     "intent_keys": [
       "reader-gift",

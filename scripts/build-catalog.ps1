@@ -952,7 +952,8 @@ function Get-SensitiveBrowseQuery {
     }
     default {
       if ($Section -eq "deurhangers-en-borden") {
-        if ($lower -match "moba|mmo|fps|fantasy") { return "wooden gamer door sign" }
+        if ($lower -match "fantasy") { return "epic fantasy door sign" }
+        if ($lower -match "moba|mmo|fps") { return "wooden gamer door sign" }
         return "wooden door sign"
       }
 

@@ -86,7 +86,7 @@ pagesDe.push({
     },
     {
       title: "Holzlesezeichen",
-      description: "Lesezeichen und Geschenkideen für Fantasy-Leser, Lesetagebücher und ruhige Leseabende.",
+      description: "Lesezeichen und Geschenkideen für Fantasy-Leser, gemütliche Buchregale und ruhige Leseabende.",
       image: "/assets/img/products/celtic-bookmark.jpg",
       imageAlt: "Kollektion Holzlesezeichen",
       href: "/de/pages/holzlesezeichen.html"

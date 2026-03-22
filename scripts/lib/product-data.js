@@ -34,6 +34,8 @@ const CATEGORY_MAP = {
   "hunting-life-wooden-coasters": "Jachtthema houten onderzetters",
   "upcycled-ram-keychain": "Upcyclede RAM-sleutelhanger",
     "fantasy-reader-gift-set": "Cadeauset voor fantasylezers",
+    "laser-birch-wood-incense-burner": "Berkenhouten wierookhouder",
+    "birch-wood-circle-blanks": "Berkenhouten cirkels",
     "moon-cat-shadow-tealight-holder": "Theelichthouder met maan en kat",
     "personalized-just-married-wooden-door-hanger": "Gepersonaliseerde deurhanger voor pasgetrouwden",
     "just-married-wedding-money-holder": "Trouwgeldhouder voor pasgetrouwden"
@@ -76,6 +78,22 @@ const GERMAN_NAME_OVERRIDES = {
   "sun-and-moon-wooden-coasters": "Sonne und Mond Holzuntersetzer",
   "tree-of-life-wooden-coasters": "Lebensbaum Holzuntersetzer",
   "zodiac-wooden-coasters": "Sternzeichen Holzuntersetzer"
+};
+
+const ETSY_URL_OVERRIDES = {
+  "epic-fantasy-door-sign": "https://www.etsy.com/shop/Craftygiftsplace?search_query=epic%20fantasy%20door%20sign"
+};
+
+const SPECIAL_SHORT_DESCRIPTIONS = {
+  "fantasy-reader-gift-set": {
+    en: "A ready-made gift set with a bookmark, door hanger and coasters for fantasy readers.",
+    nl: "Een kant-en-klare cadeauset met bladwijzer, deurhanger en onderzetters voor fantasylezers.",
+    de: "Ein komplettes Set mit Lesezeichen, Türschild und Untersetzern für Fantasy-Leser.",
+    fr: "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour lecteurs de fantasy.",
+    es: "Un set listo para regalar con marcapáginas, colgador de puerta y posavasos para lectores de fantasía.",
+    pt: "Um conjunto pronto a oferecer com marcador, pendente de porta e porta-copos para leitores de fantasia.",
+    it: "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy."
+  }
 };
 
 const LABELS = {
@@ -575,11 +593,11 @@ const LABELS = {
         default: "Alltagstischen, Schreibtischen und gemütlichen Ecken"
       },
       bookmarks: {
-        fantasy: "Buchstapeln, Abendlektüre und Fantasy-Regalen",
-        celestial: "Lesetagebüchern, Nachttischen und ruhigen Lesestunden",
-        botanical: "Lesetagebüchern, Stofftaschen und stillen Lesemomenten",
-        gothic: "Dark-Academia-Regalen und dramatischen Leseecken",
-        default: "Buchstapeln, Lesetagebüchern und durchdachten Geschenkboxen"
+        fantasy: "Bücherstapeln, Fantasy-Regalen und der Abendlektüre",
+        celestial: "Nachttischen, Buchregalen und ruhigen Lesestunden",
+        botanical: "Stofftaschen, Buchregalen und stillen Lesemomenten",
+        gothic: "Dark-Academia-Regalen und stimmungsvollen Leseecken",
+        default: "Bücherstapeln, Geschenkboxen und ruhigen Leseabenden"
       },
       "door-hanger": {
         fantasy: "Leseecken, Hobbyräumen und Schlafzimmertüren",
@@ -1633,6 +1651,32 @@ function localizeList(locale, type, keys) {
   return keys.map((key) => LABELS[locale][type][key]).filter(Boolean);
 }
 
+function formatSentenceList(locale, value) {
+  const items = (Array.isArray(value) ? value : [value])
+    .map((item) => String(item || "").trim())
+    .filter(Boolean);
+
+  if (!items.length) return "";
+  if (items.length === 1) return items[0];
+
+  const conjunctions = {
+    nl: "en",
+    de: "und",
+    fr: "et",
+    es: "y",
+    pt: "e",
+    it: "e",
+    en: "and"
+  };
+
+  const conjunction = conjunctions[locale] || conjunctions.en;
+  if (items.length === 2) {
+    return `${items[0]} ${conjunction} ${items[1]}`;
+  }
+
+  return `${items.slice(0, -1).join(", ")} ${conjunction} ${items[items.length - 1]}`;
+}
+
 function localizeChip(locale, audienceKeys, occasionKeys, styleKeys) {
   const sourceKeys = [...audienceKeys, ...occasionKeys, ...styleKeys];
   const chips = [];
@@ -2188,11 +2232,17 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
 }
 
 function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrimary, motif, usageContext, audience, themeKey) {
+  const specialDescription = SPECIAL_SHORT_DESCRIPTIONS[seed]?.[locale];
+  if (specialDescription) {
+    return specialDescription;
+  }
+
   if (formatKey === "coasters") {
     return buildCoasterDescription(locale, seed, themeKey, motif, usageContext);
   }
 
   const audienceLabel = audience[0] || (locale === "nl" ? "cadeauzoekers" : locale === "de" ? "Geschenkkäufer" : "gift shoppers");
+  const audiencePhrase = formatSentenceList(locale, audience) || audienceLabel;
   const catalogCopy = {
     en: {
       coasters: [
@@ -2291,9 +2341,9 @@ function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrim
       ],
       bookmarks: [
         `${capitalize(benefitPrimary)} und gibt dem Lesemoment mehr Charakter.`,
-        `Ein ${formatLabel} für ${usageContext}, klein im Format und trotzdem besonders.`,
-        `Gemacht für Leser, die lieber ein schönes Extra als ein beliebiges Mitbringsel bekommen.`,
-        `Passt leicht zu Lesetagebüchern, Geschenkboxen und ruhigen Abendroutinen.`
+        `Ein ${formatLabel}, das ${motif} aufgreift, gut zu ${usageContext} passt und im Kleinen viel Stimmung mitbringt.`,
+        `Gedacht für ${audiencePhrase}, die bei Geschenken für Leser lieber ein Detail wählen, das ${motif} aufgreift und gut zu ${usageContext} passt.`,
+        `Passt gut zu ${usageContext} und gibt kleinen Geschenken für Leser mehr Persönlichkeit.`
       ],
       "door-hanger": [
         `${capitalize(benefitPrimary)} für Türen, Hobbyräume und persönliche Ecken.`,
@@ -2606,6 +2656,10 @@ function buildCtaLabel(locale, name) {
     : `${LABELS[locale].ctaPrefix} ${name} on Etsy`;
 }
 
+function getEtsyUrl(rawProduct) {
+  return ETSY_URL_OVERRIDES[rawProduct.id] || rawProduct.etsy_url;
+}
+
 function normalizeLocalizedName(locale, rawProduct, localizedName) {
   const clean = String(localizedName || "").replace(/\s+/g, " ").trim();
   if (locale !== "nl") {
@@ -2663,7 +2717,7 @@ function buildLocaleProduct(locale, rawProduct, localizedName, signals) {
     usage_context: usageContext,
     benefit_primary: benefitPrimary,
     benefit_secondary: benefitSecondary,
-    etsy_url: rawProduct.etsy_url,
+    etsy_url: getEtsyUrl(rawProduct),
     image: rawProduct.image,
     image_srcset: rawProduct.image_srcset || "",
     image_sizes: rawProduct.image_sizes || "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",

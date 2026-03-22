@@ -437,7 +437,47 @@ function buildDuplicateTail(product) {
   return tails[product.locale] || tails.en;
 }
 
+function getSpecialCardDescription(product, position = 0) {
+  const specialBySlug = {
+    "fantasy-reader-gift-set": {
+      en: [
+        "A ready-made gift set with a bookmark, door hanger and coasters for fantasy readers. It works well when one themed gift feels better than combining separate pieces."
+      ],
+      nl: [
+        "Een kant-en-klare cadeauset met bladwijzer, deurhanger en onderzetters voor fantasylezers. Het werkt goed wanneer een thematisch cadeau beter past dan losse stukken combineren."
+      ],
+      de: [
+        "Ein komplettes Set mit Lesezeichen, Türschild und Untersetzern für Fantasy-Leser. Es passt gut, wenn ein stimmiges Geschenk besser wirkt als mehrere einzelne Stücke."
+      ],
+      fr: [
+        "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour lecteurs de fantasy. Il fonctionne bien quand un seul cadeau cohérent vaut mieux que plusieurs pièces séparées."
+      ],
+      es: [
+        "Un set listo para regalar con marcapáginas, colgador de puerta y posavasos para lectores de fantasía. Funciona muy bien cuando un regalo temático completo encaja mejor que varias piezas sueltas."
+      ],
+      pt: [
+        "Um conjunto pronto a oferecer com marcador, pendente de porta e porta-copos para leitores de fantasia. Funciona bem quando um presente temático completo faz mais sentido do que juntar peças separadas."
+      ],
+      it: [
+        "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy. Funziona bene quando un regalo coordinato ha più senso di vari pezzi scelti separatamente."
+      ]
+    }
+  };
+
+  const variants = specialBySlug[product.slug]?.[product.locale] || specialBySlug[product.slug]?.en;
+  if (!variants || !variants.length) {
+    return "";
+  }
+
+  return variants[position % variants.length];
+}
+
 function buildCardDescription(product, page, position = 0, repeatCount = 1) {
+  const specialDescription = getSpecialCardDescription(product, position);
+  if (specialDescription) {
+    return specialDescription;
+  }
+
   const preferredDescription = product.short_desc || "";
   const lead = product.name;
   const usageDefaults = {
@@ -529,9 +569,9 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
       ],
       bookmarks: [
         `${lead} hält die Seite leicht wiederfindbar und gibt dem Lesemoment mehr Charakter.`,
-        `${lead} fühlt sich in ${usage} sofort richtig an.`,
-        `${lead} ist ein Lesezeichen für ${audience}, die lieber ein schönes Detail für ${usage} als etwas Beliebiges schenken.`,
-        `${lead} passt gut zu Lesetagebüchern, Geschenkboxen und ruhigen Abenden.`
+        `${lead} bringt ein kleines Detail mit Atmosphäre in ${usage}.`,
+        `${lead} ist ein Lesezeichen für ${audience}, die lieber etwas mit Charakter verschenken als ein beliebiges Extra.`,
+        `${lead} gibt Geschenken für Leser mehr Persönlichkeit und bleibt im Alltag nützlich.`
       ],
       "door-hanger": [
         `${lead} gibt Türen, Hobbyräumen und persönlichen Ecken mehr Charakter.`,
@@ -889,9 +929,9 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
         "Es bringt etwas mehr Wärme in Getränke im Alltag."
       ],
       bookmarks: [
-        "Es passt leicht in Lesetagebücher, Taschen und Geschenkboxen.",
-        "Es passt zu Lesern, die kleine Details mit Charakter mögen.",
-        "Es funktioniert gut als schönes Extra neben einem Buch."
+        "Es liegt gut zwischen Lieblingsbüchern, Geschenkboxen und stillen Leseabenden.",
+        "Es gefällt Lesern, die kleine Dinge mit Atmosphäre sammeln.",
+        "Es gibt einem Geschenk für Leser mehr Persönlichkeit, ohne viel Platz zu brauchen."
       ],
       "door-hanger": [
         "Es gibt dem Raum sofort mehr Persönlichkeit.",

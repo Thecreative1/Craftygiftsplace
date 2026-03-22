@@ -164,6 +164,16 @@ const productLocaleBans = {
   ]
 };
 
+const productRepetitionBans = {
+  en: [/\bwooden\s+wooden\b/i],
+  nl: [/\bhouten\s+houten\b/i],
+  de: [/\bholz(?:-| )holz\b/i],
+  fr: [/\bbois\s+bois\b/i],
+  es: [/\bmadera\s+madera\b/i],
+  pt: [/\bmadeira\s+madeira\b/i],
+  it: [/\blegno\s+legno\b/i]
+};
+
 const collectionIntentTerms = {
   en: ["reader gifts", "cat lover gifts", "housewarming gifts"],
   nl: ["lezerscadeaus", "cadeaus voor kattenliefhebbers", "verhuiscadeaus"],
@@ -433,6 +443,13 @@ function validateProducts(products, locale) {
     bannedPatterns.forEach((pattern) => {
       if (fields.some((field) => pattern.test(field))) {
         fail(`Suspicious untranslated token ${pattern} found in ${locale} product "${product.slug}".`);
+      }
+    });
+
+    const repetitionPatterns = productRepetitionBans[locale] || [];
+    repetitionPatterns.forEach((pattern) => {
+      if (fields.some((field) => pattern.test(field))) {
+        fail(`Repeated material wording ${pattern} found in ${locale} product "${product.slug}".`);
       }
     });
   });
