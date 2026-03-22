@@ -1155,8 +1155,9 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
 }
 
 function renderProductCard(product, page, position, repeatCount = 1) {
+  const cardImage = product.image_full || product.image;
   return renderTemplate(productCardTemplate, {
-    image: escapeAttribute(product.image),
+    image: escapeAttribute(cardImage),
     imageSrcset: escapeAttribute(product.image_srcset || product.image),
     imageSizes: escapeAttribute(product.image_sizes),
     alt: escapeAttribute(product.alt),
@@ -1484,7 +1485,7 @@ function renderHomeFeaturedBestsellers(page, productsByLocale) {
         </div>
         <div class="home-bestsellers-grid">
           ${items.map(({ product, summary }) => renderTemplate(homeBestsellerCardTemplate, {
-            image: escapeAttribute(product.image),
+            image: escapeAttribute(product.image_full || product.image),
             imageSrcset: escapeAttribute(product.image_srcset || product.image),
             imageSizes: escapeAttribute(product.image_sizes),
             alt: escapeAttribute(product.alt),
