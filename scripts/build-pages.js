@@ -1606,7 +1606,7 @@ function renderStructuredData(page, productsByLocale) {
         "@id": `${canonicalUrl("/index.html")}#organization`,
         name: "Craftygiftsplace",
         url: canonicalUrl("/index.html"),
-        logo: absoluteUrl("/assets/img/logos/craftygiftsplace-logo.svg"),
+        logo: absoluteUrl("/assets/img/logos/craftygiftsplace-logo.png"),
         sameAs: ["https://www.etsy.com/shop/Craftygiftsplace"]
       },
       {
@@ -1687,7 +1687,7 @@ function renderHead(page, productsByLocale) {
     socialImage: escapeAttribute(socialImage),
     socialImageAlt: escapeAttribute(socialImageAlt),
     faviconPath: escapeAttribute(relativeUrl(page.path, "/favicon.ico")),
-    logoSvgPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.svg")),
+    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.png")),
     preconnectLinks: '<link rel="preconnect" href="https://i.etsystatic.com" crossorigin />\n  <link rel="dns-prefetch" href="//i.etsystatic.com" />\n  <link rel="preconnect" href="https://www.etsy.com" crossorigin />',
     stylesheetPath: escapeAttribute(relativeUrl(page.path, "/assets/css/style.css")),
     structuredData: renderStructuredData(page, productsByLocale)
@@ -1724,7 +1724,7 @@ function renderHeader(page) {
     skipLinkLabel: escapeHtml(localeText.skipLink),
     homePath: escapeAttribute(relativeUrl(page.path, LOCALE_META[page.locale].homePath)),
     homeAriaLabel: escapeAttribute(localeText.homeAria),
-    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.svg")),
+    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.png")),
     brandTagline: escapeHtml(localeText.brandTagline),
     navAriaLabel: escapeAttribute(localeText.navAria),
     navLinks,
@@ -1739,7 +1739,7 @@ function renderFooter(page) {
   const collectionLinks = footerCollections(page.locale).map((item) => `<a href="${escapeAttribute(relativeUrl(page.path, item.path))}">${escapeHtml(item.label)}</a>`).join("");
   const intentLinks = footerIntents(page.locale).map((item) => `<a href="${escapeAttribute(relativeUrl(page.path, item.path))}">${escapeHtml(item.label)}</a>`).join("");
   return renderTemplate(footerTemplate, {
-    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.svg")),
+    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.png")),
     footerTagline: escapeHtml(localeText.footerTagline),
     footerCollectionsTitle: escapeHtml(localeText.footerCollections),
     footerCollectionLinks: collectionLinks,
