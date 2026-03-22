@@ -712,20 +712,6 @@ h2 {
 }
 
 .trust-card,
-.home-category-card,
-.home-bestseller-card,
-.category-card,
-.occasion-card,
-.product-card,
-.why-card,
-.faq-card,
-.copy-card,
-.page-sidebar,
-.cta-panel {
-  content-visibility: auto;
-  contain-intrinsic-size: 420px;
-}
-
 .home-category-link {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 108px;

@@ -19,7 +19,7 @@ const definition = {
   },
   labels: {
     home: "Accueil",
-    coasters: "Dessous-verres en bois",
+    coasters: "Sous-verres en bois",
     bookmarks: "Marque-pages en bois",
     gifts: "Cadeaux en bois",
     contact: "Contact",
@@ -29,22 +29,22 @@ const definition = {
   },
   pages: {
     coasters: {
-      title: "Dessous-verres en bois faits main aux gravures célestes, naturelles et plus marquées | Craftygiftsplace",
-      metaDescription: "Parcourez des dessous-verres en bois faits main aux gravures célestes, naturelles, vikings et autres motifs affirmés pour tables, étagères et cadeaux attentionnés.",
-      h1: "Dessous-verres en bois faits main aux gravures célestes, naturelles et plus marquées",
-      intro: "Parcourez la sélection de dessous-verres en un seul endroit. Cette page reste centrée sur le type de produit afin de comparer des sets gravés appréciés pour tables basses, bureaux et étagères sans mélanger les guides cadeaux plus larges. On y trouve des modèles célestes ou nature plus calmes, mais aussi des choix plus affirmés comme des motifs vikings, spirituels ou pensés pour une pièce à vivre avec plus de caractère.",
-      primaryCtaLabel: "Voir les dessous-verres sur Etsy",
-      secondaryCtaLabel: "Voir la sélection de dessous-verres",
+      title: "Sous-verres en bois faits main aux gravures célestes, naturelles et plus marquées | Craftygiftsplace",
+      metaDescription: "Parcourez des sous-verres en bois faits main aux gravures célestes, naturelles, vikings et autres motifs affirmés pour tables, étagères et cadeaux attentionnés.",
+      h1: "Sous-verres en bois faits main aux gravures célestes, naturelles et plus marquées",
+      intro: "Parcourez la sélection de sous-verres en un seul endroit. Cette page reste centrée sur le type de produit afin de comparer des sets gravés appréciés pour tables basses, bureaux et étagères sans mélanger les guides cadeaux plus larges. On y trouve des modèles célestes ou nature plus calmes, mais aussi des choix plus affirmés comme des motifs vikings, spirituels ou pensés pour une pièce à vivre avec plus de caractère.",
+      primaryCtaLabel: "Voir les sous-verres sur Etsy",
+      secondaryCtaLabel: "Voir la sélection de sous-verres",
       linkCloud: [
         { label: "Cadeaux pour amoureux des chats", targetKey: "cat" },
         { label: "Cadeaux de crémaillère", targetKey: "housewarming" },
-        { label: "Tous les styles de dessous-verres", targetKey: "catalog" }
+        { label: "Tous les styles de sous-verres", targetKey: "catalog" }
       ],
       sidebar: {
         title: "Acheter en confiance",
-        quote: "\"Ces dessous-verres sont magnifiques. Ils semblent solides et bien faits.\"",
+        quote: "\"Ces sous-verres sont magnifiques. Ils semblent solides et bien faits.\"",
         attribution: "Andrew · Avis Etsy",
-        text: "Les dessous-verres fonctionnent très bien pour une crémaillère ou un cadeau du quotidien, parce qu'ils sont utiles, chaleureux et faciles à intégrer dans la maison.",
+        text: "Les sous-verres fonctionnent très bien pour une crémaillère ou un cadeau du quotidien, parce qu'ils sont utiles, chaleureux et faciles à intégrer dans la maison.",
         links: [
           { label: "Voir les cadeaux pour amoureux des chats", targetKey: "cat" },
           { label: "Voir les cadeaux de crémaillère", targetKey: "housewarming" },
@@ -58,18 +58,18 @@ const definition = {
         "Un set spirituel plus apaisé pour coins thé, étagères et intérieurs où un détail de table plus symbolique trouve naturellement sa place."
       ],
       featuredWhy: [
-        "Elle rassemble les thèmes de dessous-verres les plus appréciés en un seul aperçu.",
+        "Elle rassemble les thèmes de sous-verres les plus appréciés en un seul aperçu.",
         "Elle permet de comparer des sets plus calmes et des designs plus marqués.",
         "Elle renvoie toujours vers les pages chats, crémaillère ou cadeaux en bois quand l'intention devient plus précise."
       ],
-      catalogIntro: "Une sélection de dessous-verres qui réunit des sets appréciés, des cadeaux de maison chaleureux et des gravures plus distinctives.",
+      catalogIntro: "Une sélection de sous-verres qui réunit des sets appréciés, des cadeaux de maison chaleureux et des gravures plus distinctives.",
       faq: [
         {
-          question: "Ces dessous-verres conviennent-ils pour une crémaillère ?",
+          question: "Ces sous-verres conviennent-ils pour une crémaillère ?",
           answer: "Oui. Beaucoup de motifs conviennent naturellement à un cadeau de maison, car ils sont à la fois pratiques, décoratifs et faciles à utiliser dès le premier jour."
         },
         {
-          question: "Trouve-t-on ici aussi des dessous-verres au style plus affirmé ?",
+          question: "Trouve-t-on ici aussi des sous-verres au style plus affirmé ?",
           answer: "Oui. En plus des motifs plus doux, cette page réunit aussi des sets vikings, spirituels, gaming ou alternatifs avec une présence visuelle plus forte."
         },
         {
@@ -78,14 +78,14 @@ const definition = {
         }
       ],
       relatedLinks: [
-        { label: "Cadeaux pour amoureux des chats", targetKey: "cat", description: "Des dessous-verres à thème chat et quelques objets déco en bois regroupés pour ce public." },
+        { label: "Cadeaux pour amoureux des chats", targetKey: "cat", description: "Des sous-verres à thème chat et quelques objets déco en bois regroupés pour ce public." },
         { label: "Cadeaux de crémaillère", targetKey: "housewarming", description: "Des pièces en bois utiles pour tables basses, étagères et cadeaux de maison." },
         { label: "Marque-pages en bois", targetKey: "bookmarks", description: "Quittez les cadeaux pour la maison et passez à des idées pensées pour les lecteurs." }
       ],
       ctaPanel: {
-        title: "Prêt à comparer les dessous-verres sur Etsy ?",
+        title: "Prêt à comparer les sous-verres sur Etsy ?",
         text: "Ouvrez la recherche Etsy pour voir les prix, les détails complets et les avis acheteurs.",
-        label: "Ouvrir les dessous-verres sur Etsy"
+        label: "Ouvrir les sous-verres sur Etsy"
       }
     },
     bookmarks: {
@@ -108,13 +108,13 @@ const definition = {
         links: [
           { label: "Voir les cadeaux pour lecteurs", targetKey: "reader" },
           { label: "Voir les cadeaux en bois", targetKey: "gifts" },
-          { label: "Découvrir les dessous-verres", targetKey: "coasters" }
+          { label: "Découvrir les sous-verres", targetKey: "coasters" }
         ]
       },
       featuredSummaries: [
         "Un marque-page fantasy très visuel pour lecteurs qui aiment les détails marqués sur une étagère ou dans un journal de lecture.",
         "Une option plus calme pour ceux qui cherchent un cadeau pour lecteur avec une allure plus classique.",
-        "Un set qui réunit marque-page, suspension de porte et dessous-verres quand le thème doit déjà être cohérent.",
+        "Un set qui réunit marque-page, suspension de porte et sous-verres quand le thème doit déjà être cohérent.",
         "Un marque-page plus classique pour lecteurs qui préfèrent un cadeau sobre avec un détail artisanal."
       ],
       featuredWhy: [
@@ -134,13 +134,13 @@ const definition = {
         },
         {
           question: "Puis-je découvrir d'autres types de cadeaux depuis ici ?",
-          answer: "Oui. Cette collection renvoie directement vers les cadeaux en bois, les dessous-verres et les principaux guides cadeaux."
+          answer: "Oui. Cette collection renvoie directement vers les cadeaux en bois, les sous-verres et les principaux guides cadeaux."
         }
       ],
       relatedLinks: [
         { label: "Cadeaux pour lecteurs", targetKey: "reader", description: "Des marque-pages, des coffrets pour lecteurs de fantasy et de petits objets pour coins lecture réunis sur une seule page." },
         { label: "Cadeaux en bois", targetKey: "gifts", description: "Des suspensions de porte, porte-bougies et souvenirs pour aller au-delà du marque-page." },
-        { label: "Dessous-verres en bois", targetKey: "coasters", description: "Des cadeaux en bois plus tournés vers la maison, les tables basses et les crémaillères." }
+        { label: "Sous-verres en bois", targetKey: "coasters", description: "Des cadeaux en bois plus tournés vers la maison, les tables basses et les crémaillères." }
       ],
       ctaPanel: {
         title: "Prêt à voir les marque-pages sur Etsy ?",
@@ -152,7 +152,7 @@ const definition = {
       title: "Cadeaux en bois faits main pour coins lecture, étagères et moments marquants | Craftygiftsplace",
       metaDescription: "Parcourez des cadeaux en bois faits main, comme porte-bougies, suspensions de porte et souvenirs personnalisés pour étagères, entrées et occasions marquantes.",
       h1: "Cadeaux en bois faits main pour coins lecture, étagères et moments marquants",
-      intro: "Cette collection réunit les cadeaux en bois qui ne sont ni des dessous-verres ni des marque-pages. Elle aide à comparer des porte-bougies, suspensions de porte, souvenirs personnalisés et autres pièces décoratives dans un seul endroit plus calme.",
+      intro: "Cette collection réunit les cadeaux en bois qui ne sont ni des sous-verres ni des marque-pages. Elle aide à comparer des porte-bougies, suspensions de porte, souvenirs personnalisés et autres pièces décoratives dans un seul endroit plus calme.",
       primaryCtaLabel: "Voir les cadeaux en bois sur Etsy",
       secondaryCtaLabel: "Voir la sélection de cadeaux en bois",
       linkCloud: [
@@ -186,7 +186,7 @@ const definition = {
       faq: [
         {
           question: "Que trouve-t-on dans cette collection ?",
-          answer: "Vous y trouverez des porte-bougies, des suspensions de porte, des souvenirs personnalisés et d'autres pièces en bois qui ne relèvent pas des dessous-verres ou des marque-pages."
+          answer: "Vous y trouverez des porte-bougies, des suspensions de porte, des souvenirs personnalisés et d'autres pièces en bois qui ne relèvent pas des sous-verres ou des marque-pages."
         },
         {
           question: "Ces cadeaux conviennent-ils à une crémaillère ?",
@@ -194,7 +194,7 @@ const definition = {
         },
         {
           question: "Puis-je encore accéder aux autres collections depuis ici ?",
-          answer: "Oui. Cette page renvoie vers les dessous-verres, les marque-pages et les principaux guides cadeaux."
+          answer: "Oui. Cette page renvoie vers les sous-verres, les marque-pages et les principaux guides cadeaux."
         }
       ],
       relatedLinks: [
@@ -210,18 +210,18 @@ const definition = {
     },
     contact: {
       title: "Contacter Craftygiftsplace pour cadeaux en bois personnalisés | Craftygiftsplace",
-      metaDescription: "Contactez Craftygiftsplace sur Etsy pour des questions sur la personnalisation, le choix d'un cadeau ou la sélection de dessous-verres, marque-pages et objets déco en bois.",
+      metaDescription: "Contactez Craftygiftsplace sur Etsy pour des questions sur la personnalisation, le choix d'un cadeau ou la sélection de sous-verres, marque-pages et objets déco en bois.",
       h1: "Une question ou une personnalisation ?",
       intro: "Pour une commande, une personnalisation ou une question sur un article précis, Etsy reste le meilleur point de contact. Cette page montre simplement l'étape la plus claire et quelques entrées faciles vers les collections principales.",
       primaryCtaLabel: "Nous écrire sur Etsy",
       secondaryCtaLabel: "Lire les avis Etsy",
       infoCards: [
         { title: "Petit atelier de bois fait main", text: "Craftygiftsplace se concentre sur des cadeaux en bois gravés qui paraissent chaleureux, utiles et personnels. La sélection présentée ici reste proche des lecteurs, des amoureux des chats, des intérieurs accueillants et de quelques souvenirs personnalisés." },
-        { title: "Matériaux et finition", items: ["Le bois est choisi pour une gravure nette, un veinage visible et une finition naturellement chaleureuse.", "Beaucoup de sets de dessous-verres utilisent un dos en liège lorsque c'est indiqué sur la fiche Etsy.", "Chaque pièce est vérifiée après la gravure pour garder un rendu propre, chaleureux et agréable à offrir."] },
+        { title: "Matériaux et finition", items: ["Le bois est choisi pour une gravure nette, un veinage visible et une finition naturellement chaleureuse.", "Beaucoup de sets de sous-verres utilisent un dos en liège lorsque c'est indiqué sur la fiche Etsy.", "Chaque pièce est vérifiée après la gravure pour garder un rendu propre, chaleureux et agréable à offrir."] },
         { title: "Comment le travail se déroule", text: "Les idées commencent souvent par un thème, un prénom ou un petit lettrage, puis passent par la gravure, la finition à la main et un dernier contrôle avant la mise en ligne sur Etsy." },
-        { title: "Ce que l'on peut demander", items: ["Une personnalisation avec prénom, date ou court message.", "De l'aide pour choisir entre dessous-verres, marque-pages et autres cadeaux en bois.", "Des conseils pour un cadeau de crémaillère, pour lecteur ou pour un moment marquant."] },
+        { title: "Ce que l'on peut demander", items: ["Une personnalisation avec prénom, date ou court message.", "De l'aide pour choisir entre sous-verres, marque-pages et autres cadeaux en bois.", "Des conseils pour un cadeau de crémaillère, pour lecteur ou pour un moment marquant."] },
         { title: "Pourquoi Etsy reste le bon point de contact", text: "Etsy réunit au même endroit les commandes, les délais, les notes de personnalisation, la protection acheteur et la messagerie." },
-        { title: "Bonnes pages pour commencer", text: "Si quelqu'un hésite encore, il vaut mieux commencer par les dessous-verres en bois, les marque-pages en bois ou l'un des guides cadeaux." }
+        { title: "Bonnes pages pour commencer", text: "Si quelqu'un hésite encore, il vaut mieux commencer par les sous-verres en bois, les marque-pages en bois ou l'un des guides cadeaux." }
       ],
       sidebar: {
         title: "Acheter en confiance",
@@ -229,7 +229,7 @@ const definition = {
         attribution: "Clare · Avis Etsy",
         text: "La page contact reste simple : écrivez sur Etsy pour une demande liée à la commande, ou parcourez d'abord une collection si vous voulez comparer les styles.",
         links: [
-          { label: "Dessous-verres en bois", targetKey: "coasters" },
+          { label: "Sous-verres en bois", targetKey: "coasters" },
           { label: "Cadeaux pour lecteurs", targetKey: "reader" },
           { label: "Cadeaux de crémaillère", targetKey: "housewarming" }
         ]
@@ -247,23 +247,23 @@ const definition = {
     },
     cat: {
       title: "Cadeaux en bois pour amoureux des chats, intérieurs chaleureux et idées Etsy attentionnées | Craftygiftsplace",
-      metaDescription: "Découvrez des cadeaux en bois pour amoureux des chats, avec dessous-verres félins et déco chaleureuse pour étagères, tables basses et petites idées qui mènent vers Etsy.",
+      metaDescription: "Découvrez des cadeaux en bois pour amoureux des chats, avec sous-verres félins et déco chaleureuse pour étagères, tables basses et petites idées qui mènent vers Etsy.",
       h1: "Cadeaux en bois pour amoureux des chats, étagères et tables basses",
-      intro: "Cette page s'adresse aux visiteurs qui savent déjà qu'ils veulent offrir quelque chose à un amoureux des chats. Elle réunit les meilleurs choix félins dans un seul endroit : dessous-verres pour tables basses, motifs chats plus célestes pour intérieurs chaleureux et petit objet déco pour étagères ou coins lecture.",
+      intro: "Cette page s'adresse aux visiteurs qui savent déjà qu'ils veulent offrir quelque chose à un amoureux des chats. Elle réunit les meilleurs choix félins dans un seul endroit : sous-verres pour tables basses, motifs chats plus célestes pour intérieurs chaleureux et petit objet déco pour étagères ou coins lecture.",
       primaryCtaLabel: "Voir les cadeaux chats sur Etsy",
       secondaryCtaLabel: "Aller aux idées chats",
       linkCloud: [
-        { label: "Dessous-verres en bois", targetKey: "coasters" },
+        { label: "Sous-verres en bois", targetKey: "coasters" },
         { label: "Cadeaux de crémaillère", targetKey: "housewarming" },
         { label: "Tous les cadeaux chats", targetKey: "catalog" }
       ],
       sidebar: {
         title: "Pourquoi cette page plaît",
-        quote: "\"Ces dessous-verres sont magnifiques. Ils semblent solides et bien faits.\"",
+        quote: "\"Ces sous-verres sont magnifiques. Ils semblent solides et bien faits.\"",
         attribution: "Andrew · Avis Etsy",
         text: "Les pièces à thème chat étaient déjà très appréciées dans la boutique. Cette page les rassemble pour comparer facilement sans passer d'une catégorie à l'autre.",
         links: [
-          { label: "Voir les dessous-verres en bois", targetKey: "coasters" },
+          { label: "Voir les sous-verres en bois", targetKey: "coasters" },
           { label: "Voir les cadeaux de crémaillère", targetKey: "housewarming" },
           { label: "Voir les résultats chats sur Etsy", external: true }
         ]
@@ -272,7 +272,7 @@ const definition = {
         "Un favori à thème chat qui reste à la fois décoratif et pratique pour salon, bureau ou anniversaire.",
         "Une option plus lunaire pour quelqu'un qui aime les chats et une ambiance plus céleste sur une table basse.",
         "Une petite pièce déco pensée pour étagères, tables de nuit et coins lecture plus doux.",
-        "Un set de dessous-verres à motif chat plus simple pour ceux qui cherchent un cadeau pratique au thème félin bien lisible."
+        "Un set de sous-verres à motif chat plus simple pour ceux qui cherchent un cadeau pratique au thème félin bien lisible."
       ],
       featuredWhy: [
         "Elle garde les cadeaux à thème chat dans une sélection calme et facile à parcourir.",
@@ -281,14 +281,14 @@ const definition = {
       ],
       catalogIntro: "Les meilleurs choix à thème chat pour maisons chaleureuses, étagères et cadeaux autour d'une table basse.",
       faq: [
-        { question: "Ces cadeaux pour amoureux des chats sont-ils tous des dessous-verres ?", answer: "Non. La page réunit des sets de dessous-verres à thème chat ainsi qu'une petite pièce déco en bois, pour choisir entre cadeau pratique et cadeau plus visuel." },
+        { question: "Ces cadeaux pour amoureux des chats sont-ils tous des sous-verres ?", answer: "Non. La page réunit des sets de sous-verres à thème chat ainsi qu'une petite pièce déco en bois, pour choisir entre cadeau pratique et cadeau plus visuel." },
         { question: "Ces idées conviennent-elles aussi à une crémaillère ?", answer: "Oui. Plusieurs modèles fonctionnent très bien pour une nouvelle maison, surtout quand le cadeau doit sembler utile et chaleureux." },
-        { question: "Puis-je encore voir toute la collection de dessous-verres ?", answer: "Oui. Cette page renvoie directement vers la collection complète pour ceux qui veulent comparer davantage de thèmes." }
+        { question: "Puis-je encore voir toute la collection de sous-verres ?", answer: "Oui. Cette page renvoie directement vers la collection complète pour ceux qui veulent comparer davantage de thèmes." }
       ],
       relatedLinks: [
-        { label: "Dessous-verres en bois", targetKey: "coasters", description: "Une sélection de dessous-verres avec styles chats, célestes et botaniques." },
+        { label: "Sous-verres en bois", targetKey: "coasters", description: "Une sélection de sous-verres avec styles chats, célestes et botaniques." },
         { label: "Cadeaux de crémaillère", targetKey: "housewarming", description: "Des pièces utiles en bois pour nouvelles maisons, tables basses et étagères." },
-        { label: "Cadeaux en bois", targetKey: "gifts", description: "Parcourez les pièces déco et les suspensions si vous voulez aller au-delà des dessous-verres." }
+        { label: "Cadeaux en bois", targetKey: "gifts", description: "Parcourez les pièces déco et les suspensions si vous voulez aller au-delà des sous-verres." }
       ],
       ctaPanel: {
         title: "Prêt à comparer les cadeaux chats sur Etsy ?",
@@ -321,7 +321,7 @@ const definition = {
       },
       featuredSummaries: [
         "Un marque-page fantasy très visuel pour lecteurs qui aiment les détails marqués et un bel objet à glisser dans un livre.",
-        "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour les lecteurs de fantasy.",
+        "Un coffret prêt à offrir avec marque-page, suspension de porte et sous-verres pour les lecteurs de fantasy.",
         "Une petite pièce d'ambiance pour étagères et coins lecture quand le cadeau peut être plus doux que strictement pratique.",
         "Un marque-page personnalisé pour ceux qui veulent un cadeau de lecteur plus intime, plus calme et facile à garder."
       ],
@@ -349,48 +349,48 @@ const definition = {
     },
     housewarming: {
       title: "Cadeaux de crémaillère en bois pour tables basses, étagères et maisons chaleureuses | Craftygiftsplace",
-      metaDescription: "Parcourez des cadeaux de crémaillère en bois, avec dessous-verres utiles et objets déco chaleureux pour tables basses, étagères et nouvelles maisons.",
+      metaDescription: "Parcourez des cadeaux de crémaillère en bois, avec sous-verres utiles et objets déco chaleureux pour tables basses, étagères et nouvelles maisons.",
       h1: "Cadeaux de crémaillère en bois pour tables basses, étagères et maisons chaleureuses",
-      intro: "Cette page s'adresse aux visiteurs qui cherchent déjà un cadeau pour une nouvelle maison. Elle met l'accent sur des dessous-verres utiles, quelques pièces déco plus douces et des idées qui ont tout de suite leur place sur une table basse, une étagère ou une entrée.",
+      intro: "Cette page s'adresse aux visiteurs qui cherchent déjà un cadeau pour une nouvelle maison. Elle met l'accent sur des sous-verres utiles, quelques pièces déco plus douces et des idées qui ont tout de suite leur place sur une table basse, une étagère ou une entrée.",
       primaryCtaLabel: "Voir les cadeaux de crémaillère sur Etsy",
       secondaryCtaLabel: "Aller aux idées crémaillère",
       linkCloud: [
-        { label: "Dessous-verres en bois", targetKey: "coasters" },
+        { label: "Sous-verres en bois", targetKey: "coasters" },
         { label: "Cadeaux pour amoureux des chats", targetKey: "cat" },
         { label: "Toutes les idées maison", targetKey: "catalog" }
       ],
       sidebar: {
         title: "Pourquoi cette page fonctionne",
-        quote: "\"Ces dessous-verres sont magnifiques. Ils semblent solides et bien faits.\"",
+        quote: "\"Ces sous-verres sont magnifiques. Ils semblent solides et bien faits.\"",
         attribution: "Andrew · Avis Etsy",
         text: "Pour une crémaillère, les visiteurs veulent souvent quelque chose d'utile, décoratif et facile à intégrer dans la maison. Cette page garde précisément ce cap.",
         links: [
-          { label: "Voir les dessous-verres en bois", targetKey: "coasters" },
+          { label: "Voir les sous-verres en bois", targetKey: "coasters" },
           { label: "Voir les cadeaux chats", targetKey: "cat" },
           { label: "Voir les cadeaux en bois", targetKey: "gifts" }
         ]
       },
       featuredSummaries: [
-        "Un set de dessous-verres en bois très simple à offrir pour tables basses, cafés du matin et nouveaux salons.",
+        "Un set de sous-verres en bois très simple à offrir pour tables basses, cafés du matin et nouveaux salons.",
         "Un autre choix pratique avec un style plus céleste pour maisons chaleureuses et étagères visibles.",
-        "Une petite pièce déco qui ajoute un accent doux sur étagère ou console quand l'on veut varier au-delà des dessous-verres.",
+        "Une petite pièce déco qui ajoute un accent doux sur étagère ou console quand l'on veut varier au-delà des sous-verres.",
         "Un motif arbre chaleureux en bois qui fonctionne très bien sur une nouvelle étagère, une table basse ou comme cadeau de bienvenue."
       ],
       featuredWhy: [
         "Elle garde l'accent sur des idées maison claires et faciles à offrir.",
-        "Elle mélange des dessous-verres utiles et une petite pièce déco plus douce.",
+        "Elle mélange des sous-verres utiles et une petite pièce déco plus douce.",
         "Elle aide à comparer des options adaptées aux tables basses, étagères et appartements."
       ],
       catalogIntro: "Des idées en bois pour nouvelles maisons, tables basses, étagères et intérieurs accueillants.",
       faq: [
         { question: "Ces idées conviennent-elles à un appartement ou à une petite maison ?", answer: "Oui. Plusieurs pièces sont compactes, utiles et faciles à poser sur une table basse, une étagère ou une console sans prendre beaucoup de place." },
-        { question: "Trouve-t-on surtout des dessous-verres sur cette page ?", answer: "Les dessous-verres restent au coeur de la sélection, mais la page garde aussi une petite pièce déco pour ceux qui veulent quelque chose de plus doux." },
+        { question: "Trouve-t-on surtout des sous-verres sur cette page ?", answer: "Les sous-verres restent au coeur de la sélection, mais la page garde aussi une petite pièce déco pour ceux qui veulent quelque chose de plus doux." },
         { question: "Peut-on encore voir d'autres idées cadeaux depuis ici ?", answer: "Oui. Cette page renvoie directement vers les collections et les guides chats ou lecteurs quand l'intention change." }
       ],
       relatedLinks: [
-        { label: "Dessous-verres en bois", targetKey: "coasters", description: "Comparez davantage de styles si vous voulez rester sur un cadeau pratique pour la maison." },
+        { label: "Sous-verres en bois", targetKey: "coasters", description: "Comparez davantage de styles si vous voulez rester sur un cadeau pratique pour la maison." },
         { label: "Cadeaux pour amoureux des chats", targetKey: "cat", description: "Ajoutez une dimension féline si la nouvelle maison appartient à un amoureux des chats." },
-        { label: "Cadeaux en bois", targetKey: "gifts", description: "Passez à des pièces décoratives et souvenirs si vous voulez sortir des dessous-verres." }
+        { label: "Cadeaux en bois", targetKey: "gifts", description: "Passez à des pièces décoratives et souvenirs si vous voulez sortir des sous-verres." }
       ],
       ctaPanel: {
         title: "Prêt à comparer les cadeaux de crémaillère sur Etsy ?",
@@ -406,3 +406,4 @@ const pagesFr = buildLocalePages(definition);
 module.exports = {
   pagesFr
 };
+

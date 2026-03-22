@@ -50,6 +50,7 @@ const GERMAN_NAME_OVERRIDES = {
   "celtic-wooden-bookmark": "Keltisches Holzlesezeichen",
   "classic-wooden-bookmark": "Klassisches Holzlesezeichen",
   "do-not-ring-door-sign": "Bitte nicht klingeln Türschild",
+  "dog-paw-wooden-coasters": "Hundepfoten Holzuntersetzer",
   "dragon-eye-wooden-bookmark": "Drachenauge Holzlesezeichen",
   "dragon-wooden-bookmark": "Drachen Holzlesezeichen",
   "epic-fantasy-door-sign": "Fantasy-Türschild",
@@ -62,6 +63,7 @@ const GERMAN_NAME_OVERRIDES = {
   "dartboard-wooden-coasters": "Dartscheiben-Holzuntersetzer",
   "floral-wooden-coasters": "Blumenmotiv Holzuntersetzer",
   "forest-animal-wooden-coasters": "Waldtiere Holzuntersetzer",
+  "funny-husband-medal-wooden-coasters": "Holzuntersetzer mit lustiger Ehemann-Medaille",
   "hand-painted-wiccan-symbol-wooden-coasters": "Handbemalte Wicca-Symbol-Holzuntersetzer",
   "laser-birch-wood-incense-burner": "Räucherhalter aus Birkenholz",
   "leaf-wooden-coasters": "Blattmotiv Holzuntersetzer",
@@ -89,7 +91,7 @@ const SPECIAL_SHORT_DESCRIPTIONS = {
     en: "A ready-made gift set with a bookmark, door hanger and coasters for fantasy readers.",
     nl: "Een kant-en-klare cadeauset met bladwijzer, deurhanger en onderzetters voor fantasylezers.",
     de: "Ein komplettes Set mit Lesezeichen, Türschild und Untersetzern für Fantasy-Leser.",
-    fr: "Un coffret prêt à offrir avec marque-page, suspension de porte et dessous-verres pour lecteurs de fantasy.",
+    fr: "Un coffret prêt à offrir avec marque-page, suspension de porte et sous-verres pour lecteurs de fantasy.",
     es: "Un set listo para regalar con marcapáginas, colgador de puerta y posavasos para lectores de fantasía.",
     pt: "Um conjunto pronto a oferecer com marcador, pendente de porta e porta-copos para leitores de fantasia.",
     it: "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy."
@@ -714,7 +716,7 @@ LABELS.fr = {
     seasonal: "Déco de saison"
   },
   format: {
-    coasters: "set de dessous-verres",
+    coasters: "set de sous-verres",
     bookmarks: "marque-page",
     "door-hanger": "suspension de porte",
     "decor-piece": "pièce déco",
@@ -1258,38 +1260,47 @@ function applyNameReplacements(name, replacements) {
 }
 
 const FRENCH_NAME_OVERRIDES = {
-    "bitcoin-wooden-coasters": "Dessous-verres en bois Bitcoin",
-    "buddha-wood-wooden-coasters": "Dessous-verres en bois Bouddha, OM et lotus",
-    "dartboard-wooden-coasters": "Dessous-verres en bois motif cible",
+    "funny-husband-medal-wooden-coasters": "Sous-verres en bois avec médaille humoristique pour mari",
+    "bitcoin-wooden-coasters": "Sous-verres en bois Bitcoin",
+    "buddha-wood-wooden-coasters": "Sous-verres en bois Bouddha, OM et lotus",
+    "dartboard-wooden-coasters": "Sous-verres en bois motif cible",
+    "dog-paw-wooden-coasters": "Sous-verres en bois patte de chien",
     "dragon-eye-wooden-bookmark": "Marque-page oeil de dragon en bois",
     "dragon-wooden-bookmark": "Marque-page dragon en bois",
     "epic-fantasy-wooden-bookmark": "Marque-page fantasy épique en bois",
     "fantasy-reader-gift-set": "Coffret pour lecteurs de fantasy",
     "fantasy-sword-wooden-bookmark": "Marque-page épée fantasy en bois",
-    "fantasy-wooden-coasters": "Dessous-verres fantasy en bois",
-    "hand-painted-wiccan-symbol-wooden-coasters": "Dessous-verres en bois symboles wiccans peints à la main",
-    "mushroom-moon-wooden-coasters": "Dessous-verres en bois champignons et lune",
+    "fantasy-wooden-coasters": "Sous-verres fantasy en bois",
+    "floral-wooden-coasters": "Sous-verres en bois motif floral",
+    "forest-animal-wooden-coasters": "Sous-verres en bois animaux de la forêt",
+    "hand-painted-wiccan-symbol-wooden-coasters": "Sous-verres en bois symboles wiccans peints à la main",
+    "mushroom-moon-wooden-coasters": "Sous-verres en bois champignons et lune",
     "moon-cat-shadow-tealight-holder": "Porte-bougie lune et chat",
     "personalized-feather-wooden-bookmark": "Marque-page en bois personnalisé avec plume",
     "personalized-just-married-wooden-door-hanger": "Suspension de porte personnalisée jeunes mariés",
     "just-married-wedding-money-holder": "Porte-billets de mariage pour jeunes mariés",
     "epic-fantasy-door-sign": "Plaque de porte fantasy",
-    "sports-ball-wooden-coasters": "Dessous-verres en bois ballons de sport",
-    "sun-and-moon-wooden-coasters": "Dessous-verres en bois Soleil et lune",
-    "tree-of-life-wooden-coasters": "Dessous-verres en bois Arbre de vie",
-    "viking-wooden-coasters": "Dessous-verres en bois vikings"
+    "sports-ball-wooden-coasters": "Sous-verres en bois ballons de sport",
+    "sun-and-moon-wooden-coasters": "Sous-verres en bois Soleil et lune",
+    "tree-of-life-wooden-coasters": "Sous-verres en bois Arbre de vie",
+    "viking-wooden-coasters": "Sous-verres en bois vikings",
+    "celestial-cat-wooden-coasters": "Sous-verres en bois chat céleste"
   };
 
 const SPANISH_NAME_OVERRIDES = {
+    "funny-husband-medal-wooden-coasters": "Posavasos de madera con medalla humorística para marido",
     "bitcoin-wooden-coasters": "Posavasos de madera Bitcoin",
     "buddha-wood-wooden-coasters": "Posavasos de madera Buda, OM y loto",
     "dartboard-wooden-coasters": "Posavasos de madera con diseño de diana",
+    "dog-paw-wooden-coasters": "Posavasos de madera huella de perro",
     "dragon-eye-wooden-bookmark": "Marcapáginas ojo de dragón en madera",
     "dragon-wooden-bookmark": "Marcapáginas dragón en madera",
     "epic-fantasy-wooden-bookmark": "Marcapáginas de fantasía épica en madera",
     "fantasy-reader-gift-set": "Set de fantasía para lectores",
     "fantasy-sword-wooden-bookmark": "Marcapáginas espada de fantasía en madera",
     "fantasy-wooden-coasters": "Posavasos de madera de fantasía",
+    "floral-wooden-coasters": "Posavasos de madera floral",
+    "forest-animal-wooden-coasters": "Posavasos de madera animales del bosque",
     "hand-painted-wiccan-symbol-wooden-coasters": "Posavasos de madera con símbolos wiccanos pintados a mano",
     "mushroom-moon-wooden-coasters": "Posavasos de madera Setas y Luna",
     "moon-cat-shadow-tealight-holder": "Portavelas gato y luna",
@@ -1300,19 +1311,24 @@ const SPANISH_NAME_OVERRIDES = {
     "sports-ball-wooden-coasters": "Posavasos de madera con pelotas deportivas",
     "sun-and-moon-wooden-coasters": "Posavasos de madera Sol y Luna",
     "tree-of-life-wooden-coasters": "Posavasos de madera Árbol de la Vida",
-    "viking-wooden-coasters": "Posavasos de madera vikingos"
+    "viking-wooden-coasters": "Posavasos de madera vikingos",
+    "celestial-cat-wooden-coasters": "Posavasos de madera gato celestial"
   };
 
 const PORTUGUESE_NAME_OVERRIDES = {
+    "funny-husband-medal-wooden-coasters": "Porta-copos de madeira com medalha divertida para marido",
     "bitcoin-wooden-coasters": "Porta-copos de madeira Bitcoin",
     "buddha-wood-wooden-coasters": "Porta-copos de madeira Buda, OM e lótus",
     "dartboard-wooden-coasters": "Porta-copos de madeira com padrão de alvo de dardos",
+    "dog-paw-wooden-coasters": "Porta-copos de madeira pata de cão",
     "dragon-eye-wooden-bookmark": "Marcador olho de dragão em madeira",
     "dragon-wooden-bookmark": "Marcador dragão em madeira",
     "epic-fantasy-wooden-bookmark": "Marcador de fantasia épica em madeira",
     "fantasy-reader-gift-set": "Conjunto de fantasia para leitores",
     "fantasy-sword-wooden-bookmark": "Marcador espada de fantasia em madeira",
     "fantasy-wooden-coasters": "Porta-copos de madeira de fantasia",
+    "floral-wooden-coasters": "Porta-copos de madeira floral",
+    "forest-animal-wooden-coasters": "Porta-copos de madeira animais da floresta",
     "hand-painted-wiccan-symbol-wooden-coasters": "Porta-copos de madeira com símbolos wiccanos pintados à mão",
     "mushroom-moon-wooden-coasters": "Porta-copos de madeira Cogumelos e Lua",
     "moon-cat-shadow-tealight-holder": "Porta-vela gato e lua",
@@ -1323,19 +1339,24 @@ const PORTUGUESE_NAME_OVERRIDES = {
     "sports-ball-wooden-coasters": "Porta-copos de madeira com bolas de desporto",
     "sun-and-moon-wooden-coasters": "Porta-copos de madeira Sol e Lua",
     "tree-of-life-wooden-coasters": "Porta-copos de madeira Árvore da Vida",
-    "viking-wooden-coasters": "Porta-copos de madeira viking"
+    "viking-wooden-coasters": "Porta-copos de madeira viking",
+    "celestial-cat-wooden-coasters": "Porta-copos de madeira gato celeste"
   };
 
 const ITALIAN_NAME_OVERRIDES = {
+  "funny-husband-medal-wooden-coasters": "Sottobicchieri in legno con medaglia divertente per marito",
   "bitcoin-wooden-coasters": "Sottobicchieri in legno Bitcoin",
   "buddha-wood-wooden-coasters": "Sottobicchieri in legno Buddha, OM e loto",
   "dartboard-wooden-coasters": "Sottobicchieri in legno motivo bersaglio",
+  "dog-paw-wooden-coasters": "Sottobicchieri in legno zampa di cane",
   "dragon-eye-wooden-bookmark": "Segnalibro occhio di drago in legno",
   "dragon-wooden-bookmark": "Segnalibro drago in legno",
   "epic-fantasy-wooden-bookmark": "Segnalibro fantasy epico in legno",
   "fantasy-reader-gift-set": "Set per lettori fantasy",
   "fantasy-sword-wooden-bookmark": "Segnalibro spada fantasy in legno",
   "fantasy-wooden-coasters": "Sottobicchieri fantasy in legno",
+  "floral-wooden-coasters": "Sottobicchieri in legno floreali",
+  "forest-animal-wooden-coasters": "Sottobicchieri in legno animali del bosco",
   "hand-painted-wiccan-symbol-wooden-coasters": "Sottobicchieri in legno con simboli wiccani dipinti a mano",
   "moon-cat-shadow-tealight-holder": "Portacandela gatto e luna",
   "mushroom-moon-wooden-coasters": "Sottobicchieri in legno funghi e luna",
@@ -1346,13 +1367,14 @@ const ITALIAN_NAME_OVERRIDES = {
   "sports-ball-wooden-coasters": "Sottobicchieri in legno con palloni sportivi",
   "sun-and-moon-wooden-coasters": "Sottobicchieri in legno Sole e luna",
   "tree-of-life-wooden-coasters": "Sottobicchieri in legno Albero della vita",
-  "viking-wooden-coasters": "Sottobicchieri in legno vichinghi"
+  "viking-wooden-coasters": "Sottobicchieri in legno vichinghi",
+  "celestial-cat-wooden-coasters": "Sottobicchieri in legno gatto celeste"
   };
 
 const FRENCH_NAME_REPLACEMENTS = [
-  [/\bWooden Coasters\b/gi, "Dessous-verres en bois"],
+  [/\bWooden Coasters\b/gi, "Sous-verres en bois"],
   [/\bWooden Bookmark\b/gi, "Marque-page en bois"],
-  [/\bCoaster Set\b/gi, "Set de dessous-verres"],
+  [/\bCoaster Set\b/gi, "Set de sous-verres"],
   [/\bDoor Hanger\b/gi, "Suspension de porte"],
   [/\bDoor Sign\b/gi, "Plaque de porte"],
   [/\bTealight Holder\b/gi, "Porte-bougie chauffe-plat"],
@@ -1426,7 +1448,7 @@ const FRENCH_NAME_REPLACEMENTS = [
     [/\bFantasy\b/gi, "Fantasia"],
     [/\bInspired\b/gi, "inspirado"],
     [/\bClassic\b/gi, "Clássico"],
-    [/\bCeltic\b/gi, "Celtico"],
+    [/\bCeltic\b/gi, "Céltico"],
     [/\bRocket\b/gi, "Foguetão"],
     [/\bFeather\b/gi, "Pena"],
     [/\bLighthouse\b/gi, "Farol"],
@@ -1437,7 +1459,7 @@ const FRENCH_NAME_REPLACEMENTS = [
   [/\bCat\b/gi, "Gato"],
   [/\bMoon\b/gi, "Lua"],
   [/\bSun\b/gi, "Sol"],
-  [/\bZodiac\b/gi, "Zodiaco"],
+  [/\bZodiac\b/gi, "Zodíaco"],
     [/\bTree of Life\b/gi, "Árvore da vida"],
   [/\bBee Motif\b/gi, "Motivo de abelha"],
   [/\bLeaf\b/gi, "Folha"],
@@ -2017,7 +2039,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
     fr: [
       `Apporte plus de caractère à ${usageContext} grâce à %HOOK%.`,
       `Pensé pour ${usageContext}, avec %HOOK% qui se remarque vite sur la table.`,
-      `Un set de dessous-verres pratique pour ${usageContext}, avec %HOOK%.`,
+      `Un set de sous-verres pratique pour ${usageContext}, avec %HOOK%.`,
       `%HOOK% donne plus de présence à ${usageContext} sans en faire trop.`,
       `Pensé pour ${usageContext}, avec %HOOK% et une finition plus décorative.`,
       `Pour ${usageContext}, ce set en bois apporte %HOOK% avec un rendu plus apaisé.`
@@ -2165,7 +2187,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
       "nature-home": "Cela se marie bien avec des intérieurs où il y a des plantes, du bois et une ambiance naturelle.",
       forest: "Cela donne un peu plus de personnalité aux intérieurs d'inspiration forêt ou chalet.",
       norse: "Cela marche particulièrement bien dans les coins loisirs et les cadeaux à l'inspiration nordique affirmée.",
-      spiritual: "On garde ainsi une symbolique spirituelle sans perdre l'usage simple du dessous-verre.",
+      spiritual: "On garde ainsi une symbolique spirituelle sans perdre l'usage simple du sous-verre.",
       games: "Cela colle mieux aux pièces de jeux et aux cadeaux ludiques qu'un set plus neutre.",
       sports: "Cela fonctionne bien pour les fans de sport, les salons partagés et les tables de match.",
       desk: "Cela convient bien aux bureaux à domicile et aux cadeaux au thème plus actuel.",
@@ -2423,100 +2445,100 @@ function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrim
     es: {
       coasters: [
         `${capitalize(benefitPrimary)} y lleva ${motif} a ${usageContext}.`,
-        `Un ${formatLabel} para ${usageContext} que resulta mas calido que un simple extra de mesa.`,
-        `Una opcion practica para bebidas del dia a dia con presencia clara de madera.`,
-        `Un regalo util para hogares donde los detalles pequenos importan.`
+        `Un ${formatLabel} para ${usageContext} que resulta más cálido que un simple extra de mesa.`,
+        `Una opción práctica para bebidas del día a día con presencia clara de madera.`,
+        `Un regalo útil para hogares donde los detalles pequeños importan.`
       ],
       bookmarks: [
-        `${capitalize(benefitPrimary)} y anade mas caracter al momento de lectura.`,
-        `Un ${formatLabel} para ${usageContext}, pequeno en tamano pero especial en el detalle.`,
-        `Pensado para lectores que prefieren un detalle bonito antes que algo generico.`,
+        `${capitalize(benefitPrimary)} y añade más carácter al momento de lectura.`,
+        `Un ${formatLabel} para ${usageContext}, pequeño en tamaño pero especial en el detalle.`,
+        `Pensado para lectores que prefieren un detalle bonito antes que algo genérico.`,
         `Encaja bien en diarios de lectura, cajas regalo y noches tranquilas.`
       ],
       "door-hanger": [
         `${capitalize(benefitPrimary)} en puertas, cuartos de aficiones y rincones personales.`,
-        `Una pieza de madera facil de colgar y sencilla de notar desde el primer momento.`,
+        `Una pieza de madera fácil de colgar y sencilla de notar desde el primer momento.`,
         `Funciona bien cuando el regalo debe sentirse personal y visible al instante.`
       ],
       "decor-piece": [
-        `Anade un acento calido de madera a ${usageContext}.`,
-        `Una pequena pieza decorativa que hace mas habitadas las estanterias y mesas auxiliares.`,
-        `Un regalo decorativo para quien prefiere atmosfera antes que algo puramente practico.`
+        `Añade un acento cálido de madera a ${usageContext}.`,
+        `Una pequeña pieza decorativa que hace más habitadas las estanterías y mesas auxiliares.`,
+        `Un regalo decorativo para quien prefiere atmósfera antes que algo puramente práctico.`
       ],
       keepsake: [
-        `Convierte un momento importante en algo facil de guardar y mostrar.`,
+        `Convierte un momento importante en algo fácil de guardar y mostrar.`,
         `Un recuerdo personal en madera para fechas, memorias y regalos tranquilos.`,
-        `Pensado para momentos que merecen mas que una tarjeta sencilla.`
+        `Pensado para momentos que merecen más que una tarjeta sencilla.`
       ],
       plaque: [
         `Convierte un recuerdo en algo que se puede mantener cerca.`,
         `Una placa de madera atenta para homenajes, hitos y recuerdos duraderos.`,
-        `Un regalo mas sereno para ocasiones que piden algo personal.`
+        `Un regalo más sereno para ocasiones que piden algo personal.`
       ],
       craft: [
         `Da una base de madera que cada uno puede terminar a su manera.`,
-        `Una pieza DIY practica para proyectos, clases e ideas de regalo hechas a mano.`,
-        `Util para quien prefiere montar un pequeno regalo desde cero.`
+        `Una pieza DIY práctica para proyectos, clases e ideas de regalo hechas a mano.`,
+        `Útil para quien prefiere montar un pequeño regalo desde cero.`
       ],
       "small-gift": [
-        `Anade un pequeno toque artesanal a escritorio, cajon o caja regalo.`,
-        `Un pequeno regalo de madera que sigue siendo util despues de la ocasion.`,
-        `Un extra sencillo para quien quiere algo pequeno y hecho a mano.`
+        `Añade un pequeño toque artesanal a escritorio, cajón o caja regalo.`,
+        `Un pequeño regalo de madera que sigue siendo útil después de la ocasión.`,
+        `Un extra sencillo para quien quiere algo pequeño y hecho a mano.`
       ]
     },
     pt: {
       coasters: [
         `${capitalize(benefitPrimary)} e leva ${motif} para ${usageContext}.`,
         `Um ${formatLabel} para ${usageContext} mais acolhedor do que um simples extra de mesa.`,
-        `Uma escolha pratica para bebidas do dia a dia com presenca clara de madeira.`,
-        `Um presente util para casas onde os pequenos detalhes contam.`
+        `Uma escolha prática para bebidas do dia a dia com presença clara de madeira.`,
+        `Um presente útil para casas onde os pequenos detalhes contam.`
       ],
       bookmarks: [
-        `${capitalize(benefitPrimary)} e da mais caracter ao momento de leitura.`,
+        `${capitalize(benefitPrimary)} e dá mais carácter ao momento de leitura.`,
         `Um ${formatLabel} para ${usageContext}, pequeno no formato mas especial no detalhe.`,
-        `Pensado para leitores que preferem um extra bonito a um objeto generico.`,
-        `Encaixa bem em diarios de leitura, caixas-presente e seroes tranquilos.`
+        `Pensado para leitores que preferem um extra bonito a um objeto genérico.`,
+        `Encaixa bem em diários de leitura, caixas-presente e serões tranquilos.`
       ],
       "door-hanger": [
         `${capitalize(benefitPrimary)} em portas, salas de hobbies e cantos pessoais.`,
-        `Uma peca de madeira facil de pendurar e facil de notar desde o primeiro momento.`,
-        `Funciona bem quando o presente deve parecer pessoal e visivel logo a partida.`
+        `Uma peça de madeira fácil de pendurar e fácil de notar desde o primeiro momento.`,
+        `Funciona bem quando o presente deve parecer pessoal e visível logo à partida.`
       ],
       "decor-piece": [
         `Acrescenta um apontamento quente de madeira a ${usageContext}.`,
-        `Uma pequena peca decorativa que torna prateleiras e mesas de apoio mais vividas.`,
-        `Um presente decorativo para quem prefere ambiente a algo puramente pratico.`
+        `Uma pequena peça decorativa que torna prateleiras e mesas de apoio mais vividas.`,
+        `Um presente decorativo para quem prefere ambiente a algo puramente prático.`
       ],
       keepsake: [
-        `Transforma um momento importante em algo facil de guardar e expor.`,
-        `Uma recordacao pessoal em madeira para datas, memorias e presentes tranquilos.`,
-        `Pensado para momentos que merecem mais do que um simples cartao.`
+        `Transforma um momento importante em algo fácil de guardar e expor.`,
+        `Uma recordação pessoal em madeira para datas, memórias e presentes tranquilos.`,
+        `Pensado para momentos que merecem mais do que um simples cartão.`
       ],
       plaque: [
-        `Transforma uma memoria em algo que se pode manter por perto.`,
-        `Uma placa de madeira atenciosa para homenagens, marcos e recordacoes duradouras.`,
-        `Um presente mais discreto para ocasioes que pedem algo pessoal.`
+        `Transforma uma memória em algo que se pode manter por perto.`,
+        `Uma placa de madeira atenciosa para homenagens, marcos e recordações duradouras.`,
+        `Um presente mais discreto para ocasiões que pedem algo pessoal.`
       ],
       craft: [
-        `Da uma base de madeira que cada pessoa pode terminar a sua maneira.`,
-        `Uma peca DIY pratica para projetos, aulas e ideias de presente feitas a mao.`,
-        `Util para quem prefere montar um pequeno presente desde o inicio.`
+        `Dá uma base de madeira que cada pessoa pode terminar à sua maneira.`,
+        `Uma peça DIY prática para projetos, aulas e ideias de presente feitas à mão.`,
+        `Útil para quem prefere montar um pequeno presente desde o início.`
       ],
       "small-gift": [
-        `Acrescenta um pequeno toque artesanal a secretaria, gaveta ou caixa-presente.`,
-        `Um pequeno presente de madeira que continua util depois da ocasiao.`,
-        `Um extra simples para quem quer algo pequeno e feito a mao.`
+        `Acrescenta um pequeno toque artesanal à secretária, gaveta ou caixa-presente.`,
+        `Um pequeno presente de madeira que continua útil depois da ocasião.`,
+        `Um extra simples para quem quer algo pequeno e feito à mão.`
       ]
     },
     it: {
       coasters: [
         `${capitalize(benefitPrimary)} e porta ${motif} in ${usageContext}.`,
-        `Un ${formatLabel} per ${usageContext} piu caldo di un semplice extra da tavola.`,
+        `Un ${formatLabel} per ${usageContext} più caldo di un semplice extra da tavola.`,
         `Una scelta pratica per le bevande di ogni giorno con una presenza chiara del legno.`,
         `Un regalo utile per case dove i piccoli dettagli contano davvero.`
       ],
       bookmarks: [
-        `${capitalize(benefitPrimary)} e da piu carattere al momento di lettura.`,
+        `${capitalize(benefitPrimary)} e dà più carattere al momento di lettura.`,
         `Un ${formatLabel} per ${usageContext}, piccolo nel formato ma speciale nel dettaglio.`,
         `Pensato per lettori che preferiscono un bel dettaglio a un oggetto qualsiasi.`,
         `Sta bene con diari di lettura, scatole regalo e serate tranquille.`
@@ -2528,21 +2550,21 @@ function buildShortDescription(locale, seed, formatKey, formatLabel, benefitPrim
       ],
       "decor-piece": [
         `Aggiunge un accento caldo in legno a ${usageContext}.`,
-        `Un piccolo pezzo decorativo che rende piu vissute mensole e tavolini.`,
+        `Un piccolo pezzo decorativo che rende più vissute mensole e tavolini.`,
         `Un regalo decorativo per chi preferisce atmosfera a qualcosa di puramente pratico.`
       ],
       keepsake: [
         `Trasforma un momento importante in qualcosa di facile da custodire e mostrare.`,
-        `Un ricordo personale in legno per date, memorie e regali piu quieti.`,
-        `Pensato per momenti che meritano piu di un semplice biglietto.`
+        `Un ricordo personale in legno per date, memorie e regali più quieti.`,
+        `Pensato per momenti che meritano più di un semplice biglietto.`
       ],
       plaque: [
         `Trasforma un ricordo in qualcosa da tenere vicino.`,
         `Una placca in legno attenta per omaggi, traguardi e ricordi duraturi.`,
-        `Un regalo piu discreto per occasioni che chiedono qualcosa di personale.`
+        `Un regalo più discreto per occasioni che chiedono qualcosa di personale.`
       ],
       craft: [
-        `Dà una base in legno che si puo finire a modo proprio.`,
+        `Dà una base in legno che si può finire a modo proprio.`,
         `Un pezzo DIY pratico per progetti, lezioni e idee regalo fatte a mano.`,
         `Utile per chi preferisce costruire da zero un piccolo regalo.`
       ],
@@ -2591,7 +2613,7 @@ function buildCollectionDescription(locale, seed, formatKey) {
       "small-gift": "Ein kleines Holzgeschenk mit warmer handgemachter Ausstrahlung."
     },
     fr: {
-      coasters: "Un set de dessous-verres en bois pour tables basses, bureaux et intérieurs chaleureux.",
+      coasters: "Un set de sous-verres en bois pour tables basses, bureaux et intérieurs chaleureux.",
       bookmarks: "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
       "door-hanger": "Une suspension de porte en bois pour chambres, pièces loisirs et coins personnels.",
       "decor-piece": "Une pièce déco en bois pour étagères, guéridons et coins cosy.",
@@ -2602,22 +2624,22 @@ function buildCollectionDescription(locale, seed, formatKey) {
     },
     es: {
       coasters: "Un set de posavasos de madera para mesas de centro, escritorios y hogares acogedores.",
-      bookmarks: "Un marcapaginas de madera para lectores, regalos de libro y lecturas tranquilas.",
+      bookmarks: "Un marcapáginas de madera para lectores, regalos de libro y lecturas tranquilas.",
       "door-hanger": "Un colgador de puerta de madera para dormitorios, cuartos de aficiones y rincones personales.",
-      "decor-piece": "Una pieza decorativa de madera para estanterias, mesas auxiliares y rincones acogedores.",
+      "decor-piece": "Una pieza decorativa de madera para estanterías, mesas auxiliares y rincones acogedores.",
       keepsake: "Un recuerdo de madera para hitos, memorias y fechas especiales.",
       plaque: "Una placa de madera para homenajes, hitos y recuerdos duraderos.",
       craft: "Una base creativa de madera para proyectos que se terminan a mano.",
-      "small-gift": "Un pequeno regalo de madera con aire artesanal."
+      "small-gift": "Un pequeño regalo de madera con aire artesanal."
     },
     pt: {
-      coasters: "Um conjunto de porta-copos em madeira para mesas de centro, secretarias e casas acolhedoras.",
+      coasters: "Um conjunto de porta-copos em madeira para mesas de centro, secretárias e casas acolhedoras.",
       bookmarks: "Um marcador em madeira para leitores, presentes de livros e leituras tranquilas.",
       "door-hanger": "Um pendente de porta em madeira para quartos, salas de hobbies e cantos pessoais.",
-      "decor-piece": "Uma peca decorativa em madeira para prateleiras, mesas de apoio e cantos acolhedores.",
-      keepsake: "Uma recordacao em madeira para marcos, memorias e datas especiais.",
-      plaque: "Uma placa de madeira para homenagens, marcos e recordacoes duradouras.",
-      craft: "Uma base criativa em madeira para projetos a terminar a mao.",
+      "decor-piece": "Uma peça decorativa em madeira para prateleiras, mesas de apoio e cantos acolhedores.",
+      keepsake: "Uma recordação em madeira para marcos, memórias e datas especiais.",
+      plaque: "Uma placa de madeira para homenagens, marcos e recordações duradouras.",
+      craft: "Uma base criativa em madeira para projetos a terminar à mão.",
       "small-gift": "Um pequeno presente de madeira com ar artesanal."
     },
     it: {

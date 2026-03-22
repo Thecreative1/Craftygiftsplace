@@ -2,11 +2,38 @@ document.documentElement.classList.add("js-ready");
 
 document.addEventListener("DOMContentLoaded", () => {
   const pageLang = (document.documentElement.lang || "en").toLowerCase();
-  const isDutch = pageLang.startsWith("nl");
-  const labels = {
-    openMenu: isDutch ? "Open het menu" : "Open the menu",
-    closeMenu: isDutch ? "Sluit het menu" : "Close the menu",
+  const locale = pageLang.split("-")[0];
+  const localizedLabels = {
+    nl: {
+      openMenu: "Open het menu",
+      closeMenu: "Sluit het menu"
+    },
+    en: {
+      openMenu: "Open the menu",
+      closeMenu: "Close the menu"
+    },
+    de: {
+      openMenu: "Menü öffnen",
+      closeMenu: "Menü schließen"
+    },
+    fr: {
+      openMenu: "Ouvrir le menu",
+      closeMenu: "Fermer le menu"
+    },
+    es: {
+      openMenu: "Abrir el menú",
+      closeMenu: "Cerrar el menú"
+    },
+    pt: {
+      openMenu: "Abrir o menu",
+      closeMenu: "Fechar o menu"
+    },
+    it: {
+      openMenu: "Apri il menu",
+      closeMenu: "Chiudi il menu"
+    }
   };
+  const labels = localizedLabels[locale] || localizedLabels.en;
   const currentPath = window.location.pathname.replace(/\\/g, "/");
   const currentPage = currentPath.endsWith("/")
     ? "index.html"

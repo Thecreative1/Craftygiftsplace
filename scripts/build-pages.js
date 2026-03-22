@@ -274,7 +274,7 @@ function navItems(locale) {
   if (locale === "fr") {
     return [
       { label: text.fr.home, path: "/fr/index.html" },
-      { label: "Dessous-verres en bois", path: "/fr/pages/sous-verres-en-bois.html" },
+      { label: "Sous-verres en bois", path: "/fr/pages/sous-verres-en-bois.html" },
       { label: "Marque-pages en bois", path: "/fr/pages/marque-pages-en-bois.html" },
       { label: "Cadeaux en bois", path: "/fr/pages/cadeaux-en-bois.html" },
       { label: "Contact", path: "/fr/pages/contact.html" }
@@ -285,7 +285,7 @@ function navItems(locale) {
     return [
       { label: text.es.home, path: "/es/index.html" },
       { label: "Posavasos de madera", path: "/es/pages/posavasos-de-madera.html" },
-      { label: "Marcapaginas de madera", path: "/es/pages/marcapaginas-de-madera.html" },
+      { label: "Marcapáginas de madera", path: "/es/pages/marcapaginas-de-madera.html" },
       { label: "Regalos de madera", path: "/es/pages/regalos-de-madera.html" },
       { label: "Contacto", path: "/es/pages/contacto.html" }
     ];
@@ -1369,7 +1369,7 @@ function renderHomeSectionCards(page, key, heading, intro) {
           ${cards.map((card) => `
             <article class="category-card">
               <div class="card-media">
-                <img src="${escapeAttribute(relativeUrl(page.path, card.image))}" alt="${escapeAttribute(card.imageAlt)}" loading="lazy" decoding="async" />
+                <img src="${escapeAttribute(relativeUrl(page.path, card.image))}" alt="${escapeAttribute(card.imageAlt)}" width="600" height="600" loading="lazy" decoding="async" />
                 <h3>${escapeHtml(card.title)}</h3>
               </div>
               <div class="card-body">
@@ -1409,7 +1409,7 @@ function renderHeroProductTiles(page, productsByLocale) {
     const product = getProduct(page, productsByLocale, slug);
     return `
       <article class="hero-collage-tile hero-collage-tile--${index + 1}">
-        <img src="${escapeAttribute(product.image)}" alt="${escapeAttribute(product.alt)}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" />
+        <img src="${escapeAttribute(product.image)}" alt="${escapeAttribute(product.alt)}" width="600" height="600" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" fetchpriority="${index === 0 ? "high" : "low"}" />
         <div class="hero-collage-label">${escapeHtml(product.name)}</div>
       </article>`;
   }).join("\n");
@@ -1606,7 +1606,7 @@ function renderStructuredData(page, productsByLocale) {
         "@id": `${canonicalUrl("/index.html")}#organization`,
         name: "Craftygiftsplace",
         url: canonicalUrl("/index.html"),
-        logo: absoluteUrl("/assets/img/logos/craftygiftsplace-logo.png"),
+        logo: absoluteUrl("/assets/img/logos/craftygiftsplace-logo.svg"),
         sameAs: ["https://www.etsy.com/shop/Craftygiftsplace"]
       },
       {
@@ -1687,7 +1687,7 @@ function renderHead(page, productsByLocale) {
     socialImage: escapeAttribute(socialImage),
     socialImageAlt: escapeAttribute(socialImageAlt),
     faviconPath: escapeAttribute(relativeUrl(page.path, "/favicon.ico")),
-    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.png")),
+    logoSvgPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.svg")),
     preconnectLinks: '<link rel="preconnect" href="https://i.etsystatic.com" crossorigin />\n  <link rel="dns-prefetch" href="//i.etsystatic.com" />\n  <link rel="preconnect" href="https://www.etsy.com" crossorigin />',
     stylesheetPath: escapeAttribute(relativeUrl(page.path, "/assets/css/style.css")),
     structuredData: renderStructuredData(page, productsByLocale)
@@ -1724,7 +1724,7 @@ function renderHeader(page) {
     skipLinkLabel: escapeHtml(localeText.skipLink),
     homePath: escapeAttribute(relativeUrl(page.path, LOCALE_META[page.locale].homePath)),
     homeAriaLabel: escapeAttribute(localeText.homeAria),
-    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.png")),
+    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.svg")),
     brandTagline: escapeHtml(localeText.brandTagline),
     navAriaLabel: escapeAttribute(localeText.navAria),
     navLinks,
@@ -1739,7 +1739,7 @@ function renderFooter(page) {
   const collectionLinks = footerCollections(page.locale).map((item) => `<a href="${escapeAttribute(relativeUrl(page.path, item.path))}">${escapeHtml(item.label)}</a>`).join("");
   const intentLinks = footerIntents(page.locale).map((item) => `<a href="${escapeAttribute(relativeUrl(page.path, item.path))}">${escapeHtml(item.label)}</a>`).join("");
   return renderTemplate(footerTemplate, {
-    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.png")),
+    logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.svg")),
     footerTagline: escapeHtml(localeText.footerTagline),
     footerCollectionsTitle: escapeHtml(localeText.footerCollections),
     footerCollectionLinks: collectionLinks,
