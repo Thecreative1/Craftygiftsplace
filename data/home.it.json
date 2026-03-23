@@ -61,16 +61,16 @@
       "kicker": "Per lettori",
       "title": "Regali per lettori",
       "description": "Scopri segnalibri, set per lettori fantasy e pezzi per angoli lettura pensati per chi ama i libri.",
-      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Set per lettori fantasy",
+      "image": "/assets/img/products/desert-saga-bookmark.jpg",
+      "imageAlt": "Segnalibro Desert Saga in legno su un libro aperto",
       "href": "/it/pages/regali-per-lettori.html"
     },
     {
       "kicker": "Per case nuove",
       "title": "Regali per la casa nuova",
       "description": "Esplora pezzi in legno utili per tavolini, mensole e regali ben scelti per una nuova casa.",
-      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
-      "imageAlt": "Sottobicchieri zodiac come regalo per casa nuova",
+      "image": "/assets/img/products/coaster-botanical.jpg",
+      "imageAlt": "Sottobicchieri botanici in legno su un tavolo",
       "href": "/it/pages/regali-per-la-casa-nuova.html"
     }
   ],
@@ -92,15 +92,15 @@
     {
       "title": "Regali per amanti dei gatti",
       "description": "Sottobicchieri e decorazioni in legno a tema felino per case accoglienti, compleanni e pensieri curati.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Idea regalo sottobicchieri gatto e luna",
+      "image": "/assets/img/products/moon-cat-tealight-holder.jpg",
+      "imageAlt": "Portacandela gatto e luna su un tavolo",
       "href": "/it/pages/regali-per-amanti-dei-gatti.html"
     },
     {
       "title": "Regali per lettori",
       "description": "Segnalibri, set per lettori fantasy e pezzi per angoli lettura pensati per lettori e scaffali accoglienti.",
-      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Set per lettori fantasy",
+      "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+      "imageAlt": "Segnalibro occhio di drago in legno su un libro fantasy",
       "href": "/it/pages/regali-per-lettori.html"
     },
     {
@@ -115,22 +115,22 @@
     {
       "title": "Sottobicchieri in legno",
       "description": "Set di sottobicchieri più venduti con design celesti, naturali, vichinghi e altri motivi di carattere per tavoli, mensole e regali per la casa nuova.",
-      "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
-      "imageAlt": "Sottobicchieri in legno Albero della vita",
+      "image": "/assets/img/products/coaster-floral.jpg",
+      "imageAlt": "Sottobicchieri floreali in legno accanto a una tazza",
       "href": "/it/pages/sottobicchieri-in-legno.html"
     },
     {
       "title": "Segnalibri in legno",
       "description": "Segnalibri pensati per lettori, amanti del fantasy, diari di lettura e serate tranquille.",
-      "image": "/assets/img/products/celtic-bookmark.jpg",
-      "imageAlt": "Collezione segnalibri in legno",
+      "image": "/assets/img/products/bookmark-wood.jpg",
+      "imageAlt": "Segnalibro in legno su un libro aperto",
       "href": "/it/pages/segnalibri-in-legno.html"
     },
     {
       "title": "Regali in legno",
       "description": "Targhette da porta, portacandela, ricordi e pezzi decorativi per mensole, ingressi e regali dal tocco personale.",
-      "image": "/assets/img/products/just-married-door-hanger.jpg",
-      "imageAlt": "Targhetta da porta Just Married della collezione regali in legno",
+      "image": "/assets/img/products/gift-home-decor.jpg",
+      "imageAlt": "Ricordo in legno in un ambiente accogliente",
       "href": "/it/pages/regali-in-legno.html"
     }
   ],

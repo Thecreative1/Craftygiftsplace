@@ -66,16 +66,16 @@
         "kicker": "Para lectores",
         "title": "Regalos para lectores",
         "description": "Descubre marcapáginas, sets de fantasía y piezas para rincones de lectura pensadas para amantes de los libros.",
-        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Set de fantasía para lectores",
+        "image": "/assets/img/products/desert-saga-bookmark.jpg",
+        "imageAlt": "Marcapáginas Desert Saga de madera sobre un libro abierto",
         "href": "/es/pages/regalos-para-lectores.html"
       },
       {
         "kicker": "Para casas nuevas",
         "title": "Regalos para casa nueva",
         "description": "Explora piezas de madera útiles para mesas de centro, estanterías y regalos de mudanza bien elegidos.",
-        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
-        "imageAlt": "Posavasos zodiac como regalo para casa nueva",
+        "image": "/assets/img/products/coaster-botanical.jpg",
+        "imageAlt": "Posavasos botánicos de madera sobre una mesa",
         "href": "/es/pages/regalos-para-casa-nueva.html"
       }
     ],
@@ -97,15 +97,15 @@
       {
         "title": "Regalos para amantes de los gatos",
         "description": "Posavasos y decoración de madera con temática felina para hogares acogedores, cumpleaños y detalles bien pensados.",
-        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-        "imageAlt": "Idea de regalo posavasos gato y luna",
+        "image": "/assets/img/products/moon-cat-tealight-holder.jpg",
+        "imageAlt": "Portavelas gato y luna sobre una mesa",
         "href": "/es/pages/regalos-para-amantes-de-los-gatos.html"
       },
       {
         "title": "Regalos para lectores",
         "description": "Marcapáginas, sets de fantasía y piezas para rincones de lectura pensadas para lectores y estanterías acogedoras.",
-        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Set de fantasía para lectores",
+        "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+        "imageAlt": "Marcapáginas ojo de dragón de madera sobre un libro de fantasía",
         "href": "/es/pages/regalos-para-lectores.html"
       },
       {
@@ -120,22 +120,22 @@
       {
         "title": "Posavasos de madera",
         "description": "Sets de posavasos superventas con diseños celestiales, naturales, vikingos y otros motivos con carácter para mesas, estanterías y regalos de casa nueva.",
-        "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
-        "imageAlt": "Posavasos de madera Árbol de la Vida",
+        "image": "/assets/img/products/coaster-floral.jpg",
+        "imageAlt": "Posavasos florales de madera junto a una taza",
         "href": "/es/pages/posavasos-de-madera.html"
       },
       {
         "title": "Marcapáginas de madera",
         "description": "Marcapáginas pensados para lectores, fans de la fantasía, diarios de lectura y noches tranquilas.",
-        "image": "/assets/img/products/celtic-bookmark.jpg",
-        "imageAlt": "Colección de marcapáginas de madera",
+        "image": "/assets/img/products/bookmark-wood.jpg",
+        "imageAlt": "Marcapáginas de madera sobre un libro abierto",
         "href": "/es/pages/marcapaginas-de-madera.html"
       },
       {
         "title": "Regalos de madera",
         "description": "Colgadores de puerta, portavelas, recuerdos y piezas decorativas para estanterías, entradas y regalos con un toque personal.",
-        "image": "/assets/img/products/just-married-door-hanger.jpg",
-        "imageAlt": "Colgador de puerta Just Married de la colección de regalos de madera",
+        "image": "/assets/img/products/gift-home-decor.jpg",
+        "imageAlt": "Recuerdo de madera en un ambiente acogedor",
         "href": "/es/pages/regalos-de-madera.html"
       }
     ],

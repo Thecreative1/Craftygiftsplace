@@ -61,16 +61,16 @@
       "kicker": "Für Leser",
       "title": "Geschenke für Leser",
       "description": "Sieh dir Lesezeichen, Fantasy-Sets und Ideen für die Leseecke für Bücherfans und ruhige Regale an.",
-      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Fantasy-Leserset für Bücherfans",
+      "image": "/assets/img/products/desert-saga-bookmark.jpg",
+      "imageAlt": "Desert Saga Holzlesezeichen auf einem offenen Buch",
       "href": "/de/pages/geschenke-fuer-leser.html"
     },
     {
       "kicker": "Für neue Wohnungen",
       "title": "Einzugsgeschenke",
       "description": "Entdecke nützliche Holzstücke für Couchtische, Regale und liebevolle Geschenke zum Einzug.",
-      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
-      "imageAlt": "Sternzeichen Holzuntersetzer als Einzugsgeschenk",
+      "image": "/assets/img/products/coaster-botanical.jpg",
+      "imageAlt": "Botanische Holzuntersetzer auf einem Tisch",
       "href": "/de/pages/einzugsgeschenke.html"
     }
   ],
@@ -92,15 +92,15 @@
     {
       "title": "Geschenke für Katzenliebhaber",
       "description": "Holzuntersetzer und Deko mit Katzenmotiv für gemütliche Wohnungen, Geburtstage und durchdachte Geschenke.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Katze und Mond Holzuntersetzer als Geschenkidee",
+      "image": "/assets/img/products/moon-cat-tealight-holder.jpg",
+      "imageAlt": "Mondkatzen-Teelichthalter auf einem Tisch",
       "href": "/de/pages/geschenke-fuer-katzenliebhaber.html"
     },
     {
       "title": "Geschenke für Leser",
       "description": "Lesezeichen, Fantasy-Sets und Stücke für die Leseecke, die zu Bücherfans und ruhigen Wohnmomenten passen.",
-      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Fantasy-Leserset für Bücherfans",
+      "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+      "imageAlt": "Drachenauge Holzlesezeichen auf einem Fantasybuch",
       "href": "/de/pages/geschenke-fuer-leser.html"
     },
     {
@@ -115,22 +115,22 @@
     {
       "title": "Holzuntersetzer",
       "description": "Beliebte Untersetzer-Sets mit himmlischen, Natur-, Wikinger- und anderen markanten Motiven für Tische, Regale und Einzugsgeschenke.",
-      "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
-      "imageAlt": "Lebensbaum-Holzuntersetzer",
+      "image": "/assets/img/products/coaster-floral.jpg",
+      "imageAlt": "Blumenmotiv Holzuntersetzer neben einer Tasse",
       "href": "/de/pages/holzuntersetzer.html"
     },
     {
       "title": "Holzlesezeichen",
       "description": "Lesezeichen und Geschenkideen für Fantasy-Leser, Lesetagebücher und ruhige Leseabende.",
-      "image": "/assets/img/products/celtic-bookmark.jpg",
-      "imageAlt": "Kollektion Holzlesezeichen",
+      "image": "/assets/img/products/bookmark-wood.jpg",
+      "imageAlt": "Holzlesezeichen auf einem offenen Buch",
       "href": "/de/pages/holzlesezeichen.html"
     },
     {
       "title": "Holzgeschenke",
       "description": "Türhänger, Teelichthalter, Erinnerungsstücke und Deko für Regale, Eingänge und besondere Anlässe.",
-      "image": "/assets/img/products/just-married-door-hanger.jpg",
-      "imageAlt": "Just Married Türhänger aus der Holzgeschenke-Kollektion",
+      "image": "/assets/img/products/gift-home-decor.jpg",
+      "imageAlt": "Holz-Andenken in gemütlicher Wohnatmosphäre",
       "href": "/de/pages/holzgeschenke.html"
     }
   ],

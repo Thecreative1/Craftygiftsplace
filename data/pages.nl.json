@@ -56,15 +56,15 @@
       {
         "title": "Cadeaus voor kattenliefhebbers",
         "description": "Houten onderzetters en decoratie met kattenthema voor gezellige huizen, verjaardagen en doordachte cadeaus.",
-        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-        "imageAlt": "Kat en maan houten onderzetters als cadeau-idee",
+        "image": "/assets/img/products/moon-cat-tealight-holder.jpg",
+        "imageAlt": "Maan en kat theelichthouder op tafel",
         "href": "/pages/cadeaus-voor-kattenliefhebbers.html"
       },
       {
         "title": "Lezerscadeaus",
         "description": "Bladwijzers, fantasy-sets en stukken voor de leeshoek die passen bij boekenliefhebbers en rustige hoekjes.",
-        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Fantasy lezersset voor boekenliefhebbers",
+        "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+        "imageAlt": "Drachenoog houten bladwijzer op een fantasyboek",
         "href": "/pages/lezerscadeaus.html"
       },
       {
@@ -79,22 +79,22 @@
       {
         "title": "Houten onderzetters",
         "description": "Bestverkochte onderzettersets met hemelse, natuur-, Viking- en andere uitgesproken ontwerpen voor tafels, planken en cadeaus met karakter.",
-        "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
-        "imageAlt": "Levensboom houten onderzetters",
+        "image": "/assets/img/products/coaster-floral.jpg",
+        "imageAlt": "Bloemmotief houten onderzetters naast een mok",
         "href": "/pages/onderzetters.html"
       },
       {
         "title": "Houten bladwijzers",
         "description": "Lezersgerichte bladwijzers en boekcadeaus voor fantasylezers, leesjournalen en rustige leesmomenten.",
-        "image": "/assets/img/products/celtic-bookmark.jpg",
-        "imageAlt": "Collectie houten bladwijzers",
+        "image": "/assets/img/products/bookmark-wood.jpg",
+        "imageAlt": "Houten bladwijzer op een open boek",
         "href": "/pages/bladwijzers.html"
       },
       {
         "title": "Houten cadeaus",
         "description": "Deurhangers, theelichthouders, herinneringscadeaus en decoratie voor planken, entrees en bijzondere gelegenheden.",
-        "image": "/assets/img/products/just-married-door-hanger.jpg",
-        "imageAlt": "Just Married deurhanger uit de collectie houten cadeaus",
+        "image": "/assets/img/products/gift-home-decor.jpg",
+        "imageAlt": "Houten aandenken in een gezellige woonsetting",
         "href": "/pages/houten-cadeaus.html"
       }
     ],
@@ -197,16 +197,16 @@
         "kicker": "Boekcadeaus",
         "title": "Lezerscadeaus",
         "description": "Bekijk bladwijzers, fantasy-sets en leeshoekideeën voor boekenliefhebbers en rustige planken.",
-        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Fantasy lezersset voor boekenliefhebbers",
+        "image": "/assets/img/products/desert-saga-bookmark.jpg",
+        "imageAlt": "Desert Saga houten bladwijzer op een open boek",
         "href": "/pages/lezerscadeaus.html"
       },
       {
         "kicker": "Nieuwe woning",
         "title": "Verhuiscadeaus",
         "description": "Bekijk bruikbare houten stukken voor salontafels, planken en doordachte cadeaus voor een nieuw huis.",
-        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
-        "imageAlt": "Zodiac houten onderzetters als verhuiscadeau",
+        "image": "/assets/img/products/coaster-botanical.jpg",
+        "imageAlt": "Botanische houten onderzetters op tafel",
         "href": "/pages/verhuiscadeaus.html"
       }
     ],

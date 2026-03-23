@@ -61,16 +61,16 @@
       "kicker": "Pour les lecteurs",
       "title": "Cadeaux pour lecteurs",
       "description": "Découvrez des marque-pages, des coffrets pour lecteurs de fantasy et des objets pour coins lecture pensés pour les amoureux des livres.",
-      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Coffret pour lecteurs de fantasy",
+      "image": "/assets/img/products/desert-saga-bookmark.jpg",
+      "imageAlt": "Marque-page Desert Saga en bois sur un livre ouvert",
       "href": "/fr/pages/cadeaux-pour-lecteurs.html"
     },
     {
       "kicker": "Pour les nouveaux intérieurs",
       "title": "Cadeaux de crémaillère",
       "description": "Parcourez des pièces en bois utiles pour tables basses, étagères et cadeaux de maison bien choisis.",
-      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
-      "imageAlt": "Sous-verres zodiac comme cadeau de crémaillère",
+      "image": "/assets/img/products/coaster-botanical.jpg",
+      "imageAlt": "Sous-verres botaniques en bois sur une table",
       "href": "/fr/pages/cadeaux-de-cremaillere.html"
     }
   ],
@@ -92,15 +92,15 @@
     {
       "title": "Cadeaux pour amoureux des chats",
       "description": "Sous-verres et déco en bois sur le thème du chat pour intérieurs chaleureux, anniversaires et surprises attentionnées.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Idée cadeau sous-verres chat et lune",
+      "image": "/assets/img/products/moon-cat-tealight-holder.jpg",
+      "imageAlt": "Porte-bougie lune et chat sur une table",
       "href": "/fr/pages/cadeaux-pour-amoureux-des-chats.html"
     },
     {
       "title": "Cadeaux pour lecteurs",
       "description": "Marque-pages, coffrets pour lecteurs de fantasy et objets déco pensés pour les lecteurs et les étagères chaleureuses.",
-      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Coffret pour lecteurs de fantasy",
+      "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+      "imageAlt": "Marque-page oeil de dragon en bois sur un livre de fantasy",
       "href": "/fr/pages/cadeaux-pour-lecteurs.html"
     },
     {
@@ -115,22 +115,22 @@
     {
       "title": "Sous-verres en bois",
       "description": "Des sets de sous-verres appréciés, entre motifs célestes, nature, inspirations nordiques et autres designs marquants pour tables, étagères et cadeaux de crémaillère.",
-      "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
-      "imageAlt": "Sous-verres en bois Arbre de vie",
+      "image": "/assets/img/products/coaster-floral.jpg",
+      "imageAlt": "Sous-verres floraux en bois à côté d'une tasse",
       "href": "/fr/pages/sous-verres-en-bois.html"
     },
     {
       "title": "Marque-pages en bois",
       "description": "Des marque-pages pensés pour les lecteurs, les amateurs de fantasy, les carnets de lecture et les soirées calmes.",
-      "image": "/assets/img/products/celtic-bookmark.jpg",
-      "imageAlt": "Collection de marque-pages en bois",
+      "image": "/assets/img/products/bookmark-wood.jpg",
+      "imageAlt": "Marque-page en bois posé sur un livre ouvert",
       "href": "/fr/pages/marque-pages-en-bois.html"
     },
     {
       "title": "Cadeaux en bois",
       "description": "Suspensions de porte, porte-bougies, souvenirs et objets déco pour étagères, entrées et cadeaux marquants.",
-      "image": "/assets/img/products/just-married-door-hanger.jpg",
-      "imageAlt": "Suspension de porte Just Married dans la collection cadeaux en bois",
+      "image": "/assets/img/products/gift-home-decor.jpg",
+      "imageAlt": "Souvenir en bois dans une ambiance cosy",
       "href": "/fr/pages/cadeaux-en-bois.html"
     }
   ],

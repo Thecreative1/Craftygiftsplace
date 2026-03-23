@@ -66,16 +66,16 @@
         "kicker": "Para leitores",
         "title": "Presentes para leitores",
         "description": "Descobre marcadores, conjuntos de fantasia e peças para cantos de leitura pensadas para quem gosta de livros.",
-        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Conjunto de fantasia para leitores",
+        "image": "/assets/img/products/desert-saga-bookmark.jpg",
+        "imageAlt": "Marcador Desert Saga em madeira sobre um livro aberto",
         "href": "/pt/pages/presentes-para-leitores.html"
       },
       {
         "kicker": "Para casas novas",
         "title": "Presentes de casa nova",
         "description": "Explora peças em madeira úteis para mesas de centro, prateleiras e presentes de mudança bem escolhidos.",
-        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
-        "imageAlt": "Porta-copos zodiac como presente de casa nova",
+        "image": "/assets/img/products/coaster-botanical.jpg",
+        "imageAlt": "Porta-copos botânicos de madeira numa mesa",
         "href": "/pt/pages/presentes-de-casa-nova.html"
       }
     ],
@@ -97,15 +97,15 @@
       {
         "title": "Presentes para amantes de gatos",
         "description": "Porta-copos e decoração em madeira com tema felino para casas acolhedoras, aniversários e presentes atenciosos.",
-        "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-        "imageAlt": "Ideia de presente porta-copos gato e lua",
+        "image": "/assets/img/products/moon-cat-tealight-holder.jpg",
+        "imageAlt": "Porta-vela gato e lua sobre uma mesa",
         "href": "/pt/pages/presentes-para-amantes-de-gatos.html"
       },
       {
         "title": "Presentes para leitores",
         "description": "Marcadores, conjuntos de fantasia e peças para cantos de leitura pensadas para leitores e estantes acolhedoras.",
-        "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-        "imageAlt": "Conjunto de fantasia para leitores",
+        "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+        "imageAlt": "Marcador olho de dragão em madeira sobre um livro de fantasia",
         "href": "/pt/pages/presentes-para-leitores.html"
       },
       {
@@ -120,22 +120,22 @@
       {
         "title": "Porta-copos de madeira",
         "description": "Conjuntos de porta-copos mais vendidos com desenhos celestes, naturais, vikings e outros temas com personalidade para mesas, prateleiras e presentes de casa nova.",
-        "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
-        "imageAlt": "Porta-copos de madeira Árvore da Vida",
+        "image": "/assets/img/products/coaster-floral.jpg",
+        "imageAlt": "Porta-copos florais de madeira ao lado de uma caneca",
         "href": "/pt/pages/porta-copos-de-madeira.html"
       },
       {
         "title": "Marcadores de livros de madeira",
         "description": "Marcadores pensados para leitores, fãs de fantasia, diários de leitura e serões tranquilos.",
-        "image": "/assets/img/products/celtic-bookmark.jpg",
-        "imageAlt": "Coleção de marcadores de livros de madeira",
+        "image": "/assets/img/products/bookmark-wood.jpg",
+        "imageAlt": "Marcador de livros em madeira sobre um livro aberto",
         "href": "/pt/pages/marcadores-de-livros-de-madeira.html"
       },
       {
         "title": "Presentes de madeira",
         "description": "Pendentes de porta, porta-velas, recordações e peças decorativas para prateleiras, entradas e presentes com um toque pessoal.",
-        "image": "/assets/img/products/just-married-door-hanger.jpg",
-        "imageAlt": "Pendente de porta Just Married da coleção de presentes de madeira",
+        "image": "/assets/img/products/gift-home-decor.jpg",
+        "imageAlt": "Recordação em madeira num ambiente acolhedor",
         "href": "/pt/pages/presentes-de-madeira.html"
       }
     ],

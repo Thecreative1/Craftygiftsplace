@@ -61,16 +61,16 @@
       "kicker": "For readers",
       "title": "Reader gifts",
       "description": "See bookmarks, fantasy sets and reading nook pieces for book lovers and cozy shelves.",
-      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Fantasy Reader Gift Set for book lovers",
+      "image": "/assets/img/products/desert-saga-bookmark.jpg",
+      "imageAlt": "Desert Saga wooden bookmark on an open book",
       "href": "/en/pages/reader-gifts.html"
     },
     {
       "kicker": "For new homes",
       "title": "Housewarming gifts",
       "description": "Browse useful wooden pieces for coffee tables, shelves and thoughtful new-home gifts.",
-      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
-      "imageAlt": "Zodiac wooden coasters for housewarming gifting",
+      "image": "/assets/img/products/coaster-botanical.jpg",
+      "imageAlt": "Botanical wooden coasters styled on a table",
       "href": "/en/pages/housewarming-gifts.html"
     }
   ],
@@ -92,15 +92,15 @@
     {
       "title": "Cat lover gifts",
       "description": "Wooden cat-themed coasters and decor for cozy homes, birthdays and thoughtful cat owner gifts.",
-      "image": "/assets/img/products/cat-and-moon-coasters.jpg",
-      "imageAlt": "Cat and Moon wooden coasters gift idea",
+      "image": "/assets/img/products/moon-cat-tealight-holder.jpg",
+      "imageAlt": "Moon Cat tealight holder glowing on a table",
       "href": "/en/pages/cat-lover-gifts.html"
     },
     {
       "title": "Reader gifts",
       "description": "Bookmarks, fantasy-themed sets and reading nook pieces for book lovers and cozy corners.",
-      "image": "/assets/img/products/fantasy-reader-gift-set.jpg",
-      "imageAlt": "Fantasy Reader Gift Set for book lovers",
+      "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+      "imageAlt": "Dragon Eye wooden bookmark on a fantasy book",
       "href": "/en/pages/reader-gifts.html"
     },
     {
@@ -115,22 +115,22 @@
     {
       "title": "Wooden coasters",
       "description": "Bestselling coaster sets with celestial, nature, Norse and other standout designs for tables, shelves and housewarming gifts.",
-      "image": "https://i.etsystatic.com/46731516/r/il/84c9e2/5535942596/il_600x600.5535942596_jl8w.jpg",
-      "imageAlt": "Tree of Life wooden coasters",
+      "image": "/assets/img/products/coaster-floral.jpg",
+      "imageAlt": "Floral wooden coasters beside a mug",
       "href": "/en/pages/wooden-coasters.html"
     },
     {
       "title": "Wooden bookmarks",
       "description": "Reader-focused bookmarks and gift sets for fantasy readers, reading journals and quiet evenings.",
-      "image": "/assets/img/products/celtic-bookmark.jpg",
-      "imageAlt": "Wooden bookmark collection",
+      "image": "/assets/img/products/bookmark-wood.jpg",
+      "imageAlt": "Wooden bookmark resting on an open book",
       "href": "/en/pages/wooden-bookmarks.html"
     },
     {
       "title": "Wooden gifts",
       "description": "Door hangers, tealight holders, keepsakes and decor pieces for shelves, entryways and milestone gifts.",
-      "image": "/assets/img/products/just-married-door-hanger.jpg",
-      "imageAlt": "Just Married wooden door hanger from the wooden gifts collection",
+      "image": "/assets/img/products/gift-home-decor.jpg",
+      "imageAlt": "Wooden keepsake held in a cozy home setting",
       "href": "/en/pages/wooden-gifts.html"
     }
   ],

@@ -580,7 +580,8 @@ function validatePages() {
       }
     });
 
-    if (xDefault !== canonicalUrl("/en/index.html")) fail(`x-default mismatch in ${page.path}`);
+    const expectedXDefault = canonicalUrl(alternates.en || "/en/index.html");
+    if (xDefault !== expectedXDefault) fail(`x-default mismatch in ${page.path}`);
     if (lang !== page.locale) fail(`html lang mismatch in ${page.path}`);
 
     imageAltIssues(html, page.path).forEach((issue) => fail(issue));

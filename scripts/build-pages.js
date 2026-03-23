@@ -1673,9 +1673,10 @@ function renderHead(page, productsByLocale) {
     }
   </script>` : "";
   const alternatePaths = page.alternatePaths || { [page.locale]: page.path };
+  const defaultAlternatePath = alternatePaths.en || alternatePaths[page.locale] || xDefaultPath;
   const alternateLinks = [
     ...LOCALE_ORDER.filter((locale) => alternatePaths[locale]).map((locale) => `  <link rel="alternate" hreflang="${locale}" href="${escapeAttribute(canonicalUrl(alternatePaths[locale]))}" />`),
-    `  <link rel="alternate" hreflang="x-default" href="${escapeAttribute(canonicalUrl(xDefaultPath))}" />`
+    `  <link rel="alternate" hreflang="x-default" href="${escapeAttribute(canonicalUrl(defaultAlternatePath))}" />`
   ].join("\n");
 
   return renderTemplate(headTemplate, {
