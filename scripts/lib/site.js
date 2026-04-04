@@ -3,7 +3,7 @@ const path = require("path");
 
 const repoRoot = path.resolve(__dirname, "..", "..");
 const siteUrl = "https://thecreative1.github.io/Craftygiftsplace";
-const xDefaultPath = "/en/index.html";
+const xDefaultPath = "/en/";
 
 function readText(relativePath) {
   return fs.readFileSync(path.join(repoRoot, relativePath), "utf8");
@@ -32,10 +32,11 @@ function sitePathToFile(sitePath) {
 }
 
 function canonicalUrl(sitePath) {
-  if (sitePath === "/index.html") {
+  const clean = sitePath.replace(/\/index\.html$/, "/");
+  if (clean === "/") {
     return `${siteUrl}/`;
   }
-  return `${siteUrl}${sitePath}`;
+  return `${siteUrl}${clean}`;
 }
 
 function absoluteUrl(sitePath) {

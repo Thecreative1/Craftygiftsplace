@@ -1667,7 +1667,7 @@ function renderHead(page, productsByLocale) {
   const firstProduct = page.featuredItems && page.featuredItems.length ? getProduct(page, productsByLocale, page.featuredItems[0].slug) : null;
   const socialImage = firstProduct ? absoluteUrl(firstProduct.image_full || firstProduct.image) : absoluteUrl("/assets/img/products/moon-cat-tealight-holder.jpg");
   const socialImageAlt = firstProduct ? firstProduct.alt : page.heroImageAlt || page.title;
-  const rootRedirectScript = page.path === "/index.html" ? `<script>
+  const rootRedirectScript = page.path.endsWith("/index.html") ? `<script>
     if (/\\/index\\.html$/.test(window.location.pathname)) {
       window.location.replace(window.location.pathname.replace(/index\\.html$/, "") + window.location.search + window.location.hash);
     }

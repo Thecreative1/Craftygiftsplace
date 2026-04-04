@@ -153,20 +153,28 @@
     "linkUrl": "https://www.etsy.com/shop/Craftygiftsplace#reviews",
     "items": [
       {
+        "title": "Ana · 5/5",
+        "text": "\"Envio rápido, bem embalado e igual à imagem. Recomendo!\""
+      },
+      {
+        "title": "Inês · 5/5",
+        "text": "\"Trabalho fantástico! Ficou ainda melhor do que esperava! Adorei o toque especial de enviar o produto embrulhado de forma tão cuidada — mostrou muita atenção ao detalhe.\""
+      },
+      {
         "title": "Clare · 5/5",
-        "text": "\"Foi um prazer lidar com esta loja... vou voltar para mais.\""
+        "text": "\"Foi um prazer absoluto lidar com esta loja. Não poderia ter pedido um melhor serviço do início ao fim. Vou voltar para mais!\""
       },
       {
         "title": "Caroline · 5/5",
         "text": "\"Ótima qualidade, exatamente como descrito, e uma comunicação simpática e clara.\""
       },
       {
-        "title": "Andrew · 5/5",
-        "text": "\"Estes porta-copos são lindos. Parecem resistentes e muito bem feitos.\""
+        "title": "Tanya · 5/5",
+        "text": "\"Estes porta-copos são exatamente como nas fotos e a lojista tem muita integridade — ajudaram-me a resolver um problema de envio e reenviaram o produto. Recomendo muito esta loja.\""
       },
       {
-        "title": "Comprador de marcador · 5/5",
-        "text": "\"O detalhe é incrível, o acabamento é muito bom e nota-se durabilidade. Um marcador lindíssimo.\""
+        "title": "Andrew · 5/5",
+        "text": "\"Estes porta-copos são lindos. São de madeira e parecem muito resistentes.\""
       }
     ]
   },

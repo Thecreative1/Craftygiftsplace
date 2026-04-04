@@ -153,8 +153,20 @@
     "linkUrl": "https://www.etsy.com/shop/Craftygiftsplace#reviews",
     "items": [
       {
+        "title": "Acquirente Etsy · 5/5",
+        "text": "\"Bello e originale, un regalo di qualità per gli appassionati della serie. Anche il pacchettino super carino!\""
+      },
+      {
+        "title": "Giorgia · 5/5",
+        "text": "\"The product is perfect in quality and beauty. The shipment was very fast and the seller is very kind.\""
+      },
+      {
+        "title": "Nekoshin · 5/5",
+        "text": "\"Simply perfect! Great service, quickly sent, and the seller gave an additional amazing gift!! This bookmark is perfect for people who love reading!\""
+      },
+      {
         "title": "Clare · 5/5",
-        "text": "\"È stato un vero piacere acquistare qui... tornerò sicuramente.\""
+        "text": "\"È stato un vero piacere acquistare qui. Non avrei potuto chiedere un servizio migliore dall'inizio alla fine. Tornerò sicuramente!\""
       },
       {
         "title": "Caroline · 5/5",
@@ -163,10 +175,6 @@
       {
         "title": "Andrew · 5/5",
         "text": "\"Questi sottobicchieri sono bellissimi. Sembrano robusti e molto ben fatti.\""
-      },
-      {
-        "title": "Acquirente di segnalibri · 5/5",
-        "text": "\"Il livello di dettaglio è incredibile, la lavorazione è ottima e il segnalibro è molto resistente.\""
       }
     ]
   },
