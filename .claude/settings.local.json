@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:thecreative1.github.io)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
