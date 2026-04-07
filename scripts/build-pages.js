@@ -46,6 +46,8 @@ const text = {
     relatedHeading: "Related Collections",
     relatedIntro: "Keep exploring with these suggestions.",
     whyHeading: "Why Shoppers Love It",
+    whyRating: "4.96/5 on Etsy across hundreds of reviews.",
+    whyCtaLabel: "Read Etsy reviews →",
     intentsHeading: "Shop by occasion",
     intentsIntro: "Start with the kind of gift you want to give.",
     collectionsHeading: "Browse by collection",
@@ -75,6 +77,8 @@ const text = {
     relatedHeading: "Gerelateerde Collecties",
     relatedIntro: "Blader verder met deze suggesties.",
     whyHeading: "Waarom Mensen Hiervoor Kiezen",
+    whyRating: "4,96/5 op Etsy in honderden beoordelingen.",
+    whyCtaLabel: "Lees Etsy-beoordelingen →",
     intentsHeading: "Shop per gelegenheid",
     intentsIntro: "Begin bij het soort cadeau dat je wilt geven.",
     collectionsHeading: "Blader per collectie",
@@ -104,6 +108,8 @@ const text = {
     relatedHeading: "Verwandte Kollektionen",
     relatedIntro: "Mit diesen Vorschlägen kannst du weiterstöbern.",
     whyHeading: "Warum Käufer es mögen",
+    whyRating: "4,96/5 auf Etsy in Hunderten von Bewertungen.",
+    whyCtaLabel: "Etsy-Bewertungen lesen →",
     intentsHeading: "Nach Anlass shoppen",
     intentsIntro: "Starte mit der Art von Geschenk, die du geben möchtest.",
     collectionsHeading: "Nach Kollektion stöbern",
@@ -133,6 +139,8 @@ const text = {
     relatedHeading: "Collections associées",
     relatedIntro: "Continuez avec ces suggestions.",
     whyHeading: "Pourquoi ça plaît",
+    whyRating: "4,96/5 sur Etsy sur des centaines d'avis.",
+    whyCtaLabel: "Lire les avis Etsy →",
     intentsHeading: "Acheter par occasion",
     intentsIntro: "Commencez par le type de cadeau que vous voulez offrir.",
     collectionsHeading: "Acheter par collection",
@@ -162,6 +170,8 @@ const text = {
     relatedHeading: "Colecciones relacionadas",
     relatedIntro: "Sigue explorando con estas sugerencias.",
     whyHeading: "Por qué gusta",
+    whyRating: "4,96/5 en Etsy en cientos de reseñas.",
+    whyCtaLabel: "Leer reseñas de Etsy →",
     intentsHeading: "Comprar por ocasión",
     intentsIntro: "Empieza por el tipo de regalo que quieres hacer.",
     collectionsHeading: "Comprar por colección",
@@ -191,6 +201,8 @@ const text = {
     relatedHeading: "Coleções relacionadas",
     relatedIntro: "Continua a explorar com estas sugestões.",
     whyHeading: "Porque agrada",
+    whyRating: "4,96/5 na Etsy em centenas de avaliações.",
+    whyCtaLabel: "Ler avaliações na Etsy →",
     intentsHeading: "Comprar por ocasião",
     intentsIntro: "Começa pelo tipo de presente que queres oferecer.",
     collectionsHeading: "Comprar por coleção",
@@ -220,6 +232,8 @@ const text = {
     relatedHeading: "Collezioni correlate",
     relatedIntro: "Continua a esplorare con questi suggerimenti.",
     whyHeading: "Perché piace",
+    whyRating: "4,96/5 su Etsy in centinaia di recensioni.",
+    whyCtaLabel: "Leggi le recensioni Etsy →",
     intentsHeading: "Acquista per occasione",
     intentsIntro: "Inizia dal tipo di regalo che vuoi fare.",
     collectionsHeading: "Acquista per collezione",
@@ -1196,10 +1210,13 @@ function renderFeaturedCard(product, summary) {
 }
 
 function renderWhyCard(page, items) {
+  const loc = text[page.locale];
   return `
     <article class="copy-card">
-      <h2>${escapeHtml(text[page.locale].whyHeading)}</h2>
+      <h2>${escapeHtml(loc.whyHeading)}</h2>
       <ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+      <p class="small-note">${escapeHtml(loc.whyRating)}</p>
+      <a class="btn" href="https://www.etsy.com/shop/Craftygiftsplace#reviews" target="_blank" rel="noopener">${escapeHtml(loc.whyCtaLabel)}</a>
     </article>`;
 }
 
@@ -1581,7 +1598,10 @@ function renderContact(page) {
       </section>
       ${page.faq ? renderFaqSection(page) : ""}
       ${page.ctaPanel ? renderCtaPanel(page) : ""}
-    </main>`;
+    </main>
+    <div class="sticky-mobile-cta">
+      <a class="btn" href="${escapeAttribute(page.primaryCta.url)}" target="_blank" rel="noopener">${escapeHtml(page.primaryCta.label)}</a>
+    </div>`;
 }
 
 function renderSubpage(page, productsByLocale, productsListByLocale) {
@@ -1730,7 +1750,7 @@ function renderHeader(page) {
   });
 
   return renderTemplate(headerTemplate, {
-    bodyClass: page.template === "home" ? "" : page.template === "contact" ? "page-subpage" : "page-subpage has-sticky-cta",
+    bodyClass: page.template === "home" ? "" : "page-subpage has-sticky-cta",
     skipLinkLabel: escapeHtml(localeText.skipLink),
     homePath: escapeAttribute(relativeUrl(page.path, LOCALE_META[page.locale].homePath)),
     homeAriaLabel: escapeAttribute(localeText.homeAria),
