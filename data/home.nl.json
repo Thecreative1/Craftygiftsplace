@@ -15,8 +15,8 @@
   },
   "heroProducts": [
     "tree-of-life-wooden-coasters",
-    "sun-and-moon-wooden-coasters",
-    "viking-wooden-coasters"
+    "dragon-eye-wooden-bookmark",
+    "sun-and-moon-wooden-coasters"
   ],
   "sections": {
     "featuredCategories": {
@@ -36,8 +36,8 @@
       "intro": "Kijk je liever per producttype? Gebruik dan de hoofdcollecties."
     },
     "support": {
-      "heading": "Hoe deze site helpt",
-      "intro": "Een korte uitleg, bewust lager op de pagina zodat de producten vooraan blijven."
+      "heading": "Waarom kopers terugkomen",
+      "intro": "Drie dingen die klanten keer op keer noemen in hun reviews."
     },
     "reviews": {
       "heading": "Geliefd op Etsy",
@@ -80,12 +80,12 @@
       "summary": "Een bestverkochte onderzetterset die warme houtdetails brengt naar salontafels, planken en verhuiscadeaus."
     },
     {
-      "slug": "sun-and-moon-wooden-coasters",
-      "summary": "Een hemels ontwerp voor gezellige interieurs, avondtafels en kopers die een set met duidelijk karakter zoeken."
+      "slug": "dragon-eye-wooden-bookmark",
+      "summary": "Een houten bladwijzer met fantasythema voor lezers en boekenliefhebbers — een cadeau dat persoonlijk aanvoelt zonder dat je veel over de ontvanger hoeft te weten."
     },
     {
-      "slug": "viking-wooden-coasters",
-      "summary": "Een uitgesproken gegraveerde set voor Viking-inspiratie, hobbykamers en cadeaus met een sterker thema."
+      "slug": "sun-and-moon-wooden-coasters",
+      "summary": "Een hemels ontwerp voor gezellige interieurs, avondtafels en kopers die een set met duidelijk karakter zoeken."
     }
   ],
   "intentCards": [
@@ -136,16 +136,16 @@
   ],
   "supportCards": [
     {
-      "title": "Begin met de bestsellers",
-      "text": "Deze homepage zet de duidelijkste cadeaukeuzes vooraan, zodat bezoekers sneller bij een goede optie uitkomen."
+      "title": "Handgemaakt per bestelling",
+      "text": "Elk stuk wordt individueel gemaakt — niet seriematig geproduceerd. Dat betekent echt houtdetail, zorgvuldige gravure en een afwerking die lang meegaat."
     },
     {
-      "title": "Kies per gelegenheid of collectie",
-      "text": "Gebruik de cadeaupagina's wanneer de gelegenheid leidend is, of open een collectie wanneer het producttype belangrijker is."
+      "title": "Personalisatie is gemakkelijk te regelen",
+      "text": "Namen, data en korte persoonlijke teksten kunnen aan veel items worden toegevoegd. Stuur een bericht via Etsy vóór het bestellen en de verkoper bevestigt precies wat mogelijk is."
     },
     {
-      "title": "Bestellen loopt via Etsy",
-      "text": "Wanneer iemand klaar is om te kopen, brengt de CTA hen naar Etsy voor prijzen, reviews, personalisatie, verzenddetails en afrekenen."
+      "title": "Zorgvuldig verzonden, mooi aangekomen",
+      "text": "Reviews noemen consequent goede verpakking en attente service. Als er iets misgaat bij de verzending, lost de verkoper het op — zoals meerdere reviewers hebben bevestigd."
     }
   ],
   "reviews": {
@@ -180,20 +180,20 @@
   },
   "faq": [
     {
-      "question": "Bestel ik op deze website?",
-      "answer": "Nee. Deze website helpt bezoekers het aanbod te bekijken en stuurt daarna door naar Etsy om de bestelling af te ronden."
+      "question": "Waar bestel ik en hoe werkt het?",
+      "answer": "Bekijk het aanbod hier en ga daarna naar Etsy voor de volledige prijs, reviews, personalisatieopties en afrekenen — alles op één plek."
     },
     {
-      "question": "Kan ik personalisatie vragen voordat ik bestel?",
-      "answer": "Ja. Etsy-berichten zijn de beste plek om te vragen naar namen, data of korte persoonlijke details vóór het afrekenen."
+      "question": "Kan ik een naam, datum of bericht toevoegen?",
+      "answer": "Ja. Veel items zijn personaliseerbaar. Stuur vóór het bestellen een bericht via Etsy en de verkoper bevestigt wat mogelijk is voor het gekozen stuk."
     },
     {
-      "question": "Wat is de snelste manier om het juiste cadeau te kiezen?",
-      "answer": "Begin met de uitgelichte categorieën als de gelegenheid al duidelijk is, of gebruik het bestsellerblok als je snel een bewezen favoriet wilt zien."
+      "question": "Wat is de snelste manier om het juiste cadeau te vinden?",
+      "answer": "Begin met de uitgelichte categorieën als de gelegenheid al duidelijk is, of gebruik het bestsellerblok voor een bewezen favoriet."
     },
     {
-      "question": "Waar bekijken kopers verzend- en procesdetails?",
-      "answer": "Verzendtijden, listingdetails en verwachtingen rond afrekenen blijven op Etsy staan, zodat kopers eerst de volledige productpagina kunnen bekijken."
+      "question": "Hoe weet ik dat de kwaliteit goed is?",
+      "answer": "De winkel heeft een beoordeling van 4,96/5 op Etsy, over honderden reviews — elk met opmerkingen over kwaliteit, vakmanschap en goede service. Je kunt ze allemaal lezen vóór je koopt."
     }
   ]
 }

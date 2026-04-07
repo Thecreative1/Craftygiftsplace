@@ -1203,6 +1203,14 @@ footer {
   object-fit: contain;
 }
 
+.footer-etsy-cta {
+  width: 100%;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: center;
+}
+
 .small-note {
   font-size: 0.86rem;
   color: var(--muted);

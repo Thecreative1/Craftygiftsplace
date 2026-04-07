@@ -37,6 +37,7 @@ const text = {
     footerIntents: "Gift ideas",
     footerTagline: "Handmade wooden gifts with warmth, detail and character.",
     footerNote: "Rated 4.96/5 on Etsy for thoughtful service, beautiful detail and handmade quality.",
+    footerEtsyCta: "Shop Craftygiftsplace on Etsy →",
     featuredHeading: "Best Picks",
     featuredIntro: "Start with a few standout pieces, then browse the full selection below.",
     catalogHeading: "Browse the Collection",
@@ -65,6 +66,7 @@ const text = {
     footerIntents: "Cadeau-ideeën",
     footerTagline: "Handgemaakte houten cadeaus met warmte, detail en karakter.",
     footerNote: "Beoordeeld met 4.96/5 op Etsy voor attente service, mooi detail en handgemaakte kwaliteit.",
+    footerEtsyCta: "Bekijk Craftygiftsplace op Etsy →",
     featuredHeading: "Favorieten",
     featuredIntro: "Begin met een paar uitgelichte stukken en bekijk daarna de volledige selectie.",
     catalogHeading: "Bekijk de collectie",
@@ -93,6 +95,7 @@ const text = {
     footerIntents: "Geschenkideen",
     footerTagline: "Handgemachte Holzgeschenke mit Wärme, Detail und Charakter.",
     footerNote: "Mit 4.96/5 auf Etsy bewertet für aufmerksamen Service, schöne Details und handgemachte Qualität.",
+    footerEtsyCta: "Craftygiftsplace auf Etsy entdecken →",
     featuredHeading: "Favoriten",
     featuredIntro: "Starte mit ein paar ausgewählten Stücken und sieh dir danach die ganze Auswahl an.",
     catalogHeading: "Kollektion ansehen",
@@ -121,6 +124,7 @@ const text = {
     footerIntents: "Idées cadeaux",
     footerTagline: "Cadeaux en bois faits main avec chaleur, détail et caractère.",
     footerNote: "Noté 4,96/5 sur Etsy pour un service attentionné, de beaux détails et une vraie finition artisanale.",
+    footerEtsyCta: "Voir Craftygiftsplace sur Etsy →",
     featuredHeading: "Meilleures idées",
     featuredIntro: "Commencez par quelques pièces fortes, puis parcourez la sélection complète.",
     catalogHeading: "Voir la collection",
@@ -149,6 +153,7 @@ const text = {
     footerIntents: "Ideas de regalo",
     footerTagline: "Regalos de madera hechos a mano con calidez, detalle y carácter.",
     footerNote: "Valorado con 4,96/5 en Etsy por un servicio atento, bonitos detalles y acabado artesanal.",
+    footerEtsyCta: "Ver Craftygiftsplace en Etsy →",
     featuredHeading: "Mejores ideas",
     featuredIntro: "Empieza por algunas piezas destacadas y después explora la selección completa.",
     catalogHeading: "Ver la colección",
@@ -177,6 +182,7 @@ const text = {
     footerIntents: "Ideias de presente",
     footerTagline: "Presentes em madeira feitos à mão com calor, detalhe e carácter.",
     footerNote: "Avaliado com 4,96/5 na Etsy por um serviço atencioso, belos detalhes e acabamento artesanal.",
+    footerEtsyCta: "Ver Craftygiftsplace na Etsy →",
     featuredHeading: "Melhores escolhas",
     featuredIntro: "Começa por algumas peças em destaque e depois explora a seleção completa.",
     catalogHeading: "Ver a coleção",
@@ -205,6 +211,7 @@ const text = {
     footerIntents: "Idee regalo",
     footerTagline: "Regali in legno fatti a mano con calore, dettaglio e carattere.",
     footerNote: "Valutato 4,96/5 su Etsy per un servizio attento, bei dettagli e qualità artigianale.",
+    footerEtsyCta: "Vedi Craftygiftsplace su Etsy →",
     featuredHeading: "Scelte migliori",
     featuredIntro: "Inizia con alcune proposte forti e poi guarda tutta la selezione.",
     catalogHeading: "Vedi la collezione",
@@ -1532,7 +1539,6 @@ function renderHome(page, productsByLocale) {
       ${renderHomeHero(page, productsByLocale)}
       ${renderHomeFeaturedCategories(page)}
       ${renderHomeFeaturedBestsellers(page, productsByLocale)}
-      ${renderHomeSectionCards(page, "intentCards", sections.occasions?.heading || text[page.locale].intentsHeading, sections.occasions?.intro || text[page.locale].intentsIntro)}
       ${renderHomeSectionCards(page, "collectionCards", sections.collections?.heading || text[page.locale].collectionsHeading, sections.collections?.intro || text[page.locale].collectionsIntro)}
       ${renderHomeSupportSection(page)}
       ${renderReviews(page, sections.reviews)}
@@ -1750,6 +1756,7 @@ function renderFooter(page) {
     footerIntentTitle: escapeHtml(localeText.footerIntents),
     footerIntentLinks: intentLinks,
     footerNote: escapeHtml(localeText.footerNote),
+    footerEtsyCta: escapeHtml(localeText.footerEtsyCta || "Shop on Etsy →"),
     scriptPath: escapeAttribute(relativeUrl(page.path, "/assets/js/main.js"))
   });
 }

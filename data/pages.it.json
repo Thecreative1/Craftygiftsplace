@@ -20,8 +20,8 @@
     },
     "heroProducts": [
       "tree-of-life-wooden-coasters",
-      "sun-and-moon-wooden-coasters",
-      "viking-wooden-coasters"
+      "dragon-eye-wooden-bookmark",
+      "sun-and-moon-wooden-coasters"
     ],
     "sections": {
       "featuredCategories": {
@@ -41,8 +41,8 @@
         "intro": "Preferisci partire dal tipo di prodotto? Usa le collezioni principali."
       },
       "support": {
-        "heading": "Come aiuta questo sito",
-        "intro": "Una spiegazione veloce, spostata più in basso per lasciare i prodotti in primo piano."
+        "heading": "Perché i clienti tornano",
+        "intro": "Tre cose che i clienti citano ancora e ancora nelle loro recensioni."
       },
       "reviews": {
         "heading": "Amato su Etsy",
@@ -85,12 +85,12 @@
         "summary": "Un set tra i più venduti che aggiunge un dettaglio caldo in legno a tavolini, mensole e regali per la casa nuova."
       },
       {
-        "slug": "sun-and-moon-wooden-coasters",
-        "summary": "Un design celeste per tavole serali, interni accoglienti e regali con una presenza visiva chiara."
+        "slug": "dragon-eye-wooden-bookmark",
+        "summary": "Un segnalibro in legno a tema fantasy per lettori e amanti dei libri — un regalo personale senza dover sapere molto del destinatario."
       },
       {
-        "slug": "viking-wooden-coasters",
-        "summary": "Un set inciso dal carattere deciso per decorazioni nordiche, stanze hobby e regali con un tema più forte."
+        "slug": "sun-and-moon-wooden-coasters",
+        "summary": "Un design celeste per tavole serali, interni accoglienti e regali con una presenza visiva chiara."
       }
     ],
     "intentCards": [
@@ -141,16 +141,16 @@
     ],
     "supportCards": [
       {
-        "title": "Inizia dai più venduti",
-        "text": "Questa homepage mette in primo piano le idee regalo più chiare per aiutare a scegliere più velocemente."
+        "title": "Fatto a mano su ordinazione",
+        "text": "Ogni pezzo è realizzato singolarmente — non in serie. Questo si traduce in un vero dettaglio in legno, una lavorazione incisa con cura e una finitura che dura ben oltre l'occasione."
       },
       {
-        "title": "Scegli per occasione o per collezione",
-        "text": "Usa le guide regalo quando conta prima l'occasione, oppure vai alle collezioni quando conta di più il tipo di prodotto."
+        "title": "La personalizzazione è facile da gestire",
+        "text": "Nomi, date e messaggi brevi possono essere aggiunti a molti articoli. Scrivi al negozio su Etsy prima di ordinare e il venditore confermerà esattamente cosa è possibile."
       },
       {
-        "title": "L'ordine resta su Etsy",
-        "text": "Quando qualcuno è pronto, il pulsante porta su Etsy per prezzi, recensioni, personalizzazione, spedizione e checkout."
+        "title": "Spedito con cura, arrivato bene",
+        "text": "Le recensioni menzionano costantemente un buon imballaggio e un servizio attento. Se qualcosa va storto durante il trasporto, il negozio risolve — come hanno confermato diversi acquirenti."
       }
     ],
     "reviews": {
@@ -185,20 +185,20 @@
     },
     "faq": [
       {
-        "question": "Si ordina su questo sito?",
-        "answer": "No. Questo sito aiuta a scoprire la collezione e poi manda su Etsy per completare l'ordine."
+        "question": "Dove effettuo l'ordine e come funziona?",
+        "answer": "Sfoglia qui per trovare l'articolo giusto, poi vai su Etsy per vedere il prezzo completo, le recensioni, le opzioni di personalizzazione e completare l'acquisto — tutto in un solo posto."
       },
       {
-        "question": "Posso chiedere della personalizzazione prima di acquistare?",
-        "answer": "Sì. I messaggi Etsy sono il posto migliore per chiedere nomi, date o piccoli dettagli personalizzati prima dell'acquisto."
+        "question": "Posso aggiungere un nome, una data o un messaggio?",
+        "answer": "Sì. Molti articoli possono essere personalizzati. Scrivi al negozio su Etsy prima di ordinare e il venditore confermerà cosa è possibile per il pezzo scelto."
       },
       {
         "question": "Qual è il modo più veloce per scegliere il regalo giusto?",
-        "answer": "Inizia dalle categorie in evidenza se l'occasione è chiara, oppure dal blocco dei più venduti se vuoi una scelta già collaudata."
+        "answer": "Inizia dalle categorie in evidenza se l'occasione è chiara, oppure dal blocco dei più venduti per una scelta già collaudata."
       },
       {
-        "question": "Dove posso vedere spedizione e dettagli del processo?",
-        "answer": "Tempi di spedizione, dettagli del prodotto e checkout restano su Etsy, dove l'acquirente può controllare tutto prima di ordinare."
+        "question": "Come faccio a sapere che la qualità vale?",
+        "answer": "Il negozio ha una valutazione di 4,96/5 su Etsy, su centinaia di recensioni — tutte citano qualità, dettaglio artigianale e buon servizio. Puoi leggerle tutte prima di acquistare."
       }
     ],
     "alternatePaths": {

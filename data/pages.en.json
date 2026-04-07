@@ -44,12 +44,12 @@
         "summary": "A bestselling coaster set that brings warm wood detail to coffee tables, shelves and housewarming gifts."
       },
       {
-        "slug": "sun-and-moon-wooden-coasters",
-        "summary": "A celestial set for cozy interiors, evening tables and shoppers who want a design with clear visual character."
+        "slug": "dragon-eye-wooden-bookmark",
+        "summary": "A fantasy-themed wooden bookmark for readers and book lovers — a gift that feels personal without needing to know much about the recipient."
       },
       {
-        "slug": "viking-wooden-coasters",
-        "summary": "A bold engraved coaster set for Norse-inspired decor, game rooms and gifts with a stronger theme."
+        "slug": "sun-and-moon-wooden-coasters",
+        "summary": "A celestial set for cozy interiors, evening tables and shoppers who want a design with clear visual character."
       }
     ],
     "intentCards": [
@@ -130,20 +130,20 @@
     },
     "faq": [
       {
-        "question": "Do I order on this website?",
-        "answer": "No. This website helps shoppers explore the range and then sends them to Etsy to complete the order."
+        "question": "Where do I order and how does it work?",
+        "answer": "Browse here to find the right item, then head to Etsy to see full pricing, reviews, personalization options and checkout — all in one place."
       },
       {
-        "question": "Can I ask about personalization before ordering?",
-        "answer": "Yes. Etsy messaging is the best place to ask about names, dates or short personalized details before checkout."
+        "question": "Can I add a name, date or message to my gift?",
+        "answer": "Yes. Many items can be personalized. Message the shop on Etsy before ordering and the seller will confirm what's possible for your chosen piece."
       },
       {
-        "question": "What is the fastest way to choose the right gift?",
-        "answer": "Start with the featured categories if the occasion is clear, or use the bestseller block when you want a quick proven pick."
+        "question": "What is the fastest way to find the right gift?",
+        "answer": "Start with the featured categories if the occasion is clear, or use the bestseller block if you want a well-loved pick."
       },
       {
-        "question": "Where can shoppers check shipping and process details?",
-        "answer": "Shipping timing, listing details and checkout expectations stay on Etsy, where buyers can review the full product page before ordering."
+        "question": "How do I know the quality is worth it?",
+        "answer": "The shop holds a 4.96/5 rating on Etsy across hundreds of reviews — each mentioning quality, craft detail and good service. You can read them all before buying."
       }
     ],
     "ctaPanel": {
@@ -159,8 +159,8 @@
     },
     "heroProducts": [
       "tree-of-life-wooden-coasters",
-      "sun-and-moon-wooden-coasters",
-      "viking-wooden-coasters"
+      "dragon-eye-wooden-bookmark",
+      "sun-and-moon-wooden-coasters"
     ],
     "sections": {
       "featuredCategories": {
@@ -180,8 +180,8 @@
         "intro": "Prefer browsing by product type? Use the core collections."
       },
       "support": {
-        "heading": "How this site helps",
-        "intro": "A quick explanation, kept lower on the page so products stay first."
+        "heading": "Why shoppers love Craftygiftsplace",
+        "intro": "Three things customers mention again and again in their reviews."
       },
       "reviews": {
         "heading": "Loved on Etsy",
@@ -220,16 +220,16 @@
     ],
     "supportCards": [
       {
-        "title": "Start with the bestsellers",
-        "text": "This homepage puts the clearest gift ideas up front so shoppers can reach a strong option faster."
+        "title": "Handmade to order, every time",
+        "text": "Each piece is crafted individually — not mass-produced. That means real wood detail, careful engraving and a finish that holds up long after the occasion."
       },
       {
-        "title": "Choose by occasion or collection",
-        "text": "Use the gift guides when the occasion matters first, or jump into collections when the product type matters more."
+        "title": "Personalization is easy to arrange",
+        "text": "Names, dates and short messages can be added to many items. Message the shop on Etsy before ordering and the seller will confirm exactly what's possible."
       },
       {
-        "title": "Ordering stays on Etsy",
-        "text": "When someone is ready, the CTA sends them to Etsy for pricing, reviews, personalization, shipping details and checkout."
+        "title": "Sent with care, arrived beautifully",
+        "text": "Reviews consistently mention good packaging and attentive service. If something goes wrong in transit, the shop resolves it — as several reviewers have noted."
       }
     ],
     "alternatePaths": {

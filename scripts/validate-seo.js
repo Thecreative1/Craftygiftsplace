@@ -260,7 +260,6 @@ const HOME_SECTION_ORDER = [
   "hero-home",
   "featured-categories",
   "featured-bestsellers",
-  "gift-guides",
   "collections",
   "how-it-works",
   "reviews",

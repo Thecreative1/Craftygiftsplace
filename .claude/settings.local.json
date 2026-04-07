@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:thecreative1.github.io)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(node -e \"const data = require\\('./data/products.en.json'\\); const t = data.find\\(p => p.slug === 'tree-of-life-wooden-coasters'\\); const s = data.find\\(p => p.slug === 'sun-and-moon-wooden-coasters'\\); console.log\\('tree-of-life chips:', t.chips\\); console.log\\('sun-and-moon chips:', s.chips\\);\")"
     ]
   }
 }

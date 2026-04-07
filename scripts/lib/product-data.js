@@ -1734,8 +1734,15 @@ function formatSentenceList(locale, value) {
   return `${items.slice(0, -1).join(", ")} ${conjunction} ${items[items.length - 1]}`;
 }
 
-function localizeChip(locale, audienceKeys, occasionKeys, styleKeys) {
-  const sourceKeys = [...audienceKeys, ...occasionKeys, ...styleKeys];
+const CHIP_STYLE_FIRST_SLUGS = new Set([
+  "tree-of-life-wooden-coasters",
+  "sun-and-moon-wooden-coasters"
+]);
+
+function localizeChip(locale, audienceKeys, occasionKeys, styleKeys, productSlug) {
+  const sourceKeys = CHIP_STYLE_FIRST_SLUGS.has(productSlug)
+    ? [...styleKeys, ...occasionKeys, ...audienceKeys]
+    : [...audienceKeys, ...occasionKeys, ...styleKeys];
   const chips = [];
 
   for (const key of sourceKeys) {
@@ -2750,7 +2757,7 @@ function buildLocaleProduct(locale, rawProduct, localizedName, signals) {
   const benefitSecondary = labels.benefitSecondary[signals.formatKey];
   const motif = labels.motif[signals.themeKey] || labels.motif.default;
   const usageContext = getUsageContext(locale, signals.formatKey, signals.themeKey);
-  const chips = localizeChip(locale, signals.audienceKeys, signals.occasionKeys, signals.styleKeys);
+  const chips = localizeChip(locale, signals.audienceKeys, signals.occasionKeys, signals.styleKeys, rawProduct.id);
 
   return {
     slug: rawProduct.id,
