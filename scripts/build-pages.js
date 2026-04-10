@@ -53,7 +53,10 @@ const text = {
     collectionsHeading: "Browse by collection",
     collectionsIntro: "Prefer browsing by product type? Start with these core collections.",
     reviewsHeading: "Loved on Etsy",
-    reviewsIntro: "A few short reviews that reinforce quality and trust."
+    reviewsIntro: "A few short reviews that reinforce quality and trust.",
+    cardCtaText: "View on Etsy",
+    pageNote: "Use this page to narrow the choice, then open Etsy for pricing, reviews and ordering.",
+    heroFactsLabel: "Why this store feels safe to browse"
   },
   nl: {
     brandTagline: "Handgemaakte houten cadeaus met karakter",
@@ -84,7 +87,10 @@ const text = {
     collectionsHeading: "Blader per collectie",
     collectionsIntro: "Kijk je liever per producttype? Begin dan met deze hoofdcollecties.",
     reviewsHeading: "Geliefd op Etsy",
-    reviewsIntro: "Een paar korte reviews die kwaliteit en vertrouwen versterken."
+    reviewsIntro: "Een paar korte reviews die kwaliteit en vertrouwen versterken.",
+    cardCtaText: "Bekijk op Etsy",
+    pageNote: "Gebruik deze pagina om de keuze kleiner te maken en open daarna Etsy voor prijs, reviews en bestellen.",
+    heroFactsLabel: "Waarom deze shop veilig voelt om te bekijken"
   },
   de: {
     brandTagline: "Handgemachte Holzgeschenke mit Charakter",
@@ -115,7 +121,10 @@ const text = {
     collectionsHeading: "Nach Kollektion stöbern",
     collectionsIntro: "Lieber nach Produkttyp schauen? Dann beginne mit diesen Kernkollektionen.",
     reviewsHeading: "Beliebt auf Etsy",
-    reviewsIntro: "Ein paar kurze Bewertungen, die Qualität und Vertrauen unterstreichen."
+    reviewsIntro: "Ein paar kurze Bewertungen, die Qualität und Vertrauen unterstreichen.",
+    cardCtaText: "Auf Etsy ansehen",
+    pageNote: "Nutze diese Seite, um die Auswahl einzugrenzen, und öffne danach Etsy für Preise, Bewertungen und Bestellung.",
+    heroFactsLabel: "Warum sich diese Seite vertrauenswürdig anfühlt"
   },
   fr: {
     brandTagline: "Cadeaux en bois faits main avec caractère",
@@ -146,7 +155,10 @@ const text = {
     collectionsHeading: "Acheter par collection",
     collectionsIntro: "Vous préférez partir du type de produit ? Commencez par ces collections principales.",
     reviewsHeading: "Aimé sur Etsy",
-    reviewsIntro: "Quelques avis courts qui renforcent la confiance."
+    reviewsIntro: "Quelques avis courts qui renforcent la confiance.",
+    cardCtaText: "Voir sur Etsy",
+    pageNote: "Servez-vous de cette page pour faire le tri, puis ouvrez Etsy pour les prix, les avis et la commande.",
+    heroFactsLabel: "Pourquoi cette boutique inspire confiance"
   },
   es: {
     brandTagline: "Regalos de madera hechos a mano con carácter",
@@ -177,7 +189,10 @@ const text = {
     collectionsHeading: "Comprar por colección",
     collectionsIntro: "¿Prefieres empezar por el tipo de producto? Comienza por estas colecciones principales.",
     reviewsHeading: "Muy querido en Etsy",
-    reviewsIntro: "Algunas reseñas breves que refuerzan calidad y confianza."
+    reviewsIntro: "Algunas reseñas breves que refuerzan calidad y confianza.",
+    cardCtaText: "Ver en Etsy",
+    pageNote: "Usa esta página para acotar la elección y luego abre Etsy para ver precios, reseñas y comprar.",
+    heroFactsLabel: "Por qué esta tienda transmite confianza"
   },
   pt: {
     brandTagline: "Presentes em madeira feitos à mão com carácter",
@@ -208,7 +223,10 @@ const text = {
     collectionsHeading: "Comprar por coleção",
     collectionsIntro: "Preferes começar pelo tipo de produto? Começa por estas coleções principais.",
     reviewsHeading: "Adorado na Etsy",
-    reviewsIntro: "Algumas avaliações curtas que reforçam qualidade e confiança."
+    reviewsIntro: "Algumas avaliações curtas que reforçam qualidade e confiança.",
+    cardCtaText: "Ver na Etsy",
+    pageNote: "Usa esta página para reduzir a escolha e depois abre a Etsy para ver preços, avaliações e encomendar.",
+    heroFactsLabel: "Porque esta loja transmite confiança"
   },
   it: {
     brandTagline: "Regali in legno fatti a mano con carattere",
@@ -239,7 +257,10 @@ const text = {
     collectionsHeading: "Acquista per collezione",
     collectionsIntro: "Preferisci partire dal tipo di prodotto? Comincia da queste collezioni principali.",
     reviewsHeading: "Amato su Etsy",
-    reviewsIntro: "Alcune recensioni brevi che rafforzano qualità e fiducia."
+    reviewsIntro: "Alcune recensioni brevi che rafforzano qualità e fiducia.",
+    cardCtaText: "Vedi su Etsy",
+    pageNote: "Usa questa pagina per restringere la scelta, poi apri Etsy per prezzi, recensioni e ordine.",
+    heroFactsLabel: "Perché questo negozio ispira fiducia"
   }
 };
 
@@ -466,6 +487,15 @@ function buildDuplicateTail(product) {
   };
 
   return tails[product.locale] || tails.en;
+}
+
+function summarizeText(value, maxSentences = 2) {
+  const normalized = String(value || "").replace(/\s+/g, " ").trim();
+  if (!normalized) return "";
+
+  const sentences = normalized.match(/[^.!?]+[.!?]?/g) || [normalized];
+  const summary = sentences.slice(0, maxSentences).join(" ").trim();
+  return summary || normalized;
 }
 
 function getSpecialCardDescription(product, position = 0) {
@@ -1177,16 +1207,20 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
 
 function renderProductCard(product, page, position, repeatCount = 1) {
   const cardImage = product.image_full || product.image;
+  const isPriorityCard = position < 2;
   return renderTemplate(productCardTemplate, {
     image: escapeAttribute(cardImage),
     imageSrcset: escapeAttribute(product.image_srcset || product.image),
     imageSizes: escapeAttribute(product.image_sizes),
     alt: escapeAttribute(product.alt),
+    loading: escapeAttribute(isPriorityCard ? "eager" : "lazy"),
+    fetchpriority: escapeAttribute(isPriorityCard ? "high" : "low"),
     chips: renderChips(product),
     title: escapeHtml(product.name),
     description: escapeHtml(buildCardDescription(product, page, position, repeatCount)),
     ctaUrl: escapeAttribute(product.etsy_url),
-    ctaLabel: escapeAttribute(product.cta_label)
+    ctaLabel: escapeAttribute(product.cta_label),
+    ctaText: escapeHtml(text[page.locale].cardCtaText || product.cta_label)
   });
 }
 
@@ -1197,7 +1231,7 @@ function renderFaq(faqItems) {
   })).join("\n");
 }
 
-function renderFeaturedCard(product, summary) {
+function renderFeaturedCard(product, summary, locale) {
   const featuredImage = product.image_full || product.image;
   return `
     <article class="copy-card">
@@ -1205,7 +1239,7 @@ function renderFeaturedCard(product, summary) {
       <div class="product-meta">${renderChips(product)}</div>
       <h2>${escapeHtml(product.name)}</h2>
       <p>${escapeHtml(summary)}</p>
-      <a class="btn" href="${escapeAttribute(product.etsy_url)}" target="_blank" rel="noopener">${escapeHtml(product.cta_label)}</a>
+      <a class="btn" href="${escapeAttribute(product.etsy_url)}" target="_blank" rel="noopener" aria-label="${escapeAttribute(product.cta_label)}" title="${escapeAttribute(product.cta_label)}">${escapeHtml(text[locale].cardCtaText || product.cta_label)}</a>
     </article>`;
 }
 
@@ -1261,7 +1295,7 @@ function renderFeaturedSection(page, productsByLocale) {
           <a class="btn-secondary" href="#shop-catalog">${escapeHtml(page.secondaryCta ? page.secondaryCta.label : text[page.locale].catalogHeading)}</a>
         </div>
         <div class="copy-stack featured-copy-grid">
-          ${products.map((item) => renderFeaturedCard(item.product, item.summary)).join("\n")}
+          ${products.map((item) => renderFeaturedCard(item.product, item.summary, page.locale)).join("\n")}
           ${page.featuredWhy ? renderWhyCard(page, page.featuredWhy) : ""}
         </div>
       </div>
@@ -1364,7 +1398,8 @@ function renderSubpageIntro(page) {
             ${renderBreadcrumbs(page)}
             <div class="eyebrow">${escapeHtml(page.eyebrow)}</div>
             <h1>${escapeHtml(page.h1)}</h1>
-            <p>${escapeHtml(page.intro)}</p>
+            <p>${escapeHtml(summarizeText(page.intro))}</p>
+            <p class="page-note">${escapeHtml(text[page.locale].pageNote)}</p>
             <div class="page-actions">
               <a class="btn" href="${escapeAttribute(page.primaryCta.url)}" target="_blank" rel="noopener">${escapeHtml(page.primaryCta.label)}</a>
               <a class="btn-secondary" href="${escapeAttribute(secondaryPath)}"${secondaryAttrs}>${escapeHtml(page.secondaryCta.label)}</a>
@@ -1442,6 +1477,11 @@ function renderHeroProductTiles(page, productsByLocale) {
   }).join("\n");
 }
 
+function renderHeroFacts(page) {
+  if (!page.heroFacts || !page.heroFacts.length) return "";
+  return page.heroFacts.map((fact) => `<span>${escapeHtml(fact)}</span>`).join("");
+}
+
 function renderHomeHero(page, productsByLocale) {
   const discoveryHref = page.discoveryCta.target || page.discoveryCta.url || "#featured-bestsellers";
   const heroProductTiles = renderHeroProductTiles(page, productsByLocale);
@@ -1460,6 +1500,8 @@ function renderHomeHero(page, productsByLocale) {
     discoveryLabel: escapeHtml(page.discoveryCta.label),
     etsyHref: escapeAttribute(page.primaryCta.url),
     etsyLabel: escapeHtml(page.primaryCta.label),
+    factsAriaLabel: escapeAttribute(text[page.locale].heroFactsLabel || ""),
+    heroFacts: renderHeroFacts(page),
     collageAria: escapeAttribute(page.sections?.bestsellers?.heading || text[page.locale].featuredHeading),
     heroProductTiles
   });
@@ -1508,16 +1550,19 @@ function renderHomeFeaturedBestsellers(page, productsByLocale) {
           </div>
         </div>
         <div class="home-bestsellers-grid">
-          ${items.map(({ product, summary }) => renderTemplate(homeBestsellerCardTemplate, {
+          ${items.map(({ product, summary }, index) => renderTemplate(homeBestsellerCardTemplate, {
             image: escapeAttribute(product.image_full || product.image),
             imageSrcset: escapeAttribute(product.image_srcset || product.image),
             imageSizes: escapeAttribute(product.image_sizes),
             alt: escapeAttribute(product.alt),
+            loading: escapeAttribute(index === 0 ? "eager" : "lazy"),
+            fetchpriority: escapeAttribute(index === 0 ? "high" : "low"),
             chips: renderChips(product),
             title: escapeHtml(product.name),
             description: escapeHtml(summary),
             ctaUrl: escapeAttribute(product.etsy_url),
-            ctaLabel: escapeAttribute(product.cta_label)
+            ctaLabel: escapeAttribute(product.cta_label),
+            ctaText: escapeHtml(text[page.locale].cardCtaText || product.cta_label)
           })).join("\n")}
         </div>
       </div>
@@ -1554,10 +1599,9 @@ function renderHome(page, productsByLocale) {
   return `
     <main id="main-content">
       ${renderHomeHero(page, productsByLocale)}
-      ${renderHomeFeaturedCategories(page)}
       ${renderHomeFeaturedBestsellers(page, productsByLocale)}
+      ${renderHomeFeaturedCategories(page)}
       ${renderHomeSectionCards(page, "collectionCards", sections.collections?.heading || text[page.locale].collectionsHeading, sections.collections?.intro || text[page.locale].collectionsIntro)}
-      ${renderHomeSupportSection(page)}
       ${renderReviews(page, sections.reviews)}
       ${renderFaqSection(page, sections.faq)}
     </main>`;

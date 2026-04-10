@@ -5,19 +5,24 @@
     "template": "home",
     "locale": "fr",
     "title": "Sous-verres en bois, marque-pages et cadeaux artisanaux | Craftygiftsplace",
-    "metaDescription": "Découvrez les sous-verres, marque-pages et cadeaux en bois les plus appréciés avant de poursuivre sur Etsy pour les détails complets.",
-    "h1": "Des cadeaux en bois faits main à découvrir",
+    "metaDescription": "Découvrez des cadeaux en bois faits main pour lecteurs, amoureux des chats et intérieurs chaleureux avant de poursuivre sur Etsy pour les avis, les prix et la commande.",
+    "h1": "Cadeaux en bois faits main pour lecteurs, amoureux des chats et intérieurs chaleureux",
     "eyebrow": "4,96/5 sur Etsy",
-    "intro": "Commencez par les pièces les plus choisies : des sous-verres gravés, des marque-pages et quelques idées cadeaux pleines de caractère à comparer tranquillement avant de poursuivre sur Etsy.",
-    "heroSupport": "Voyez d'abord les sets de sous-verres les plus appréciés, puis explorez par occasion ou par collection si vous voulez plus d'options.",
+    "intro": "Parcourez des sets de sous-verres, des marque-pages en bois et quelques idées cadeaux chaleureuses au même endroit avant d'ouvrir Etsy pour les avis, les prix et la commande.",
+    "heroSupport": "Commencez par les meilleures ventes si vous voulez le chemin le plus rapide, ou allez directement vers un thème cadeau si vous savez déjà pour qui vous achetez.",
     "discoveryCta": {
-      "label": "Découvrir les meilleures ventes",
+      "label": "Voir les meilleures ventes",
       "target": "#featured-bestsellers"
     },
     "primaryCta": {
-      "label": "Voir Craftygiftsplace sur Etsy",
+      "label": "Ouvrir Craftygiftsplace sur Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
+    "heroFacts": [
+      "Fait main à la commande",
+      "Personnalisation sur de nombreux articles",
+      "Avis et commande sur Etsy"
+    ],
     "heroProducts": [
       "tree-of-life-wooden-coasters",
       "dragon-eye-wooden-bookmark",
@@ -25,39 +30,39 @@
     ],
     "sections": {
       "featuredCategories": {
-        "heading": "Catégories mises en avant",
-        "intro": "Commencez par les thèmes cadeaux les plus recherchés."
+        "heading": "Choisir par destinataire ou occasion",
+        "intro": "Partez du destinataire ou du moment quand le type de produit n'est pas encore fixé."
       },
       "bestsellers": {
-        "heading": "Meilleures ventes",
-        "intro": "Trois bonnes options pour partir d'un choix déjà apprécié."
+        "heading": "Commencer par les meilleures ventes",
+        "intro": "Ce sont les premiers clics les plus simples si vous voulez une valeur sûre."
       },
       "occasions": {
         "heading": "Par occasion",
         "intro": "Vous avez déjà l'occasion en tête ? Commencez ici."
       },
       "collections": {
-        "heading": "Par collection",
-        "intro": "Vous préférez partir du type de produit ? Explorez les collections principales."
+        "heading": "Parcourir les collections principales",
+        "intro": "Passez ici si le type de produit est déjà clair."
       },
       "support": {
         "heading": "Pourquoi les acheteurs reviennent",
         "intro": "Trois choses que les clients mentionnent encore et encore dans leurs avis."
       },
       "reviews": {
-        "heading": "Apprécié sur Etsy",
-        "intro": "Quelques avis courts qui renforcent la confiance."
+        "heading": "Des preuves venues d'Etsy",
+        "intro": "Quelques extraits d'avis qui rendent le clic vers Etsy plus facile."
       },
       "faq": {
-        "heading": "Questions utiles",
-        "intro": "Des réponses rapides avant de passer sur Etsy."
+        "heading": "Questions avant Etsy",
+        "intro": "Les réponses courtes que la plupart des visiteurs veulent avant de quitter ce site."
       }
     },
     "featuredCategories": [
       {
         "kicker": "Pour les amoureux des chats",
         "title": "Cadeaux pour amoureux des chats",
-        "description": "Allez directement vers des sous-verres et objets déco sur le thème du chat pour maisons chaleureuses et anniversaires.",
+        "description": "Des sous-verres et petites pièces déco sur le thème du chat, faciles à offrir et faciles à placer dans la maison.",
         "image": "/assets/img/products/cat-and-moon-coasters.jpg",
         "imageAlt": "Idée cadeau sous-verres chat et lune",
         "href": "/fr/pages/cadeaux-pour-amoureux-des-chats.html"
@@ -65,17 +70,17 @@
       {
         "kicker": "Pour les lecteurs",
         "title": "Cadeaux pour lecteurs",
-        "description": "Découvrez des marque-pages, des coffrets pour lecteurs de fantasy et des objets pour coins lecture pensés pour les amoureux des livres.",
-        "image": "/assets/img/products/desert-saga-bookmark.jpg",
-        "imageAlt": "Marque-page Desert Saga en bois sur un livre ouvert",
+        "description": "Des marque-pages, des pièces fantasy et des cadeaux pour coin lecture pensés pour les lecteurs qui aiment les détails personnels.",
+        "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+        "imageAlt": "Marque-page Dragon Eye en bois sur un livre de fantasy",
         "href": "/fr/pages/cadeaux-pour-lecteurs.html"
       },
       {
         "kicker": "Pour les nouveaux intérieurs",
         "title": "Cadeaux de crémaillère",
-        "description": "Parcourez des pièces en bois utiles pour tables basses, étagères et cadeaux de maison bien choisis.",
-        "image": "/assets/img/products/coaster-botanical.jpg",
-        "imageAlt": "Sous-verres botaniques en bois sur une table",
+        "description": "Des pièces en bois utiles pour tables basses, étagères et cadeaux de maison qui restent choisis avec intention.",
+        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+        "imageAlt": "Sous-verres zodiac en bois pour crémaillère",
         "href": "/fr/pages/cadeaux-de-cremaillere.html"
       }
     ],

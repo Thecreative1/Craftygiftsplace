@@ -1,18 +1,23 @@
 {
   "title": "Handgemachte Holzuntersetzer, Lesezeichen und besondere Geschenke | Craftygiftsplace",
-  "metaDescription": "Entdecke beliebte Holzuntersetzer, Lesezeichen und handgemachte Geschenke, bevor du für alle Details und die Bestellung zu Etsy wechselst.",
-  "h1": "Handgemachte Holzgeschenke, die man sich näher ansehen möchte",
+  "metaDescription": "Entdecke handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume und wechsle danach zu Etsy für Bewertungen, Preise und Bestellung.",
+  "h1": "Handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume",
   "eyebrow": "4.96/5 auf Etsy",
-  "intro": "Starte mit den Stücken, die am häufigsten gekauft werden: gravierte Holzuntersetzer, Lesezeichen und einige besondere Geschenkideen, die du hier in Ruhe vergleichen kannst, bevor es weiter zu Etsy geht.",
-  "heroSupport": "Sieh dir zuerst die meistverkauften Untersetzer-Sets an und stöbere danach nach Anlass oder Kollektion weiter.",
+  "intro": "Sieh dir Bestseller-Untersetzer, Holzlesezeichen und einige warme Geschenkideen an einem Ort an, bevor du für Bewertungen, Preise und Bestellung zu Etsy wechselst.",
+  "heroSupport": "Starte mit den Bestsellern, wenn du schneller entscheiden willst, oder gehe direkt zu einem Geschenkthema, wenn die Person schon feststeht.",
   "discoveryCta": {
-    "label": "Bestseller entdecken",
+    "label": "Bestseller ansehen",
     "target": "#featured-bestsellers"
   },
   "primaryCta": {
-    "label": "Craftygiftsplace auf Etsy ansehen",
+    "label": "Craftygiftsplace auf Etsy öffnen",
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
+  "heroFacts": [
+    "Handgemacht auf Bestellung",
+    "Personalisierung bei vielen Artikeln",
+    "Bewertungen und Bestellung auf Etsy"
+  ],
   "heroProducts": [
     "tree-of-life-wooden-coasters",
     "dragon-eye-wooden-bookmark",
@@ -20,39 +25,39 @@
   ],
   "sections": {
     "featuredCategories": {
-      "heading": "Beliebte Kategorien",
-      "intro": "Starte mit den Geschenkthemen, nach denen Besucher am häufigsten suchen."
+      "heading": "Nach Empfänger oder Anlass",
+      "intro": "Wähle nach Person oder Moment, wenn der Produkttyp noch nicht feststeht."
     },
     "bestsellers": {
-      "heading": "Bestseller",
-      "intro": "Drei starke Einstiege, wenn jemand schnell einen bewährten Favoriten sehen möchte."
+      "heading": "Mit Bestsellern starten",
+      "intro": "Das sind die leichtesten ersten Klicks für einen bewährten Favoriten."
     },
     "occasions": {
       "heading": "Nach Anlass shoppen",
       "intro": "Lieber zuerst nach Anlass wählen? Dann starte hier."
     },
     "collections": {
-      "heading": "Nach Kollektion stöbern",
-      "intro": "Wenn du lieber nach Produkttyp suchst, nimm die Hauptkollektionen."
+      "heading": "Kernkollektionen ansehen",
+      "intro": "Gehe hier weiter, wenn der Produkttyp schon klar ist."
     },
     "support": {
       "heading": "Warum Käufer gerne wiederkommen",
       "intro": "Drei Dinge, die Kunden in ihren Bewertungen immer wieder erwähnen."
     },
     "reviews": {
-      "heading": "Beliebt auf Etsy",
-      "intro": "Ein paar kurze Bewertungen, die Qualität und Vertrauen unterstreichen."
+      "heading": "Stimmen von Etsy-Käufern",
+      "intro": "Kurze Bewertungszitate, die den Klick zu Etsy leichter machen."
     },
     "faq": {
-      "heading": "Hilfreiche Fragen",
-      "intro": "Schnelle Antworten, bevor jemand zu Etsy weiterklickt."
+      "heading": "Fragen vor Etsy",
+      "intro": "Die kurzen Antworten, die Besucher meist zuerst wissen wollen."
     }
   },
   "featuredCategories": [
     {
       "kicker": "Für Katzenliebhaber",
       "title": "Geschenke für Katzenliebhaber",
-      "description": "Gehe direkt zu Untersetzern und warmer Holzdeko mit Katzenmotiv für gemütliche Wohnungen und Geburtstage.",
+      "description": "Untersetzer und kleine Holzdeko mit Katzenmotiv, die warm, gut verschenkbar und leicht in der Wohnung zu platzieren sind.",
       "image": "/assets/img/products/cat-and-moon-coasters.jpg",
       "imageAlt": "Katze und Mond Holzuntersetzer als Geschenkidee",
       "href": "/de/pages/geschenke-fuer-katzenliebhaber.html"
@@ -60,17 +65,17 @@
     {
       "kicker": "Für Leser",
       "title": "Geschenke für Leser",
-      "description": "Sieh dir Lesezeichen, Fantasy-Sets und Ideen für die Leseecke für Bücherfans und ruhige Regale an.",
-      "image": "/assets/img/products/desert-saga-bookmark.jpg",
-      "imageAlt": "Desert Saga Holzlesezeichen auf einem offenen Buch",
+      "description": "Lesezeichen, Fantasy-Stücke und Geschenke für die Leseecke von Bücherfans, die persönliche Details mögen.",
+      "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+      "imageAlt": "Dragon Eye Holzlesezeichen auf einem Fantasybuch",
       "href": "/de/pages/geschenke-fuer-leser.html"
     },
     {
       "kicker": "Für neue Wohnungen",
       "title": "Einzugsgeschenke",
-      "description": "Entdecke nützliche Holzstücke für Couchtische, Regale und liebevolle Geschenke zum Einzug.",
-      "image": "/assets/img/products/coaster-botanical.jpg",
-      "imageAlt": "Botanische Holzuntersetzer auf einem Tisch",
+      "description": "Nützliche Holzstücke für Couchtische, Regale und Einzugsgeschenke, die trotzdem bewusst gewählt wirken.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Sternzeichen Holzuntersetzer als Einzugsgeschenk",
       "href": "/de/pages/einzugsgeschenke.html"
     }
   ],
@@ -114,21 +119,21 @@
   "collectionCards": [
     {
       "title": "Holzuntersetzer",
-      "description": "Beliebte Untersetzer-Sets mit himmlischen, Natur-, Wikinger- und anderen markanten Motiven für Tische, Regale und Einzugsgeschenke.",
+      "description": "Gravierte Untersetzer-Sets für gemütliche Tische, Einzugsgeschenke und Käufer, die direkt mit der stärksten Kollektion beginnen wollen.",
       "image": "/assets/img/products/coaster-floral.jpg",
       "imageAlt": "Blumenmotiv Holzuntersetzer neben einer Tasse",
       "href": "/de/pages/holzuntersetzer.html"
     },
     {
       "title": "Holzlesezeichen",
-      "description": "Lesezeichen und Geschenkideen für Fantasy-Leser, Lesetagebücher und ruhige Leseabende.",
+      "description": "Handgemachte Lesezeichen und Lesergeschenke in Fantasy-, klassischen und personalisierten Stilen.",
       "image": "/assets/img/products/bookmark-wood.jpg",
       "imageAlt": "Holzlesezeichen auf einem offenen Buch",
       "href": "/de/pages/holzlesezeichen.html"
     },
     {
       "title": "Holzgeschenke",
-      "description": "Türhänger, Teelichthalter, Erinnerungsstücke und Deko für Regale, Eingänge und besondere Anlässe.",
+      "description": "Teelichthalter, Türschilder und Erinnerungsstücke für Regale, Eingänge und ruhigere Geschenkmomente.",
       "image": "/assets/img/products/gift-home-decor.jpg",
       "imageAlt": "Holz-Andenken in gemütlicher Wohnatmosphäre",
       "href": "/de/pages/holzgeschenke.html"

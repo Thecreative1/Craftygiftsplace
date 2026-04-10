@@ -5,19 +5,24 @@
     "template": "home",
     "locale": "pt",
     "title": "Porta-copos de madeira, marcadores de livros e presentes com significado | Craftygiftsplace",
-    "metaDescription": "Descobre os porta-copos, marcadores de livros e presentes de madeira mais vendidos antes de seguir para a Etsy para ver todos os detalhes.",
-    "h1": "Presentes de madeira feitos à mão que vale a pena descobrir",
+    "metaDescription": "Descobre presentes em madeira feitos à mão para leitores, amantes de gatos e casas acolhedoras antes de seguir para a Etsy para ver avaliações, preços e encomendar.",
+    "h1": "Presentes em madeira feitos à mão para leitores, amantes de gatos e casas acolhedoras",
     "eyebrow": "4,96/5 na Etsy",
-    "intro": "Começa pelas peças que mais se vendem: porta-copos gravados, marcadores de livros e algumas ideias de presente com personalidade que podes comparar com calma antes de ir para a Etsy.",
-    "heroSupport": "Vê primeiro os conjuntos de porta-copos mais vendidos e depois navega por ocasião ou por coleção se quiseres mais opções.",
+    "intro": "Vê conjuntos best-seller de porta-copos, marcadores de livros em madeira e algumas ideias de presente acolhedoras num só lugar antes de abrir a Etsy para avaliações, preços e encomendar.",
+    "heroSupport": "Começa pelos best-sellers se quiseres a escolha mais rápida, ou vai diretamente para um tema de presente se já souberes para quem é.",
     "discoveryCta": {
-      "label": "Descobrir os mais vendidos",
+      "label": "Ver best-sellers",
       "target": "#featured-bestsellers"
     },
     "primaryCta": {
-      "label": "Ver Craftygiftsplace na Etsy",
+      "label": "Abrir Craftygiftsplace na Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
+    "heroFacts": [
+      "Feito à mão por encomenda",
+      "Personalização em muitos artigos",
+      "Avaliações e encomenda na Etsy"
+    ],
     "heroProducts": [
       "tree-of-life-wooden-coasters",
       "dragon-eye-wooden-bookmark",
@@ -25,39 +30,39 @@
     ],
     "sections": {
       "featuredCategories": {
-        "heading": "Categorias em destaque",
-        "intro": "Começa pelos temas de presente que as pessoas mais procuram."
+        "heading": "Escolher por destinatário ou ocasião",
+        "intro": "Começa pela pessoa ou pelo momento quando o tipo de produto ainda não está definido."
       },
       "bestsellers": {
-        "heading": "Mais vendidos",
-        "intro": "Três bons pontos de partida se quiseres uma escolha já comprovada."
+        "heading": "Começa pelos best-sellers",
+        "intro": "São os cliques mais fáceis para quem quer uma escolha já comprovada."
       },
       "occasions": {
         "heading": "Comprar por ocasião",
         "intro": "Já tens a ocasião em mente? Começa por estas páginas."
       },
       "collections": {
-        "heading": "Comprar por coleção",
-        "intro": "Preferes começar pelo tipo de produto? Usa as coleções principais."
+        "heading": "Ver as coleções principais",
+        "intro": "Entra aqui se o tipo de produto já estiver claro."
       },
       "support": {
         "heading": "Porque os compradores voltam",
         "intro": "Três coisas que os clientes mencionam repetidamente nas suas avaliações."
       },
       "reviews": {
-        "heading": "Adorado na Etsy",
-        "intro": "Algumas avaliações curtas que reforçam qualidade e confiança."
+        "heading": "Provas vindas da Etsy",
+        "intro": "Alguns excertos de avaliações que tornam o clique para a Etsy mais fácil."
       },
       "faq": {
-        "heading": "Perguntas úteis",
-        "intro": "Respostas rápidas antes de seguir para a Etsy."
+        "heading": "Perguntas antes da Etsy",
+        "intro": "As respostas curtas que a maioria quer ver antes de sair deste site."
       }
     },
     "featuredCategories": [
       {
         "kicker": "Para amantes de gatos",
         "title": "Presentes para amantes de gatos",
-        "description": "Vai diretamente para porta-copos e decoração com tema felino para casas acolhedoras e aniversários.",
+        "description": "Porta-copos e pequenas peças em madeira com tema felino, acolhedoras, fáceis de oferecer e fáceis de colocar em casa.",
         "image": "/assets/img/products/cat-and-moon-coasters.jpg",
         "imageAlt": "Ideia de presente porta-copos gato e lua",
         "href": "/pt/pages/presentes-para-amantes-de-gatos.html"
@@ -65,17 +70,17 @@
       {
         "kicker": "Para leitores",
         "title": "Presentes para leitores",
-        "description": "Descobre marcadores, conjuntos de fantasia e peças para cantos de leitura pensadas para quem gosta de livros.",
-        "image": "/assets/img/products/desert-saga-bookmark.jpg",
-        "imageAlt": "Marcador Desert Saga em madeira sobre um livro aberto",
+        "description": "Marcadores, peças de fantasia e presentes para cantos de leitura pensados para leitores que gostam de detalhes pessoais.",
+        "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+        "imageAlt": "Marcador Dragon Eye em madeira sobre um livro de fantasia",
         "href": "/pt/pages/presentes-para-leitores.html"
       },
       {
         "kicker": "Para casas novas",
         "title": "Presentes de casa nova",
-        "description": "Explora peças em madeira úteis para mesas de centro, prateleiras e presentes de mudança bem escolhidos.",
-        "image": "/assets/img/products/coaster-botanical.jpg",
-        "imageAlt": "Porta-copos botânicos de madeira numa mesa",
+        "description": "Peças em madeira úteis para mesas de centro, prateleiras e presentes de casa nova que continuam a parecer escolhidos com intenção.",
+        "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+        "imageAlt": "Porta-copos zodiac em madeira para casa nova",
         "href": "/pt/pages/presentes-de-casa-nova.html"
       }
     ],

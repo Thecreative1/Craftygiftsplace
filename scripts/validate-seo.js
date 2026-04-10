@@ -258,10 +258,9 @@ const bestsellerSupportSlugs = new Set([
 
 const HOME_SECTION_ORDER = [
   "hero-home",
-  "featured-categories",
   "featured-bestsellers",
+  "featured-categories",
   "collections",
-  "how-it-works",
   "reviews",
   "faq"
 ];

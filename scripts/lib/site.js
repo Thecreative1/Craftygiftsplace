@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const repoRoot = path.resolve(__dirname, "..", "..");
-const siteUrl = "https://thecreative1.github.io/Craftygiftsplace";
+const siteUrl = process.env.SITE_URL || "https://craftygiftsplace.store";
 const xDefaultPath = "/en/";
 
 function readText(relativePath) {

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thecreative1.github.io/Craftygiftsplace/sitemap.xml
+Sitemap: https://craftygiftsplace.store/sitemap.xml

@@ -1,18 +1,23 @@
 {
   "title": "Handmade Wooden Coasters, Bookmarks and Thoughtful Gifts | Craftygiftsplace",
-  "metaDescription": "Browse bestselling wooden coasters, bookmarks and thoughtful handmade gifts before heading to Etsy for full details and ordering.",
-  "h1": "Handmade wooden gifts worth a closer look",
+  "metaDescription": "Browse handmade wooden gifts for readers, cat lovers and cozy homes, then head to Etsy for reviews, pricing and checkout.",
+  "h1": "Handmade wooden gifts for readers, cat lovers and cozy homes",
   "eyebrow": "4.96/5 on Etsy",
-  "intro": "Start with the pieces people buy most: engraved wooden coasters, bookmarks and a few thoughtful gift ideas that are easy to compare before heading to Etsy.",
-  "heroSupport": "See the bestselling coaster sets first, then browse by occasion or collection when you want more options.",
+  "intro": "Browse bestselling coaster sets, wooden bookmarks and a few warm gift ideas in one place before you head to Etsy for reviews, pricing and checkout.",
+  "heroSupport": "Start with the bestsellers if you want the quickest pick, or jump straight to a gift theme if you already know who it's for.",
   "discoveryCta": {
-    "label": "Discover bestselling gifts",
+    "label": "See bestselling gifts",
     "target": "#featured-bestsellers"
   },
   "primaryCta": {
-    "label": "Shop Craftygiftsplace on Etsy",
+    "label": "Open Craftygiftsplace on Etsy",
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
+  "heroFacts": [
+    "Handmade to order",
+    "Personalization on many items",
+    "Reviews and checkout on Etsy"
+  ],
   "heroProducts": [
     "tree-of-life-wooden-coasters",
     "dragon-eye-wooden-bookmark",
@@ -20,39 +25,39 @@
   ],
   "sections": {
     "featuredCategories": {
-      "heading": "Featured Categories",
-      "intro": "Start with the gift themes shoppers look for most often."
+      "heading": "Shop by recipient or occasion",
+      "intro": "Choose by recipient or occasion when the product type is not clear yet."
     },
     "bestsellers": {
-      "heading": "Bestselling Gifts",
-      "intro": "Three strong starting points if you want a quick, proven pick."
+      "heading": "Start with bestselling gifts",
+      "intro": "These are the easiest first clicks if you want a proven favorite."
     },
     "occasions": {
       "heading": "Shop by occasion",
       "intro": "Need the right gifting moment first? Start with these pages."
     },
     "collections": {
-      "heading": "Browse by collection",
-      "intro": "Prefer browsing by product type? Use the core collections."
+      "heading": "Browse the core collections",
+      "intro": "Go here if the product type is already clear."
     },
     "support": {
       "heading": "Why shoppers love Craftygiftsplace",
       "intro": "Three things customers mention again and again in their reviews."
     },
     "reviews": {
-      "heading": "Loved on Etsy",
-      "intro": "A few short reviews that reinforce quality and trust."
+      "heading": "Proof from Etsy buyers",
+      "intro": "Short review highlights that make the click-through easier."
     },
     "faq": {
-      "heading": "Helpful questions",
-      "intro": "Quick answers before someone clicks through to Etsy."
+      "heading": "Questions before Etsy",
+      "intro": "The short answers most shoppers want before they leave this site."
     }
   },
   "featuredCategories": [
     {
       "kicker": "For cat lovers",
       "title": "Cat lover gifts",
-      "description": "Go straight to cat-themed coasters and warm wooden decor for cozy homes and birthdays.",
+      "description": "Cat-themed coasters and small wooden decor that feel warm, giftable and easy to place in the home.",
       "image": "/assets/img/products/cat-and-moon-coasters.jpg",
       "imageAlt": "Cat and Moon wooden coasters gift idea",
       "href": "/en/pages/cat-lover-gifts.html"
@@ -60,17 +65,17 @@
     {
       "kicker": "For readers",
       "title": "Reader gifts",
-      "description": "See bookmarks, fantasy sets and reading nook pieces for book lovers and cozy shelves.",
-      "image": "/assets/img/products/desert-saga-bookmark.jpg",
-      "imageAlt": "Desert Saga wooden bookmark on an open book",
+      "description": "Bookmarks, fantasy pieces and reading-nook gifts for book lovers who like personal details.",
+      "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+      "imageAlt": "Dragon Eye wooden bookmark on a fantasy book",
       "href": "/en/pages/reader-gifts.html"
     },
     {
       "kicker": "For new homes",
       "title": "Housewarming gifts",
-      "description": "Browse useful wooden pieces for coffee tables, shelves and thoughtful new-home gifts.",
-      "image": "/assets/img/products/coaster-botanical.jpg",
-      "imageAlt": "Botanical wooden coasters styled on a table",
+      "description": "Useful wooden pieces for coffee tables, shelves and new-home gifting that still feel chosen.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Zodiac wooden coasters for housewarming gifting",
       "href": "/en/pages/housewarming-gifts.html"
     }
   ],
@@ -114,21 +119,21 @@
   "collectionCards": [
     {
       "title": "Wooden coasters",
-      "description": "Bestselling coaster sets with celestial, nature, Norse and other standout designs for tables, shelves and housewarming gifts.",
+      "description": "Engraved coaster sets for cozy tables, housewarming gifts and shoppers who want the strongest category first.",
       "image": "/assets/img/products/coaster-floral.jpg",
       "imageAlt": "Floral wooden coasters beside a mug",
       "href": "/en/pages/wooden-coasters.html"
     },
     {
       "title": "Wooden bookmarks",
-      "description": "Reader-focused bookmarks and gift sets for fantasy readers, reading journals and quiet evenings.",
+      "description": "Handmade bookmarks and reader gift ideas in fantasy, classic and personalized styles.",
       "image": "/assets/img/products/bookmark-wood.jpg",
       "imageAlt": "Wooden bookmark resting on an open book",
       "href": "/en/pages/wooden-bookmarks.html"
     },
     {
       "title": "Wooden gifts",
-      "description": "Door hangers, tealight holders, keepsakes and decor pieces for shelves, entryways and milestone gifts.",
+      "description": "Tealight holders, door hangers and keepsake pieces for shelves, entryways and quieter gifting moments.",
       "image": "/assets/img/products/gift-home-decor.jpg",
       "imageAlt": "Wooden keepsake held in a cozy home setting",
       "href": "/en/pages/wooden-gifts.html"

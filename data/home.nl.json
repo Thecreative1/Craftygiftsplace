@@ -1,18 +1,23 @@
 {
   "title": "Handgemaakte houten onderzetters, bladwijzers en betekenisvolle cadeaus | Craftygiftsplace",
-  "metaDescription": "Bekijk bestverkochte houten onderzetters, bladwijzers en handgemaakte cadeaus voordat je doorklikt naar Etsy voor alle details en bestellen.",
-  "h1": "Handgemaakte houten cadeaus die het waard zijn om te bekijken",
+  "metaDescription": "Bekijk handgemaakte houten cadeaus voor lezers, kattenliefhebbers en gezellige huizen en ga daarna naar Etsy voor reviews, prijzen en bestellen.",
+  "h1": "Handgemaakte houten cadeaus voor lezers, kattenliefhebbers en gezellige huizen",
   "eyebrow": "4.96/5 op Etsy",
-  "intro": "Begin met de stukken die het vaakst gekozen worden: gegraveerde houten onderzetters, bladwijzers en een paar betekenisvolle cadeau-ideeën die je hier rustig kunt vergelijken voordat je naar Etsy gaat.",
-  "heroSupport": "Bekijk eerst de bestverkochte onderzettersets en blader daarna per gelegenheid of collectie als je meer opties wilt zien.",
+  "intro": "Bekijk bestverkochte onderzettersets, houten bladwijzers en een paar warme cadeau-ideeën op één plek voordat je naar Etsy gaat voor reviews, prijzen en bestellen.",
+  "heroSupport": "Begin bij de bestsellers als je snel wilt kiezen, of ga direct naar een cadeauthema als je al weet voor wie het is.",
   "discoveryCta": {
-    "label": "Ontdek bestsellers",
+    "label": "Bekijk bestsellers",
     "target": "#featured-bestsellers"
   },
   "primaryCta": {
-    "label": "Bekijk Craftygiftsplace op Etsy",
+    "label": "Open Craftygiftsplace op Etsy",
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
+  "heroFacts": [
+    "Handgemaakt op bestelling",
+    "Personalisatie op veel items",
+    "Reviews en bestellen via Etsy"
+  ],
   "heroProducts": [
     "tree-of-life-wooden-coasters",
     "dragon-eye-wooden-bookmark",
@@ -20,39 +25,39 @@
   ],
   "sections": {
     "featuredCategories": {
-      "heading": "Uitgelichte categorieën",
-      "intro": "Begin bij de cadeauthema's waar bezoekers het vaakst op zoeken."
+      "heading": "Shop op ontvanger of moment",
+      "intro": "Kies op ontvanger of gelegenheid als het producttype nog niet vaststaat."
     },
     "bestsellers": {
-      "heading": "Bestverkochte cadeaus",
-      "intro": "Drie sterke startpunten als iemand snel een bewezen favoriet wil zien."
+      "heading": "Begin met bestsellers",
+      "intro": "Dit zijn de makkelijkste eerste klikken voor een bewezen favoriet."
     },
     "occasions": {
       "heading": "Shop per gelegenheid",
       "intro": "Kies je liever eerst op gelegenheid? Begin dan hier."
     },
     "collections": {
-      "heading": "Blader per collectie",
-      "intro": "Kijk je liever per producttype? Gebruik dan de hoofdcollecties."
+      "heading": "Blader door hoofdcollecties",
+      "intro": "Ga hierheen als het producttype al duidelijk is."
     },
     "support": {
       "heading": "Waarom kopers terugkomen",
       "intro": "Drie dingen die klanten keer op keer noemen in hun reviews."
     },
     "reviews": {
-      "heading": "Geliefd op Etsy",
-      "intro": "Een paar korte reviews die kwaliteit en vertrouwen versterken."
+      "heading": "Bewijs van Etsy-kopers",
+      "intro": "Korte reviewfragmenten die doorklikken makkelijker maken."
     },
     "faq": {
-      "heading": "Handige vragen",
-      "intro": "Snelle antwoorden voordat iemand doorklikt naar Etsy."
+      "heading": "Vragen voor Etsy",
+      "intro": "De korte antwoorden die de meeste bezoekers eerst willen."
     }
   },
   "featuredCategories": [
     {
       "kicker": "Katcadeaus",
       "title": "Cadeaus voor kattenliefhebbers",
-      "description": "Ga direct naar onderzetters en warme houten decoratie met kattenthema voor gezellige huizen en verjaardagen.",
+      "description": "Onderzetters en kleine houten decoratie met kattenthema die warm, goed te geven en makkelijk te plaatsen zijn.",
       "image": "/assets/img/products/cat-and-moon-coasters.jpg",
       "imageAlt": "Kat en maan houten onderzetters als cadeau-idee",
       "href": "/pages/cadeaus-voor-kattenliefhebbers.html"
@@ -60,17 +65,17 @@
     {
       "kicker": "Boekcadeaus",
       "title": "Lezerscadeaus",
-      "description": "Bekijk bladwijzers, fantasy-sets en leeshoekideeën voor boekenliefhebbers en rustige planken.",
-      "image": "/assets/img/products/desert-saga-bookmark.jpg",
-      "imageAlt": "Desert Saga houten bladwijzer op een open boek",
+      "description": "Bladwijzers, fantasystukken en cadeaus voor de leeshoek van boekenliefhebbers die van persoonlijke details houden.",
+      "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+      "imageAlt": "Dragon Eye houten bladwijzer op een fantasyboek",
       "href": "/pages/lezerscadeaus.html"
     },
     {
       "kicker": "Nieuwe woning",
       "title": "Verhuiscadeaus",
-      "description": "Bekijk bruikbare houten stukken voor salontafels, planken en doordachte cadeaus voor een nieuw huis.",
-      "image": "/assets/img/products/coaster-botanical.jpg",
-      "imageAlt": "Botanische houten onderzetters op tafel",
+      "description": "Bruikbare houten stukken voor salontafels, planken en verhuiscadeaus die toch bewust gekozen voelen.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Zodiac houten onderzetters als verhuiscadeau",
       "href": "/pages/verhuiscadeaus.html"
     }
   ],
@@ -114,21 +119,21 @@
   "collectionCards": [
     {
       "title": "Houten onderzetters",
-      "description": "Bestverkochte onderzettersets met hemelse, natuur-, Viking- en andere uitgesproken ontwerpen voor tafels, planken en cadeaus met karakter.",
+      "description": "Gegraveerde onderzettersets voor gezellige tafels, verhuiscadeaus en kopers die meteen bij de sterkste categorie willen beginnen.",
       "image": "/assets/img/products/coaster-floral.jpg",
       "imageAlt": "Bloemmotief houten onderzetters naast een mok",
       "href": "/pages/onderzetters.html"
     },
     {
       "title": "Houten bladwijzers",
-      "description": "Lezersgerichte bladwijzers en boekcadeaus voor fantasylezers, leesjournalen en rustige leesmomenten.",
+      "description": "Handgemaakte bladwijzers en lezerscadeaus in fantasy-, klassieke en personaliseerbare stijlen.",
       "image": "/assets/img/products/bookmark-wood.jpg",
       "imageAlt": "Houten bladwijzer op een open boek",
       "href": "/pages/bladwijzers.html"
     },
     {
       "title": "Houten cadeaus",
-      "description": "Deurhangers, theelichthouders, herinneringscadeaus en decoratie voor planken, entrees en bijzondere gelegenheden.",
+      "description": "Theelichthouders, deurhangers en herinneringsstukken voor planken, entrees en rustigere cadeaumomenten.",
       "image": "/assets/img/products/gift-home-decor.jpg",
       "imageAlt": "Houten aandenken in een gezellige woonsetting",
       "href": "/pages/houten-cadeaus.html"

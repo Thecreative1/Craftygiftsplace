@@ -1,6 +1,6 @@
 <article class="product-card">
   <div class="card-media">
-    <img src="{{image}}" alt="{{alt}}" width="600" height="600" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" />
+    <img src="{{image}}" srcset="{{imageSrcset}}" sizes="{{imageSizes}}" alt="{{alt}}" width="600" height="600" loading="{{loading}}" decoding="async" fetchpriority="{{fetchpriority}}" referrerpolicy="no-referrer" />
   </div>
   <div class="card-body">
     <div class="product-meta">
@@ -8,6 +8,6 @@
     </div>
     <h3>{{title}}</h3>
     <p>{{description}}</p>
-    <a class="btn" href="{{ctaUrl}}" target="_blank" rel="noopener" aria-label="{{ctaLabel}}" title="{{ctaLabel}}">{{ctaLabel}}</a>
+    <a class="btn" href="{{ctaUrl}}" target="_blank" rel="noopener" aria-label="{{ctaLabel}}" title="{{ctaLabel}}">{{ctaText}}</a>
   </div>
 </article>

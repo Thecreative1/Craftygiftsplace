@@ -1,18 +1,23 @@
 {
   "title": "Posavasos de madera, marcapáginas y regalos con carácter | Craftygiftsplace",
-  "metaDescription": "Descubre los posavasos, marcapáginas y regalos de madera más vendidos antes de pasar a Etsy para ver todos los detalles.",
-  "h1": "Regalos de madera hechos a mano que merece la pena descubrir",
+  "metaDescription": "Descubre regalos de madera hechos a mano para lectores, amantes de los gatos y hogares acogedores antes de pasar a Etsy para ver reseñas, precios y comprar.",
+  "h1": "Regalos de madera hechos a mano para lectores, amantes de los gatos y hogares acogedores",
   "eyebrow": "4,96/5 en Etsy",
-  "intro": "Empieza por las piezas que más se venden: posavasos grabados, marcapáginas y algunas ideas de regalo con personalidad que puedes comparar con calma antes de ir a Etsy.",
-  "heroSupport": "Mira primero los sets de posavasos más vendidos y después navega por ocasión o por colección si quieres ver más opciones.",
+  "intro": "Revisa sets superventas de posavasos, marcapáginas de madera y algunas ideas de regalo cálidas en un solo lugar antes de abrir Etsy para ver reseñas, precios y comprar.",
+  "heroSupport": "Empieza por los superventas si quieres la ruta más rápida, o entra directamente en un tema de regalo si ya sabes para quién es.",
   "discoveryCta": {
-    "label": "Descubrir los más vendidos",
+    "label": "Ver superventas",
     "target": "#featured-bestsellers"
   },
   "primaryCta": {
-    "label": "Ver Craftygiftsplace en Etsy",
+    "label": "Abrir Craftygiftsplace en Etsy",
     "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
+  "heroFacts": [
+    "Hecho a mano por encargo",
+    "Personalización en muchos artículos",
+    "Reseñas y compra en Etsy"
+  ],
   "heroProducts": [
     "tree-of-life-wooden-coasters",
     "dragon-eye-wooden-bookmark",
@@ -20,39 +25,39 @@
   ],
   "sections": {
     "featuredCategories": {
-      "heading": "Categorías destacadas",
-      "intro": "Empieza por los temas de regalo que más buscan los compradores."
+      "heading": "Elegir por destinatario u ocasión",
+      "intro": "Empieza por la persona o el momento cuando el tipo de producto todavía no está claro."
     },
     "bestsellers": {
-      "heading": "Regalos más vendidos",
-      "intro": "Tres puntos de partida claros si quieres una opción que ya funciona."
+      "heading": "Empieza por los superventas",
+      "intro": "Son los clics más fáciles para quien quiere una opción ya probada."
     },
     "occasions": {
       "heading": "Comprar por ocasión",
       "intro": "¿Ya sabes para qué ocasión es? Empieza por estas páginas."
     },
     "collections": {
-      "heading": "Comprar por colección",
-      "intro": "¿Prefieres empezar por el tipo de producto? Usa las colecciones principales."
+      "heading": "Ver las colecciones principales",
+      "intro": "Entra aquí si el tipo de producto ya está claro."
     },
     "support": {
       "heading": "Por qué los compradores vuelven",
       "intro": "Tres cosas que los clientes mencionan una y otra vez en sus reseñas."
     },
     "reviews": {
-      "heading": "Muy valorado en Etsy",
-      "intro": "Algunas reseñas breves que refuerzan la confianza."
+      "heading": "Pruebas desde Etsy",
+      "intro": "Algunos extractos de reseñas que hacen más fácil el clic hacia Etsy."
     },
     "faq": {
-      "heading": "Preguntas útiles",
-      "intro": "Respuestas rápidas antes de pasar a Etsy."
+      "heading": "Preguntas antes de Etsy",
+      "intro": "Las respuestas cortas que la mayoría quiere ver antes de salir de esta web."
     }
   },
   "featuredCategories": [
     {
       "kicker": "Para amantes de los gatos",
       "title": "Regalos para amantes de los gatos",
-      "description": "Ve directo a posavasos y decoración con temática felina para hogares acogedores y cumpleaños.",
+      "description": "Posavasos y pequeñas piezas de madera con temática felina, cálidas, regalables y fáciles de colocar en casa.",
       "image": "/assets/img/products/cat-and-moon-coasters.jpg",
       "imageAlt": "Idea de regalo posavasos gato y luna",
       "href": "/es/pages/regalos-para-amantes-de-los-gatos.html"
@@ -60,17 +65,17 @@
     {
       "kicker": "Para lectores",
       "title": "Regalos para lectores",
-      "description": "Descubre marcapáginas, sets de fantasía y piezas para rincones de lectura pensadas para amantes de los libros.",
-      "image": "/assets/img/products/desert-saga-bookmark.jpg",
-      "imageAlt": "Marcapáginas Desert Saga de madera sobre un libro abierto",
+      "description": "Marcapáginas, piezas de fantasía y regalos para rincones de lectura pensados para lectores que valoran los detalles personales.",
+      "image": "/assets/img/products/dragon-eye-bookmark.jpg",
+      "imageAlt": "Marcapáginas Dragon Eye de madera sobre un libro de fantasía",
       "href": "/es/pages/regalos-para-lectores.html"
     },
     {
       "kicker": "Para casas nuevas",
       "title": "Regalos para casa nueva",
-      "description": "Explora piezas de madera útiles para mesas de centro, estanterías y regalos de mudanza bien elegidos.",
-      "image": "/assets/img/products/coaster-botanical.jpg",
-      "imageAlt": "Posavasos botánicos de madera sobre una mesa",
+      "description": "Piezas de madera útiles para mesas de centro, estanterías y regalos para casa nueva que siguen pareciendo elegidos con intención.",
+      "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
+      "imageAlt": "Posavasos zodiac de madera para casa nueva",
       "href": "/es/pages/regalos-para-casa-nueva.html"
     }
   ],
