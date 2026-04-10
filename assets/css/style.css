@@ -463,8 +463,8 @@ h3 {
 h1 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(2.1rem, 4.7vw, 3.7rem);
-  max-width: 10ch;
+  font-size: clamp(1.85rem, 3.5vw, 2.9rem);
+  max-width: 15ch;
   letter-spacing: -0.035em;
 }
 
