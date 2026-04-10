@@ -8,7 +8,7 @@
     "metaDescription": "Browse handmade wooden gifts for readers, cat lovers and cozy homes, then head to Etsy for reviews, pricing and checkout.",
     "h1": "Handmade wooden gifts for readers, cat lovers and cozy homes",
     "eyebrow": "4.96/5 on Etsy",
-    "intro": "Browse bestselling coaster sets, wooden bookmarks and a few warm gift ideas in one place before you head to Etsy for reviews, pricing and checkout.",
+    "intro": "Browse bestselling wooden gifts, then head to Etsy for reviews, pricing and checkout.",
     "heroImage": "/assets/img/products/moon-cat-tealight-holder.jpg",
     "heroImageAlt": "Moon Cat wooden tealight holder by Craftygiftsplace",
     "heroCaption": "Moon Cat tealight holder",
@@ -152,9 +152,9 @@
       "label": "Open the Etsy shop",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
-    "heroSupport": "Start with the bestsellers if you want the quickest pick, or jump straight to a gift theme if you already know who it's for.",
+    "heroSupport": "Start with bestsellers or shop by occasion.",
     "discoveryCta": {
-      "label": "See bestselling gifts",
+      "label": "See bestsellers",
       "target": "#featured-bestsellers"
     },
     "heroFacts": [

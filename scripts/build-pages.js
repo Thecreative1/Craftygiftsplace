@@ -55,7 +55,7 @@ const text = {
     reviewsHeading: "Loved on Etsy",
     reviewsIntro: "A few short reviews that reinforce quality and trust.",
     cardCtaText: "View on Etsy",
-    pageNote: "Use this page to narrow the choice, then open Etsy for pricing, reviews and ordering.",
+    pageNote: "Compare here, then open Etsy for pricing, reviews and checkout.",
     heroFactsLabel: "Why this store feels safe to browse"
   },
   nl: {
@@ -89,7 +89,7 @@ const text = {
     reviewsHeading: "Geliefd op Etsy",
     reviewsIntro: "Een paar korte reviews die kwaliteit en vertrouwen versterken.",
     cardCtaText: "Bekijk op Etsy",
-    pageNote: "Gebruik deze pagina om de keuze kleiner te maken en open daarna Etsy voor prijs, reviews en bestellen.",
+    pageNote: "Vergelijk hier en open daarna Etsy voor prijs, reviews en bestellen.",
     heroFactsLabel: "Waarom deze shop veilig voelt om te bekijken"
   },
   de: {
@@ -123,7 +123,7 @@ const text = {
     reviewsHeading: "Beliebt auf Etsy",
     reviewsIntro: "Ein paar kurze Bewertungen, die Qualität und Vertrauen unterstreichen.",
     cardCtaText: "Auf Etsy ansehen",
-    pageNote: "Nutze diese Seite, um die Auswahl einzugrenzen, und öffne danach Etsy für Preise, Bewertungen und Bestellung.",
+    pageNote: "Vergleiche hier und öffne danach Etsy für Preise, Bewertungen und Bestellung.",
     heroFactsLabel: "Warum sich diese Seite vertrauenswürdig anfühlt"
   },
   fr: {
@@ -157,7 +157,7 @@ const text = {
     reviewsHeading: "Aimé sur Etsy",
     reviewsIntro: "Quelques avis courts qui renforcent la confiance.",
     cardCtaText: "Voir sur Etsy",
-    pageNote: "Servez-vous de cette page pour faire le tri, puis ouvrez Etsy pour les prix, les avis et la commande.",
+    pageNote: "Comparez ici, puis ouvrez Etsy pour les prix, les avis et la commande.",
     heroFactsLabel: "Pourquoi cette boutique inspire confiance"
   },
   es: {
@@ -191,7 +191,7 @@ const text = {
     reviewsHeading: "Muy querido en Etsy",
     reviewsIntro: "Algunas reseñas breves que refuerzan calidad y confianza.",
     cardCtaText: "Ver en Etsy",
-    pageNote: "Usa esta página para acotar la elección y luego abre Etsy para ver precios, reseñas y comprar.",
+    pageNote: "Compara aquí y luego abre Etsy para ver precios, reseñas y comprar.",
     heroFactsLabel: "Por qué esta tienda transmite confianza"
   },
   pt: {
@@ -225,7 +225,7 @@ const text = {
     reviewsHeading: "Adorado na Etsy",
     reviewsIntro: "Algumas avaliações curtas que reforçam qualidade e confiança.",
     cardCtaText: "Ver na Etsy",
-    pageNote: "Usa esta página para reduzir a escolha e depois abre a Etsy para ver preços, avaliações e encomendar.",
+    pageNote: "Compara aqui e depois abre a Etsy para preços, avaliações e encomendar.",
     heroFactsLabel: "Porque esta loja transmite confiança"
   },
   it: {
@@ -259,7 +259,7 @@ const text = {
     reviewsHeading: "Amato su Etsy",
     reviewsIntro: "Alcune recensioni brevi che rafforzano qualità e fiducia.",
     cardCtaText: "Vedi su Etsy",
-    pageNote: "Usa questa pagina per restringere la scelta, poi apri Etsy per prezzi, recensioni e ordine.",
+    pageNote: "Confronta qui e poi apri Etsy per prezzi, recensioni e ordine.",
     heroFactsLabel: "Perché questo negozio ispira fiducia"
   }
 };
@@ -1391,18 +1391,20 @@ function renderSubpageIntro(page) {
   const secondaryAttrs = secondaryHref.startsWith("http") ? ' target="_blank" rel="noopener"' : "";
 
   return `
-    <section class="section">
-      <div class="container page-shell">
-        <div class="page-grid">
-          <div class="page-intro">
+    <section class="section page-hero">
+      <div class="container page-shell page-hero-shell">
+        <div class="page-grid page-hero-grid">
+          <div class="page-intro page-hero-copy">
             ${renderBreadcrumbs(page)}
             <div class="eyebrow">${escapeHtml(page.eyebrow)}</div>
             <h1>${escapeHtml(page.h1)}</h1>
-            <p>${escapeHtml(summarizeText(page.intro))}</p>
-            <p class="page-note">${escapeHtml(text[page.locale].pageNote)}</p>
+            <p class="page-lede">${escapeHtml(summarizeText(page.intro, 1))}</p>
             <div class="page-actions">
               <a class="btn" href="${escapeAttribute(page.primaryCta.url)}" target="_blank" rel="noopener">${escapeHtml(page.primaryCta.label)}</a>
-              <a class="btn-secondary" href="${escapeAttribute(secondaryPath)}"${secondaryAttrs}>${escapeHtml(page.secondaryCta.label)}</a>
+            </div>
+            <div class="page-hero-meta">
+              <p class="page-note">${escapeHtml(text[page.locale].pageNote)}</p>
+              <a class="inline-link page-secondary-link" href="${escapeAttribute(secondaryPath)}"${secondaryAttrs}>${escapeHtml(page.secondaryCta.label)}</a>
             </div>
             ${renderLinkCloud(page)}
           </div>
@@ -1610,17 +1612,19 @@ function renderHome(page, productsByLocale) {
 function renderContact(page) {
   return `
     <main class="page-main" id="main-content">
-      <section class="section">
-        <div class="container page-shell">
-          <div class="page-grid">
-            <div class="page-intro">
+      <section class="section page-hero">
+        <div class="container page-shell page-hero-shell">
+          <div class="page-grid page-hero-grid">
+            <div class="page-intro page-hero-copy">
               ${renderBreadcrumbs(page)}
               <div class="eyebrow">${escapeHtml(page.eyebrow)}</div>
               <h1>${escapeHtml(page.h1)}</h1>
-              <p>${escapeHtml(page.intro)}</p>
+              <p class="page-lede">${escapeHtml(summarizeText(page.intro, 1))}</p>
               <div class="page-actions">
                 <a class="btn" href="${escapeAttribute(page.primaryCta.url)}" target="_blank" rel="noopener">${escapeHtml(page.primaryCta.label)}</a>
-                <a class="btn-secondary" href="${escapeAttribute(page.secondaryCta.targetUrl)}" target="_blank" rel="noopener">${escapeHtml(page.secondaryCta.label)}</a>
+              </div>
+              <div class="page-hero-meta">
+                <a class="inline-link page-secondary-link" href="${escapeAttribute(page.secondaryCta.targetUrl)}" target="_blank" rel="noopener">${escapeHtml(page.secondaryCta.label)}</a>
               </div>
             </div>
             ${renderSidebar(page)}

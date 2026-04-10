@@ -8,7 +8,7 @@
     "metaDescription": "Bekijk handgemaakte houten cadeaus voor lezers, kattenliefhebbers en gezellige huizen en ga daarna naar Etsy voor reviews, prijzen en bestellen.",
     "h1": "Handgemaakte houten cadeaus voor lezers, kattenliefhebbers en gezellige huizen",
     "eyebrow": "4.96/5 op Etsy",
-    "intro": "Bekijk bestverkochte onderzettersets, houten bladwijzers en een paar warme cadeau-ideeën op één plek voordat je naar Etsy gaat voor reviews, prijzen en bestellen.",
+    "intro": "Bekijk bestverkochte houten cadeaus en ga daarna naar Etsy voor reviews, prijzen en bestellen.",
     "heroImage": "/assets/img/products/moon-cat-tealight-holder.jpg",
     "heroImageAlt": "Kat en maan houten theelichthouder van Craftygiftsplace",
     "heroCaption": "Kat en maan theelichthouder",
@@ -152,7 +152,7 @@
       "label": "Open de Etsy shop",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
-    "heroSupport": "Begin bij de bestsellers als je snel wilt kiezen, of ga direct naar een cadeauthema als je al weet voor wie het is.",
+    "heroSupport": "Begin bij de bestsellers of shop op gelegenheid.",
     "discoveryCta": {
       "label": "Bekijk bestsellers",
       "target": "#featured-bestsellers"
