@@ -1,115 +1,363 @@
-127.0.0.1 - - [10/Apr/2026 16:03:36] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:01] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:01] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:01] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:01] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:01] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:01] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:01] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:01] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:08] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:08] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:08] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:08] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:09] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:09] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:09] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:09] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:14] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:14] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:14] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:14] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:14] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:21] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:21] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:21] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:21] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:21] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:26] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:26] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:26] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:26] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:26] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:27] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:34] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:34] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:34] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:34] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:34] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:41] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:41] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:41] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:41] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:41] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:48] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:48] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:48] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:48] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:49] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:56] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:56] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:56] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:56] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:04:56] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:03] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:03] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:03] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:03] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:03] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:39] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:39] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:39] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:39] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:39] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:39] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:39] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:40] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:47] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:47] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:47] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:47] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:47] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:47] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:47] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:47] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:54] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:54] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:54] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:54] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:05:54] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:01] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:01] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:01] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:01] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:02] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:09] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:09] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:09] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:09] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:09] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:09] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:16] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:16] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:16] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:16] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:17] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:24] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:24] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:24] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:24] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:24] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:31] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:31] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:31] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:31] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:31] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:39] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:39] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:39] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:39] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:39] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:46] "GET /en/pages/wooden-coasters.html HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:46] "GET /assets/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:46] "GET /assets/js/main.js HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:46] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
-127.0.0.1 - - [10/Apr/2026 16:06:46] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /it/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/img/products/bookmark-wood.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/img/products/coaster-floral.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/img/products/gift-home-decor.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:24:57] "GET /favicon.ico HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51407)
+Exception occurred during processing of request from ('127.0.0.1', 51406)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+----------------------------------------
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /it/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/img/products/coaster-floral.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/img/products/gift-home-decor.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /assets/img/products/bookmark-wood.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:26:31] "GET /favicon.ico HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 15423)
+Exception occurred during processing of request from ('127.0.0.1', 15422)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+----------------------------------------
+127.0.0.1 - - [10/Apr/2026 16:28:34] "GET /it/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:34] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:34] "GET /assets/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:34] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:35] "GET /assets/img/products/coaster-floral.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:35] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:35] "GET /assets/img/products/bookmark-wood.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:35] "GET /assets/img/products/gift-home-decor.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:35] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:35] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:35] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:28:39] "GET /it/pages/sottobicchieri-in-legno.html HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 48559)
+Exception occurred during processing of request from ('127.0.0.1', 48556)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+----------------------------------------
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /it/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/img/products/bookmark-wood.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/img/products/gift-home-decor.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/img/products/coaster-floral.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:29:39] "GET /favicon.ico HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 48632)
+Exception occurred during processing of request from ('127.0.0.1', 48631)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+----------------------------------------
+127.0.0.1 - - [10/Apr/2026 16:30:20] "GET /it/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:20] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:20] "GET /assets/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:20] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:22] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:22] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:22] "GET /assets/img/products/bookmark-wood.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:22] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:22] "GET /assets/img/products/coaster-floral.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:22] "GET /assets/img/products/gift-home-decor.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:22] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:30:27] "GET /it/pages/sottobicchieri-in-legno.html HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 19747)
+Exception occurred during processing of request from ('127.0.0.1', 19742)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+----------------------------------------
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /it/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /it/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/bookmark-wood.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/gift-home-decor.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/coaster-floral.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/coaster-floral.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/gift-home-decor.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/bookmark-wood.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:41] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:44] "GET /assets/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2026 16:33:44] "GET /assets/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2026 16:33:46] "GET /it/pages/sottobicchieri-in-legno.html HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:33:47] "GET /assets/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/Apr/2026 16:33:48] "GET /assets/css/style.css HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53593)
+Traceback (most recent call last):
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53598)
+Exception occurred during processing of request from ('127.0.0.1', 53603)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+----------------------------------------
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /it/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/img/logos/craftygiftsplace-logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/img/products/dragon-eye-bookmark.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/img/products/bookmark-wood.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/img/products/cat-and-moon-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/img/products/coaster-floral.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/img/products/zodiac-wooden-coasters.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /assets/img/products/gift-home-decor.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:08] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 16:34:12] "GET /it/pages/sottobicchieri-in-legno.html HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53661)
+Traceback (most recent call last):
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 1304, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 747, in __init__
+    self.handle()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 433, in handle
+    self.handle_one_request()
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\http\server.py", line 401, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\Phoenix\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
