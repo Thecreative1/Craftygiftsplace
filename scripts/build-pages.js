@@ -1630,7 +1630,7 @@ function renderContact(page) {
       <section class="section">
         <div class="container page-shell">
           <div class="page-grid">
-            <div class="copy-stack">
+            <div class="copy-stack info-card-grid">
               ${page.infoCards.map((card) => {
                 const body = card.items ? `<ul>${card.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : `<p>${escapeHtml(card.text)}</p>`;
                 return `<article class="copy-card"><h2>${escapeHtml(card.title)}</h2>${body}</article>`;
