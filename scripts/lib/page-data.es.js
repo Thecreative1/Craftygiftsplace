@@ -15,7 +15,8 @@ const definition = {
     contact: "/es/pages/contacto.html",
     cat: "/es/pages/regalos-para-amantes-de-los-gatos.html",
     reader: "/es/pages/regalos-para-lectores.html",
-    housewarming: "/es/pages/regalos-para-casa-nueva.html"
+    housewarming: "/es/pages/regalos-para-casa-nueva.html",
+    personalization: "/es/pages/personalizacion.html"
   },
   labels: {
     home: "Inicio",
@@ -48,7 +49,8 @@ const definition = {
         links: [
           { label: "Ver regalos para amantes de los gatos", targetKey: "cat" },
           { label: "Ver regalos para casa nueva", targetKey: "housewarming" },
-          { label: "Explorar marcapáginas de madera", targetKey: "bookmarks" }
+          { label: "Explorar marcapáginas de madera", targetKey: "bookmarks" },
+          { label: "Cómo funciona la personalización", targetKey: "personalization" }
         ]
       },
       featuredSummaries: [
@@ -99,7 +101,8 @@ const definition = {
         links: [
           { label: "Ver regalos para lectores", targetKey: "reader" },
           { label: "Ver regalos de madera", targetKey: "gifts" },
-          { label: "Descubrir posavasos", targetKey: "coasters" }
+          { label: "Descubrir posavasos", targetKey: "coasters" },
+          { label: "Cómo funciona la personalización", targetKey: "personalization" }
         ]
       },
       featuredSummaries: [
@@ -150,7 +153,8 @@ const definition = {
         links: [
           { label: "Ver regalos para lectores", targetKey: "reader" },
           { label: "Ver regalos para casa nueva", targetKey: "housewarming" },
-          { label: "Ver la página de contacto", targetKey: "contact" }
+          { label: "Ver la página de contacto", targetKey: "contact" },
+          { label: "Cómo funciona la personalización", targetKey: "personalization" }
         ]
       },
       featuredSummaries: [
@@ -375,6 +379,93 @@ const definition = {
 };
 
 const pagesEs = buildLocalePages(definition);
+
+pagesEs.push({
+  path: "/es/pages/personalizacion.html",
+  template: "contact",
+  locale: "es",
+  title: "Cómo funciona la personalización | Craftygiftsplace",
+  metaDescription: "Aprende cómo añadir un nombre, fecha o mensaje a regalos de madera artesanales de Craftygiftsplace — antes y después de hacer el pedido en Etsy.",
+  h1: "Cómo funciona la personalización",
+  eyebrow: "Personaliza tu regalo",
+  intro: "Muchos artículos pueden personalizarse con un nombre, fecha o mensaje corto. Aquí tienes lo que puedes esperar, paso a paso.",
+  breadcrumbs: [
+    { label: "Inicio", path: "/es/index.html" },
+    { label: "Personalización" }
+  ],
+  primaryCta: {
+    label: "Abrir Craftygiftsplace en Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  secondaryCta: {
+    label: "Contactar con la tienda en Etsy",
+    targetUrl: "https://www.etsy.com/shop/Craftygiftsplace#about"
+  },
+  sidebar: {
+    title: "Consejo rápido",
+    quote: "\"El vendedor fue increíblemente útil cuando pregunté por las opciones de personalización.\"",
+    attribution: "Tanya · 5/5 en Etsy",
+    text: "Envía un mensaje a la tienda antes de pedir y el vendedor confirmará exactamente lo que es posible para la pieza elegida.",
+    links: [
+      { label: "Abrir la tienda Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace" },
+      { label: "Ver posavasos de madera", href: "/es/pages/posavasos-de-madera.html" },
+      { label: "Ver marcapáginas de madera", href: "/es/pages/marcapaginas-de-madera.html" }
+    ]
+  },
+  infoCards: [
+    {
+      title: "¿Qué artículos se pueden personalizar?",
+      text: "La mayoría de posavasos, marcapáginas y recuerdos de la tienda pueden personalizarse. Esto incluye añadir un nombre, nombres de pareja, una fecha corta o un mensaje breve. La ficha de Etsy indica lo que está disponible para cada pieza — y siempre puedes enviar un mensaje antes de pedir."
+    },
+    {
+      title: "¿Dónde introduzco los detalles de personalización?",
+      text: "En la página de la ficha de Etsy, busca el campo 'Añadir tu personalización'. Introduce tu texto antes de añadir al carrito. Si el campo no aparece, envía primero un mensaje al vendedor."
+    },
+    {
+      title: "¿Con qué puedo personalizar?",
+      items: [
+        "Un nombre o nombres de pareja (p. ej. 'Emma' o 'Emma y James')",
+        "Una fecha (p. ej. fecha de boda, cumpleaños o aniversario)",
+        "Un mensaje corto de dos o tres líneas",
+        "Un nombre de mascota para piezas conmemorativas",
+        "Una frase personalizada para regalos temáticos"
+      ]
+    },
+    {
+      title: "¿Puedo escribir antes de pedir?",
+      text: "Sí, y suele ser la forma más fácil de hacerlo bien. Usa la mensajería de Etsy para describir lo que quieres. El vendedor responde rápidamente y confirmará las opciones antes de que hagas el pedido."
+    },
+    {
+      title: "¿Qué ocurre después del pedido?",
+      text: "Una vez realizado el pedido con tus datos de personalización, el vendedor empieza a fabricar la pieza. Recibirás una notificación de Etsy cuando se envíe. Si algo necesita aclararse, el vendedor se pondrá en contacto contigo por Etsy."
+    },
+    {
+      title: "¿Y si me equivoco en la personalización?",
+      text: "Contacta con el vendedor por Etsy lo antes posible tras el pedido. Como cada pieza se fabrica individualmente, las correcciones suelen ser posibles si se comunican a tiempo."
+    }
+  ],
+  faq: [
+    {
+      question: "¿Está incluida la personalización en el precio?",
+      answer: "Los costes varían según el producto. Consulta la ficha de Etsy para más detalles — algunas piezas la incluyen, otras tienen un pequeño suplemento. Escribir al vendedor es la forma más rápida de confirmarlo."
+    },
+    {
+      question: "¿Cuánto tarda un pedido personalizado?",
+      answer: "Las piezas personalizadas se fabrican bajo pedido. Cuenta con algunos días adicionales más allá del plazo de procesamiento indicado en Etsy. El vendedor también puede aconsejar en pedidos urgentes."
+    },
+    {
+      question: "¿Puedo ver una vista previa antes de que se fabrique?",
+      answer: "En muchos casos, sí. Envía un mensaje al vendedor con tus datos y pide una vista previa — especialmente útil para diseños complejos."
+    }
+  ],
+  ctaPanel: {
+    title: "¿Listo para personalizar tu regalo?",
+    text: "Ve a Etsy para explorar las fichas, comprobar las opciones de personalización y enviar un mensaje al vendedor.",
+    label: "Abrir Craftygiftsplace en Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  alternatePaths: { en: "/es/pages/personalizacion.html" }
+});
 
 module.exports = {
   pagesEs

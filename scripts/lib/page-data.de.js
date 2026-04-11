@@ -144,6 +144,28 @@ pagesDe.push({
     text: "Starte mit einem Geschenkguide oder einer Kollektion und wechsle dann zu Etsy für Preise, Bewertungen und Bestellung.",
     label: "Etsy-Shop öffnen",
     url: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+  },
+  howItWorks: {
+    steps: [
+      { number: "1", title: "Hier stöbern", text: "Finde das passende Geschenk in kuratierten Kollektionen und Geschenkguides." },
+      { number: "2", title: "Dein Liebling wählen", text: "Fotos, Motive und Beschreibungen helfen dir, sicher zu entscheiden." },
+      { number: "3", title: "Auf Etsy bestellen", text: "Wechsle zu Etsy für Preise, Bewertungen und sicheres Bezahlen." }
+    ]
+  },
+  makerStory: {
+    heading: "Von einer Person gemacht, mit Sorgfalt",
+    eyebrow: "Aus der Werkstatt",
+    photo: "/assets/img/maker-photo.jpg",
+    photoAlt: "Der Macher hinter Craftygiftsplace, fotografiert in Porto, Portugal",
+    paragraphs: [
+      "Nach Jahren in der IT suchte ich nach etwas, das Bildschirmzeit mit echtem Handwerk ausbalanciert. Craftygiftsplace begann mit einem kleinen Lasergravurgerät und einer klaren Idee: Holzgeschenke sollen persönlich wirken, nicht seriell.",
+      "Jeder Untersetzer, jedes Lesezeichen und jedes Andenken wird auf Bestellung von einer Person gefertigt — kein Lager, kein Fließband. Das bedeutet echte Sorgfalt bei der Gravur, der Oberfläche und dem Detail, das ein Geschenk behaltenswert macht.",
+      "Wenn du jemals ein Geschenk gemacht hast und dachtest 'Ich wünschte, es hätte sich mehr ausgesucht angefühlt' — genau dafür ist dieser Shop."
+    ],
+    cta: {
+      label: "Craftygiftsplace auf Etsy entdecken",
+      url: "https://www.etsy.com/shop/Craftygiftsplace"
+    }
   }
 });
 
@@ -182,7 +204,8 @@ pagesDe.push({
     links: [
       { label: "Geschenke für Leser", href: "/de/pages/geschenke-fuer-leser.html" },
       { label: "Holzgeschenke ansehen", href: "/de/pages/holzgeschenke.html" },
-      { label: "Untersetzer entdecken", href: "/de/pages/holzuntersetzer.html" }
+      { label: "Untersetzer entdecken", href: "/de/pages/holzuntersetzer.html" },
+      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" }
     ]
   },
   featuredItems: [
@@ -300,7 +323,8 @@ pagesDe.push({
     links: [
       { label: "Einzugsgeschenke ansehen", href: "/de/pages/einzugsgeschenke.html" },
       { label: "Geschenke für Leser", href: "/de/pages/geschenke-fuer-leser.html" },
-      { label: "Kontakt und Personalisierung", href: "/de/pages/kontakt.html" }
+      { label: "Kontakt und Personalisierung", href: "/de/pages/kontakt.html" },
+      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" }
     ]
   },
     featuredItems: [
@@ -415,7 +439,8 @@ pagesDe.push({
     links: [
       { label: "Geschenke für Katzenliebhaber", href: "/de/pages/geschenke-fuer-katzenliebhaber.html" },
       { label: "Einzugsgeschenke", href: "/de/pages/einzugsgeschenke.html" },
-      { label: "Holzlesezeichen ansehen", href: "/de/pages/holzlesezeichen.html" }
+      { label: "Holzlesezeichen ansehen", href: "/de/pages/holzlesezeichen.html" },
+      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" }
     ]
   },
   featuredItems: [
@@ -940,6 +965,93 @@ pagesDe.push({
     label: "Einzugs-Ergebnisse auf Etsy öffnen",
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
   }
+});
+
+pagesDe.push({
+  path: "/de/pages/personalisierung.html",
+  template: "contact",
+  locale: "de",
+  title: "Wie Personalisierung funktioniert | Craftygiftsplace",
+  metaDescription: "Erfahre, wie du Holzgeschenke von Craftygiftsplace mit einem Namen, Datum oder einer Nachricht personalisieren kannst — vor und nach der Bestellung auf Etsy.",
+  h1: "Wie Personalisierung funktioniert",
+  eyebrow: "Dein Geschenk anpassen",
+  intro: "Viele Artikel können mit einem Namen, Datum oder kurzer Nachricht personalisiert werden. Hier erfährst du Schritt für Schritt, was dich erwartet.",
+  breadcrumbs: [
+    { label: "Start", path: "/de/index.html" },
+    { label: "Personalisierung" }
+  ],
+  primaryCta: {
+    label: "Craftygiftsplace auf Etsy öffnen",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  secondaryCta: {
+    label: "Shop auf Etsy kontaktieren",
+    targetUrl: "https://www.etsy.com/shop/Craftygiftsplace#about"
+  },
+  sidebar: {
+    title: "Schneller Tipp",
+    quote: "\"Der Verkäufer war unglaublich hilfsbereit, als ich nach Personalisierungsoptionen fragte.\"",
+    attribution: "Tanya · 5/5 auf Etsy",
+    text: "Schreibe dem Shop vor der Bestellung und der Verkäufer bestätigt genau, was für dein gewähltes Stück möglich ist.",
+    links: [
+      { label: "Etsy-Shop öffnen", href: "https://www.etsy.com/shop/Craftygiftsplace" },
+      { label: "Holzuntersetzer entdecken", href: "/de/pages/holzuntersetzer.html" },
+      { label: "Holzlesezeichen entdecken", href: "/de/pages/holzlesezeichen.html" }
+    ]
+  },
+  infoCards: [
+    {
+      title: "Welche Artikel können personalisiert werden?",
+      text: "Die meisten Untersetzer, Lesezeichen und Andenken im Shop können personalisiert werden. Das umfasst einen Vornamen, Pärchennamen, ein kurzes Datum oder eine kurze Nachricht. Das Etsy-Listing zeigt an, was für jedes Stück möglich ist — und du kannst dem Verkäufer immer vor der Bestellung schreiben."
+    },
+    {
+      title: "Wo gebe ich Personalisierungsdetails ein?",
+      text: "Suche auf der Etsy-Listing-Seite nach dem Feld 'Personalisierung hinzufügen'. Gib deinen Text dort ein, bevor du in den Warenkorb legst. Falls das Feld nicht sichtbar ist, schreibe dem Verkäufer zuerst."
+    },
+    {
+      title: "Was kann ich personalisieren?",
+      items: [
+        "Ein Vorname oder Pärchennamen (z. B. 'Emma' oder 'Emma & James')",
+        "Ein Datum (z. B. Hochzeitsdatum, Geburtstag oder Jubiläum)",
+        "Eine kurze Nachricht von zwei bis drei Zeilen",
+        "Ein Tiername für Gedenkstücke",
+        "Ein eigener Spruch für thematische Geschenke"
+      ]
+    },
+    {
+      title: "Kann ich vor der Bestellung schreiben?",
+      text: "Ja, und oft ist das der einfachste Weg. Nutze die Etsy-Nachrichtenfunktion auf der Shop-Seite. Der Verkäufer antwortet schnell und bestätigt Optionen, Layout und Grenzen, bevor du die Bestellung aufgibst."
+    },
+    {
+      title: "Was passiert nach der Bestellung?",
+      text: "Sobald die Bestellung mit deinen Personalisierungsdetails aufgegeben wurde, beginnt der Verkäufer mit der Fertigung. Du erhältst eine Etsy-Benachrichtigung beim Versand. Falls etwas unklar ist, meldet sich der Verkäufer über Etsy-Nachrichten."
+    },
+    {
+      title: "Was, wenn ich einen Fehler bei der Personalisierung gemacht habe?",
+      text: "Kontaktiere den Verkäufer so schnell wie möglich über Etsy nach der Bestellung. Da jedes Stück einzeln gefertigt wird, sind Korrekturen in der Regel möglich, wenn sie frühzeitig gemeldet werden."
+    }
+  ],
+  faq: [
+    {
+      question: "Ist Personalisierung im Preis inbegriffen?",
+      answer: "Die Kosten variieren je nach Produkt. Prüfe das Etsy-Listing für Details — bei manchen Stücken ist sie inklusive, bei anderen kommt ein kleiner Aufpreis hinzu. Schreibe dem Verkäufer vorher für die schnellste Auskunft."
+    },
+    {
+      question: "Wie lange dauert eine personalisierte Bestellung?",
+      answer: "Personalisierte Stücke werden auf Bestellung gefertigt. Plane einige zusätzliche Tage über die auf Etsy angegebene Bearbeitungszeit hinaus ein. Der Verkäufer kann auch bei Eilbestellungen beraten."
+    },
+    {
+      question: "Kann ich eine Vorschau sehen, bevor das Stück gefertigt wird?",
+      answer: "In vielen Fällen ja. Schreibe dem Verkäufer mit deinen Personalisierungswünschen und bitte um eine Vorschau — besonders nützlich bei komplexen Layouts."
+    }
+  ],
+  ctaPanel: {
+    title: "Bereit, dein Geschenk zu personalisieren?",
+    text: "Gehe zu Etsy, um Listings zu durchsuchen, Personalisierungsoptionen zu prüfen und dem Verkäufer zu schreiben.",
+    label: "Craftygiftsplace auf Etsy öffnen",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  alternatePaths: { en: "/de/pages/personalisierung.html" }
 });
 
 module.exports = {

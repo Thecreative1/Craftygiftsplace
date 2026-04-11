@@ -206,6 +206,40 @@
         "answer": "A loja tem uma classificação de 4,96/5 na Etsy, ao longo de centenas de avaliações — todas referindo qualidade, detalhe artesanal e bom serviço. Podes ler todas antes de comprar."
       }
     ],
+    "howItWorks": {
+      "steps": [
+        {
+          "number": "1",
+          "title": "Explore aqui",
+          "text": "Encontre o presente certo em coleções e guias de presentes selecionados."
+        },
+        {
+          "number": "2",
+          "title": "Escolha o seu favorito",
+          "text": "Use fotos, temas e descrições para escolher com confiança."
+        },
+        {
+          "number": "3",
+          "title": "Encomende no Etsy",
+          "text": "Aceda ao Etsy para preços, avaliações e pagamento seguro."
+        }
+      ]
+    },
+    "makerStory": {
+      "heading": "Feito por uma pessoa, com cuidado",
+      "eyebrow": "Da oficina",
+      "photo": "/assets/img/maker-photo.jpg",
+      "photoAlt": "O criador da Craftygiftsplace, fotografado no Porto, Portugal",
+      "paragraphs": [
+        "Depois de anos em TI, precisava de algo que equilibrasse o tempo em frente ao ecrã com a criação manual. A Craftygiftsplace começou com uma pequena máquina de gravação a laser e uma ideia clara: os presentes de madeira devem parecer pessoais, não produzidos em série.",
+        "Cada porta-copos, marcador de livro e lembrança é feito por encomenda por uma só pessoa — não um armazém. Isso significa atenção real à gravura, ao acabamento e ao detalhe que torna um presente digno de ser guardado.",
+        "Se já deu um presente pensando 'gostava que parecesse mais escolhido', é exatamente para isso que esta loja existe."
+      ],
+      "cta": {
+        "label": "Explorar a Craftygiftsplace no Etsy",
+        "url": "https://www.etsy.com/shop/Craftygiftsplace"
+      }
+    },
     "alternatePaths": {
       "en": "/en/index.html",
       "nl": "/index.html",
@@ -275,6 +309,10 @@
         {
           "label": "Explorar marcadores de livros",
           "href": "/pt/pages/marcadores-de-livros-de-madeira.html"
+        },
+        {
+          "label": "Como funciona a personalização",
+          "href": "/pt/pages/personalizacao.html"
         }
       ]
     },
@@ -469,6 +507,10 @@
         {
           "label": "Descobrir porta-copos",
           "href": "/pt/pages/porta-copos-de-madeira.html"
+        },
+        {
+          "label": "Como funciona a personalização",
+          "href": "/pt/pages/personalizacao.html"
         }
       ]
     },
@@ -625,6 +667,10 @@
         {
           "label": "Ver a página de contacto",
           "href": "/pt/pages/contacto.html"
+        },
+        {
+          "label": "Como funciona a personalização",
+          "href": "/pt/pages/personalizacao.html"
         }
       ]
     },
@@ -1283,6 +1329,108 @@
       "es": "/es/pages/regalos-para-casa-nueva.html",
       "pt": "/pt/pages/presentes-de-casa-nova.html",
       "it": "/it/pages/regali-per-la-casa-nuova.html"
+    }
+  },
+  {
+    "path": "/pt/pages/personalizacao.html",
+    "template": "contact",
+    "locale": "pt",
+    "title": "Como funciona a personalização | Craftygiftsplace",
+    "metaDescription": "Saiba como adicionar um nome, data ou mensagem a presentes de madeira artesanais da Craftygiftsplace — antes e depois de fazer a encomenda no Etsy.",
+    "h1": "Como funciona a personalização",
+    "eyebrow": "Personalize o seu presente",
+    "intro": "Muitos artigos podem ser personalizados com um nome, data ou mensagem curta. Aqui está o que esperar, passo a passo.",
+    "breadcrumbs": [
+      {
+        "label": "Início",
+        "path": "/pt/index.html"
+      },
+      {
+        "label": "Personalização"
+      }
+    ],
+    "primaryCta": {
+      "label": "Abrir a Craftygiftsplace no Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    },
+    "secondaryCta": {
+      "label": "Contactar a loja no Etsy",
+      "targetUrl": "https://www.etsy.com/shop/Craftygiftsplace#about"
+    },
+    "sidebar": {
+      "title": "Dica rápida",
+      "quote": "\"O vendedor foi incrivelmente prestável quando perguntei sobre as opções de personalização.\"",
+      "attribution": "Tanya · 5/5 no Etsy",
+      "text": "Envie uma mensagem à loja antes de encomendar e o vendedor confirmará exatamente o que é possível para a peça escolhida.",
+      "links": [
+        {
+          "label": "Abrir a loja Etsy",
+          "href": "https://www.etsy.com/shop/Craftygiftsplace"
+        },
+        {
+          "label": "Ver porta-copos de madeira",
+          "href": "/pt/pages/porta-copos-de-madeira.html"
+        },
+        {
+          "label": "Ver marcadores de livros",
+          "href": "/pt/pages/marcadores-de-livros-de-madeira.html"
+        }
+      ]
+    },
+    "infoCards": [
+      {
+        "title": "Quais artigos podem ser personalizados?",
+        "text": "A maioria dos porta-copos, marcadores de livros e lembranças da loja pode ser personalizada. Isso inclui adicionar um nome, nomes de casal, uma data curta ou uma mensagem breve. A ficha do Etsy indica o que está disponível para cada peça — e pode sempre enviar uma mensagem antes de encomendar."
+      },
+      {
+        "title": "Onde introduzo os detalhes de personalização?",
+        "text": "Na página da ficha do Etsy, procure o campo 'Adicionar personalização'. Introduza o texto antes de adicionar ao carrinho. Se o campo não estiver visível, envie primeiro uma mensagem ao vendedor."
+      },
+      {
+        "title": "Com o que posso personalizar?",
+        "items": [
+          "Um nome próprio ou nomes de casal (ex.: 'Emma' ou 'Emma & James')",
+          "Uma data (ex.: data de casamento, aniversário)",
+          "Uma mensagem curta de duas ou três linhas",
+          "O nome de um animal de estimação para peças comemorativas",
+          "Uma frase personalizada para presentes temáticos"
+        ]
+      },
+      {
+        "title": "Posso enviar mensagem antes de encomendar?",
+        "text": "Sim, e é muitas vezes a forma mais fácil de acertar. Use a mensagem do Etsy para descrever o que pretende. O vendedor responde rapidamente e confirmará as opções antes de fazer a encomenda."
+      },
+      {
+        "title": "O que acontece após a encomenda?",
+        "text": "Assim que a encomenda for feita com os detalhes de personalização, o vendedor começa a fabricar a peça. Receberá uma notificação do Etsy quando for enviada. Se algo precisar de ser esclarecido, o vendedor entrará em contacto pelo Etsy."
+      },
+      {
+        "title": "E se cometer um erro na personalização?",
+        "text": "Contacte o vendedor pelo Etsy o mais rapidamente possível após a encomenda. Como cada peça é feita individualmente, as correções são geralmente possíveis se comunicadas atempadamente."
+      }
+    ],
+    "faq": [
+      {
+        "question": "A personalização está incluída no preço?",
+        "answer": "Os custos variam consoante o produto. Consulte a ficha do Etsy para mais detalhes — algumas peças incluem-na, outras têm um pequeno acréscimo. Enviar uma mensagem ao vendedor é a forma mais rápida de confirmar."
+      },
+      {
+        "question": "Quanto tempo demora uma encomenda personalizada?",
+        "answer": "As peças personalizadas são feitas sob encomenda. Conte com alguns dias extra além do prazo de processamento indicado no Etsy. O vendedor também pode aconselhar sobre encomendas urgentes."
+      },
+      {
+        "question": "Posso ver uma pré-visualização antes de a peça ser feita?",
+        "answer": "Em muitos casos, sim. Envie uma mensagem ao vendedor com os seus detalhes e peça uma pré-visualização — especialmente útil para layouts complexos."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto para personalizar o seu presente?",
+      "text": "Aceda ao Etsy para explorar fichas, verificar opções de personalização e enviar mensagem ao vendedor.",
+      "label": "Abrir a Craftygiftsplace no Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    },
+    "alternatePaths": {
+      "en": "/pt/pages/personalizacao.html"
     }
   }
 ]

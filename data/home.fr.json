@@ -200,5 +200,39 @@
       "question": "Comment savoir si la qualité vaut vraiment le coup ?",
       "answer": "La boutique affiche une note de 4,96/5 sur Etsy, sur des centaines d'avis — tous mentionnant la qualité, le travail artisanal et le service. Vous pouvez tous les lire avant d'acheter."
     }
-  ]
+  ],
+  "howItWorks": {
+    "steps": [
+      {
+        "number": "1",
+        "title": "Parcourez ici",
+        "text": "Trouvez le cadeau idéal grâce aux collections et guides cadeaux sélectionnés."
+      },
+      {
+        "number": "2",
+        "title": "Choisissez votre préféré",
+        "text": "Utilisez les photos, thèmes et descriptions pour choisir en toute confiance."
+      },
+      {
+        "number": "3",
+        "title": "Commandez sur Etsy",
+        "text": "Rendez-vous sur Etsy pour les prix, les avis et un paiement sécurisé."
+      }
+    ]
+  },
+  "makerStory": {
+    "heading": "Fait par une seule personne, avec soin",
+    "eyebrow": "Dans l'atelier",
+    "photo": "/assets/img/maker-photo.jpg",
+    "photoAlt": "Le créateur de Craftygiftsplace, photographié à Porto, Portugal",
+    "paragraphs": [
+      "Après des années dans l'informatique, j'avais besoin de quelque chose qui équilibre le temps passé devant un écran et la création manuelle. Craftygiftsplace a commencé avec une petite graveuse laser et une idée claire : les cadeaux en bois doivent être personnels, pas fabriqués en série.",
+      "Chaque dessous-de-verre, signet et souvenir est fabriqué à la commande par une seule personne — pas un entrepôt. Cela signifie une vraie attention portée à la gravure, à la finition et au détail qui rend un cadeau digne d'être conservé.",
+      "Si vous avez déjà offert un cadeau en pensant 'j'aurais voulu qu'il soit plus choisi', c'est exactement pour cela que cette boutique existe."
+    ],
+    "cta": {
+      "label": "Découvrir Craftygiftsplace sur Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    }
+  }
 }

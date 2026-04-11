@@ -295,7 +295,13 @@ const singleLocaleEtsySectionPagePaths = new Set([
   "/en/pages/readers-kit.html",
   "/en/pages/wedding.html",
   "/en/pages/personalization.html",
-  "/en/pages/why-wooden-gifts.html"
+  "/en/pages/why-wooden-gifts.html",
+  "/de/pages/personalisierung.html",
+  "/fr/pages/personnalisation.html",
+  "/es/pages/personalizacion.html",
+  "/it/pages/personalizzazione.html",
+  "/pages/personalisatie.html",
+  "/pt/pages/personalizacao.html"
 ]);
 
 const bestsellerSupportSlugs = new Set([

@@ -200,5 +200,39 @@
       "question": "Como sei que a qualidade vale a pena?",
       "answer": "A loja tem uma classificação de 4,96/5 na Etsy, ao longo de centenas de avaliações — todas referindo qualidade, detalhe artesanal e bom serviço. Podes ler todas antes de comprar."
     }
-  ]
+  ],
+  "howItWorks": {
+    "steps": [
+      {
+        "number": "1",
+        "title": "Explore aqui",
+        "text": "Encontre o presente certo em coleções e guias de presentes selecionados."
+      },
+      {
+        "number": "2",
+        "title": "Escolha o seu favorito",
+        "text": "Use fotos, temas e descrições para escolher com confiança."
+      },
+      {
+        "number": "3",
+        "title": "Encomende no Etsy",
+        "text": "Aceda ao Etsy para preços, avaliações e pagamento seguro."
+      }
+    ]
+  },
+  "makerStory": {
+    "heading": "Feito por uma pessoa, com cuidado",
+    "eyebrow": "Da oficina",
+    "photo": "/assets/img/maker-photo.jpg",
+    "photoAlt": "O criador da Craftygiftsplace, fotografado no Porto, Portugal",
+    "paragraphs": [
+      "Depois de anos em TI, precisava de algo que equilibrasse o tempo em frente ao ecrã com a criação manual. A Craftygiftsplace começou com uma pequena máquina de gravação a laser e uma ideia clara: os presentes de madeira devem parecer pessoais, não produzidos em série.",
+      "Cada porta-copos, marcador de livro e lembrança é feito por encomenda por uma só pessoa — não um armazém. Isso significa atenção real à gravura, ao acabamento e ao detalhe que torna um presente digno de ser guardado.",
+      "Se já deu um presente pensando 'gostava que parecesse mais escolhido', é exatamente para isso que esta loja existe."
+    ],
+    "cta": {
+      "label": "Explorar a Craftygiftsplace no Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    }
+  }
 }

@@ -200,5 +200,39 @@
       "question": "¿Cómo sé que la calidad merece la pena?",
       "answer": "La tienda tiene una valoración de 4,96/5 en Etsy, a lo largo de cientos de reseñas — todas mencionan calidad, detalle artesanal y buen servicio. Puedes leerlas todas antes de comprar."
     }
-  ]
+  ],
+  "howItWorks": {
+    "steps": [
+      {
+        "number": "1",
+        "title": "Explora aquí",
+        "text": "Encuentra el regalo ideal en colecciones y guías de regalos seleccionados."
+      },
+      {
+        "number": "2",
+        "title": "Elige tu favorito",
+        "text": "Usa fotos, temas y descripciones para elegir con confianza."
+      },
+      {
+        "number": "3",
+        "title": "Pide en Etsy",
+        "text": "Ve a Etsy para ver precios, reseñas y pagar de forma segura."
+      }
+    ]
+  },
+  "makerStory": {
+    "heading": "Hecho por una persona, con cuidado",
+    "eyebrow": "Desde el taller",
+    "photo": "/assets/img/maker-photo.jpg",
+    "photoAlt": "El creador de Craftygiftsplace, fotografiado en Oporto, Portugal",
+    "paragraphs": [
+      "Tras años trabajando en informática, necesitaba algo que equilibrara el tiempo frente a la pantalla con la creación manual. Craftygiftsplace empezó con una pequeña grabadora láser y una idea clara: los regalos de madera deben sentirse personales, no fabricados en serie.",
+      "Cada posavasos, marcapáginas y recuerdo se fabrica bajo pedido por una sola persona — no un almacén. Eso significa atención real al grabado, el acabado y el detalle que hace que un regalo valga la pena conservar.",
+      "Si alguna vez has dado un regalo pensando 'ojalá se notara más que fue elegido', eso es exactamente para lo que sirve esta tienda."
+    ],
+    "cta": {
+      "label": "Explorar Craftygiftsplace en Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    }
+  }
 }

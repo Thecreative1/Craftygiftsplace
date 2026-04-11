@@ -200,5 +200,39 @@
       "question": "Hoe weet ik dat de kwaliteit goed is?",
       "answer": "De winkel heeft een beoordeling van 4,96/5 op Etsy, over honderden reviews — elk met opmerkingen over kwaliteit, vakmanschap en goede service. Je kunt ze allemaal lezen vóór je koopt."
     }
-  ]
+  ],
+  "howItWorks": {
+    "steps": [
+      {
+        "number": "1",
+        "title": "Blader hier",
+        "text": "Vind het juiste cadeau in samengestelde collecties en cadeaugidsen."
+      },
+      {
+        "number": "2",
+        "title": "Kies je favoriet",
+        "text": "Gebruik foto's, thema's en beschrijvingen om met vertrouwen te kiezen."
+      },
+      {
+        "number": "3",
+        "title": "Bestel op Etsy",
+        "text": "Ga naar Etsy voor prijzen, beoordelingen en veilig afrekenen."
+      }
+    ]
+  },
+  "makerStory": {
+    "heading": "Gemaakt door één persoon, met zorg",
+    "eyebrow": "Uit de werkplaats",
+    "photo": "/assets/img/maker-photo.jpg",
+    "photoAlt": "De maker achter Craftygiftsplace, gefotografeerd in Porto, Portugal",
+    "paragraphs": [
+      "Na jaren in de IT had ik behoefte aan iets dat schermtijd in balans bracht met echt maken. Craftygiftsplace begon met een kleine lasergraveermachine en een helder idee: houten cadeaus moeten persoonlijk aanvoelen, niet seriematig.",
+      "Elke onderzetter, bladwijzer en aandenken wordt op bestelling gemaakt door één persoon — geen magazijn. Dat betekent echte aandacht voor de gravure, de afwerking en het detail dat een cadeau de moeite waard maakt om te bewaren.",
+      "Als je ooit een cadeau hebt gegeven en dacht 'ik wou dat het meer uitgekozen aanvoelde', dan is dit precies de shop daarvoor."
+    ],
+    "cta": {
+      "label": "Bekijk Craftygiftsplace op Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    }
+  }
 }

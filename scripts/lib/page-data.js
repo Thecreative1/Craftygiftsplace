@@ -463,7 +463,8 @@ pagesNl.push({
     links: [
       { label: "Bekijk cadeaus voor kattenliefhebbers", href: "/pages/cadeaus-voor-kattenliefhebbers.html" },
       { label: "Bekijk verhuiscadeaus", href: "/pages/verhuiscadeaus.html" },
-      { label: "Bekijk houten bladwijzers", href: "/pages/bladwijzers.html" }
+      { label: "Bekijk houten bladwijzers", href: "/pages/bladwijzers.html" },
+      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" }
     ]
   },
   featuredItems: [
@@ -672,7 +673,8 @@ pagesNl.push({
     links: [
       { label: "Bekijk lezerscadeaus", href: "/pages/lezerscadeaus.html" },
       { label: "Bekijk houten cadeaus", href: "/pages/houten-cadeaus.html" },
-      { label: "Open bladwijzers op Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" }
+      { label: "Open bladwijzers op Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" },
+      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" }
     ]
   },
   featuredItems: [
@@ -874,7 +876,8 @@ pagesNl.push({
     links: [
       { label: "Bekijk verhuiscadeaus", href: "/pages/verhuiscadeaus.html" },
       { label: "Bekijk lezerscadeaus", href: "/pages/lezerscadeaus.html" },
-      { label: "Contact via Etsy", href: "/pages/contact.html" }
+      { label: "Contact via Etsy", href: "/pages/contact.html" },
+      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" }
     ]
   },
     featuredItems: [
@@ -2380,6 +2383,93 @@ pagesEn.push({
     label: "Open Craftygiftsplace on Etsy",
     url: "https://www.etsy.com/shop/Craftygiftsplace"
   }
+});
+
+pagesNl.push({
+  path: "/pages/personalisatie.html",
+  template: "contact",
+  locale: "nl",
+  title: "Hoe personalisatie werkt | Craftygiftsplace",
+  metaDescription: "Ontdek hoe je een naam, datum of bericht kunt toevoegen aan handgemaakte houten cadeaus van Craftygiftsplace — voor en na de bestelling op Etsy.",
+  h1: "Hoe personalisatie werkt",
+  eyebrow: "Jouw cadeau aanpassen",
+  intro: "Veel artikelen kunnen worden gepersonaliseerd met een naam, datum of kort bericht. Hier lees je wat je kunt verwachten, stap voor stap.",
+  breadcrumbs: [
+    { label: "Home", path: "/index.html" },
+    { label: "Personalisatie" }
+  ],
+  primaryCta: {
+    label: "Craftygiftsplace op Etsy openen",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  secondaryCta: {
+    label: "Contact via Etsy",
+    targetUrl: "https://www.etsy.com/shop/Craftygiftsplace#about"
+  },
+  sidebar: {
+    title: "Snelle tip",
+    quote: "\"De verkoper was ontzettend behulpzaam toen ik vroeg naar personalisatieopties.\"",
+    attribution: "Tanya · 5/5 op Etsy",
+    text: "Stuur de shop een bericht vóór je bestelt en de verkoper bevestigt precies wat mogelijk is voor jouw gekozen stuk.",
+    links: [
+      { label: "Etsy-shop openen", href: "https://www.etsy.com/shop/Craftygiftsplace" },
+      { label: "Houten onderzetters bekijken", href: "/pages/onderzetters.html" },
+      { label: "Houten bladwijzers bekijken", href: "/pages/bladwijzers.html" }
+    ]
+  },
+  infoCards: [
+    {
+      title: "Welke artikelen kunnen worden gepersonaliseerd?",
+      text: "De meeste onderzetters, bladwijzers en herinneringen in de shop kunnen worden gepersonaliseerd. Dit omvat het toevoegen van een voornaam, namen van een koppel, een korte datum of een kort bericht. De Etsy-listing geeft aan wat beschikbaar is voor elk stuk — en je kunt altijd een bericht sturen voor de bestelling."
+    },
+    {
+      title: "Waar voer ik de personalisatiedetails in?",
+      text: "Zoek op de Etsy-listingpagina naar het veld 'Voeg personalisatie toe'. Voer je tekst in voordat je aan het winkelwagentje toevoegt. Als het veld niet zichtbaar is, stuur dan eerst een bericht naar de verkoper."
+    },
+    {
+      title: "Wat kan ik personaliseren?",
+      items: [
+        "Een voornaam of namen van een koppel (bijv. 'Emma' of 'Emma & James')",
+        "Een datum (bijv. trouwdatum, verjaardag of jubileum)",
+        "Een kort bericht van twee of drie regels",
+        "Een huisdiernaam voor gedenkstukken",
+        "Een eigen zin voor thematische cadeaus"
+      ]
+    },
+    {
+      title: "Kan ik vóór de bestelling een bericht sturen?",
+      text: "Ja, en dat is vaak de makkelijkste manier om het goed te doen. Gebruik de Etsy-berichtfunctie om te beschrijven wat je wilt. De verkoper reageert snel en bevestigt opties voor je bestelt."
+    },
+    {
+      title: "Wat gebeurt er na de bestelling?",
+      text: "Zodra de bestelling is geplaatst met jouw personalisatiedetails, begint de verkoper met de vervaardiging. Je ontvangt een Etsy-melding bij verzending. Als iets verduidelijkt moet worden, neemt de verkoper via Etsy contact op."
+    },
+    {
+      title: "Wat als ik een fout heb gemaakt in de personalisatie?",
+      text: "Neem zo snel mogelijk contact op met de verkoper via Etsy. Omdat elk stuk individueel wordt gemaakt, zijn correcties doorgaans mogelijk als ze tijdig worden gemeld."
+    }
+  ],
+  faq: [
+    {
+      question: "Is personalisatie inbegrepen in de prijs?",
+      answer: "De kosten variëren per product. Bekijk de Etsy-listing voor details — sommige stukken hebben het inbegrepen, andere hebben een kleine toeslag. Een bericht sturen naar de verkoper is de snelste manier om dit te bevestigen."
+    },
+    {
+      question: "Hoe lang duurt een gepersonaliseerde bestelling?",
+      answer: "Gepersonaliseerde stukken worden op bestelling gemaakt. Reken op een paar extra dagen bovenop de verwerkingstijd op Etsy. De verkoper kan ook adviseren over spoedbestellingen."
+    },
+    {
+      question: "Kan ik een voorbeeld zien voor het stuk wordt gemaakt?",
+      answer: "In veel gevallen wel. Stuur de verkoper een bericht met jouw personalisatiedetails en vraag om een voorbeeld — vooral handig voor complexe lay-outs."
+    }
+  ],
+  ctaPanel: {
+    title: "Klaar om jouw cadeau te personaliseren?",
+    text: "Ga naar Etsy om listings te bekijken, personalisatieopties te checken en een bericht te sturen.",
+    label: "Craftygiftsplace op Etsy openen",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  alternatePaths: { en: "/pages/personalisatie.html" }
 });
 
 module.exports = {

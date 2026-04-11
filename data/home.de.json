@@ -200,5 +200,39 @@
       "question": "Woher weiß ich, dass die Qualität stimmt?",
       "answer": "Der Shop hat eine Bewertung von 4,96/5 auf Etsy, über Hunderte von Rezensionen — alle erwähnen Qualität, handwerkliches Detail und guten Service. Du kannst sie alle vor dem Kauf lesen."
     }
-  ]
+  ],
+  "howItWorks": {
+    "steps": [
+      {
+        "number": "1",
+        "title": "Hier stöbern",
+        "text": "Finde das passende Geschenk in kuratierten Kollektionen und Geschenkguides."
+      },
+      {
+        "number": "2",
+        "title": "Dein Liebling wählen",
+        "text": "Fotos, Motive und Beschreibungen helfen dir, sicher zu entscheiden."
+      },
+      {
+        "number": "3",
+        "title": "Auf Etsy bestellen",
+        "text": "Wechsle zu Etsy für Preise, Bewertungen und sicheres Bezahlen."
+      }
+    ]
+  },
+  "makerStory": {
+    "heading": "Von einer Person gemacht, mit Sorgfalt",
+    "eyebrow": "Aus der Werkstatt",
+    "photo": "/assets/img/maker-photo.jpg",
+    "photoAlt": "Der Macher hinter Craftygiftsplace, fotografiert in Porto, Portugal",
+    "paragraphs": [
+      "Nach Jahren in der IT suchte ich nach etwas, das Bildschirmzeit mit echtem Handwerk ausbalanciert. Craftygiftsplace begann mit einem kleinen Lasergravurgerät und einer klaren Idee: Holzgeschenke sollen persönlich wirken, nicht seriell.",
+      "Jeder Untersetzer, jedes Lesezeichen und jedes Andenken wird auf Bestellung von einer Person gefertigt — kein Lager, kein Fließband. Das bedeutet echte Sorgfalt bei der Gravur, der Oberfläche und dem Detail, das ein Geschenk behaltenswert macht.",
+      "Wenn du jemals ein Geschenk gemacht hast und dachtest 'Ich wünschte, es hätte sich mehr ausgesucht angefühlt' — genau dafür ist dieser Shop."
+    ],
+    "cta": {
+      "label": "Craftygiftsplace auf Etsy entdecken",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    }
+  }
 }
