@@ -76,7 +76,7 @@ function makeCollectionPage(definition, kind, copy) {
       text: copy.sidebar.text,
       links: copy.sidebar.links.map((item) => ({
         label: item.label,
-        href: routes[item.targetKey]
+        href: item.href || routes[item.targetKey]
       }))
     },
     featuredItems: mapFeaturedItems(basePage, copy.featuredSummaries),
@@ -89,7 +89,7 @@ function makeCollectionPage(definition, kind, copy) {
     faq: copy.faq,
     relatedLinks: copy.relatedLinks.map((item) => ({
       label: item.label,
-      href: routes[item.targetKey],
+      href: item.href || routes[item.targetKey],
       description: item.description
     })),
     ctaPanel: {
@@ -140,7 +140,7 @@ function makeIntentPage(definition, kind, copy) {
       text: copy.sidebar.text,
       links: copy.sidebar.links.map((item) => ({
         label: item.label,
-        href: item.external ? basePage.primaryCta.url : routes[item.targetKey]
+        href: item.href || (item.external ? basePage.primaryCta.url : routes[item.targetKey])
       }))
     },
     featuredItems: mapFeaturedItems(basePage, copy.featuredSummaries),
