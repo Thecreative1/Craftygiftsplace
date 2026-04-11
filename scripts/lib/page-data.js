@@ -1759,7 +1759,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "DIY",
     path: "/en/pages/diy.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section groups the hands-on blanks and kits that make sense for painting, crafting or finishing at home.",
+    intro: "DIY brings together the blanks and craft-ready pieces people buy to paint, decorate or finish at home.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=diy",
     slugs: [
       "birch-wood-circle-blanks",
@@ -1776,7 +1776,7 @@ const EN_ETSY_SECTION_PAGES = [
       {
         label: "Educational Toys & Games",
         href: "/en/pages/educational-toys-and-games.html",
-        description: "A nearby section for the learning-focused wooden piece in the shop."
+        description: "A nearby pick for hands-on learning and creative play."
       },
       {
         label: "Christmas",
@@ -1789,7 +1789,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Baby Bliss",
     path: "/en/pages/baby-bliss.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section keeps the baby milestone and nursery-friendly pieces together for new-arrival gifting and memory-making.",
+    intro: "Baby Bliss brings together the milestone and nursery pieces people shop for when a new arrival is on the way.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=baby",
     slugs: [
       "wooden-baby-milestone-discs",
@@ -1804,7 +1804,7 @@ const EN_ETSY_SECTION_PAGES = [
       {
         label: "Christmas",
         href: "/en/pages/christmas.html",
-        description: "The holiday keepsake page for the current Christmas listing."
+        description: "A festive keepsake idea for first-Christmas gifting."
       },
       {
         label: "Wooden gifts",
@@ -1817,7 +1817,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Door Hanger",
     path: "/en/pages/door-hangers.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section focuses on wooden signs and hangers for doors, bedrooms, gaming setups and quiet corners.",
+    intro: "Door Hanger brings together wooden signs and hangers for bedrooms, gaming setups and quieter corners.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=door%20hanger",
     slugs: [
       "fantasy-gamer-door-sign",
@@ -1833,17 +1833,17 @@ const EN_ETSY_SECTION_PAGES = [
       {
         label: "Wooden gifts",
         href: "/en/pages/wooden-gifts.html",
-        description: "The wider gifts page for signs, decor and keepsake pieces."
+        description: "The wider gift range for signs, decor and keepsake pieces."
       },
       {
         label: "Gifts for IT & Gamers",
         href: "/en/pages/gifts-for-it-and-gamers.html",
-        description: "A smaller tech-leaning section linked to desk and gamer gifting."
+        description: "A nearby stop for desk gifts and gamer-friendly ideas."
       },
       {
         label: "Wedding",
         href: "/en/pages/wedding.html",
-        description: "A focused newlywed page for the wedding-ready listing."
+        description: "A wedding-ready pick for newlywed gifting."
       }
     ]
   },
@@ -1851,7 +1851,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Pet Memorial",
     path: "/en/pages/pet-memorial.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section keeps the pet memorial piece on a dedicated page instead of burying it inside a broader gift category.",
+    intro: "Pet Memorial keeps this remembrance piece easy to find when the gift needs to feel personal and thoughtful.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=pet%20memorial",
     slugs: [
       "personalized-pet-memorial-plaque"
@@ -1865,12 +1865,12 @@ const EN_ETSY_SECTION_PAGES = [
       {
         label: "Candle Holders",
         href: "/en/pages/candle-holders.html",
-        description: "Warm shelf pieces that also sit inside the broader wooden gifts world."
+        description: "Warm shelf pieces that suit cozy corners and thoughtful home gifting."
       },
       {
         label: "Wooden gifts",
         href: "/en/pages/wooden-gifts.html",
-        description: "The broad category page for decor, keepsakes and home pieces."
+        description: "The broader gift collection for decor, keepsakes and home pieces."
       }
     ]
   },
@@ -1878,7 +1878,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Personalized Items",
     path: "/en/pages/personalized-items.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section gathers the listings where names, dates or custom wording are the main reason someone clicks through.",
+    intro: "Personalized Items brings together the pieces where names, dates or custom wording matter most.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=personalized",
     slugs: [
       "personalized-wooden-coasters",
@@ -1891,12 +1891,12 @@ const EN_ETSY_SECTION_PAGES = [
       {
         label: "Wooden gifts",
         href: "/en/pages/wooden-gifts.html",
-        description: "The wider gift range that still sends shoppers to Etsy for customization."
+        description: "The wider gift range for decor-led pieces that can still be personalized on Etsy."
       },
       {
         label: "Wedding",
         href: "/en/pages/wedding.html",
-        description: "A focused wedding section for the newlywed cash-gift listing."
+        description: "A wedding-ready pick for newlywed gifting."
       },
       {
         label: "Wooden bookmarks",
@@ -1909,7 +1909,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Candle Holders",
     path: "/en/pages/candle-holders.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section brings together the candle-ready pieces and shadow-casting tealight holders for shelves, consoles and cozy corners.",
+    intro: "Candle Holders brings together the shadow-casting tealight designs that suit shelves, consoles and cozy corners.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=candle%20holder",
     slugs: [
       "moon-cat-shadow-tealight-holder",
@@ -1938,7 +1938,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Incense burners",
     path: "/en/pages/incense-burners.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section keeps the incense burner on a focused page for calm corners, reading nooks and shelf styling.",
+    intro: "The incense piece here is easy to find for shelves, reading nooks and quiet routines.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=incense%20burner",
     slugs: [
       "laser-birch-wood-incense-burner"
@@ -1947,7 +1947,7 @@ const EN_ETSY_SECTION_PAGES = [
       {
         label: "Wooden gifts",
         href: "/en/pages/wooden-gifts.html",
-        description: "The full decor and keepsake category for broader gift browsing."
+        description: "The broader decor and keepsake range for gift browsing."
       },
       {
         label: "Housewarming gifts",
@@ -1965,7 +1965,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Educational Toys & Games",
     path: "/en/pages/educational-toys-and-games.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section highlights the hands-on learning piece in the shop for classroom, homeschool and early maths gifting.",
+    intro: "Educational Toys & Games highlights the hands-on learning piece for early maths, classroom use and thoughtful gifting.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=montessori",
     slugs: [
       "montessori-wooden-numicon-set"
@@ -1984,7 +1984,7 @@ const EN_ETSY_SECTION_PAGES = [
       {
         label: "Wooden gifts",
         href: "/en/pages/wooden-gifts.html",
-        description: "The broader handmade gift range for non-toy browsing."
+        description: "The broader handmade gift range if you're looking beyond learning pieces."
       }
     ]
   },
@@ -1992,7 +1992,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Funny Presents",
     path: "/en/pages/funny-presents.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section keeps the novelty wooden gift easy to find without mixing it into the wider catalog.",
+    intro: "Funny Presents keeps the novelty wooden gift easy to spot for anyone shopping for something light-hearted.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=funny%20gift",
     slugs: [
       "bald-man-s-comb"
@@ -2019,7 +2019,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Christmas",
     path: "/en/pages/christmas.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section surfaces the live Christmas keepsake so holiday shoppers can reach it without searching through the full catalog.",
+    intro: "Christmas keeps the festive wooden ornament set easy to find for seasonal gifting and decorating.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=christmas",
     slugs: [
       "diy-christmas-ornaments"
@@ -2046,7 +2046,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Gifts for IT & Gamers",
     path: "/en/pages/gifts-for-it-and-gamers.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section gives the shop's tech-themed gift a clear place inside the existing English catalog.",
+    intro: "Gifts for IT & Gamers gives the tech-themed keychain a clear home for desk gifts and gamer-friendly browsing.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=ram%20keychain",
     slugs: [
       "upcycled-ram-keychain"
@@ -2073,7 +2073,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Readers Kit",
     path: "/en/pages/readers-kit.html",
     pairPath: "/en/pages/reader-gifts.html",
-    intro: "This Etsy section keeps the bundled reader gift separate from the individual bookmarks for shoppers who want one ready-made set.",
+    intro: "Readers Kit keeps the bundled reader set separate from the individual bookmarks for shoppers who want one ready-made gift.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=reader%20gift",
     slugs: [
       "fantasy-reader-gift-set"
@@ -2100,7 +2100,7 @@ const EN_ETSY_SECTION_PAGES = [
     label: "Wedding",
     path: "/en/pages/wedding.html",
     pairPath: "/en/pages/wooden-gifts.html",
-    intro: "This Etsy section gives the wedding cash holder its own focused page for newlywed gifting and milestone browsing.",
+    intro: "Wedding keeps the cash gift holder easy to find for newlywed gifting and milestone moments.",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=wedding",
     slugs: [
       "just-married-wedding-money-holder"
@@ -2128,9 +2128,9 @@ const EN_ETSY_SECTION_PAGES = [
 function buildEnglishSectionFeaturedItems(slugs, label) {
   const labelLower = label.toLowerCase();
   const summaries = [
-    `A strong first click inside ${labelLower} when the shopper wants a clearly handmade option.`,
-    `Another matched Etsy pick that keeps this section specific without changing the site structure.`,
-    "A useful comparison point before opening Etsy for live pricing, reviews and checkout."
+    `A standout handmade pick for anyone drawn to ${labelLower}.`,
+    "Another strong choice if you want something personal, practical or easy to gift.",
+    "A closer look before heading to Etsy for prices, reviews and ordering."
   ];
 
   return slugs.slice(0, 3).map((slug, index) => ({
@@ -2149,20 +2149,20 @@ function buildEnglishEtsySectionPage(config) {
     template: "collection",
     locale: "en",
     title: `${config.label} | Craftygiftsplace`,
-    metaDescription: config.metaDescription || `Browse ${labelLower} from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.`,
+    metaDescription: config.metaDescription || `Explore ${labelLower} from Craftygiftsplace, then head to Etsy for prices, reviews and ordering.`,
     h1: config.h1 || config.label,
-    eyebrow: "Etsy section",
+    eyebrow: "From the Etsy shop",
     intro: config.intro,
     breadcrumbs: [
       { label: "Home", path: "/en/index.html" },
       { label: config.label, path: config.path }
     ],
     primaryCta: {
-      label: config.primaryCtaLabel || `Open ${config.label} on Etsy`,
+      label: config.primaryCtaLabel || `Shop ${config.label} on Etsy`,
       url: config.ctaUrl
     },
     secondaryCta: {
-      label: config.secondaryCtaLabel || `Browse ${config.label}`,
+      label: config.secondaryCtaLabel || `See ${config.label}`,
       target: "#shop-catalog"
     },
     linkCloud: relatedLinks.slice(0, 3).map((link) => ({
@@ -2170,10 +2170,10 @@ function buildEnglishEtsySectionPage(config) {
       target: link.href
     })),
     sidebar: {
-      title: "See related pages",
+      title: "More gift ideas",
       quote: "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
       attribution: "Caroline · Etsy review",
-      text: config.sidebarText || `This page keeps the live ${config.label} section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.`,
+      text: config.sidebarText || `You can browse ${labelLower} here, then head to Etsy for live prices, reviews and ordering.`,
       links: relatedLinks.slice(0, 3).map((link) => ({
         label: link.label,
         href: link.href
@@ -2181,36 +2181,36 @@ function buildEnglishEtsySectionPage(config) {
     },
     featuredItems: buildEnglishSectionFeaturedItems(config.slugs, config.label),
     featuredWhy: [
-      `It keeps the live Etsy ${labelLower} section browseable on the English site.`,
-      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
-      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+      `It keeps the ${labelLower} picks together in one easy browse.`,
+      "It makes it easier to compare styles, finishes and gifting ideas at a glance.",
+      "It still takes you to Etsy for live prices, reviews and ordering."
     ],
     catalog: {
       mode: "slugs",
       slugs: config.slugs,
-      intro: config.catalogIntro || `Matched English products currently aligned with the Etsy ${config.label} section.`,
-      ctaLabel: config.catalogCtaLabel || `View ${config.label} on Etsy`,
+      intro: config.catalogIntro || `A closer look at the ${config.label} pieces currently featured on the English site.`,
+      ctaLabel: config.catalogCtaLabel || `Shop ${config.label} on Etsy`,
       ctaUrl: config.ctaUrl
     },
     faq: [
       {
-        question: `Does this page follow the Etsy ${config.label} section?`,
-        answer: `Yes. This page mirrors the public Etsy ${config.label} section as closely as the current English catalog data allows.`
+        question: `Looking for more in ${config.label}?`,
+        answer: `This page highlights the ${config.label} pieces currently shown on the English site, with Etsy carrying the live listing details.`
       },
       {
         question: "Do I still order on Etsy from here?",
-        answer: "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+        answer: "Yes. When you're ready to buy, Etsy handles prices, reviews, personalization details and checkout."
       },
       {
-        question: "Can I move back to broader category pages from here?",
-        answer: "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+        question: "Can I keep exploring from here?",
+        answer: "Yes. Nearby links make it easy to move back to broader English collections and related gift ideas."
       }
     ],
     relatedLinks,
     ctaPanel: {
-      title: `Ready to compare ${labelLower} on Etsy?`,
-      text: "Open Etsy to review live prices, listing details and buyer feedback for this section.",
-      label: config.catalogCtaLabel || `View ${config.label} on Etsy`,
+      title: `Ready to see ${labelLower} on Etsy?`,
+      text: "Open Etsy for current prices, listing details and buyer reviews.",
+      label: config.catalogCtaLabel || `Shop ${config.label} on Etsy`,
       url: config.ctaUrl
     }
   };
@@ -2342,7 +2342,7 @@ pagesEn.push({
   infoCards: [
     {
       title: "Wood feels different in the hand",
-      text: "There is a tactile quality to real wood that no printed card or plastic alternative can match. The weight, the grain, the slight warmth of the material — these things register before the recipient even reads the engraving. A wooden coaster or bookmark announces itself as something made, not ordered from a dropdown."
+      text: "There is a tactile quality to real wood that no printed card or plastic alternative can match. The weight, the grain, the slight warmth of the material — these things register before the recipient even reads the engraving. A wooden coaster or bookmark announces itself as something made, not picked from a generic product list."
     },
     {
       title: "Engraving makes it permanent",
@@ -2354,7 +2354,7 @@ pagesEn.push({
     },
     {
       title: "Handmade means one person made it",
-      text: "Each piece from this shop is made to order by one person with a laser engraver and a clear standard for finish. That is not marketing language — it means your order is not picked from a shelf. It is made after you place it, which is why personalization is possible and why the quality is consistent across reviews."
+      text: "Each piece from this shop is made to order by one person with a laser engraver and a clear standard for finish. That shows in the result: your order is not pulled from a shelf. It is made after you place it, which is why personalization is possible and quality stays consistent across reviews."
     },
     {
       title: "Good for readers, cat lovers, new homes and more",
@@ -2434,7 +2434,7 @@ pagesNl.push({
   infoCards: [
     {
       title: "Hout voelt anders aan",
-      text: "Echt hout heeft een tactiele kwaliteit die geen gedrukte kaart of plastic alternatief kan evenaren. Het gewicht, de nerf, de lichte warmte van het materiaal — dat alles merk je voordat de ontvanger de gravure leest. Een houten onderzetter of bladwijzer kondigt zichzelf aan als iets dat gemaakt is, niet besteld via een dropdown."
+      text: "Echt hout heeft een tactiele kwaliteit die geen gedrukte kaart of plastic alternatief kan evenaren. Het gewicht, de nerf, de lichte warmte van het materiaal — dat alles merk je voordat de ontvanger de gravure leest. Een houten onderzetter of bladwijzer kondigt zichzelf aan als iets dat gemaakt is, niet gekozen uit een generieke productlijst."
     },
     {
       title: "Gravure maakt het permanent",
@@ -2446,7 +2446,7 @@ pagesNl.push({
     },
     {
       title: "Handgemaakt betekent: één persoon heeft het gemaakt",
-      text: "Elk stuk uit deze shop wordt op bestelling gemaakt door één persoon met een lasergraveermachine en een duidelijke kwaliteitsstandaard. Dat is geen marketingtaal — het betekent dat jouw bestelling niet van een plank wordt gepakt. Ze wordt gemaakt nadat je hem hebt geplaatst."
+      text: "Elk stuk uit deze shop wordt op bestelling gemaakt door één persoon met een lasergraveermachine en een duidelijke kwaliteitsstandaard. Dat merk je in het resultaat: jouw bestelling wordt niet van een plank gepakt. Ze wordt pas gemaakt nadat je hebt besteld, waardoor personalisatie mogelijk blijft en de kwaliteit in reviews zo consistent is."
     },
     {
       title: "Ideaal voor lezers, kattenliefhebbers, nieuwe huizen en meer",

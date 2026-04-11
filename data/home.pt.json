@@ -4,9 +4,9 @@
   "h1": "Presentes em madeira feitos à mão para leitores, amantes de gatos e casas acolhedoras",
   "eyebrow": "4,96/5 na Etsy",
   "intro": "Vê os presentes em madeira mais procurados antes de abrir a Etsy para avaliações, preços e encomendar.",
-  "heroSupport": "Começa pelos best-sellers ou compra por ocasião.",
+  "heroSupport": "Começa pelos mais procurados ou escolhe pela ocasião.",
   "discoveryCta": {
-    "label": "Ver best-sellers",
+    "label": "Ver mais procurados",
     "target": "#featured-bestsellers"
   },
   "primaryCta": {
@@ -26,31 +26,31 @@
   "sections": {
     "featuredCategories": {
       "heading": "Escolher por destinatário ou ocasião",
-      "intro": "Começa pela pessoa ou pelo momento quando o tipo de produto ainda não está definido."
+      "intro": "Começa pela pessoa ou pela ocasião quando ainda não sabe que peça escolher."
     },
     "bestsellers": {
-      "heading": "Começa pelos best-sellers",
-      "intro": "São os cliques mais fáceis para quem quer uma escolha já comprovada."
+      "heading": "Começa pelos mais procurados",
+      "intro": "É o ponto de partida mais simples para uma escolha já bem testada."
     },
     "occasions": {
       "heading": "Comprar por ocasião",
       "intro": "Já tens a ocasião em mente? Começa por estas páginas."
     },
     "collections": {
-      "heading": "Ver as coleções principais",
-      "intro": "Entra aqui se o tipo de produto já estiver claro."
+      "heading": "Comprar por tipo de produto",
+      "intro": "Se já sabe o que procura, comece por aqui."
     },
     "support": {
       "heading": "Porque os compradores voltam",
       "intro": "Três coisas que os clientes mencionam repetidamente nas suas avaliações."
     },
     "reviews": {
-      "heading": "Provas vindas da Etsy",
-      "intro": "Alguns excertos de avaliações que tornam o clique para a Etsy mais fácil."
+      "heading": "O que dizem na Etsy",
+      "intro": "Algumas opiniões reais que ajudam a escolher com confiança."
     },
     "faq": {
-      "heading": "Perguntas antes da Etsy",
-      "intro": "As respostas curtas que a maioria quer ver antes de sair deste site."
+      "heading": "Perguntas antes de encomendar",
+      "intro": "Respostas curtas às dúvidas mais comuns."
     }
   },
   "featuredCategories": [
@@ -145,7 +145,7 @@
       "text": "Cada peça é fabricada individualmente — não em série. Isso significa detalhe real em madeira, gravação cuidadosa e um acabamento que dura muito além da ocasião."
     },
     {
-      "title": "Personalização fácil de arranjar",
+      "title": "Personalização simples",
       "text": "Nomes, datas e mensagens curtas podem ser adicionados a muitos artigos. Envia uma mensagem à loja na Etsy antes de encomendar e o vendedor confirma exatamente o que é possível."
     },
     {
@@ -194,7 +194,7 @@
     },
     {
       "question": "Qual é a forma mais rápida de encontrar o presente certo?",
-      "answer": "Começa pelas categorias em destaque se a ocasião estiver clara, ou pelo bloco dos mais vendidos para uma escolha já comprovada."
+      "answer": "Começa pelos destaques se a ocasião já estiver clara, ou pelos mais vendidos se preferir uma escolha já bem testada."
     },
     {
       "question": "Como sei que a qualidade vale a pena?",
@@ -205,8 +205,8 @@
     "steps": [
       {
         "number": "1",
-        "title": "Explore aqui",
-        "text": "Encontre o presente certo em coleções e guias de presentes selecionados."
+        "title": "Começa aqui",
+        "text": "Encontre o presente certo entre coleções e guias escolhidos a pensar em quem compra."
       },
       {
         "number": "2",

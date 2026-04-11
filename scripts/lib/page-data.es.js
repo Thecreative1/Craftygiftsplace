@@ -518,14 +518,14 @@ pagesEs.push({
     },
     {
       title: "Hecho a mano significa: una persona lo hizo",
-      text: "Cada pieza de esta tienda se fabrica bajo pedido por una sola persona con una grabadora láser y un estándar claro de calidad. No es lenguaje de marketing: significa que tu pedido no se coge de una estantería. Se fabrica después de que lo realizas."
+      text: "Cada pieza de esta tienda se fabrica bajo pedido por una sola persona con una grabadora láser y un estándar claro de calidad. Eso se nota en el resultado: tu pedido no sale de una estantería. Se fabrica después de hacerlo, por eso la personalización es posible y la calidad se mantiene tan constante en las reseñas."
     },
     {
       title: "Ideal para lectores, amantes de los gatos, nuevos hogares y más",
       items: [
         "Lectores: marcapáginas de ojo de dragón, pluma, céltico y fantasía que duran más que los libros que marcan",
         "Amantes de los gatos: portavelas Moon Cat y posavasos con temática felina para estanterías acogedoras",
-        "Nuevos hogares: juegos de posavasos grabados que se sienten elegidos, no convenientes",
+        "Nuevos hogares: juegos de posavasos grabados que se sienten elegidos con intención, no comprados con prisa",
         "Momentos de recuerdo: placas conmemorativas para mascotas para un regalo que reconoce la pérdida con cuidado",
         "Gamers y tecnología: llaveros RAM reciclados y carteles de puerta gaming para escritorios"
       ]

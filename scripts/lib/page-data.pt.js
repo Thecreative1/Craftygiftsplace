@@ -33,9 +33,9 @@ const definition = {
       title: "Porta-copos de madeira feitos à mão com gravuras celestes, naturais e mais marcantes | Craftygiftsplace",
       metaDescription: "Explora porta-copos de madeira feitos à mão com gravuras celestes, naturais, vikings e outros desenhos com personalidade para mesas, prateleiras e presentes bem pensados.",
       h1: "Porta-copos de madeira feitos à mão com gravuras celestes, naturais e mais marcantes",
-      intro: "Explora a seleção de porta-copos num só lugar. Esta página mantém-se centrada no tipo de produto para facilitar a comparação entre conjuntos gravados muito procurados para mesas de centro, secretárias e prateleiras, sem misturar guias de presentes mais amplos. Aqui entram lado a lado desenhos celestes e naturais mais tranquilos e escolhas mais fortes, como temas vikings, espirituais ou pensados para uma zona de hobbies.",
+      intro: "Aqui pode comparar porta-copos de madeira sem distrações, dos desenhos celestes e botânicos aos temas vikings, espirituais e gaming. É uma forma simples de ver lado a lado os conjuntos que funcionam melhor em mesas de centro, secretárias e presentes de casa nova.",
       primaryCtaLabel: "Ver porta-copos na Etsy",
-      secondaryCtaLabel: "Ver a seleção de porta-copos",
+      secondaryCtaLabel: "Explorar porta-copos",
       linkCloud: [
         { label: "Presentes para amantes de gatos", targetKey: "cat" },
         { label: "Presentes de casa nova", targetKey: "housewarming" },
@@ -65,11 +65,11 @@ const definition = {
         "Permite comparar conjuntos mais tranquilos e desenhos com mais presença.",
         "Continua a encaminhar para páginas de gatos, casa nova ou presentes de madeira quando a intenção já é mais específica."
       ],
-      catalogIntro: "Uma seleção de porta-copos que junta conjuntos muito vendidos, presentes quentes para a casa e gravuras com mais personalidade.",
+      catalogIntro: "Porta-copos muito procurados com desenhos celestes, naturais e outros temas cheios de personalidade.",
       faq: [
         { question: "Estes porta-copos servem para um presente de casa nova?", answer: "Sim. Muitos desenhos encaixam naturalmente em presentes para uma casa nova, porque são práticos, decorativos e fáceis de usar desde o primeiro dia." },
-        { question: "Há aqui também porta-copos com temas mais fortes?", answer: "Sim. Para além dos desenhos mais serenos, esta página reúne conjuntos vikings, espirituais, gaming e alternativos com uma presença visual mais marcada." },
-        { question: "Posso descobrir outras coleções a partir daqui?", answer: "Sim. Esta página liga diretamente a marcadores, presentes de madeira e guias para leitores ou casa nova." }
+        { question: "Há aqui também porta-copos com temas mais fortes?", answer: "Sim. Para além dos desenhos mais serenos, aqui também encontra conjuntos vikings, espirituais, gaming e alternativos com uma presença visual mais marcada." },
+        { question: "Posso descobrir outras coleções a partir daqui?", answer: "Sim. Daqui pode seguir diretamente para marcadores, presentes de madeira e guias para leitores ou casa nova." }
       ],
       relatedLinks: [
         { label: "Presentes para amantes de gatos", targetKey: "cat", description: "Porta-copos com tema felino e algumas peças decorativas em madeira reunidas para esse público." },
@@ -86,9 +86,9 @@ const definition = {
       title: "Marcadores de livros de madeira feitos à mão para estantes de fantasia e leituras tranquilas | Craftygiftsplace",
       metaDescription: "Descobre marcadores de livros de madeira feitos à mão para estantes de fantasia, presentes para leitores e momentos de leitura tranquilos com muito carácter.",
       h1: "Marcadores de livros de madeira feitos à mão para estantes de fantasia e leituras tranquilas",
-      intro: "Esta página mantém a coleção de marcadores claramente centrada no produto. Assim, torna-se mais fácil comparar marcadores de livros em madeira para estantes de fantasia, pilhas de livros e leituras tranquilas, sem misturar guias de presentes mais amplos.",
+      intro: "Aqui fica mais fácil comparar marcadores de livros em madeira pensados para estantes de fantasia, pilhas de livros e leituras tranquilas. Tudo está reunido num só lugar para quem quer escolher um presente para leitor sem sair do mesmo universo.",
       primaryCtaLabel: "Ver marcadores na Etsy",
-      secondaryCtaLabel: "Ver a seleção de marcadores",
+      secondaryCtaLabel: "Explorar marcadores",
       linkCloud: [
         { label: "Presentes para leitores", targetKey: "reader" },
         { label: "Presentes de madeira", targetKey: "gifts" },
@@ -139,9 +139,9 @@ const definition = {
       title: "Presentes de madeira feitos à mão para cantos de leitura, prateleiras e momentos especiais | Craftygiftsplace",
       metaDescription: "Explora presentes de madeira feitos à mão, como porta-velas, pendentes de porta e recordações personalizadas para prateleiras, entradas e momentos especiais.",
       h1: "Presentes de madeira feitos à mão para cantos de leitura, prateleiras e momentos especiais",
-      intro: "Esta coleção reúne os presentes de madeira que não são nem porta-copos nem marcadores. Ajuda a comparar porta-velas, pendentes de porta, recordações personalizadas e outras peças decorativas num espaço mais calmo.",
+      intro: "Aqui estão reunidos os presentes de madeira que vão além de porta-copos e marcadores: porta-velas, pendentes de porta, recordações personalizadas e outras peças decorativas para oferecer com calma.",
       primaryCtaLabel: "Ver presentes de madeira na Etsy",
-      secondaryCtaLabel: "Ver a seleção de presentes de madeira",
+      secondaryCtaLabel: "Explorar presentes de madeira",
       linkCloud: [
         { label: "Presentes para leitores", targetKey: "reader" },
         { label: "Presentes de casa nova", targetKey: "housewarming" },
@@ -151,7 +151,7 @@ const definition = {
         title: "Comprar com confiança",
         quote: "\"Ótima qualidade, exatamente como descrito, e uma comunicação simpática e clara.\"",
         attribution: "Caroline · Avaliação Etsy",
-        text: "Esta coleção ajuda quando o comprador quer algo mais decorativo ou pessoal do que um presente centrado apenas na mesa ou na leitura.",
+        text: "Esta coleção ajuda quando se procura algo mais decorativo ou pessoal do que um presente centrado apenas na mesa ou na leitura.",
         links: [
           { label: "Ver presentes para leitores", targetKey: "reader" },
           { label: "Ver presentes de casa nova", targetKey: "housewarming" },
@@ -175,7 +175,7 @@ const definition = {
       faq: [
         { question: "O que se encontra nesta coleção?", answer: "Aqui há porta-velas, pendentes de porta, recordações personalizadas e outras peças de madeira que não entram em porta-copos ou marcadores." },
         { question: "Estes presentes também servem para casa nova?", answer: "Sim. Várias peças funcionam muito bem em prateleiras, entradas e cantos acolhedores de uma casa nova." },
-        { question: "Posso continuar a navegar para outras coleções a partir daqui?", answer: "Sim. Esta página liga a porta-copos, marcadores e aos principais guias de presentes." }
+        { question: "Posso continuar a navegar para outras coleções a partir daqui?", answer: "Sim. Daqui pode seguir para porta-copos, marcadores e os principais guias de presentes." }
       ],
       relatedLinks: [
         { label: "Presentes para leitores", targetKey: "reader", description: "Ideias pensadas para livros, cantos de leitura e alguns pequenos conjuntos a condizer." },
@@ -192,7 +192,7 @@ const definition = {
       title: "Contacta a Craftygiftsplace para presentes de madeira personalizados | Craftygiftsplace",
       metaDescription: "Contacta a Craftygiftsplace na Etsy para perguntas sobre personalização, ajuda a escolher um presente ou comparar porta-copos, marcadores e decoração em madeira.",
       h1: "Tens uma pergunta ou queres personalização?",
-      intro: "Para uma encomenda, uma personalização ou uma pergunta sobre um artigo específico, a Etsy continua a ser o melhor ponto de contacto. Esta página mostra apenas o passo seguinte mais claro e algumas entradas simples para as coleções principais.",
+      intro: "Para uma encomenda, um pedido de personalização ou uma dúvida sobre um artigo, o melhor é falar pela Etsy. Aqui fica a forma mais rápida de avançar e os atalhos mais úteis para as coleções principais.",
       primaryCtaLabel: "Escrever-nos na Etsy",
       secondaryCtaLabel: "Ler avaliações da Etsy",
       infoCards: [
@@ -207,7 +207,7 @@ const definition = {
         title: "Comprar com confiança",
         quote: "\"Foi um prazer lidar com esta loja... vou voltar para mais.\"",
         attribution: "Clare · Avaliação Etsy",
-        text: "A página de contacto mantém-se simples: escreve pela Etsy para uma dúvida sobre a encomenda, ou explora primeiro uma coleção se quiseres comparar estilos.",
+        text: "Se tiver uma dúvida sobre a encomenda, escreva pela Etsy. Se ainda estiver a comparar estilos, comece por uma das coleções abaixo.",
         links: [
           { label: "Porta-copos de madeira", targetKey: "coasters" },
           { label: "Presentes para leitores", targetKey: "reader" },
@@ -217,7 +217,7 @@ const definition = {
       faq: [
         { question: "As encomendas são feitas neste site?", answer: "Não. As encomendas e as mensagens são tratadas na Etsy, onde ficam reunidas a ficha do produto, a entrega e as opções de personalização." },
         { question: "Posso pedir personalização antes de comprar?", answer: "Sim. As mensagens da Etsy são o melhor lugar para perguntar por um nome, uma data ou um pequeno texto antes da encomenda." },
-        { question: "Posso ver as coleções antes de escrever?", answer: "Sim. As principais coleções e os guias de presentes continuam ligados a partir desta página para poderes comparar primeiro com calma." }
+        { question: "Posso ver as coleções antes de escrever?", answer: "Sim. As principais coleções e os guias de presentes continuam ligados aqui para poderes comparar primeiro com calma." }
       ],
       ctaPanel: {
         title: "Pronto para escrever ou navegar na Etsy?",
@@ -229,7 +229,7 @@ const definition = {
       title: "Presentes de madeira para amantes de gatos, casas acolhedoras e ideias Etsy bem pensadas | Craftygiftsplace",
       metaDescription: "Descobre presentes de madeira para amantes de gatos, com porta-copos felinos e decoração acolhedora para prateleiras, mesas de centro e ideias que seguem para a Etsy.",
       h1: "Presentes de madeira para amantes de gatos, prateleiras e mesas de centro",
-      intro: "Esta página é para quem já sabe que quer oferecer algo a um amante de gatos. Reúne os melhores acertos felinos num só lugar: porta-copos para mesas de centro, desenhos de gato com um toque mais celeste e uma peça decorativa pequena para prateleiras ou cantos de leitura.",
+      intro: "Se já sabe que quer oferecer algo a um amante de gatos, aqui encontra algumas das melhores ideias com tema felino num só lugar: porta-copos para mesas de centro, desenhos de gato com um toque celeste e uma pequena peça decorativa para prateleiras ou cantos de leitura.",
       primaryCtaLabel: "Ver presentes de gatos na Etsy",
       secondaryCtaLabel: "Ir para as ideias de gatos",
       linkCloud: [
@@ -238,10 +238,10 @@ const definition = {
         { label: "Todos os presentes de gatos", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Porque esta página ajuda",
+        title: "Porque facilita a escolha",
         quote: "\"Estes porta-copos são lindos. Parecem resistentes e muito bem feitos.\"",
         attribution: "Andrew · Avaliação Etsy",
-        text: "As peças com tema de gatos já eram populares na loja. Esta página reúne-as para as comparar sem saltar entre categorias.",
+        text: "As peças com tema de gatos já eram favoritas na loja. Aqui ficam reunidas para ser mais fácil comparar sem saltar entre várias coleções.",
         links: [
           { label: "Ver porta-copos de madeira", targetKey: "coasters" },
           { label: "Ver presentes de casa nova", targetKey: "housewarming" },
@@ -259,11 +259,11 @@ const definition = {
         "Mistura conjuntos úteis com uma peça decorativa mais suave.",
         "Resulta bem quando o presente deve parecer acolhedor, útil e claramente ligado a gatos."
       ],
-      catalogIntro: "Os melhores acertos com tema de gatos para casas acolhedoras, prateleiras e presentes à volta de uma mesa de centro.",
+      catalogIntro: "Ideias com tema de gatos para casas acolhedoras, prateleiras e presentes que ficam bem à volta de uma mesa de centro.",
       faq: [
         { question: "Todos estes presentes para amantes de gatos são porta-copos?", answer: "Não. A página reúne conjuntos de porta-copos com tema felino e uma pequena peça decorativa em madeira para escolher entre presente prático e presente mais visual." },
         { question: "Estas ideias também servem para casa nova?", answer: "Sim. Vários modelos funcionam muito bem para uma casa nova, sobretudo quando o presente deve parecer útil e acolhedor." },
-        { question: "Posso continuar a ver toda a coleção de porta-copos?", answer: "Sim. Esta página liga diretamente à coleção completa para quem quer comparar mais temas." }
+        { question: "Posso continuar a ver toda a coleção de porta-copos?", answer: "Sim. Daqui pode seguir diretamente para a coleção completa e comparar mais temas." }
       ],
       relatedLinks: [
         { label: "Porta-copos de madeira", targetKey: "coasters", description: "Uma seleção de porta-copos com estilos felinos, celestes e botânicos." },
@@ -280,7 +280,7 @@ const definition = {
       title: "Presentes de madeira para leitores, cantos de leitura e estantes acolhedoras | Craftygiftsplace",
       metaDescription: "Explora presentes de madeira para leitores, com marcadores, um conjunto de fantasia e peças para cantos de leitura e estantes tranquilas.",
       h1: "Presentes de madeira para leitores e cantos de leitura acolhedores",
-      intro: "Esta página ajuda quem já procura um presente para leitor. Reúne marcadores, um conjunto de fantasia a combinar e algumas peças que assentam bem num canto de leitura, para comparar vários estilos sem sair do mesmo tema.",
+      intro: "Quando a intenção já é oferecer algo a um leitor, aqui fica mais fácil comparar marcadores, um conjunto de fantasia a condizer e algumas peças para cantos de leitura sem sair do mesmo tema.",
       primaryCtaLabel: "Ver presentes para leitores na Etsy",
       secondaryCtaLabel: "Ir para as ideias de leitores",
       linkCloud: [
@@ -289,7 +289,7 @@ const definition = {
         { label: "Todas as ideias para leitores", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Porque esta página ajuda",
+        title: "Porque facilita a escolha",
         quote: "\"O detalhe é incrível, o acabamento é muito bom e nota-se durabilidade. Um marcador lindíssimo.\"",
         attribution: "Comprador de marcador · Avaliação Etsy",
         text: "Evita espalhar o visitante por várias coleções quando a intenção é simples: encontrar um presente para leitor que faça sentido logo à primeira vista.",
@@ -312,7 +312,7 @@ const definition = {
       ],
       catalogIntro: "Ideias em madeira para leitores, marcadores, conjunto de fantasia e pequenos detalhes para cantos de leitura.",
       faq: [
-        { question: "Esta página inclui apenas marcadores?", answer: "Não. Reúne sobretudo marcadores, mas também um conjunto a condizer e uma pequena peça decorativa que funciona bem num canto de leitura." },
+        { question: "Aqui encontra apenas marcadores?", answer: "Não. Reúne sobretudo marcadores, mas também um conjunto a condizer e uma pequena peça decorativa que funciona bem num canto de leitura." },
         { question: "Existe também uma coleção dedicada aos marcadores?", answer: "Sim. A coleção de marcadores de livros de madeira continua disponível para quem quiser ficar apenas nesse tipo de produto." },
         { question: "Estes presentes combinam com leitores de fantasia?", answer: "Sim. Várias opções estão claramente orientadas para fantasia, sem excluir estilos mais calmos para outros leitores." }
       ],
@@ -331,7 +331,7 @@ const definition = {
       title: "Presentes de madeira para casa nova, mesas de centro, prateleiras e lares acolhedores | Craftygiftsplace",
       metaDescription: "Explora presentes de madeira para casa nova, com porta-copos úteis e peças decorativas acolhedoras para mesas de centro, prateleiras e novos lares.",
       h1: "Presentes de madeira para casa nova, mesas de centro, prateleiras e lares acolhedores",
-      intro: "Esta página é para quem já procura um presente para uma casa nova. Centra-se em porta-copos úteis, algumas peças decorativas mais suaves e opções que fazem sentido imediato numa mesa de centro, prateleira ou entrada.",
+      intro: "Quando o presente é para uma casa nova, aqui encontra porta-copos úteis, algumas peças decorativas mais suaves e opções que encaixam logo numa mesa de centro, prateleira ou entrada.",
       primaryCtaLabel: "Ver presentes de casa nova na Etsy",
       secondaryCtaLabel: "Ir para as ideias de casa nova",
       linkCloud: [
@@ -340,10 +340,10 @@ const definition = {
         { label: "Todas as ideias para a casa", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Porque esta página funciona",
+        title: "Porque ajuda a escolher",
         quote: "\"Estes porta-copos são lindos. Parecem resistentes e muito bem feitos.\"",
         attribution: "Andrew · Avaliação Etsy",
-        text: "Para uma casa nova, muitos visitantes querem algo útil, decorativo e fácil de integrar no lar. Esta página mantém precisamente esse foco.",
+        text: "Para uma casa nova, muitos visitantes querem algo útil, decorativo e fácil de integrar no lar. É exatamente nisso que esta seleção se concentra.",
         links: [
           { label: "Ver porta-copos de madeira", targetKey: "coasters" },
           { label: "Ver presentes de gatos", targetKey: "cat" },
@@ -364,8 +364,8 @@ const definition = {
       catalogIntro: "Ideias em madeira para casas novas, mesas de centro, prateleiras e interiores acolhedores.",
       faq: [
         { question: "Estas ideias servem para um apartamento ou uma casa pequena?", answer: "Sim. Várias peças são compactas, úteis e fáceis de colocar numa mesa de centro, prateleira ou consola sem ocupar muito espaço." },
-        { question: "Nesta página predominam os porta-copos?", answer: "Os porta-copos continuam no centro da seleção, mas a página mantém também uma pequena peça decorativa para quem quer algo mais suave." },
-        { question: "Posso ver outras ideias de presente a partir daqui?", answer: "Sim. Esta página liga às coleções e aos guias de gatos ou leitores se a intenção mudar." }
+        { question: "Os porta-copos continuam a dominar esta seleção?", answer: "Os porta-copos continuam no centro da seleção, mas a página mantém também uma pequena peça decorativa para quem quer algo mais suave." },
+        { question: "Posso ver outras ideias de presente a partir daqui?", answer: "Sim. Daqui pode seguir para as coleções e para os guias de gatos ou leitores se a intenção mudar." }
       ],
       relatedLinks: [
         { label: "Porta-copos de madeira", targetKey: "coasters", description: "Compara mais estilos se quiseres ficar num presente prático para a casa." },
@@ -419,7 +419,7 @@ pagesPt.push({
   infoCards: [
     {
       title: "Quais artigos podem ser personalizados?",
-      text: "A maioria dos porta-copos, marcadores de livros e lembranças da loja pode ser personalizada. Isso inclui adicionar um nome, nomes de casal, uma data curta ou uma mensagem breve. A ficha do Etsy indica o que está disponível para cada peça — e pode sempre enviar uma mensagem antes de encomendar."
+      text: "A maioria dos porta-copos, marcadores de livros e lembranças da loja pode ser personalizada. Pode incluir um nome, nomes de casal, uma data curta ou uma mensagem breve. A ficha da Etsy indica o que está disponível para cada peça — e pode sempre enviar uma mensagem antes de encomendar."
     },
     {
       title: "Onde introduzo os detalhes de personalização?",
@@ -437,7 +437,7 @@ pagesPt.push({
     },
     {
       title: "Posso enviar mensagem antes de encomendar?",
-      text: "Sim, e é muitas vezes a forma mais fácil de acertar. Use a mensagem do Etsy para descrever o que pretende. O vendedor responde rapidamente e confirmará as opções antes de fazer a encomenda."
+      text: "Sim, e muitas vezes é a forma mais simples de acertar. Use as mensagens da Etsy para descrever o que pretende. O vendedor responde rapidamente e confirma as opções antes de fazer a encomenda."
     },
     {
       title: "O que acontece após a encomenda?",
@@ -475,14 +475,14 @@ pagesPt.push({
   path: "/pt/pages/por-que-presentes-de-madeira.html",
   template: "contact",
   locale: "pt",
-  title: "Por que presentes de madeira? Feitos à mão, duradouros e pessoais | Craftygiftsplace",
-  metaDescription: "Os presentes de madeira feitos à mão duram mais, parecem mais pessoais e têm verdadeira artesania. Descubra por que a madeira gravada é um presente melhor do que as alternativas genéricas.",
-  h1: "Por que os presentes de madeira duram mais do que a maioria",
+  title: "Porquê escolher presentes de madeira? Feitos à mão, duradouros e pessoais | Craftygiftsplace",
+  metaDescription: "Os presentes de madeira feitos à mão duram mais, parecem mais pessoais e mostram verdadeiro trabalho artesanal. Descubra porque a madeira gravada é uma escolha melhor do que as alternativas genéricas.",
+  h1: "Porque os presentes de madeira duram mais do que muitos outros",
   eyebrow: "O argumento para a madeira",
-  intro: "Os presentes genéricos esquecem-se. Os presentes de madeira guardam-se. Eis por que a madeira artesanal gravada funciona tão bem para quase qualquer ocasião.",
+  intro: "Os presentes genéricos esquecem-se. Os presentes de madeira ficam. Eis porque a madeira gravada e feita à mão funciona tão bem em tantas ocasiões.",
   breadcrumbs: [
     { label: "Início", path: "/pt/index.html" },
-    { label: "Por que presentes de madeira?" }
+    { label: "Porquê escolher madeira?" }
   ],
   primaryCta: {
     label: "Ver presentes de madeira no Etsy",
@@ -494,7 +494,7 @@ pagesPt.push({
   },
   sidebar: {
     title: "O que dizem os compradores",
-    quote: "\"A artesania é espetacular. Até cheira a madeira fresca.\"",
+    quote: "\"O trabalho artesanal é espetacular. Até cheira a madeira fresca.\"",
     attribution: "Alex · 5/5 no Etsy",
     text: "Avaliado com 4,96/5 em centenas de avaliações no Etsy. Os compradores mencionam consistentemente qualidade, detalhe e acabamento duradouro.",
     links: [
@@ -506,7 +506,7 @@ pagesPt.push({
   infoCards: [
     {
       title: "A madeira sente-se diferente",
-      text: "A madeira real tem uma qualidade tátil que nenhum cartão impresso ou alternativa em plástico pode igualar. O peso, o grão, o ligeiro calor do material — tudo isso nota-se antes de o destinatário ler a gravura. Um porta-copos ou marcador de livros em madeira anuncia-se como algo feito, não pedido num menu suspenso."
+      text: "A madeira real tem uma qualidade tátil que nenhum cartão impresso ou alternativa em plástico pode igualar. O peso, o grão, o ligeiro calor do material — tudo isso nota-se antes de o destinatário ler a gravura. Um porta-copos ou marcador de livros em madeira percebe-se como algo feito com intenção, não escolhido de uma lista genérica."
     },
     {
       title: "A gravura torna-o permanente",
@@ -518,14 +518,14 @@ pagesPt.push({
     },
     {
       title: "Feito à mão significa: uma pessoa fez",
-      text: "Cada peça desta loja é feita por encomenda por uma só pessoa com uma máquina de gravação a laser e um padrão claro de qualidade. Não é linguagem de marketing: significa que a sua encomenda não é tirada de uma prateleira. É feita depois de a realizar."
+      text: "Cada peça desta loja é feita por encomenda por uma só pessoa, com gravação a laser e um padrão de acabamento muito claro. Isso nota-se no resultado: a sua encomenda não sai de uma prateleira. É preparada depois de a fazer, o que permite personalizar e manter uma qualidade consistente de peça para peça."
     },
     {
       title: "Ótimo para leitores, amantes de gatos, novas casas e mais",
       items: [
         "Leitores: marcadores de olho de dragão, pena, céltico e fantasia que duram mais do que os livros que marcam",
         "Amantes de gatos: porta-velas Moon Cat e porta-copos com tema felino para prateleiras acolhedoras",
-        "Novas casas: conjuntos de porta-copos gravados que parecem escolhidos, não convenientes",
+        "Novas casas: conjuntos de porta-copos gravados que parecem escolhidos com intenção, não comprados à pressa",
         "Momentos de memória: placas comemorativas para animais para um presente que reconhece a perda com cuidado",
         "Gamers e tecnologia: porta-chaves de RAM reciclado e cartazes de porta para gaming para secretárias"
       ]
@@ -538,11 +538,11 @@ pagesPt.push({
   faq: [
     {
       question: "Os presentes de madeira são adequados para todas as idades?",
-      answer: "Sim. Porta-copos, marcadores de livros e peças decorativas funcionam para adultos de qualquer idade. A gama inclui artigos funcionais para uso diário e lembranças para ocasiões especiais. A loja também tem peças de marcos do bebé para presentes de boas-vindas."
+      answer: "Sim. Porta-copos, marcadores de livros e peças decorativas funcionam para adultos de qualquer idade. A gama inclui artigos funcionais para uso diário e lembranças para ocasiões especiais. A loja também tem peças para assinalar os primeiros meses do bebé."
     },
     {
       question: "Os presentes de madeira duram ao longo do tempo?",
-      answer: "O bétula e madeiras semelhantes são duráveis e estáveis para uso interior. O detalhe gravado não desvanece. A maioria dos porta-copos tem fundo de cortiça que protege as superfícies. Os compradores mencionam regularmente a durabilidade a par da qualidade visual."
+      answer: "A bétula e madeiras semelhantes são duráveis e estáveis para uso interior. O detalhe gravado não desvanece. A maioria dos porta-copos tem fundo de cortiça que protege as superfícies. Os compradores mencionam regularmente a durabilidade a par da qualidade visual."
     },
     {
       question: "Os presentes de madeira podem ser personalizados para qualquer ocasião?",
@@ -557,7 +557,7 @@ pagesPt.push({
   ],
   ctaPanel: {
     title: "Pronto para encontrar o presente de madeira certo?",
-    text: "Explore a coleção completa no Etsy — porta-copos, marcadores de livros, lembranças e muito mais.",
+    text: "Veja a coleção completa no Etsy — porta-copos, marcadores de livros, lembranças e muito mais.",
     label: "Abrir a Craftygiftsplace no Etsy",
     url: "https://www.etsy.com/shop/Craftygiftsplace"
   },

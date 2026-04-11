@@ -1093,7 +1093,7 @@ pagesDe.push({
   infoCards: [
     {
       title: "Holz fühlt sich anders an",
-      text: "Echtes Holz hat eine taktile Qualität, die keine bedruckte Karte oder Kunststoffalternative erreichen kann. Das Gewicht, die Maserung, die leichte Wärme des Materials — all das macht sich bemerkbar, bevor der Empfänger die Gravur liest. Ein Holzuntersetzer oder Lesezeichen kündigt sich als etwas Gemachtes an, nicht als etwas vom Dropdown bestellt."
+      text: "Echtes Holz hat eine taktile Qualität, die keine bedruckte Karte oder Kunststoffalternative erreichen kann. Das Gewicht, die Maserung, die leichte Wärme des Materials — all das macht sich bemerkbar, bevor der Empfänger die Gravur liest. Ein Holzuntersetzer oder Lesezeichen kündigt sich als etwas Gemachtes an, nicht wie etwas, das aus einer generischen Produktliste gewählt wurde."
     },
     {
       title: "Gravur macht es dauerhaft",
@@ -1105,7 +1105,7 @@ pagesDe.push({
     },
     {
       title: "Handgemacht bedeutet: eine Person hat es gemacht",
-      text: "Jedes Stück aus diesem Shop wird auf Bestellung von einer Person mit einem Lasergravurgerät und einem klaren Qualitätsstandard gefertigt. Das ist kein Marketingbegriff — es bedeutet, dass deine Bestellung nicht aus einem Regal geholt wird. Sie wird gefertigt, nachdem du sie aufgegeben hast."
+      text: "Jedes Stück aus diesem Shop wird auf Bestellung von einer Person mit einem Lasergravurgerät und einem klaren Qualitätsstandard gefertigt. Das merkt man am Ergebnis: Deine Bestellung wird nicht aus einem Regal geholt. Sie wird erst angefertigt, nachdem du sie aufgegeben hast, wodurch Personalisierung möglich bleibt und die Qualität in Bewertungen so konstant wirkt."
     },
     {
       title: "Gut für Leser, Katzenliebhaber, neue Zuhause und mehr",

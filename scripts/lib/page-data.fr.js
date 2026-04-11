@@ -533,7 +533,7 @@ pagesFr.push({
   infoCards: [
     {
       title: "Le bois se ressent différemment",
-      text: "Le bois véritable a une qualité tactile qu'aucune carte imprimée ou alternative en plastique ne peut égaler. Le poids, le grain, la légère chaleur du matériau — tout cela se perçoit avant même que le destinataire lise la gravure. Un dessous-de-verre ou un marque-page en bois s'annonce comme quelque chose de fabriqué, pas commandé depuis un menu déroulant."
+      text: "Le bois véritable a une qualité tactile qu'aucune carte imprimée ou alternative en plastique ne peut égaler. Le poids, le grain, la légère chaleur du matériau — tout cela se perçoit avant même que le destinataire lise la gravure. Un dessous-de-verre ou un marque-page en bois s'annonce comme quelque chose de fabriqué, pas choisi dans une liste produit générique."
     },
     {
       title: "La gravure rend les choses permanentes",
@@ -545,7 +545,7 @@ pagesFr.push({
     },
     {
       title: "Fait main signifie : une personne l'a fabriqué",
-      text: "Chaque pièce de cette boutique est fabriquée sur commande par une seule personne, avec une graveuse laser et un standard clair de qualité. Ce n'est pas du langage marketing — cela signifie que votre commande n'est pas prise sur une étagère. Elle est fabriquée après que vous la passez."
+      text: "Chaque pièce de cette boutique est fabriquée sur commande par une seule personne, avec une graveuse laser et un standard clair de qualité. Cela se ressent dans le résultat : votre commande ne sort pas d'une étagère. Elle est fabriquée après votre commande, ce qui rend la personnalisation possible et la qualité cohérente d'un avis à l'autre."
     },
     {
       title: "Idéal pour les lecteurs, amateurs de chats, nouveaux foyers et plus",
@@ -594,4 +594,3 @@ pagesFr.push({
 module.exports = {
   pagesFr
 };
-

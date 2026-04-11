@@ -506,7 +506,7 @@ pagesIt.push({
   infoCards: [
     {
       title: "Il legno si sente diversamente",
-      text: "Il legno vero ha una qualità tattile che nessuna carta stampata o alternativa in plastica può eguagliare. Il peso, la venatura, il leggero calore del materiale — tutto questo si percepisce prima che il destinatario legga l'incisione. Un sottobicchiere o segnalibro in legno si annuncia come qualcosa di fatto, non ordinato da un menu a tendina."
+      text: "Il legno vero ha una qualità tattile che nessuna carta stampata o alternativa in plastica può eguagliare. Il peso, la venatura, il leggero calore del materiale — tutto questo si percepisce prima che il destinatario legga l'incisione. Un sottobicchiere o segnalibro in legno si presenta come qualcosa di fatto con cura, non scelto da un elenco generico."
     },
     {
       title: "L'incisione lo rende permanente",
@@ -518,7 +518,7 @@ pagesIt.push({
     },
     {
       title: "Fatto a mano significa: una persona lo ha fatto",
-      text: "Ogni pezzo di questo negozio viene realizzato su ordinazione da una sola persona con un'incisore laser e uno standard chiaro di qualità. Non è linguaggio di marketing: significa che il tuo ordine non viene preso da uno scaffale. Viene realizzato dopo che lo hai effettuato."
+      text: "Ogni pezzo di questo negozio viene realizzato su ordinazione da una sola persona con un incisore laser e uno standard chiaro di qualità. Questo si vede nel risultato: il tuo ordine non viene preso da uno scaffale. Viene realizzato dopo l'ordine, e proprio per questo la personalizzazione è possibile e la qualità resta così costante nelle recensioni."
     },
     {
       title: "Ottimo per lettori, amanti dei gatti, nuove case e altro",
