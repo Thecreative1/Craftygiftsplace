@@ -294,20 +294,6 @@ const singleLocaleEtsySectionPagePaths = new Set([
   "/en/pages/gifts-for-it-and-gamers.html",
   "/en/pages/readers-kit.html",
   "/en/pages/wedding.html",
-  "/en/pages/personalization.html",
-  "/en/pages/why-wooden-gifts.html",
-  "/de/pages/warum-holzgeschenke.html",
-  "/fr/pages/pourquoi-des-cadeaux-en-bois.html",
-  "/es/pages/por-que-regalos-de-madera.html",
-  "/it/pages/perche-regali-in-legno.html",
-  "/pages/waarom-houten-cadeaus.html",
-  "/pt/pages/por-que-presentes-de-madeira.html",
-  "/de/pages/personalisierung.html",
-  "/fr/pages/personnalisation.html",
-  "/es/pages/personalizacion.html",
-  "/it/pages/personalizzazione.html",
-  "/pages/personalisatie.html",
-  "/pt/pages/personalizacao.html"
 ]);
 
 const bestsellerSupportSlugs = new Set([

@@ -3133,7 +3133,13 @@
   {
     "path": "/en/pages/personalization.html",
     "alternatePaths": {
-      "en": "/en/pages/personalization.html"
+      "en": "/en/pages/personalization.html",
+      "nl": "/pages/personalisatie.html",
+      "de": "/de/pages/personalisierung.html",
+      "fr": "/fr/pages/personnalisation.html",
+      "es": "/es/pages/personalizacion.html",
+      "pt": "/pt/pages/personalizacao.html",
+      "it": "/it/pages/personalizzazione.html"
     },
     "template": "contact",
     "locale": "en",
@@ -3239,7 +3245,13 @@
   {
     "path": "/en/pages/why-wooden-gifts.html",
     "alternatePaths": {
-      "en": "/en/pages/why-wooden-gifts.html"
+      "en": "/en/pages/why-wooden-gifts.html",
+      "nl": "/pages/waarom-houten-cadeaus.html",
+      "de": "/de/pages/warum-holzgeschenke.html",
+      "fr": "/fr/pages/pourquoi-des-cadeaux-en-bois.html",
+      "es": "/es/pages/por-que-regalos-de-madera.html",
+      "pt": "/pt/pages/por-que-presentes-de-madeira.html",
+      "it": "/it/pages/perche-regali-in-legno.html"
     },
     "template": "contact",
     "locale": "en",

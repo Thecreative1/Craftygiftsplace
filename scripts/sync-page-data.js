@@ -14,7 +14,9 @@ const ALTERNATE_GROUPS = [
   { en: "/en/pages/contact.html", nl: "/pages/contact.html", de: "/de/pages/kontakt.html", fr: "/fr/pages/contact.html", es: "/es/pages/contacto.html", pt: "/pt/pages/contacto.html", it: "/it/pages/contatto.html" },
   { en: "/en/pages/cat-lover-gifts.html", nl: "/pages/cadeaus-voor-kattenliefhebbers.html", de: "/de/pages/geschenke-fuer-katzenliebhaber.html", fr: "/fr/pages/cadeaux-pour-amoureux-des-chats.html", es: "/es/pages/regalos-para-amantes-de-los-gatos.html", pt: "/pt/pages/presentes-para-amantes-de-gatos.html", it: "/it/pages/regali-per-amanti-dei-gatti.html" },
   { en: "/en/pages/reader-gifts.html", nl: "/pages/lezerscadeaus.html", de: "/de/pages/geschenke-fuer-leser.html", fr: "/fr/pages/cadeaux-pour-lecteurs.html", es: "/es/pages/regalos-para-lectores.html", pt: "/pt/pages/presentes-para-leitores.html", it: "/it/pages/regali-per-lettori.html" },
-  { en: "/en/pages/housewarming-gifts.html", nl: "/pages/verhuiscadeaus.html", de: "/de/pages/einzugsgeschenke.html", fr: "/fr/pages/cadeaux-de-cremaillere.html", es: "/es/pages/regalos-para-casa-nueva.html", pt: "/pt/pages/presentes-de-casa-nova.html", it: "/it/pages/regali-per-la-casa-nuova.html" }
+  { en: "/en/pages/housewarming-gifts.html", nl: "/pages/verhuiscadeaus.html", de: "/de/pages/einzugsgeschenke.html", fr: "/fr/pages/cadeaux-de-cremaillere.html", es: "/es/pages/regalos-para-casa-nueva.html", pt: "/pt/pages/presentes-de-casa-nova.html", it: "/it/pages/regali-per-la-casa-nuova.html" },
+  { en: "/en/pages/why-wooden-gifts.html", nl: "/pages/waarom-houten-cadeaus.html", de: "/de/pages/warum-holzgeschenke.html", fr: "/fr/pages/pourquoi-des-cadeaux-en-bois.html", es: "/es/pages/por-que-regalos-de-madera.html", pt: "/pt/pages/por-que-presentes-de-madeira.html", it: "/it/pages/perche-regali-in-legno.html" },
+  { en: "/en/pages/personalization.html", nl: "/pages/personalisatie.html", de: "/de/pages/personalisierung.html", fr: "/fr/pages/personnalisation.html", es: "/es/pages/personalizacion.html", pt: "/pt/pages/personalizacao.html", it: "/it/pages/personalizzazione.html" }
 ];
 
 function clonePages(pages) {
