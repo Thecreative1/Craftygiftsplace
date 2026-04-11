@@ -1426,7 +1426,11 @@ h3 {
 }
 
 .catalog-grid .card-media {
-  aspect-ratio: 5 / 4;
+  aspect-ratio: 1 / 1;
+}
+
+.catalog-grid .card-media img {
+  object-fit: contain;
 }
 
 .catalog-grid .card-body {
