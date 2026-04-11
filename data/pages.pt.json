@@ -31,7 +31,7 @@
     "sections": {
       "featuredCategories": {
         "heading": "Escolher por destinatário ou ocasião",
-        "intro": "Começa pela pessoa ou pela ocasião quando ainda não sabe que peça escolher."
+        "intro": "Começa pela pessoa ou pela ocasião quando ainda não sabes que peça escolher."
       },
       "bestsellers": {
         "heading": "Começa pelos mais procurados",
@@ -43,7 +43,7 @@
       },
       "collections": {
         "heading": "Comprar por tipo de produto",
-        "intro": "Se já sabe o que procura, comece por aqui."
+        "intro": "Se já sabes o que procuras, começa por aqui."
       },
       "support": {
         "heading": "Porque os compradores voltam",
@@ -211,17 +211,17 @@
         {
           "number": "1",
           "title": "Começa aqui",
-          "text": "Encontre o presente certo entre coleções e guias escolhidos a pensar em quem compra."
+          "text": "Encontra o presente certo entre coleções e guias escolhidos a pensar em quem compra."
         },
         {
           "number": "2",
-          "title": "Escolha o seu favorito",
-          "text": "Use fotos, temas e descrições para escolher com confiança."
+          "title": "Escolhe o teu favorito",
+          "text": "Usa fotos, temas e descrições para escolher com confiança."
         },
         {
           "number": "3",
-          "title": "Encomende no Etsy",
-          "text": "Aceda ao Etsy para preços, avaliações e pagamento seguro."
+          "title": "Encomenda no Etsy",
+          "text": "Acede ao Etsy para preços, avaliações e pagamento seguro."
         }
       ],
       "whyLink": {
@@ -1445,7 +1445,7 @@
     ],
     "ctaPanel": {
       "title": "Pronto para personalizar o seu presente?",
-      "text": "Aceda ao Etsy para explorar fichas, verificar opções de personalização e enviar mensagem ao vendedor.",
+      "text": "Acede ao Etsy para explorar fichas, verificar opções de personalização e enviar mensagem ao vendedor.",
       "label": "Abrir a Craftygiftsplace no Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace"
     },
