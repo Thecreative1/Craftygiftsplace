@@ -50,7 +50,8 @@ const definition = {
           { label: "Ver regalos para amantes de los gatos", targetKey: "cat" },
           { label: "Ver regalos para casa nueva", targetKey: "housewarming" },
           { label: "Explorar marcapáginas de madera", targetKey: "bookmarks" },
-          { label: "Cómo funciona la personalización", targetKey: "personalization" }
+          { label: "Cómo funciona la personalización", targetKey: "personalization" },
+          { label: "¿Por qué regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
         ]
       },
       featuredSummaries: [
@@ -102,7 +103,8 @@ const definition = {
           { label: "Ver regalos para lectores", targetKey: "reader" },
           { label: "Ver regalos de madera", targetKey: "gifts" },
           { label: "Descubrir posavasos", targetKey: "coasters" },
-          { label: "Cómo funciona la personalización", targetKey: "personalization" }
+          { label: "Cómo funciona la personalización", targetKey: "personalization" },
+          { label: "¿Por qué regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
         ]
       },
       featuredSummaries: [
@@ -154,7 +156,8 @@ const definition = {
           { label: "Ver regalos para lectores", targetKey: "reader" },
           { label: "Ver regalos para casa nueva", targetKey: "housewarming" },
           { label: "Ver la página de contacto", targetKey: "contact" },
-          { label: "Cómo funciona la personalización", targetKey: "personalization" }
+          { label: "Cómo funciona la personalización", targetKey: "personalization" },
+          { label: "¿Por qué regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
         ]
       },
       featuredSummaries: [
@@ -409,7 +412,8 @@ pagesEs.push({
     links: [
       { label: "Abrir la tienda Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Ver posavasos de madera", href: "/es/pages/posavasos-de-madera.html" },
-      { label: "Ver marcapáginas de madera", href: "/es/pages/marcapaginas-de-madera.html" }
+      { label: "Ver marcapáginas de madera", href: "/es/pages/marcapaginas-de-madera.html" },
+      { label: "¿Por qué regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
     ]
   },
   infoCards: [

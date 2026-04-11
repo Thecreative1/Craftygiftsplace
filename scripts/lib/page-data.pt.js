@@ -50,7 +50,8 @@ const definition = {
           { label: "Ver presentes para amantes de gatos", targetKey: "cat" },
           { label: "Ver presentes de casa nova", targetKey: "housewarming" },
           { label: "Explorar marcadores de livros", targetKey: "bookmarks" },
-          { label: "Como funciona a personalização", targetKey: "personalization" }
+          { label: "Como funciona a personalização", targetKey: "personalization" },
+          { label: "Porquê presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
         ]
       },
       featuredSummaries: [
@@ -102,7 +103,8 @@ const definition = {
           { label: "Ver presentes para leitores", targetKey: "reader" },
           { label: "Ver presentes de madeira", targetKey: "gifts" },
           { label: "Descobrir porta-copos", targetKey: "coasters" },
-          { label: "Como funciona a personalização", targetKey: "personalization" }
+          { label: "Como funciona a personalização", targetKey: "personalization" },
+          { label: "Porquê presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
         ]
       },
       featuredSummaries: [
@@ -154,7 +156,8 @@ const definition = {
           { label: "Ver presentes para leitores", targetKey: "reader" },
           { label: "Ver presentes de casa nova", targetKey: "housewarming" },
           { label: "Ver a página de contacto", targetKey: "contact" },
-          { label: "Como funciona a personalização", targetKey: "personalization" }
+          { label: "Como funciona a personalização", targetKey: "personalization" },
+          { label: "Porquê presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
         ]
       },
       featuredSummaries: [
@@ -409,7 +412,8 @@ pagesPt.push({
     links: [
       { label: "Abrir a loja Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Ver porta-copos de madeira", href: "/pt/pages/porta-copos-de-madeira.html" },
-      { label: "Ver marcadores de livros", href: "/pt/pages/marcadores-de-livros-de-madeira.html" }
+      { label: "Ver marcadores de livros", href: "/pt/pages/marcadores-de-livros-de-madeira.html" },
+      { label: "Porquê presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
     ]
   },
   infoCards: [

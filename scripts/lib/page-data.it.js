@@ -50,7 +50,8 @@ const definition = {
           { label: "Vedi i regali per amanti dei gatti", targetKey: "cat" },
           { label: "Vedi i regali per la casa nuova", targetKey: "housewarming" },
           { label: "Esplora i segnalibri in legno", targetKey: "bookmarks" },
-          { label: "Come funziona la personalizzazione", targetKey: "personalization" }
+          { label: "Come funziona la personalizzazione", targetKey: "personalization" },
+          { label: "Perché regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
         ]
       },
       featuredSummaries: [
@@ -102,7 +103,8 @@ const definition = {
           { label: "Vedi i regali per lettori", targetKey: "reader" },
           { label: "Vedi i regali in legno", targetKey: "gifts" },
           { label: "Scopri i sottobicchieri", targetKey: "coasters" },
-          { label: "Come funziona la personalizzazione", targetKey: "personalization" }
+          { label: "Come funziona la personalizzazione", targetKey: "personalization" },
+          { label: "Perché regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
         ]
       },
       featuredSummaries: [
@@ -154,7 +156,8 @@ const definition = {
           { label: "Vedi i regali per lettori", targetKey: "reader" },
           { label: "Vedi i regali per la casa nuova", targetKey: "housewarming" },
           { label: "Vedi la pagina contatto", targetKey: "contact" },
-          { label: "Come funziona la personalizzazione", targetKey: "personalization" }
+          { label: "Come funziona la personalizzazione", targetKey: "personalization" },
+          { label: "Perché regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
         ]
       },
       featuredSummaries: [
@@ -409,7 +412,8 @@ pagesIt.push({
     links: [
       { label: "Apri il negozio Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Vedi i sottobicchieri", href: "/it/pages/sottobicchieri-in-legno.html" },
-      { label: "Vedi i segnalibri", href: "/it/pages/segnalibri-in-legno.html" }
+      { label: "Vedi i segnalibri", href: "/it/pages/segnalibri-in-legno.html" },
+      { label: "Perché regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
     ]
   },
   infoCards: [

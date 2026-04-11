@@ -205,7 +205,8 @@ pagesDe.push({
       { label: "Geschenke für Leser", href: "/de/pages/geschenke-fuer-leser.html" },
       { label: "Holzgeschenke ansehen", href: "/de/pages/holzgeschenke.html" },
       { label: "Untersetzer entdecken", href: "/de/pages/holzuntersetzer.html" },
-      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" }
+      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" },
+      { label: "Warum Holzgeschenke?", href: "/de/pages/warum-holzgeschenke.html" }
     ]
   },
   featuredItems: [
@@ -324,7 +325,8 @@ pagesDe.push({
       { label: "Einzugsgeschenke ansehen", href: "/de/pages/einzugsgeschenke.html" },
       { label: "Geschenke für Leser", href: "/de/pages/geschenke-fuer-leser.html" },
       { label: "Kontakt und Personalisierung", href: "/de/pages/kontakt.html" },
-      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" }
+      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" },
+      { label: "Warum Holzgeschenke?", href: "/de/pages/warum-holzgeschenke.html" }
     ]
   },
     featuredItems: [
@@ -440,7 +442,8 @@ pagesDe.push({
       { label: "Geschenke für Katzenliebhaber", href: "/de/pages/geschenke-fuer-katzenliebhaber.html" },
       { label: "Einzugsgeschenke", href: "/de/pages/einzugsgeschenke.html" },
       { label: "Holzlesezeichen ansehen", href: "/de/pages/holzlesezeichen.html" },
-      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" }
+      { label: "Personalisierung verstehen", href: "/de/pages/personalisierung.html" },
+      { label: "Warum Holzgeschenke?", href: "/de/pages/warum-holzgeschenke.html" }
     ]
   },
   featuredItems: [
@@ -996,7 +999,8 @@ pagesDe.push({
     links: [
       { label: "Etsy-Shop öffnen", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Holzuntersetzer entdecken", href: "/de/pages/holzuntersetzer.html" },
-      { label: "Holzlesezeichen entdecken", href: "/de/pages/holzlesezeichen.html" }
+      { label: "Holzlesezeichen entdecken", href: "/de/pages/holzlesezeichen.html" },
+      { label: "Warum Holzgeschenke?", href: "/de/pages/warum-holzgeschenke.html" }
     ]
   },
   infoCards: [

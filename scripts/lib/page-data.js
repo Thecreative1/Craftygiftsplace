@@ -368,7 +368,8 @@ pagesEn.push({
       { label: "See cat lover gifts", href: "/en/pages/cat-lover-gifts.html" },
       { label: "See housewarming gifts", href: "/en/pages/housewarming-gifts.html" },
       { label: "Browse wooden bookmarks", href: "/en/pages/wooden-bookmarks.html" },
-      { label: "How personalization works", href: "/en/pages/personalization.html" }
+      { label: "How personalization works", href: "/en/pages/personalization.html" },
+      { label: "Why wooden gifts?", href: "/en/pages/why-wooden-gifts.html" }
     ]
   },
   featuredItems: [
@@ -464,7 +465,8 @@ pagesNl.push({
       { label: "Bekijk cadeaus voor kattenliefhebbers", href: "/pages/cadeaus-voor-kattenliefhebbers.html" },
       { label: "Bekijk verhuiscadeaus", href: "/pages/verhuiscadeaus.html" },
       { label: "Bekijk houten bladwijzers", href: "/pages/bladwijzers.html" },
-      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" }
+      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" },
+      { label: "Waarom houten cadeaus?", href: "/pages/waarom-houten-cadeaus.html" }
     ]
   },
   featuredItems: [
@@ -578,7 +580,8 @@ pagesEn.push({
       { label: "See reader gifts", href: "/en/pages/reader-gifts.html" },
       { label: "Browse wooden gifts", href: "/en/pages/wooden-gifts.html" },
       { label: "Open bookmarks on Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" },
-      { label: "How personalization works", href: "/en/pages/personalization.html" }
+      { label: "How personalization works", href: "/en/pages/personalization.html" },
+      { label: "Why wooden gifts?", href: "/en/pages/why-wooden-gifts.html" }
     ]
   },
   featuredItems: [
@@ -674,7 +677,8 @@ pagesNl.push({
       { label: "Bekijk lezerscadeaus", href: "/pages/lezerscadeaus.html" },
       { label: "Bekijk houten cadeaus", href: "/pages/houten-cadeaus.html" },
       { label: "Open bladwijzers op Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" },
-      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" }
+      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" },
+      { label: "Waarom houten cadeaus?", href: "/pages/waarom-houten-cadeaus.html" }
     ]
   },
   featuredItems: [
@@ -781,7 +785,8 @@ pagesEn.push({
       { label: "See housewarming gifts", href: "/en/pages/housewarming-gifts.html" },
       { label: "See reader gifts", href: "/en/pages/reader-gifts.html" },
       { label: "Contact on Etsy", href: "/en/pages/contact.html" },
-      { label: "How personalization works", href: "/en/pages/personalization.html" }
+      { label: "How personalization works", href: "/en/pages/personalization.html" },
+      { label: "Why wooden gifts?", href: "/en/pages/why-wooden-gifts.html" }
     ]
   },
     featuredItems: [
@@ -877,7 +882,8 @@ pagesNl.push({
       { label: "Bekijk verhuiscadeaus", href: "/pages/verhuiscadeaus.html" },
       { label: "Bekijk lezerscadeaus", href: "/pages/lezerscadeaus.html" },
       { label: "Contact via Etsy", href: "/pages/contact.html" },
-      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" }
+      { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html" },
+      { label: "Waarom houten cadeaus?", href: "/pages/waarom-houten-cadeaus.html" }
     ]
   },
     featuredItems: [
@@ -2241,7 +2247,8 @@ pagesEn.push({
     links: [
       { label: "Open the Etsy shop", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Browse wooden coasters", href: "/en/pages/wooden-coasters.html" },
-      { label: "Browse wooden bookmarks", href: "/en/pages/wooden-bookmarks.html" }
+      { label: "Browse wooden bookmarks", href: "/en/pages/wooden-bookmarks.html" },
+      { label: "Why wooden gifts?", href: "/en/pages/why-wooden-gifts.html" }
     ]
   },
   infoCards: [
@@ -2513,7 +2520,8 @@ pagesNl.push({
     links: [
       { label: "Etsy-shop openen", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Houten onderzetters bekijken", href: "/pages/onderzetters.html" },
-      { label: "Houten bladwijzers bekijken", href: "/pages/bladwijzers.html" }
+      { label: "Houten bladwijzers bekijken", href: "/pages/bladwijzers.html" },
+      { label: "Waarom houten cadeaus?", href: "/pages/waarom-houten-cadeaus.html" }
     ]
   },
   infoCards: [

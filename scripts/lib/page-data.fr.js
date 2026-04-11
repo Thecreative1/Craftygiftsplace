@@ -50,7 +50,8 @@ const definition = {
           { label: "Voir les cadeaux pour amoureux des chats", targetKey: "cat" },
           { label: "Voir les cadeaux de crémaillère", targetKey: "housewarming" },
           { label: "Parcourir les marque-pages en bois", targetKey: "bookmarks" },
-          { label: "Comment personnaliser", targetKey: "personalization" }
+          { label: "Comment personnaliser", targetKey: "personalization" },
+          { label: "Pourquoi des cadeaux en bois ?", href: "/fr/pages/pourquoi-des-cadeaux-en-bois.html" }
         ]
       },
       featuredSummaries: [
@@ -111,7 +112,8 @@ const definition = {
           { label: "Voir les cadeaux pour lecteurs", targetKey: "reader" },
           { label: "Voir les cadeaux en bois", targetKey: "gifts" },
           { label: "Découvrir les sous-verres", targetKey: "coasters" },
-          { label: "Comment personnaliser", targetKey: "personalization" }
+          { label: "Comment personnaliser", targetKey: "personalization" },
+          { label: "Pourquoi des cadeaux en bois ?", href: "/fr/pages/pourquoi-des-cadeaux-en-bois.html" }
         ]
       },
       featuredSummaries: [
@@ -172,7 +174,8 @@ const definition = {
           { label: "Voir les cadeaux pour lecteurs", targetKey: "reader" },
           { label: "Voir les cadeaux de crémaillère", targetKey: "housewarming" },
           { label: "Voir la page contact", targetKey: "contact" },
-          { label: "Comment personnaliser", targetKey: "personalization" }
+          { label: "Comment personnaliser", targetKey: "personalization" },
+          { label: "Pourquoi des cadeaux en bois ?", href: "/fr/pages/pourquoi-des-cadeaux-en-bois.html" }
         ]
       },
       featuredSummaries: [
@@ -436,7 +439,8 @@ pagesFr.push({
     links: [
       { label: "Ouvrir la boutique Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Voir les dessous-de-verre", href: "/fr/pages/sous-verres-en-bois.html" },
-      { label: "Voir les marque-pages", href: "/fr/pages/marque-pages-en-bois.html" }
+      { label: "Voir les marque-pages", href: "/fr/pages/marque-pages-en-bois.html" },
+      { label: "Pourquoi des cadeaux en bois ?", href: "/fr/pages/pourquoi-des-cadeaux-en-bois.html" }
     ]
   },
   infoCards: [
