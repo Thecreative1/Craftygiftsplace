@@ -998,9 +998,14 @@ h3 {
 }
 
 .product-card .card-media[data-media-shape="portrait"],
+.product-card .card-media[data-media-shape="balanced"],
 .product-card .card-media[data-media-shape="wide"],
 .product-card .card-media[data-media-shape="panorama"] {
   --product-media-scale: 1.03;
+}
+
+.product-card .card-media[data-media-shape="balanced"] {
+  padding: clamp(0.72rem, 1.7vw, 1rem);
 }
 
 .product-card .card-media[data-media-shape="portrait"] {
@@ -1022,6 +1027,7 @@ h3 {
   transform: scale(var(--product-media-scale));
 }
 
+.product-card .card-media[data-media-shape="balanced"] img,
 .product-card .card-media[data-media-shape="portrait"] img,
 .product-card .card-media[data-media-shape="wide"] img,
 .product-card .card-media[data-media-shape="panorama"] img {
@@ -1305,8 +1311,17 @@ h3 {
   padding: clamp(0.8rem, 1.9vw, 1rem);
 }
 
+.copy-card[data-media-shape="balanced"] .listing-photo {
+  object-fit: contain;
+  padding: clamp(0.68rem, 1.55vw, 0.9rem);
+}
+
 .copy-card[data-media-shape="portrait"] .listing-photo {
   padding-inline: clamp(1rem, 2.2vw, 1.25rem);
+}
+
+.copy-card[data-media-shape="balanced"] .listing-photo {
+  padding-inline: clamp(0.72rem, 1.7vw, 0.98rem);
 }
 
 .spotlight-card {
