@@ -467,6 +467,93 @@ pagesEs.push({
   alternatePaths: { en: "/es/pages/personalizacion.html" }
 });
 
+pagesEs.push({
+  path: "/es/pages/por-que-regalos-de-madera.html",
+  template: "contact",
+  locale: "es",
+  title: "¿Por qué regalos de madera? Hechos a mano, duraderos y personales | Craftygiftsplace",
+  metaDescription: "Los regalos de madera hechos a mano duran más, se sienten más personales y llevan verdadero artesanado. Descubre por qué la madera grabada es un mejor regalo que las alternativas genéricas.",
+  h1: "Por qué los regalos de madera duran más que la mayoría",
+  eyebrow: "El argumento de la madera",
+  intro: "Los regalos genéricos se olvidan. Los regalos de madera se guardan. Esto es por qué la madera artesanal grabada funciona tan bien para casi cualquier ocasión.",
+  breadcrumbs: [
+    { label: "Inicio", path: "/es/index.html" },
+    { label: "¿Por qué regalos de madera?" }
+  ],
+  primaryCta: {
+    label: "Ver regalos de madera en Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  secondaryCta: {
+    label: "Ver todas las colecciones",
+    targetUrl: "/es/pages/regalos-de-madera.html"
+  },
+  sidebar: {
+    title: "Lo que dicen los compradores",
+    quote: "\"La artesanía es espectacular. Incluso huele a madera fresca.\"",
+    attribution: "Alex · 5/5 en Etsy",
+    text: "Valorado con 4,96/5 en cientos de reseñas de Etsy. Los compradores mencionan constantemente calidad, detalle y acabado duradero.",
+    links: [
+      { label: "Posavasos de madera", href: "/es/pages/posavasos-de-madera.html" },
+      { label: "Marcapáginas de madera", href: "/es/pages/marcapaginas-de-madera.html" },
+      { label: "Todos los regalos de madera", href: "/es/pages/regalos-de-madera.html" }
+    ]
+  },
+  infoCards: [
+    {
+      title: "La madera se siente diferente",
+      text: "La madera real tiene una calidad táctil que ninguna tarjeta impresa o alternativa de plástico puede igualar. El peso, la veta, el leve calor del material — todo eso se percibe antes de que el destinatario lea el grabado. Un posavasos o marcapáginas de madera se anuncia como algo hecho, no pedido desde un menú desplegable."
+    },
+    {
+      title: "El grabado lo hace permanente",
+      text: "Un nombre, una fecha, una frase corta tallada en madera no se desvanece, no se pela y no se lava. Es parte de la pieza. Esa permanencia es lo que separa un regalo grabado de uno que acaba silenciosamente en un cajón. Los lectores guardan sus marcapáginas. Los posavasos se quedan en la mesa de café."
+    },
+    {
+      title: "Funciona para casi cualquier ocasión",
+      text: "Regalos de inauguración que van en la mesa de café desde el primer día. Regalos para lectores que viven dentro de un libro favorito. Piezas para amantes de los gatos que están en la estantería todo el año. Los regalos de madera son útiles y decorativos al mismo tiempo, por lo que permanecen visibles en lugar de guardarse tras la ocasión."
+    },
+    {
+      title: "Hecho a mano significa: una persona lo hizo",
+      text: "Cada pieza de esta tienda se fabrica bajo pedido por una sola persona con una grabadora láser y un estándar claro de calidad. No es lenguaje de marketing: significa que tu pedido no se coge de una estantería. Se fabrica después de que lo realizas."
+    },
+    {
+      title: "Ideal para lectores, amantes de los gatos, nuevos hogares y más",
+      items: [
+        "Lectores: marcapáginas de ojo de dragón, pluma, céltico y fantasía que duran más que los libros que marcan",
+        "Amantes de los gatos: portavelas Moon Cat y posavasos con temática felina para estanterías acogedoras",
+        "Nuevos hogares: juegos de posavasos grabados que se sienten elegidos, no convenientes",
+        "Momentos de recuerdo: placas conmemorativas para mascotas para un regalo que reconoce la pérdida con cuidado",
+        "Gamers y tecnología: llaveros RAM reciclados y carteles de puerta gaming para escritorios"
+      ]
+    },
+    {
+      title: "El argumento honesto para gastar un poco más",
+      text: "Un regalo de madera bien hecho cuesta más que una tarjeta y menos que la mayoría de las experiencias. Dura más que las flores, ocupa menos espacio que un bono y no necesita pilas. Para las ocasiones en que lo genérico no es suficiente, suele ser la elección correcta."
+    }
+  ],
+  faq: [
+    {
+      question: "¿Son los regalos de madera adecuados para todas las edades?",
+      answer: "Sí. Los posavasos, marcapáginas y piezas decorativas funcionan para adultos de cualquier edad. La gama incluye artículos funcionales para uso diario y recuerdos para ocasiones especiales. La tienda también tiene piezas de hitos de bebé para regalos de bienvenida."
+    },
+    {
+      question: "¿Aguantan los regalos de madera con el tiempo?",
+      answer: "El abedul y maderas similares son duraderos y estables para uso interior. El detalle grabado no se desvanece. La mayoría de los posavasos tienen base de corcho, que protege las superficies. Los compradores mencionan regularmente la durabilidad junto a la calidad visual."
+    },
+    {
+      question: "¿Se pueden personalizar los regalos de madera para cualquier ocasión?",
+      answer: "Muchas piezas pueden personalizarse con un nombre, fecha o mensaje corto. Esto las hace adecuadas para cumpleaños, aniversarios, inauguraciones, bodas y regalos conmemorativos. Consulta la página de personalización para todos los detalles."
+    }
+  ],
+  ctaPanel: {
+    title: "¿Listo para encontrar el regalo de madera ideal?",
+    text: "Explora la colección completa en Etsy — posavasos, marcapáginas, recuerdos y mucho más.",
+    label: "Abrir Craftygiftsplace en Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  alternatePaths: { en: "/es/pages/por-que-regalos-de-madera.html" }
+});
+
 module.exports = {
   pagesEs
 };

@@ -1304,6 +1304,108 @@
     }
   },
   {
+    "path": "/pages/waarom-houten-cadeaus.html",
+    "template": "contact",
+    "locale": "nl",
+    "title": "Waarom houten cadeaus? Handgemaakt, duurzaam en persoonlijk | Craftygiftsplace",
+    "metaDescription": "Handgemaakte houten cadeaus gaan langer mee, voelen persoonlijker aan en dragen echte vakmanschap. Ontdek waarom gegraveerd hout een beter cadeau is dan generieke alternatieven.",
+    "h1": "Waarom houten cadeaus langer meegaan dan de meeste andere",
+    "eyebrow": "Het argument voor hout",
+    "intro": "Generieke cadeaus worden vergeten. Houten cadeaus worden bewaard. Dit is waarom handgemaakt, gegraveerd hout zo goed werkt voor bijna elke gelegenheid.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/index.html"
+      },
+      {
+        "label": "Waarom houten cadeaus?"
+      }
+    ],
+    "primaryCta": {
+      "label": "Houten cadeaus bekijken op Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    },
+    "secondaryCta": {
+      "label": "Alle collecties bekijken",
+      "targetUrl": "/pages/houten-cadeaus.html"
+    },
+    "sidebar": {
+      "title": "Wat kopers zeggen",
+      "quote": "\"Wow, het vakmanschap is spectaculair. Het ruikt zelfs naar vers hout.\"",
+      "attribution": "Alex · 5/5 op Etsy",
+      "text": "Beoordeeld met 4,96/5 in honderden Etsy-beoordelingen. Kopers noemen steeds kwaliteit, detail en duurzame afwerking.",
+      "links": [
+        {
+          "label": "Houten onderzetters",
+          "href": "/pages/onderzetters.html"
+        },
+        {
+          "label": "Houten bladwijzers",
+          "href": "/pages/bladwijzers.html"
+        },
+        {
+          "label": "Alle houten cadeaus",
+          "href": "/pages/houten-cadeaus.html"
+        }
+      ]
+    },
+    "infoCards": [
+      {
+        "title": "Hout voelt anders aan",
+        "text": "Echt hout heeft een tactiele kwaliteit die geen gedrukte kaart of plastic alternatief kan evenaren. Het gewicht, de nerf, de lichte warmte van het materiaal — dat alles merk je voordat de ontvanger de gravure leest. Een houten onderzetter of bladwijzer kondigt zichzelf aan als iets dat gemaakt is, niet besteld via een dropdown."
+      },
+      {
+        "title": "Gravure maakt het permanent",
+        "text": "Een naam, een datum, een korte zin gegraveerd in hout vervaagt niet, schilfert niet af en wast niet weg. Het maakt deel uit van het stuk. Die duurzaamheid onderscheidt een gegraveerd cadeau van een dat stilletjes in een lade belandt. Lezers bewaren hun bladwijzers. Onderzetters blijven op de salontafel."
+      },
+      {
+        "title": "Het werkt voor bijna elke gelegenheid",
+        "text": "Verhuiscadeaus die vanaf dag één op de salontafel staan. Lezercadeaus die in een favoriete boek leven. Kattenliefhebberstukken die het hele jaar op de plank staan. Houten cadeaus zijn zowel functioneel als decoratief, waardoor ze zichtbaar blijven in plaats van na de gelegenheid te worden opgeborgen."
+      },
+      {
+        "title": "Handgemaakt betekent: één persoon heeft het gemaakt",
+        "text": "Elk stuk uit deze shop wordt op bestelling gemaakt door één persoon met een lasergraveermachine en een duidelijke kwaliteitsstandaard. Dat is geen marketingtaal — het betekent dat jouw bestelling niet van een plank wordt gepakt. Ze wordt gemaakt nadat je hem hebt geplaatst."
+      },
+      {
+        "title": "Ideaal voor lezers, kattenliefhebbers, nieuwe huizen en meer",
+        "items": [
+          "Lezers: drakenog-, veer-, Keltische en fantasy-bladwijzers die langer meegaan dan de boeken die ze markeren",
+          "Kattenliefhebbers: Moon Cat-waxinehouders en onderzetters met kattenmotief voor gezellige planken",
+          "Nieuwe huizen: gegraveerde onderzettersets die gekozen aanvoelen, niet handig",
+          "Herdenkingsmomenten: huisdiergedenkplaquettes voor een cadeau dat verlies erkent met echte zorg",
+          "Gamers en tech: gerecyclede RAM-sleutelhangers en gaming-deurhangers voor bureauopstellingen"
+        ]
+      },
+      {
+        "title": "Het eerlijke argument om iets meer uit te geven",
+        "text": "Een goed gemaakt houten cadeau kost meer dan een kaart en minder dan de meeste ervaringen. Het gaat langer mee dan bloemen, neemt minder ruimte in dan een cadeaubon en heeft geen batterijen nodig. Voor de gelegenheden waarbij generiek niet volstaat, is het doorgaans de juiste keuze."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Zijn houten cadeaus geschikt voor alle leeftijden?",
+        "answer": "Ja. Onderzetters, bladwijzers en decoratieve stukken werken voor volwassenen van elke leeftijd. Het assortiment omvat functionele artikelen voor dagelijks gebruik en aandenken voor bijzondere momenten. De shop heeft ook baby-mijlpaalpakketjes voor nieuwe aankomsten."
+      },
+      {
+        "question": "Gaan houten cadeaus lang mee?",
+        "answer": "Berk en vergelijkbare houtsoorten zijn duurzaam en stabiel voor binnengebruik. Gegraveerde details vervagen niet. De meeste onderzetters hebben een kurk achterkant die oppervlakken beschermt. Kopers noemen regelmatig duurzaamheid naast de visuele kwaliteit."
+      },
+      {
+        "question": "Kunnen houten cadeaus voor elke gelegenheid worden gepersonaliseerd?",
+        "answer": "Veel stukken kunnen worden gepersonaliseerd met een naam, datum of kort bericht. Dit maakt ze geschikt voor verjaardagen, jubilea, verhuizingen, bruiloften en herdenkingscadeaus. Zie de personalisatiepagina voor alle details."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Klaar om het juiste houten cadeau te vinden?",
+      "text": "Bekijk de volledige collectie op Etsy — onderzetters, bladwijzers, aandenken en meer.",
+      "label": "Craftygiftsplace op Etsy openen",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    },
+    "alternatePaths": {
+      "en": "/pages/waarom-houten-cadeaus.html"
+    }
+  },
+  {
     "path": "/pages/personalisatie.html",
     "template": "contact",
     "locale": "nl",

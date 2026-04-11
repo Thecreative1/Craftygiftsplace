@@ -494,6 +494,93 @@ pagesFr.push({
   alternatePaths: { en: "/fr/pages/personnalisation.html" }
 });
 
+pagesFr.push({
+  path: "/fr/pages/pourquoi-des-cadeaux-en-bois.html",
+  template: "contact",
+  locale: "fr",
+  title: "Pourquoi des cadeaux en bois ? Faits main, durables et personnels | Craftygiftsplace",
+  metaDescription: "Les cadeaux en bois faits main durent plus longtemps, semblent plus personnels et portent un vrai savoir-faire. Découvrez pourquoi le bois gravé est un meilleur cadeau que les alternatives génériques.",
+  h1: "Pourquoi les cadeaux en bois durent plus longtemps que la plupart",
+  eyebrow: "L'argument pour le bois",
+  intro: "Les cadeaux génériques s'oublient. Les cadeaux en bois se gardent. Voici pourquoi le bois artisanal gravé fonctionne si bien pour presque toutes les occasions.",
+  breadcrumbs: [
+    { label: "Accueil", path: "/fr/index.html" },
+    { label: "Pourquoi des cadeaux en bois ?" }
+  ],
+  primaryCta: {
+    label: "Parcourir les cadeaux en bois sur Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  secondaryCta: {
+    label: "Voir toutes les collections",
+    targetUrl: "/fr/pages/cadeaux-en-bois.html"
+  },
+  sidebar: {
+    title: "Ce que disent les acheteurs",
+    quote: "\"Wow, l'artisanat est spectaculaire. Ça sent même le bois frais.\"",
+    attribution: "Alex · 5/5 sur Etsy",
+    text: "Noté 4,96/5 sur des centaines d'avis Etsy. Les acheteurs mentionnent régulièrement la qualité, le détail et la finition durable.",
+    links: [
+      { label: "Dessous-de-verre en bois", href: "/fr/pages/sous-verres-en-bois.html" },
+      { label: "Marque-pages en bois", href: "/fr/pages/marque-pages-en-bois.html" },
+      { label: "Tous les cadeaux en bois", href: "/fr/pages/cadeaux-en-bois.html" }
+    ]
+  },
+  infoCards: [
+    {
+      title: "Le bois se ressent différemment",
+      text: "Le bois véritable a une qualité tactile qu'aucune carte imprimée ou alternative en plastique ne peut égaler. Le poids, le grain, la légère chaleur du matériau — tout cela se perçoit avant même que le destinataire lise la gravure. Un dessous-de-verre ou un marque-page en bois s'annonce comme quelque chose de fabriqué, pas commandé depuis un menu déroulant."
+    },
+    {
+      title: "La gravure rend les choses permanentes",
+      text: "Un nom, une date, une courte phrase gravée dans le bois ne s'efface pas, ne s'écaille pas et ne se lave pas. C'est une partie de la pièce. Cette permanence distingue un cadeau gravé de celui qui finit silencieusement dans un tiroir. Les lecteurs gardent leurs marque-pages. Les dessous-de-verre restent sur la table basse."
+    },
+    {
+      title: "Ça convient à presque toutes les occasions",
+      text: "Des cadeaux de crémaillère qui trônent sur la table basse dès le premier jour. Des cadeaux pour lecteurs qui vivent dans un livre favori. Des pièces pour amateurs de chats présentes toute l'année sur l'étagère. Les cadeaux en bois sont à la fois utiles et décoratifs — ils restent visibles au lieu d'être rangés après l'occasion."
+    },
+    {
+      title: "Fait main signifie : une personne l'a fabriqué",
+      text: "Chaque pièce de cette boutique est fabriquée sur commande par une seule personne, avec une graveuse laser et un standard clair de qualité. Ce n'est pas du langage marketing — cela signifie que votre commande n'est pas prise sur une étagère. Elle est fabriquée après que vous la passez."
+    },
+    {
+      title: "Idéal pour les lecteurs, amateurs de chats, nouveaux foyers et plus",
+      items: [
+        "Lecteurs : marque-pages œil de dragon, plume, celtique et fantasy qui outlast les livres qu'ils marquent",
+        "Amateurs de chats : bougeoirs Moon Cat et dessous-de-verre à thème félin pour étagères douillettes",
+        "Nouveaux foyers : sets de dessous-de-verre gravés qui semblent choisis plutôt que pratiques",
+        "Moments de souvenir : plaques commémoratives pour animaux pour un cadeau qui honore la perte avec soin",
+        "Gamers et tech : porte-clés RAM recyclés et panneaux de porte gaming pour les setups de bureau"
+      ]
+    },
+    {
+      title: "L'argument honnête pour dépenser un peu plus",
+      text: "Un cadeau en bois bien fabriqué coûte plus qu'une carte et moins que la plupart des expériences. Il dure plus longtemps que des fleurs, prend moins de place qu'un bon cadeau et ne nécessite pas de piles. Pour les occasions où le générique ne suffit pas, c'est généralement le bon choix."
+    }
+  ],
+  faq: [
+    {
+      question: "Les cadeaux en bois conviennent-ils à tous les âges ?",
+      answer: "Oui. Les dessous-de-verre, marque-pages et pièces décoratives conviennent aux adultes de tout âge. La gamme comprend des articles fonctionnels pour un usage quotidien et des souvenirs pour les occasions importantes. La boutique propose aussi des pièces jalons bébé pour les nouveaux arrivants."
+    },
+    {
+      question: "Les cadeaux en bois tiennent-ils dans le temps ?",
+      answer: "Le bouleau et les bois similaires sont durables et stables pour une utilisation intérieure. Le détail gravé ne s'efface pas. La plupart des dessous-de-verre ont un fond en liège qui protège les surfaces. Les acheteurs mentionnent régulièrement la durabilité en plus de la qualité visuelle."
+    },
+    {
+      question: "Les cadeaux en bois peuvent-ils être personnalisés pour toute occasion ?",
+      answer: "De nombreuses pièces peuvent être personnalisées avec un nom, une date ou un court message. Cela les rend adaptés aux anniversaires, crémaillères, mariages et cadeaux commémoratifs. Consultez la page de personnalisation pour tous les détails."
+    }
+  ],
+  ctaPanel: {
+    title: "Prêt à trouver le bon cadeau en bois ?",
+    text: "Parcourez la collection complète sur Etsy — dessous-de-verre, marque-pages, souvenirs et plus encore.",
+    label: "Ouvrir Craftygiftsplace sur Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  alternatePaths: { en: "/fr/pages/pourquoi-des-cadeaux-en-bois.html" }
+});
+
 module.exports = {
   pagesFr
 };

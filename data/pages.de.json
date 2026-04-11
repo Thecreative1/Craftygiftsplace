@@ -1404,5 +1404,107 @@
     "alternatePaths": {
       "en": "/de/pages/personalisierung.html"
     }
+  },
+  {
+    "path": "/de/pages/warum-holzgeschenke.html",
+    "template": "contact",
+    "locale": "de",
+    "title": "Warum Holzgeschenke? Handgemacht, dauerhaft und persönlich | Craftygiftsplace",
+    "metaDescription": "Handgemachte Holzgeschenke halten länger, wirken persönlicher und tragen echtes Handwerk. Erfahre, warum graviertes Holz ein besseres Geschenk ist als generische Alternativen.",
+    "h1": "Warum Holzgeschenke länger halten als die meisten anderen",
+    "eyebrow": "Das Argument für Holz",
+    "intro": "Generische Geschenke werden vergessen. Holzgeschenke werden aufbewahrt. Hier erfährst du, warum handgemachtes, graviertes Holz für fast jeden Anlass das bessere Geschenk ist.",
+    "breadcrumbs": [
+      {
+        "label": "Start",
+        "path": "/de/index.html"
+      },
+      {
+        "label": "Warum Holzgeschenke?"
+      }
+    ],
+    "primaryCta": {
+      "label": "Holzgeschenke auf Etsy entdecken",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    },
+    "secondaryCta": {
+      "label": "Alle Kollektionen ansehen",
+      "targetUrl": "/de/pages/holzgeschenke.html"
+    },
+    "sidebar": {
+      "title": "Was Käufer sagen",
+      "quote": "\"Wow, die Handwerkskunst ist spektakulär. Es riecht sogar nach frischem Holz.\"",
+      "attribution": "Alex · 5/5 auf Etsy",
+      "text": "4.96/5 in Hunderten von Etsy-Bewertungen. Käufer erwähnen immer wieder Qualität, Detail und langlebige Oberfläche.",
+      "links": [
+        {
+          "label": "Holzuntersetzer",
+          "href": "/de/pages/holzuntersetzer.html"
+        },
+        {
+          "label": "Holzlesezeichen",
+          "href": "/de/pages/holzlesezeichen.html"
+        },
+        {
+          "label": "Alle Holzgeschenke",
+          "href": "/de/pages/holzgeschenke.html"
+        }
+      ]
+    },
+    "infoCards": [
+      {
+        "title": "Holz fühlt sich anders an",
+        "text": "Echtes Holz hat eine taktile Qualität, die keine bedruckte Karte oder Kunststoffalternative erreichen kann. Das Gewicht, die Maserung, die leichte Wärme des Materials — all das macht sich bemerkbar, bevor der Empfänger die Gravur liest. Ein Holzuntersetzer oder Lesezeichen kündigt sich als etwas Gemachtes an, nicht als etwas vom Dropdown bestellt."
+      },
+      {
+        "title": "Gravur macht es dauerhaft",
+        "text": "Ein Name, ein Datum, ein kurzer Satz, der in Holz geschnitten wird, verblasst nicht, löst sich nicht ab und wird nicht abgewaschen. Er ist Teil des Stücks. Diese Dauerhaftigkeit trennt ein graviertes Geschenk von einem, das still in einer Schublade landet. Leser behalten ihre Lesezeichen. Untersetzer bleiben auf dem Couchtisch."
+      },
+      {
+        "title": "Es passt zu fast jedem Anlass",
+        "text": "Einzugsgeschenke, die vom ersten Tag an auf dem Couchtisch stehen. Lesergeschenke, die in einem Lieblingsbuch wohnen. Katzenliebhaber-Stücke, die das ganze Jahr auf dem Regal stehen. Holzgeschenke sind praktisch und dekorativ zugleich — sie bleiben sichtbar, statt nach dem Anlass verpackt zu werden."
+      },
+      {
+        "title": "Handgemacht bedeutet: eine Person hat es gemacht",
+        "text": "Jedes Stück aus diesem Shop wird auf Bestellung von einer Person mit einem Lasergravurgerät und einem klaren Qualitätsstandard gefertigt. Das ist kein Marketingbegriff — es bedeutet, dass deine Bestellung nicht aus einem Regal geholt wird. Sie wird gefertigt, nachdem du sie aufgegeben hast."
+      },
+      {
+        "title": "Gut für Leser, Katzenliebhaber, neue Zuhause und mehr",
+        "items": [
+          "Leser: Drachenauge-, Feder-, Keltische und Fantasy-Lesezeichen, die die Bücher überdauern",
+          "Katzenliebhaber: Mondkatzen-Teelichthalter und Untersetzer mit Katzenmotiv für gemütliche Regale",
+          "Neue Zuhause: gravierte Untersetzer-Sets, die sich gewählt anfühlen",
+          "Gedenkmomente: Haustier-Gedenkplatten für ein Geschenk, das Verlust mit echtem Respekt würdigt",
+          "Gamer und Technik: upcycelte RAM-Schlüsselanhänger und Gaming-Türschilder für Schreibtisch-Setups"
+        ]
+      },
+      {
+        "title": "Das ehrliche Argument, etwas mehr auszugeben",
+        "text": "Ein gut gemachtes Holzgeschenk kostet mehr als eine Karte und weniger als die meisten Erlebnisse. Es hält länger als Blumen, braucht weniger Platz als ein Gutschein und benötigt keine Batterien. Für die Anlässe, bei denen Generisches nicht ausreicht, ist es meistens die richtige Wahl."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sind Holzgeschenke für alle Altersgruppen geeignet?",
+        "answer": "Ja. Untersetzer, Lesezeichen und Dekorationsstücke eignen sich für Erwachsene jeden Alters. Das Sortiment umfasst funktionale Alltagsartikel und Andenken für besondere Anlässe. Im Shop gibt es auch Baby-Meilenstein-Stücke für die Geburt."
+      },
+      {
+        "question": "Halten Holzgeschenke auf Dauer?",
+        "answer": "Birke und ähnliche Hölzer sind langlebig und für den Innenbereich stabil. Gravierte Details verblassen nicht. Die meisten Untersetzer haben eine Korkrückseite, die Oberflächen schützt. Bewerter erwähnen regelmäßig die Langlebigkeit neben der optischen Qualität."
+      },
+      {
+        "question": "Können Holzgeschenke für jeden Anlass personalisiert werden?",
+        "answer": "Viele Stücke können mit einem Namen, Datum oder kurzer Nachricht personalisiert werden. Das macht sie für Geburtstage, Jahrestage, Einzüge, Hochzeiten und Gedenkgeschenke geeignet. Auf der Personalisierungsseite findest du alle Details."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Bereit, das richtige Holzgeschenk zu finden?",
+      "text": "Entdecke die gesamte Kollektion auf Etsy — Untersetzer, Lesezeichen, Andenken und mehr.",
+      "label": "Craftygiftsplace auf Etsy öffnen",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    },
+    "alternatePaths": {
+      "en": "/de/pages/warum-holzgeschenke.html"
+    }
   }
 ]

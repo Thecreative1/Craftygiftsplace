@@ -467,6 +467,93 @@ pagesPt.push({
   alternatePaths: { en: "/pt/pages/personalizacao.html" }
 });
 
+pagesPt.push({
+  path: "/pt/pages/por-que-presentes-de-madeira.html",
+  template: "contact",
+  locale: "pt",
+  title: "Por que presentes de madeira? Feitos à mão, duradouros e pessoais | Craftygiftsplace",
+  metaDescription: "Os presentes de madeira feitos à mão duram mais, parecem mais pessoais e têm verdadeira artesania. Descubra por que a madeira gravada é um presente melhor do que as alternativas genéricas.",
+  h1: "Por que os presentes de madeira duram mais do que a maioria",
+  eyebrow: "O argumento para a madeira",
+  intro: "Os presentes genéricos esquecem-se. Os presentes de madeira guardam-se. Eis por que a madeira artesanal gravada funciona tão bem para quase qualquer ocasião.",
+  breadcrumbs: [
+    { label: "Início", path: "/pt/index.html" },
+    { label: "Por que presentes de madeira?" }
+  ],
+  primaryCta: {
+    label: "Ver presentes de madeira no Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  secondaryCta: {
+    label: "Ver todas as coleções",
+    targetUrl: "/pt/pages/presentes-de-madeira.html"
+  },
+  sidebar: {
+    title: "O que dizem os compradores",
+    quote: "\"A artesania é espetacular. Até cheira a madeira fresca.\"",
+    attribution: "Alex · 5/5 no Etsy",
+    text: "Avaliado com 4,96/5 em centenas de avaliações no Etsy. Os compradores mencionam consistentemente qualidade, detalhe e acabamento duradouro.",
+    links: [
+      { label: "Porta-copos de madeira", href: "/pt/pages/porta-copos-de-madeira.html" },
+      { label: "Marcadores de livros", href: "/pt/pages/marcadores-de-livros-de-madeira.html" },
+      { label: "Todos os presentes de madeira", href: "/pt/pages/presentes-de-madeira.html" }
+    ]
+  },
+  infoCards: [
+    {
+      title: "A madeira sente-se diferente",
+      text: "A madeira real tem uma qualidade tátil que nenhum cartão impresso ou alternativa em plástico pode igualar. O peso, o grão, o ligeiro calor do material — tudo isso nota-se antes de o destinatário ler a gravura. Um porta-copos ou marcador de livros em madeira anuncia-se como algo feito, não pedido num menu suspenso."
+    },
+    {
+      title: "A gravura torna-o permanente",
+      text: "Um nome, uma data, uma frase curta gravada na madeira não desvanece, não descasca e não é lavada. Faz parte da peça. Essa permanência distingue um presente gravado de um que acaba silenciosamente numa gaveta. Os leitores guardam os seus marcadores. Os porta-copos ficam na mesa de centro."
+    },
+    {
+      title: "Funciona para quase qualquer ocasião",
+      text: "Presentes de inauguração que ficam na mesa de centro desde o primeiro dia. Presentes para leitores que vivem dentro de um livro favorito. Peças para amantes de gatos presentes todo o ano na prateleira. Os presentes de madeira são funcionais e decorativos ao mesmo tempo, pelo que ficam visíveis em vez de guardados após a ocasião."
+    },
+    {
+      title: "Feito à mão significa: uma pessoa fez",
+      text: "Cada peça desta loja é feita por encomenda por uma só pessoa com uma máquina de gravação a laser e um padrão claro de qualidade. Não é linguagem de marketing: significa que a sua encomenda não é tirada de uma prateleira. É feita depois de a realizar."
+    },
+    {
+      title: "Ótimo para leitores, amantes de gatos, novas casas e mais",
+      items: [
+        "Leitores: marcadores de olho de dragão, pena, céltico e fantasia que duram mais do que os livros que marcam",
+        "Amantes de gatos: porta-velas Moon Cat e porta-copos com tema felino para prateleiras acolhedoras",
+        "Novas casas: conjuntos de porta-copos gravados que parecem escolhidos, não convenientes",
+        "Momentos de memória: placas comemorativas para animais para um presente que reconhece a perda com cuidado",
+        "Gamers e tecnologia: porta-chaves de RAM reciclado e cartazes de porta para gaming para secretárias"
+      ]
+    },
+    {
+      title: "O argumento honesto para gastar um pouco mais",
+      text: "Um presente de madeira bem feito custa mais do que um cartão e menos do que a maioria das experiências. Dura mais do que flores, ocupa menos espaço do que um vale e não precisa de pilhas. Para as ocasiões em que o genérico não chega, é geralmente a escolha certa."
+    }
+  ],
+  faq: [
+    {
+      question: "Os presentes de madeira são adequados para todas as idades?",
+      answer: "Sim. Porta-copos, marcadores de livros e peças decorativas funcionam para adultos de qualquer idade. A gama inclui artigos funcionais para uso diário e lembranças para ocasiões especiais. A loja também tem peças de marcos do bebé para presentes de boas-vindas."
+    },
+    {
+      question: "Os presentes de madeira duram ao longo do tempo?",
+      answer: "O bétula e madeiras semelhantes são duráveis e estáveis para uso interior. O detalhe gravado não desvanece. A maioria dos porta-copos tem fundo de cortiça que protege as superfícies. Os compradores mencionam regularmente a durabilidade a par da qualidade visual."
+    },
+    {
+      question: "Os presentes de madeira podem ser personalizados para qualquer ocasião?",
+      answer: "Muitas peças podem ser personalizadas com um nome, data ou mensagem curta. Isso torna-as adequadas para aniversários, casamentos, inaugurações e presentes comemorativos. Consulte a página de personalização para todos os detalhes."
+    }
+  ],
+  ctaPanel: {
+    title: "Pronto para encontrar o presente de madeira certo?",
+    text: "Explore a coleção completa no Etsy — porta-copos, marcadores de livros, lembranças e muito mais.",
+    label: "Abrir a Craftygiftsplace no Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  alternatePaths: { en: "/pt/pages/por-que-presentes-de-madeira.html" }
+});
+
 module.exports = {
   pagesPt
 };

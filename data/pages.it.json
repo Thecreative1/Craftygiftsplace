@@ -1432,5 +1432,107 @@
     "alternatePaths": {
       "en": "/it/pages/personalizzazione.html"
     }
+  },
+  {
+    "path": "/it/pages/perche-regali-in-legno.html",
+    "template": "contact",
+    "locale": "it",
+    "title": "Perché regali in legno? Fatti a mano, duraturi e personali | Craftygiftsplace",
+    "metaDescription": "I regali in legno fatti a mano durano di più, sembrano più personali e portano vera artigianalità. Scopri perché il legno inciso è un regalo migliore delle alternative generiche.",
+    "h1": "Perché i regali in legno durano più della maggior parte",
+    "eyebrow": "L'argomento per il legno",
+    "intro": "I regali generici si dimenticano. I regali in legno si conservano. Ecco perché il legno artigianale inciso funziona così bene per quasi ogni occasione.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/it/index.html"
+      },
+      {
+        "label": "Perché regali in legno?"
+      }
+    ],
+    "primaryCta": {
+      "label": "Sfoglia i regali in legno su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    },
+    "secondaryCta": {
+      "label": "Vedi tutte le collezioni",
+      "targetUrl": "/it/pages/regali-in-legno.html"
+    },
+    "sidebar": {
+      "title": "Cosa dicono gli acquirenti",
+      "quote": "\"La lavorazione è spettacolare. Odora persino di legno fresco.\"",
+      "attribution": "Alex · 5/5 su Etsy",
+      "text": "Valutato 4,96/5 su centinaia di recensioni Etsy. Gli acquirenti citano costantemente qualità, dettaglio e finitura duratura.",
+      "links": [
+        {
+          "label": "Sottobicchieri in legno",
+          "href": "/it/pages/sottobicchieri-in-legno.html"
+        },
+        {
+          "label": "Segnalibri in legno",
+          "href": "/it/pages/segnalibri-in-legno.html"
+        },
+        {
+          "label": "Tutti i regali in legno",
+          "href": "/it/pages/regali-in-legno.html"
+        }
+      ]
+    },
+    "infoCards": [
+      {
+        "title": "Il legno si sente diversamente",
+        "text": "Il legno vero ha una qualità tattile che nessuna carta stampata o alternativa in plastica può eguagliare. Il peso, la venatura, il leggero calore del materiale — tutto questo si percepisce prima che il destinatario legga l'incisione. Un sottobicchiere o segnalibro in legno si annuncia come qualcosa di fatto, non ordinato da un menu a tendina."
+      },
+      {
+        "title": "L'incisione lo rende permanente",
+        "text": "Un nome, una data, una breve frase incisa nel legno non sbiadisce, non si scrosta e non si lava via. È parte del pezzo. Questa permanenza distingue un regalo inciso da uno che finisce silenziosamente in un cassetto. I lettori conservano i loro segnalibri. I sottobicchieri restano sul tavolino."
+      },
+      {
+        "title": "Funziona per quasi ogni occasione",
+        "text": "Regali di inaugurazione che vanno sul tavolino dal primo giorno. Regali per lettori che vivono in un libro preferito. Pezzi per amanti dei gatti presenti tutto l'anno sullo scaffale. I regali in legno sono allo stesso tempo utili e decorativi, quindi restano visibili invece di essere riposti dopo l'occasione."
+      },
+      {
+        "title": "Fatto a mano significa: una persona lo ha fatto",
+        "text": "Ogni pezzo di questo negozio viene realizzato su ordinazione da una sola persona con un'incisore laser e uno standard chiaro di qualità. Non è linguaggio di marketing: significa che il tuo ordine non viene preso da uno scaffale. Viene realizzato dopo che lo hai effettuato."
+      },
+      {
+        "title": "Ottimo per lettori, amanti dei gatti, nuove case e altro",
+        "items": [
+          "Lettori: segnalibri occhio di drago, piuma, celtico e fantasy che durano più dei libri che segnano",
+          "Amanti dei gatti: portacandele Moon Cat e sottobicchieri a tema felino per scaffali accoglienti",
+          "Nuove case: set di sottobicchieri incisi che sembrano scelti, non comodi",
+          "Momenti commemorativi: targhe commemorative per animali per un regalo che riconosce la perdita con cura",
+          "Gamer e tech: portachiavi RAM riciclati e cartelli per porte gaming per le postazioni da scrivania"
+        ]
+      },
+      {
+        "title": "L'argomento onesto per spendere un po' di più",
+        "text": "Un regalo in legno ben fatto costa più di una carta e meno della maggior parte delle esperienze. Dura più dei fiori, occupa meno spazio di un buono e non richiede batterie. Per le occasioni in cui il generico non basta, è di solito la scelta giusta."
+      }
+    ],
+    "faq": [
+      {
+        "question": "I regali in legno sono adatti a tutte le età?",
+        "answer": "Sì. Sottobicchieri, segnalibri e pezzi decorativi funzionano per adulti di qualsiasi età. La gamma comprende articoli funzionali per uso quotidiano e ricordi per occasioni importanti. Il negozio ha anche pezzi per traguardi dei neonati."
+      },
+      {
+        "question": "I regali in legno resistono nel tempo?",
+        "answer": "La betulla e i legni simili sono durevoli e stabili per uso interno. Il dettaglio inciso non sbiadisce. La maggior parte dei sottobicchieri ha un fondo in sughero che protegge le superfici. Gli acquirenti citano regolarmente la durabilità accanto alla qualità visiva."
+      },
+      {
+        "question": "I regali in legno possono essere personalizzati per ogni occasione?",
+        "answer": "Molti pezzi possono essere personalizzati con un nome, una data o un breve messaggio. Questo li rende adatti a compleanni, anniversari, inaugurazioni, matrimoni e regali commemorativi. Consulta la pagina di personalizzazione per tutti i dettagli."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Pronto a trovare il regalo in legno giusto?",
+      "text": "Sfoglia la collezione completa su Etsy — sottobicchieri, segnalibri, ricordi e molto altro.",
+      "label": "Apri Craftygiftsplace su Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace"
+    },
+    "alternatePaths": {
+      "en": "/it/pages/perche-regali-in-legno.html"
+    }
   }
 ]
