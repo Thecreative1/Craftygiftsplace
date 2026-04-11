@@ -34,7 +34,8 @@
       "Bash(curl -s \"https://craftygiftsplace.store/assets/css/style.css\")",
       "Bash(curl -s \"https://craftygiftsplace.store/assets/js/main.js\")",
       "Bash(npm list:*)",
-      "Bash([ -f \"E:/GIT_HUB/Craftygiftsplace/$f\" ])"
+      "Bash([ -f \"E:/GIT_HUB/Craftygiftsplace/$f\" ])",
+      "Bash(grep:*)"
     ]
   }
 }

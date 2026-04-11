@@ -137,6 +137,13 @@
       "image": "/assets/img/products/gift-home-decor.jpg",
       "imageAlt": "Recordação em madeira num ambiente acolhedor",
       "href": "/pt/pages/presentes-de-madeira.html"
+    },
+    {
+      "title": "Porquê presentes de madeira?",
+      "description": "Feito à mão, gravado e pessoal — porquê a madeira dura mais que as alternativas como presente que se guarda.",
+      "image": "/assets/img/maker-photo.jpg",
+      "imageAlt": "Artesão da Craftygiftsplace com presentes de madeira feitos à mão",
+      "href": "/pt/pages/por-que-presentes-de-madeira.html"
     }
   ],
   "supportCards": [

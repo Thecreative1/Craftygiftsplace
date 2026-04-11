@@ -137,6 +137,13 @@
       "image": "/assets/img/products/gift-home-decor.jpg",
       "imageAlt": "Ricordo in legno in un ambiente accogliente",
       "href": "/it/pages/regali-in-legno.html"
+    },
+    {
+      "title": "Perché regali in legno?",
+      "description": "Fatto a mano, inciso e personale — perché il legno dura più delle alternative come regalo che si conserva.",
+      "image": "/assets/img/maker-photo.jpg",
+      "imageAlt": "Artigiano di Craftygiftsplace con regali in legno fatti a mano",
+      "href": "/it/pages/perche-regali-in-legno.html"
     }
   ],
   "supportCards": [
