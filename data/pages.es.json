@@ -1525,6 +1525,28 @@
         "answer": "Muchas piezas pueden personalizarse con un nombre, fecha o mensaje corto. Esto las hace adecuadas para cumpleaños, aniversarios, inauguraciones, bodas y regalos conmemorativos. Consulta la página de personalización para todos los detalles."
       }
     ],
+    "relatedLinks": [
+      {
+        "label": "Posavasos de madera",
+        "href": "/es/pages/posavasos-de-madera.html",
+        "description": "Juegos de posavasos grabados para mesas de café, inauguraciones e interiores acogedores."
+      },
+      {
+        "label": "Marcapáginas de madera",
+        "href": "/es/pages/marcapaginas-de-madera.html",
+        "description": "Marcapáginas de fantasía, clásicos y personalizados para lectores y regalos."
+      },
+      {
+        "label": "Regalos de madera",
+        "href": "/es/pages/regalos-de-madera.html",
+        "description": "Portavelas, carteles de puerta y recuerdos para estantes y momentos especiales."
+      },
+      {
+        "label": "Cómo funciona la personalización",
+        "href": "/es/pages/personalizacion.html",
+        "description": "Añade un nombre, fecha o mensaje — aquí tienes lo que puedes esperar."
+      }
+    ],
     "ctaPanel": {
       "title": "¿Listo para encontrar el regalo de madera ideal?",
       "text": "Explora la colección completa en Etsy — posavasos, marcapáginas, recuerdos y mucho más.",

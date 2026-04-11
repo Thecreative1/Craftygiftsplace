@@ -572,6 +572,12 @@ pagesFr.push({
       answer: "De nombreuses pièces peuvent être personnalisées avec un nom, une date ou un court message. Cela les rend adaptés aux anniversaires, crémaillères, mariages et cadeaux commémoratifs. Consultez la page de personnalisation pour tous les détails."
     }
   ],
+  relatedLinks: [
+    { label: "Dessous-de-verre en bois", href: "/fr/pages/sous-verres-en-bois.html", description: "Sets de dessous-de-verre gravés pour tables basses, crémaillères et intérieurs chaleureux." },
+    { label: "Marque-pages en bois", href: "/fr/pages/marque-pages-en-bois.html", description: "Marque-pages fantasy, classiques et personnalisés pour lecteurs et cadeaux." },
+    { label: "Cadeaux en bois", href: "/fr/pages/cadeaux-en-bois.html", description: "Bougeoirs, panneaux de porte et souvenirs pour étagères et moments importants." },
+    { label: "Comment fonctionne la personnalisation", href: "/fr/pages/personnalisation.html", description: "Ajoutez un nom, une date ou un message — voici ce à quoi vous attendre." }
+  ],
   ctaPanel: {
     title: "Prêt à trouver le bon cadeau en bois ?",
     text: "Parcourez la collection complète sur Etsy — dessous-de-verre, marque-pages, souvenirs et plus encore.",

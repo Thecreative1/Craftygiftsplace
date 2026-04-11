@@ -1525,6 +1525,28 @@
         "answer": "Muitas peças podem ser personalizadas com um nome, data ou mensagem curta. Isso torna-as adequadas para aniversários, casamentos, inaugurações e presentes comemorativos. Consulte a página de personalização para todos os detalhes."
       }
     ],
+    "relatedLinks": [
+      {
+        "label": "Porta-copos de madeira",
+        "href": "/pt/pages/porta-copos-de-madeira.html",
+        "description": "Conjuntos de porta-copos gravados para mesas de centro, inaugurações e interiores acolhedores."
+      },
+      {
+        "label": "Marcadores de livros de madeira",
+        "href": "/pt/pages/marcadores-de-livros-de-madeira.html",
+        "description": "Marcadores fantasia, clássicos e personalizados para leitores e embalagens de presente."
+      },
+      {
+        "label": "Presentes de madeira",
+        "href": "/pt/pages/presentes-de-madeira.html",
+        "description": "Porta-velas, cartazes de porta e lembranças para prateleiras e momentos especiais."
+      },
+      {
+        "label": "Como funciona a personalização",
+        "href": "/pt/pages/personalizacao.html",
+        "description": "Adicione um nome, data ou mensagem — aqui está o que esperar."
+      }
+    ],
     "ctaPanel": {
       "title": "Pronto para encontrar o presente de madeira certo?",
       "text": "Explore a coleção completa no Etsy — porta-copos, marcadores de livros, lembranças e muito mais.",
