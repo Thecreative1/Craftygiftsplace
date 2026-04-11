@@ -160,6 +160,28 @@ pagesEn.push({
     text: "Start with a gift guide or a collection, then head to Etsy for pricing, reviews and ordering.",
     label: "Open the Etsy shop",
     url: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
+  },
+  howItWorks: {
+    steps: [
+      { number: "1", title: "Browse here", text: "Find the right gift from curated collections and gift guides." },
+      { number: "2", title: "Pick your favourite", text: "Use photos, themes and descriptions to choose with confidence." },
+      { number: "3", title: "Order on Etsy", text: "Head to Etsy for full pricing, reviews and secure checkout." }
+    ]
+  },
+  makerStory: {
+    heading: "Made by one person, with care",
+    eyebrow: "Behind the workshop",
+    photo: "/assets/img/maker-photo.jpg",
+    photoAlt: "The maker behind Craftygiftsplace, photographed in Porto, Portugal",
+    paragraphs: [
+      "Working in IT for years, I found myself needing something that balanced screen time with real making. Craftygiftsplace started with a small laser engraver and a clear idea: wooden gifts should feel personal, not mass-produced.",
+      "Every coaster, bookmark and keepsake is made to order by one person — not a warehouse. That means real attention to the engraving, the finish and the detail that makes a gift worth keeping.",
+      "If you have ever given someone a gift and thought 'I wish it felt more chosen', that is exactly what this shop is for."
+    ],
+    cta: {
+      label: "Shop Craftygiftsplace on Etsy",
+      url: "https://www.etsy.com/shop/Craftygiftsplace"
+    }
   }
 });
 
@@ -345,7 +367,8 @@ pagesEn.push({
     links: [
       { label: "See cat lover gifts", href: "/en/pages/cat-lover-gifts.html" },
       { label: "See housewarming gifts", href: "/en/pages/housewarming-gifts.html" },
-      { label: "Browse wooden bookmarks", href: "/en/pages/wooden-bookmarks.html" }
+      { label: "Browse wooden bookmarks", href: "/en/pages/wooden-bookmarks.html" },
+      { label: "How personalization works", href: "/en/pages/personalization.html" }
     ]
   },
   featuredItems: [
@@ -553,7 +576,8 @@ pagesEn.push({
     links: [
       { label: "See reader gifts", href: "/en/pages/reader-gifts.html" },
       { label: "Browse wooden gifts", href: "/en/pages/wooden-gifts.html" },
-      { label: "Open bookmarks on Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" }
+      { label: "Open bookmarks on Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark" },
+      { label: "How personalization works", href: "/en/pages/personalization.html" }
     ]
   },
   featuredItems: [
@@ -754,7 +778,8 @@ pagesEn.push({
     links: [
       { label: "See housewarming gifts", href: "/en/pages/housewarming-gifts.html" },
       { label: "See reader gifts", href: "/en/pages/reader-gifts.html" },
-      { label: "Contact on Etsy", href: "/en/pages/contact.html" }
+      { label: "Contact on Etsy", href: "/en/pages/contact.html" },
+      { label: "How personalization works", href: "/en/pages/personalization.html" }
     ]
   },
     featuredItems: [
@@ -2182,6 +2207,180 @@ function buildEnglishEtsySectionPage(config) {
 }
 
 pagesEn.push(...EN_ETSY_SECTION_PAGES.map(buildEnglishEtsySectionPage));
+
+pagesEn.push({
+  path: "/en/pages/personalization.html",
+  alternatePaths: { en: "/en/pages/personalization.html" },
+  template: "contact",
+  locale: "en",
+  title: "How Personalization Works | Craftygiftsplace",
+  metaDescription: "Learn how to add a name, date or message to handmade wooden gifts from Craftygiftsplace — before and after ordering on Etsy.",
+  h1: "How personalization works",
+  eyebrow: "Customize your gift",
+  intro: "Many items can be personalized with a name, date or short message. Here is what to expect, step by step.",
+  breadcrumbs: [
+    { label: "Home", path: "/en/index.html" },
+    { label: "Personalization" }
+  ],
+  primaryCta: {
+    label: "Open Craftygiftsplace on Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  secondaryCta: {
+    label: "Message the shop on Etsy",
+    targetUrl: "https://www.etsy.com/shop/Craftygiftsplace#about"
+  },
+  sidebar: {
+    title: "Quick tip",
+    quote: "\"The seller was incredibly helpful when I asked about personalizing the coasters for our wedding.\"",
+    attribution: "Tanya · 5/5 on Etsy",
+    text: "Message the shop before ordering and the seller will confirm exactly what is possible for your chosen piece.",
+    links: [
+      { label: "Open the Etsy shop", href: "https://www.etsy.com/shop/Craftygiftsplace" },
+      { label: "Browse wooden coasters", href: "/en/pages/wooden-coasters.html" },
+      { label: "Browse wooden bookmarks", href: "/en/pages/wooden-bookmarks.html" }
+    ]
+  },
+  infoCards: [
+    {
+      title: "Which products can be personalized?",
+      text: "Most coasters, bookmarks and keepsake pieces in the shop can be personalized. This includes adding a first name, a couple's names, a short date, or a brief message. The listing on Etsy will indicate what is available for each piece — and you can always message the seller to confirm before ordering."
+    },
+    {
+      title: "Where do I enter personalization details?",
+      text: "On the Etsy listing page, look for the 'Add your personalization' field in the order form. Enter your text there before adding to cart. If the field is not visible, message the seller first and they will guide you through the next step."
+    },
+    {
+      title: "What can I personalize with?",
+      items: [
+        "A first name or pair of names (e.g. 'Emma' or 'Emma & James')",
+        "A date (e.g. a wedding date, birthday or anniversary)",
+        "A short message of up to two or three lines",
+        "A pet name for memorial pieces",
+        "A custom phrase for themed gifts"
+      ]
+    },
+    {
+      title: "Can I message before I order?",
+      text: "Yes, and it is often the easiest way to get it right. Use the Etsy message function on the shop page to describe what you want. The seller replies quickly and will confirm the options, layout and any limits before you place the order."
+    },
+    {
+      title: "What happens after I order?",
+      text: "Once the order is placed with your personalization details, the seller begins making the piece to order. You will receive an Etsy notification when it ships. If anything needs clarifying, the seller will reach out through Etsy messages before starting production."
+    },
+    {
+      title: "What if I make a mistake in my personalization?",
+      text: "Contact the seller through Etsy as soon as possible after ordering. Because each piece is made individually, corrections are usually possible if caught early. The seller will confirm what can be adjusted and how."
+    }
+  ],
+  faq: [
+    {
+      question: "Is personalization included in the price?",
+      answer: "Personalization costs vary by product. Check the Etsy listing for pricing details — some pieces include it, others have a small addition. Messaging the seller first is the fastest way to confirm."
+    },
+    {
+      question: "How long does a personalized order take?",
+      answer: "Personalized pieces are made to order, so allow a few extra days beyond the standard processing time shown on Etsy. The listing will give an estimated dispatch window, and the seller can advise on rush orders."
+    },
+    {
+      question: "Can I see a preview before the piece is made?",
+      answer: "In many cases, yes. Message the seller with your personalization request and ask for a preview. This is especially useful for complex layouts or when exact positioning matters."
+    }
+  ],
+  ctaPanel: {
+    title: "Ready to personalize your gift?",
+    text: "Head to Etsy to browse listings, check personalization options and message the seller.",
+    label: "Open Craftygiftsplace on Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  }
+});
+
+pagesEn.push({
+  path: "/en/pages/why-wooden-gifts.html",
+  alternatePaths: { en: "/en/pages/why-wooden-gifts.html" },
+  template: "contact",
+  locale: "en",
+  title: "Why Wooden Gifts? Handmade, Lasting and Personal | Craftygiftsplace",
+  metaDescription: "Handmade wooden gifts last longer, feel more personal and carry real craft. Find out why engraved wood makes a better gift than generic alternatives.",
+  h1: "Why wooden gifts last longer than most",
+  eyebrow: "The case for wood",
+  intro: "Generic gifts get forgotten. Wooden gifts get kept. Here is why handmade, engraved wood works so well as a gift for almost any occasion.",
+  breadcrumbs: [
+    { label: "Home", path: "/en/index.html" },
+    { label: "Why wooden gifts?" }
+  ],
+  primaryCta: {
+    label: "Browse wooden gifts on Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  },
+  secondaryCta: {
+    label: "See all collections",
+    targetUrl: "/en/pages/wooden-gifts.html"
+  },
+  sidebar: {
+    title: "What shoppers say",
+    quote: "\"Wow, the craftsmanship on this is spectacular. It even smells like fresh wood.\"",
+    attribution: "Alex · 5/5 on Etsy",
+    text: "Rated 4.96/5 across hundreds of Etsy reviews. Shoppers consistently mention quality, detail and lasting finish.",
+    links: [
+      { label: "Wooden coasters", href: "/en/pages/wooden-coasters.html" },
+      { label: "Wooden bookmarks", href: "/en/pages/wooden-bookmarks.html" },
+      { label: "All wooden gifts", href: "/en/pages/wooden-gifts.html" }
+    ]
+  },
+  infoCards: [
+    {
+      title: "Wood feels different in the hand",
+      text: "There is a tactile quality to real wood that no printed card or plastic alternative can match. The weight, the grain, the slight warmth of the material — these things register before the recipient even reads the engraving. A wooden coaster or bookmark announces itself as something made, not ordered from a dropdown."
+    },
+    {
+      title: "Engraving makes it permanent",
+      text: "A name, a date, a short phrase cut into wood does not fade, peel or wash off. It is part of the piece. That permanence is what separates an engraved gift from one that gets quietly put in a drawer. Readers keep their bookmarks. Coasters stay on the coffee table. The gift becomes part of how the home looks."
+    },
+    {
+      title: "It works for almost any occasion",
+      text: "Housewarming gifts that go on the coffee table from day one. Reader gifts that live inside a favourite book. Cat lover pieces that sit on the shelf year-round. Wooden gifts are useful and decorative at the same time, which means they stay visible instead of getting packed away after the occasion."
+    },
+    {
+      title: "Handmade means one person made it",
+      text: "Each piece from this shop is made to order by one person with a laser engraver and a clear standard for finish. That is not marketing language — it means your order is not picked from a shelf. It is made after you place it, which is why personalization is possible and why the quality is consistent across reviews."
+    },
+    {
+      title: "Good for readers, cat lovers, new homes and more",
+      items: [
+        "Readers: dragon eye, feather, Celtic and fantasy bookmarks that outlast the books they mark",
+        "Cat lovers: Moon Cat tealight holders and cat-themed coasters for cozy shelves and home gifting",
+        "New homes: engraved coaster sets that feel chosen rather than convenient",
+        "Memorial moments: pet memorial plaques for a gift that acknowledges loss with real care",
+        "Gamers and tech: upcycled RAM keychains and gaming door signs for desk setups"
+      ]
+    },
+    {
+      title: "The honest case for spending a little more",
+      text: "A well-made wooden gift costs more than a card and less than most experiences. It lasts longer than flowers, takes up less space than a voucher and requires no batteries. For the occasions when generic will not do, it is usually the right call."
+    }
+  ],
+  faq: [
+    {
+      question: "Are wooden gifts suitable for all ages?",
+      answer: "Yes. Coasters, bookmarks and decorative pieces work for adults of any age. The range includes functional items for everyday use and keepsakes for milestone occasions. There are also baby milestone pieces in the shop for new-arrival gifting."
+    },
+    {
+      question: "Do wooden gifts hold up over time?",
+      answer: "Birch and similar hardwoods are durable and stable for indoor use. Engraved detail does not fade. Most coasters come with cork backing, which protects surfaces and adds to longevity. Reviewers consistently mention durability alongside the visual quality."
+    },
+    {
+      question: "Can wooden gifts be personalized for any occasion?",
+      answer: "Many pieces can be personalized with a name, date or short message. This makes them suitable for birthdays, anniversaries, housewarmings, weddings and memorial gifts. See the personalization page for full details on how it works."
+    }
+  ],
+  ctaPanel: {
+    title: "Ready to find the right wooden gift?",
+    text: "Browse the full collection on Etsy — coasters, bookmarks, keepsakes and more.",
+    label: "Open Craftygiftsplace on Etsy",
+    url: "https://www.etsy.com/shop/Craftygiftsplace"
+  }
+});
 
 module.exports = {
   pagesEn,

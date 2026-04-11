@@ -1302,6 +1302,22 @@ function renderFeaturedSection(page, productsByLocale) {
     </section>`;
 }
 
+function renderCatalogCard(product, page, position, repeatCount) {
+  const cardImage = product.image || product.image_full;
+  const isPriorityCard = position < 2;
+  const description = buildCardDescription(product, page, position, repeatCount);
+  return `<a class="product-card catalog-card-link" href="${escapeAttribute(product.etsy_url)}" target="_blank" rel="noopener" aria-label="${escapeAttribute(product.cta_label)}" title="${escapeAttribute(product.cta_label)}">
+  <div class="card-media">
+    <img src="${escapeAttribute(cardImage)}" srcset="${escapeAttribute(product.image_srcset || product.image)}" sizes="${escapeAttribute(product.image_sizes)}" alt="${escapeAttribute(product.alt)}" width="600" height="600" loading="${isPriorityCard ? 'eager' : 'lazy'}" decoding="async" fetchpriority="${isPriorityCard ? 'high' : 'low'}" referrerpolicy="no-referrer" />
+  </div>
+  <div class="card-body">
+    <div class="product-meta">${renderChips(product)}</div>
+    <h3>${escapeHtml(product.name)}</h3>
+    <p>${escapeHtml(description)}</p>
+  </div>
+</a>`;
+}
+
 function renderCatalogSection(page, catalogProducts) {
   if (!page.catalog) return "";
   const descriptionCounts = new Map();
@@ -1321,8 +1337,9 @@ function renderCatalogSection(page, catalogProducts) {
           <a class="btn" href="${escapeAttribute(page.catalog.ctaUrl)}" target="_blank" rel="noopener">${escapeHtml(page.catalog.ctaLabel)}</a>
         </div>
         <div class="product-grid catalog-grid">
-          ${catalogProducts.map((product, index) => renderProductCard(product, page, index, descriptionCounts.get(product.short_desc || "") || 1)).join("\n")}
+          ${catalogProducts.map((product, index) => renderCatalogCard(product, page, index, descriptionCounts.get(product.short_desc || "") || 1)).join("\n")}
         </div>
+        <div class="catalog-section-cta"><a class="btn" href="${escapeAttribute(page.catalog.ctaUrl)}" target="_blank" rel="noopener">${escapeHtml(page.catalog.ctaLabel)} →</a></div>
       </div>
     </section>`;
 }
@@ -1596,14 +1613,59 @@ function renderHomeSupportSection(page) {
     </section>`;
 }
 
+function renderHowItWorks(page) {
+  if (!page.howItWorks || !page.howItWorks.steps || !page.howItWorks.steps.length) return "";
+  const steps = page.howItWorks.steps;
+  const stepsHtml = steps.map((step, i) => {
+    const arrow = i < steps.length - 1 ? `<div class="how-step-arrow" aria-hidden="true">→</div>` : "";
+    return `<div class="how-step">
+        <span class="how-step-num">${escapeHtml(step.number)}</span>
+        <strong>${escapeHtml(step.title)}</strong>
+        <p>${escapeHtml(step.text)}</p>
+      </div>${arrow}`;
+  }).join("\n");
+  return `
+    <section class="section how-it-works-section" id="how-it-works">
+      <div class="container">
+        <div class="how-it-works-strip">
+          ${stepsHtml}
+        </div>
+      </div>
+    </section>`;
+}
+
+function renderMakerStory(page) {
+  if (!page.makerStory) return "";
+  const story = page.makerStory;
+  const paragraphsHtml = (story.paragraphs || []).map((p) => `<p>${escapeHtml(p)}</p>`).join("\n");
+  return `
+    <section class="section maker-story-section" id="maker-story">
+      <div class="container">
+        <div class="maker-story-shell">
+          <div class="maker-story-photo">
+            <img src="${escapeAttribute(story.photo)}" alt="${escapeAttribute(story.photoAlt)}" width="480" height="600" loading="lazy" decoding="async" />
+          </div>
+          <div class="maker-story-copy">
+            <div class="eyebrow">${escapeHtml(story.eyebrow)}</div>
+            <h2>${escapeHtml(story.heading)}</h2>
+            ${paragraphsHtml}
+            <a class="btn" href="${escapeAttribute(story.cta.url)}" target="_blank" rel="noopener">${escapeHtml(story.cta.label)} →</a>
+          </div>
+        </div>
+      </div>
+    </section>`;
+}
+
 function renderHome(page, productsByLocale) {
   const sections = page.sections || {};
   return `
     <main id="main-content">
       ${renderHomeHero(page, productsByLocale)}
+      ${renderHowItWorks(page)}
       ${renderHomeFeaturedBestsellers(page, productsByLocale)}
       ${renderHomeFeaturedCategories(page)}
       ${renderHomeSectionCards(page, "collectionCards", sections.collections?.heading || text[page.locale].collectionsHeading, sections.collections?.intro || text[page.locale].collectionsIntro)}
+      ${renderMakerStory(page)}
       ${renderReviews(page, sections.reviews)}
       ${renderFaqSection(page, sections.faq)}
     </main>`;
@@ -1700,7 +1762,7 @@ function renderStructuredData(page, productsByLocale) {
     scripts.push({
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      itemListElement: (page.breadcrumbs || []).map((item, index) => ({
+      itemListElement: (page.breadcrumbs || []).filter((item) => item.path).map((item, index) => ({
         "@type": "ListItem",
         position: index + 1,
         name: item.label,

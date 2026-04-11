@@ -293,7 +293,9 @@ const singleLocaleEtsySectionPagePaths = new Set([
   "/en/pages/christmas.html",
   "/en/pages/gifts-for-it-and-gamers.html",
   "/en/pages/readers-kit.html",
-  "/en/pages/wedding.html"
+  "/en/pages/wedding.html",
+  "/en/pages/personalization.html",
+  "/en/pages/why-wooden-gifts.html"
 ]);
 
 const bestsellerSupportSlugs = new Set([
