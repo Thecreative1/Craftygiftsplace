@@ -2377,6 +2377,12 @@ pagesEn.push({
       answer: "Many pieces can be personalized with a name, date or short message. This makes them suitable for birthdays, anniversaries, housewarmings, weddings and memorial gifts. See the personalization page for full details on how it works."
     }
   ],
+  relatedLinks: [
+    { label: "Wooden coasters", href: "/en/pages/wooden-coasters.html", description: "Engraved coaster sets for coffee tables, housewarming gifts and cozy homes." },
+    { label: "Wooden bookmarks", href: "/en/pages/wooden-bookmarks.html", description: "Fantasy, classic and personalized bookmarks for readers and gift boxes." },
+    { label: "Wooden gifts", href: "/en/pages/wooden-gifts.html", description: "Tealight holders, door hangers and keepsakes for shelves and meaningful moments." },
+    { label: "How personalization works", href: "/en/pages/personalization.html", description: "Add a name, date or message — here is what to expect when ordering on Etsy." }
+  ],
   ctaPanel: {
     title: "Ready to find the right wooden gift?",
     text: "Browse the full collection on Etsy — coasters, bookmarks, keepsakes and more.",
@@ -2462,6 +2468,12 @@ pagesNl.push({
       question: "Kunnen houten cadeaus voor elke gelegenheid worden gepersonaliseerd?",
       answer: "Veel stukken kunnen worden gepersonaliseerd met een naam, datum of kort bericht. Dit maakt ze geschikt voor verjaardagen, jubilea, verhuizingen, bruiloften en herdenkingscadeaus. Zie de personalisatiepagina voor alle details."
     }
+  ],
+  relatedLinks: [
+    { label: "Houten onderzetters", href: "/pages/onderzetters.html", description: "Gegraveerde onderzettersets voor salontafels, verhuiscadeaus en gezellige woonkamers." },
+    { label: "Houten bladwijzers", href: "/pages/bladwijzers.html", description: "Fantasy, klassiek en gepersonaliseerde bladwijzers voor lezers en cadeaudoosjes." },
+    { label: "Houten cadeaus", href: "/pages/houten-cadeaus.html", description: "Waxinehouders, deurhangers en aandenken voor planken en bijzondere momenten." },
+    { label: "Hoe personalisatie werkt", href: "/pages/personalisatie.html", description: "Voeg een naam, datum of bericht toe — hier lees je wat je kunt verwachten." }
   ],
   ctaPanel: {
     title: "Klaar om het juiste houten cadeau te vinden?",

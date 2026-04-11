@@ -1707,6 +1707,7 @@ function renderContact(page) {
         </div>
       </section>
       ${page.faq ? renderFaqSection(page) : ""}
+      ${page.relatedLinks ? renderRelatedSection(page) : ""}
       ${page.ctaPanel ? renderCtaPanel(page) : ""}
     </main>
     <div class="sticky-mobile-cta">

@@ -1132,6 +1132,12 @@ pagesDe.push({
       answer: "Viele Stücke können mit einem Namen, Datum oder kurzer Nachricht personalisiert werden. Das macht sie für Geburtstage, Jahrestage, Einzüge, Hochzeiten und Gedenkgeschenke geeignet. Auf der Personalisierungsseite findest du alle Details."
     }
   ],
+  relatedLinks: [
+    { label: "Holzuntersetzer", href: "/de/pages/holzuntersetzer.html", description: "Gravierte Untersetzer-Sets für Couchtische, Einzugsgeschenke und gemütliche Wohnräume." },
+    { label: "Holzlesezeichen", href: "/de/pages/holzlesezeichen.html", description: "Fantasy-, klassische und personalisierte Lesezeichen für Leser und Geschenkboxen." },
+    { label: "Holzgeschenke", href: "/de/pages/holzgeschenke.html", description: "Teelichthalter, Türschilder und Andenken für Regale und besondere Momente." },
+    { label: "Wie Personalisierung funktioniert", href: "/de/pages/personalisierung.html", description: "Name, Datum oder Nachricht hinzufügen — hier erfährst du, was dich erwartet." }
+  ],
   ctaPanel: {
     title: "Bereit, das richtige Holzgeschenk zu finden?",
     text: "Entdecke die gesamte Kollektion auf Etsy — Untersetzer, Lesezeichen, Andenken und mehr.",
