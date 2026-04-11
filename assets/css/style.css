@@ -1172,7 +1172,7 @@ h3 {
   width: calc(100% + 2.4rem);
   max-width: none;
   margin: -1.2rem -1.2rem 1rem;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   border-bottom: 1px solid var(--line);
   border-radius: 24px 24px 0 0;
@@ -1184,9 +1184,6 @@ h3 {
   scroll-margin-top: 120px;
 }
 
-.spotlight-card .listing-photo {
-  aspect-ratio: 16 / 9;
-}
 
 .spotlight-list {
   margin: 0 0 1rem;
@@ -1260,7 +1257,7 @@ h3 {
 }
 
 .catalog-grid .card-media {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
 }
 
 .catalog-grid .card-body {

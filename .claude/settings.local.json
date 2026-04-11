@@ -9,7 +9,11 @@
       "Bash(node scripts/build-pages.js)",
       "Bash(node scripts/build-sitemap.js)",
       "Bash(node scripts/validate-seo.js)",
-      "Bash(awk:*)"
+      "Bash(awk:*)",
+      "WebFetch(domain:craftygiftsplace.store)",
+      "Bash(python3 -c \" from PIL import Image import os, glob imgs = glob.glob\\('assets/img/products/*.jpg'\\) + glob.glob\\('assets/img/products/*.png'\\) for f in sorted\\(imgs\\): try: im = Image.open\\(f\\) w, h = im.size ratio = w/h shape = 'portrait' if ratio < 0.9 else \\('square' if ratio < 1.1 else 'landscape'\\) print\\(f'{os.path.basename\\(f\\):45s} {w}x{h} {ratio:.2f} {shape}'\\) except: print\\(f'{f}: error'\\) \")",
+      "Bash(identify assets/img/products/*.jpg)",
+      "Bash(file assets/img/products/*.jpg)"
     ]
   }
 }
