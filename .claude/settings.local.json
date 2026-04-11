@@ -27,7 +27,13 @@
       "Bash('.home-category-grid')",
       "Bash('.category-grid')",
       "Bash('.home-bestsellers-grid')",
-      "Read(//c/tmp/**)"
+      "Read(//c/tmp/**)",
+      "Bash(git -C \"E:/GIT_HUB/Craftygiftsplace\" status)",
+      "Bash(git -C \"E:/GIT_HUB/Craftygiftsplace\" diff --stat)",
+      "Bash(git:*)",
+      "Bash(curl -s \"https://craftygiftsplace.store/assets/css/style.css\")",
+      "Bash(curl -s \"https://craftygiftsplace.store/assets/js/main.js\")",
+      "Bash(npm list:*)"
     ]
   }
 }
