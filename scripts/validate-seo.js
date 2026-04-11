@@ -243,6 +243,59 @@ const broadSupportPagePaths = new Set([
   "/it/pages/sottobicchieri-in-legno.html"
 ]);
 
+const etsySyncCatalogPagePaths = new Set([
+  "/pages/onderzetters.html",
+  "/en/pages/wooden-coasters.html",
+  "/de/pages/holzuntersetzer.html",
+  "/fr/pages/sous-verres-en-bois.html",
+  "/es/pages/posavasos-de-madera.html",
+  "/pt/pages/porta-copos-de-madeira.html",
+  "/it/pages/sottobicchieri-in-legno.html",
+  "/pages/bladwijzers.html",
+  "/en/pages/wooden-bookmarks.html",
+  "/de/pages/holzlesezeichen.html",
+  "/fr/pages/marque-pages-en-bois.html",
+  "/es/pages/marcapaginas-de-madera.html",
+  "/pt/pages/marcadores-de-livros-de-madeira.html",
+  "/it/pages/segnalibri-in-legno.html",
+  "/pages/houten-cadeaus.html",
+  "/en/pages/wooden-gifts.html",
+  "/de/pages/holzgeschenke.html",
+  "/fr/pages/cadeaux-en-bois.html",
+  "/es/pages/regalos-de-madera.html",
+  "/pt/pages/presentes-de-madeira.html",
+  "/it/pages/regali-in-legno.html",
+  "/en/pages/diy.html",
+  "/en/pages/baby-bliss.html",
+  "/en/pages/door-hangers.html",
+  "/en/pages/pet-memorial.html",
+  "/en/pages/personalized-items.html",
+  "/en/pages/candle-holders.html",
+  "/en/pages/incense-burners.html",
+  "/en/pages/educational-toys-and-games.html",
+  "/en/pages/funny-presents.html",
+  "/en/pages/christmas.html",
+  "/en/pages/gifts-for-it-and-gamers.html",
+  "/en/pages/readers-kit.html",
+  "/en/pages/wedding.html"
+]);
+
+const singleLocaleEtsySectionPagePaths = new Set([
+  "/en/pages/diy.html",
+  "/en/pages/baby-bliss.html",
+  "/en/pages/door-hangers.html",
+  "/en/pages/pet-memorial.html",
+  "/en/pages/personalized-items.html",
+  "/en/pages/candle-holders.html",
+  "/en/pages/incense-burners.html",
+  "/en/pages/educational-toys-and-games.html",
+  "/en/pages/funny-presents.html",
+  "/en/pages/christmas.html",
+  "/en/pages/gifts-for-it-and-gamers.html",
+  "/en/pages/readers-kit.html",
+  "/en/pages/wedding.html"
+]);
+
 const bestsellerSupportSlugs = new Set([
   "tree-of-life-wooden-coasters",
   "sun-and-moon-wooden-coasters",
@@ -487,11 +540,12 @@ function validateReferencedProduct(pagePath, product) {
     fail(`Referenced product is missing for ${pagePath}.`);
   }
 
+  const isEtsySyncCatalogPage = etsySyncCatalogPagePaths.has(pagePath);
   const isAllowedBestsellerOnBroadPage =
     broadSupportPagePaths.has(pagePath) &&
     bestsellerSupportSlugs.has(product.slug);
 
-  if (!isAllowedBestsellerOnBroadPage && supportPageDisallowedProductPatterns.some((pattern) => pattern.test(product.slug))) {
+  if (!isEtsySyncCatalogPage && !isAllowedBestsellerOnBroadPage && supportPageDisallowedProductPatterns.some((pattern) => pattern.test(product.slug))) {
     fail(`Off-brand product "${product.slug}" is still referenced on ${pagePath}.`);
   }
 
@@ -563,20 +617,31 @@ function validatePages() {
       fail(`Canonical mismatch in ${page.path}. Expected ${canonicalUrl(page.path)} but found ${canonical}`);
     }
 
-    if (Object.keys(alternates).length !== LOCALES.length) {
-      fail(`Missing alternate paths on ${page.path}`);
-    }
+    const isSingleLocaleEtsySectionPage = singleLocaleEtsySectionPagePaths.has(page.path);
+    if (isSingleLocaleEtsySectionPage) {
+      if (Object.keys(alternates).length !== 1 || !alternates.en) {
+        fail(`Single-locale Etsy section page ${page.path} must define only an English alternate path.`);
+      }
+      const actual = getAlternate(html, "en");
+      if (actual !== canonicalUrl(alternates.en)) {
+        fail(`hreflang en mismatch in ${page.path}`);
+      }
+    } else {
+      if (Object.keys(alternates).length !== LOCALES.length) {
+        fail(`Missing alternate paths on ${page.path}`);
+      }
 
-    LOCALES.forEach((locale) => {
-      const expectedPath = alternates[locale];
-      if (!expectedPath) {
-        fail(`Missing hreflang path for ${locale} on ${page.path}`);
-      }
-      const actual = getAlternate(html, locale);
-      if (actual !== canonicalUrl(expectedPath)) {
-        fail(`hreflang ${locale} mismatch in ${page.path}`);
-      }
-    });
+      LOCALES.forEach((locale) => {
+        const expectedPath = alternates[locale];
+        if (!expectedPath) {
+          fail(`Missing hreflang path for ${locale} on ${page.path}`);
+        }
+        const actual = getAlternate(html, locale);
+        if (actual !== canonicalUrl(expectedPath)) {
+          fail(`hreflang ${locale} mismatch in ${page.path}`);
+        }
+      });
+    }
 
     const expectedXDefault = canonicalUrl(alternates.en || "/en/index.html");
     if (xDefault !== expectedXDefault) fail(`x-default mismatch in ${page.path}`);
@@ -609,17 +674,19 @@ function validatePages() {
       }
     }
 
-    LOCALES.filter((locale) => locale !== page.locale).forEach((locale) => {
-      const alternatePage = byPath.get(alternates[locale]);
-      if (!alternatePage) {
-        fail(`Missing alternate page ${alternates[locale]} referenced from ${page.path}`);
-      }
-      const alternateHtml = readFile(alternatePage.path);
-      const backLink = getAlternate(alternateHtml, page.locale);
-      if (backLink !== canonicalUrl(page.path)) {
-        fail(`Reciprocal hreflang missing between ${page.path} and ${alternatePage.path}`);
-      }
-    });
+    if (!singleLocaleEtsySectionPagePaths.has(page.path)) {
+      LOCALES.filter((locale) => locale !== page.locale).forEach((locale) => {
+        const alternatePage = byPath.get(alternates[locale]);
+        if (!alternatePage) {
+          fail(`Missing alternate page ${alternates[locale]} referenced from ${page.path}`);
+        }
+        const alternateHtml = readFile(alternatePage.path);
+        const backLink = getAlternate(alternateHtml, page.locale);
+        if (backLink !== canonicalUrl(page.path)) {
+          fail(`Reciprocal hreflang missing between ${page.path} and ${alternatePage.path}`);
+        }
+      });
+    }
   });
 }
 

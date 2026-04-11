@@ -1206,7 +1206,7 @@ function buildCardDescription(product, page, position = 0, repeatCount = 1) {
 }
 
 function renderProductCard(product, page, position, repeatCount = 1) {
-  const cardImage = product.image_full || product.image;
+  const cardImage = product.image || product.image_full;
   const isPriorityCard = position < 2;
   return renderTemplate(productCardTemplate, {
     image: escapeAttribute(cardImage),
@@ -1232,7 +1232,7 @@ function renderFaq(faqItems) {
 }
 
 function renderFeaturedCard(product, summary, locale) {
-  const featuredImage = product.image_full || product.image;
+  const featuredImage = product.image || product.image_full;
   return `
     <article class="copy-card">
       <img class="listing-photo" src="${escapeAttribute(featuredImage)}" alt="${escapeAttribute(product.alt)}" width="600" height="600" loading="lazy" decoding="async" />
@@ -1470,7 +1470,7 @@ function renderReviews(page, sectionMeta = null) {
 function renderHeroProductTiles(page, productsByLocale) {
   return (page.heroProducts || []).slice(0, 3).map((slug, index) => {
     const product = getProduct(page, productsByLocale, slug);
-    const heroImage = product.image_full || product.image;
+    const heroImage = product.image || product.image_full;
     return `
       <article class="hero-collage-tile hero-collage-tile--${index + 1}">
         <img src="${escapeAttribute(heroImage)}" alt="${escapeAttribute(product.alt)}" width="600" height="600" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" fetchpriority="${index === 0 ? "high" : "low"}" />
@@ -1553,7 +1553,7 @@ function renderHomeFeaturedBestsellers(page, productsByLocale) {
         </div>
         <div class="home-bestsellers-grid">
           ${items.map(({ product, summary }, index) => renderTemplate(homeBestsellerCardTemplate, {
-            image: escapeAttribute(product.image_full || product.image),
+            image: escapeAttribute(product.image || product.image_full),
             imageSrcset: escapeAttribute(product.image_srcset || product.image),
             imageSizes: escapeAttribute(product.image_sizes),
             alt: escapeAttribute(product.alt),
@@ -1739,7 +1739,7 @@ function renderStructuredData(page, productsByLocale) {
 
 function renderHead(page, productsByLocale) {
   const firstProduct = page.featuredItems && page.featuredItems.length ? getProduct(page, productsByLocale, page.featuredItems[0].slug) : null;
-  const socialImage = firstProduct ? absoluteUrl(firstProduct.image_full || firstProduct.image) : absoluteUrl("/assets/img/products/moon-cat-tealight-holder.jpg");
+  const socialImage = firstProduct ? absoluteUrl(firstProduct.image || firstProduct.image_full) : absoluteUrl("/assets/img/products/moon-cat-tealight-holder.jpg");
   const socialImageAlt = firstProduct ? firstProduct.alt : page.heroImageAlt || page.title;
   const rootRedirectScript = page.path.endsWith("/index.html") ? `<script>
     if (/\\/index\\.html$/.test(window.location.pathname)) {

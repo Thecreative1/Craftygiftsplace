@@ -25,8 +25,8 @@
   ],
   "sections": {
     "featuredCategories": {
-      "heading": "Shop by recipient or occasion",
-      "intro": "Choose by recipient or occasion when the product type is not clear yet."
+      "heading": "Gift guides and Etsy shop sections",
+      "intro": "Start with the curated gift guides, or jump straight into the live Etsy sections mirrored on the English site."
     },
     "bestsellers": {
       "heading": "Start with bestselling gifts",
@@ -77,6 +77,110 @@
       "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
       "imageAlt": "Zodiac wooden coasters for housewarming gifting",
       "href": "/en/pages/housewarming-gifts.html"
+    },
+    {
+      "kicker": "Craft-ready",
+      "title": "DIY",
+      "description": "Craft blanks, cutouts and seasonal kits for shoppers who want something to paint, finish or personalize.",
+      "image": "https://i.etsystatic.com/46731516/r/il/6b90e3/5945198279/il_fullxfull.5945198279_d3g2.jpg",
+      "imageAlt": "Birch wood circle blanks from the DIY section",
+      "href": "/en/pages/diy.html"
+    },
+    {
+      "kicker": "For new arrivals",
+      "title": "Baby Bliss",
+      "description": "Baby milestone pieces and nursery-friendly keepsakes for first photos, drawers and new-arrival gifting.",
+      "image": "https://i.etsystatic.com/46731516/r/il/776584/5442155599/il_fullxfull.5442155599_qtxo.jpg",
+      "imageAlt": "Wooden baby milestone discs from the Baby Bliss section",
+      "href": "/en/pages/baby-bliss.html"
+    },
+    {
+      "kicker": "For rooms and doors",
+      "title": "Door Hanger",
+      "description": "Gaming signs, privacy notices and room hangers that keep the product type clear from the first click.",
+      "image": "https://i.etsystatic.com/46731516/r/il/7ef519/7368729056/il_fullxfull.7368729056_ndjv.jpg",
+      "imageAlt": "Gaming do not disturb sign from the Door Hanger section",
+      "href": "/en/pages/door-hangers.html"
+    },
+    {
+      "kicker": "For remembrance",
+      "title": "Pet Memorial",
+      "description": "A focused memorial keepsake page for the wooden tribute piece in the Etsy shop.",
+      "image": "https://i.etsystatic.com/46731516/r/il/1a761c/5962006217/il_fullxfull.5962006217_sgpc.jpg",
+      "imageAlt": "Personalized pet memorial plaque from the Etsy section",
+      "href": "/en/pages/pet-memorial.html"
+    },
+    {
+      "kicker": "Add names or dates",
+      "title": "Personalized Items",
+      "description": "Start here when names, dates or custom text are the main reason for the gift.",
+      "image": "https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_fullxfull.5611355601_9mfy.jpg",
+      "imageAlt": "Personalized wooden coasters from the Etsy personalized section",
+      "href": "/en/pages/personalized-items.html"
+    },
+    {
+      "kicker": "For cozy shelves",
+      "title": "Candle Holders",
+      "description": "Shadow-casting tealight holders and cozy shelf accents kept together in one browse.",
+      "image": "https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_fullxfull.6325144691_ecdm.jpg",
+      "imageAlt": "Moon Cat shadow tealight holder from the candle holder section",
+      "href": "/en/pages/candle-holders.html"
+    },
+    {
+      "kicker": "For calm corners",
+      "title": "Incense burners",
+      "description": "A calm decor page for the incense burner listing without mixing it into broader gift guides.",
+      "image": "https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_fullxfull.6303435020_tsf2.jpg",
+      "imageAlt": "Laser birch wood incense burner from the Etsy section",
+      "href": "/en/pages/incense-burners.html"
+    },
+    {
+      "kicker": "For learning play",
+      "title": "Educational Toys & Games",
+      "description": "The hands-on learning piece from Etsy, surfaced in the same English catalog style.",
+      "image": "https://i.etsystatic.com/46731516/r/il/1e60c4/7424299275/il_fullxfull.7424299275_ome0.jpg",
+      "imageAlt": "Montessori wooden numicon set from the educational section",
+      "href": "/en/pages/educational-toys-and-games.html"
+    },
+    {
+      "kicker": "For small laughs",
+      "title": "Funny Presents",
+      "description": "A quick path to the novelty wooden gift for shoppers browsing for something playful.",
+      "image": "https://i.etsystatic.com/46731516/r/il/04a22b/6453094459/il_fullxfull.6453094459_6kwu.jpg",
+      "imageAlt": "Bald man's comb novelty gift from the funny presents section",
+      "href": "/en/pages/funny-presents.html"
+    },
+    {
+      "kicker": "For the holidays",
+      "title": "Christmas",
+      "description": "Holiday gifting and keepsake browsing for the shop's live Christmas listing.",
+      "image": "https://i.etsystatic.com/46731516/r/il/e2a1f8/5392453943/il_fullxfull.5392453943_rd6e.jpg",
+      "imageAlt": "DIY Christmas ornaments from the Etsy Christmas section",
+      "href": "/en/pages/christmas.html"
+    },
+    {
+      "kicker": "For tech desks",
+      "title": "Gifts for IT & Gamers",
+      "description": "The tech-themed gift page for shoppers buying for coders, desk setups and gamer energy.",
+      "image": "https://i.etsystatic.com/46731516/r/il/885244/7443464993/il_fullxfull.7443464993_trrw.jpg",
+      "imageAlt": "Upcycled RAM keychain from the Gifts for IT and Gamers section",
+      "href": "/en/pages/gifts-for-it-and-gamers.html"
+    },
+    {
+      "kicker": "For book lovers",
+      "title": "Readers Kit",
+      "description": "A ready-made reader bundle kept separate from the individual bookmark listings.",
+      "image": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_fullxfull.7593439386_5kt7.jpg",
+      "imageAlt": "Fantasy Reader Gift Set from the Readers Kit section",
+      "href": "/en/pages/readers-kit.html"
+    },
+    {
+      "kicker": "For newlyweds",
+      "title": "Wedding",
+      "description": "The dedicated newlywed cash-gift page for wedding shoppers.",
+      "image": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_fullxfull.7821492120_9zkv.jpg",
+      "imageAlt": "Just married wedding money holder from the Etsy wedding section",
+      "href": "/en/pages/wedding.html"
     }
   ],
   "featuredItems": [

@@ -169,8 +169,8 @@
     ],
     "sections": {
       "featuredCategories": {
-        "heading": "Shop by recipient or occasion",
-        "intro": "Choose by recipient or occasion when the product type is not clear yet."
+        "heading": "Gift guides and Etsy shop sections",
+        "intro": "Start with the curated gift guides, or jump straight into the live Etsy sections mirrored on the English site."
       },
       "bestsellers": {
         "heading": "Start with bestselling gifts",
@@ -221,6 +221,110 @@
         "image": "/assets/img/products/zodiac-wooden-coasters.jpg",
         "imageAlt": "Zodiac wooden coasters for housewarming gifting",
         "href": "/en/pages/housewarming-gifts.html"
+      },
+      {
+        "kicker": "Craft-ready",
+        "title": "DIY",
+        "description": "Craft blanks, cutouts and seasonal kits for shoppers who want something to paint, finish or personalize.",
+        "image": "https://i.etsystatic.com/46731516/r/il/6b90e3/5945198279/il_fullxfull.5945198279_d3g2.jpg",
+        "imageAlt": "Birch wood circle blanks from the DIY section",
+        "href": "/en/pages/diy.html"
+      },
+      {
+        "kicker": "For new arrivals",
+        "title": "Baby Bliss",
+        "description": "Baby milestone pieces and nursery-friendly keepsakes for first photos, drawers and new-arrival gifting.",
+        "image": "https://i.etsystatic.com/46731516/r/il/776584/5442155599/il_fullxfull.5442155599_qtxo.jpg",
+        "imageAlt": "Wooden baby milestone discs from the Baby Bliss section",
+        "href": "/en/pages/baby-bliss.html"
+      },
+      {
+        "kicker": "For rooms and doors",
+        "title": "Door Hanger",
+        "description": "Gaming signs, privacy notices and room hangers that keep the product type clear from the first click.",
+        "image": "https://i.etsystatic.com/46731516/r/il/7ef519/7368729056/il_fullxfull.7368729056_ndjv.jpg",
+        "imageAlt": "Gaming do not disturb sign from the Door Hanger section",
+        "href": "/en/pages/door-hangers.html"
+      },
+      {
+        "kicker": "For remembrance",
+        "title": "Pet Memorial",
+        "description": "A focused memorial keepsake page for the wooden tribute piece in the Etsy shop.",
+        "image": "https://i.etsystatic.com/46731516/r/il/1a761c/5962006217/il_fullxfull.5962006217_sgpc.jpg",
+        "imageAlt": "Personalized pet memorial plaque from the Etsy section",
+        "href": "/en/pages/pet-memorial.html"
+      },
+      {
+        "kicker": "Add names or dates",
+        "title": "Personalized Items",
+        "description": "Start here when names, dates or custom text are the main reason for the gift.",
+        "image": "https://i.etsystatic.com/46731516/r/il/4f57fc/5611355601/il_fullxfull.5611355601_9mfy.jpg",
+        "imageAlt": "Personalized wooden coasters from the Etsy personalized section",
+        "href": "/en/pages/personalized-items.html"
+      },
+      {
+        "kicker": "For cozy shelves",
+        "title": "Candle Holders",
+        "description": "Shadow-casting tealight holders and cozy shelf accents kept together in one browse.",
+        "image": "https://i.etsystatic.com/46731516/r/il/01a147/6325144691/il_fullxfull.6325144691_ecdm.jpg",
+        "imageAlt": "Moon Cat shadow tealight holder from the candle holder section",
+        "href": "/en/pages/candle-holders.html"
+      },
+      {
+        "kicker": "For calm corners",
+        "title": "Incense burners",
+        "description": "A calm decor page for the incense burner listing without mixing it into broader gift guides.",
+        "image": "https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_fullxfull.6303435020_tsf2.jpg",
+        "imageAlt": "Laser birch wood incense burner from the Etsy section",
+        "href": "/en/pages/incense-burners.html"
+      },
+      {
+        "kicker": "For learning play",
+        "title": "Educational Toys & Games",
+        "description": "The hands-on learning piece from Etsy, surfaced in the same English catalog style.",
+        "image": "https://i.etsystatic.com/46731516/r/il/1e60c4/7424299275/il_fullxfull.7424299275_ome0.jpg",
+        "imageAlt": "Montessori wooden numicon set from the educational section",
+        "href": "/en/pages/educational-toys-and-games.html"
+      },
+      {
+        "kicker": "For small laughs",
+        "title": "Funny Presents",
+        "description": "A quick path to the novelty wooden gift for shoppers browsing for something playful.",
+        "image": "https://i.etsystatic.com/46731516/r/il/04a22b/6453094459/il_fullxfull.6453094459_6kwu.jpg",
+        "imageAlt": "Bald man's comb novelty gift from the funny presents section",
+        "href": "/en/pages/funny-presents.html"
+      },
+      {
+        "kicker": "For the holidays",
+        "title": "Christmas",
+        "description": "Holiday gifting and keepsake browsing for the shop's live Christmas listing.",
+        "image": "https://i.etsystatic.com/46731516/r/il/e2a1f8/5392453943/il_fullxfull.5392453943_rd6e.jpg",
+        "imageAlt": "DIY Christmas ornaments from the Etsy Christmas section",
+        "href": "/en/pages/christmas.html"
+      },
+      {
+        "kicker": "For tech desks",
+        "title": "Gifts for IT & Gamers",
+        "description": "The tech-themed gift page for shoppers buying for coders, desk setups and gamer energy.",
+        "image": "https://i.etsystatic.com/46731516/r/il/885244/7443464993/il_fullxfull.7443464993_trrw.jpg",
+        "imageAlt": "Upcycled RAM keychain from the Gifts for IT and Gamers section",
+        "href": "/en/pages/gifts-for-it-and-gamers.html"
+      },
+      {
+        "kicker": "For book lovers",
+        "title": "Readers Kit",
+        "description": "A ready-made reader bundle kept separate from the individual bookmark listings.",
+        "image": "https://i.etsystatic.com/46731516/r/il/b48938/7593439386/il_fullxfull.7593439386_5kt7.jpg",
+        "imageAlt": "Fantasy Reader Gift Set from the Readers Kit section",
+        "href": "/en/pages/readers-kit.html"
+      },
+      {
+        "kicker": "For newlyweds",
+        "title": "Wedding",
+        "description": "The dedicated newlywed cash-gift page for wedding shoppers.",
+        "image": "https://i.etsystatic.com/46731516/r/il/30b65e/7821492120/il_fullxfull.7821492120_9zkv.jpg",
+        "imageAlt": "Just married wedding money holder from the Etsy wedding section",
+        "href": "/en/pages/wedding.html"
       }
     ],
     "supportCards": [
@@ -335,25 +439,62 @@
     "catalog": {
       "mode": "slugs",
       "slugs": [
-        "tree-of-life-wooden-coasters",
-        "sun-and-moon-wooden-coasters",
-        "viking-wooden-coasters",
-        "buddha-wood-wooden-coasters",
-        "mushroom-moon-wooden-coasters",
+        "funny-husband-medal-wooden-coasters",
+        "dog-paw-wooden-coasters",
         "zodiac-wooden-coasters",
-        "hand-painted-wiccan-symbol-wooden-coasters",
-        "dartboard-wooden-coasters",
-        "sports-ball-wooden-coasters",
-        "bitcoin-wooden-coasters",
-        "cat-and-moon-wooden-coasters",
         "cat-wooden-coasters",
-        "celestial-cat-wooden-coasters",
+        "cannabis-leaf-wooden-coasters",
+        "samurai-mask-wooden-coasters",
+        "chess-wooden-coasters",
+        "fantasy-wooden-coasters",
         "floral-wooden-coasters",
+        "mayan-disc-wooden-coasters",
+        "forest-animal-wooden-coasters",
         "leaf-wooden-coasters",
+        "space-saga-coaster-set",
+        "sun-and-moon-wooden-coasters",
+        "motorsport-coaster-set",
+        "anchor-wooden-coasters",
         "bee-motif-wooden-coasters",
-        "forest-animal-wooden-coasters"
+        "cat-and-moon-wooden-coasters",
+        "funny-swear-word-wooden-coasters",
+        "persian-turkish-wooden-coasters",
+        "faith-inspired-wooden-coasters",
+        "personalised-team-wooden-coasters",
+        "tree-of-life-wooden-coasters",
+        "ski-lodge-wooden-coasters",
+        "buddha-wood-wooden-coasters",
+        "spider-web-wooden-coasters",
+        "celtic-knot-wooden-coasters",
+        "wildlife-wooden-coasters",
+        "horse-wooden-coasters",
+        "hand-painted-spiderweb-wooden-coasters",
+        "viking-wooden-coasters",
+        "checkers-wooden-coasters",
+        "personalized-calendar-coaster",
+        "personaliseerbare-houten-onderzetters-met-kurk-onderkant-set-van-6",
+        "portuguese-tile-wooden-coasters",
+        "gothic-skull-wooden-coasters",
+        "aces-poker-wooden-coasters",
+        "cricket-dad-coaster",
+        "sugar-skull-wooden-coasters",
+        "diy-halloween-kit-wooden-coasters",
+        "dartboard-wooden-coasters",
+        "tabletop-adventure-coaster-set",
+        "personalized-wooden-coasters",
+        "fps-gamer-coaster-set",
+        "sports-ball-wooden-coasters",
+        "fishing-wooden-coasters",
+        "golf-wooden-coasters",
+        "bitcoin-wooden-coasters",
+        "picasso-animal-line-art-wooden-coasters",
+        "celestial-cat-wooden-coasters",
+        "camping-wooden-coasters",
+        "hunting-life-wooden-coasters",
+        "hand-painted-wiccan-symbol-wooden-coasters",
+        "mushroom-moon-wooden-coasters"
       ],
-      "intro": "A curated coaster selection that mixes bestselling table sets, warm home gifts and more distinctive engraved themes.",
+      "intro": "The full matched coaster range from the live Etsy shop, kept inside the same English collection layout.",
       "ctaLabel": "View coasters on Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=coaster"
     },
@@ -493,17 +634,23 @@
       "mode": "slugs",
       "slugs": [
         "dragon-eye-wooden-bookmark",
+        "desert-saga-wooden-bookmark",
+        "celtic-wooden-bookmark",
         "dragon-wooden-bookmark",
         "epic-fantasy-wooden-bookmark",
+        "sardine-wooden-bookmark",
         "fantasy-sword-wooden-bookmark",
+        "rocket-wooden-bookmark",
+        "1984-inspired-wooden-bookmark",
         "fantasy-reader-gift-set",
-        "celtic-wooden-bookmark",
+        "witch-symbols-wooden-bookmark",
         "classic-wooden-bookmark",
         "personalized-feather-wooden-bookmark",
-        "1984-inspired-wooden-bookmark",
-        "lighthouse-wooden-bookmark"
+        "lighthouse-wooden-bookmark",
+        "spanish-guitar-wooden-bookmark",
+        "gothic-skull-wooden-bookmark"
       ],
-      "intro": "A curated bookmark selection for readers, fantasy fans and quiet reading corners.",
+      "intro": "The full matched bookmark range for readers, fantasy shelves and ready-to-gift book lovers.",
       "ctaLabel": "View bookmarks on Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },
@@ -642,15 +789,31 @@
     "catalog": {
       "mode": "slugs",
       "slugs": [
+        "fantasy-gamer-door-sign",
+        "do-not-ring-door-sign",
+        "epic-fantasy-door-sign",
+        "wooden-baby-milestone-discs",
+        "montessori-wooden-numicon-set",
+        "wooden-no-cameras-door-hanger",
         "moon-cat-shadow-tealight-holder",
+        "diy-christmas-ornaments",
         "laser-birch-wood-incense-burner",
+        "wooden-baby-closet-dividers",
+        "spider-web-tealight-holder",
+        "skull-tealight-holder",
+        "wooden-dinosaur-shapes",
         "personalized-just-married-wooden-door-hanger",
         "just-married-wedding-money-holder",
-        "epic-fantasy-door-sign",
+        "gaming-do-not-disturb-sign",
         "personalized-pet-memorial-plaque",
-        "do-not-ring-door-sign"
+        "birch-wood-circle-blanks",
+        "prayer-in-progress-door-hanger",
+        "bald-man-s-comb",
+        "moba-gamer-door-hanger",
+        "fps-gamer-door-hanger",
+        "upcycled-ram-keychain"
       ],
-      "intro": "A curated mix of decor pieces, door hangers and personalized keepsakes.",
+      "intro": "The full matched wooden gifts range, including decor, door pieces, keepsakes and smaller handmade extras.",
       "ctaLabel": "View wooden gifts on Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
@@ -1255,6 +1418,1658 @@
       "es": "/es/pages/regalos-para-casa-nueva.html",
       "pt": "/pt/pages/presentes-de-casa-nova.html",
       "it": "/it/pages/regali-per-la-casa-nuova.html"
+    }
+  },
+  {
+    "path": "/en/pages/diy.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/diy.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "DIY | Craftygiftsplace",
+    "metaDescription": "Browse diy from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "DIY",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section groups the hands-on blanks and kits that make sense for painting, crafting or finishing at home.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "DIY",
+        "path": "/en/pages/diy.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open DIY on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=diy"
+    },
+    "secondaryCta": {
+      "label": "Browse DIY",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      },
+      {
+        "label": "Educational Toys & Games",
+        "target": "/en/pages/educational-toys-and-games.html"
+      },
+      {
+        "label": "Christmas",
+        "target": "/en/pages/christmas.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live DIY section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        },
+        {
+          "label": "Educational Toys & Games",
+          "href": "/en/pages/educational-toys-and-games.html"
+        },
+        {
+          "label": "Christmas",
+          "href": "/en/pages/christmas.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "birch-wood-circle-blanks",
+        "summary": "A strong first click inside diy when the shopper wants a clearly handmade option."
+      },
+      {
+        "slug": "wooden-dinosaur-shapes",
+        "summary": "Another matched Etsy pick that keeps this section specific without changing the site structure."
+      },
+      {
+        "slug": "diy-christmas-ornaments",
+        "summary": "A useful comparison point before opening Etsy for live pricing, reviews and checkout."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy diy section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "birch-wood-circle-blanks",
+        "wooden-dinosaur-shapes",
+        "diy-christmas-ornaments",
+        "diy-halloween-kit-wooden-coasters"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy DIY section.",
+      "ctaLabel": "View DIY on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=diy"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy DIY section?",
+        "answer": "Yes. This page mirrors the public Etsy DIY section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The broader handmade gift collection for decor, signs and keepsakes."
+      },
+      {
+        "label": "Educational Toys & Games",
+        "href": "/en/pages/educational-toys-and-games.html",
+        "description": "A nearby section for the learning-focused wooden piece in the shop."
+      },
+      {
+        "label": "Christmas",
+        "href": "/en/pages/christmas.html",
+        "description": "Holiday-ready keepsakes and seasonal wooden browsing."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare diy on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View DIY on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=diy"
+    }
+  },
+  {
+    "path": "/en/pages/baby-bliss.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/baby-bliss.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Baby Bliss | Craftygiftsplace",
+    "metaDescription": "Browse baby bliss from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Baby Bliss",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section keeps the baby milestone and nursery-friendly pieces together for new-arrival gifting and memory-making.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Baby Bliss",
+        "path": "/en/pages/baby-bliss.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Baby Bliss on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=baby"
+    },
+    "secondaryCta": {
+      "label": "Browse Baby Bliss",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Personalized Items",
+        "target": "/en/pages/personalized-items.html"
+      },
+      {
+        "label": "Christmas",
+        "target": "/en/pages/christmas.html"
+      },
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Baby Bliss section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Personalized Items",
+          "href": "/en/pages/personalized-items.html"
+        },
+        {
+          "label": "Christmas",
+          "href": "/en/pages/christmas.html"
+        },
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "wooden-baby-milestone-discs",
+        "summary": "A strong first click inside baby bliss when the shopper wants a clearly handmade option."
+      },
+      {
+        "slug": "wooden-baby-closet-dividers",
+        "summary": "Another matched Etsy pick that keeps this section specific without changing the site structure."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy baby bliss section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "wooden-baby-milestone-discs",
+        "wooden-baby-closet-dividers"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Baby Bliss section.",
+      "ctaLabel": "View Baby Bliss on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=baby"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Baby Bliss section?",
+        "answer": "Yes. This page mirrors the public Etsy Baby Bliss section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Personalized Items",
+        "href": "/en/pages/personalized-items.html",
+        "description": "Custom-ready listings for names, dates and memorable milestones."
+      },
+      {
+        "label": "Christmas",
+        "href": "/en/pages/christmas.html",
+        "description": "The holiday keepsake page for the current Christmas listing."
+      },
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The broader handmade gifts collection for home-led browsing."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare baby bliss on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Baby Bliss on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=baby"
+    }
+  },
+  {
+    "path": "/en/pages/door-hangers.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/door-hangers.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Door Hanger | Craftygiftsplace",
+    "metaDescription": "Browse door hanger from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Door Hanger",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section focuses on wooden signs and hangers for doors, bedrooms, gaming setups and quiet corners.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Door Hanger",
+        "path": "/en/pages/door-hangers.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Door Hanger on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=door%20hanger"
+    },
+    "secondaryCta": {
+      "label": "Browse Door Hanger",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      },
+      {
+        "label": "Gifts for IT & Gamers",
+        "target": "/en/pages/gifts-for-it-and-gamers.html"
+      },
+      {
+        "label": "Wedding",
+        "target": "/en/pages/wedding.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Door Hanger section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        },
+        {
+          "label": "Gifts for IT & Gamers",
+          "href": "/en/pages/gifts-for-it-and-gamers.html"
+        },
+        {
+          "label": "Wedding",
+          "href": "/en/pages/wedding.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "fantasy-gamer-door-sign",
+        "summary": "A strong first click inside door hanger when the shopper wants a clearly handmade option."
+      },
+      {
+        "slug": "moba-gamer-door-hanger",
+        "summary": "Another matched Etsy pick that keeps this section specific without changing the site structure."
+      },
+      {
+        "slug": "fps-gamer-door-hanger",
+        "summary": "A useful comparison point before opening Etsy for live pricing, reviews and checkout."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy door hanger section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "fantasy-gamer-door-sign",
+        "moba-gamer-door-hanger",
+        "fps-gamer-door-hanger",
+        "gaming-do-not-disturb-sign",
+        "wooden-no-cameras-door-hanger",
+        "do-not-ring-door-sign",
+        "prayer-in-progress-door-hanger",
+        "epic-fantasy-door-sign"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Door Hanger section.",
+      "ctaLabel": "View Door Hanger on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=door%20hanger"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Door Hanger section?",
+        "answer": "Yes. This page mirrors the public Etsy Door Hanger section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The wider gifts page for signs, decor and keepsake pieces."
+      },
+      {
+        "label": "Gifts for IT & Gamers",
+        "href": "/en/pages/gifts-for-it-and-gamers.html",
+        "description": "A smaller tech-leaning section linked to desk and gamer gifting."
+      },
+      {
+        "label": "Wedding",
+        "href": "/en/pages/wedding.html",
+        "description": "A focused newlywed page for the wedding-ready listing."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare door hanger on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Door Hanger on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=door%20hanger"
+    }
+  },
+  {
+    "path": "/en/pages/pet-memorial.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/pet-memorial.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Pet Memorial | Craftygiftsplace",
+    "metaDescription": "Browse pet memorial from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Pet Memorial",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section keeps the pet memorial piece on a dedicated page instead of burying it inside a broader gift category.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Pet Memorial",
+        "path": "/en/pages/pet-memorial.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Pet Memorial on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=pet%20memorial"
+    },
+    "secondaryCta": {
+      "label": "Browse Pet Memorial",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Personalized Items",
+        "target": "/en/pages/personalized-items.html"
+      },
+      {
+        "label": "Candle Holders",
+        "target": "/en/pages/candle-holders.html"
+      },
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Pet Memorial section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Personalized Items",
+          "href": "/en/pages/personalized-items.html"
+        },
+        {
+          "label": "Candle Holders",
+          "href": "/en/pages/candle-holders.html"
+        },
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "personalized-pet-memorial-plaque",
+        "summary": "A strong first click inside pet memorial when the shopper wants a clearly handmade option."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy pet memorial section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "personalized-pet-memorial-plaque"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Pet Memorial section.",
+      "ctaLabel": "View Pet Memorial on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=pet%20memorial"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Pet Memorial section?",
+        "answer": "Yes. This page mirrors the public Etsy Pet Memorial section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Personalized Items",
+        "href": "/en/pages/personalized-items.html",
+        "description": "More custom-led pieces where names, dates or personal details matter."
+      },
+      {
+        "label": "Candle Holders",
+        "href": "/en/pages/candle-holders.html",
+        "description": "Warm shelf pieces that also sit inside the broader wooden gifts world."
+      },
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The broad category page for decor, keepsakes and home pieces."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare pet memorial on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Pet Memorial on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=pet%20memorial"
+    }
+  },
+  {
+    "path": "/en/pages/personalized-items.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/personalized-items.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Personalized Items | Craftygiftsplace",
+    "metaDescription": "Browse personalized items from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Personalized Items",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section gathers the listings where names, dates or custom wording are the main reason someone clicks through.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Personalized Items",
+        "path": "/en/pages/personalized-items.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Personalized Items on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=personalized"
+    },
+    "secondaryCta": {
+      "label": "Browse Personalized Items",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      },
+      {
+        "label": "Wedding",
+        "target": "/en/pages/wedding.html"
+      },
+      {
+        "label": "Wooden bookmarks",
+        "target": "/en/pages/wooden-bookmarks.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Personalized Items section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        },
+        {
+          "label": "Wedding",
+          "href": "/en/pages/wedding.html"
+        },
+        {
+          "label": "Wooden bookmarks",
+          "href": "/en/pages/wooden-bookmarks.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "personalized-wooden-coasters",
+        "summary": "A strong first click inside personalized items when the shopper wants a clearly handmade option."
+      },
+      {
+        "slug": "personalised-team-wooden-coasters",
+        "summary": "Another matched Etsy pick that keeps this section specific without changing the site structure."
+      },
+      {
+        "slug": "personalized-calendar-coaster",
+        "summary": "A useful comparison point before opening Etsy for live pricing, reviews and checkout."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy personalized items section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "personalized-wooden-coasters",
+        "personalised-team-wooden-coasters",
+        "personalized-calendar-coaster",
+        "personalized-feather-wooden-bookmark",
+        "personaliseerbare-houten-onderzetters-met-kurk-onderkant-set-van-6"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Personalized Items section.",
+      "ctaLabel": "View Personalized Items on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=personalized"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Personalized Items section?",
+        "answer": "Yes. This page mirrors the public Etsy Personalized Items section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The wider gift range that still sends shoppers to Etsy for customization."
+      },
+      {
+        "label": "Wedding",
+        "href": "/en/pages/wedding.html",
+        "description": "A focused wedding section for the newlywed cash-gift listing."
+      },
+      {
+        "label": "Wooden bookmarks",
+        "href": "/en/pages/wooden-bookmarks.html",
+        "description": "The full bookmark collection, including reader-friendly personalized picks."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare personalized items on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Personalized Items on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=personalized"
+    }
+  },
+  {
+    "path": "/en/pages/candle-holders.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/candle-holders.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Candle Holders | Craftygiftsplace",
+    "metaDescription": "Browse candle holders from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Candle Holders",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section brings together the candle-ready pieces and shadow-casting tealight holders for shelves, consoles and cozy corners.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Candle Holders",
+        "path": "/en/pages/candle-holders.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Candle Holders on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=candle%20holder"
+    },
+    "secondaryCta": {
+      "label": "Browse Candle Holders",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      },
+      {
+        "label": "Housewarming gifts",
+        "target": "/en/pages/housewarming-gifts.html"
+      },
+      {
+        "label": "Cat lover gifts",
+        "target": "/en/pages/cat-lover-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Candle Holders section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        },
+        {
+          "label": "Housewarming gifts",
+          "href": "/en/pages/housewarming-gifts.html"
+        },
+        {
+          "label": "Cat lover gifts",
+          "href": "/en/pages/cat-lover-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "moon-cat-shadow-tealight-holder",
+        "summary": "A strong first click inside candle holders when the shopper wants a clearly handmade option."
+      },
+      {
+        "slug": "spider-web-tealight-holder",
+        "summary": "Another matched Etsy pick that keeps this section specific without changing the site structure."
+      },
+      {
+        "slug": "skull-tealight-holder",
+        "summary": "A useful comparison point before opening Etsy for live pricing, reviews and checkout."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy candle holders section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "moon-cat-shadow-tealight-holder",
+        "spider-web-tealight-holder",
+        "skull-tealight-holder"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Candle Holders section.",
+      "ctaLabel": "View Candle Holders on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=candle%20holder"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Candle Holders section?",
+        "answer": "Yes. This page mirrors the public Etsy Candle Holders section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The broader handmade gifts page for decor, signs and keepsakes."
+      },
+      {
+        "label": "Housewarming gifts",
+        "href": "/en/pages/housewarming-gifts.html",
+        "description": "A warm home-focused route for shelf accents and table-ready pieces."
+      },
+      {
+        "label": "Cat lover gifts",
+        "href": "/en/pages/cat-lover-gifts.html",
+        "description": "Cat-themed coasters and decor for cat-owner gifting."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare candle holders on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Candle Holders on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=candle%20holder"
+    }
+  },
+  {
+    "path": "/en/pages/incense-burners.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/incense-burners.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Incense burners | Craftygiftsplace",
+    "metaDescription": "Browse incense burners from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Incense burners",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section keeps the incense burner on a focused page for calm corners, reading nooks and shelf styling.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Incense burners",
+        "path": "/en/pages/incense-burners.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Incense burners on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=incense%20burner"
+    },
+    "secondaryCta": {
+      "label": "Browse Incense burners",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      },
+      {
+        "label": "Housewarming gifts",
+        "target": "/en/pages/housewarming-gifts.html"
+      },
+      {
+        "label": "Reader gifts",
+        "target": "/en/pages/reader-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Incense burners section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        },
+        {
+          "label": "Housewarming gifts",
+          "href": "/en/pages/housewarming-gifts.html"
+        },
+        {
+          "label": "Reader gifts",
+          "href": "/en/pages/reader-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "laser-birch-wood-incense-burner",
+        "summary": "A strong first click inside incense burners when the shopper wants a clearly handmade option."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy incense burners section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "laser-birch-wood-incense-burner"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Incense burners section.",
+      "ctaLabel": "View Incense burners on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=incense%20burner"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Incense burners section?",
+        "answer": "Yes. This page mirrors the public Etsy Incense burners section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The full decor and keepsake category for broader gift browsing."
+      },
+      {
+        "label": "Housewarming gifts",
+        "href": "/en/pages/housewarming-gifts.html",
+        "description": "A nearby page for shoppers leaning more toward cozy-home gifting."
+      },
+      {
+        "label": "Reader gifts",
+        "href": "/en/pages/reader-gifts.html",
+        "description": "Bookmarks, bundles and room pieces for book lovers and reading corners."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare incense burners on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Incense burners on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=incense%20burner"
+    }
+  },
+  {
+    "path": "/en/pages/educational-toys-and-games.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/educational-toys-and-games.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Educational Toys & Games | Craftygiftsplace",
+    "metaDescription": "Browse educational toys & games from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Educational Toys & Games",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section highlights the hands-on learning piece in the shop for classroom, homeschool and early maths gifting.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Educational Toys & Games",
+        "path": "/en/pages/educational-toys-and-games.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Educational Toys & Games on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=montessori"
+    },
+    "secondaryCta": {
+      "label": "Browse Educational Toys & Games",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "DIY",
+        "target": "/en/pages/diy.html"
+      },
+      {
+        "label": "Baby Bliss",
+        "target": "/en/pages/baby-bliss.html"
+      },
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Educational Toys & Games section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "DIY",
+          "href": "/en/pages/diy.html"
+        },
+        {
+          "label": "Baby Bliss",
+          "href": "/en/pages/baby-bliss.html"
+        },
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "montessori-wooden-numicon-set",
+        "summary": "A strong first click inside educational toys & games when the shopper wants a clearly handmade option."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy educational toys & games section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "montessori-wooden-numicon-set"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Educational Toys & Games section.",
+      "ctaLabel": "View Educational Toys & Games on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=montessori"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Educational Toys & Games section?",
+        "answer": "Yes. This page mirrors the public Etsy Educational Toys & Games section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "DIY",
+        "href": "/en/pages/diy.html",
+        "description": "More hands-on blanks and kits for painting, finishing and making."
+      },
+      {
+        "label": "Baby Bliss",
+        "href": "/en/pages/baby-bliss.html",
+        "description": "Nursery-friendly keepsakes and baby milestone pieces."
+      },
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The broader handmade gift range for non-toy browsing."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare educational toys & games on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Educational Toys & Games on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=montessori"
+    }
+  },
+  {
+    "path": "/en/pages/funny-presents.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/funny-presents.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Funny Presents | Craftygiftsplace",
+    "metaDescription": "Browse funny presents from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Funny Presents",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section keeps the novelty wooden gift easy to find without mixing it into the wider catalog.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Funny Presents",
+        "path": "/en/pages/funny-presents.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Funny Presents on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=funny%20gift"
+    },
+    "secondaryCta": {
+      "label": "Browse Funny Presents",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      },
+      {
+        "label": "Gifts for IT & Gamers",
+        "target": "/en/pages/gifts-for-it-and-gamers.html"
+      },
+      {
+        "label": "Housewarming gifts",
+        "target": "/en/pages/housewarming-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Funny Presents section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        },
+        {
+          "label": "Gifts for IT & Gamers",
+          "href": "/en/pages/gifts-for-it-and-gamers.html"
+        },
+        {
+          "label": "Housewarming gifts",
+          "href": "/en/pages/housewarming-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "bald-man-s-comb",
+        "summary": "A strong first click inside funny presents when the shopper wants a clearly handmade option."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy funny presents section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "bald-man-s-comb"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Funny Presents section.",
+      "ctaLabel": "View Funny Presents on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=funny%20gift"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Funny Presents section?",
+        "answer": "Yes. This page mirrors the public Etsy Funny Presents section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The wider handmade gifts page for calmer decor-led browsing."
+      },
+      {
+        "label": "Gifts for IT & Gamers",
+        "href": "/en/pages/gifts-for-it-and-gamers.html",
+        "description": "A nearby tech-themed page for smaller desk-ready gift ideas."
+      },
+      {
+        "label": "Housewarming gifts",
+        "href": "/en/pages/housewarming-gifts.html",
+        "description": "Useful wooden gifts for homes, tables and easy gifting."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare funny presents on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Funny Presents on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=funny%20gift"
+    }
+  },
+  {
+    "path": "/en/pages/christmas.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/christmas.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Christmas | Craftygiftsplace",
+    "metaDescription": "Browse christmas from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Christmas",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section surfaces the live Christmas keepsake so holiday shoppers can reach it without searching through the full catalog.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Christmas",
+        "path": "/en/pages/christmas.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Christmas on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=christmas"
+    },
+    "secondaryCta": {
+      "label": "Browse Christmas",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "DIY",
+        "target": "/en/pages/diy.html"
+      },
+      {
+        "label": "Baby Bliss",
+        "target": "/en/pages/baby-bliss.html"
+      },
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Christmas section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "DIY",
+          "href": "/en/pages/diy.html"
+        },
+        {
+          "label": "Baby Bliss",
+          "href": "/en/pages/baby-bliss.html"
+        },
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "diy-christmas-ornaments",
+        "summary": "A strong first click inside christmas when the shopper wants a clearly handmade option."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy christmas section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "diy-christmas-ornaments"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Christmas section.",
+      "ctaLabel": "View Christmas on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=christmas"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Christmas section?",
+        "answer": "Yes. This page mirrors the public Etsy Christmas section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "DIY",
+        "href": "/en/pages/diy.html",
+        "description": "Craft blanks and seasonal kits for hands-on holiday making."
+      },
+      {
+        "label": "Baby Bliss",
+        "href": "/en/pages/baby-bliss.html",
+        "description": "New-arrival keepsakes that also fit first-Christmas gifting."
+      },
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The broader handmade gifts category for non-seasonal browsing."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare christmas on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Christmas on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=christmas"
+    }
+  },
+  {
+    "path": "/en/pages/gifts-for-it-and-gamers.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/gifts-for-it-and-gamers.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Gifts for IT & Gamers | Craftygiftsplace",
+    "metaDescription": "Browse gifts for it & gamers from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Gifts for IT & Gamers",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section gives the shop's tech-themed gift a clear place inside the existing English catalog.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Gifts for IT & Gamers",
+        "path": "/en/pages/gifts-for-it-and-gamers.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Gifts for IT & Gamers on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=ram%20keychain"
+    },
+    "secondaryCta": {
+      "label": "Browse Gifts for IT & Gamers",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Door Hanger",
+        "target": "/en/pages/door-hangers.html"
+      },
+      {
+        "label": "Wooden coasters",
+        "target": "/en/pages/wooden-coasters.html"
+      },
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Gifts for IT & Gamers section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Door Hanger",
+          "href": "/en/pages/door-hangers.html"
+        },
+        {
+          "label": "Wooden coasters",
+          "href": "/en/pages/wooden-coasters.html"
+        },
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "upcycled-ram-keychain",
+        "summary": "A strong first click inside gifts for it & gamers when the shopper wants a clearly handmade option."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy gifts for it & gamers section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "upcycled-ram-keychain"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Gifts for IT & Gamers section.",
+      "ctaLabel": "View Gifts for IT & Gamers on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=ram%20keychain"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Gifts for IT & Gamers section?",
+        "answer": "Yes. This page mirrors the public Etsy Gifts for IT & Gamers section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Door Hanger",
+        "href": "/en/pages/door-hangers.html",
+        "description": "Gaming signs and hangers for desks, rooms and streaming setups."
+      },
+      {
+        "label": "Wooden coasters",
+        "href": "/en/pages/wooden-coasters.html",
+        "description": "The broader coaster page, including gaming and desk-ready themes."
+      },
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The wider handmade gifts page for decor, keepsakes and smaller extras."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare gifts for it & gamers on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Gifts for IT & Gamers on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=ram%20keychain"
+    }
+  },
+  {
+    "path": "/en/pages/readers-kit.html",
+    "pairPath": "/en/pages/reader-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/readers-kit.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Readers Kit | Craftygiftsplace",
+    "metaDescription": "Browse readers kit from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Readers Kit",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section keeps the bundled reader gift separate from the individual bookmarks for shoppers who want one ready-made set.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Readers Kit",
+        "path": "/en/pages/readers-kit.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Readers Kit on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=reader%20gift"
+    },
+    "secondaryCta": {
+      "label": "Browse Readers Kit",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Wooden bookmarks",
+        "target": "/en/pages/wooden-bookmarks.html"
+      },
+      {
+        "label": "Reader gifts",
+        "target": "/en/pages/reader-gifts.html"
+      },
+      {
+        "label": "Candle Holders",
+        "target": "/en/pages/candle-holders.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Readers Kit section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Wooden bookmarks",
+          "href": "/en/pages/wooden-bookmarks.html"
+        },
+        {
+          "label": "Reader gifts",
+          "href": "/en/pages/reader-gifts.html"
+        },
+        {
+          "label": "Candle Holders",
+          "href": "/en/pages/candle-holders.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "fantasy-reader-gift-set",
+        "summary": "A strong first click inside readers kit when the shopper wants a clearly handmade option."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy readers kit section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "fantasy-reader-gift-set"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Readers Kit section.",
+      "ctaLabel": "View Readers Kit on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=reader%20gift"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Readers Kit section?",
+        "answer": "Yes. This page mirrors the public Etsy Readers Kit section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Wooden bookmarks",
+        "href": "/en/pages/wooden-bookmarks.html",
+        "description": "The full bookmark collection for readers, fantasy fans and book gifts."
+      },
+      {
+        "label": "Reader gifts",
+        "href": "/en/pages/reader-gifts.html",
+        "description": "The broader gift-guide page for readers and cozy reading corners."
+      },
+      {
+        "label": "Candle Holders",
+        "href": "/en/pages/candle-holders.html",
+        "description": "Shelf accents that also fit reading nooks and quiet corners."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare readers kit on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Readers Kit on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=reader%20gift"
+    }
+  },
+  {
+    "path": "/en/pages/wedding.html",
+    "pairPath": "/en/pages/wooden-gifts.html",
+    "alternatePaths": {
+      "en": "/en/pages/wedding.html"
+    },
+    "template": "collection",
+    "locale": "en",
+    "title": "Wedding | Craftygiftsplace",
+    "metaDescription": "Browse wedding from Craftygiftsplace, then head to Etsy for live pricing, reviews and checkout.",
+    "h1": "Wedding",
+    "eyebrow": "Etsy section",
+    "intro": "This Etsy section gives the wedding cash holder its own focused page for newlywed gifting and milestone browsing.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "path": "/en/index.html"
+      },
+      {
+        "label": "Wedding",
+        "path": "/en/pages/wedding.html"
+      }
+    ],
+    "primaryCta": {
+      "label": "Open Wedding on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=wedding"
+    },
+    "secondaryCta": {
+      "label": "Browse Wedding",
+      "target": "#shop-catalog"
+    },
+    "linkCloud": [
+      {
+        "label": "Personalized Items",
+        "target": "/en/pages/personalized-items.html"
+      },
+      {
+        "label": "Door Hanger",
+        "target": "/en/pages/door-hangers.html"
+      },
+      {
+        "label": "Wooden gifts",
+        "target": "/en/pages/wooden-gifts.html"
+      }
+    ],
+    "sidebar": {
+      "title": "See related pages",
+      "quote": "\"Great quality, exactly as described, and seller was kind and communicative! Excited to gift these.\"",
+      "attribution": "Caroline · Etsy review",
+      "text": "This page keeps the live Wedding section inside the existing English site structure without changing the layout, branding or Etsy checkout flow.",
+      "links": [
+        {
+          "label": "Personalized Items",
+          "href": "/en/pages/personalized-items.html"
+        },
+        {
+          "label": "Door Hanger",
+          "href": "/en/pages/door-hangers.html"
+        },
+        {
+          "label": "Wooden gifts",
+          "href": "/en/pages/wooden-gifts.html"
+        }
+      ]
+    },
+    "featuredItems": [
+      {
+        "slug": "just-married-wedding-money-holder",
+        "summary": "A strong first click inside wedding when the shopper wants a clearly handmade option."
+      }
+    ],
+    "featuredWhy": [
+      "It keeps the live Etsy wedding section browseable on the English site.",
+      "It uses the same page shell, product cards and CTA pattern as the rest of the catalog.",
+      "It still sends shoppers to Etsy for live pricing, reviews and checkout."
+    ],
+    "catalog": {
+      "mode": "slugs",
+      "slugs": [
+        "just-married-wedding-money-holder"
+      ],
+      "intro": "Matched English products currently aligned with the Etsy Wedding section.",
+      "ctaLabel": "View Wedding on Etsy",
+      "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=wedding"
+    },
+    "faq": [
+      {
+        "question": "Does this page follow the Etsy Wedding section?",
+        "answer": "Yes. This page mirrors the public Etsy Wedding section as closely as the current English catalog data allows."
+      },
+      {
+        "question": "Do I still order on Etsy from here?",
+        "answer": "Yes. This site stays browse-first, then sends shoppers to Etsy for live pricing, reviews, personalization details and checkout."
+      },
+      {
+        "question": "Can I move back to broader category pages from here?",
+        "answer": "Yes. The related links keep the wider English collections and nearby sections easy to reach."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "Personalized Items",
+        "href": "/en/pages/personalized-items.html",
+        "description": "Custom-ready pieces where names, dates and personal wording matter most."
+      },
+      {
+        "label": "Door Hanger",
+        "href": "/en/pages/door-hangers.html",
+        "description": "Wooden signs and hangers for rooms, doors and milestone gifting."
+      },
+      {
+        "label": "Wooden gifts",
+        "href": "/en/pages/wooden-gifts.html",
+        "description": "The broader decor and keepsake category for related handmade gifts."
+      }
+    ],
+    "ctaPanel": {
+      "title": "Ready to compare wedding on Etsy?",
+      "text": "Open Etsy to review live prices, listing details and buyer feedback for this section.",
+      "label": "View Wedding on Etsy",
+      "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=wedding"
     }
   }
 ]
