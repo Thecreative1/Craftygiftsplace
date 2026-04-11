@@ -1,6 +1,11 @@
 document.documentElement.classList.add("js-ready");
 
 document.addEventListener("DOMContentLoaded", () => {
+  const mediaShapeRules = {
+    portrait: 0.9,
+    wide: 1.25,
+    panorama: 1.75
+  };
   const pageLang = (document.documentElement.lang || "en").toLowerCase();
   const locale = pageLang.split("-")[0];
   const localizedLabels = {
@@ -47,6 +52,44 @@ document.addEventListener("DOMContentLoaded", () => {
       link.setAttribute("aria-current", "page");
     }
   });
+
+  const applyMediaShape = (target, frameResolver) => {
+    const frame = frameResolver(target);
+
+    if (!frame || !target.naturalWidth || !target.naturalHeight) {
+      return;
+    }
+
+    const ratio = target.naturalWidth / target.naturalHeight;
+    let shape = "balanced";
+
+    if (ratio <= mediaShapeRules.portrait) {
+      shape = "portrait";
+    } else if (ratio >= mediaShapeRules.panorama) {
+      shape = "panorama";
+    } else if (ratio >= mediaShapeRules.wide) {
+      shape = "wide";
+    }
+
+    frame.dataset.mediaShape = shape;
+  };
+
+  const observeMediaShape = (selector, frameResolver) => {
+    document.querySelectorAll(selector).forEach((target) => {
+      if (target.complete) {
+        applyMediaShape(target, frameResolver);
+        return;
+      }
+
+      target.addEventListener("load", () => {
+        applyMediaShape(target, frameResolver);
+      }, { once: true });
+    });
+  };
+
+  observeMediaShape(".product-card .card-media img", (target) => target.closest(".card-media"));
+  observeMediaShape(".home-category-media img", (target) => target.closest(".home-category-media"));
+  observeMediaShape(".listing-photo", (target) => target.closest(".copy-card"));
 
   if (!navToggle || !navLinks) {
     return;
