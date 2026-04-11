@@ -218,7 +218,8 @@
         "title": "Commandez sur Etsy",
         "text": "Rendez-vous sur Etsy pour les prix, les avis et un paiement sécurisé."
       }
-    ]
+    ],
+    "whyLink": { "label": "Pourquoi des cadeaux en bois ?", "href": "/fr/pages/pourquoi-des-cadeaux-en-bois.html" }
   },
   "makerStory": {
     "heading": "Fait par une seule personne, avec soin",

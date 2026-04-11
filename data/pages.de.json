@@ -169,7 +169,11 @@
           "title": "Auf Etsy bestellen",
           "text": "Wechsle zu Etsy für Preise, Bewertungen und sicheres Bezahlen."
         }
-      ]
+      ],
+      "whyLink": {
+        "label": "Warum Holzgeschenke?",
+        "href": "/de/pages/warum-holzgeschenke.html"
+      }
     },
     "makerStory": {
       "heading": "Von einer Person gemacht, mit Sorgfalt",

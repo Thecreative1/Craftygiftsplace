@@ -218,7 +218,8 @@
         "title": "Encomende no Etsy",
         "text": "Aceda ao Etsy para preços, avaliações e pagamento seguro."
       }
-    ]
+    ],
+    "whyLink": { "label": "Porquê presentes de madeira?", "href": "/pt/pages/por-que-presentes-de-madeira.html" }
   },
   "makerStory": {
     "heading": "Feito por uma pessoa, com cuidado",

@@ -1631,12 +1631,16 @@ function renderHowItWorks(page) {
         <p>${escapeHtml(step.text)}</p>
       </div>${arrow}`;
   }).join("\n");
+  const whyLink = page.howItWorks.whyLink
+    ? `<div class="how-why-link"><a href="${escapeAttribute(relativeUrl(page.path, page.howItWorks.whyLink.href))}">${escapeHtml(page.howItWorks.whyLink.label)} →</a></div>`
+    : "";
   return `
     <section class="section how-it-works-section" id="how-it-works">
       <div class="container">
         <div class="how-it-works-strip">
           ${stepsHtml}
         </div>
+        ${whyLink}
       </div>
     </section>`;
 }

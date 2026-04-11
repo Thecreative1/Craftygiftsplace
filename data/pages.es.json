@@ -223,7 +223,11 @@
           "title": "Pide en Etsy",
           "text": "Ve a Etsy para ver precios, reseñas y pagar de forma segura."
         }
-      ]
+      ],
+      "whyLink": {
+        "label": "¿Por qué regalos de madera?",
+        "href": "/es/pages/por-que-regalos-de-madera.html"
+      }
     },
     "makerStory": {
       "heading": "Hecho por una persona, con cuidado",

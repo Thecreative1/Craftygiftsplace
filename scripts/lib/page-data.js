@@ -166,7 +166,8 @@ pagesEn.push({
       { number: "1", title: "Browse here", text: "Find the right gift from curated collections and gift guides." },
       { number: "2", title: "Pick your favourite", text: "Use photos, themes and descriptions to choose with confidence." },
       { number: "3", title: "Order on Etsy", text: "Head to Etsy for full pricing, reviews and secure checkout." }
-    ]
+    ],
+    whyLink: { label: "Why wooden gifts?", href: "/en/pages/why-wooden-gifts.html" }
   },
   makerStory: {
     heading: "Made by one person, with care",

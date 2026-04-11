@@ -218,7 +218,8 @@
         "title": "Ordina su Etsy",
         "text": "Vai su Etsy per prezzi, recensioni e pagamento sicuro."
       }
-    ]
+    ],
+    "whyLink": { "label": "Perché regali in legno?", "href": "/it/pages/perche-regali-in-legno.html" }
   },
   "makerStory": {
     "heading": "Fatto da una sola persona, con cura",

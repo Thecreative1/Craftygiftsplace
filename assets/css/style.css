@@ -2455,6 +2455,27 @@ a.catalog-card-link:focus-visible {
   }
 }
 
+/* ── How it works — why link ────────────────────────────── */
+.how-why-link {
+  text-align: center;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  margin-top: 0.5rem;
+}
+
+.how-why-link a {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.how-why-link a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
 /* ── Maker story section ────────────────────────────────── */
 .maker-story-section {
   background: linear-gradient(135deg, #fffaf4 0%, #f4ece2 100%);

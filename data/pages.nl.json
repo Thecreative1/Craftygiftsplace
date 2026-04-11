@@ -254,7 +254,11 @@
           "title": "Bestel op Etsy",
           "text": "Ga naar Etsy voor prijzen, beoordelingen en veilig afrekenen."
         }
-      ]
+      ],
+      "whyLink": {
+        "label": "Waarom houten cadeaus?",
+        "href": "/pages/waarom-houten-cadeaus.html"
+      }
     },
     "makerStory": {
       "heading": "Gemaakt door één persoon, met zorg",
