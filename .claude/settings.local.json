@@ -13,7 +13,21 @@
       "WebFetch(domain:craftygiftsplace.store)",
       "Bash(python3 -c \" from PIL import Image import os, glob imgs = glob.glob\\('assets/img/products/*.jpg'\\) + glob.glob\\('assets/img/products/*.png'\\) for f in sorted\\(imgs\\): try: im = Image.open\\(f\\) w, h = im.size ratio = w/h shape = 'portrait' if ratio < 0.9 else \\('square' if ratio < 1.1 else 'landscape'\\) print\\(f'{os.path.basename\\(f\\):45s} {w}x{h} {ratio:.2f} {shape}'\\) except: print\\(f'{f}: error'\\) \")",
       "Bash(identify assets/img/products/*.jpg)",
-      "Bash(file assets/img/products/*.jpg)"
+      "Bash(file assets/img/products/*.jpg)",
+      "Bash(ls:*)",
+      "Bash(npx playwright:*)",
+      "Read(//tmp/**)",
+      "Bash(mkdir -p /tmp/site-screenshots)",
+      "Bash(node:*)",
+      "Bash(npm root:*)",
+      "Bash(where npx:*)",
+      "Bash(npx --yes playwright install chromium)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash('.home-category-grid')",
+      "Bash('.category-grid')",
+      "Bash('.home-bestsellers-grid')",
+      "Read(//c/tmp/**)"
     ]
   }
 }

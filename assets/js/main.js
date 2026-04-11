@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   observeMediaShape(".product-card .card-media img", (target) => target.closest(".card-media"));
+  observeMediaShape(".category-card .card-media img", (target) => target.closest(".card-media"));
   observeMediaShape(".home-category-media img", (target) => target.closest(".home-category-media"));
   observeMediaShape(".listing-photo", (target) => target.closest(".copy-card"));
 
