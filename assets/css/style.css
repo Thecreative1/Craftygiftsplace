@@ -1501,6 +1501,13 @@ h3 {
   grid-column: 1 / -1;
 }
 
+.featured-copy-grid .copy-card .listing-photo {
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  padding: clamp(1rem, 2.2vw, 1.5rem);
+  padding-inline: clamp(1.2rem, 2.6vw, 1.8rem);
+}
+
 .sticky-mobile-cta {
   display: none;
 }
