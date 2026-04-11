@@ -1854,7 +1854,7 @@ function renderHeader(page) {
       const current = page.path === item.path ? ' aria-current="page"' : "";
       return `<a href="${escapeAttribute(relativeUrl(page.path, item.path))}"${current}>${escapeHtml(item.label)}</a>`;
     }),
-    `<a class="btn" href="${escapeAttribute(page.primaryCta.url)}" target="_blank" rel="noopener">${escapeHtml(page.primaryCta.label)}</a>`
+    `<a class="btn" href="${escapeAttribute(page.primaryCta.url)}" target="_blank" rel="noopener">${escapeHtml(page.navCtaLabel ?? page.primaryCta.label)}</a>`
   ].join("\n");
 
   const languageLinks = LOCALE_ORDER.filter((locale) => alternatePaths[locale]).map((locale) => ({

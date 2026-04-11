@@ -64,7 +64,7 @@
     "locale": "fr",
     "category": "bookmarks",
     "section": "bladwijzers",
-    "name": "Marque-page œil de dragon en bois",
+    "name": "Marque-page oeil de dragon en bois",
     "price": "18.99",
     "price_label": "EUR 18.99",
     "audience_keys": [
@@ -105,7 +105,7 @@
     "image_full": "https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_fullxfull.6371593681_3p4r.jpg",
     "image_srcset": "https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_340x270.6371593681_3p4r.jpg 340w, https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_600x600.6371593681_3p4r.jpg 600w, https://i.etsystatic.com/46731516/r/il/8bd72f/6371593681/il_794xN.6371593681_3p4r.jpg 794w",
     "image_sizes": "(max-width: 720px) calc(100vw - 1.25rem), (max-width: 1024px) calc(50vw - 2rem), 360px",
-    "alt": "Marque-page œil de dragon en bois de Craftygiftsplace",
+    "alt": "Marque-page oeil de dragon en bois de Craftygiftsplace",
     "short_desc": "Se glisse facilement dans un journal de lecture, un coffret cadeau ou une soirée tranquille.",
     "collection_desc": "Un marque-page en bois pour lecteurs, cadeaux livres et lectures paisibles.",
     "intent_keys": [
@@ -124,7 +124,7 @@
       "Cadeau pour lecteurs",
       "Cadeau pour amoureux des livres"
     ],
-    "cta_label": "Voir Marque-page œil de dragon en bois sur Etsy",
+    "cta_label": "Voir Marque-page oeil de dragon en bois sur Etsy",
     "brand_suffix": "de Craftygiftsplace"
   },
   {

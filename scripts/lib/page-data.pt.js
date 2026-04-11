@@ -396,6 +396,7 @@ pagesPt.push({
     { label: "Início", path: "/pt/index.html" },
     { label: "Personalização" }
   ],
+  navCtaLabel: "Abrir no Etsy",
   primaryCta: {
     label: "Abrir a Craftygiftsplace no Etsy",
     url: "https://www.etsy.com/shop/Craftygiftsplace"
