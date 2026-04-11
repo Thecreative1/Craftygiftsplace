@@ -299,6 +299,7 @@ function navItems(locale) {
       { label: "Coasters", path: "/en/pages/wooden-coasters.html" },
       { label: "Bookmarks", path: "/en/pages/wooden-bookmarks.html" },
       { label: "Wooden gifts", path: "/en/pages/wooden-gifts.html" },
+      { label: "Personalization", path: "/en/pages/personalization.html" },
       { label: "Why wooden gifts?", path: "/en/pages/why-wooden-gifts.html" },
       { label: "Contact", path: "/en/pages/contact.html" }
     ];
@@ -310,6 +311,7 @@ function navItems(locale) {
       { label: "Holzuntersetzer", path: "/de/pages/holzuntersetzer.html" },
       { label: "Holzlesezeichen", path: "/de/pages/holzlesezeichen.html" },
       { label: "Holzgeschenke", path: "/de/pages/holzgeschenke.html" },
+      { label: "Personalisierung", path: "/de/pages/personalisierung.html" },
       { label: "Warum Holzgeschenke?", path: "/de/pages/warum-holzgeschenke.html" },
       { label: "Kontakt", path: "/de/pages/kontakt.html" }
     ];
@@ -321,6 +323,7 @@ function navItems(locale) {
       { label: "Sous-verres en bois", path: "/fr/pages/sous-verres-en-bois.html" },
       { label: "Marque-pages en bois", path: "/fr/pages/marque-pages-en-bois.html" },
       { label: "Cadeaux en bois", path: "/fr/pages/cadeaux-en-bois.html" },
+      { label: "Personnalisation", path: "/fr/pages/personnalisation.html" },
       { label: "Pourquoi le bois ?", path: "/fr/pages/pourquoi-des-cadeaux-en-bois.html" },
       { label: "Contact", path: "/fr/pages/contact.html" }
     ];
@@ -332,6 +335,7 @@ function navItems(locale) {
       { label: "Posavasos de madera", path: "/es/pages/posavasos-de-madera.html" },
       { label: "Marcapáginas de madera", path: "/es/pages/marcapaginas-de-madera.html" },
       { label: "Regalos de madera", path: "/es/pages/regalos-de-madera.html" },
+      { label: "Personalización", path: "/es/pages/personalizacion.html" },
       { label: "¿Por qué madera?", path: "/es/pages/por-que-regalos-de-madera.html" },
       { label: "Contacto", path: "/es/pages/contacto.html" }
     ];
@@ -343,6 +347,7 @@ function navItems(locale) {
       { label: "Porta-copos de madeira", path: "/pt/pages/porta-copos-de-madeira.html" },
       { label: "Marcadores de livros", path: "/pt/pages/marcadores-de-livros-de-madeira.html" },
       { label: "Presentes de madeira", path: "/pt/pages/presentes-de-madeira.html" },
+      { label: "Personalização", path: "/pt/pages/personalizacao.html" },
       { label: "Porquê madeira?", path: "/pt/pages/por-que-presentes-de-madeira.html" },
       { label: "Contacto", path: "/pt/pages/contacto.html" }
     ];
@@ -354,6 +359,7 @@ function navItems(locale) {
       { label: "Sottobicchieri in legno", path: "/it/pages/sottobicchieri-in-legno.html" },
       { label: "Segnalibri in legno", path: "/it/pages/segnalibri-in-legno.html" },
       { label: "Regali in legno", path: "/it/pages/regali-in-legno.html" },
+      { label: "Personalizzazione", path: "/it/pages/personalizzazione.html" },
       { label: "Perché legno?", path: "/it/pages/perche-regali-in-legno.html" },
       { label: "Contatto", path: "/it/pages/contatto.html" }
     ];
@@ -364,6 +370,7 @@ function navItems(locale) {
     { label: "Onderzetters", path: "/pages/onderzetters.html" },
     { label: "Bladwijzers", path: "/pages/bladwijzers.html" },
     { label: "Houten cadeaus", path: "/pages/houten-cadeaus.html" },
+    { label: "Personalisatie", path: "/pages/personalisatie.html" },
     { label: "Waarom hout?", path: "/pages/waarom-houten-cadeaus.html" },
     { label: "Contact", path: "/pages/contact.html" }
   ];
