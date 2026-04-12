@@ -1644,6 +1644,38 @@ footer {
   }
 }
 
+/* Keep translated desktop headers clear by moving the language switcher onto its own row. */
+@media (min-width: 1281px) {
+  html[lang="de"] .nav,
+  html[lang="fr"] .nav,
+  html[lang="es"] .nav,
+  html[lang="pt"] .nav,
+  html[lang="it"] .nav {
+    flex-wrap: wrap;
+    row-gap: 0.35rem;
+    padding: 0.58rem 0 0.52rem;
+  }
+
+  html[lang="de"] .nav::after,
+  html[lang="fr"] .nav::after,
+  html[lang="es"] .nav::after,
+  html[lang="pt"] .nav::after,
+  html[lang="it"] .nav::after {
+    content: "";
+    flex-basis: 100%;
+    order: 3;
+  }
+
+  html[lang="de"] .language-switch-header,
+  html[lang="fr"] .language-switch-header,
+  html[lang="es"] .language-switch-header,
+  html[lang="pt"] .language-switch-header,
+  html[lang="it"] .language-switch-header {
+    order: 4;
+    margin-left: auto;
+  }
+}
+
 /* Shift the header into the menu layout before translated labels start squeezing the brand. */
 @media (max-width: 1280px) {
   .nav {
@@ -1715,6 +1747,12 @@ footer {
     border-radius: 16px;
     border: 1px solid var(--line);
     background: rgba(255, 253, 249, 0.96);
+  }
+
+  .nav-links a.btn {
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 12px 24px rgba(181, 110, 62, 0.2);
   }
 
   .language-switch-header a {
