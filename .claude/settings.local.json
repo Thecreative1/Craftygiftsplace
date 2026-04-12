@@ -35,7 +35,14 @@
       "Bash(curl -s \"https://craftygiftsplace.store/assets/js/main.js\")",
       "Bash(npm list:*)",
       "Bash([ -f \"E:/GIT_HUB/Craftygiftsplace/$f\" ])",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(du -sh /e/GIT_HUB/Craftygiftsplace/assets/img/products/*)",
+      "Bash(wc:*)",
+      "Bash(find /e/GIT_HUB/Craftygiftsplace/pages /e/GIT_HUB/Craftygiftsplace/en -name \"*.html\" -type f -exec basename {} \\\\;)",
+      "Bash(du -sh E:/GIT_HUB/Craftygiftsplace/assets/img/products/*.jpg)",
+      "Bash(magick --version)",
+      "Bash(convert --version)",
+      "Bash(xargs sed:*)"
     ]
   }
 }

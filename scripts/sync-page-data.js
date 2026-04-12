@@ -53,32 +53,37 @@ function attachAlternates(groups, pageSets) {
   });
 }
 
-const pageSets = {
-  en: clonePages(pagesEn),
-  nl: clonePages(pagesNl),
-  de: clonePages(pagesDe),
-  fr: clonePages(pagesFr),
-  es: clonePages(pagesEs),
-  pt: clonePages(pagesPt),
-  it: clonePages(pagesIt)
-};
+try {
+  const pageSets = {
+    en: clonePages(pagesEn),
+    nl: clonePages(pagesNl),
+    de: clonePages(pagesDe),
+    fr: clonePages(pagesFr),
+    es: clonePages(pagesEs),
+    pt: clonePages(pagesPt),
+    it: clonePages(pagesIt)
+  };
 
-applyHomeContent(pageSets.en, "en");
-applyHomeContent(pageSets.nl, "nl");
-applyHomeContent(pageSets.de, "de");
-applyHomeContent(pageSets.fr, "fr");
-applyHomeContent(pageSets.es, "es");
-applyHomeContent(pageSets.pt, "pt");
-applyHomeContent(pageSets.it, "it");
+  applyHomeContent(pageSets.en, "en");
+  applyHomeContent(pageSets.nl, "nl");
+  applyHomeContent(pageSets.de, "de");
+  applyHomeContent(pageSets.fr, "fr");
+  applyHomeContent(pageSets.es, "es");
+  applyHomeContent(pageSets.pt, "pt");
+  applyHomeContent(pageSets.it, "it");
 
-attachAlternates(ALTERNATE_GROUPS, pageSets);
+  attachAlternates(ALTERNATE_GROUPS, pageSets);
 
-writeJson("data/pages.en.json", pageSets.en);
-writeJson("data/pages.nl.json", pageSets.nl);
-writeJson("data/pages.de.json", pageSets.de);
-writeJson("data/pages.fr.json", pageSets.fr);
-writeJson("data/pages.es.json", pageSets.es);
-writeJson("data/pages.pt.json", pageSets.pt);
-writeJson("data/pages.it.json", pageSets.it);
+  writeJson("data/pages.en.json", pageSets.en);
+  writeJson("data/pages.nl.json", pageSets.nl);
+  writeJson("data/pages.de.json", pageSets.de);
+  writeJson("data/pages.fr.json", pageSets.fr);
+  writeJson("data/pages.es.json", pageSets.es);
+  writeJson("data/pages.pt.json", pageSets.pt);
+  writeJson("data/pages.it.json", pageSets.it);
 
-console.log(`Synced ${pageSets.en.length} EN, ${pageSets.nl.length} NL, ${pageSets.de.length} DE, ${pageSets.fr.length} FR, ${pageSets.es.length} ES, ${pageSets.pt.length} PT and ${pageSets.it.length} IT pages.`);
+  console.log(`Synced ${pageSets.en.length} EN, ${pageSets.nl.length} NL, ${pageSets.de.length} DE, ${pageSets.fr.length} FR, ${pageSets.es.length} ES, ${pageSets.pt.length} PT and ${pageSets.it.length} IT pages.`);
+} catch (err) {
+  console.error("sync-page-data failed:", err.message);
+  process.exit(1);
+}

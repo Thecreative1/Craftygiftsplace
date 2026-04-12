@@ -1847,8 +1847,21 @@ function renderHead(page, productsByLocale) {
     socialImageAlt: escapeAttribute(socialImageAlt),
     faviconPath: escapeAttribute(relativeUrl(page.path, "/favicon.ico")),
     logoPath: escapeAttribute(relativeUrl(page.path, "/assets/img/logos/craftygiftsplace-logo.png")),
-    preconnectLinks: '<link rel="preconnect" href="https://i.etsystatic.com" crossorigin />\n  <link rel="dns-prefetch" href="//i.etsystatic.com" />\n  <link rel="preconnect" href="https://www.etsy.com" crossorigin />',
-    stylesheetPath: escapeAttribute(relativeUrl(page.path, "/assets/css/style.css")),
+    preconnectLinks: (() => {
+      const links = [
+        '<link rel="preconnect" href="https://i.etsystatic.com" crossorigin />',
+        '<link rel="dns-prefetch" href="//i.etsystatic.com" />',
+        '<link rel="preconnect" href="https://www.etsy.com" crossorigin />'
+      ];
+      const firstHeroSlug = page.heroProducts && page.heroProducts[0];
+      if (firstHeroSlug) {
+        const heroProduct = getProduct(page, productsByLocale, firstHeroSlug);
+        const heroImg = heroProduct && (heroProduct.image || heroProduct.image_full);
+        if (heroImg) links.push(`<link rel="preload" as="image" href="${escapeAttribute(heroImg)}" />`);
+      }
+      return links.join("\n  ");
+    })(),
+    stylesheetPath: escapeAttribute(relativeUrl(page.path, "/assets/css/style.min.css")),
     structuredData: renderStructuredData(page, productsByLocale)
   });
 }
@@ -1950,5 +1963,10 @@ function buildPages() {
   });
 }
 
-buildPages();
-console.log("Built HTML pages.");
+try {
+  buildPages();
+  console.log("Built HTML pages.");
+} catch (err) {
+  console.error("build-pages failed:", err.message);
+  process.exit(1);
+}
