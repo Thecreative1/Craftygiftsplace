@@ -42,7 +42,7 @@ const definition = {
         { label: "Todos los estilos de posavasos", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Comprar con confianza",
+        title: "Explorar con confianza",
         quote: "\"Estos posavasos son preciosos. Se ven resistentes y muy bien hechos.\"",
         attribution: "Andrew · Reseña de Etsy",
         text: "Los posavasos funcionan muy bien para una casa nueva o para un regalo cotidiano porque son útiles, cálidos y fáciles de integrar en cualquier hogar.",
@@ -51,7 +51,7 @@ const definition = {
           { label: "Ver regalos para casa nueva", targetKey: "housewarming" },
           { label: "Explorar marcapáginas de madera", targetKey: "bookmarks" },
           { label: "Cómo funciona la personalización", targetKey: "personalization" },
-          { label: "¿Por qué regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
+          { label: "¿Por qué elegir regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
         ]
       },
       featuredSummaries: [
@@ -95,7 +95,7 @@ const definition = {
         { label: "Todos los marcapáginas", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Comprar con confianza",
+        title: "Explorar con confianza",
         quote: "\"El detalle es increíble, está muy bien hecho y se nota duradero. Un marcapáginas precioso.\"",
         attribution: "Comprador de marcapáginas · Reseña de Etsy",
         text: "Los marcapáginas son fáciles de regalar, ocupan poco y se sienten más personales que un simple extra dentro de un libro.",
@@ -104,7 +104,7 @@ const definition = {
           { label: "Ver regalos de madera", targetKey: "gifts" },
           { label: "Descubrir posavasos", targetKey: "coasters" },
           { label: "Cómo funciona la personalización", targetKey: "personalization" },
-          { label: "¿Por qué regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
+          { label: "¿Por qué elegir regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
         ]
       },
       featuredSummaries: [
@@ -148,7 +148,7 @@ const definition = {
         { label: "Todos los regalos de madera", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Comprar con confianza",
+        title: "Explorar con confianza",
         quote: "\"Gran calidad, tal como se describe, y una atención muy amable y clara.\"",
         attribution: "Caroline · Reseña de Etsy",
         text: "Esta colección ayuda cuando el comprador quiere algo más decorativo o personal que un regalo centrado solo en la mesa o en la lectura.",
@@ -157,7 +157,7 @@ const definition = {
           { label: "Ver regalos para casa nueva", targetKey: "housewarming" },
           { label: "Ver la página de contacto", targetKey: "contact" },
           { label: "Cómo funciona la personalización", targetKey: "personalization" },
-          { label: "¿Por qué regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
+          { label: "¿Por qué elegir regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
         ]
       },
       featuredSummaries: [
@@ -204,7 +204,7 @@ const definition = {
         { title: "Buenos puntos para empezar", text: "Si alguien aún está decidiendo, lo mejor es empezar por los posavasos de madera, los marcapáginas de madera o una de las guías de regalo." }
       ],
       sidebar: {
-        title: "Comprar con confianza",
+        title: "Explorar con confianza",
         quote: "\"Ha sido un placer tratar con esta tienda... volveré a comprar.\"",
         attribution: "Clare · Reseña de Etsy",
         text: "La página de contacto se mantiene sencilla: escribe por Etsy para una duda sobre el pedido, o explora primero una colección si quieres comparar estilos.",
@@ -230,12 +230,12 @@ const definition = {
       metaDescription: "Descubre regalos de madera para amantes de los gatos, con posavasos felinos y decoración cálida para estanterías, mesas de centro e ideas que llevan a Etsy.",
       h1: "Regalos de madera para amantes de los gatos, estanterías y mesas de centro",
       intro: "Esta página es para quien ya sabe que quiere un regalo para un amante de los gatos. Reúne los mejores aciertos felinos en un solo sitio: posavasos para mesas de centro, diseños de gato con un toque más celestial y una pieza decorativa pequeña para estanterías o rincones de lectura.",
-      primaryCtaLabel: "Ver regalos de gatos en Etsy",
+      primaryCtaLabel: "Ver regalos para amantes de los gatos en Etsy",
       secondaryCtaLabel: "Ir a las ideas para amantes de los gatos",
       linkCloud: [
         { label: "Posavasos de madera", targetKey: "coasters" },
         { label: "Regalos para casa nueva", targetKey: "housewarming" },
-        { label: "Todos los regalos de gatos", targetKey: "catalog" }
+        { label: "Todas las ideas para amantes de los gatos", targetKey: "catalog" }
       ],
       sidebar: {
         title: "Por qué funciona esta página",
@@ -271,9 +271,9 @@ const definition = {
         { label: "Regalos de madera", targetKey: "gifts", description: "Explora piezas decorativas y colgadores si quieres ir más allá de los posavasos." }
       ],
       ctaPanel: {
-        title: "¿Listo para comparar regalos de gatos en Etsy?",
+        title: "¿Listo para comparar regalos para amantes de los gatos en Etsy?",
         text: "Abre Etsy para comparar diseños, precios y reseñas alrededor de ideas con temática felina.",
-        label: "Abrir regalos de gatos en Etsy"
+        label: "Abrir regalos para amantes de los gatos en Etsy"
       }
     },
     reader: {
@@ -346,7 +346,7 @@ const definition = {
         text: "Para una casa nueva, muchos visitantes quieren algo útil, decorativo y fácil de integrar en el hogar. Esta página mantiene justo ese enfoque.",
         links: [
           { label: "Ver posavasos de madera", targetKey: "coasters" },
-          { label: "Ver regalos de gatos", targetKey: "cat" },
+          { label: "Ver regalos para amantes de los gatos", targetKey: "cat" },
           { label: "Ver regalos de madera", targetKey: "gifts" }
         ]
       },
@@ -413,7 +413,7 @@ pagesEs.push({
       { label: "Abrir la tienda Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Ver posavasos de madera", href: "/es/pages/posavasos-de-madera.html" },
       { label: "Ver marcapáginas de madera", href: "/es/pages/marcapaginas-de-madera.html" },
-      { label: "¿Por qué regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
+      { label: "¿Por qué elegir regalos de madera?", href: "/es/pages/por-que-regalos-de-madera.html" }
     ]
   },
   infoCards: [
@@ -475,14 +475,14 @@ pagesEs.push({
   path: "/es/pages/por-que-regalos-de-madera.html",
   template: "contact",
   locale: "es",
-  title: "¿Por qué regalos de madera? Hechos a mano, duraderos y personales | Craftygiftsplace",
-  metaDescription: "Los regalos de madera hechos a mano duran más, se sienten más personales y llevan verdadero artesanado. Descubre por qué la madera grabada es un mejor regalo que las alternativas genéricas.",
+  title: "¿Por qué elegir regalos de madera? Hechos a mano, duraderos y personales | Craftygiftsplace",
+  metaDescription: "Los regalos de madera hechos a mano duran más, se sienten más personales y reflejan verdadera artesanía. Descubre por qué la madera grabada supera a las alternativas genéricas.",
   h1: "Por qué los regalos de madera duran más que la mayoría",
   eyebrow: "El argumento de la madera",
-  intro: "Los regalos genéricos se olvidan. Los regalos de madera se guardan. Esto es por qué la madera artesanal grabada funciona tan bien para casi cualquier ocasión.",
+  intro: "Los regalos genéricos se olvidan. Los regalos de madera se conservan. Por eso la madera artesanal grabada funciona tan bien para casi cualquier ocasión.",
   breadcrumbs: [
     { label: "Inicio", path: "/es/index.html" },
-    { label: "¿Por qué regalos de madera?" }
+    { label: "¿Por qué elegir regalos de madera?" }
   ],
   primaryCta: {
     label: "Ver regalos de madera en Etsy",

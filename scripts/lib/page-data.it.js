@@ -33,7 +33,7 @@ const definition = {
       title: "Sottobicchieri in legno fatti a mano con incisioni celesti, naturali e più decise | Craftygiftsplace",
       metaDescription: "Esplora sottobicchieri in legno fatti a mano con incisioni celesti, naturali, vichinghe e altri design ricchi di carattere per tavoli, mensole e regali ben scelti.",
       h1: "Sottobicchieri in legno fatti a mano con incisioni celesti, naturali e più decise",
-      intro: "Esplora la selezione di sottobicchieri in un solo posto. Questa pagina resta focalizzata sul tipo di prodotto, così è facile confrontare set incisi molto richiesti per tavolini, scrivanie e mensole senza mescolare guide regalo più ampie. Qui trovi design celesti e naturali più tranquilli accanto a scelte più forti, come temi vichinghi, spirituali o pensati per uno spazio hobby.",
+      intro: "Esplora la selezione di sottobicchieri in un solo posto. Questa pagina resta focalizzata sul tipo di prodotto, così è facile confrontare set incisi molto richiesti per tavolini, scrivanie e mensole senza mescolare guide regalo più ampie. Qui trovi design celesti e naturali più tranquilli accanto a scelte più forti, come temi vichinghi, spirituali o pensati per un angolo creativo.",
       primaryCtaLabel: "Vedi i sottobicchieri su Etsy",
       secondaryCtaLabel: "Vedi la selezione di sottobicchieri",
       linkCloud: [
@@ -51,7 +51,7 @@ const definition = {
           { label: "Vedi i regali per la casa nuova", targetKey: "housewarming" },
           { label: "Esplora i segnalibri in legno", targetKey: "bookmarks" },
           { label: "Come funziona la personalizzazione", targetKey: "personalization" },
-          { label: "Perché regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
+          { label: "Perché scegliere regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
         ]
       },
       featuredSummaries: [
@@ -104,7 +104,7 @@ const definition = {
           { label: "Vedi i regali in legno", targetKey: "gifts" },
           { label: "Scopri i sottobicchieri", targetKey: "coasters" },
           { label: "Come funziona la personalizzazione", targetKey: "personalization" },
-          { label: "Perché regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
+          { label: "Perché scegliere regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
         ]
       },
       featuredSummaries: [
@@ -121,11 +121,11 @@ const definition = {
       catalogIntro: "Una selezione di segnalibri pensata per lettori, scaffali fantasy e momenti di lettura tranquilli.",
       faq: [
         { question: "Questi segnalibri sono soprattutto per lettori fantasy?", answer: "Molti si adattano particolarmente bene a scaffali fantasy e letture d'atmosfera, ma ci sono anche opzioni più sobrie per gusti classici." },
-        { question: "Esiste una pagina più ampia di regali per lettori?", answer: "Sì. La pagina dei regali per lettori riunisce segnalibri, set coordinati e alcuni piccoli pezzi in legno per angoli lettura." },
+        { question: "Esiste una pagina più ampia di regali per lettori?", answer: "Sì. La pagina dei regali per lettori riunisce segnalibri, set coordinati e alcuni piccoli pezzi in legno per angoli di lettura." },
         { question: "Posso scoprire altri tipi di regalo da qui?", answer: "Sì. Questa collezione collega direttamente a regali in legno, sottobicchieri e alle principali guide regalo." }
       ],
       relatedLinks: [
-        { label: "Regali per lettori", targetKey: "reader", description: "Segnalibri, set per lettori fantasy e piccoli pezzi per angoli lettura raccolti in una sola pagina." },
+        { label: "Regali per lettori", targetKey: "reader", description: "Segnalibri, set per lettori fantasy e piccoli pezzi per angoli di lettura raccolti in una sola pagina." },
         { label: "Regali in legno", targetKey: "gifts", description: "Targhette da porta, portacandela e ricordi per andare oltre il segnalibro." },
         { label: "Sottobicchieri in legno", targetKey: "coasters", description: "Regali in legno più orientati alla casa, al tavolino e a una nuova abitazione." }
       ],
@@ -136,9 +136,9 @@ const definition = {
       }
     },
     gifts: {
-      title: "Regali in legno fatti a mano per angoli lettura, mensole e momenti speciali | Craftygiftsplace",
+      title: "Regali in legno fatti a mano per angoli di lettura, mensole e momenti speciali | Craftygiftsplace",
       metaDescription: "Esplora regali in legno fatti a mano, come portacandela, targhette da porta e ricordi personalizzati per mensole, ingressi e momenti speciali.",
-      h1: "Regali in legno fatti a mano per angoli lettura, mensole e momenti speciali",
+      h1: "Regali in legno fatti a mano per angoli di lettura, mensole e momenti speciali",
       intro: "Questa collezione riunisce i regali in legno che non sono né sottobicchieri né segnalibri. Aiuta a confrontare portacandela, targhette da porta, ricordi personalizzati e altri pezzi decorativi in uno spazio più tranquillo.",
       primaryCtaLabel: "Vedi i regali in legno su Etsy",
       secondaryCtaLabel: "Vedi la selezione di regali in legno",
@@ -157,11 +157,11 @@ const definition = {
           { label: "Vedi i regali per la casa nuova", targetKey: "housewarming" },
           { label: "Vedi la pagina contatto", targetKey: "contact" },
           { label: "Come funziona la personalizzazione", targetKey: "personalization" },
-          { label: "Perché regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
+          { label: "Perché scegliere regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
         ]
       },
       featuredSummaries: [
-        "Un piccolo portacandela caldo per mensole, consolle e angoli lettura.",
+        "Un piccolo portacandela caldo per mensole, consolle e angoli di lettura.",
         "Una targhetta da porta più personale quando il regalo deve essere visibile fin dall'ingresso.",
         "Un ricordo personalizzato che si adatta bene a matrimoni, anniversari e momenti che vale la pena conservare.",
         "Un bruciatore d'incenso per mensole e angoli tranquilli quando il regalo in legno deve risultare sereno, decorativo e un po' diverso."
@@ -171,14 +171,14 @@ const definition = {
         "Permette di confrontare regali per casa, ingresso e ricordi in un solo spazio.",
         "Porta con facilità alle pagine per lettori, gatti o casa nuova quando l'intenzione cambia."
       ],
-      catalogIntro: "Una selezione di regali in legno per mensole, ingressi, angoli lettura e ricordi da conservare.",
+      catalogIntro: "Una selezione di regali in legno per mensole, ingressi, angoli di lettura e ricordi da conservare.",
       faq: [
         { question: "Che cosa si trova in questa collezione?", answer: "Qui ci sono portacandela, targhette da porta, ricordi personalizzati e altri pezzi in legno che non rientrano in sottobicchieri o segnalibri." },
         { question: "Questi regali vanno bene anche per la casa nuova?", answer: "Sì. Diversi pezzi funzionano molto bene su mensole, ingressi e angoli accoglienti di una casa nuova." },
         { question: "Posso continuare a navigare verso altre collezioni da qui?", answer: "Sì. Questa pagina collega a sottobicchieri, segnalibri e alle principali guide regalo." }
       ],
       relatedLinks: [
-        { label: "Regali per lettori", targetKey: "reader", description: "Idee pensate per libri, angoli lettura e alcuni piccoli set coordinati." },
+        { label: "Regali per lettori", targetKey: "reader", description: "Idee pensate per libri, angoli di lettura e alcuni piccoli set coordinati." },
         { label: "Regali per la casa nuova", targetKey: "housewarming", description: "Pezzi in legno utili e decorativi per nuove case e appartamenti." },
         { label: "Contatto", targetKey: "contact", description: "Passa da Etsy se vuoi chiedere informazioni sulla personalizzazione o su un regalo specifico." }
       ],
@@ -229,13 +229,13 @@ const definition = {
       title: "Regali in legno per amanti dei gatti, case accoglienti e idee Etsy ben pensate | Craftygiftsplace",
       metaDescription: "Scopri regali in legno per amanti dei gatti, con sottobicchieri felini e decorazioni calde per mensole, tavolini e idee che portano su Etsy.",
       h1: "Regali in legno per amanti dei gatti, mensole e tavolini",
-      intro: "Questa pagina è per chi sa già di voler regalare qualcosa a un amante dei gatti. Riunisce i migliori pezzi a tema felino in un solo posto: sottobicchieri per tavolini, design con gatti dal tono più celeste e un piccolo pezzo decorativo per mensole o angoli lettura.",
-      primaryCtaLabel: "Vedi i regali per gatti su Etsy",
+      intro: "Questa pagina è per chi sa già di voler regalare qualcosa a un amante dei gatti. Riunisce i migliori pezzi a tema felino in un solo posto: sottobicchieri per tavolini, design con gatti dal tono più celeste e un piccolo pezzo decorativo per mensole o angoli di lettura.",
+      primaryCtaLabel: "Vedi i regali per amanti dei gatti su Etsy",
       secondaryCtaLabel: "Vai alle idee per amanti dei gatti",
       linkCloud: [
         { label: "Sottobicchieri in legno", targetKey: "coasters" },
         { label: "Regali per la casa nuova", targetKey: "housewarming" },
-        { label: "Tutti i regali per gatti", targetKey: "catalog" }
+        { label: "Tutte le idee per amanti dei gatti", targetKey: "catalog" }
       ],
       sidebar: {
         title: "Perché questa pagina aiuta",
@@ -251,7 +251,7 @@ const definition = {
       featuredSummaries: [
         "Un favorito a tema felino che resta decorativo e pratico per salotto, scrivania o compleanno.",
         "Un'opzione più lunare per chi ama i gatti e un'atmosfera più celeste sul tavolino.",
-        "Un piccolo pezzo decorativo pensato per mensole, comodini e angoli lettura più delicati.",
+        "Un piccolo pezzo decorativo pensato per mensole, comodini e angoli di lettura più delicati.",
         "Un set di sottobicchieri a tema gatto più semplice per chi cerca un regalo pratico con un tema felino ben riconoscibile."
       ],
       featuredWhy: [
@@ -271,15 +271,15 @@ const definition = {
         { label: "Regali in legno", targetKey: "gifts", description: "Esplora pezzi decorativi e targhette se vuoi andare oltre i sottobicchieri." }
       ],
       ctaPanel: {
-        title: "Pronto a confrontare i regali per gatti su Etsy?",
+        title: "Pronto a confrontare i regali per amanti dei gatti su Etsy?",
         text: "Apri Etsy per confrontare design, prezzi e recensioni intorno a idee a tema felino.",
-        label: "Apri i regali per gatti su Etsy"
+        label: "Apri i regali per amanti dei gatti su Etsy"
       }
     },
     reader: {
-      title: "Regali in legno per lettori, angoli lettura e scaffali accoglienti | Craftygiftsplace",
-      metaDescription: "Esplora regali in legno per lettori, con segnalibri, un set per lettori fantasy e pezzi per angoli lettura e scaffali tranquilli.",
-      h1: "Regali in legno per lettori e angoli lettura accoglienti",
+      title: "Regali in legno per lettori, angoli di lettura e scaffali accoglienti | Craftygiftsplace",
+      metaDescription: "Esplora regali in legno per lettori, con segnalibri, un set per lettori fantasy e pezzi per angoli di lettura e scaffali tranquilli.",
+      h1: "Regali in legno per lettori e angoli di lettura accoglienti",
       intro: "Questa pagina aiuta chi sta già cercando un regalo per lettori. Riunisce segnalibri, un set per lettori fantasy coordinato e alcuni pezzi che stanno bene in un angolo lettura, così si possono confrontare più stili senza uscire dallo stesso tema.",
       primaryCtaLabel: "Vedi i regali per lettori su Etsy",
       secondaryCtaLabel: "Vai alle idee per lettori",
@@ -302,7 +302,7 @@ const definition = {
       featuredSummaries: [
         "Un segnalibro fantasy molto visivo per lettori che amano dettagli forti e un bel oggetto tra le pagine.",
         "Un set pronto da regalare con segnalibro, targhetta da porta e sottobicchieri per lettori fantasy.",
-        "Un piccolo pezzo d'atmosfera per mensole e angoli lettura quando il regalo può essere più morbido che strettamente pratico.",
+        "Un piccolo pezzo d'atmosfera per mensole e angoli di lettura quando il regalo può essere più morbido che strettamente pratico.",
         "Un segnalibro personalizzato per chi vuole che il regalo per lettori sembri più intimo, più tranquillo e duraturo."
       ],
       featuredWhy: [
@@ -310,7 +310,7 @@ const definition = {
         "Mescola segnalibri, un set pronto da regalare e un pezzo decorativo leggero.",
         "Rimanda facilmente alla collezione completa di segnalibri se il visitatore vuole confrontare con più dettaglio."
       ],
-      catalogIntro: "Idee in legno per lettori, segnalibri, set per lettori fantasy e piccoli dettagli per angoli lettura.",
+      catalogIntro: "Idee in legno per lettori, segnalibri, set per lettori fantasy e piccoli dettagli per angoli di lettura.",
       faq: [
         { question: "Questa pagina include solo segnalibri?", answer: "No. Riunisce soprattutto segnalibri, ma anche un set coordinato e un piccolo pezzo decorativo che funziona bene in un angolo lettura." },
         { question: "Esiste anche una collezione dedicata ai segnalibri?", answer: "Sì. La collezione di segnalibri in legno resta disponibile per chi vuole restare solo su questo tipo di prodotto." },
@@ -346,7 +346,7 @@ const definition = {
         text: "Per una casa nuova, molti visitatori vogliono qualcosa di utile, decorativo e facile da integrare nell'ambiente. Questa pagina mantiene proprio quel focus.",
         links: [
           { label: "Vedi i sottobicchieri in legno", targetKey: "coasters" },
-          { label: "Vedi i regali per gatti", targetKey: "cat" },
+          { label: "Vedi i regali per amanti dei gatti", targetKey: "cat" },
           { label: "Vedi i regali in legno", targetKey: "gifts" }
         ]
       },
@@ -413,7 +413,7 @@ pagesIt.push({
       { label: "Apri il negozio Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Vedi i sottobicchieri", href: "/it/pages/sottobicchieri-in-legno.html" },
       { label: "Vedi i segnalibri", href: "/it/pages/segnalibri-in-legno.html" },
-      { label: "Perché regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
+      { label: "Perché scegliere regali in legno?", href: "/it/pages/perche-regali-in-legno.html" }
     ]
   },
   infoCards: [
@@ -475,14 +475,14 @@ pagesIt.push({
   path: "/it/pages/perche-regali-in-legno.html",
   template: "contact",
   locale: "it",
-  title: "Perché regali in legno? Fatti a mano, duraturi e personali | Craftygiftsplace",
+  title: "Perché scegliere regali in legno? Fatti a mano, duraturi e personali | Craftygiftsplace",
   metaDescription: "I regali in legno fatti a mano durano di più, sembrano più personali e portano vera artigianalità. Scopri perché il legno inciso è un regalo migliore delle alternative generiche.",
   h1: "Perché i regali in legno durano più della maggior parte",
   eyebrow: "L'argomento per il legno",
   intro: "I regali generici si dimenticano. I regali in legno si conservano. Ecco perché il legno artigianale inciso funziona così bene per quasi ogni occasione.",
   breadcrumbs: [
     { label: "Home", path: "/it/index.html" },
-    { label: "Perché regali in legno?" }
+    { label: "Perché scegliere regali in legno?" }
   ],
   primaryCta: {
     label: "Sfoglia i regali in legno su Etsy",

@@ -33,11 +33,11 @@
       "intro": "Sono i clic più facili se vuoi partire da una scelta già apprezzata."
     },
     "occasions": {
-      "heading": "Acquista per occasione",
+      "heading": "Esplora per occasione",
       "intro": "Hai già in mente l'occasione? Parti da queste pagine."
     },
     "collections": {
-      "heading": "Guarda le collezioni principali",
+      "heading": "Esplora le collezioni principali",
       "intro": "Vai qui se il tipo di prodotto è già chiaro."
     },
     "support": {
@@ -65,7 +65,7 @@
     {
       "kicker": "Per lettori",
       "title": "Regali per lettori",
-      "description": "Segnalibri, pezzi fantasy e regali per angoli lettura pensati per lettori che amano i dettagli personali.",
+      "description": "Segnalibri, pezzi fantasy e regali per angoli di lettura pensati per lettori che amano i dettagli personali.",
       "image": "/assets/img/products/dragon-eye-bookmark.jpg",
       "imageAlt": "Segnalibro Dragon Eye in legno su un libro fantasy",
       "href": "/it/pages/regali-per-lettori.html"
@@ -103,7 +103,7 @@
     },
     {
       "title": "Regali per lettori",
-      "description": "Segnalibri, set per lettori fantasy e pezzi per angoli lettura pensati per lettori e scaffali accoglienti.",
+      "description": "Segnalibri, set per lettori fantasy e pezzi per angoli di lettura pensati per lettori e scaffali accoglienti.",
       "image": "/assets/img/products/dragon-eye-bookmark.jpg",
       "imageAlt": "Segnalibro occhio di drago in legno su un libro fantasy",
       "href": "/it/pages/regali-per-lettori.html"
@@ -219,7 +219,7 @@
         "text": "Vai su Etsy per prezzi, recensioni e pagamento sicuro."
       }
     ],
-    "whyLink": { "label": "Perché regali in legno?", "href": "/it/pages/perche-regali-in-legno.html" }
+    "whyLink": { "label": "Perché scegliere regali in legno?", "href": "/it/pages/perche-regali-in-legno.html" }
   },
   "makerStory": {
     "heading": "Fatto da una sola persona, con cura",

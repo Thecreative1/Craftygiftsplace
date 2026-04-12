@@ -38,11 +38,11 @@
         "intro": "Son los clics más fáciles para quien quiere una opción ya probada."
       },
       "occasions": {
-        "heading": "Comprar por ocasión",
+        "heading": "Explorar por ocasión",
         "intro": "¿Ya sabes para qué ocasión es? Empieza por estas páginas."
       },
       "collections": {
-        "heading": "Ver las colecciones principales",
+        "heading": "Explora las colecciones principales",
         "intro": "Entra aquí si el tipo de producto ya está claro."
       },
       "support": {
@@ -225,7 +225,7 @@
         }
       ],
       "whyLink": {
-        "label": "¿Por qué regalos de madera?",
+        "label": "¿Por qué elegir regalos de madera?",
         "href": "/es/pages/por-que-regalos-de-madera.html"
       }
     },
@@ -297,7 +297,7 @@
       }
     ],
     "sidebar": {
-      "title": "Comprar con confianza",
+      "title": "Explorar con confianza",
       "quote": "\"Estos posavasos son preciosos. Se ven resistentes y muy bien hechos.\"",
       "attribution": "Andrew · Reseña de Etsy",
       "text": "Los posavasos funcionan muy bien para una casa nueva o para un regalo cotidiano porque son útiles, cálidos y fáciles de integrar en cualquier hogar.",
@@ -319,7 +319,7 @@
           "href": "/es/pages/personalizacion.html"
         },
         {
-          "label": "¿Por qué regalos de madera?",
+          "label": "¿Por qué elegir regalos de madera?",
           "href": "/es/pages/por-que-regalos-de-madera.html"
         }
       ]
@@ -499,7 +499,7 @@
       }
     ],
     "sidebar": {
-      "title": "Comprar con confianza",
+      "title": "Explorar con confianza",
       "quote": "\"El detalle es increíble, está muy bien hecho y se nota duradero. Un marcapáginas precioso.\"",
       "attribution": "Comprador de marcapáginas · Reseña de Etsy",
       "text": "Los marcapáginas son fáciles de regalar, ocupan poco y se sienten más personales que un simple extra dentro de un libro.",
@@ -521,7 +521,7 @@
           "href": "/es/pages/personalizacion.html"
         },
         {
-          "label": "¿Por qué regalos de madera?",
+          "label": "¿Por qué elegir regalos de madera?",
           "href": "/es/pages/por-que-regalos-de-madera.html"
         }
       ]
@@ -663,7 +663,7 @@
       }
     ],
     "sidebar": {
-      "title": "Comprar con confianza",
+      "title": "Explorar con confianza",
       "quote": "\"Gran calidad, tal como se describe, y una atención muy amable y clara.\"",
       "attribution": "Caroline · Reseña de Etsy",
       "text": "Esta colección ayuda cuando el comprador quiere algo más decorativo o personal que un regalo centrado solo en la mesa o en la lectura.",
@@ -685,7 +685,7 @@
           "href": "/es/pages/personalizacion.html"
         },
         {
-          "label": "¿Por qué regalos de madera?",
+          "label": "¿Por qué elegir regalos de madera?",
           "href": "/es/pages/por-que-regalos-de-madera.html"
         }
       ]
@@ -854,7 +854,7 @@
       }
     ],
     "sidebar": {
-      "title": "Comprar con confianza",
+      "title": "Explorar con confianza",
       "quote": "\"Ha sido un placer tratar con esta tienda... volveré a comprar.\"",
       "attribution": "Clare · Reseña de Etsy",
       "text": "La página de contacto se mantiene sencilla: escribe por Etsy para una duda sobre el pedido, o explora primero una colección si quieres comparar estilos.",
@@ -924,7 +924,7 @@
       }
     ],
     "primaryCta": {
-      "label": "Ver regalos de gatos en Etsy",
+      "label": "Ver regalos para amantes de los gatos en Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
     },
     "secondaryCta": {
@@ -941,7 +941,7 @@
         "target": "/es/pages/regalos-para-casa-nueva.html"
       },
       {
-        "label": "Todos los regalos de gatos",
+        "label": "Todas las ideas para amantes de los gatos",
         "target": "#shop-catalog"
       }
     ],
@@ -997,7 +997,7 @@
         "moon-cat-shadow-tealight-holder"
       ],
       "intro": "Los mejores aciertos con tema de gatos para hogares acogedores, estanterías y regalos alrededor de una mesa de centro.",
-      "ctaLabel": "Ver regalos de gatos en Etsy",
+      "ctaLabel": "Ver regalos para amantes de los gatos en Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
     },
     "faq": [
@@ -1032,9 +1032,9 @@
       }
     ],
     "ctaPanel": {
-      "title": "¿Listo para comparar regalos de gatos en Etsy?",
+      "title": "¿Listo para comparar regalos para amantes de los gatos en Etsy?",
       "text": "Abre Etsy para comparar diseños, precios y reseñas alrededor de ideas con temática felina.",
-      "label": "Abrir regalos de gatos en Etsy",
+      "label": "Abrir regalos para amantes de los gatos en Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
     },
     "alternatePaths": {
@@ -1250,7 +1250,7 @@
           "href": "/es/pages/posavasos-de-madera.html"
         },
         {
-          "label": "Ver regalos de gatos",
+          "label": "Ver regalos para amantes de los gatos",
           "href": "/es/pages/regalos-para-amantes-de-los-gatos.html"
         },
         {
@@ -1392,7 +1392,7 @@
           "href": "/es/pages/marcapaginas-de-madera.html"
         },
         {
-          "label": "¿Por qué regalos de madera?",
+          "label": "¿Por qué elegir regalos de madera?",
           "href": "/es/pages/por-que-regalos-de-madera.html"
         }
       ]
@@ -1463,18 +1463,18 @@
     "path": "/es/pages/por-que-regalos-de-madera.html",
     "template": "contact",
     "locale": "es",
-    "title": "¿Por qué regalos de madera? Hechos a mano, duraderos y personales | Craftygiftsplace",
-    "metaDescription": "Los regalos de madera hechos a mano duran más, se sienten más personales y llevan verdadero artesanado. Descubre por qué la madera grabada es un mejor regalo que las alternativas genéricas.",
+    "title": "¿Por qué elegir regalos de madera? Hechos a mano, duraderos y personales | Craftygiftsplace",
+    "metaDescription": "Los regalos de madera hechos a mano duran más, se sienten más personales y reflejan verdadera artesanía. Descubre por qué la madera grabada supera a las alternativas genéricas.",
     "h1": "Por qué los regalos de madera duran más que la mayoría",
     "eyebrow": "El argumento de la madera",
-    "intro": "Los regalos genéricos se olvidan. Los regalos de madera se guardan. Esto es por qué la madera artesanal grabada funciona tan bien para casi cualquier ocasión.",
+    "intro": "Los regalos genéricos se olvidan. Los regalos de madera se conservan. Por eso la madera artesanal grabada funciona tan bien para casi cualquier ocasión.",
     "breadcrumbs": [
       {
         "label": "Inicio",
         "path": "/es/index.html"
       },
       {
-        "label": "¿Por qué regalos de madera?"
+        "label": "¿Por qué elegir regalos de madera?"
       }
     ],
     "primaryCta": {

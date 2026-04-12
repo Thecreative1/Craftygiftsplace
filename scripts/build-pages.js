@@ -116,7 +116,7 @@ const text = {
     whyHeading: "Warum Käufer es mögen",
     whyRating: "4,96/5 auf Etsy in Hunderten von Bewertungen.",
     whyCtaLabel: "Etsy-Bewertungen lesen →",
-    intentsHeading: "Nach Anlass shoppen",
+    intentsHeading: "Nach Anlass entdecken",
     intentsIntro: "Starte mit der Art von Geschenk, die du geben möchtest.",
     collectionsHeading: "Nach Kollektion stöbern",
     collectionsIntro: "Lieber nach Produkttyp schauen? Dann beginne mit diesen Kernkollektionen.",
@@ -150,9 +150,9 @@ const text = {
     whyHeading: "Pourquoi ça plaît",
     whyRating: "4,96/5 sur Etsy sur des centaines d'avis.",
     whyCtaLabel: "Lire les avis Etsy →",
-    intentsHeading: "Acheter par occasion",
+    intentsHeading: "Explorer par occasion",
     intentsIntro: "Commencez par le type de cadeau que vous voulez offrir.",
-    collectionsHeading: "Acheter par collection",
+    collectionsHeading: "Explorer par collection",
     collectionsIntro: "Vous préférez partir du type de produit ? Commencez par ces collections principales.",
     reviewsHeading: "Aimé sur Etsy",
     reviewsIntro: "Quelques avis courts qui renforcent la confiance.",
@@ -184,14 +184,14 @@ const text = {
     whyHeading: "Por qué gusta",
     whyRating: "4,96/5 en Etsy en cientos de reseñas.",
     whyCtaLabel: "Leer reseñas de Etsy →",
-    intentsHeading: "Comprar por ocasión",
+    intentsHeading: "Explorar por ocasión",
     intentsIntro: "Empieza por el tipo de regalo que quieres hacer.",
-    collectionsHeading: "Comprar por colección",
+    collectionsHeading: "Explorar por colección",
     collectionsIntro: "¿Prefieres empezar por el tipo de producto? Comienza por estas colecciones principales.",
     reviewsHeading: "Muy querido en Etsy",
     reviewsIntro: "Algunas reseñas breves que refuerzan calidad y confianza.",
     cardCtaText: "Ver en Etsy",
-    pageNote: "Compara aquí y luego abre Etsy para ver precios, reseñas y comprar.",
+    pageNote: "Compara aquí y luego abre Etsy para ver precios, reseñas y continuar con el pedido.",
     heroFactsLabel: "Por qué esta tienda transmite confianza"
   },
   pt: {
@@ -218,15 +218,15 @@ const text = {
     whyHeading: "Porque os compradores gostam",
     whyRating: "4,96/5 na Etsy em centenas de avaliações.",
     whyCtaLabel: "Ler avaliações na Etsy →",
-    intentsHeading: "Comprar por ocasião",
+    intentsHeading: "Explorar por ocasião",
     intentsIntro: "Começa pelo tipo de presente que queres oferecer.",
-    collectionsHeading: "Comprar por tipo de produto",
+    collectionsHeading: "Explorar por tipo de produto",
     collectionsIntro: "Se já souber qual o tipo de presente que procura, comece aqui.",
     reviewsHeading: "Adorado na Etsy",
     reviewsIntro: "Algumas avaliações curtas que reforçam qualidade e confiança.",
     cardCtaText: "Ver na Etsy",
-    pageNote: "Veja aqui com calma e siga depois para a Etsy para preços, avaliações e encomendar.",
-    heroFactsLabel: "Razões para comprar com confiança"
+    pageNote: "Veja aqui com calma e siga depois para a Etsy para preços, avaliações e finalizar a encomenda.",
+    heroFactsLabel: "Razões para explorar com confiança"
   },
   it: {
     brandTagline: "Regali in legno fatti a mano con carattere",
@@ -252,14 +252,14 @@ const text = {
     whyHeading: "Perché piace",
     whyRating: "4,96/5 su Etsy in centinaia di recensioni.",
     whyCtaLabel: "Leggi le recensioni Etsy →",
-    intentsHeading: "Acquista per occasione",
+    intentsHeading: "Esplora per occasione",
     intentsIntro: "Inizia dal tipo di regalo che vuoi fare.",
-    collectionsHeading: "Acquista per collezione",
+    collectionsHeading: "Esplora per collezione",
     collectionsIntro: "Preferisci partire dal tipo di prodotto? Comincia da queste collezioni principali.",
     reviewsHeading: "Amato su Etsy",
     reviewsIntro: "Alcune recensioni brevi che rafforzano qualità e fiducia.",
     cardCtaText: "Vedi su Etsy",
-    pageNote: "Confronta qui e poi apri Etsy per prezzi, recensioni e ordine.",
+    pageNote: "Confronta qui e poi apri Etsy per prezzi, recensioni e completare l'ordine.",
     heroFactsLabel: "Perché questo negozio ispira fiducia"
   }
 };
@@ -324,7 +324,7 @@ function navItems(locale) {
       { label: "Marque-pages en bois", path: "/fr/pages/marque-pages-en-bois.html" },
       { label: "Cadeaux en bois", path: "/fr/pages/cadeaux-en-bois.html" },
       { label: "Personnalisation", path: "/fr/pages/personnalisation.html" },
-      { label: "Pourquoi le bois ?", path: "/fr/pages/pourquoi-des-cadeaux-en-bois.html" },
+      { label: "Pourquoi choisir le bois ?", path: "/fr/pages/pourquoi-des-cadeaux-en-bois.html" },
       { label: "Contact", path: "/fr/pages/contact.html" }
     ];
   }
@@ -336,7 +336,7 @@ function navItems(locale) {
       { label: "Marcapáginas de madera", path: "/es/pages/marcapaginas-de-madera.html" },
       { label: "Regalos de madera", path: "/es/pages/regalos-de-madera.html" },
       { label: "Personalización", path: "/es/pages/personalizacion.html" },
-      { label: "¿Por qué madera?", path: "/es/pages/por-que-regalos-de-madera.html" },
+      { label: "¿Por qué elegir madera?", path: "/es/pages/por-que-regalos-de-madera.html" },
       { label: "Contacto", path: "/es/pages/contacto.html" }
     ];
   }
@@ -348,7 +348,7 @@ function navItems(locale) {
       { label: "Marcadores de livros", path: "/pt/pages/marcadores-de-livros-de-madeira.html" },
       { label: "Presentes de madeira", path: "/pt/pages/presentes-de-madeira.html" },
       { label: "Personalização", path: "/pt/pages/personalizacao.html" },
-      { label: "Porquê madeira?", path: "/pt/pages/por-que-presentes-de-madeira.html" },
+      { label: "Porque escolher madeira?", path: "/pt/pages/por-que-presentes-de-madeira.html" },
       { label: "Contacto", path: "/pt/pages/contacto.html" }
     ];
   }
@@ -360,7 +360,7 @@ function navItems(locale) {
       { label: "Segnalibri in legno", path: "/it/pages/segnalibri-in-legno.html" },
       { label: "Regali in legno", path: "/it/pages/regali-in-legno.html" },
       { label: "Personalizzazione", path: "/it/pages/personalizzazione.html" },
-      { label: "Perché legno?", path: "/it/pages/perche-regali-in-legno.html" },
+      { label: "Perché scegliere il legno?", path: "/it/pages/perche-regali-in-legno.html" },
       { label: "Contatto", path: "/it/pages/contatto.html" }
     ];
   }

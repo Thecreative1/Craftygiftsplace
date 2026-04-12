@@ -42,7 +42,7 @@ const definition = {
         { label: "Todos os estilos de porta-copos", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Comprar com confiança",
+        title: "Explorar com confiança",
         quote: "\"Estes porta-copos são lindos. Parecem resistentes e muito bem feitos.\"",
         attribution: "Andrew · Avaliação Etsy",
         text: "Os porta-copos funcionam muito bem para uma casa nova ou para um presente do dia a dia porque são úteis, acolhedores e fáceis de integrar em casa.",
@@ -51,7 +51,7 @@ const definition = {
           { label: "Ver presentes de casa nova", targetKey: "housewarming" },
           { label: "Explorar marcadores de livros", targetKey: "bookmarks" },
           { label: "Como funciona a personalização", targetKey: "personalization" },
-          { label: "Porquê presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
+          { label: "Porque escolher presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
         ]
       },
       featuredSummaries: [
@@ -95,7 +95,7 @@ const definition = {
         { label: "Todos os marcadores", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Comprar com confiança",
+        title: "Explorar com confiança",
         quote: "\"O detalhe é incrível, o acabamento é muito bom e nota-se durabilidade. Um marcador lindíssimo.\"",
         attribution: "Comprador de marcador · Avaliação Etsy",
         text: "Os marcadores são fáceis de oferecer, ocupam pouco espaço e parecem mais pessoais do que um simples extra dentro de um livro.",
@@ -104,7 +104,7 @@ const definition = {
           { label: "Ver presentes de madeira", targetKey: "gifts" },
           { label: "Descobrir porta-copos", targetKey: "coasters" },
           { label: "Como funciona a personalização", targetKey: "personalization" },
-          { label: "Porquê presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
+          { label: "Porque escolher presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
         ]
       },
       featuredSummaries: [
@@ -148,7 +148,7 @@ const definition = {
         { label: "Todos os presentes de madeira", targetKey: "catalog" }
       ],
       sidebar: {
-        title: "Comprar com confiança",
+        title: "Explorar com confiança",
         quote: "\"Ótima qualidade, exatamente como descrito, e uma comunicação simpática e clara.\"",
         attribution: "Caroline · Avaliação Etsy",
         text: "Esta coleção ajuda quando se procura algo mais decorativo ou pessoal do que um presente centrado apenas na mesa ou na leitura.",
@@ -157,7 +157,7 @@ const definition = {
           { label: "Ver presentes de casa nova", targetKey: "housewarming" },
           { label: "Ver a página de contacto", targetKey: "contact" },
           { label: "Como funciona a personalização", targetKey: "personalization" },
-          { label: "Porquê presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
+          { label: "Porque escolher presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
         ]
       },
       featuredSummaries: [
@@ -196,7 +196,7 @@ const definition = {
       primaryCtaLabel: "Escrever-nos na Etsy",
       secondaryCtaLabel: "Ler avaliações da Etsy",
       infoCards: [
-        { title: "Pequeno atelier de madeira feita à mão", text: "A Craftygiftsplace centra-se em presentes de madeira gravada que parecem acolhedores, úteis e pessoais. A seleção apresentada aqui mantém-se próxima de leitores, amantes de gatos, casas acolhedoras e algumas recordações personalizadas." },
+        { title: "Pequeno atelier artesanal", text: "A Craftygiftsplace centra-se em presentes de madeira gravada que parecem acolhedores, úteis e pessoais. A seleção apresentada aqui mantém-se próxima de leitores, amantes de gatos, casas acolhedoras e algumas recordações personalizadas." },
         { title: "Materiais e acabamento", items: ["A madeira é escolhida por permitir uma gravação limpa, um veio visível e um acabamento naturalmente acolhedor.", "Muitos conjuntos de porta-copos usam base de cortiça quando isso aparece na ficha da Etsy.", "Cada peça é revista depois da gravação para manter um acabamento limpo, acolhedor e agradável de oferecer."] },
         { title: "Como funciona o processo", text: "As ideias começam muitas vezes com um tema, um nome ou um pequeno texto, e depois passam por gravação, acabamento manual e uma revisão final antes de entrarem na Etsy." },
         { title: "O que se pode perguntar", items: ["Personalização com nome, data ou mensagem curta.", "Ajuda para escolher entre porta-copos, marcadores e outros presentes de madeira.", "Sugestões para um presente de casa nova, para leitores ou para uma ocasião importante."] },
@@ -204,7 +204,7 @@ const definition = {
         { title: "Bons pontos para começar", text: "Se alguém ainda estiver indeciso, o melhor é começar pelos porta-copos de madeira, pelos marcadores de livros de madeira ou por um dos guias de presentes." }
       ],
       sidebar: {
-        title: "Comprar com confiança",
+        title: "Explorar com confiança",
         quote: "\"Foi um prazer lidar com esta loja... vou voltar para mais.\"",
         attribution: "Clare · Avaliação Etsy",
         text: "Se tiver uma dúvida sobre a encomenda, escreva pela Etsy. Se ainda estiver a comparar estilos, comece por uma das coleções abaixo.",
@@ -230,12 +230,12 @@ const definition = {
       metaDescription: "Descobre presentes de madeira para amantes de gatos, com porta-copos felinos e decoração acolhedora para prateleiras, mesas de centro e ideias que seguem para a Etsy.",
       h1: "Presentes de madeira para amantes de gatos, prateleiras e mesas de centro",
       intro: "Se já sabe que quer oferecer algo a um amante de gatos, aqui encontra algumas das melhores ideias com tema felino num só lugar: porta-copos para mesas de centro, desenhos de gato com um toque celeste e uma pequena peça decorativa para prateleiras ou cantos de leitura.",
-      primaryCtaLabel: "Ver presentes de gatos na Etsy",
+      primaryCtaLabel: "Ver presentes para amantes de gatos na Etsy",
       secondaryCtaLabel: "Ir para as ideias de gatos",
       linkCloud: [
         { label: "Porta-copos de madeira", targetKey: "coasters" },
         { label: "Presentes de casa nova", targetKey: "housewarming" },
-        { label: "Todos os presentes de gatos", targetKey: "catalog" }
+        { label: "Todas as ideias para amantes de gatos", targetKey: "catalog" }
       ],
       sidebar: {
         title: "Porque facilita a escolha",
@@ -271,9 +271,9 @@ const definition = {
         { label: "Presentes de madeira", targetKey: "gifts", description: "Explora peças decorativas e pendentes se quiseres ir além dos porta-copos." }
       ],
       ctaPanel: {
-        title: "Pronto para comparar presentes de gatos na Etsy?",
+        title: "Pronto para comparar presentes para amantes de gatos na Etsy?",
         text: "Abre a Etsy para comparar desenhos, preços e avaliações em torno de ideias com tema felino.",
-        label: "Abrir presentes de gatos na Etsy"
+        label: "Abrir presentes para amantes de gatos na Etsy"
       }
     },
     reader: {
@@ -346,7 +346,7 @@ const definition = {
         text: "Para uma casa nova, muitos visitantes querem algo útil, decorativo e fácil de integrar no lar. É exatamente nisso que esta seleção se concentra.",
         links: [
           { label: "Ver porta-copos de madeira", targetKey: "coasters" },
-          { label: "Ver presentes de gatos", targetKey: "cat" },
+          { label: "Ver presentes para amantes de gatos", targetKey: "cat" },
           { label: "Ver presentes de madeira", targetKey: "gifts" }
         ]
       },
@@ -414,7 +414,7 @@ pagesPt.push({
       { label: "Abrir a loja Etsy", href: "https://www.etsy.com/shop/Craftygiftsplace" },
       { label: "Ver porta-copos de madeira", href: "/pt/pages/porta-copos-de-madeira.html" },
       { label: "Ver marcadores de livros", href: "/pt/pages/marcadores-de-livros-de-madeira.html" },
-      { label: "Porquê presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
+      { label: "Porque escolher presentes de madeira?", href: "/pt/pages/por-que-presentes-de-madeira.html" }
     ]
   },
   infoCards: [
@@ -476,14 +476,14 @@ pagesPt.push({
   path: "/pt/pages/por-que-presentes-de-madeira.html",
   template: "contact",
   locale: "pt",
-  title: "Porquê escolher presentes de madeira? Feitos à mão, duradouros e pessoais | Craftygiftsplace",
+  title: "Porque escolher presentes de madeira? Feitos à mão, duradouros e pessoais | Craftygiftsplace",
   metaDescription: "Os presentes de madeira feitos à mão duram mais, parecem mais pessoais e mostram verdadeiro trabalho artesanal. Descubra porque a madeira gravada é uma escolha melhor do que as alternativas genéricas.",
   h1: "Porque os presentes de madeira duram mais do que muitos outros",
   eyebrow: "O argumento para a madeira",
-  intro: "Os presentes genéricos esquecem-se. Os presentes de madeira ficam. Eis porque a madeira gravada e feita à mão funciona tão bem em tantas ocasiões.",
+  intro: "Os presentes genéricos esquecem-se. Os presentes de madeira ficam. É por isso que a madeira gravada e feita à mão funciona tão bem em tantas ocasiões.",
   breadcrumbs: [
     { label: "Início", path: "/pt/index.html" },
-    { label: "Porquê escolher madeira?" }
+    { label: "Porque escolher presentes de madeira?" }
   ],
   primaryCta: {
     label: "Ver presentes de madeira no Etsy",

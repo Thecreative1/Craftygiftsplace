@@ -30,9 +30,9 @@ const definition = {
   },
   pages: {
     coasters: {
-      title: "Sous-verres en bois faits main aux gravures célestes, naturelles et plus marquées | Craftygiftsplace",
+      title: "Sous-verres en bois faits main aux gravures célestes, naturelles et plus affirmées | Craftygiftsplace",
       metaDescription: "Parcourez des sous-verres en bois faits main aux gravures célestes, naturelles, vikings et autres motifs affirmés pour tables, étagères et cadeaux attentionnés.",
-      h1: "Sous-verres en bois faits main aux gravures célestes, naturelles et plus marquées",
+      h1: "Sous-verres en bois faits main aux gravures célestes, naturelles et plus affirmées",
       intro: "Parcourez la sélection de sous-verres en un seul endroit. Cette page reste centrée sur le type de produit afin de comparer des sets gravés appréciés pour tables basses, bureaux et étagères sans mélanger les guides cadeaux plus larges. On y trouve des modèles célestes ou nature plus calmes, mais aussi des choix plus affirmés comme des motifs vikings, spirituels ou pensés pour une pièce à vivre avec plus de caractère.",
       primaryCtaLabel: "Voir les sous-verres sur Etsy",
       secondaryCtaLabel: "Voir la sélection de sous-verres",
@@ -143,7 +143,7 @@ const definition = {
         }
       ],
       relatedLinks: [
-        { label: "Cadeaux pour lecteurs", targetKey: "reader", description: "Des marque-pages, des coffrets pour lecteurs de fantasy et de petits objets pour coins lecture réunis sur une seule page." },
+        { label: "Cadeaux pour lecteurs", targetKey: "reader", description: "Des marque-pages, des coffrets pour lecteurs de fantasy et de petits objets pour coins de lecture réunis sur une seule page." },
         { label: "Cadeaux en bois", targetKey: "gifts", description: "Des suspensions de porte, porte-bougies et souvenirs pour aller au-delà du marque-page." },
         { label: "Sous-verres en bois", targetKey: "coasters", description: "Des cadeaux en bois plus tournés vers la maison, les tables basses et les crémaillères." }
       ],
@@ -154,9 +154,9 @@ const definition = {
       }
     },
     gifts: {
-      title: "Cadeaux en bois faits main pour coins lecture, étagères et moments marquants | Craftygiftsplace",
+      title: "Cadeaux en bois faits main pour coins de lecture, étagères et moments marquants | Craftygiftsplace",
       metaDescription: "Parcourez des cadeaux en bois faits main, comme porte-bougies, suspensions de porte et souvenirs personnalisés pour étagères, entrées et occasions marquantes.",
-      h1: "Cadeaux en bois faits main pour coins lecture, étagères et moments marquants",
+      h1: "Cadeaux en bois faits main pour coins de lecture, étagères et moments marquants",
       intro: "Cette collection réunit les cadeaux en bois qui ne sont ni des sous-verres ni des marque-pages. Elle aide à comparer des porte-bougies, suspensions de porte, souvenirs personnalisés et autres pièces décoratives dans un seul endroit plus calme.",
       primaryCtaLabel: "Voir les cadeaux en bois sur Etsy",
       secondaryCtaLabel: "Voir la sélection de cadeaux en bois",
@@ -179,7 +179,7 @@ const definition = {
         ]
       },
       featuredSummaries: [
-        "Un petit porte-bougie chaleureux pour étagères, consoles et coins lecture.",
+        "Un petit porte-bougie chaleureux pour étagères, consoles et coins de lecture.",
         "Une suspension de porte plus personnelle quand le cadeau doit être visible dès l'entrée.",
         "Un souvenir personnalisé qui convient aux mariages, anniversaires et moments que l'on veut garder en évidence.",
         "Un brûleur d'encens pour étagères et coins calmes quand le cadeau en bois doit paraître apaisant, décoratif et un peu différent."
@@ -189,7 +189,7 @@ const definition = {
         "Elle permet de comparer des cadeaux pour maison, entrée et souvenirs dans un seul espace.",
         "Elle renvoie facilement vers les pages lecteurs, chats ou crémaillère si l'intention devient plus précise."
       ],
-      catalogIntro: "Une sélection de cadeaux en bois pour étagères, entrées, coins lecture et souvenirs à garder.",
+      catalogIntro: "Une sélection de cadeaux en bois pour étagères, entrées, coins de lecture et souvenirs à garder.",
       faq: [
         {
           question: "Que trouve-t-on dans cette collection ?",
@@ -205,7 +205,7 @@ const definition = {
         }
       ],
       relatedLinks: [
-        { label: "Cadeaux pour lecteurs", targetKey: "reader", description: "Des idées pensées pour les livres, les coins lecture et quelques petits sets assortis." },
+        { label: "Cadeaux pour lecteurs", targetKey: "reader", description: "Des idées pensées pour les livres, les coins de lecture et quelques petits sets assortis." },
         { label: "Cadeaux de crémaillère", targetKey: "housewarming", description: "Des pièces en bois utiles et décoratives pour nouvelles maisons et appartements." },
         { label: "Contact", targetKey: "contact", description: "Passez par Etsy si vous voulez poser une question sur la personnalisation ou un cadeau précis." }
       ],
@@ -256,13 +256,13 @@ const definition = {
       title: "Cadeaux en bois pour amoureux des chats, intérieurs chaleureux et idées Etsy attentionnées | Craftygiftsplace",
       metaDescription: "Découvrez des cadeaux en bois pour amoureux des chats, avec sous-verres félins et déco chaleureuse pour étagères, tables basses et petites idées qui mènent vers Etsy.",
       h1: "Cadeaux en bois pour amoureux des chats, étagères et tables basses",
-      intro: "Cette page s'adresse aux visiteurs qui savent déjà qu'ils veulent offrir quelque chose à un amoureux des chats. Elle réunit les meilleurs choix félins dans un seul endroit : sous-verres pour tables basses, motifs chats plus célestes pour intérieurs chaleureux et petit objet déco pour étagères ou coins lecture.",
-      primaryCtaLabel: "Voir les cadeaux chats sur Etsy",
+      intro: "Cette page s'adresse aux visiteurs qui savent déjà qu'ils veulent offrir quelque chose à un amoureux des chats. Elle réunit les meilleurs choix félins dans un seul endroit : sous-verres pour tables basses, motifs chats plus célestes pour intérieurs chaleureux et petit objet déco pour étagères ou coins de lecture.",
+      primaryCtaLabel: "Voir les cadeaux pour amoureux des chats sur Etsy",
       secondaryCtaLabel: "Aller aux idées chats",
       linkCloud: [
         { label: "Sous-verres en bois", targetKey: "coasters" },
         { label: "Cadeaux de crémaillère", targetKey: "housewarming" },
-        { label: "Tous les cadeaux chats", targetKey: "catalog" }
+        { label: "Toutes les idées pour amoureux des chats", targetKey: "catalog" }
       ],
       sidebar: {
         title: "Pourquoi cette page plaît",
@@ -278,7 +278,7 @@ const definition = {
       featuredSummaries: [
         "Un favori à thème chat qui reste à la fois décoratif et pratique pour salon, bureau ou anniversaire.",
         "Une option plus lunaire pour quelqu'un qui aime les chats et une ambiance plus céleste sur une table basse.",
-        "Une petite pièce déco pensée pour étagères, tables de nuit et coins lecture plus doux.",
+        "Une petite pièce déco pensée pour étagères, tables de nuit et coins de lecture plus doux.",
         "Un set de sous-verres à motif chat plus simple pour ceux qui cherchent un cadeau pratique au thème félin bien lisible."
       ],
       featuredWhy: [
@@ -298,17 +298,17 @@ const definition = {
         { label: "Cadeaux en bois", targetKey: "gifts", description: "Parcourez les pièces déco et les suspensions si vous voulez aller au-delà des sous-verres." }
       ],
       ctaPanel: {
-        title: "Prêt à comparer les cadeaux chats sur Etsy ?",
+        title: "Prêt à comparer les cadeaux pour amoureux des chats sur Etsy ?",
         text: "Ouvrez Etsy pour comparer les motifs, les prix et les avis autour des idées à thème chat.",
-        label: "Ouvrir les cadeaux chats sur Etsy"
+        label: "Ouvrir les cadeaux pour amoureux des chats sur Etsy"
       }
     },
     reader: {
-      title: "Cadeaux pour lecteurs en bois, coins lecture et étagères cosy | Craftygiftsplace",
-      metaDescription: "Parcourez des cadeaux en bois pour lecteurs, avec marque-pages, coffret pour lecteurs de fantasy et pièces pour coins lecture et étagères calmes.",
-      h1: "Cadeaux en bois pour lecteurs et coins lecture cosy",
+      title: "Cadeaux pour lecteurs en bois, coins de lecture et étagères chaleureuses | Craftygiftsplace",
+      metaDescription: "Parcourez des cadeaux en bois pour lecteurs, avec marque-pages, coffret pour lecteurs de fantasy et pièces pour coins de lecture et étagères calmes.",
+      h1: "Cadeaux en bois pour lecteurs et coins de lecture chaleureux",
       intro: "Cette page aide les visiteurs qui cherchent déjà un cadeau pour lecteur. Elle rassemble des marque-pages, un coffret pour lecteurs de fantasy assorti et quelques pièces qui conviennent bien à un coin lecture, afin de comparer plusieurs styles sans quitter le même thème.",
-      primaryCtaLabel: "Voir les cadeaux lecteurs sur Etsy",
+      primaryCtaLabel: "Voir les cadeaux pour lecteurs sur Etsy",
       secondaryCtaLabel: "Aller aux idées lecteurs",
       linkCloud: [
         { label: "Marque-pages en bois", targetKey: "bookmarks" },
@@ -329,15 +329,15 @@ const definition = {
       featuredSummaries: [
         "Un marque-page fantasy très visuel pour lecteurs qui aiment les détails marqués et un bel objet à glisser dans un livre.",
         "Un coffret prêt à offrir avec marque-page, suspension de porte et sous-verres pour les lecteurs de fantasy.",
-        "Une petite pièce d'ambiance pour étagères et coins lecture quand le cadeau peut être plus doux que strictement pratique.",
+        "Une petite pièce d'ambiance pour étagères et coins de lecture quand le cadeau peut être plus doux que strictement pratique.",
         "Un marque-page personnalisé pour ceux qui veulent un cadeau de lecteur plus intime, plus calme et facile à garder."
       ],
       featuredWhy: [
-        "Elle garde la sélection centrée sur les lecteurs et les habitudes de lecture cosy.",
+        "Elle garde la sélection centrée sur les lecteurs et les coins de lecture chaleureux.",
         "Elle mélange des marque-pages, un coffret prêt à offrir et une pièce déco légère.",
         "Elle renvoie facilement vers la collection complète de marque-pages si le visiteur veut comparer plus en détail."
       ],
-      catalogIntro: "Des idées bois pour lecteurs, marque-pages, coffret pour lecteurs de fantasy et petits détails pour coins lecture.",
+      catalogIntro: "Des idées bois pour lecteurs, marque-pages, coffret pour lecteurs de fantasy et petits détails pour coins de lecture.",
       faq: [
         { question: "Cette page contient-elle uniquement des marque-pages ?", answer: "Non. Elle rassemble surtout des marque-pages, mais aussi un coffret assorti et une petite pièce déco qui fonctionne bien dans un coin lecture." },
         { question: "Existe-t-il aussi une collection dédiée aux marque-pages ?", answer: "Oui. La collection marque-pages en bois reste disponible pour ceux qui veulent rester uniquement sur ce type de produit." },
@@ -351,7 +351,7 @@ const definition = {
       ctaPanel: {
         title: "Prêt à voir les cadeaux pour lecteurs sur Etsy ?",
         text: "Ouvrez Etsy pour comparer les listings, les avis et les options qui conviennent le mieux à votre lecteur.",
-        label: "Ouvrir les cadeaux lecteurs sur Etsy"
+        label: "Ouvrir les cadeaux pour lecteurs sur Etsy"
       }
     },
     housewarming: {
@@ -373,7 +373,7 @@ const definition = {
         text: "Pour une crémaillère, les visiteurs veulent souvent quelque chose d'utile, décoratif et facile à intégrer dans la maison. Cette page garde précisément ce cap.",
         links: [
           { label: "Voir les sous-verres en bois", targetKey: "coasters" },
-          { label: "Voir les cadeaux chats", targetKey: "cat" },
+          { label: "Voir les cadeaux pour amoureux des chats", targetKey: "cat" },
           { label: "Voir les cadeaux en bois", targetKey: "gifts" }
         ]
       },

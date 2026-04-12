@@ -70,7 +70,7 @@
       {
         "kicker": "Pour les lecteurs",
         "title": "Cadeaux pour lecteurs",
-        "description": "Des marque-pages, des pièces fantasy et des cadeaux pour coin lecture pensés pour les lecteurs qui aiment les détails personnels.",
+        "description": "Des marque-pages, des pièces fantasy et des cadeaux pour coins de lecture pensés pour les lecteurs qui aiment les détails personnels.",
         "image": "/assets/img/products/dragon-eye-bookmark.jpg",
         "imageAlt": "Marque-page Dragon Eye en bois sur un livre de fantasy",
         "href": "/fr/pages/cadeaux-pour-lecteurs.html"
@@ -259,9 +259,9 @@
     "pairPath": "/en/pages/wooden-coasters.html",
     "template": "collection",
     "locale": "fr",
-    "title": "Sous-verres en bois faits main aux gravures célestes, naturelles et plus marquées | Craftygiftsplace",
+    "title": "Sous-verres en bois faits main aux gravures célestes, naturelles et plus affirmées | Craftygiftsplace",
     "metaDescription": "Parcourez des sous-verres en bois faits main aux gravures célestes, naturelles, vikings et autres motifs affirmés pour tables, étagères et cadeaux attentionnés.",
-    "h1": "Sous-verres en bois faits main aux gravures célestes, naturelles et plus marquées",
+    "h1": "Sous-verres en bois faits main aux gravures célestes, naturelles et plus affirmées",
     "eyebrow": "Collection",
     "intro": "Parcourez la sélection de sous-verres en un seul endroit. Cette page reste centrée sur le type de produit afin de comparer des sets gravés appréciés pour tables basses, bureaux et étagères sans mélanger les guides cadeaux plus larges. On y trouve des modèles célestes ou nature plus calmes, mais aussi des choix plus affirmés comme des motifs vikings, spirituels ou pensés pour une pièce à vivre avec plus de caractère.",
     "breadcrumbs": [
@@ -591,7 +591,7 @@
       {
         "label": "Cadeaux pour lecteurs",
         "href": "/fr/pages/cadeaux-pour-lecteurs.html",
-        "description": "Des marque-pages, des coffrets pour lecteurs de fantasy et de petits objets pour coins lecture réunis sur une seule page."
+        "description": "Des marque-pages, des coffrets pour lecteurs de fantasy et de petits objets pour coins de lecture réunis sur une seule page."
       },
       {
         "label": "Cadeaux en bois",
@@ -625,9 +625,9 @@
     "pairPath": "/en/pages/wooden-gifts.html",
     "template": "collection",
     "locale": "fr",
-    "title": "Cadeaux en bois faits main pour coins lecture, étagères et moments marquants | Craftygiftsplace",
+    "title": "Cadeaux en bois faits main pour coins de lecture, étagères et moments marquants | Craftygiftsplace",
     "metaDescription": "Parcourez des cadeaux en bois faits main, comme porte-bougies, suspensions de porte et souvenirs personnalisés pour étagères, entrées et occasions marquantes.",
-    "h1": "Cadeaux en bois faits main pour coins lecture, étagères et moments marquants",
+    "h1": "Cadeaux en bois faits main pour coins de lecture, étagères et moments marquants",
     "eyebrow": "Collection",
     "intro": "Cette collection réunit les cadeaux en bois qui ne sont ni des sous-verres ni des marque-pages. Elle aide à comparer des porte-bougies, suspensions de porte, souvenirs personnalisés et autres pièces décoratives dans un seul endroit plus calme.",
     "breadcrumbs": [
@@ -693,7 +693,7 @@
     "featuredItems": [
       {
         "slug": "moon-cat-shadow-tealight-holder",
-        "summary": "Un petit porte-bougie chaleureux pour étagères, consoles et coins lecture."
+        "summary": "Un petit porte-bougie chaleureux pour étagères, consoles et coins de lecture."
       },
       {
         "slug": "personalized-just-married-wooden-door-hanger",
@@ -740,7 +740,7 @@
         "fps-gamer-door-hanger",
         "upcycled-ram-keychain"
       ],
-      "intro": "Une sélection de cadeaux en bois pour étagères, entrées, coins lecture et souvenirs à garder.",
+      "intro": "Une sélection de cadeaux en bois pour étagères, entrées, coins de lecture et souvenirs à garder.",
       "ctaLabel": "Voir les cadeaux en bois sur Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
     },
@@ -762,7 +762,7 @@
       {
         "label": "Cadeaux pour lecteurs",
         "href": "/fr/pages/cadeaux-pour-lecteurs.html",
-        "description": "Des idées pensées pour les livres, les coins lecture et quelques petits sets assortis."
+        "description": "Des idées pensées pour les livres, les coins de lecture et quelques petits sets assortis."
       },
       {
         "label": "Cadeaux de crémaillère",
@@ -912,7 +912,7 @@
     "metaDescription": "Découvrez des cadeaux en bois pour amoureux des chats, avec sous-verres félins et déco chaleureuse pour étagères, tables basses et petites idées qui mènent vers Etsy.",
     "h1": "Cadeaux en bois pour amoureux des chats, étagères et tables basses",
     "eyebrow": "Guide cadeau",
-    "intro": "Cette page s'adresse aux visiteurs qui savent déjà qu'ils veulent offrir quelque chose à un amoureux des chats. Elle réunit les meilleurs choix félins dans un seul endroit : sous-verres pour tables basses, motifs chats plus célestes pour intérieurs chaleureux et petit objet déco pour étagères ou coins lecture.",
+    "intro": "Cette page s'adresse aux visiteurs qui savent déjà qu'ils veulent offrir quelque chose à un amoureux des chats. Elle réunit les meilleurs choix félins dans un seul endroit : sous-verres pour tables basses, motifs chats plus célestes pour intérieurs chaleureux et petit objet déco pour étagères ou coins de lecture.",
     "breadcrumbs": [
       {
         "label": "Accueil",
@@ -924,7 +924,7 @@
       }
     ],
     "primaryCta": {
-      "label": "Voir les cadeaux chats sur Etsy",
+      "label": "Voir les cadeaux pour amoureux des chats sur Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
     },
     "secondaryCta": {
@@ -941,7 +941,7 @@
         "target": "/fr/pages/cadeaux-de-cremaillere.html"
       },
       {
-        "label": "Tous les cadeaux chats",
+        "label": "Toutes les idées pour amoureux des chats",
         "target": "#shop-catalog"
       }
     ],
@@ -976,7 +976,7 @@
       },
       {
         "slug": "moon-cat-shadow-tealight-holder",
-        "summary": "Une petite pièce déco pensée pour étagères, tables de nuit et coins lecture plus doux."
+        "summary": "Une petite pièce déco pensée pour étagères, tables de nuit et coins de lecture plus doux."
       },
       {
         "slug": "cat-wooden-coasters",
@@ -997,7 +997,7 @@
         "moon-cat-shadow-tealight-holder"
       ],
       "intro": "Les meilleurs choix à thème chat pour maisons chaleureuses, étagères et cadeaux autour d'une table basse.",
-      "ctaLabel": "Voir les cadeaux chats sur Etsy",
+      "ctaLabel": "Voir les cadeaux pour amoureux des chats sur Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
     },
     "faq": [
@@ -1032,9 +1032,9 @@
       }
     ],
     "ctaPanel": {
-      "title": "Prêt à comparer les cadeaux chats sur Etsy ?",
+      "title": "Prêt à comparer les cadeaux pour amoureux des chats sur Etsy ?",
       "text": "Ouvrez Etsy pour comparer les motifs, les prix et les avis autour des idées à thème chat.",
-      "label": "Ouvrir les cadeaux chats sur Etsy",
+      "label": "Ouvrir les cadeaux pour amoureux des chats sur Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
     },
     "alternatePaths": {
@@ -1052,9 +1052,9 @@
     "pairPath": "/en/pages/reader-gifts.html",
     "template": "intent",
     "locale": "fr",
-    "title": "Cadeaux pour lecteurs en bois, coins lecture et étagères cosy | Craftygiftsplace",
-    "metaDescription": "Parcourez des cadeaux en bois pour lecteurs, avec marque-pages, coffret pour lecteurs de fantasy et pièces pour coins lecture et étagères calmes.",
-    "h1": "Cadeaux en bois pour lecteurs et coins lecture cosy",
+    "title": "Cadeaux pour lecteurs en bois, coins de lecture et étagères chaleureuses | Craftygiftsplace",
+    "metaDescription": "Parcourez des cadeaux en bois pour lecteurs, avec marque-pages, coffret pour lecteurs de fantasy et pièces pour coins de lecture et étagères calmes.",
+    "h1": "Cadeaux en bois pour lecteurs et coins de lecture chaleureux",
     "eyebrow": "Guide cadeau",
     "intro": "Cette page aide les visiteurs qui cherchent déjà un cadeau pour lecteur. Elle rassemble des marque-pages, un coffret pour lecteurs de fantasy assorti et quelques pièces qui conviennent bien à un coin lecture, afin de comparer plusieurs styles sans quitter le même thème.",
     "breadcrumbs": [
@@ -1068,7 +1068,7 @@
       }
     ],
     "primaryCta": {
-      "label": "Voir les cadeaux lecteurs sur Etsy",
+      "label": "Voir les cadeaux pour lecteurs sur Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },
     "secondaryCta": {
@@ -1120,7 +1120,7 @@
       },
       {
         "slug": "epic-fantasy-door-sign",
-        "summary": "Une petite pièce d'ambiance pour étagères et coins lecture quand le cadeau peut être plus doux que strictement pratique."
+        "summary": "Une petite pièce d'ambiance pour étagères et coins de lecture quand le cadeau peut être plus doux que strictement pratique."
       },
       {
         "slug": "personalized-feather-wooden-bookmark",
@@ -1128,7 +1128,7 @@
       }
     ],
     "featuredWhy": [
-      "Elle garde la sélection centrée sur les lecteurs et les habitudes de lecture cosy.",
+      "Elle garde la sélection centrée sur les lecteurs et les coins de lecture chaleureux.",
       "Elle mélange des marque-pages, un coffret prêt à offrir et une pièce déco légère.",
       "Elle renvoie facilement vers la collection complète de marque-pages si le visiteur veut comparer plus en détail."
     ],
@@ -1146,8 +1146,8 @@
         "fantasy-wooden-coasters",
         "laser-birch-wood-incense-burner"
       ],
-      "intro": "Des idées bois pour lecteurs, marque-pages, coffret pour lecteurs de fantasy et petits détails pour coins lecture.",
-      "ctaLabel": "Voir les cadeaux lecteurs sur Etsy",
+      "intro": "Des idées bois pour lecteurs, marque-pages, coffret pour lecteurs de fantasy et petits détails pour coins de lecture.",
+      "ctaLabel": "Voir les cadeaux pour lecteurs sur Etsy",
       "ctaUrl": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },
     "faq": [
@@ -1184,7 +1184,7 @@
     "ctaPanel": {
       "title": "Prêt à voir les cadeaux pour lecteurs sur Etsy ?",
       "text": "Ouvrez Etsy pour comparer les listings, les avis et les options qui conviennent le mieux à votre lecteur.",
-      "label": "Ouvrir les cadeaux lecteurs sur Etsy",
+      "label": "Ouvrir les cadeaux pour lecteurs sur Etsy",
       "url": "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
     },
     "alternatePaths": {
@@ -1250,7 +1250,7 @@
           "href": "/fr/pages/sous-verres-en-bois.html"
         },
         {
-          "label": "Voir les cadeaux chats",
+          "label": "Voir les cadeaux pour amoureux des chats",
           "href": "/fr/pages/cadeaux-pour-amoureux-des-chats.html"
         },
         {

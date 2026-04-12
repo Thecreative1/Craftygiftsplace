@@ -33,11 +33,11 @@
       "intro": "Son los clics más fáciles para quien quiere una opción ya probada."
     },
     "occasions": {
-      "heading": "Comprar por ocasión",
+      "heading": "Explorar por ocasión",
       "intro": "¿Ya sabes para qué ocasión es? Empieza por estas páginas."
     },
     "collections": {
-      "heading": "Ver las colecciones principales",
+      "heading": "Explora las colecciones principales",
       "intro": "Entra aquí si el tipo de producto ya está claro."
     },
     "support": {
@@ -219,7 +219,7 @@
         "text": "Ve a Etsy para ver precios, reseñas y pagar de forma segura."
       }
     ],
-    "whyLink": { "label": "¿Por qué regalos de madera?", "href": "/es/pages/por-que-regalos-de-madera.html" }
+    "whyLink": { "label": "¿Por qué elegir regalos de madera?", "href": "/es/pages/por-que-regalos-de-madera.html" }
   },
   "makerStory": {
     "heading": "Hecho por una persona, con cuidado",

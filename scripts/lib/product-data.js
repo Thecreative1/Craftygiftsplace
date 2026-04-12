@@ -770,9 +770,9 @@ LABELS.fr = {
     default: "une gravure chaleureuse"
   },
   usage: {
-    coasters: { cat: "tables basses, bureaux et coins cosy", dog: "tables du quotidien et espaces avec animaux", celestial: "tables basses, guéridons et pièces d'ambiance", fantasy: "coins lecture, bureaux et pièces loisirs", gaming: "salles de jeu, bureaux et tables du week-end", botanical: "cuisines, tables d'invités et intérieurs chaleureux", coastal: "chambres d'amis, terrasses et maisons détendues", gothic: "guéridons, étagères et décors affirmés", default: "tables du quotidien, bureaux et coins chaleureux" },
-    bookmarks: { fantasy: "piles de livres, lectures du soir et étagères de fantasy", celestial: "journaux de lecture, tables de nuit et chapitres calmes", botanical: "cadeaux livres, sacs et lectures silencieuses", gothic: "étagères dark academia et coins lecture marqués", default: "piles de livres, journaux de lecture et coffrets cadeaux" },
-    "door-hanger": { fantasy: "coins lecture, pièces loisirs et portes de chambre", gaming: "salles de jeu, coins streaming et bureaux", wedding: "entrées, coins mariage et espaces partagés", default: "portes de chambre, bureaux à domicile et coins personnels" },
+    coasters: { cat: "tables basses, bureaux et coins cosy", dog: "tables du quotidien et espaces avec animaux", celestial: "tables basses, guéridons et pièces d'ambiance", fantasy: "coins de lecture, bureaux et pièces loisirs", gaming: "salles de jeu, bureaux et tables du week-end", botanical: "cuisines, tables d'invités et intérieurs chaleureux", coastal: "chambres d'amis, terrasses et maisons détendues", gothic: "guéridons, étagères et décors affirmés", default: "tables du quotidien, bureaux et coins chaleureux" },
+    bookmarks: { fantasy: "piles de livres, lectures du soir et étagères de fantasy", celestial: "journaux de lecture, tables de nuit et chapitres calmes", botanical: "cadeaux livres, sacs et lectures silencieuses", gothic: "étagères dark academia et coins de lecture marqués", default: "piles de livres, journaux de lecture et coffrets cadeaux" },
+    "door-hanger": { fantasy: "coins de lecture, pièces loisirs et portes de chambre", gaming: "salles de jeu, coins streaming et bureaux", wedding: "entrées, coins mariage et espaces partagés", default: "portes de chambre, bureaux à domicile et coins personnels" },
     "decor-piece": { cat: "étagères, guéridons et coins éclairés à la bougie", celestial: "tables de nuit, consoles et ambiances du soir", gothic: "étagères, buffets et coins atmosphériques", default: "étagères, guéridons et coins cosy" },
     keepsake: { wedding: "boîtes cadeaux, étagères souvenirs et tables d'occasion", baby: "étagères de chambre, tiroirs et photos marquantes", memorial: "coins mémoire et étagères pleines de sens", default: "boîtes cadeaux, étagères et moments à garder" },
     craft: { default: "tables créatives, projets personnalisés et cadeaux faits main" },
@@ -1193,9 +1193,9 @@ LABELS.it = {
     default: "un'incisione calda"
   },
   usage: {
-    coasters: { cat: "tavolini, scrivanie e angoli accoglienti", dog: "tavoli di ogni giorno e spazi con animali", celestial: "tavolini, tavoli d'appoggio e ambienti soffusi", fantasy: "angoli lettura, scrivanie e stanze hobby", gaming: "stanze da gioco, scrivanie e tavoli del weekend", botanical: "cucine, tavoli per ospiti e interni caldi", coastal: "camere per ospiti, terrazze e case rilassate", gothic: "tavolini, mensole e decorazioni decise", default: "tavoli quotidiani, scrivanie e angoli accoglienti" },
-    bookmarks: { fantasy: "pile di libri, letture serali e scaffali fantasy", celestial: "diari di lettura, comodini e capitoli tranquilli", botanical: "regali libro, borse e letture silenziose", gothic: "scaffali dark academia e angoli lettura intensi", default: "pile di libri, diari di lettura e scatole regalo" },
-    "door-hanger": { fantasy: "angoli lettura, stanze hobby e porte di camera", gaming: "stanze da gioco, angoli streaming e scrivanie", wedding: "ingressi, angoli matrimonio e spazi condivisi", default: "porte di camera, studi e angoli personali" },
+    coasters: { cat: "tavolini, scrivanie e angoli accoglienti", dog: "tavoli di ogni giorno e spazi con animali", celestial: "tavolini, tavoli d'appoggio e ambienti soffusi", fantasy: "angoli di lettura, scrivanie e stanze hobby", gaming: "stanze da gioco, scrivanie e tavoli del weekend", botanical: "cucine, tavoli per ospiti e interni caldi", coastal: "camere per ospiti, terrazze e case rilassate", gothic: "tavolini, mensole e decorazioni decise", default: "tavoli quotidiani, scrivanie e angoli accoglienti" },
+    bookmarks: { fantasy: "pile di libri, letture serali e scaffali fantasy", celestial: "diari di lettura, comodini e capitoli tranquilli", botanical: "regali libro, borse e letture silenziose", gothic: "scaffali dark academia e angoli di lettura intensi", default: "pile di libri, diari di lettura e scatole regalo" },
+    "door-hanger": { fantasy: "angoli di lettura, stanze hobby e porte di camera", gaming: "stanze da gioco, angoli streaming e scrivanie", wedding: "ingressi, angoli matrimonio e spazi condivisi", default: "porte di camera, studi e angoli personali" },
     "decor-piece": { cat: "mensole, tavolini e angoli illuminati da candele", celestial: "comodini, consolle e atmosfere della sera", gothic: "mensole, credenze e angoli suggestivi", default: "mensole, tavolini e angoli accoglienti" },
     keepsake: { wedding: "scatole regalo, mensole ricordo e tavoli d'occasione", baby: "mensole di cameretta, cassetti e foto importanti", memorial: "angoli memoria e mensole piene di significato", default: "scatole regalo, mensole e momenti da custodire" },
     craft: { default: "tavoli creativi, progetti personalizzati e regali fatti a mano" },
@@ -2224,7 +2224,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
     fr: {
       evening: "Cela trouve facilement sa place sur les tables du soir et dans des pièces à l'ambiance douce.",
       astrology: "Cela parle aux acheteurs qui aiment glisser l'astrologie dans de petits accents utiles pour la maison.",
-      dreamy: "Cela va bien dans les coins lecture et les intérieurs à l'atmosphère plus rêveuse.",
+      dreamy: "Cela va bien dans les coins de lecture et les intérieurs à l'atmosphère plus rêveuse.",
       "cat-home": "Cela fonctionne bien dans les maisons cosy où le détail chat doit rester chaleureux et discret.",
       "nature-home": "Cela se marie bien avec des intérieurs où il y a des plantes, du bois et une ambiance naturelle.",
       forest: "Cela donne un peu plus de personnalité aux intérieurs d'inspiration forêt ou chalet.",
@@ -2266,7 +2266,7 @@ function buildCoasterDescription(locale, seed, themeKey, motif, usageContext) {
     it: {
       evening: "Sta particolarmente bene su tavoli serali e in angoli con una luce più morbida.",
       astrology: "Piace a chi ama vedere l'astrologia in piccoli accenti utili per la casa.",
-      dreamy: "Si adatta bene ad angoli lettura e case con un'atmosfera più sognante.",
+      dreamy: "Si adatta bene ad angoli di lettura e case con un'atmosfera più sognante.",
       "cat-home": "Funziona bene in case accoglienti dove il dettaglio gatto deve restare caldo e discreto.",
       "nature-home": "Si abbina a interni dove ci sono già piante, legno e una sensazione più naturale.",
       forest: "Dà un po' più di personalità a interni con un'aria da bosco o da baita.",

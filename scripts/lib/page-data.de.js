@@ -9,14 +9,14 @@ pagesDe.push({
   metaDescription: "Entdecke handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume. Finde Untersetzer, Lesezeichen und Holzdeko, die direkt zu Etsy führen.",
   h1: "Handgemachte Holzgeschenke für Leser, Katzenliebhaber und gemütliche Wohnräume",
   eyebrow: "4.96/5 Etsy-Bewertung · Bestseller",
-  intro: "Craftygiftsplace hilft Besuchern, das passende handgemachte Holzgeschenk schneller zu finden. Statt alles auf einmal zu durchsuchen, können Käufer mit Untersetzern, Lesezeichen und kleinen Dekoideen für Leser, Katzenliebhaber, Einzüge und persönliche Erinnerungsmomente starten.",
+  intro: "Craftygiftsplace hilft Besuchern, das passende handgemachte Holzgeschenk schneller zu finden. Statt alles auf einmal zu durchsuchen, können Besucher mit Untersetzern, Lesezeichen und kleinen Dekoideen für Leser, Katzenliebhaber, Einzugsgeschenke und persönliche Erinnerungsmomente starten.",
   heroImage: "/assets/img/products/moon-cat-tealight-holder.jpg",
   heroImageAlt: "Mondkatzen Teelichthalter von Craftygiftsplace",
   heroCaption: "Mondkatzen Teelichthalter",
   heroPoints: [
     {
-      title: "Nach Anlass shoppen",
-      text: "Führe Besucher direkt zu Geschenken für Leser, Katzenliebhaber und Einzüge statt nur zu Produktkategorien."
+      title: "Nach Anlass entdecken",
+      text: "Führe Besucher direkt zu Geschenkideen für Leser, Katzenliebhaber und zum Einzug statt nur zu Produktkategorien."
     },
     {
       title: "Bestseller",
@@ -36,7 +36,7 @@ pagesDe.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?ref=shop-header-name"
   },
   secondaryCta: {
-    label: "Nach Anlass shoppen",
+    label: "Nach Anlass entdecken",
     target: "#gift-guides"
   },
   featuredItems: [
@@ -127,8 +127,8 @@ pagesDe.push({
       answer: "Nein. Diese Website hilft beim Entdecken und führt Besucher dann zu Etsy, wo die Bestellung abgeschlossen wird."
     },
     {
-      question: "Kann ich hier nach Anlass shoppen?",
-      answer: "Ja. Geschenke für Katzenliebhaber, Leser und Einzüge haben jeweils eigene Seiten auf Deutsch, Englisch und Niederländisch."
+      question: "Kann ich hier nach Anlass stöbern?",
+      answer: "Ja. Geschenkideen für Katzenliebhaber, Leser und zum Einzug haben jeweils eigene Seiten auf Deutsch, Englisch und Niederländisch."
     },
     {
       question: "Kann man weiterhin nach Kollektion stöbern?",
@@ -373,7 +373,7 @@ pagesDe.push({
       answer: "Beides. Die Kollektion verbindet warme Dekoideen mit einigen gezielt personalisierten Stücken, ohne zu breit zu werden."
     },
     {
-      question: "Sind diese Produkte auch für Einzüge geeignet?",
+      question: "Sind diese Produkte auch als Einzugsgeschenke geeignet?",
       answer: "Einige schon, vor allem Teelichthalter und kleinere Deko-Stücke. Für den klaren Einzugsfokus gibt es aber die eigene Einzugsgeschenke-Seite."
     },
     {
@@ -437,7 +437,7 @@ pagesDe.push({
     title: "Kaufvertrauen",
     quote: "\"Diese Untersetzer sehen wunderschön aus. Sie sind aus Holz und wirken sehr langlebig.\"",
     attribution: "Andrew · Etsy-Bewertung",
-    text: "Untersetzer passen gut zu Einzügen und kleinen Geschenken, weil sie nützlich sind und im Zuhause sofort einen Platz finden.",
+    text: "Untersetzer passen gut als Einzugsgeschenke und kleine Aufmerksamkeiten, weil sie nützlich sind und im Zuhause sofort einen Platz finden.",
     links: [
       { label: "Geschenke für Katzenliebhaber", href: "/de/pages/geschenke-fuer-katzenliebhaber.html" },
       { label: "Einzugsgeschenke", href: "/de/pages/einzugsgeschenke.html" },
@@ -505,7 +505,7 @@ pagesDe.push({
     },
     {
       question: "Kann man von hier auch andere Holzkollektionen finden?",
-      answer: "Ja. Diese Seite verlinkt zu Lesezeichen, Holzgeschenken sowie zu den Geschenk-Guides für Leser und Einzüge."
+      answer: "Ja. Diese Seite verlinkt zu Lesezeichen, Holzgeschenken sowie zu den Geschenk-Guides für Leser und zum Einzug."
     }
   ],
   relatedLinks: [
@@ -637,7 +637,7 @@ pagesDe.push({
     { label: "Geschenke für Katzenliebhaber", path: "/de/pages/geschenke-fuer-katzenliebhaber.html" }
   ],
   primaryCta: {
-    label: "Katzen-Geschenke auf Etsy ansehen",
+    label: "Katzengeschenke auf Etsy ansehen",
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
   },
   secondaryCta: {
@@ -727,7 +727,7 @@ pagesDe.push({
     }
   ],
   ctaPanel: {
-    title: "Bereit, Katzen-Geschenke auf Etsy zu vergleichen?",
+    title: "Bereit, Katzengeschenke auf Etsy zu vergleichen?",
     text: "Öffne Etsy, um alle Katzenmotive, Listing-Details und Bewertungen an einem Ort zu prüfen.",
     label: "Katzen-Ergebnisse auf Etsy öffnen",
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=cat"
@@ -753,7 +753,7 @@ pagesDe.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
   secondaryCta: {
-    label: "Die besten Leser-Produkte sehen",
+    label: "Die besten Geschenkideen für Leser sehen",
     target: "#shop-catalog"
   },
   linkCloud: [
@@ -810,7 +810,7 @@ pagesDe.push({
       "lighthouse-wooden-bookmark"
     ],
     intro: "Eine kuratierte Auswahl für Leser, Geschenke für Bücherfans und gemütliche Regale mit viel Charakter.",
-    ctaLabel: "Leser-Produkte auf Etsy ansehen",
+    ctaLabel: "Geschenkideen für Leser auf Etsy ansehen",
     ctaUrl: "https://www.etsy.com/shop/Craftygiftsplace?search_query=bookmark"
   },
   faq: [
@@ -857,9 +857,9 @@ pagesDe.push({
   pairPath: "/en/pages/housewarming-gifts.html",
   template: "intent",
   locale: "de",
-  title: "Handgemachte Holzgeschenke für Einzüge und warme neue Wohnungen | Craftygiftsplace",
-  metaDescription: "Entdecke handgemachte Holzgeschenke für Einzüge mit Untersetzern und warmer Deko für Couchtische, Regale und neue Wohnungen.",
-  h1: "Handgemachte Holzgeschenke für Einzüge und warme neue Wohnungen",
+  title: "Handgemachte Holzgeschenke zum Einzug und für gemütliche neue Wohnungen | Craftygiftsplace",
+  metaDescription: "Entdecke handgemachte Holzgeschenke zum Einzug mit Untersetzern und gemütlicher Deko für Couchtische, Regale und neue Wohnungen.",
+  h1: "Handgemachte Holzgeschenke zum Einzug und für gemütliche neue Wohnungen",
   eyebrow: "Geschenkguide",
   intro: "Diese Seite ist für Käufer gedacht, die gezielt nach einem Einzugsgeschenk suchen. Statt nur eine Produktgruppe zu zeigen, bündelt sie die stimmigsten Holzuntersetzer und kleineren Dekoideen für neue Wohnungen, Couchtische und warme Begrüßungsmomente.",
   breadcrumbs: [
@@ -988,7 +988,7 @@ pagesDe.push({
     url: "https://www.etsy.com/shop/Craftygiftsplace"
   },
   secondaryCta: {
-    label: "Shop auf Etsy kontaktieren",
+    label: "Shop auf Etsy anschreiben",
     targetUrl: "https://www.etsy.com/shop/Craftygiftsplace#about"
   },
   sidebar: {
@@ -1133,7 +1133,7 @@ pagesDe.push({
     },
     {
       question: "Können Holzgeschenke für jeden Anlass personalisiert werden?",
-      answer: "Viele Stücke können mit einem Namen, Datum oder kurzer Nachricht personalisiert werden. Das macht sie für Geburtstage, Jahrestage, Einzüge, Hochzeiten und Gedenkgeschenke geeignet. Auf der Personalisierungsseite findest du alle Details."
+      answer: "Viele Stücke können mit einem Namen, Datum oder kurzer Nachricht personalisiert werden. Das macht sie für Geburtstage, Jahrestage, Einzugsgeschenke, Hochzeiten und Gedenkgeschenke geeignet. Auf der Personalisierungsseite findest du alle Details."
     }
   ],
   relatedLinks: [
