@@ -42,7 +42,8 @@
       "Bash(du -sh E:/GIT_HUB/Craftygiftsplace/assets/img/products/*.jpg)",
       "Bash(magick --version)",
       "Bash(convert --version)",
-      "Bash(xargs sed:*)"
+      "Bash(xargs sed:*)",
+      "Bash(xargs -I{} basename {})"
     ]
   }
 }
