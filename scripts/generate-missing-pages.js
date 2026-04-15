@@ -549,7 +549,7 @@ const pages = [
     etsyQuery: 'incense%20burner',
     ogImage: 'https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_600x600.6303435020_tsf2.jpg',
     products: [
-      { name: 'Laser Birch Wood Incense Burner', image: 'https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_600x600.6303435020_tsf2.jpg', imageId: '54aa86/6303435020', query: 'Laser%20Engraved%20Birch%20Wood%20Incense%20Burner', chips: ['Cozy home gift', 'Housewarming gift'], desc: 'A laser-engraved birch wood incense burner for shelves, reading nooks and quiet routines.' },
+      { name: 'Birch Wood Incense Burner', image: 'https://i.etsystatic.com/46731516/r/il/54aa86/6303435020/il_600x600.6303435020_tsf2.jpg', imageId: '54aa86/6303435020', query: 'Laser%20Engraved%20Birch%20Wood%20Incense%20Burner', chips: ['Cozy home gift', 'Housewarming gift'], desc: 'A laser-engraved birch wood incense burner for shelves, reading nooks and quiet routines.' },
     ],
     related: ['wooden-gifts', 'housewarming-gifts', 'reader-gifts'],
     relatedDesc: { 'wooden-gifts': 'The broader handmade gifts category for non-seasonal browsing.', 'housewarming-gifts': 'Coaster sets and decor for new homes and warm interiors.', 'reader-gifts': 'Bookmarks, bundles and decor for book lovers and reading nooks.' },
