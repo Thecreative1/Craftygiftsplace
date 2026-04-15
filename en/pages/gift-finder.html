@@ -113,7 +113,7 @@
 
       <div class="language-switch language-switch-header" role="group" aria-label="Choose language">
         <span class="language-switch-label">Choose language</span>
-        <a href="../../pages/gift-finder.html" lang="nl" aria-label="Nederlands" title="Nederlands">
+        <a href="gift-finder.html" lang="nl" aria-label="Nederlands (alleen beschikbaar in het Engels)" title="Alleen beschikbaar in het Engels">
           <span class="flag-icon flag-icon--nl" aria-hidden="true"></span>
           <span class="language-code">NL</span>
         </a>
@@ -121,23 +121,23 @@
           <span class="flag-icon flag-icon--en" aria-hidden="true"></span>
           <span class="language-code">EN</span>
         </a>
-        <a href="../../de/pages/gift-finder.html" lang="de" aria-label="Deutsch" title="Deutsch">
+        <a href="gift-finder.html" lang="de" aria-label="Deutsch (nur auf Englisch verfügbar)" title="Nur auf Englisch verfügbar">
           <span class="flag-icon flag-icon--de" aria-hidden="true"></span>
           <span class="language-code">DE</span>
         </a>
-        <a href="../../fr/pages/gift-finder.html" lang="fr" aria-label="Français" title="Français">
+        <a href="gift-finder.html" lang="fr" aria-label="Français (uniquement disponible en anglais)" title="Uniquement disponible en anglais">
           <span class="flag-icon flag-icon--fr" aria-hidden="true"></span>
           <span class="language-code">FR</span>
         </a>
-        <a href="../../es/pages/gift-finder.html" lang="es" aria-label="Español" title="Español">
+        <a href="gift-finder.html" lang="es" aria-label="Español (solo disponible en inglés)" title="Solo disponible en inglés">
           <span class="flag-icon flag-icon--es" aria-hidden="true"></span>
           <span class="language-code">ES</span>
         </a>
-        <a href="../../pt/pages/gift-finder.html" lang="pt" aria-label="Português" title="Português">
+        <a href="gift-finder.html" lang="pt" aria-label="Português (disponível apenas em inglês)" title="Disponível apenas em inglês">
           <span class="flag-icon flag-icon--pt" aria-hidden="true"></span>
           <span class="language-code">PT</span>
         </a>
-        <a href="../../it/pages/gift-finder.html" lang="it" aria-label="Italiano" title="Italiano">
+        <a href="gift-finder.html" lang="it" aria-label="Italiano (disponibile solo in inglese)" title="Disponibile solo in inglese">
           <span class="flag-icon flag-icon--it" aria-hidden="true"></span>
           <span class="language-code">IT</span>
         </a>
@@ -161,9 +161,9 @@
       <div class="container">
         <div class="gf-hero-copy">
           <div class="breadcrumbs"><a href="../index.html">Home</a> / Gift Finder</div>
-          <div class="eyebrow">Gift Finder</div>
-          <h1>Gift Finder</h1>
-          <p class="page-lede">Not sure which gift fits best? Use this finder to narrow down the right wooden gift by recipient, occasion, budget, and style.</p>
+          <div class="eyebrow">Gift Selector</div>
+          <h1>Find the Right Wooden Gift</h1>
+          <p class="page-lede">Select recipient, occasion, budget, or style — combine as many as you like and browse only the pieces that match. Each one is handmade from birch wood and available on Etsy.</p>
         </div>
       </div>
     </section>
@@ -173,7 +173,7 @@
       <div class="container">
 
         <!-- Filter panel -->
-        <div class="gf-filters-wrap" role="search" aria-label="Gift filters">
+        <div class="gf-filters-wrap" role="region" aria-label="Gift filters">
           <div class="gf-filters">
 
             <!-- Recipient -->
@@ -235,7 +235,7 @@
 
             <!-- Reset -->
             <div class="gf-filter-actions">
-              <button class="btn-secondary gf-reset" type="button" aria-label="Reset all filters">Reset filters</button>
+              <button class="btn-secondary gf-reset" type="button" aria-label="Clear all filters">Clear filters</button>
             </div>
 
           </div>
@@ -248,22 +248,26 @@
           <p class="gf-etsy-note">When you find the right piece, continue on Etsy for pricing, reviews and checkout.</p>
         </div>
 
+        <!-- Loading indicator (hidden once data loads) -->
+        <div class="gf-loading" id="gf-loading" aria-label="Loading gifts">
+          <span class="gf-loading-spinner" aria-hidden="true"></span>
+          <p>Loading gifts…</p>
+        </div>
+
         <!-- Results grid -->
         <div
           class="gf-grid"
           id="gf-grid"
           role="list"
           aria-label="Gift finder results"
-          aria-live="polite"
-          aria-relevant="additions removals"
         ></div>
 
         <!-- Empty state (hidden until needed) -->
         <div class="gf-empty" id="gf-empty" hidden aria-live="polite">
-          <span class="gf-empty-icon" aria-hidden="true">🪵</span>
-          <h2>No gifts match those filters</h2>
-          <p>Try removing one or two filters to see more options.</p>
-          <button class="btn-secondary gf-reset" type="button">Reset filters</button>
+          <span class="gf-empty-icon" aria-hidden="true">🎁</span>
+          <h2>Nothing matches those filters yet</h2>
+          <p>Try removing a filter or two — most combinations have at least one great option.</p>
+          <button class="btn-secondary gf-reset" type="button">Clear filters</button>
         </div>
 
       </div>

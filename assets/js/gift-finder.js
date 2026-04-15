@@ -41,6 +41,7 @@
   const grid     = document.getElementById("gf-grid");
   const empty    = document.getElementById("gf-empty");
   const countEl  = document.getElementById("gf-count");
+  const loading  = document.getElementById("gf-loading");
 
   // ── Filtering logic ───────────────────────────────────────────────────────
 
@@ -79,8 +80,11 @@
 
   // ── Card rendering ────────────────────────────────────────────────────────
 
+  var CURRENCY_SYMBOLS = { EUR: "€", USD: "$", GBP: "£" };
+
   function formatPrice(price, currency) {
-    return currency + "\u00a0" + price.toFixed(2);
+    var symbol = CURRENCY_SYMBOLS[currency] || currency;
+    return symbol + "\u00a0" + price.toFixed(2);
   }
 
   function escapeHtml(str) {
@@ -91,11 +95,12 @@
       .replace(/"/g, "&quot;");
   }
 
-  function renderCard(p) {
+  function renderCard(p, i) {
     const priceLabel   = formatPrice(p.price, p.currency);
     const titleEsc     = escapeHtml(p.title);
     const descEsc      = escapeHtml(p.short_description);
     const chips        = p.tags.slice(0, 2);
+    const delay        = (i * 0.04).toFixed(2);
 
     const chipHtml = chips
       .map(function (t) {
@@ -108,7 +113,7 @@
       : "";
 
     return (
-      '<article class="gf-card" role="listitem">' +
+      '<article class="gf-card" role="listitem" style="animation-delay:' + delay + 's">' +
         '<div class="gf-card-media">' +
           "<img" +
           ' src="' + escapeHtml(p.image) + '"' +
@@ -212,6 +217,9 @@
    *
    *   fetch("/api/en/gift-finder-products")
    */
+  // Show loading indicator while data is fetching
+  if (loading) loading.hidden = false;
+
   fetch("/data/gift-finder-products.en.json")
     .then(function (res) {
       if (!res.ok) {
@@ -221,11 +229,13 @@
     })
     .then(function (data) {
       allProducts = data;
+      if (loading) loading.hidden = true;
       initFilters();
       render();
     })
     .catch(function (err) {
       console.error("[GiftFinder] Could not load product data:", err);
+      if (loading) loading.hidden = true;
       // Show empty state gracefully rather than leaving the grid blank
       if (countEl) countEl.textContent = "0";
       if (grid)    grid.innerHTML = "";
