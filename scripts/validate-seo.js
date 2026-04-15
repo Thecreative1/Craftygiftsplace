@@ -280,21 +280,8 @@ const etsySyncCatalogPagePaths = new Set([
   "/en/pages/wedding.html"
 ]);
 
-const singleLocaleEtsySectionPagePaths = new Set([
-  "/en/pages/diy.html",
-  "/en/pages/baby-bliss.html",
-  "/en/pages/door-hangers.html",
-  "/en/pages/pet-memorial.html",
-  "/en/pages/personalized-items.html",
-  "/en/pages/candle-holders.html",
-  "/en/pages/incense-burners.html",
-  "/en/pages/educational-toys-and-games.html",
-  "/en/pages/funny-presents.html",
-  "/en/pages/christmas.html",
-  "/en/pages/gifts-for-it-and-gamers.html",
-  "/en/pages/readers-kit.html",
-  "/en/pages/wedding.html",
-]);
+// These pages were previously EN-only but are now translated into all 7 languages.
+const singleLocaleEtsySectionPagePaths = new Set([]);
 
 const bestsellerSupportSlugs = new Set([
   "tree-of-life-wooden-coasters",

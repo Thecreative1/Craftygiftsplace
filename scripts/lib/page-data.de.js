@@ -1151,6 +1151,21 @@ pagesDe.push({
   alternatePaths: { en: "/de/pages/warum-holzgeschenke.html" }
 });
 
+// ── Translated Etsy section pages (13) ────────────────────────────────────
+pagesDe.push({ path: "/de/pages/baby-erstausstattung.html",  locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/kerzenhalter.html",          locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/weihnachten.html",           locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/do-it-yourself.html",        locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/tuerschilder.html",          locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/lernspielzeug.html",         locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/lustige-geschenke.html",     locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/geschenke-fuer-gamer.html",  locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/raucherstabchenhalter.html", locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/personalisierte-artikel.html", locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/haustier-gedenkgeschenke.html", locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/lesepaket.html",             locale: "de", template: "intent" });
+pagesDe.push({ path: "/de/pages/hochzeit.html",              locale: "de", template: "intent" });
+
 module.exports = {
   pagesDe
 };

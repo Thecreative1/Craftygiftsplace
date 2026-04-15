@@ -43,7 +43,11 @@
       "Bash(magick --version)",
       "Bash(convert --version)",
       "Bash(xargs sed:*)",
-      "Bash(xargs -I{} basename {})"
+      "Bash(xargs -I{} basename {})",
+      "Bash(python3 -c 'import json,sys; d=json.load\\(open\\('\\\\''__TRACKED_VAR__'\\\\''\\)\\); print\\(len\\(d\\) if isinstance\\(d, list\\) else '\\\\''not a list'\\\\''\\)')",
+      "Bash(node -e 'const d=require\\('\\\\''./__TRACKED_VAR__'\\\\''\\); console.log\\(Array.isArray\\(d\\)?d.length:'\\\\''not array'\\\\''\\)')",
+      "Bash(node -e \"const d=require\\('./data/pages.en.json'\\); d.forEach\\(p=>console.log\\(p.slug||p.id||p.url||JSON.stringify\\(Object.keys\\(p\\)\\)\\)\\)\")",
+      "Bash(node -e \"const d=require\\('./data/pages.de.json'\\); d.forEach\\(p=>console.log\\(p.slug||p.id||p.url||JSON.stringify\\(Object.keys\\(p\\)\\)\\)\\)\")"
     ]
   }
 }

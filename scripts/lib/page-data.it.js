@@ -564,6 +564,21 @@ pagesIt.push({
   alternatePaths: { en: "/it/pages/perche-regali-in-legno.html" }
 });
 
+// ── Translated Etsy section pages (13) ────────────────────────────────────
+pagesIt.push({ path: "/it/pages/baby-bliss.html",              locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/portacandele.html",            locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/natale.html",                  locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/fai-da-te.html",               locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/appendiporte.html",            locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/giocattoli-educativi.html",    locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/regali-divertenti.html",       locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/regali-per-gamer.html",        locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/brucia-incenso.html",          locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/articoli-personalizzati.html", locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/memorial-animali.html",        locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/kit-lettore.html",             locale: "it", template: "intent" });
+pagesIt.push({ path: "/it/pages/matrimonio.html",              locale: "it", template: "intent" });
+
 module.exports = {
   pagesIt
 };

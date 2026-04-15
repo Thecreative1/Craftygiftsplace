@@ -2580,6 +2580,21 @@ pagesNl.push({
   alternatePaths: { en: "/pages/personalisatie.html" }
 });
 
+// ── Translated Etsy section pages — NL (13) ───────────────────────────────
+pagesNl.push({ path: "/pages/baby-bliss.html",              locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/kaarsenhouders.html",          locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/kerst.html",                   locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/doe-het-zelf.html",            locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/deurtekens.html",              locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/educatief-speelgoed.html",     locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/grappige-cadeaus.html",        locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/cadeaus-voor-gamers.html",     locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/wierookbranders.html",         locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/gepersonaliseerde-items.html", locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/huisdier-herdenking.html",     locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/lezerspakket.html",            locale: "nl", template: "intent" });
+pagesNl.push({ path: "/pages/bruiloft.html",                locale: "nl", template: "intent" });
+
 module.exports = {
   pagesEn,
   pagesNl

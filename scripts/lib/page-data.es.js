@@ -564,6 +564,21 @@ pagesEs.push({
   alternatePaths: { en: "/es/pages/por-que-regalos-de-madera.html" }
 });
 
+// ── Translated Etsy section pages (13) ────────────────────────────────────
+pagesEs.push({ path: "/es/pages/baby-bliss.html",              locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/portavelas.html",              locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/navidad.html",                 locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/manualidades.html",            locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/colgadores-de-puerta.html",    locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/juguetes-educativos.html",     locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/regalos-divertidos.html",      locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/regalos-para-gamers.html",     locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/quemadores-incienso.html",     locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/articulos-personalizados.html",locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/memorial-mascotas.html",       locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/kit-lector.html",              locale: "es", template: "intent" });
+pagesEs.push({ path: "/es/pages/boda.html",                    locale: "es", template: "intent" });
+
 module.exports = {
   pagesEs
 };

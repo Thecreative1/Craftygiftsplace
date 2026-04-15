@@ -1589,5 +1589,187 @@
       "pt": "/pt/pages/por-que-presentes-de-madeira.html",
       "it": "/it/pages/perche-regali-in-legno.html"
     }
+  },
+  {
+    "path": "/pt/pages/baby-bliss.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/baby-bliss.html",
+      "nl": "/pages/baby-bliss.html",
+      "de": "/de/pages/baby-erstausstattung.html",
+      "fr": "/fr/pages/baby-bliss.html",
+      "es": "/es/pages/baby-bliss.html",
+      "pt": "/pt/pages/baby-bliss.html",
+      "it": "/it/pages/baby-bliss.html"
+    }
+  },
+  {
+    "path": "/pt/pages/porta-velas.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/candle-holders.html",
+      "nl": "/pages/kaarsenhouders.html",
+      "de": "/de/pages/kerzenhalter.html",
+      "fr": "/fr/pages/porte-bougies.html",
+      "es": "/es/pages/portavelas.html",
+      "pt": "/pt/pages/porta-velas.html",
+      "it": "/it/pages/portacandele.html"
+    }
+  },
+  {
+    "path": "/pt/pages/natal.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/christmas.html",
+      "nl": "/pages/kerst.html",
+      "de": "/de/pages/weihnachten.html",
+      "fr": "/fr/pages/noel.html",
+      "es": "/es/pages/navidad.html",
+      "pt": "/pt/pages/natal.html",
+      "it": "/it/pages/natale.html"
+    }
+  },
+  {
+    "path": "/pt/pages/faca-voce-mesmo.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/diy.html",
+      "nl": "/pages/doe-het-zelf.html",
+      "de": "/de/pages/do-it-yourself.html",
+      "fr": "/fr/pages/bricolage.html",
+      "es": "/es/pages/manualidades.html",
+      "pt": "/pt/pages/faca-voce-mesmo.html",
+      "it": "/it/pages/fai-da-te.html"
+    }
+  },
+  {
+    "path": "/pt/pages/cabides-de-porta.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/door-hangers.html",
+      "nl": "/pages/deurtekens.html",
+      "de": "/de/pages/tuerschilder.html",
+      "fr": "/fr/pages/accroches-portes.html",
+      "es": "/es/pages/colgadores-de-puerta.html",
+      "pt": "/pt/pages/cabides-de-porta.html",
+      "it": "/it/pages/appendiporte.html"
+    }
+  },
+  {
+    "path": "/pt/pages/brinquedos-educativos.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/educational-toys-and-games.html",
+      "nl": "/pages/educatief-speelgoed.html",
+      "de": "/de/pages/lernspielzeug.html",
+      "fr": "/fr/pages/jouets-educatifs.html",
+      "es": "/es/pages/juguetes-educativos.html",
+      "pt": "/pt/pages/brinquedos-educativos.html",
+      "it": "/it/pages/giocattoli-educativi.html"
+    }
+  },
+  {
+    "path": "/pt/pages/prendas-divertidas.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/funny-presents.html",
+      "nl": "/pages/grappige-cadeaus.html",
+      "de": "/de/pages/lustige-geschenke.html",
+      "fr": "/fr/pages/cadeaux-rigolos.html",
+      "es": "/es/pages/regalos-divertidos.html",
+      "pt": "/pt/pages/prendas-divertidas.html",
+      "it": "/it/pages/regali-divertenti.html"
+    }
+  },
+  {
+    "path": "/pt/pages/presentes-para-gamers.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/gifts-for-it-and-gamers.html",
+      "nl": "/pages/cadeaus-voor-gamers.html",
+      "de": "/de/pages/geschenke-fuer-gamer.html",
+      "fr": "/fr/pages/cadeaux-pour-gamers.html",
+      "es": "/es/pages/regalos-para-gamers.html",
+      "pt": "/pt/pages/presentes-para-gamers.html",
+      "it": "/it/pages/regali-per-gamer.html"
+    }
+  },
+  {
+    "path": "/pt/pages/queimadores-incenso.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/incense-burners.html",
+      "nl": "/pages/wierookbranders.html",
+      "de": "/de/pages/raucherstabchenhalter.html",
+      "fr": "/fr/pages/brule-encens.html",
+      "es": "/es/pages/quemadores-incienso.html",
+      "pt": "/pt/pages/queimadores-incenso.html",
+      "it": "/it/pages/brucia-incenso.html"
+    }
+  },
+  {
+    "path": "/pt/pages/artigos-personalizados.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/personalized-items.html",
+      "nl": "/pages/gepersonaliseerde-items.html",
+      "de": "/de/pages/personalisierte-artikel.html",
+      "fr": "/fr/pages/articles-personnalises.html",
+      "es": "/es/pages/articulos-personalizados.html",
+      "pt": "/pt/pages/artigos-personalizados.html",
+      "it": "/it/pages/articoli-personalizzati.html"
+    }
+  },
+  {
+    "path": "/pt/pages/memorial-animais.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/pet-memorial.html",
+      "nl": "/pages/huisdier-herdenking.html",
+      "de": "/de/pages/haustier-gedenkgeschenke.html",
+      "fr": "/fr/pages/memorial-animaux.html",
+      "es": "/es/pages/memorial-mascotas.html",
+      "pt": "/pt/pages/memorial-animais.html",
+      "it": "/it/pages/memorial-animali.html"
+    }
+  },
+  {
+    "path": "/pt/pages/kit-leitor.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/readers-kit.html",
+      "nl": "/pages/lezerspakket.html",
+      "de": "/de/pages/lesepaket.html",
+      "fr": "/fr/pages/kit-lecteur.html",
+      "es": "/es/pages/kit-lector.html",
+      "pt": "/pt/pages/kit-leitor.html",
+      "it": "/it/pages/kit-lettore.html"
+    }
+  },
+  {
+    "path": "/pt/pages/casamento.html",
+    "locale": "pt",
+    "template": "intent",
+    "alternatePaths": {
+      "en": "/en/pages/wedding.html",
+      "nl": "/pages/bruiloft.html",
+      "de": "/de/pages/hochzeit.html",
+      "fr": "/fr/pages/mariage.html",
+      "es": "/es/pages/boda.html",
+      "pt": "/pt/pages/casamento.html",
+      "it": "/it/pages/matrimonio.html"
+    }
   }
 ]
